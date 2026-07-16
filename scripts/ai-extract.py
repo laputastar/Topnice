@@ -21,7 +21,6 @@ import json, sys, os, gzip, re, time
 from pathlib import Path
 from datetime import datetime
 
-from bs4 import BeautifulSoup
 
 # 统一 LLM/API 调用层（集中读 env、统一重试/超时）
 sys.path.insert(0, str(Path(__file__).parent))
@@ -78,36 +77,24 @@ def read_raw_html(slug: str):
 def html_to_llm_content(raw_html: str) -> str:
     """清洗 HTML → 正文文本（去除脚本/样式/噪音标签），供 LLM 解读档位+故事
 
-    同时额外抽取 reward/perk/tier 类卡片文本，确保价格数据不丢失
-    （IG 等 SPA 把档位价格放在带特定 class 的 span 里，纯 main 文本易漏）。
+    不使用外部解析库（BeautifulSoup），仅用标准库 re + 简单标签剥离。
+    实际字段提取由 AI LLM 完成，规则解析器只做辅助定位。
     """
     if not raw_html:
         return ""
-    soup = BeautifulSoup(raw_html, "html.parser")
-    # 注意：必须用 find_all(list) 才能删除全部匹配标签
-    for tag in soup.find_all(["script", "style", "noscript", "svg", "meta",
-                              "link", "head"]):
-        tag.decompose()
 
-    parts = []
-
-    # 1) 档位/奖励卡片：按常见 class 关键词抽取（KS reward / IG gfu-reward-card 等）
-    card_keywords = re.compile(
-        r"reward|perk|tier|pledge|contribution|gfu-card|price-card", re.I)
-    cards = soup.find_all(class_=card_keywords)
-    for c in cards:
-        t = c.get_text(" ", strip=True)
-        if t:
-            parts.append(t)
-
-    # 2) 主体故事文本（main 或 body）
-    main = soup.find("main") or soup.body or soup
-    body_text = main.get_text("\n", strip=True)
-    # 去掉过短噪音行
-    body_lines = [l.strip() for l in body_text.split("\n") if len(l.strip()) >= 3]
-    parts.append("\n".join(body_lines))
-
-    merged = "\n\n".join(parts)
+    # 去掉 <script>, <style>, <noscript>, <svg>, <meta>, <link>, <head> 及其内容
+    cleaned = re.sub(
+        r'<(script|style|noscript|svg|meta|link|head)[^>]*>.*?</\1>',
+        '', raw_html, flags=re.DOTALL | re.IGNORECASE
+    )
+    # 去掉剩余 HTML 标签，保留文本
+    cleaned = re.sub(r'<[^>]+>', ' ', cleaned)
+    # 合并空白
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+    # 去掉过短行
+    lines = [l.strip() for l in cleaned.split("\n") if len(l.strip()) >= 3]
+    merged = "\n".join(lines)
     return merged[:MAX_CONTENT_CHARS]
 
 
