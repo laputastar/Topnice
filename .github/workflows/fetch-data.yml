@@ -36,11 +36,11 @@ jobs:
       - name: Fetch Indiegogo API
         run: python scripts/fetch-indiegogo.py
 
-      - name: Fetch HTML (new projects only)
-        run: python scripts/fetch-html.py
-
       - name: Merge data + score + snapshot
         run: python scripts/merge.py
+
+      - name: Fetch HTML (new projects only)
+        run: python scripts/fetch-html.py
 
       - name: AI extract fields
         run: python scripts/ai-extract.py
