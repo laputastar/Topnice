@@ -33,7 +33,28 @@ def _get_hw_session():
     return _hw_session
 
 def classify_hardware(name: str, blurb: str) -> str:
-    """Returns 'hardware' or 'non-hardware' using Cloudflare Workers AI (free tier)."""
+    """Returns 'hardware' or 'non-hardware' using Cloudflare Workers AI (free tier).
+
+    Falls back to keyword-based heuristic when AI is unavailable.
+    """
+    # Keyword-based pre-filter: catch obvious non-hardware before AI
+    _non_hw_keywords = [
+        "board game", "card game", "tabletop", "rpg", "role-playing",
+        "comic", "book", "novel", "publish", "zine",
+        "film", "movie", "documentary", "video", "animation",
+        "music", "album", "song", "concert",
+        "food", "cook", "recipe", "beverage", "coffee", "tea",
+        "fashion", "clothing", "apparel", "jewelry", "accessory",
+        "software", "app ", " mobile app", "digital",
+        "craft", "art ", "painting", "photography",
+        "service", "event", "workshop", "class",
+    ]
+    combined = (name + " " + blurb[:200]).lower()
+    for kw in _non_hw_keywords:
+        if kw in combined:
+            return "non-hardware"
+
+    # AI classifier
     try:
         result = call_cloudflare(
             f"Name: {name}\nBlurb: {blurb[:200]}",
