@@ -18,13 +18,20 @@ PHYSICAL_SUB_IDS = {
     333,  # Camera Equipment
     28,   # Product Design
     396,  # Toys
+}
+
+# Digital / non-hardware subcategories to exclude
+EXCLUDE_SUB_IDS = {
+    51,   # Software
+    332,  # Apps
+    342,  # Web
+    35,   # Video Games
+    400,  # STL
+    258,  # Architecture
+    399,  # TTRPG
     34,   # Tabletop Games
     273,  # Playing Cards
 }
-
-# Digital subcategories to exclude
-EXCLUDE_SUB_IDS = {51, 332, 342, 35, 400, 258, 399}
-# Software(51), Apps(332), Web(342), Video Games(35), STL(400), Architecture(258), TTRPG(399)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",

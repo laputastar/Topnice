@@ -83,8 +83,6 @@ CATEGORY_MAP = {
     333: "Camera Gear",
     28: "Product Design",
     396: "Toys",
-    34: "Tabletop",
-    273: "Tabletop",
 }
 
 def normalize_category(proj: dict) -> str:
@@ -106,7 +104,6 @@ def normalize_category(proj: dict) -> str:
     if any(k in name for k in ["wearable", "gadget", "watch"]): return "Gadgets"
     if any(k in name for k in ["3d print", "printer"]): return "3D Printing"
     if any(k in name for k in ["camera", "lens", "tripod", "photo"]): return "Camera Gear"
-    if any(k in name for k in ["tabletop", "board game", "card game"]): return "Tabletop"
     if any(k in name for k in ["toy", "plush", "doll", "figure"]): return "Toys"
     if any(k in name for k in ["keyboard", "monitor", "pc", "gaming", "display",
         "charger", "cable", "hub", "dock", "adapter", "battery", "power",
