@@ -1,0 +1,292 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { allProjects } from "../../data/projects";
+import { fm, nameOf } from "../../config/format";
+
+interface Props {
+  lang: "en" | "zh";
+}
+const { lang } = Astro.props;
+
+const related = allProjects.sort(() => 0.5 - Math.random()).slice(0, 4);
+
+// 文案与链接前缀按语言切换；金额永远用 $（与英文站一致）
+const S =
+  lang === "zh"
+    ? {
+        title: "搜索结果",
+        description: "在 TopNice 搜索硬件众筹项目。",
+        heading: "搜索结果",
+        placeholder: "搜索产品...",
+        enterKeyword: "输入关键词开始搜索",
+        loading: "加载中...",
+        searching: "搜索中...",
+        noResults: (q: string) => `未找到 "${q}" 相关结果`,
+        count: (n: number) => `${n} 个结果`,
+        relatedTitle: "相关项目",
+        ended: "已结束",
+        days: (n: number) => `${n} 天`,
+        base: "/zh",
+      }
+    : {
+        title: "Search Results",
+        description: "Search results for hardware crowdfunding projects on TopNice.",
+        heading: "Search Results",
+        placeholder: "Search projects...",
+        enterKeyword: "Enter a keyword to search",
+        loading: "Loading...",
+        searching: "Searching...",
+        noResults: (q: string) => `No results found for "${q}"`,
+        count: (n: number) => `${n} results`,
+        relatedTitle: "Related Projects",
+        ended: "Ended",
+        days: (n: number) => `${n} days`,
+        base: "",
+      };
+
+const base = S.base;
+---
+
+<Layout title={S.title} description={S.description} lang={lang} robots="noindex">
+  <main class="search-page" data-lang={lang}>
+    <section class="search-hero">
+      <div class="search-hero-inner">
+        <div class="search-box">
+          <svg class="search-box-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="search-query" placeholder={S.placeholder} autofocus />
+          <span id="search-count" class="search-count"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-results-section">
+      <h1 class="search-results-heading">{S.heading}</h1>
+      <div id="search-loading" class="search-status">{S.enterKeyword}</div>
+      <div id="search-results-grid" class="search-grid"></div>
+    </section>
+
+    <!-- Related Projects -->
+    <section class="related-section">
+      <div class="related-header"><h2 class="related-title">{S.relatedTitle}</h2></div>
+      <div class="related-grid">
+        {
+          related.map((rp) => (
+            <a href={`${base}/project/${rp.slug}`} class="related-card">
+              <div class="related-image c1">
+                {rp.image_full ? (
+                  <img src={rp.image_full} alt={nameOf(rp)} loading="lazy" class="related-img" />
+                ) : rp.image_med ? (
+                  <img src={rp.image_med} alt={nameOf(rp)} loading="lazy" class="related-img" />
+                ) : (
+                  <span>&#x1F4E6;</span>
+                )}
+              </div>
+              <div class="related-body">
+                <div class="related-category">{rp.topnice_category || rp.category}</div>
+                <div class="related-title-text">{nameOf(rp)}</div>
+                <div class="related-funded">{fm(rp.pledged)}</div>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<script is:inline>
+(function() {
+  // Dynamically load Fuse.js (non-blocking)
+  var fuseReady = false;
+  var fuseQueue = [];
+  var fuseScript = document.createElement("script");
+  fuseScript.src = "https://cdn.jsdelivr.net/npm/fuse.js@7.0.0";
+  fuseScript.onload = function() {
+    fuseReady = true;
+    fuseQueue.forEach(function(fn) { fn(); });
+    fuseQueue = [];
+  };
+  document.head.appendChild(fuseScript);
+
+  function whenFuse(fn) {
+    if (fuseReady) { fn(); return; }
+    fuseQueue.push(fn);
+  }
+
+  var pageEl = document.querySelector(".search-page");
+  var lang = pageEl ? pageEl.getAttribute("data-lang") : "en";
+  var base = lang === "zh" ? "/zh" : "";
+
+  var grid = document.getElementById("search-results-grid");
+  var loading = document.getElementById("search-loading");
+  var countEl = document.getElementById("search-count");
+  var input = document.getElementById("search-query");
+
+  // 金额统一跟随英文站：$ + en-US
+  function fm(n) { return "$" + Math.round(n || 0).toLocaleString("en-US"); }
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+  var STR = lang === "zh" ? {
+    enterKeyword: "输入关键词开始搜索",
+    loading: "加载中...",
+    searching: "搜索中...",
+    noResults: function (q) { return '未找到 "' + esc(q) + '" 相关结果'; },
+    count: function (n) { return n + " 个结果"; },
+    ended: "已结束",
+    days: function (n) { return n + " 天"; },
+  } : {
+    enterKeyword: "Enter a keyword to search",
+    loading: "Loading...",
+    searching: "Searching...",
+    noResults: function (q) { return 'No results found for "' + esc(q) + '"'; },
+    count: function (n) { return n + " results"; },
+    ended: "Ended",
+    days: function (n) { return n + " days"; },
+  };
+
+  var params = new URLSearchParams(window.location.search);
+  var q = params.get("q") || "";
+  if (q) input.value = q;
+
+  function getData() {
+    var el = document.getElementById("search-index");
+    if (!el) return [];
+    try { return JSON.parse(el.textContent); } catch (e) { return []; }
+  }
+
+  function doSearch(query) {
+    query = query.trim();
+    if (query.length < 2) {
+      grid.innerHTML = "";
+      loading.textContent = STR.enterKeyword;
+      loading.style.display = "block";
+      countEl.textContent = "";
+      return;
+    }
+
+    var data = getData();
+    if (!data.length) {
+      loading.textContent = STR.loading;
+      loading.style.display = "block";
+      return;
+    }
+
+    loading.textContent = STR.searching;
+    loading.style.display = "block";
+    whenFuse(function() {
+      var fuse = new Fuse(data, {
+        keys: ["n", "z", "b", "c"],
+        threshold: 0.4,
+        includeScore: true,
+      });
+      var results = fuse.search(query).slice(0, 50);
+      if (!results || results.length === 0) {
+        loading.textContent = STR.noResults(query);
+        loading.style.display = "block";
+        grid.innerHTML = "";
+        countEl.textContent = "";
+        return;
+      }
+      loading.textContent = "";
+      loading.style.display = "none";
+      countEl.textContent = STR.count(results.length);
+      grid.innerHTML = results.map(function (r) {
+      var d = r.item;
+      var title = lang === "zh" ? (d.z || d.n) : d.n;
+      var img = d.i || "";
+      var cat = d.c || "";
+      var isEnded = d.st !== "live";
+      var pct = d.g > 0 ? Math.min(d.f, 100) : 100;
+      return '<a href="' + base + "/project/" + esc(d.s) + '" class="sr-card">'
+        + '<div class="sr-img-wrap">'
+        + (img ? '<img src="' + esc(img) + '" alt="' + esc(title) + '" loading="lazy" class="sr-img" />' : '<div class="sr-img-placeholder">&#x1f4e6;</div>')
+        + (isEnded ? '<span class="sr-ended">' + STR.ended + "</span>" : "")
+        + "</div>"
+        + '<div class="sr-body">'
+        + (cat ? '<div class="sr-cat">' + esc(cat) + "</div>" : "")
+        + '<div class="sr-title">' + esc(title) + "</div>"
+        + '<div class="sr-progress-area">'
+        + '<div class="sr-progress-header"><span class="sr-funded">' + fm(d.d) + "</span>" + (d.g > 0 ? '<span class="sr-pct">' + Math.round(d.f) + "%</span>" : "") + "</div>"
+        + '<div class="sr-bar"><div class="sr-bar-fill" style="width:' + pct + '%"></div></div>'
+        + "</div>"
+        + '<div class="sr-footer">'
+        + '<span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>' + (d.dl > 0 ? STR.days(d.dl) : STR.ended) + "</span>"
+        + '<span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>' + (d.bc || 0).toLocaleString() + "</span>"
+        + "</div>"
+        + "</div></a>";
+    }).join("");
+    }); // end whenFuse
+  }
+
+  input.addEventListener("input", function () { doSearch(input.value); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") doSearch(input.value);
+  });
+
+  if (q) doSearch(q);
+})();
+</script>
+
+<style is:global>
+  .search-page { min-height: calc(100vh - 68px); }
+  .search-hero { background: #fff; border-bottom: 1px solid #e2e8f0; padding: 88px 48px 20px; }
+  .search-hero-inner { max-width: 600px; margin: 0 auto; }
+  .search-box { position: relative; display: flex; align-items: center; }
+  .search-box-icon { position: absolute; left: 16px; color: #94a3b8; pointer-events: none; }
+  .search-box input {
+    width: 100%; height: 44px; padding: 0 80px 0 48px; border: 1px solid #e2e8f0; border-radius: 12px;
+    font-size: 15px; font-weight: 500; color: #0f172a; outline: none; font-family: inherit; box-sizing: border-box;
+  }
+  .search-box input:focus { border-color: #f97316; }
+  .search-count { position: absolute; right: 16px; font-size: 13px; color: #94a3b8; font-weight: 500; }
+  .search-status { text-align: center; padding: 24px; color: #94a3b8; font-size: 15px; }
+  .search-results-section { max-width: 1400px; margin: 0 auto; padding: 30px 48px; }
+  .search-results-heading { font-size: 15px; font-weight: 600; color: #475569; margin-bottom: 18px; text-align: left; }
+  .search-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+
+  /* Search result card — matches ProjectCard style */
+  .sr-card {
+    background: #fff; border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden;
+    transition: all 0.3s ease; cursor: pointer; display: block; text-decoration: none; color: inherit;
+  }
+  .sr-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.08); border-color: #cbd5e1; }
+  .sr-img-wrap { width: 100%; aspect-ratio: 16/9; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #f8fafc, #f1f5f9); }
+  .sr-img { width: 100%; height: 100%; object-fit: cover; position: absolute; }
+  .sr-img-placeholder { font-size: 64px; }
+  .sr-ended { position: absolute; top: 12px; right: 12px; background: #f1f5f9; color: #94a3b8; padding: 4px 8px; border-radius: 6px; font-size: 11px; font-weight: 600; }
+  .sr-body { padding: 20px; }
+  .sr-cat { font-size: 11px; font-weight: 600; color: #f97316; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .sr-title { font-size: 15px; font-weight: 600; color: #0f172a; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .sr-progress-area { margin-bottom: 16px; }
+  .sr-progress-header { display: flex; justify-content: space-between; margin-bottom: 8px; }
+  .sr-funded { font-size: 18px; font-weight: 700; color: #16a34a; }
+  .sr-pct { font-size: 13px; font-weight: 600; color: #0f172a; background: #f0fdf4; padding: 2px 10px; border-radius: 6px; }
+  .sr-bar { height: 8px; background: #f1f5f9; border-radius: 4px; overflow: hidden; }
+  .sr-bar-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, #22c55e, #16a34a); transition: width 0.6s ease; }
+  .sr-footer { display: flex; justify-content: space-between; font-size: 13px; color: #64748b; padding-top: 12px; border-top: 1px solid #f1f5f9; }
+  .sr-footer span { display: flex; align-items: center; gap: 4px; }
+
+  .related-section { padding: 24px 48px 40px; max-width: 1400px; margin: 0 auto; border-top: 1px solid #e2e8f0; }
+  .related-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .related-title { font-size: 20px; font-weight: 700; color: #0f172a; }
+  .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+  .related-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; overflow: hidden; transition: all 0.3s ease; cursor: pointer; text-decoration: none; color: inherit; display: block; }
+  .related-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.06); }
+  .related-image { aspect-ratio: 16/9; position: relative; display: flex; align-items: center; justify-content: center; font-size: 48px; overflow: hidden; }
+  .related-image.c1 { background: linear-gradient(135deg, #dbeafe, #bfdbfe); }
+  .related-img { width: 100%; height: 100%; object-fit: cover; position: absolute; }
+  .related-body { padding: 16px; }
+  .related-category { font-size: 11px; font-weight: 600; color: #f97316; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+  .related-title-text { font-size: 14px; font-weight: 600; color: #0f172a; margin-bottom: 12px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .related-funded { font-size: 14px; font-weight: 700; color: #16a34a; }
+
+  @media (max-width: 768px) {
+    .search-hero { padding: 80px 20px 16px; }
+    .search-box input { height: 40px; font-size: 14px; padding-right: 60px; }
+    .search-results-section { padding: 24px 20px; }
+    .search-results-heading { font-size: 15px; }
+    .search-grid { grid-template-columns: 1fr; }
+    .related-section { padding: 16px 20px 32px; }
+    .related-grid { grid-template-columns: 1fr; }
+  }
+</style>

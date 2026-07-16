@@ -1,0 +1,588 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ProgressBar from "../../components/ProgressBar.astro";
+import AdUnit from "../../components/AdUnit.astro";
+import { allProjects } from "../../data/projects";
+import { fm, type AiTier } from "../../config/format";
+
+const { project, lang = "en" } = Astro.props;
+const isZH = lang === "zh";
+const isKS = project.platform === "kickstarter";
+const isEnded = project.state !== "live";
+const displayName = isZH ? (project.nameZh ?? project.name) : (project.name || "");
+const ogImage = project.image_1024x576 || project.image_med || "https://topnice.com/og-default.png";
+const projectUrl = project.url || "#";
+const baseUrl = isZH ? "/zh" : "";
+
+const bc = project.backers_count || 0;
+const pct = project.percent_funded || 0;
+const deadlineMs = project.deadline ? new Date(project.deadline).getTime() : null;
+const daysLeft = (deadlineMs && !isNaN(deadlineMs)) ? Math.max(0, Math.ceil((deadlineMs - Date.now()) / 86400000)) : null;
+const dl = daysLeft;
+const related = allProjects
+  .filter((p) => p.slug !== project.slug
+    && p.topnice_category === project.topnice_category
+    && p.state === "live")
+  .slice(0, 4);
+const avgPledged = bc > 0 ? Math.round((project.pledged || 0) / bc) : 0;
+
+// AI field fallbacks -- ZH uses _zh first, EN uses _en first
+const aiIntro = isZH
+  ? (project.ai_intro_zh || project.ai_intro_en || project.ai_intro || "")
+  : (project.ai_intro_en || project.ai_intro || "");
+const aiHighlights = isZH
+  ? (project.ai_highlights_zh || project.ai_highlights_en || project.ai_highlights || [])
+  : (project.ai_highlights_en || project.ai_highlights || []);
+// Normalize specs to [label, value] pairs. Handles array [l,v], string "l | v" (translated), "l: v" (original EN).
+const normalizeSpecs = (specs) =>
+  (specs || []).map((s) => {
+    if (Array.isArray(s) && s.length >= 2) return [String(s[0]), String(s[1])];
+    if (typeof s === "string") {
+      const pipe = s.indexOf(" | ");
+      if (pipe > -1) return [s.slice(0, pipe).trim(), s.slice(pipe + 3).trim()];
+      const colon = s.indexOf(": ");
+      if (colon > -1) return [s.slice(0, colon).trim(), s.slice(colon + 2).trim()];
+      return ["", s.trim()];
+    }
+    return ["", String(s)];
+  });
+const aiSpecs = normalizeSpecs(isZH
+  ? (project.ai_specs_zh || project.ai_specs_en || project.ai_specs)
+  : (project.ai_specs_en || project.ai_specs));
+const aiTiers = isZH ? (project.ai_tiers_zh || project.ai_tiers || []) : (project.ai_tiers || []);
+const aiRisks = isZH
+  ? (project.ai_risks_zh || project.ai_risks_en || project.ai_risks || "")
+  : (project.ai_risks_en || project.ai_risks || "");
+const aiRisksStructured = isZH
+  ? (project.ai_risks_structured_zh || project.ai_risks_structured_en || project.ai_risks_structured || null)
+  : (project.ai_risks_structured_en || project.ai_risks_structured || null);
+const rawDesc = isZH
+  ? (project.ai_description_zh || project.ai_description_en)
+  : (project.ai_description_en);
+const aiDescription = Array.isArray(rawDesc) ? rawDesc : (rawDesc ? [rawDesc] : []);
+const firstSeen = project.first_seen ? new Date(project.first_seen).toLocaleDateString("en-US", { month: "short", day: "numeric" }) : null;
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: project.name,
+  description: `${project.platform === "kickstarter" ? "Kickstarter" : "Indiegogo"} project. ${fm(project.pledged)} from ${bc.toLocaleString()} backers.`,
+  image: project.image_1024x576 || project.image_med,
+};
+
+// UI text dictionary
+const T = isZH ? {
+  about: "项目介绍",
+  highlights: "核心亮点",
+  specs: "技术规格",
+  specLabel: "规格",
+  specDetail: "详情",
+  tiers: "回报档位",
+  backersLabel: "支持者",
+  daysLeftLabel: "剩余",
+  tiersLabel: "回报档位",
+  viewTiersLabel: "查看档位",
+  ctaTiersTitle: "\u{1F381} 查看所有回报档位",
+  ctaTiersDesc: "点击下方按钮在原始 {p} 页面查看所有档位价格、内容和预计发货信息。",
+  ctaTiersBtn: "查看所有档位",
+  risks: "风险与挑战",
+  insights: "项目洞察",
+  scoreLabel: "TopNice 评分",
+  avgPledgeLabel: "平均认捐",
+  trackedSince: "追踪起始",
+  fundedLabel: "已达成",
+  updatesTitle: "项目更新",
+  updatesDesc: "开发进度、发货时间线和公告",
+  updatesLink: "查看所有更新",
+  creatorSection: "创作者",
+  creatorLabel: "创作者",
+  creatorFallback: "创作者",
+  igCreatorFallback: "Indiegogo 创作者",
+  projectInfo: "项目信息",
+  platform: "平台",
+  launched: "启动",
+  deadline: "截止",
+  backersMeta: "支持者",
+  origin: "来源",
+  currency: "币种",
+  endedNotice: "该项目已结束众筹",
+  backOnKS: "在 Kickstarter 上支持",
+  backOnIG: "在 Indiegogo 上支持",
+  share: "分享",
+  relatedTitle: "相关项目",
+  pledgeGoal: isKS ? "已筹 {p}，目标 {g}" : "Indiegogo 灵活筹资",
+  flexFunding: "Indiegogo 灵活筹资",
+  viewTiersSuffix: "",
+  tierBackers: "{n} 位支持者",
+  blurbMain: project.blurbZh || project.blurb,
+  blurbFallback: (project.blurbZh || project.blurb || "").replace(/\n/g, ' ').split('.')[0],
+  creatorBio: project.ai_creator_bio_zh || project.ai_creator_bio_en || project.ai_creator_bio,
+  creatorName: project.creator_name || (isKS ? "创作者" : "Indiegogo 创作者"),
+  
+} : {
+  about: "About This Project",
+  highlights: "Key Highlights",
+  specs: "Technical Specs",
+  specLabel: "Spec",
+  specDetail: "Details",
+  tiers: "Reward Tiers",
+  backersLabel: "backers",
+  daysLeftLabel: "days to go",
+  tiersLabel: "reward tiers",
+  viewTiersLabel: "View Tiers",
+  ctaTiersTitle: "\u{1F381} View All Reward Tiers",
+  ctaTiersDesc: "Click below to view all tiers with pricing, contents, and estimated shipping on the original {p} page.",
+  ctaTiersBtn: "View All Tiers",
+  risks: "Risks & Challenges",
+  insights: "Project Insights",
+  scoreLabel: "TopNice Score",
+  avgPledgeLabel: "Avg. Pledge per Backer",
+  trackedSince: "Tracked Since",
+  fundedLabel: "Funded",
+  updatesTitle: "Project Updates",
+  updatesDesc: "Development progress, shipping timeline, and announcements",
+  updatesLink: "View all updates",
+  creatorSection: "Creator",
+  creatorLabel: "Creator",
+  creatorFallback: "Creator",
+  igCreatorFallback: "Indiegogo Creator",
+  projectInfo: "Project Info",
+  platform: "Platform",
+  launched: "Launched",
+  deadline: "Deadline",
+  backersMeta: "Backers",
+  origin: "Origin",
+  currency: "Currency",
+  endedNotice: "This project has ended crowdfunding",
+  backOnKS: "Back on Kickstarter",
+  backOnIG: "Back this project on Indiegogo",
+  share: "Share",
+  relatedTitle: "Related Projects",
+  pledgeGoal: isKS ? "pledged of {g} goal" : "Indiegogo Flexible Funding",
+  flexFunding: "Indiegogo Flexible Funding",
+  viewTiersSuffix: "on " + (isKS ? "Kickstarter" : "Indiegogo"),
+  tierBackers: "{n} backers",
+  blurbMain: project.blurb,
+  blurbFallback: isKS ? project.blurb : (project.blurb || "").replace(/\n/g, ' ').split('.')[0] + '.',
+  creatorBio: project.ai_creator_bio_en || project.ai_creator_bio,
+  creatorName: project.creator_name || (isKS ? "Creator" : "Indiegogo Creator"),
+};
+---
+
+<Layout
+  title={displayName}
+  description={`${displayName} - ${isKS ? "Kickstarter" : "Indiegogo"} crowdfunding project. ${fm(project.pledged)} raised from ${bc.toLocaleString()} backers.`}
+  image={ogImage}
+  lang={lang}
+  ogType="product"
+  structuredData={structuredData}
+>
+  <!-- Hero -->
+  <section class="project-hero">
+    <div class="project-hero-inner">
+      <div class="project-gallery">
+        {project.image_1024x576 ? <img src={project.image_1024x576} alt={displayName} class="gallery-img" /> : project.image_med ? <img src={project.image_med} alt={displayName} class="gallery-img" /> : <span class="gallery-placeholder">&#x1F4E6;</span>}
+        {isKS && project.video_url && <button class="video-overlay-btn" id="watch-video-btn" type="button" aria-label="Play video">&#9654;</button>}
+      </div>
+
+      <!-- Video Modal (KS only) -->
+      {isKS && (
+        <div class="video-modal" id="video-modal">
+          <button class="video-close" id="video-close" aria-label="Close video">&times;</button>
+          <video id="video-player" controls preload="none">
+            <source src={project.video_url || ""} type="video/mp4" />
+          </video>
+        </div>
+      )}
+
+      <div class="project-info">
+        <div class="project-category">{project.topnice_category || project.category}</div>
+        <h1 class="project-title">{displayName}</h1>
+        {project.blurb && <p class="hero-blurb">{T.blurbFallback}</p>}
+
+        <div class="project-funding">
+          <div class="funding-amount">{fm(project.pledged)}</div>
+          <div class="funding-goal">
+            {project.goal > 0
+              ? (isKS ? T.pledgeGoal.replace("{p}", fm(project.pledged)).replace("{g}", fm(project.goal)) : T.flexFunding)
+              : T.flexFunding}
+          </div>
+          <ProgressBar progress={project.goal > 0 ? Math.min(pct, 100) : 100} />
+          <div class="funding-stats">
+            <div class="funding-stat">
+              <span class="funding-stat-value">{bc.toLocaleString()}</span>
+              <span class="funding-stat-label">{T.backersLabel}</span>
+            </div>
+            <div class="funding-stat">
+              <span class="funding-stat-value">{dl ?? "—"}</span>
+              <span class="funding-stat-label">{T.daysLeftLabel}</span>
+            </div>
+            {aiTiers.length > 0 ? (
+              <div class="funding-stat">
+                <span class="funding-stat-value">{aiTiers.length}</span>
+                <span class="funding-stat-label">{T.tiersLabel}</span>
+              </div>
+            ) : (
+              <div class="funding-stat">
+                <span class="funding-stat-value funding-stat-link">{T.viewTiersLabel} &rarr;</span>
+                <span class="funding-stat-label">{isKS ? "Kickstarter" : "Indiegogo"}</span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {isEnded && <div class="ended-notice">&#9203; {T.endedNotice}</div>}
+
+        <div class="project-actions">
+          {isKS ? (
+            <>
+              <a href={projectUrl} target="_blank" rel="noopener noreferrer" class="btn-primary">
+                {T.backOnKS} &nearr;
+              </a>
+            </>
+          ) : (
+            <>
+              <a href={projectUrl} target="_blank" rel="noopener noreferrer" class="btn-ig">{T.backOnIG} &rarr;</a>
+              <a href="#" class="btn-secondary">{T.share}</a>
+            </>
+          )}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Details -->
+  <section class="project-details">
+    <div class="detail-content">
+      <h2>{T.about}</h2>
+
+      {aiDescription.length > 0 ? (
+        aiDescription.map((para: string) => <p class="desc-text">{para}</p>)
+      ) : (
+        (aiIntro || project.blurb) && <p class="desc-text">{aiIntro || project.blurb}</p>
+      )}
+
+      {/* Key Highlights */}
+      {aiHighlights.length > 0 && (
+        <>
+          <h2>{T.highlights}</h2>
+          <div class="highlights-list">
+            {aiHighlights.map((h: string) => (
+              <div class="highlight-item">
+                <span class="highlight-bullet">&#9656;</span>
+                <span>{h}</span>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {/* AI Specs Table */}
+      {aiSpecs.length > 0 && (
+        <>
+          <h2>{T.specs}</h2>
+          <table class="spec-table">
+            <tr><th>{T.specLabel}</th><th>{T.specDetail}</th></tr>
+            {aiSpecs.map((row: string[]) => (
+              row[0]
+                ? <tr><td>{row[0]}</td><td>{row[1]}</td></tr>
+                : <tr><td colspan="2" class="spec-note">{row[1]}</td></tr>
+            ))}
+          </table>
+        </>
+      )}
+
+      {/* AI Reward Tiers */}
+      {aiTiers.length > 0 ? (
+        <>
+          <h2>{T.tiers}</h2>
+          <div class="tier-grid">
+            {aiTiers.map((tier: AiTier) => (
+              <div class="tier-card">
+                <div class="tier-badge">{tier.backers || ""} {isZH ? "位支持者" : "backers"}</div>
+                <div class="tier-name">{tier.name}</div>
+                <div class="tier-price">{tier.currency || "$"}{tier.price?.toLocaleString?.() || tier.price}</div>
+                {tier.price_usd && <div class="tier-usd">~${tier.price_usd} USD</div>}
+                {tier.description && <div class="tier-items">{tier.description}</div>}
+              </div>
+            ))}
+          </div>
+        </>
+      ) : (
+        <div class="cta-box">
+          <h3>{T.ctaTiersTitle}</h3>
+          <p>{T.ctaTiersDesc.replace("{p}", isKS ? "Kickstarter" : "Indiegogo")}</p>
+          <a href={projectUrl} target="_blank" rel="noopener noreferrer" class={isKS ? "btn-primary" : "btn-ig"}>{T.ctaTiersBtn} &rarr;</a>
+        </div>
+      )}
+
+      {/* AI Risks */}
+      {aiRisks && (
+        <>
+          <h2>{T.risks}</h2>
+          {aiRisksStructured ? (
+            <div class="risks-list">
+              {aiRisksStructured.map((r: string[]) => (
+                <div class="risk-card">
+                  <div class="risk-card-title">{r[0]}</div>
+                  <div class="risk-card-desc">{r[1]}</div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p class="risk-text">{aiRisks}</p>
+          )}
+        </>
+      )}
+
+      <h2>{T.insights}</h2>
+      <div class="insights-grid">
+        {project.score > 0 && (
+          <div class="insight-card">
+            <div class="insight-value">{project.score}</div>
+            <div class="insight-label">{T.scoreLabel}</div>
+          </div>
+        )}
+        {avgPledged > 0 && (
+          <div class="insight-card">
+            <div class="insight-value">${avgPledged.toLocaleString()}</div>
+            <div class="insight-label">{T.avgPledgeLabel}</div>
+          </div>
+        )}
+        {firstSeen && (
+          <div class="insight-card">
+            <div class="insight-value">{firstSeen}</div>
+            <div class="insight-label">{T.trackedSince}</div>
+          </div>
+        )}
+        <div class="insight-card">
+          <div class="insight-value">{pct > 0 ? (pct > 1000 ? `${(pct/100).toFixed(0)}x` : `${pct.toFixed(0)}%`) : "N/A"}</div>
+          <div class="insight-label">{T.fundedLabel}</div>
+        </div>
+      </div>
+
+      <div class="updates-external">
+        <span class="updates-icon">&#x1F4DD;</span>
+        <div>
+          <strong>{T.updatesTitle}</strong>
+          <p class="updates-desc">{T.updatesDesc}</p>
+          <a href={project.url + "/posts"} target="_blank" rel="noopener noreferrer">{T.updatesLink} &nearr;</a>
+        </div>
+      </div>
+    </div>
+
+    <aside class="detail-sidebar">
+      <div class="sidebar-card">
+        <h3>{T.creatorSection}</h3>
+        <div class="creator-info">
+          {project.creator_avatar_medium ? (
+            <img src={project.creator_avatar_medium} alt={project.creator_name || "Creator"} class="creator-avatar-img" />
+          ) : (
+            <div class={`creator-avatar ${isKS ? "avatar-ks" : "avatar-ig"}`}>
+              <span>{(project.creator_name || (isKS ? "C" : "O"))[0]}</span>
+            </div>
+          )}
+          <div>
+            <div class="creator-name">{T.creatorName}</div>
+            {project.location && <div class="creator-desc">{project.location}</div>}
+          </div>
+        </div>
+        {T.creatorBio && <p class="creator-bio">{T.creatorBio}</p>}
+      </div>
+      <div class="sidebar-card">
+        <h3>{T.projectInfo}</h3>
+        <div class="project-meta">
+          <div class="meta-row">
+            <span class="meta-label">{T.platform}</span>
+            <span class="meta-value" style={!isKS ? "color:#00b9a0;font-weight:600" : ""}>{isKS ? "Kickstarter" : "Indiegogo"}</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">{T.launched}</span>
+            <span class="meta-value">{project.launched_at ? new Date(project.launched_at).toLocaleDateString("en-US", { year: "numeric", month: "short" }) : "N/A"}</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">{T.deadline}</span>
+            <span class="meta-value">{project.deadline ? new Date(project.deadline).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" }) : "N/A"}</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">{T.backersMeta}</span>
+            <span class="meta-value">{bc.toLocaleString()}</span>
+          </div>
+          {project.country && (
+            <div class="meta-row">
+              <span class="meta-label">{T.origin}</span>
+              <span class="meta-value">{project.country}</span>
+            </div>
+          )}
+          {project.currency && (
+            <div class="meta-row">
+              <span class="meta-label">{T.currency}</span>
+              <span class="meta-value">{project.currency_symbol || ""}{project.currency}</span>
+            </div>
+          )}
+        </div>
+      </div>
+      <AdUnit format="rectangle" />
+    </aside>
+  </section>
+
+  <!-- Related -->
+  <section class="related-section">
+    <div class="related-header"><h2 class="related-title">{T.relatedTitle}</h2></div>
+    <div class="related-grid">
+      {related.map((rp) => (
+        <a href={`${baseUrl}/project/${rp.slug}`} class="related-card">
+          <div class="related-image c1">{rp.image_full ? <img src={rp.image_full} alt={isZH ? (rp.nameZh ?? rp.name) : rp.name} loading="lazy" class="related-img" /> : rp.image_med ? <img src={rp.image_med} alt={isZH ? (rp.nameZh ?? rp.name) : rp.name} loading="lazy" class="related-img" /> : <span>&#x1F4E6;</span>}</div>
+          <div class="related-body">
+            <div class="related-category">{rp.topnice_category || rp.category}</div>
+            <div class="related-title-text">{isZH ? (rp.nameZh ?? rp.name) : rp.name}</div>
+            <div class="related-funded">{fm(rp.pledged)}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .project-hero { padding: 100px 48px 40px; background: #ffffff; border-bottom: 1px solid #e2e8f0; }
+  .project-hero-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: center; }
+  .project-gallery { border-radius: 20px; overflow: hidden; background: #f1f5f9; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; position: relative; }
+  .gallery-img { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; }
+  .gallery-placeholder { font-size: 120px; z-index: 1; }
+  .video-overlay-btn { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60px; height: 60px; border-radius: 50%; background: rgba(0,0,0,0.55); border: 3px solid rgba(255,255,255,0.85); color: #fff; font-size: 26px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s; z-index: 2; }
+  .video-overlay-btn:hover { background: rgba(99,102,241,0.85); transform: translate(-50%, -50%) scale(1.1); }
+  .ended-overlay { position: absolute; top: 16px; right: 16px; background: #f1f5f9; color: #94a3b8; padding: 6px 14px; border-radius: 8px; font-size: 12px; font-weight: 600; }
+  .hero-blurb { font-size: 14px; color: #64748b; line-height: 1.5; margin: 0 0 12px; max-width: 560px; }
+  .project-info { padding-top: 8px; }
+  .project-category { font-size: 12px; font-weight: 600; color: #f97316; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .project-title { font-size: 28px; font-weight: 800; color: #0f172a; line-height: 1.2; margin-bottom: 10px; letter-spacing: -0.3px; }
+  .project-funding { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 16px 20px; margin-bottom: 16px; }
+  .funding-amount { font-size: 28px; font-weight: 800; color: #16a34a; margin-bottom: 2px; }
+  .funding-goal { font-size: 13px; color: #64748b; margin-bottom: 12px; }
+  .funding-stats { display: flex; gap: 24px; margin-top: 12px; flex-wrap: wrap; }
+  .funding-stat { display: flex; flex-direction: column; gap: 2px; }
+  .funding-stat-value { font-size: 16px; font-weight: 700; color: #0f172a; }
+  .funding-stat-label { font-size: 12px; color: #94a3b8; }
+  .funding-stat-link { font-size: 16px; color: #00b9a0; font-weight: 700; cursor: pointer; }
+  .ended-notice { background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 16px; font-size: 13px; color: #64748b; margin-bottom: 16px; text-align: center; }
+  .project-actions { display: flex; gap: 12px; }
+  .btn-primary { flex: 1; padding: 14px 24px; border-radius: 12px; background: #0f172a; color: #fff; font-size: 15px; font-weight: 600; border: none; cursor: pointer; transition: all 0.2s; text-decoration: none; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px; font-family: inherit; }
+  .btn-primary:hover { background: #1e293b; }
+  .btn-secondary { padding: 14px 24px; border-radius: 12px; background: #fff; color: #0f172a; font-size: 15px; font-weight: 600; border: 1px solid #e2e8f0; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; justify-content: center; gap: 8px; font-family: inherit; }
+  .btn-secondary:hover { background: #f8fafc; }
+  .btn-ig { flex: 1; padding: 14px 24px; border-radius: 12px; background: #00b9a0; color: #fff; font-size: 15px; font-weight: 600; border: none; cursor: pointer; transition: all 0.2s; text-decoration: none; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px; font-family: inherit; }
+  .btn-ig:hover { background: #009e88; }
+
+  .video-modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 2000; align-items: center; justify-content: center; }
+  .video-modal.active { display: flex; }
+  .video-modal video { max-width: 90%; max-height: 90%; border-radius: 16px; }
+  .video-close { position: absolute; top: 32px; right: 32px; width: 48px; height: 48px; border-radius: 50%; background: rgba(255,255,255,0.2); border: none; color: #fff; font-size: 24px; cursor: pointer; }
+
+  .project-details { padding: 48px 48px 80px; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 0.4fr; gap: 48px; }
+  .detail-content h2 { font-size: 20px; font-weight: 700; color: #0f172a; margin: 32px 0 16px; }
+  .detail-content h2:first-child { margin-top: 0; }
+  .desc-text { font-size: 15px; color: #334155; line-height: 1.8; margin-bottom: 24px; }
+  .product-description { font-size: 14px; color: #475569; line-height: 1.8; margin-bottom: 32px; }
+  .product-description p { margin: 0 0 14px 0; }
+  .highlights-list { display: flex; flex-direction: column; gap: 12px; margin: 0 0 32px 0; }
+  .highlight-item { display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: #1e293b; line-height: 1.6; padding: 14px 18px; background: #f8fafc; border-radius: 10px; border-left: 3px solid #6366f1; }
+  .highlight-bullet { color: #6366f1; font-size: 14px; flex-shrink: 0; margin-top: 2px; }
+  .tier-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin: 0 0 32px 0; }
+  .tier-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; text-align: center; transition: transform 0.2s; position: relative; }
+  .tier-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+  .tier-badge { font-size: 11px; color: #6366f1; font-weight: 600; margin-bottom: 6px; }
+  .tier-name { font-size: 13px; font-weight: 600; color: #0f172a; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .tier-price { font-size: 24px; font-weight: 800; color: #0f172a; margin-bottom: 2px; }
+  .tier-usd { font-size: 12px; color: #94a3b8; margin-bottom: 10px; }
+  .tier-items { font-size: 13px; color: #475569; line-height: 1.5; }
+  .tier-note { font-size: 11px; color: #f97316; font-weight: 600; background: #fef3c7; padding: 4px 10px; border-radius: 6px; display: inline-block; }
+  .risk-text { font-size: 14px; color: #475569; line-height: 1.7; margin-bottom: 32px; padding: 16px; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; }
+  .risks-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 32px; }
+  .risk-card { padding: 14px 18px; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; }
+  .risk-card-title { font-size: 14px; font-weight: 600; color: #0f172a; margin-bottom: 4px; }
+  .risk-card-desc { font-size: 13px; color: #475569; line-height: 1.6; }
+  .creator-bio { font-size: 12px; color: #64748b; line-height: 1.6; margin-top: 12px; padding-top: 12px; border-top: 1px solid #e2e8f0; font-style: italic; }
+  .updates-external { display: flex; align-items: flex-start; gap: 14px; padding: 16px 20px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; margin-top: 24px; }
+  .updates-icon { font-size: 24px; line-height: 1; }
+  .updates-desc { font-size: 13px; color: #64748b; margin: 4px 0 8px; }
+  .updates-external a { font-size: 13px; font-weight: 600; color: #6366f1; text-decoration: none; }
+  .updates-external a:hover { text-decoration: underline; }
+  .desc-notice-yellow { background: #fef3c7; border: 1px solid #fde68a; border-radius: 12px; padding: 16px 20px; font-size: 13px; color: #92400e; margin-bottom: 24px; line-height: 1.6; }
+  .desc-notice-gray { background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px 20px; font-size: 13px; color: #475569; margin-bottom: 16px; line-height: 1.6; }
+  .desc-notice-gray strong { color: #0f172a; }
+  .highlight-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0; }
+  .highlight-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; }
+  .highlight-icon { font-size: 32px; margin-bottom: 8px; }
+  .highlight-title { font-size: 15px; font-weight: 700; color: #0f172a; margin-bottom: 4px; }
+  .highlight-desc { font-size: 13px; color: #64748b; line-height: 1.6; }
+  .cta-box { background: #f0fdfa; border: 1px solid #99f6e4; border-radius: 16px; padding: 24px; text-align: center; margin: 32px 0; }
+  .cta-box h3 { font-size: 16px; font-weight: 700; color: #134e4a; margin-bottom: 8px; }
+  .cta-box p { font-size: 13px; color: #0f766e; margin-bottom: 16px; line-height: 1.6; }
+  .cta-box .btn-ig { display: inline-flex; }
+  .insights-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; margin: 24px 0; }
+  .insight-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; text-align: center; }
+  .insight-value { font-size: 22px; font-weight: 800; color: #0f172a; margin-bottom: 4px; }
+  .insight-label { font-size: 12px; color: #94a3b8; font-weight: 500; text-transform: uppercase; letter-spacing: 0.3px; }
+  .spec-table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 14px; }
+  .spec-table th { text-align: left; padding: 12px 16px; background: #f8fafc; color: #64748b; font-weight: 600; border-bottom: 1px solid #e2e8f0; }
+  .spec-table td { padding: 12px 16px; border-bottom: 1px solid #f1f5f9; color: #1e293b; }
+  .spec-table tr:last-child td { border-bottom: none; }
+  .spec-table td.spec-note { color: #475569; font-style: italic; background: #f8fafc; }
+
+  .detail-sidebar { position: sticky; top: 100px; align-self: start; }
+  .sidebar-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; margin-bottom: 16px; }
+  .sidebar-card h3 { font-size: 14px; font-weight: 600; color: #0f172a; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .creator-info { display: flex; align-items: center; gap: 12px; }
+  .creator-avatar-img { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+  .creator-avatar { width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 20px; font-weight: 700; flex-shrink: 0; }
+  .avatar-ks { background: linear-gradient(135deg, #f97316, #ef4444); }
+  .avatar-ig { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+  .creator-name { font-size: 15px; font-weight: 600; color: #0f172a; }
+  .creator-desc { font-size: 13px; color: #94a3b8; }
+  .project-meta { display: flex; flex-direction: column; gap: 12px; }
+  .meta-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #f1f5f9; }
+  .meta-row:last-child { border-bottom: none; }
+  .meta-label { font-size: 13px; color: #94a3b8; }
+  .meta-value { font-size: 13px; color: #0f172a; font-weight: 500; }
+
+  .related-section { padding: 24px 48px 40px; max-width: 1400px; margin: 0 auto; border-top: 1px solid #e2e8f0; }
+  .related-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .related-title { font-size: 20px; font-weight: 700; color: #0f172a; }
+  .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+  .related-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; overflow: hidden; transition: all 0.3s ease; cursor: pointer; text-decoration: none; color: inherit; display: block; }
+  .related-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.06); }
+  .related-image { aspect-ratio: 16/9; position: relative; display: flex; align-items: center; justify-content: center; font-size: 48px; overflow: hidden; }
+  .related-image.c1 { background: linear-gradient(135deg, #dbeafe, #bfdbfe); }
+  .related-img { width: 100%; height: 100%; object-fit: cover; position: absolute; }
+  .related-body { padding: 16px; }
+  .related-category { font-size: 11px; font-weight: 600; color: #f97316; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+  .related-title-text { font-size: 14px; font-weight: 600; color: #0f172a; margin-bottom: 12px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .related-funded { font-size: 14px; font-weight: 700; color: #16a34a; }
+
+  @media (max-width: 768px) {
+    .project-hero { padding: 88px 20px 32px; }
+    .project-hero-inner { grid-template-columns: 1fr; gap: 24px; }
+    .project-title { font-size: 24px; }
+    .project-actions { flex-direction: column; }
+    .project-details { padding: 32px 20px 60px; grid-template-columns: 1fr; }
+    .detail-sidebar { position: static; }
+    .related-section { padding: 16px 20px 32px; }
+    .related-grid { grid-template-columns: 1fr; }
+    .highlight-grid { grid-template-columns: 1fr; }
+  }
+</style>
+<script is:inline>
+  (function() {
+    const btn = document.getElementById('watch-video-btn');
+    const modal = document.getElementById('video-modal');
+    const close = document.getElementById('video-close');
+    const player = document.getElementById('video-player');
+    if (btn && modal && close && player) {
+      btn.addEventListener('click', () => { modal.classList.add('active'); });
+      [close, modal].forEach(el => el.addEventListener('click', function(e) {
+        if (e.target === modal || e.target === close) { player.pause(); modal.classList.remove('active'); }
+      }));
+    }
+  })();
+</script>

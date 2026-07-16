@@ -1,0 +1,103 @@
+===== PROJECT: stride-24-pc-case-with-24-2k-165hz-display =====
+NAME: Twitter Widget Iframe
+PLATFORM: kickstarter
+
+--- NARRATIVE (story / about / risks) ---
+Story
+
+[RISKS & CHALLENGES]
+Risks and challenges
+Unlike laptops that are mostly buy and throw away the PC can be upgraded and next generation of CPUs and GPUs arrive on the market making them last decades
+Learn about accountability on Kickstarter
+
+[FROM html_story]
+Your desktop PC, untethered: A portable case with a built-in 24” 2K 165Hz screen.
+
+Your desktop PC, untethered: A portable case with a built-in 24” 2K 165Hz screen.
+
+Stride 24: The World’s First Truly Portable, Modular PC Case with a Built-In 24" 2K 165Hz Screen
+
+Mobile Mode: Your Desktop, Anywhere
+
+Desktop Mode: Your Standard PC, Elevated
+
+Sidecar mode: No such thing as too many monitors
+
+Suitcase Mode: Pack Up and Go
+
+Built for Mobility, Engineered for Power
+
+Open Source & DIY-Friendly
+
+Environmental commitments
+
+Stride 24: The World’s First Truly Portable, Modular PC Case with a Built-In 24" 2K 165Hz Screen
+
+The Problem: Your PC Shouldn’t Chain You to a Desk
+
+Gamers, creators, and professionals deservepower without limits—but traditional PC setups tether you to a single spot. Laptops sacrifice performance, and most portable cases force you to lug around extra monitors, keyboards, and cables.What if your PC could move with you?
+
+The Solution: One Case, Four Modes, Zero Compromises
+
+Stride 24 is thefirst PC case designed for real mobilitywithout sacrificing performance. With abuilt-in 24" 2K 165Hz screenandfour adaptive modes, it’s the ultimate fusion ofdesktop power and portable freedom.
+
+Mobile Mode: Your Desktop, Anywhere
+
+24" 2K (2560×1440) 165Hz Display:No need for an external monitor. You always have one with your PC
+
+Plug-and-Play:Just connect power cord and you are ready to go. The monitor is powered from your PSU through MOLEX, SATA or GPU power connector
+
+Ergonomic screen position:Screen positioned at your eye-level. No more slouching looking at your laptop screen
+
+Desktop Mode: Your Standard PC, Elevated
+
+Small base:At only35x24 cmit will fit on any desk. The legs are on both ends so you can place it either side up as you see fit.
+
+Easy Access:Tool-less modular bays for quick upgrades or maintenance. Filters are attached on magnets for easy access
+
+Sidecar mode: No such thing as too many monitors
+
+Just flip it on its side to get additional portrait monitor
+
+Suitcase Mode: Pack Up and Go
+
+Rugged latchesandpadded interiorprotect your keyboard and mouse on the move.
+
+Lightweight yet sturdy—engineered for durability without the bulk. All PC components are mounted to 1.5mm thick aluminum sheet
+
+Small-ish.60x37x12 cm
+
+Keyboard Slot:Optimized fortenkeyless (TKL) or 75% keyboards(350mm x 140mm max).Tested withReddragon Azure,Keychron K2 MaxandLogitech K400 Plus-perfect for travel or minimalist setups.
+
+Mouse + Keyboard + Cable Storage:Secure compartments keep your peripherals and cables organized.
+
+Built for Mobility, Engineered for Power
+
+✅High-Refresh-Rate Display:2K, 165Hzdisplay
+
+Connected directly to your GPU via internal DP or HDMI cable. Display Port cable is included with the case.
+
+Monitor control panel is placed in the keyboard slot, right below USB ports
+
+One button to get an on-screen crosshair, right next to your keyboard - no-scoping have never been easier
+
+There were a few available options when choosing display:
+
+MV238QHM-NF0(The one we selected)- While 1080p would still look ok on 24 inch screen, 1440p provides just perfect clarity at this size. The tradeoff is refresh rate. Given the diminishing returns nature of going for higher refresh rate, 165Hz feels like perfectly acceptable rate for FPS games for most people
+
+MV238FHM-NG2- exactly same package (dimensions, mounting holes etc.) as the panel above but 1080p and 240Hz. Depending on the amount of backers interested this panel could easily be substituted for the default one.
+
+LM245WFA-SSA1- the panel itself costs way more than the price of whole case but it is 1080p at 480Hz. It is also a bit larger than previous two so case would have to be slightly modified but it is nothing that can't be done with 3d printer and some patience.
+
+How is it powered? The driver board needs 12V and 36W. This gives us few options:
+
+Molex- preferable, a Molex to 12V adapter is provided with the case. 12V connectors of Molex are rated to 11A so this leaves plenty of headroom. Unfortunately it is quite dated connector and not every PSU has molex outputs in 2026. Just make sure your PSU has one and you will save yourself some headaches.
+
+GPU power connector- your second best bet. You can easily find adapters on Aliexpress or Amazon that will provide you with 12V from GPU power connector. I just don't feel like connecting something else to the same circuit as the the most expensive part of any PC build. So have fun experimenting
+
+SATA power connector- the least preferable option. While it is theoretically rated for 4.5A at 12V, plenty of people told us to not go above 3A for sustained load which is right at the limit for driver board. But, of course, you can excercise your free will here and adapt
+
+--- REWARDS / TIERS (raw text) ---
+Stride 24 PC case €300 About $343 Stride 24 PC case Backers 7 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons Details Pledge €300
+===== END =====
+

@@ -1,0 +1,31 @@
+===== PROJECT: pfm =====
+NAME: Opel Zafira B module for folding mirrors via remote - YouTube
+PLATFORM: indiegogo
+
+--- NARRATIVE (story / about / risks) ---
+Project story
+Creator
+mironto
+more info
+contact
+Category
+Transportation
+Tags
+cars
+Backing information
+Crowdfunding risks
+learn more
+Since I bought my Zafira in 2013, I dreamed of a modification, that would enable to automatically fold/unfold the mirrors via the remote key. Finally, after I tinkered with the driver door switch in December 2018, I decided to create a module that would enable me to fold the mirrors upon locking and unfold upon unlocking the car (like you get it with many other car brands as standard).
+Upon reverse engineering the driver door switch I discovered that the mirrors are operated via a switching relay controlled by a micro controller. Upon pressing the button, the relay is engaged, sending voltage to mirror motors for a defined period of time. The Opel implementation is really simple and there is nothing fancy like detecting the position of the mirrors or stop switches. The controller just cycles through unfolding/folding upon each press of a button.
+To mimic this behavior I’ve decided to use similar approach with a module containing a micro-controller and relays. The controller would detect lock/unlock signals from door lock motor wires and control two relays – one would disconnect mirror motors from driver door switch unit connecting them to the module during the operation of folding/unfolding (and connect them back to driver door switch unit afterwards) and the second relay would function the same way as the relay in the driver door switch unit – fold and unfold the mirrors by sending 12V to mirror motors for a defined time period.
+As I am very pleased of how well the Power Fold Mirrors aka PFM module turned out, I decided to produce a small batch of 20 modules for other Zafira B owners to enjoy. And since Zafira B and Astra H have so much in common, the PFM module can be fitted to Astra H as well as the electrical side of mirrors is 100% identical to Zafira B.
+Will ship to Europe and UK for a
+flat fee of 10€
+(
+not included
+in the pledge amount).
+
+--- REWARDS / TIERS (raw text) ---
+
+===== END =====
+

@@ -1,0 +1,78 @@
+---
+import { ui, type Lang } from "../config/i18n";
+import { fm } from "../config/format";
+
+interface Project {
+  slug: string;
+  name: string;
+  nameZh?: string;
+  image_med?: string;
+  image_full?: string;
+  image_thumb?: string;
+  platform: "kickstarter" | "indiegogo";
+  category: string;
+  topnice_category?: string;
+  pledged: number;
+  goal: number;
+  backers_count: number;
+  percent_funded: number;
+  state: string;
+  deadline: string;
+  daysLeft: number;
+}
+
+interface Props { project: Project; lang: Lang; view?: "grid" | "list" }
+
+const { project, lang, view = "grid" } = Astro.props;
+const t = ui[lang];
+const isZh = lang === "zh";
+const displayName = isZh && project.nameZh ? project.nameZh : project.name;
+const prefix = isZh ? "/zh" : "";
+const cat = project.topnice_category || project.category;
+const isEnded = project.state !== "live";
+const img = project.image_full || project.image_med || project.image_thumb || "";
+---
+
+{view === "grid" && (
+  <a href={`${prefix}/project/${project.slug}`} class="project-card" aria-label={displayName}>
+    <div class="card-image">
+      {img ? <img src={img} alt={displayName} loading="lazy" class="card-img" /> : <span class="card-emoji" aria-hidden="true">&#x1F4E6;</span>}
+      {isEnded && <span class="ended-badge">{t.ended}</span>}
+    </div>
+    <div class="card-body">
+      <div class="card-category">{cat}</div>
+      <div class="card-title">{displayName}</div>
+      <div class="card-progress-area">
+        <div class="card-progress-header">
+          <span class="card-funded">{fm(project.pledged)}</span>
+          {project.goal > 0 && <span class="card-percent">{Math.min(project.percent_funded, 9999).toFixed(0)}%</span>}
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style={`width:${project.goal > 0 ? Math.min(project.percent_funded,100) : 100}%`}></div></div>
+      </div>
+      <div class="card-footer">
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>{project.daysLeft > 0 ? `${project.daysLeft} days` : t.ended}</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>{project.backers_count.toLocaleString()}</span>
+      </div>
+    </div>
+  </a>
+)}
+
+<style>
+  .project-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden; transition: all 0.3s ease; cursor: pointer; display: block; text-decoration: none; color: inherit; }
+  .project-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.08); border-color: #cbd5e1; }
+  .card-image { width: 100%; aspect-ratio: 16/9; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; font-size: 64px; background: linear-gradient(135deg, #f8fafc, #f1f5f9); }
+  .card-img { width: 100%; height: 100%; object-fit: cover; position: absolute; }
+  .card-emoji { font-size: 64px; }
+  .card-body { padding: 20px; }
+  .card-category { font-size: 11px; font-weight: 600; color: #f97316; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .card-title { font-size: 15px; font-weight: 600; color: #0f172a; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-progress-area { margin-bottom: 16px; }
+  .card-progress-header { display: flex; justify-content: space-between; margin-bottom: 8px; }
+  .card-funded { font-size: 18px; font-weight: 700; color: #16a34a; }
+  .card-percent { font-size: 13px; font-weight: 600; color: #0f172a; background: #f0fdf4; padding: 2px 10px; border-radius: 6px; }
+  .progress-bar { height: 8px; background: #f1f5f9; border-radius: 4px; overflow: hidden; }
+  .progress-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, #22c55e, #16a34a); transition: width 0.6s ease; }
+  .card-footer { display: flex; justify-content: space-between; font-size: 13px; color: #64748b; padding-top: 12px; border-top: 1px solid #f1f5f9; }
+  .card-footer span { display: flex; align-items: center; gap: 4px; }
+  .ended-badge { position: absolute; top: 12px; right: 12px; background: #f1f5f9; color: #94a3b8; padding: 4px 8px; border-radius: 6px; font-size: 11px; font-weight: 600; }
+</style>

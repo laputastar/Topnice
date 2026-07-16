@@ -1,0 +1,80 @@
+===== PROJECT: picolaser-the-worlds-smallest-laser-engraver =====
+NAME: Stripe Internal Communication Channel
+PLATFORM: kickstarter
+
+--- NARRATIVE (story / about / risks) ---
+Story
+
+[RISKS & CHALLENGES]
+Risks and challenges
+SAFETY NOTES 
+PicoLaser is a powerful precision tool. The 250mW diode works in the visible/near-infrared spectrum and is classified as a Class 3B Laser. Our backers' safety is our absolute priority: the laser beam must never be looked at directly without protection. For this reason, we always include specific safety glasses in every single box. The machine must be operated in a controlled environment, requires driver setup on a PC, and is a product dedicated to adult hobbyists and builders—it is not a toy.
+Learn about accountability on Kickstarter
+
+[FROM html_story]
+A 10 cm Arduino-powered open-frame laser engraver with exposed electronics, built for makers, STEM education and creativity.
+
+A 10 cm Arduino-powered open-frame laser engraver with exposed electronics, built for makers, STEM education and creativity.
+
+WHAT'S UNDER THE HOOD?
+
+Connectivity & Wiring
+
+WHAT CAN YOU CREATE
+
+WHAT'S IN THE BOX?
+
+TECHNICAL SPECIFICATIONS
+
+WHO AM I & WHY I NEED YOUR HELP
+
+PicoLaser redefines desktop micro-machining. We have packed the precision of laser technology into an ultra-compact body, entirely engineered in CAD and 3D-printed to occupy minimal space on your workbench. But we didn't hide it behind a boring industrial plastic shell:PicoLaser proudly celebrates its hardware. The entire control electronics, circuit paths, chips, and wiring are completely exposed, creating a unique, high-tech aesthetic designed for those who love to see and understand how things work.
+
+PicoLaser is designed with a dual-channel architecture that separates data management from power delivery. This ensures millimeter-level stability during movements and a consistent laser beam that preserves the lifespan of the diode:
+
+Exposed Electronics, Maker Soul:No secrets. The control board and connections are completely visible. You can admire the custom PCB layout and component behaviors while the machine is running. It’s the ultimate desktop tool for anyone with electronics in their blood.
+
+USB Type-C Data Connection:The module connects to your computer via a USB Type-C cable. After a quick and easy installation of the dedicated drivers (which allow your PC to recognize the serial COM port), you will have total control over movements and beam modulation through leading open-source engraving software.
+
+Dedicated Power Supply (12V 1A):Many micro-lasers suffer from voltage drops because they try to draw power solely from the USB port. PicoLaser solves this at the root: a dedicated 12V 1A wall power supply(always included in the box)delivers clean, stable, and continuous energy to the 250mW diode, ensuring uniform engraving even during long project runs.
+
+WHAT'S UNDER THE HOOD?
+
+No closed boxes, no compromises. Every single component of PicoLaser has been selected to offer reliability, precision, and maximum accessibility:
+
+Logic Core & Control (The Brain)
+
+Arduino Nano:The central microcontroller (ATmega328P-based) that processes code and coordinates the entire machine. It guarantees 100% compatibility with the open-sourceGRBLfirmware and popular engraving software (like LaserGRBL or Engraver Master).
+
+Custom "Naked" PCB (White):Our custom-designed motherboard, specifically engineered to showcase the exposed electronics. It routes all connections cleanly without hiding the raw beauty of the printed circuit board.
+
+Stepper Motor Drivers (Red Modules):Dedicated chips (A4988/DRV8825 style) plugged directly into the shield to handle axis micro-stepping and ultra-smooth fluid motion with millimetric precision.
+
+Precision Mechanics (X/Y Axes)
+
+Linear Lead-Screw Actuators:Two stepper motor modules coupled directly to threaded rods. This architecture completely eliminates the need for bulky belts and cuts mechanical backlash to a minimum, ensuring rigid, stable, and repeatable micro-movements.
+
+Steel Linear Guide Rails:Ground cylindrical rods acting as rigid tracks for perfectly smooth carriage gliding.
+
+Optics & Power Management
+
+250mW Red Laser Module:A semiconductor laser diode (~635-660 nm) housed in a solid cylindrical metal heatsink, complete with an adjustable collimation lens at the tip for microscopic spot focusing.
+
+Discrete Power Components:Voltage regulators/MOSFETs (in TO-220 packages), electrolytic filter capacitors, and resistors left bare on the PCB to stabilize power delivery and modulate the beam safely.
+
+Connectivity & Wiring
+
+DC 12V 1A Power Jack:A separate power line (with wall adapter included) to keep the laser beam intensity steady and protect components from voltage sags.
+
+FFC Flat Ribbon Cable & Compact Connectors:Flexible flat cables and low-profile pin headers that keep the laser head movements unrestricted, clean, and free of ugly wire tangles.
+
+WHAT CAN YOU CREATE
+
+Thanks to the microscopic focal spot generated by the red diode and the precision of the lead-screw drive, PicoLaser excels where larger, high-power lasers often blur or burn away fine details. It is ideal for working o
+
+--- REWARDS / TIERS (raw text) ---
+PicoLaser kit x1 €69 About $79 PicoLaser x1
+Power Adapter 12v x1
+Laser Safety Glasses x1 Backers 2 Ships to Anywhere in the world Estimated delivery Sep 2026 1 item included Details Pledge €69
+===== END =====
+

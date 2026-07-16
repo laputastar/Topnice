@@ -1,0 +1,138 @@
+---
+import { ui, type Lang } from "../config/i18n";
+import LangSwitcher from "./LangSwitcher.astro";
+
+interface Props {
+  lang: Lang;
+  currentPath?: string;
+}
+
+const { lang, currentPath = "/" } = Astro.props;
+const t = ui[lang];
+---
+
+<nav class="navbar" data-lang={lang}>
+  <a href={lang === "zh" ? "/zh/" : "/"} class="logo" aria-label="TopNice home">
+    <span class="logo-icon" aria-hidden="true">T</span>
+    <span>TopNice</span>
+  </a>
+
+  <!-- Desktop: Search + Language -->
+  <div class="nav-links">
+    <div class="nav-actions-desktop">
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search-input" placeholder={t.search} />
+      </div>
+      <LangSwitcher lang={lang} currentPath={currentPath} />
+    </div>
+  </div>
+
+  <!-- Mobile: Search toggle + Language -->
+  <div class="nav-actions">
+    <button class="search-toggle-btn" id="search-toggle-btn" type="button" aria-label="Toggle search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <div class="lang-switch-mobile">
+      <LangSwitcher lang={lang} currentPath={currentPath} />
+    </div>
+  </div>
+</nav>
+
+<script is:inline>
+(function() {
+  var lang = (document.querySelector('.navbar') && document.querySelector('.navbar').getAttribute('data-lang')) || 'en';
+  var isZh = lang === 'zh';
+  var input = document.getElementById('search-input');
+  if (!input) return;
+
+  function goSearch() {
+    var q = input.value.trim();
+    if (q.length < 2) return;
+    window.location.href = (isZh ? '/zh/search?q=' : '/search?q=') + encodeURIComponent(q);
+  }
+
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') goSearch();
+  });
+})();
+</script>
+
+<style>
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    z-index: 1000;
+    padding: 0 48px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-size: 26px;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f97316, #ef4444);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .nav-links {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+  }
+  .nav-actions-desktop {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .search-wrap { position: relative; width: 220px; }
+  .search-wrap input {
+    width: 100%; height: 36px; padding: 0 14px 0 36px; box-sizing: border-box;
+    border-radius: 8px; border: 1px solid #e2e8f0; background: #f8fafc;
+    color: #0f172a; font-size: 13px; font-weight: 500; outline: none; font-family: inherit;
+  }
+  .search-wrap input:focus { border-color: #cbd5e1; background: #fff; }
+  .search-wrap input::placeholder { color: #94a3b8; }
+  .search-icon {
+    position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    width: 16px; height: 16px; color: #94a3b8; pointer-events: none;
+  }
+
+  .nav-actions { display: none; }
+  .lang-switch-mobile { display: none; }
+  .search-toggle-btn {
+    background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;
+    padding: 6px 10px; cursor: pointer; transition: all 0.2s; display: none;
+  }
+  .search-toggle-btn:hover { background: #f1f5f9; border-color: #cbd5e1; }
+
+  @media (max-width: 768px) {
+    .navbar { padding: 0 20px; }
+    .nav-links { display: none; }
+    .nav-actions { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+    .lang-switch-mobile { display: flex; align-items: center; }
+    .search-toggle-btn { display: flex; align-items: center; justify-content: center; height: 32px; }
+    .search-results { padding: 12px 20px; }
+    .search-results-inner { grid-template-columns: 1fr; }
+  }
+</style>

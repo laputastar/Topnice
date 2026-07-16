@@ -1,0 +1,49 @@
+name: Fetch & Deploy Data
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"  # Every 8 hours
+  workflow_dispatch:        # Manual trigger
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch Kickstarter data
+        run: python scripts/fetch-kickstarter.py
+
+      - name: Fetch Indiegogo data
+        run: python scripts/fetch-indiegogo.py
+
+      - name: Merge data
+        run: python scripts/merge.py
+
+      - name: Translate new projects (AI)
+        run: python scripts/translate.py
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        continue-on-error: true
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/projects.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "data: auto-update projects.json [skip actions]"
+            git push
+          fi

@@ -1,0 +1,29 @@
+---
+interface Props {
+  slot?: string;
+  format?: "auto" | "rectangle" | "horizontal" | "vertical";
+  class?: string;
+}
+
+const { slot = "", format = "auto", class: className = "" } = Astro.props;
+---
+
+{slot && (
+<div class={`ad-container ${className}`}>
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-xxxxxxxxxxxxxx"
+    data-ad-slot={slot}
+    data-ad-format={format === "auto" ? "auto" : "rectangle"}
+    data-full-width-responsive="true"
+  ></ins>
+</div>
+)}
+
+<style>
+  .ad-container {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+  }
+</style>

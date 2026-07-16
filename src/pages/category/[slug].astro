@@ -1,0 +1,239 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import FilterBar from "../../components/FilterBar.astro";
+import ProjectCard from "../../components/ProjectCard.astro";
+import { allProjects, getProjectsByCategory } from "../../data/projects";
+import { categories } from "../../config/categories";
+import type { Lang } from "../../config/i18n";
+import { fm } from "../../config/format";
+
+export async function getStaticPaths() {
+  return categories
+    .filter((c) => c.id !== "all")
+    .map((c) => ({
+      params: { slug: c.id },
+      props: { category: c },
+    }));
+}
+
+const { category } = Astro.props;
+const lang: Lang = "en";
+
+const projects_all = getProjectsByCategory(category.name);
+
+// Default SSR render: popular-sorted for SEO. Client-side JS handles actual sorting.
+function sortProjects(projs: typeof projects_all) {
+  return [...projs].sort((a, b) => (b.pledged || 0) - (a.pledged || 0));
+}
+const projects = sortProjects(projects_all);
+const live = projects_all.filter((p) => p.state === "live").length;
+const totalRaised = projects_all.reduce((s, p) => s + p.pledged, 0);
+const totalBackers = projects_all.reduce((s, p) => s + p.backers_count, 0);
+---
+
+<Layout
+  title={`${category.name} — TopNice`}
+  description={`${category.name} hardware crowdfunding projects aggregated from Kickstarter and Indiegogo.`}
+  lang="en"
+>
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-headline" style="margin-top: 0.5rem;">
+            <h1>{category.name}</h1>
+            <p class="hero-stats">
+              {projects_all.length} projects &middot; {live} live &middot; {fm(totalRaised)} raised &middot; {totalBackers} backers
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <FilterBar
+      lang="en"
+      categories={categories.filter((c) => c.id !== "all")}
+      activeCategory={category.id}
+      activeSort="popular"
+      totalCount={projects_all.length}
+    />
+
+    <section class="projects">
+      <div class="section-header">
+        <div class="section-header-left">
+          <div class="section-title">{category.name} Projects</div>
+        </div>
+        <div class="section-count">{projects.length} projects</div>
+      </div>
+
+      {projects.length > 0 ? (
+        <div id="project-grid" class="project-grid">
+          {projects.map((p) => (
+            <div key={p.slug} data-pledged={p.pledged} data-daysleft={p.daysLeft} data-launched={p.launched_at}>
+              <ProjectCard project={p} lang={lang} view="grid" />
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div class="empty-state">
+          <p>No projects in this category yet. Check back soon!</p>
+        </div>
+      )}
+    </section>
+  </main>
+</Layout>
+
+<script>
+  // --- Client-side sorting for category page ---
+  // Keep original SSR-rendered cards as DOM nodes, sort them by reordering
+  const grid = document.getElementById("project-grid");
+  const sectionCount = document.querySelector(".section-count");
+  const sortState = { current: "popular" };
+
+  // Collect all existing project cards as data
+  const cards = grid ? Array.from(grid.children) : [];
+  const projects = cards.map(card => ({
+    el: card,
+    pledged: parseFloat(card.getAttribute("data-pledged") || "0"),
+    daysLeft: parseInt(card.getAttribute("data-daysleft") || "0"),
+    launched_at: card.getAttribute("data-launched") || "",
+  }));
+
+  function sortProjects(list, sort) {
+    const arr = [...list];
+    switch (sort) {
+      case "newest":
+        return arr.sort((a, b) => new Date(b.launched_at || 0).getTime() - new Date(a.launched_at || 0).getTime());
+      case "ending_soon":
+        return arr.sort((a, b) => {
+          const aEnded = a.daysLeft <= 0;
+          const bEnded = b.daysLeft <= 0;
+          if (aEnded && !bEnded) return 1;  // ended → bottom
+          if (!aEnded && bEnded) return -1; // live → top
+          return (a.daysLeft || 0) - (b.daysLeft || 0); // both live → by days left
+        });
+      case "popular":
+      default:
+        return arr.sort((a, b) => (b.pledged || 0) - (a.pledged || 0));
+    }
+  }
+
+  function applySort(sort) {
+    if (!grid || projects.length === 0) return;
+    sortState.current = sort;
+    const sorted = sortProjects(projects, sort);
+    sorted.forEach((item, i) => {
+      grid.appendChild(item.el);
+    });
+    // Update active tab highlight
+    document.querySelectorAll(".sort-tab").forEach(tab => {
+      tab.classList.toggle("active", tab.getAttribute("data-sort") === sort);
+    });
+    // Update section count
+    if (sectionCount) {
+      sectionCount.textContent = sorted.length + " projects";
+    }
+    // Update URL without reload
+    const url = new URL(window.location.href);
+    if (sort === "popular") {
+      url.searchParams.delete("sort");
+    } else {
+      url.searchParams.set("sort", sort);
+    }
+    window.history.replaceState({}, "", url.toString());
+  }
+
+  // On page load, read ?sort= param and apply
+  const sortFromUrl = new URL(window.location.href).searchParams.get("sort") || "popular";
+  applySort(sortFromUrl);
+
+  // Sort tab click — no page reload
+  document.querySelectorAll(".sort-tab").forEach(tab => {
+    tab.addEventListener("click", (e) => {
+      e.preventDefault();
+      applySort(tab.getAttribute("data-sort"));
+    });
+  });
+
+  // Category filter navigation
+  document.querySelectorAll(".filter-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const cat = btn.getAttribute("data-category");
+      window.location.href = cat === "all" ? "/" : `/category/${cat}/`;
+    });
+  });
+</script>
+
+<style is:global>
+  .hero-headline {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .hero-headline h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .hero-stats {
+    margin: 0;
+    font-size: 14px;
+    color: #64748b;
+    white-space: nowrap;
+  }
+  .hero-content h1 {
+    text-align: left;
+  }
+  .hero-content {
+    text-align: left;
+  }
+  .hero {
+    padding: 100px 48px 32px;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .hero-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #94a3b8;
+  }
+  .projects {
+    padding: 40px 48px 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  .section-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #475569;
+  }
+  .section-count {
+    font-size: 12px;
+    color: #94a3b8;
+  }
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  @media (max-width: 768px) {
+    .projects {
+      padding: 32px 20px 60px;
+    }
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

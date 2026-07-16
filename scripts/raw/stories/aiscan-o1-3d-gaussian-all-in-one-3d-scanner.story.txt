@@ -1,0 +1,104 @@
+===== PROJECT: aiscan-o1-3d-gaussian-all-in-one-3d-scanner =====
+NAME: Stripe Internal Communication Channel
+PLATFORM: kickstarter
+
+--- NARRATIVE (story / about / risks) ---
+Story
+
+[RISKS & CHALLENGES]
+Risks and challenges
+Manufacturing
+AiScan O1 has completed prototype development, extensive internal testing, and beta validation with external users. Tooling is finalized and manufacturing facilities are ISO-certified with established production lines for precision optical and electronic assemblies. Key component suppliers are contracted with inventory buffers for critical parts (MEMS projectors, AMOLED panels, image sensors).
+
+Risk
+Global supply chain disruptions or component shortages could cause delivery delays. Mitigation: We maintain secondary sourcing for all critical components and will communicate timeline changes immediately and transparently.
+
+Regulatory Compliance
+AiScan O1 has received FCC certification (FCC ID: 2BTZJ-AiScan O1). CE certification for EU markets is in progress and expected to complete before fulfillment begins. The device complies with IEC 60825-1 laser safety standards for both Class 1 and Class 3R operation modes.
+
+Shipping and Logistics 
+Fulfillment will be managed through established logistics partners with distribution centers in the United States, Europe, and Asia. Free shipping is included for US, EU, and UK backers. Shipping to other regions will be available at cost. Import duties and customs fees vary by destination country and are the responsibility of the backer. Full tracking information will be provided for every shipment.
+
+Software and Firmware
+The on-device software is production-ready and has been validated through our beta testing program. Post-launch firmware updates will be delivered via Wi-Fi OTA, including performance optimization, new features, and bug fixes informed by community feedback. We are committed to ongoing development of both the on-device software and the planned AiScan Studio desktop application.
+
+3DGS Processing 
+The 3DGS pipeline involves edge computing for model reconstruction after on-device capture. We are actively optimizing processing speed and output quality. Network connectivity is required for 3DGS mode. Availability and processing time may vary based on server load during initial launch period.
+
+Our Commitment 
+ChaoXiLi has the financial resources, engineering talent, supply chain relationships, and manufacturing infrastructure to deliver AiScan O1 to every backer. Every unit ships with a 1-year manufacturer warranty.
+Learn about accountability on Kickstarter
+
+[FROM html_story]
+Blue-Light MEMS precision | Gaussian Splatting | 0.03mm accuracy | Capture, process, export 3D models all from a single handheld device
+
+Blue-Light MEMS precision | Gaussian Splatting | 0.03mm accuracy | Capture, process, export 3D models all from a single handheld device
+
+3D Gaussian Splatting Why It is and Why It Matters
+
+Blue-Light MEMS Structured-Light Engine
+
+AI-Driven Scanning Workflow
+
+7-Inch 2K AMOLED Display
+
+Complete Standalone Pipeline
+
+Explore Aiscan O1 in Different Fields
+
+What's in the Box
+
+Technical Specifications
+
+Proven by Awards & Certifications
+
+Affiliate Program
+
+Every 3D scanner on the market makes the same tradeoff: accuracy or portability. Geometric fidelity or visual realism. Professional workflow or beginner accessibility.
+
+AiScan O1 refuses to choose.
+
+Developed by ChaoXiLi — a 3D vision technology company specializing in high-precision scanning solutions — AiScan O1 is the first handheld 3D scanner to integrateblue-light MEMS structured-light scanningwithon-device 3D Gaussian Splatting. Two fundamentally different capture technologies, unified in a single770g standalone device.
+
+The result: 0.03mm metrological accuracy for engineering applications, and photorealistic 3DGS rendering for visual applications — from the same hardware, in the same session,with no PC required.
+
+An8-core processor, 32GB RAM, and 7-inch 2K AMOLED touchscreenhandle the entire pipeline —scan, edit, mesh, export— on-device. Two built-in AI features eliminate manual parameter configuration and prevent incomplete captures.
+
+This is not an incremental update to existing 3D scanning technology. It is a structural advancement.
+
+3D Gaussian Splatting Why It is and Why It Matters
+
+Conventional 3D scanners reconstruct surfaces astriangulated mesheswith UV-mapped textures. This approach is well-suited for CAD and manufacturing workflows, but fundamentally limited invisual fidelity— mesh rendering cannot accurately represent translucency, sub-surface scattering, anisotropic reflections, or fine volumetric structures like hair and fabric.3D Gaussian Splatting (3DGS)is a different representation entirely. Instead of polygon surfaces, 3DGS encodes a scene as a collection of oriented3D Gaussian primitives— each carrying position, covariance, color, and opacity. The result is acontinuous, differentiable representationthat captures how light actually interacts with materials.
+
+Blue-Light MEMS Structured-Light Engine
+
+The primary scanning system uses aMEMS (Micro-Electro-Mechanical System)phase-shifting projector emitting coded blue structured-light
+
+--- REWARDS / TIERS (raw text) ---
+Featured Flash sale — $1099 (50% OFF) HK$ 8,602 About $1,097 Get 1 × AiScan O1 3D Scanner (512GB) with the standard accessory kit, turntable, calibration board, marker sticker sheet, carrying bag, and sample statue.
+
+Includes free air shipping.
+
+Save $1,100 off the future retail price. Backers 53 Ships to Anywhere in the world Estimated delivery Aug 2026 Limited quantity 7 left of 60 7 items included AiScan O1 Scanner, Accessory Kit, Turntable + Power Cord, Calibration Board, Marker Sticker Sheet +2 More Details Pledge HK$ 8,602
+---
+SUPER EARLY BIRD — $1,279 (42% OFF) HK$ 10,011 About $1,277 Get 1 × AiScan O1 3D Scanner (512GB) with the standard accessory kit, turntable, calibration board, marker sticker sheet, carrying bag, and sample statue.
+
+Includes free air shipping.
+
+Save $920 off the future retail price. Backers 59 Ships to Anywhere in the world Estimated delivery Aug 2026 Limited quantity 61 left of 120 7 items included AiScan O1 Scanner, Accessory Kit, Turntable + Power Cord, Calibration Board, Marker Sticker Sheet +2 More Details Pledge HK$ 10,011
+---
+EARLY BIRD — $1,459 (33% OFF) HK$ 11,419 About $1,456 Get 1 × AiScan O1 3D Scanner (512GB) with the standard accessory kit, turntable, calibration board, marker sticker sheet, carrying bag, and sample statue.
+
+Includes free air shipping.
+
+Save $740 off the future retail price. Backers 0 Ships to Anywhere in the world Estimated delivery Aug 2026 Limited quantity 50 left of 50 7 items included AiScan O1 Scanner, Accessory Kit, Turntable + Power Cord, Calibration Board, Marker Sticker Sheet +2 More Details Pledge HK$ 11,419
+---
+KICKSTARTER SPECIAL — $1,759 (20% OFF) HK$ 13,768 About $1,756 Get 1 × AiScan O1 3D Scanner (512GB) with the standard accessory kit, turntable, calibration board, marker sticker sheet, carrying bag, and sample statue.
+
+Includes free air shipping.
+
+Includes free bonus: 1 × tripod and 10 × extra marker sticker sheets.
+
+Save $440 off the future retail price. Backers 1 Ships to Anywhere in the world Estimated delivery Aug 2026 9 items included AiScan O1 Scanner, Accessory Kit, Turntable + Power Cord, Calibration Board, Marker Sticker Sheet +4 More Details Pledge HK$ 13,768
+===== END =====
+

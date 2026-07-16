@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Terms of Service"
+  description="TopNice terms of service."
+  lang="en"
+>
+  <section class="page-content">
+    <h1>Terms of Service</h1>
+    <p>Last updated: June 2026</p>
+    <h2>Acceptance of Terms</h2>
+    <p>By accessing TopNice, you agree to these terms. If you do not agree, please do not use the website.</p>
+    <h2>Service Description</h2>
+    <p>TopNice aggregates crowdfunding project data from Kickstarter and Indiegogo. We do not host, endorse, or sell any of the products listed. All product information, images, and links are sourced from the respective platforms' public APIs.</p>
+    <h2>Intellectual Property</h2>
+    <p>Project names, descriptions, and images are the property of their respective creators. The TopNice brand, website design, and aggregated data presentation are owned by TopNice.</p>
+    <h2>Limitation of Liability</h2>
+    <p>TopNice provides project information for discovery purposes only. We do not guarantee the accuracy, completeness, or availability of any project data. Users should verify all information on the original campaign pages before making backing decisions.</p>
+    <h2>Contact</h2>
+    <p>For questions about these terms, contact us at <a href="mailto:hello@topnice.com">hello@topnice.com</a>.</p>
+  </section>
+</Layout>
+
+<style>
+  .page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 120px 48px 80px;
+  }
+  .page-content h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  .page-content h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  .page-content p {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+  .page-content a {
+    color: #f97316;
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .page-content { padding: 100px 20px 60px; }
+    .page-content h1 { font-size: 28px; }
+  }
+</style>

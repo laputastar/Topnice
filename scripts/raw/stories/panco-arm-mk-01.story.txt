@@ -1,0 +1,65 @@
+===== PROJECT: panco-arm-mk-01 =====
+NAME: Stripe Internal Communication Channel
+PLATFORM: kickstarter
+
+--- NARRATIVE (story / about / risks) ---
+Story
+
+[RISKS & CHALLENGES]
+Risks and challenges
+Transparency is essential to me in this project. Although creating a robotic arm presents a technical challenge, I have structured this project to minimize the risks for backers as much as possible:
+
+    The biggest risk is already behind us: Version 1 (V1) of the Panco Arm is already 100% designed, tested, and functional, with a calibrated firmware and a completed assembly guide. This proves that the basic mechanics and the concept are viable.
+
+    V2 Challenges (Prototyping): The main current challenge lies in the physical validation of V2. Although the CAD design is finished, the new rigid design and the internal cable routing require rigorous printing tests to ensure that the tolerances are perfect for everyone. Since I own my own 3D printing equipment, I can iterate and quickly correct the slightest design flaw.
+
+    Software Challenges (Wi-Fi & OTA): If we reach the $10,000 stretch goal, developing the Wi-Fi web interface and OTA updates will require special attention to guarantee minimal latency when controlling the motors. The use of the well-documented ESP32 microcontroller and the existing V1 codebase greatly limit this risk.
+
+    No major logistical risks: Unlike many hardware projects on Kickstarter that suffer from shipping delays or factory shortages, the rewards for the Panco Arm campaign are exclusively digital (STL files, open-source code, PDF guides). Once development is complete, delivery will be instant and guaranteed for all backers.
+Learn about accountability on Kickstarter
+
+[FROM html_story]
+A 100% 3D-printable, open-source 5-axis robotic arm built for everyone, for under $100.
+
+A 100% 3D-printable, open-source 5-axis robotic arm built for everyone, for under $100.
+
+The Story of the Panco Arm MK-01: 5-Axis Robotics Accessible to All
+
+Environmental commitments
+
+The Story of the Panco Arm MK-01: 5-Axis Robotics Accessible to All
+
+Industrial robotics is a fascinating field, but it is traditionally expensive, closed-off, and difficult to access. My goal with the Panco Arm MK-01 is to break down this barrier. I want to allow every maker, student, or enthusiast to build a real, functional, and precise 5-axis robotic arm right from their desk.
+
+What is the Panco Arm MK-01?
+
+The Panco Arm is not just a simple toy; it is an open-source learning and automation platform designed to be 100% 3D printable.
+
+An accessible and modular design:The complete arm features a robust structure that can be printed without the need for industrial machines. The parts diagram was designed for a logical and documented assembly, from the base of the robot down to the screws.
+
+Standard and affordable electronics:The intelligence of the arm relies on a powerful and accessible ESP32 microcontroller. It drives a stepper motor via an ULN2003 driver for the base, as well as four dedicated servomotors for the shoulder, elbow, wrist, and gripper. The entire system is powered by a simple 5V / 4A power supply, keeping the total cost of the electronics under $100.
+
+Why I need you (and where we are)
+
+This project is more than just an idea on paper. The foundation stage (the V1 of the Panco Arm) is already 100% complete: the design, firmware, physical testing, and the detailed assembly guide are finished. Control via the USB serial port is fully operational. Today, I am launching this campaign to fund the transition to Version 2 (V2). The CAD design for this V2 is already validated: the parts have been redesigned to be more rigid while using less filament, the gripper has been improved, and the cable routing is now internal. The funds raised during this campaign will allow me to finance the current phase: the physical prototyping of the V2, robustness testing, and the production of the new assembly guide. If we exceed our initial goal, our "Roadmap" includes very ambitious stretch goals:
+
+How to participate?
+
+I have designed the reward tiers to suit all ambitions:
+
+Panco V1: Maker Tier ($20):Perfect for getting started, it includes all V1 STL files, calibrated firmware, and the assembly guide for personal use.
+
+Panco V2: Builder Tier ($40):This tier gives you access to all V1 content, plus the V2 STL files (rigid design), Wi-Fi web interface control, and internal cable routing.
+
+Commercial Merchant Tier ($100):Aimed at professionals, this tier includes all current and future content (V1, V2, V3), along with a commercial license allowing you to sell fully assembled Panco Arms worldwide, with priority production support.
+
+I am a maker passionate about sharing knowledge. I have spent countless hours modeling, printing, failing, reprinting, and coding this robotic arm to make it as simple and efficient as possible. I deeply believe in the open-source model, because it is by providing access to the tools (CAD files, code, wiring diagrams) that the community can innovate. This crowdfunding campaign is the necessary stepping stone to transform this functional prototype into a complete 
+
+--- REWARDS / TIERS (raw text) ---
+Panco V1 : Maker Tier €20 About $23 The perfect way to get started! Build and control the base version of the Panco Arm MK-01 robotic arm. This tier includes all the digital files needed to print and operate version 1 via USB. Please note that this tier is for personal use only. Backers 0 Estimated delivery Aug 2026 3 items included Files STL V1, Firmware V1, assembly guide V1 Details Pledge €20
+---
+Panco V2 : Builder Tier €40 About $46 Take it to the next level! This tier gives you access to version 2 of the arm, which is more robust and features an optimized design (internal cable routing, new gripper). You receive all V1 content PLUS all V2 improvements. Please note that this tier is for personal use only. Backers 0 Estimated delivery Aug 2026 6 items included Files STL V1, Firmware V1, assembly guide V1, Files STL V2, Firmware V2, assembly guide V2 Details Pledge €40
+---
+Panco V1 & V2 : Commercial Merchant Tier €100 About $115 Do you own a 3D printer farm or a shop and want to sell the Panco Arm? This tier grants you a lifetime commercial license to sell physical (assembled) robotic arms worldwide. You will have access to all files (V1 and V2), as well as early access to our future development kits and priority support to assist you with your production. Backers 2 Estimated delivery Aug 2026 8 items included Files STL V1, Firmware V1, assembly guide V1, Files STL V2, Firmware V2, assembly guide V2, Future development kits +1 More Details Pledge €100
+===== END =====
+

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Astro
+.astro/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# Pipeline backups & intermediate artifacts (may contain full data snapshots)
+*.bak
+*.bak_*
+scripts/translations/
+src/data/projects.json.bak*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Pipeline archive
+scripts/_archive/

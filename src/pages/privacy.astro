@@ -1,0 +1,59 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Privacy Policy"
+  description="TopNice privacy policy. Learn how we handle your data."
+  lang="en"
+>
+  <section class="page-content">
+    <h1>Privacy Policy</h1>
+    <p>Last updated: June 2026</p>
+    <h2>Information We Collect</h2>
+    <p>TopNice does not require user registration. We do not collect personal information such as names or email addresses unless you voluntarily subscribe to our newsletter.</p>
+    <p>We use <strong>Google Analytics</strong> to collect anonymous usage data including page views, traffic sources, and device information. This data helps us improve the website experience.</p>
+    <h2>Cookies</h2>
+    <p>We use essential cookies for website functionality and analytics cookies via Google Analytics. You can disable cookies in your browser settings.</p>
+    <h2>Third-Party Services</h2>
+    <p>Our website links to third-party platforms (Kickstarter, Indiegogo). We are not responsible for their privacy practices. We also use Google AdSense for advertising, which may use cookies to serve personalized ads.</p>
+    <h2>Contact</h2>
+    <p>For privacy-related inquiries, contact us at <a href="mailto:hello@topnice.com">hello@topnice.com</a>.</p>
+  </section>
+</Layout>
+
+<style>
+  .page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 120px 48px 80px;
+  }
+  .page-content h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  .page-content h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  .page-content p {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+  .page-content a {
+    color: #f97316;
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .page-content { padding: 100px 20px 60px; }
+    .page-content h1 { font-size: 28px; }
+  }
+</style>

@@ -1,0 +1,179 @@
+===== PROJECT: plotara-diy-multi-pen-plotter-with-auto-tool-change =====
+NAME: Stripe Internal Communication Channel
+PLATFORM: kickstarter
+
+--- NARRATIVE (story / about / risks) ---
+Story
+
+[RISKS & CHALLENGES]
+Risks and challenges
+PLOTARA is already a fully working and tested machine, and all visuals on this page show a real functional prototype. The mechanics, electronics and firmware have been developed and validated together, so this is not a concept project.
+
+The system is built around 3D printed parts and widely available electronic components, which reduces supply risks and allows easy replacement if needed.
+
+During the funding period, minor refinements for easier assembly, print optimization or visual details may be introduced. These improvements will not change the core design, functionality or performance of the machine.
+Learn about accountability on Kickstarter
+
+[FROM html_story]
+3D printable DIY plotter with automatic tool changing, print-and-build design for quick assembly, low power and accessible components.
+
+3D printable DIY plotter with automatic tool changing, print-and-build design for quick assembly, low power and accessible components.
+
+✏️ Magnetic Tool Changer
+
+🧩 Modular Pen Station
+
+⚡ Plug & Play Assembly
+
+🔌 Complete Electronics System
+
+⚙️ Easy To Build
+
+🔩 Repairable Design
+
+💻 Software & Workflow
+
+🏷️ Supporter Serial Plate
+
+🎓 Education & Makerspaces
+
+🧠 Designed For Accessibility
+
+❤️ Made By A Maker
+
+🚀 Why Kickstarter?
+
+🟢 Ready To Start Drawing
+
+Environmental commitments
+
+PLOTARA is a compact CNC plotter designed to make digital fabrication simpler and more accessible.
+
+With its fully 3D-printable structure, beltless mechanical system, magnetic pen-changing mechanism, and plug-and-play electronics, PLOTARA provides an approachable platform for makers, students, educators, and creative workshops.
+
+It is designed to be simple enough for beginners while remaining modular and expandable for advanced users.
+
+✏️ Magnetic Tool Changer
+
+PLOTARA is more than just a plotter.
+
+The optional magnetic multi-pen tool changer allows automatic pen switching during a single drawing session — without additional servos, motors, or complex mechanical systems.
+
+The magnetic pen holder grabs and releases tools automatically while still allowing users to swap pens manually with ease.
+
+Simple enough for beginners, yet modular and expandable for future experimentation and upgrades.
+
+🧩 Modular Pen Station
+
+The tool-changing station is built from small modular units.
+
+Each pen holder can be printed separately and connected side-by-side, allowing users to expand the system only as much as needed — similar to building blocks.
+
+⚡ Plug & Play Assembly
+
+No complex wiring
+
+Simple 4-step setup
+
+Future expansion support
+
+The custom-designed PCB removes the need for complicated jumper wiring.
+
+Simply connect the motors and Arduino Nano, and the system is ready to operate.
+
+PCB manufacturing for the first production batch has been completed, and the boards have been successfully received.
+
+These images show the first real manufactured boards produced according to the final design. The physical PCBs have not yet been received and are currently in transit / pending delivery.
+
+Once the boards arrive, additional assembly images will be shared.
+
+The board also includes:
+
+Integrated power circuit
+
+Fuse protection
+
+Accessible expansion pins for future upgrades
+
+🔌 Complete Electronics System
+
+Carefully selected, fully compatible and ready to connect.
+
+1x Arduino Nano (or compatible board)
+
+3× 28BYJ-48 stepper motors
+
+1x USB C Data Cable
+
+1x USB C Power Adapter
+
+1x USB C Power Cable
+
+No part sourcing. No setup confusion.
+
+⚙️Easy To Build
+
+The entire mechanical system is based on 3D printed motion components.No complex alignment.No hard-to-source mechanical parts.
+
+Print the parts, assemble them, and start drawing.
+
+The result is a clean and consistent build experience that works for:
+
+creative coders
+
+🔩 Repairable Design
+
+The entire mechanical system is based on 3D printed motion components. No complex alignment. No hard-to-source mechanical parts.
+
+Print the parts, follow the step-by-step assembly guide, and start drawing in just a few simple steps.
+
+💻 Software & Workflow
+
+PLOTARA works with a variety of free and open-source software tools, allowing users to get started without purchasing additional software licenses.
+
+No proprietary software or subscriptions are required. Simply create or import your artwork, convert it when needed, and send it to the machine.
+
+Detailed setup guides, recommended software lists, and step-by-step tutorials will be provided as part of the project documentation. Users will be able to quickly learn how to prepare files, upload designs, and start drawing with confidence.
+
+By building on widely used open-source tools, PLOTARA remains flexible, accessible, and easy to integrate into creative, educational, and maker workflows.
+
+No part hunting.No compatibility guessing.
+
+All components are prepared to work together.
+
+With the illustrated step-by-step guide, you can go from box to first drawing in a short time.
+
+🏷️ Supporter Serial Plate
+
+Each Complete Kit includes a unique 3D-printed 
+
+--- REWARDS / TIERS (raw text) ---
+DIGITAL PACK €20 About $23 This tier is made for makers who want a smooth and frustration-free build. You get all PLOTARA STL files, a detailed assembly guide, firmware & software, and the full electronics wiring documentation.
+
+The motion system is designed around printed components, keeping both printing and assembly simple and consistent. There is no need for complex mechanical adjustments — just print the parts, assemble them and start drawing.
+
+Digital delivery only — start printing immediately. Backers 1 Estimated delivery Jul 2026 2 items included PLOTARA STL FILES, PLOTARA ASSEMBLY MANUAL Details Pledge €20
+---
+CUSTOM PCB ONLY €20 About $23 Receive the custom-designed PLOTARA control PCB as a standalone reward.
+
+This PCB is specifically designed to simplify wiring and make the assembly process faster and cleaner. Perfect for makers who already have the required components or want to build their own custom setup.
+
+Please note: This reward includes the PCB only. No STL files, electronics, motors, hardware, or mechanical parts are included. Backers 0 Ships to Only certain countries Estimated delivery Aug 2026 1 item included Custom PCB Details Pledge €20
+---
+DIGITAL PACK + CUSTOM PCB €35 About $41 Get the complete digital package along with the custom-designed PLOTARA control PCB.
+
+This reward includes all STL files, assembly instructions, firmware, and project documentation, plus the custom control PCB designed to simplify wiring and provide a cleaner, more integrated build experience.
+
+Perfect for makers who want to print and source their own parts while benefiting from the convenience of the dedicated PLOTARA control board.
+
+Please note: The custom PLOTARA control PCB is the only physical item included in this reward. Motors, electronic components, hardware, and all other mechanical parts are not included. Backers 1 Ships to Only certain countries Estimated delivery Aug 2026 3 items included PLOTARA STL FILES, PLOTARA ASSEMBLY MANUAL, Custom PCB Details Pledge €35
+---
+ELECTRONICS KIT €59 About $68 Print the structure yourself — we provide the complete electronics.
+
+This kit includes all motors, control hardware, cables and fasteners, carefully selected to work together out of the box. No part hunting, no compatibility guesswork. Follow the detailed assembly guide, connect the system and bring your printed PLOTARA to life in a simple and consistent way.
+
+Ideal for makers and classrooms that want a smooth and accessible build experience. Backers 4 Ships to Only certain countries Estimated delivery Aug 2026 3 items included PLOTARA ASSEMBLY MANUAL, PLOTARA STL FILES, PLOTARA ELECTRONICS KIT Details Pledge €59
+---
+PLOTARA COMPLETE KIT €69 About $79 Everything you need to build PLOTARA in one box: all 3D printed parts, the custom PLOTARA Motion Control Board (PCB), electronics, power supply, cables, and assembly hardware. Includes an illustrated assembly guide and a matching serialized PLOTARA keychain. Backers 0 Ships to Only certain countrie
+===== END =====
+

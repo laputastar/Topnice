@@ -1,0 +1,55 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="About Us"
+  description="TopNice aggregates the most innovative physical products from Kickstarter and Indiegogo. Discover robots, gadgets, hardware, and more."
+  lang="en"
+>
+  <section class="page-content">
+    <h1>About TopNice</h1>
+    <p>TopNice is a product discovery platform that aggregates crowdfunding projects from <strong>Kickstarter</strong> and <strong>Indiegogo</strong>, updated on daily basis.</p>
+    <p>We focus exclusively on physical products — robots, gadgets, hardware, 3D printers, camera gear, toys, and tabletop games. Our mission is to help backers discover the most exciting new hardware before it hits the market.</p>
+    <h2>How It Works</h2>
+    <p>Project data includes funding progress, backer counts, categories, creator information, and direct links to the original campaign pages.</p>
+    <h2>Contact</h2>
+    <p>For inquiries, feedback, or partnership opportunities, contact us at <a href="mailto:hello@topnice.com">hello@topnice.com</a>.</p>
+  </section>
+</Layout>
+
+<style>
+  .page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 120px 48px 80px;
+  }
+  .page-content h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 24px;
+    letter-spacing: -0.5px;
+  }
+  .page-content h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  .page-content p {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+  .page-content a {
+    color: #f97316;
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .page-content { padding: 100px 20px 60px; }
+    .page-content h1 { font-size: 28px; }
+  }
+</style>

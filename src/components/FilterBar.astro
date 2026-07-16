@@ -1,0 +1,199 @@
+---
+import { type Lang } from "../config/i18n";
+
+interface Category {
+  id: string;
+  name: string;
+  icon?: string;
+}
+
+interface Props {
+  lang: Lang;
+  categories: Category[];
+  activeCategory: string;
+  activeSort: string;
+  totalCount: number;
+}
+
+const { lang, categories, activeCategory, activeSort, totalCount } = Astro.props;
+
+const sortLabels: Record<string, { en: string; zh: string }> = {
+  popular: { en: "Popular", zh: "热门" },
+  newest: { en: "Newest", zh: "最新" },
+  ending_soon: { en: "Ending Soon", zh: "即将结束" },
+};
+---
+
+<div class="filter-bar" id="filter-bar" data-lang={lang}>
+  <div class="filter-left" id="filter-left">
+    <button class="filter-btn active" data-category="all">{lang === "zh" ? "全部" : "All"}</button>
+    {categories.map((cat) => (
+      <button class="filter-btn" data-category={cat.id}>
+        {lang === "zh" ? cat.nameZh : cat.name}
+      </button>
+    ))}
+  </div>
+  <div class="filter-right">
+    <div class="sort-tabs" id="sort-tabs">
+      {Object.entries(sortLabels).map(([key, label]) => (
+        <button
+          class={`sort-tab ${key === activeSort ? "active" : ""}`}
+          data-sort={key}
+        >
+          {lang === "zh" ? label.zh : label.en}
+          <span class="arrow">&#8595;</span>
+        </button>
+      ))}
+    </div>
+    <div class="view-toggle" id="view-toggle">
+      <button class="view-btn active" data-view="grid" title="Grid View" aria-label="Grid view">&#8862;</button>
+      <button class="view-btn" data-view="list" title="List View" aria-label="List view">&#9776;</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .filter-bar {
+    padding: 16px 48px;
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 68px;
+    z-index: 100;
+    gap: 16px;
+  }
+  .filter-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    flex: 1;
+  }
+  /* English: tighter gaps */
+  .filter-bar[data-lang="en"] .filter-left {
+    gap: 6px;
+  }
+  .filter-left::-webkit-scrollbar {
+    display: none;
+  }
+  .filter-btn {
+    padding: 8px 20px;
+    border-radius: 24px;
+    border: 1px solid #e2e8f0;
+    background: #fff;
+    color: #64748b;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-family: inherit;
+  }
+  /* English: narrower pills to fit all labels */
+  .filter-bar[data-lang="en"] .filter-btn {
+    padding: 8px 12px;
+  }
+  .filter-btn:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+  }
+  .filter-btn.active {
+    background: #0f172a;
+    color: #fff;
+    border-color: #0f172a;
+  }
+  .filter-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+  /* English: narrower right-side gaps */
+  .filter-bar[data-lang="en"] .filter-right {
+    gap: 4px;
+  }
+  .sort-tabs {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .sort-tab {
+    padding: 6px 14px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #64748b;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: inherit;
+  }
+  /* English: tighter sort tab padding and gap */
+  .filter-bar[data-lang="en"] .sort-tab {
+    padding: 6px 8px;
+  }
+  .filter-bar[data-lang="en"] .sort-tabs {
+    gap: 2px;
+  }
+  .sort-tab:hover {
+    color: #0f172a;
+    background: #f8fafc;
+    border-color: #e2e8f0;
+  }
+  .sort-tab.active {
+    background: #fff;
+    color: #f97316;
+    border-color: #f97316;
+    font-weight: 600;
+  }
+  .sort-tab .arrow {
+    font-size: 10px;
+  }
+  .view-toggle {
+    display: none;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  @media (min-width: 769px) {
+    .view-toggle {
+      display: flex;
+    }
+  }
+  .view-btn {
+    padding: 6px 12px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    color: #94a3b8;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+  }
+  .view-btn.active {
+    background: #0f172a;
+    color: #fff;
+  }
+  .view-btn:not(.active):hover {
+    background: #f8fafc;
+    color: #64748b;
+  }
+  @media (max-width: 768px) {
+    .filter-bar {
+      padding: 12px 20px;
+    }
+  }
+</style>

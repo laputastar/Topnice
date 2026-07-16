@@ -1,0 +1,25 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="关于我们" description="TopNice 聚合 Kickstarter 和 Indiegogo 上最具创新力的实体产品。" lang="zh">
+  <section class="page-content">
+    <h1>关于 TopNice</h1>
+    <p>TopNice 是一个产品发现平台，聚合来自 <strong>Kickstarter</strong> 和 <strong>Indiegogo</strong> 的众筹项目，通过自动化数据管线每日更新。</p>
+    <p>我们聚焦实体产品——机器人、小工具、硬件、3D 打印机、摄影器材、玩具和桌游。我们的使命是帮助支持者在大众市场之前发现最令人兴奋的新硬件。</p>
+    <h2>运作方式</h2>
+    <p>我们的数据管线每 8 小时运行一次，从 Kickstarter 和 Indiegogo API 获取活跃项目。我们跨平台标准化数据，计算热度评分，并通过统一界面提供筛选和搜索功能。</p>
+    <p>项目数据包括筹资进度、支持者数量、分类、创建者信息以及原始众筹页面的直达链接。</p>
+    <h2>联系我们</h2>
+    <p>如有任何咨询、反馈或合作意向，请发送邮件至 <a href="mailto:hello@topnice.com">hello@topnice.com</a>。</p>
+  </section>
+</Layout>
+
+<style>
+  .page-content { max-width: 800px; margin: 0 auto; padding: 120px 48px 80px; }
+  .page-content h1 { font-size: 36px; font-weight: 800; color: #0f172a; margin-bottom: 24px; letter-spacing: -0.5px; }
+  .page-content h2 { font-size: 22px; font-weight: 700; color: #0f172a; margin-top: 40px; margin-bottom: 16px; }
+  .page-content p { font-size: 16px; color: #475569; line-height: 1.8; margin-bottom: 16px; }
+  .page-content a { color: #f97316; text-decoration: underline; }
+  @media (max-width: 768px) { .page-content { padding: 100px 20px 60px; } .page-content h1 { font-size: 28px; } }
+</style>

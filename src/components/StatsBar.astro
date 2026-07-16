@@ -1,0 +1,71 @@
+---
+import type { Lang } from "../config/i18n";
+
+interface Props {
+  totalProjects: number;
+  totalRaised: string;
+  totalBackers: string;
+  lang: Lang;
+}
+
+const { totalProjects, totalRaised, totalBackers, lang } = Astro.props;
+const label = lang === "zh"
+  ? { active: "活跃项目", raised: "总筹款额", backers: "总支持者" }
+  : { active: "Active Projects", raised: "Total Raised", backers: "Total Backers" };
+---
+
+<div class="hero-stats">
+  <div class="hero-stat">
+    <div class="hero-stat-info">
+      <div class="hero-stat-value">{totalProjects.toLocaleString()}</div>
+      <div class="hero-stat-label">{label.active}</div>
+    </div>
+  </div>
+  <div class="hero-stat">
+    <div class="hero-stat-info">
+      <div class="hero-stat-value">{totalRaised}</div>
+      <div class="hero-stat-label">{label.raised}</div>
+    </div>
+  </div>
+  <div class="hero-stat">
+    <div class="hero-stat-info">
+      <div class="hero-stat-value">{totalBackers}</div>
+      <div class="hero-stat-label">{label.backers}</div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .hero-stats {
+    display: flex;
+    gap: 0;
+  }
+  .hero-stat {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 24px;
+    border-right: 1px solid #e2e8f0;
+  }
+  .hero-stat:first-child {
+    padding-left: 0;
+  }
+  .hero-stat:last-child {
+    border-right: none;
+  }
+  .hero-stat-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .hero-stat-label {
+    font-size: 13px;
+    color: #64748b;
+  }
+</style>

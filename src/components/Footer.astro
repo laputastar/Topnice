@@ -1,0 +1,50 @@
+---
+import { ui, type Lang } from "../config/i18n";
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const prefix = lang === "zh" ? "/zh" : "";
+---
+
+<footer class="footer">
+  <div class="footer-logo">TopNice</div>
+  <p>{t.footerDesc}</p>
+  <p>
+    <a href={`${prefix}/about`}>{t.about}</a>
+    <a href={`${prefix}/privacy`}>{t.privacy}</a>
+    <a href={`${prefix}/terms`}>{t.terms}</a>
+  </p>
+</footer>
+
+<style>
+  .footer {
+    padding: 16px 24px;
+    background: #fff;
+    border-top: 1px solid #e2e8f0;
+    text-align: center;
+  }
+  .footer-logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 8px;
+  }
+  .footer p {
+    color: #94a3b8;
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .footer a {
+    color: #64748b;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 12px;
+  }
+  .footer a:hover {
+    color: #0f172a;
+  }
+</style>

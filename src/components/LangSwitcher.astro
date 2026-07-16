@@ -1,0 +1,44 @@
+---
+import type { Lang } from "../config/i18n";
+
+interface Props {
+  lang: Lang;
+  currentPath?: string;
+}
+
+const { lang, currentPath = "/" } = Astro.props;
+const isZh = lang === "zh";
+
+// Build the target URL for language switch
+const targetPath = isZh
+  ? currentPath.replace(/^\/zh/, "") || "/"
+  : `/zh${currentPath === "/" ? "" : currentPath}`;
+---
+
+<a href={targetPath} class="lang-switch" aria-label="Switch language" role="button">
+  {isZh ? "EN" : "中文"}
+</a>
+
+<style>
+  .lang-switch {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 7px 14px;
+    font-size: 13px;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    box-sizing: border-box;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .lang-switch:hover {
+    background: #f1f5f9;
+  }
+</style>
