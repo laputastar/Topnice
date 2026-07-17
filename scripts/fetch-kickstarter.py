@@ -4,6 +4,9 @@ import json, time, urllib.request, sys
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from safeio import atomic_write_json
+
 OUTPUT = Path(__file__).parent / "raw" / "kickstarter.json"
 
 # Physical product subcategory IDs (verified from KS API)
@@ -163,13 +166,12 @@ def main():
     # Score is now computed by score.py during merge phase
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT, "w", encoding="utf-8") as f:
-        json.dump({
-            "fetched_at": datetime.utcnow().isoformat() + "Z",
-            "source": "Kickstarter Discover API",
-            "count": len(all_projects),
-            "projects": all_projects,
-        }, f, ensure_ascii=False, indent=2)
+    atomic_write_json(OUTPUT, {
+        "fetched_at": datetime.utcnow().isoformat() + "Z",
+        "source": "Kickstarter Discover API",
+        "count": len(all_projects),
+        "projects": all_projects,
+    })  # 原子写：崩溃不损坏，写前备份 .bak
 
     print(f"\n✅ Kickstarter: {len(all_projects)} live physical projects saved to {OUTPUT}")
     return len(all_projects)

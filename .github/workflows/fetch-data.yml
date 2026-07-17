@@ -15,6 +15,7 @@ jobs:
       contents: write
     env:
       FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+      CONTEXT_DEV_API_KEY: ${{ secrets.CONTEXT_DEV_API_KEY }}
       LONG_CAT_API_KEY: ${{ secrets.LONG_CAT_API_KEY }}
       AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -28,16 +29,32 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests openai firecrawl-py
+        run: pip install requests openai firecrawl-py context.dev
 
       - name: Fetch Kickstarter API
+        continue-on-error: true
         run: python scripts/fetch-kickstarter.py
 
       - name: Fetch Indiegogo API
+        continue-on-error: true
         run: python scripts/fetch-indiegogo.py
 
       - name: Merge data + score + snapshot
         run: python scripts/merge.py
+
+      - name: Commit merged data (persist before HTML/AI steps)
+        if: always()
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/projects.json
+          if git diff --staged --quiet; then
+            echo "No merge changes to commit"
+          else
+            git commit -m "data: merge + score [skip actions]"
+            git push
+          fi
 
       - name: Fetch HTML (new projects only)
         run: python scripts/fetch-html.py
@@ -58,6 +75,20 @@ jobs:
 
       - name: AI extract fields
         run: python scripts/ai-extract.py
+
+      - name: Commit AI-extracted fields (persist before validate/translate)
+        if: always()
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/projects.json
+          if git diff --staged --quiet; then
+            echo "No AI fields to commit"
+          else
+            git commit -m "data: AI-extracted fields [skip actions]"
+            git push
+          fi
 
       - name: Validate AI data
         run: python scripts/validate-ai-data.py

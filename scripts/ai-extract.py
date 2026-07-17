@@ -25,6 +25,7 @@ from datetime import datetime
 # 统一 LLM/API 调用层（集中读 env、统一重试/超时）
 sys.path.insert(0, str(Path(__file__).parent))
 from llm import call_compatible_llm, call_cloudflare, parse_json
+from safeio import atomic_write_json
 
 DATA_FILE = Path(__file__).parent.parent / "src" / "data" / "projects.json"
 RAW_HTML_DIR = Path(__file__).parent / "raw" / "html"
@@ -276,12 +277,10 @@ def main():
         if ok:
             success += 1
         if (i + 1) % 5 == 0:
-            with open(DATA_FILE, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
+            atomic_write_json(DATA_FILE, data)  # 原子写：崩溃不损坏
             print(f"  💾 已保存 ({i+1}/{len(candidates)})")
 
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(DATA_FILE, data)  # 原子写：崩溃不损坏
 
     print(f"\n✅ 完成: {success}/{len(candidates)} 成功")
     print(f"📊 预计 token 消耗: ~{success * 4000}")

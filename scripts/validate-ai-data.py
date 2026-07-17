@@ -17,6 +17,9 @@ validate-ai-data.py — 按"两条规则"校验并标记 ai_validated
 import json, os, sys, gzip
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from safeio import atomic_write_json, load_json_safe
+
 BASE = Path(__file__).parent.parent
 DATA_FILE = BASE / "src" / "data" / "projects.json"
 HTML_DIR = BASE / "scripts" / "raw" / "html"
@@ -70,7 +73,7 @@ def validate(p):
 
 def main():
     report_only = '--report' in sys.argv
-    d = json.load(open(DATA_FILE, encoding='utf-8'))
+    d = load_json_safe(DATA_FILE)  # 损坏自动回退 .bak
     projects = d['projects']
     live = [p for p in projects if p.get('state') == 'live']
 
@@ -91,7 +94,7 @@ def main():
                 p['ai_validated'] = True
 
     if not report_only:
-        json.dump(d, open(DATA_FILE, 'w', encoding='utf-8'), ensure_ascii=False)
+        atomic_write_json(DATA_FILE, d)  # 原子写：崩溃不损坏
 
     print("=" * 60)
     print("AI 数据校验报告（规则：爬取完整 + AI 完整解读）")

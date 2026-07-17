@@ -12,6 +12,7 @@ from llm import call_cloudflare, LLMError
 
 from scripts.snapshot import batch_append
 from scripts.score import batch_compute
+from safeio import atomic_write_json, load_json_safe
 
 RAW_DIR = Path(__file__).parent / "raw"
 OUTPUT = Path(__file__).parent.parent / "src" / "data" / "projects.json"
@@ -164,7 +165,7 @@ def main():
     # Load existing projects if any
     existing = {}
     if OUTPUT.exists():
-        old_data = json.loads(open(OUTPUT, encoding="utf-8").read())
+        old_data = load_json_safe(OUTPUT)  # 损坏自动回退 .bak
         for p in old_data.get("projects", []):
             existing[p["id"]] = p
         print(f"Existing: {len(existing)} projects in previous projects.json")
@@ -276,8 +277,7 @@ def main():
     }
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
+    atomic_write_json(OUTPUT, out)  # 原子写：崩溃不损坏，写前自动备份 .bak
 
     print(f"\n✅ Merge complete:")
     print(f"  New projects: {new_count}")

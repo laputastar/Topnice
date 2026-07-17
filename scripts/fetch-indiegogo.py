@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """Fetch Indiegogo active projects with physical-product keyword filtering."""
-import json, time, urllib.request
+import json, time, urllib.request, sys
 from datetime import datetime
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from safeio import atomic_write_json
 
 OUTPUT = Path(__file__).parent / "raw" / "indiegogo.json"
 
@@ -132,14 +135,13 @@ def main():
                 pass
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT, "w", encoding="utf-8") as f:
-        json.dump({
-            "fetched_at": datetime.utcnow().isoformat() + "Z",
-            "source": "Indiegogo Public API",
-            "total_active": len(all_data),
-            "physical_filtered": len(projects),
-            "projects": projects,
-        }, f, ensure_ascii=False, indent=2)
+    atomic_write_json(OUTPUT, {
+        "fetched_at": datetime.utcnow().isoformat() + "Z",
+        "source": "Indiegogo Public API",
+        "total_active": len(all_data),
+        "physical_filtered": len(projects),
+        "projects": projects,
+    })  # 原子写：崩溃不损坏，写前备份 .bak
 
     print(f"\n✅ Indiegogo: {len(projects)} physical projects (from {len(all_data)} total) saved to {OUTPUT}")
     return len(projects)

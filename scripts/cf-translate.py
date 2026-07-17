@@ -139,9 +139,12 @@ Input:
         if idx < len(items) - 1:
             time.sleep(1)
 
-    with open(out_file, "w", encoding="utf-8") as f:
+    # 原子写：先写 .tmp 再 os.replace，崩溃不损坏批处理文件
+    tmp = out_file + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         for item in output:
             f.write(json.dumps(item, ensure_ascii=False) + "\n")
+    os.replace(tmp, out_file)
     print(f"✅ 保存到 {out_file}")
 
 if __name__ == "__main__":

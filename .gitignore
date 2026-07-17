@@ -19,6 +19,7 @@ __pycache__/
 # Pipeline backups & intermediate artifacts (may contain full data snapshots)
 *.bak
 *.bak_*
+*.tmp*
 scripts/translations/
 src/data/projects.json.bak*
 

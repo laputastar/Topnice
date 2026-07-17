@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
-fetch-html.py — 用 Firecrawl HTML 格式抓取 KS/IG 项目页
+fetch-html.py — 用 Firecrawl / Context.dev 抓取 KS/IG 项目页 HTML
+双 provider 降级: Firecrawl 优先，额度耗尽/失败时自动切 Context.dev。
+两者共同支撑每月 topnice 抓取。
+
 功能:
   1. Raw layer:  原始 HTML → gzip → scripts/raw/html/{slug}.html.gz
-  2. Parsed layer: 解析 tiers/story/images → 写入 projects.json
+  2. 仅存盘，字段解析交给 ai-extract.py（规则 #12: AI 读，禁用规则解析器）
 
 用法:
   python scripts/fetch-html.py                                 # 全量跑
@@ -14,22 +17,27 @@ import json, os, sys, time, gzip, hashlib
 from pathlib import Path
 from datetime import datetime, timezone
 
+from safeio import atomic_write_json
+
 DATA_FILE = Path(__file__).parent.parent / "src" / "data" / "projects.json"
 RAW_HTML_DIR = Path(__file__).parent / "raw" / "html"
 SLEEP_SEC = 2
+
 # 安全：API Key 从环境变量读取，禁止硬编码（避免泄露进 git/分享）
 FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
-if not FIRECRAWL_API_KEY:
-    print("ERROR: 环境变量 FIRECRAWL_API_KEY 未设置。请先 export FIRECRAWL_API_KEY=你的key 再运行。")
-    sys.exit(1)
+CONTEXT_DEV_API_KEY = os.environ.get("CONTEXT_DEV_API_KEY", "")
 
-# 额度耗尽异常：firecrawl 不同版本位置可能不同，做兜底导入
+# Firecrawl 额度耗尽异常：不同 SDK 版本位置可能不同，做兜底导入
 try:
     from firecrawl.v2.utils.error_handler import PaymentRequiredError
 except Exception:
     class PaymentRequiredError(Exception):
         """兜底：导入失败时不会实际抛出，仅用于类型匹配"""
         pass
+
+# Provider 可用性全局标志（首次失败后置位，避免每个项目反复重试浪费时间）
+firecrawl_dead = not bool(FIRECRAWL_API_KEY)
+contextdev_dead = not bool(CONTEXT_DEV_API_KEY)
 
 
 def _save_raw_html(slug: str, html_text: str) -> dict:
@@ -40,8 +48,11 @@ def _save_raw_html(slug: str, html_text: str) -> dict:
     RAW_HTML_DIR.mkdir(parents=True, exist_ok=True)
     gz_path = RAW_HTML_DIR / f"{slug}.html.gz"
 
-    with gzip.open(gz_path, "wt", encoding="utf-8") as f:
+    # 原子写：先写 .tmp.gz 再 os.replace，崩溃只留临时文件、原快照完好
+    tmp = RAW_HTML_DIR / f"{slug}.html.tmp.gz"
+    with gzip.open(tmp, "wt", encoding="utf-8") as f:
         f.write(html_text)
+    os.replace(tmp, gz_path)
 
     return {
         "raw_html_hash": content_hash,
@@ -50,13 +61,8 @@ def _save_raw_html(slug: str, html_text: str) -> dict:
     }
 
 
-def extract_html_content(url: str) -> dict:
-    """抓取项目页原始 HTML（仅存盘，不做字段解析）
-
-    规则 #12：所有字段提取必须由 AI 完成（见 ai-extract.py），
-    禁止在此用 BeautifulSoup 解析 tiers/story/images。
-    本函数只负责把 Firecrawl 返回的完整 HTML 交回调用方做 gzip 存盘。
-    """
+def extract_html_firecrawl(url: str) -> dict:
+    """Firecrawl 抓取（官方 SDK）"""
     from firecrawl import Firecrawl
     app = Firecrawl(api_key=FIRECRAWL_API_KEY)
     result = app.scrape(url, formats=["html"], only_main_content=False, proxy="auto", timeout=45000)
@@ -64,8 +70,70 @@ def extract_html_content(url: str) -> dict:
     return {
         "html_length": len(result.html),
         "credits": credits,
-        "raw_html": result.html,  # 交给调用方存 gzip
+        "raw_html": result.html,
+        "credits_remaining": None,  # Firecrawl SDK 不返回剩余额度，靠 PaymentRequiredError 探测
     }
+
+
+def extract_html_contextdev(url: str) -> dict:
+    """Context.dev 抓取（官方 Python SDK，懒导入；带 waitForMs 等 JS 懒加载内容）"""
+    from context.dev import ContextDev
+    client = ContextDev()  # 自动读取 CONTEXT_DEV_API_KEY
+    resp = client.web.web_scrape_html(
+        url=url,
+        wait_for_ms=5000,    # 等 JS 懒加载（KS founder bio / IG 档位）
+        timeout_ms=60000,
+        max_age_ms=0,        # 强制新鲜抓（我们本地已有"有快照即跳过"的幂等层）
+        # country="us",      # 可选：美国住宅代理出口
+    )
+    # 兼容 SDK 对象属性与 dict 两种返回形态
+    if isinstance(resp, dict):
+        html = resp.get("html", "")
+        km = resp.get("key_metadata", {}) or {}
+        remaining = km.get("credits_remaining")
+        consumed = km.get("credits_consumed", 1)
+    else:
+        html = getattr(resp, "html", "")
+        km = getattr(resp, "key_metadata", None)
+        remaining = getattr(km, "credits_remaining", None) if km else None
+        consumed = getattr(km, "credits_consumed", 1) if km else 1
+    return {
+        "html_length": len(html or ""),
+        "credits": consumed,
+        "raw_html": html,
+        "credits_remaining": remaining,
+    }
+
+
+def fetch_one(url: str):
+    """按降级顺序尝试 provider。返回 (result_dict, provider_name) 或 (None, None)。"""
+    global firecrawl_dead, contextdev_dead
+
+    # 1. Firecrawl 优先
+    if not firecrawl_dead:
+        try:
+            return extract_html_firecrawl(url), "firecrawl"
+        except PaymentRequiredError:
+            firecrawl_dead = True
+            print("  ⚠️  Firecrawl 额度耗尽，后续降级 Context.dev")
+        except Exception as e:
+            firecrawl_dead = True
+            print(f"  ⚠️  Firecrawl 异常({type(e).__name__})，降级 Context.dev: {e}")
+
+    # 2. Context.dev 降级
+    if not contextdev_dead:
+        try:
+            r = extract_html_contextdev(url)
+            if r.get("credits_remaining") is not None and r["credits_remaining"] <= 0:
+                contextdev_dead = True
+                print("  ⚠️  Context.dev 额度耗尽")
+                return None, None
+            return r, "contextdev"
+        except Exception as e:
+            contextdev_dead = True
+            print(f"  ⚠️  Context.dev 异常({type(e).__name__}): {e}")
+
+    return None, None
 
 
 def needs_refetch(p: dict, raw_html_dir: Path) -> bool:
@@ -85,7 +153,15 @@ def needs_refetch(p: dict, raw_html_dir: Path) -> bool:
     return True
 
 
+def _save_data(data):
+    atomic_write_json(DATA_FILE, data)  # 原子写：崩溃不损坏，写前备份 .bak
+
+
 def main():
+    if not FIRECRAWL_API_KEY and not CONTEXT_DEV_API_KEY:
+        print("ERROR: 需至少设置 FIRECRAWL_API_KEY 或 CONTEXT_DEV_API_KEY 之一。")
+        sys.exit(1)
+
     limit = None
     target_project = None
     for i, arg in enumerate(sys.argv[1:]):
@@ -108,13 +184,15 @@ def main():
                     return
                 print(f"▶️  {p.get('name','?')}")
                 print(f"   URL: {url}")
-                result = extract_html_content(url)
+                result, provider = fetch_one(url)
+                if result is None:
+                    print("❌ 两 provider 均失败")
+                    return
                 raw_meta = _save_raw_html(p.get("slug", p.get("id", target_project)), result["raw_html"])
                 p["raw_html_hash"] = raw_meta["raw_html_hash"]
                 p["raw_fetched_at"] = raw_meta["fetched_at"]
-                with open(DATA_FILE, "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
-                print(f"  ✅ 原始 HTML 已存盘: {result['html_length']} chars")
+                _save_data(data)
+                print(f"  ✅ [{provider}] 原始 HTML 已存盘: {result['html_length']} chars")
                 print(f"  💰 消耗: {result['credits']} credit")
                 return
         print(f"❌ 未找到项目: {target_project}")
@@ -130,11 +208,11 @@ def main():
         return
 
     print(f"📊 需要抓取: {len(to_fetch)}/{total} 个项目")
-    print(f"💰 预计花费: ~{len(to_fetch)} credits\n")
+    print(f"💰 预计最多花费: ~{len(to_fetch)} credits（Firecrawl 优先，失败降级 Context.dev）\n")
 
     total_credits = 0
     success = 0
-    stopped_by_credits = False
+    both_dead = False
 
     for i, p in enumerate(to_fetch):
         name = p.get("name", "?")[:50]
@@ -143,36 +221,29 @@ def main():
         if not url:
             print("  ⚠️  无 URL，跳过")
             continue
-        try:
-            result = extract_html_content(url)
-        except PaymentRequiredError:
-            print(f"\n💳 Firecrawl 额度耗尽！已成功抓取 {success}/{len(to_fetch)} 个。")
-            print(f"   剩余 {len(to_fetch) - i} 个项目未抓取 —— 请充值后重新运行 workflow。")
-            print(f"   已抓取的 HTML 文件保留在 {RAW_HTML_DIR.name}/，")
-            print(f"   needs_refetch 会自动跳过，重跑不会重复计费。")
-            stopped_by_credits = True
-            break
-        except Exception as e:
-            print(f"  ❌ 抓取失败: {type(e).__name__}: {e}")
-            print(f"     跳过，继续下一个")
+        result, provider = fetch_one(url)
+        if result is None:
+            if firecrawl_dead and contextdev_dead:
+                print("\n💀 Firecrawl 与 Context.dev 均不可用，提前结束。")
+                both_dead = True
+                break
+            print("  ❌ 两 provider 均失败，跳过，继续下一个")
             continue
         raw_meta = _save_raw_html(p.get("slug", p.get("id", str(i))), result["raw_html"])
         p["raw_html_hash"] = raw_meta["raw_html_hash"]
         p["raw_fetched_at"] = raw_meta["fetched_at"]
         total_credits += result["credits"]
         success += 1
-        print(f"  ✅ 原始HTML:{result['html_length']}chars  💰 {result['credits']}cr")
+        print(f"  ✅ [{provider}] 原始HTML:{result['html_length']}chars  💰 {result['credits']}cr")
         if (i + 1) % 20 == 0:
-            with open(DATA_FILE, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
+            _save_data(data)
             print(f"  💾 保存 ({i+1}/{len(to_fetch)})")
         time.sleep(SLEEP_SEC)
 
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    if stopped_by_credits:
-        print(f"\n⏸️  因额度不足提前结束: 成功 {success}/{len(to_fetch)}  💰 {total_credits} credits")
-        print("✅ 已抓取部分已存盘，workflow 会在本步后提交，充值后重跑即可续传。")
+    _save_data(data)
+    if both_dead:
+        print(f"\n⏸️  两 provider 额度皆尽/均失败，提前结束: 成功 {success}/{len(to_fetch)}  💰 {total_credits} credits")
+        print("✅ 已抓取部分已存盘，workflow 会在本步后提交，恢复额度后重跑即可续传。")
     else:
         print(f"\n✅ 完成: {success}/{len(to_fetch)}  💰 {total_credits} credits")
 

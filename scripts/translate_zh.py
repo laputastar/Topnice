@@ -19,6 +19,10 @@ translate_zh.py — 本地批量翻译脚本
 """
 
 import json, os, sys, re, shutil
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from safeio import atomic_write_json
 
 DATA_PATH = "src/data/projects.json"
 BACKUP_SUFFIX = ".bak"
@@ -277,8 +281,8 @@ def apply(args):
                             print(f"  ⚠️ {proj.get('name','?')}.{zh_field}: 空译文，跳过")
                             errors += 1
 
-    # 写回
-    json.dump(data, open(DATA_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    # 写回（原子写：先 .tmp+fsync 再替换，崩溃不损坏；手动 .bak 备份保留）
+    atomic_write_json(DATA_PATH, data, backup=False)
     print(f"\n✅ 完成: 应用 {applied} 条翻译, {errors} 条错误")
 
 # ─── CLI ──────────────────────────────────────────────────────
