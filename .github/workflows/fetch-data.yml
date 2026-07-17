@@ -42,6 +42,20 @@ jobs:
       - name: Fetch HTML (new projects only)
         run: python scripts/fetch-html.py
 
+      - name: Commit HTML progress (credit-costly — save immediately)
+        if: always()
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/projects.json scripts/raw/html/
+          if git diff --staged --quiet; then
+            echo "No HTML changes to commit"
+          else
+            git commit -m "data: save HTML snapshots [skip actions]"
+            git push
+          fi
+
       - name: AI extract fields
         run: python scripts/ai-extract.py
 
@@ -60,6 +74,7 @@ jobs:
         continue-on-error: true
 
       - name: Commit and push if changed
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

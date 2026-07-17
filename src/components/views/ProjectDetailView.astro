@@ -182,18 +182,7 @@ const T = isZH ? {
     <div class="project-hero-inner">
       <div class="project-gallery">
         {project.image_1024x576 ? <img src={project.image_1024x576} alt={displayName} class="gallery-img" /> : project.image_med ? <img src={project.image_med} alt={displayName} class="gallery-img" /> : <span class="gallery-placeholder">&#x1F4E6;</span>}
-        {isKS && project.video_url && <button class="video-overlay-btn" id="watch-video-btn" type="button" aria-label="Play video">&#9654;</button>}
       </div>
-
-      <!-- Video Modal (KS only) -->
-      {isKS && (
-        <div class="video-modal" id="video-modal">
-          <button class="video-close" id="video-close" aria-label="Close video">&times;</button>
-          <video id="video-player" controls preload="none">
-            <source src={project.video_url || ""} type="video/mp4" />
-          </video>
-        </div>
-      )}
 
       <div class="project-info">
         <div class="project-category">{project.topnice_category || project.category}</div>
@@ -450,8 +439,6 @@ const T = isZH ? {
   .project-gallery { border-radius: 20px; overflow: hidden; background: #f1f5f9; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; position: relative; }
   .gallery-img { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; }
   .gallery-placeholder { font-size: 120px; z-index: 1; }
-  .video-overlay-btn { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60px; height: 60px; border-radius: 50%; background: rgba(0,0,0,0.55); border: 3px solid rgba(255,255,255,0.85); color: #fff; font-size: 26px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s; z-index: 2; }
-  .video-overlay-btn:hover { background: rgba(99,102,241,0.85); transform: translate(-50%, -50%) scale(1.1); }
   .ended-overlay { position: absolute; top: 16px; right: 16px; background: #f1f5f9; color: #94a3b8; padding: 6px 14px; border-radius: 8px; font-size: 12px; font-weight: 600; }
   .hero-blurb { font-size: 14px; color: #64748b; line-height: 1.5; margin: 0 0 12px; max-width: 560px; }
   .project-info { padding-top: 8px; }
@@ -473,11 +460,6 @@ const T = isZH ? {
   .btn-secondary:hover { background: #f8fafc; }
   .btn-ig { flex: 1; padding: 14px 24px; border-radius: 12px; background: #00b9a0; color: #fff; font-size: 15px; font-weight: 600; border: none; cursor: pointer; transition: all 0.2s; text-decoration: none; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px; font-family: inherit; }
   .btn-ig:hover { background: #009e88; }
-
-  .video-modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 2000; align-items: center; justify-content: center; }
-  .video-modal.active { display: flex; }
-  .video-modal video { max-width: 90%; max-height: 90%; border-radius: 16px; }
-  .video-close { position: absolute; top: 32px; right: 32px; width: 48px; height: 48px; border-radius: 50%; background: rgba(255,255,255,0.2); border: none; color: #fff; font-size: 24px; cursor: pointer; }
 
   .project-details { padding: 48px 48px 80px; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 0.4fr; gap: 48px; }
   .detail-content h2 { font-size: 20px; font-weight: 700; color: #0f172a; margin: 32px 0 16px; }
@@ -572,17 +554,3 @@ const T = isZH ? {
     .highlight-grid { grid-template-columns: 1fr; }
   }
 </style>
-<script is:inline>
-  (function() {
-    const btn = document.getElementById('watch-video-btn');
-    const modal = document.getElementById('video-modal');
-    const close = document.getElementById('video-close');
-    const player = document.getElementById('video-player');
-    if (btn && modal && close && player) {
-      btn.addEventListener('click', () => { modal.classList.add('active'); });
-      [close, modal].forEach(el => el.addEventListener('click', function(e) {
-        if (e.target === modal || e.target === close) { player.pause(); modal.classList.remove('active'); }
-      }));
-    }
-  })();
-</script>

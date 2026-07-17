@@ -23,6 +23,14 @@ if not FIRECRAWL_API_KEY:
     print("ERROR: 环境变量 FIRECRAWL_API_KEY 未设置。请先 export FIRECRAWL_API_KEY=你的key 再运行。")
     sys.exit(1)
 
+# 额度耗尽异常：firecrawl 不同版本位置可能不同，做兜底导入
+try:
+    from firecrawl.v2.utils.error_handler import PaymentRequiredError
+except Exception:
+    class PaymentRequiredError(Exception):
+        """兜底：导入失败时不会实际抛出，仅用于类型匹配"""
+        pass
+
 
 def _save_raw_html(slug: str, html_text: str) -> dict:
     """将原始 HTML 压缩存储到 raw/html/{slug}.html.gz，返回 metadata"""
@@ -126,6 +134,7 @@ def main():
 
     total_credits = 0
     success = 0
+    stopped_by_credits = False
 
     for i, p in enumerate(to_fetch):
         name = p.get("name", "?")[:50]
@@ -134,7 +143,19 @@ def main():
         if not url:
             print("  ⚠️  无 URL，跳过")
             continue
-        result = extract_html_content(url)
+        try:
+            result = extract_html_content(url)
+        except PaymentRequiredError:
+            print(f"\n💳 Firecrawl 额度耗尽！已成功抓取 {success}/{len(to_fetch)} 个。")
+            print(f"   剩余 {len(to_fetch) - i} 个项目未抓取 —— 请充值后重新运行 workflow。")
+            print(f"   已抓取的 HTML 文件保留在 {RAW_HTML_DIR.name}/，")
+            print(f"   needs_refetch 会自动跳过，重跑不会重复计费。")
+            stopped_by_credits = True
+            break
+        except Exception as e:
+            print(f"  ❌ 抓取失败: {type(e).__name__}: {e}")
+            print(f"     跳过，继续下一个")
+            continue
         raw_meta = _save_raw_html(p.get("slug", p.get("id", str(i))), result["raw_html"])
         p["raw_html_hash"] = raw_meta["raw_html_hash"]
         p["raw_fetched_at"] = raw_meta["fetched_at"]
@@ -149,7 +170,11 @@ def main():
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"\n✅ 完成: {success}/{len(to_fetch)}  💰 {total_credits} credits")
+    if stopped_by_credits:
+        print(f"\n⏸️  因额度不足提前结束: 成功 {success}/{len(to_fetch)}  💰 {total_credits} credits")
+        print("✅ 已抓取部分已存盘，workflow 会在本步后提交，充值后重跑即可续传。")
+    else:
+        print(f"\n✅ 完成: {success}/{len(to_fetch)}  💰 {total_credits} credits")
 
 
 if __name__ == "__main__":
