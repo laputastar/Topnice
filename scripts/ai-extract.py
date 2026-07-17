@@ -64,7 +64,7 @@ Rules:
 
 Respond ONLY with valid JSON, no markdown fences, no explanation."""
 
-MAX_CONTENT_CHARS = 6000
+MAX_CONTENT_CHARS = 20000
 
 
 def read_raw_html(slug: str):
@@ -84,10 +84,24 @@ def html_to_llm_content(raw_html: str) -> str:
     if not raw_html:
         return ""
 
+    # 预清洗：剥离导航/页脚/侧栏等噪音容器（标准语义标签，正则安全）
+    cleaned = re.sub(
+        r'<nav\b[^>]*>.*?</nav>', '',
+        raw_html, flags=re.DOTALL | re.IGNORECASE
+    )
+    cleaned = re.sub(
+        r'<footer\b[^>]*>.*?</footer>', '',
+        cleaned, flags=re.DOTALL | re.IGNORECASE
+    )
+    cleaned = re.sub(
+        r'<aside\b[^>]*>.*?</aside>', '',
+        cleaned, flags=re.DOTALL | re.IGNORECASE
+    )
+
     # 去掉 <script>, <style>, <noscript>, <svg>, <meta>, <link>, <head> 及其内容
     cleaned = re.sub(
         r'<(script|style|noscript|svg|meta|link|head)[^>]*>.*?</\1>',
-        '', raw_html, flags=re.DOTALL | re.IGNORECASE
+        '', cleaned, flags=re.DOTALL | re.IGNORECASE
     )
     # 去掉剩余 HTML 标签，保留文本
     cleaned = re.sub(r'<[^>]+>', ' ', cleaned)
