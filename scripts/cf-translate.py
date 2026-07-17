@@ -27,7 +27,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from llm import call_cloudflare, LLMError
 
 # 默认模型为已验证可用的 GLM-4.7-Flash；可用 CF_TRANSLATE_MODEL 覆盖
-MODEL = os.environ.get("CF_TRANSLATE_MODEL", "@cf/z-ai/glm-4.7-flash")
+MODEL = os.environ.get("CF_TRANSLATE_MODEL", "@cf/qwen/qwen3-30b-a3b-fp8")
 # 可选本地代理（仅中国网络访问 CF 时需要）；留空则直连
 PROXY = os.environ.get("CF_PROXY", "") or None
 PROXIES = {"http": PROXY, "https": PROXY} if PROXY else None

@@ -33,7 +33,7 @@ except ImportError:
 # ---- 集中读取环境变量（全管线唯一来源）----
 CF_ACCOUNT = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
 CF_TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN", "")
-CF_MODEL = os.environ.get("CF_TRANSLATE_MODEL", "@cf/meta/llama-3.2-3b-instruct")
+CF_MODEL = os.environ.get("CF_TRANSLATE_MODEL", "@cf/qwen/qwen3-30b-a3b-fp8")
 CF_PROXY = os.environ.get("CF_PROXY", "") or None
 CF_PROXIES = {"http": CF_PROXY, "https": CF_PROXY} if CF_PROXY else None
 
