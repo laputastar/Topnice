@@ -238,6 +238,7 @@ def extract(project: dict, force: bool = False) -> bool:
 def main():
     force = "--force" in sys.argv
     dry_run = "--dry-run" in sys.argv
+    only_empty_tiers = "--only-empty-tiers" in sys.argv
     target_project = None
     platform_filter = None
 
@@ -262,7 +263,10 @@ def main():
             continue
         if target_project and target_project not in p.get("slug", "") and target_project not in p.get("id", ""):
             continue
-        if not force and p.get("ai_intro_en"):
+        if only_empty_tiers:
+            if p.get("ai_tiers") and len(p.get("ai_tiers", [])) > 0:
+                continue  # already has tiers, skip even if force
+        elif not force and p.get("ai_intro_en"):
             continue
         # 需要 raw HTML 或 html_story 才能提取
         slug = p.get("slug") or p.get("id")
@@ -287,7 +291,7 @@ def main():
     for i, p in enumerate(candidates):
         name = p.get("name", "?")[:50]
         print(f"\n[{i+1}/{len(candidates)}] {name}")
-        ok = extract(p, force=force)
+        ok = extract(p, force=force or only_empty_tiers)
         if ok:
             success += 1
         if (i + 1) % 5 == 0:

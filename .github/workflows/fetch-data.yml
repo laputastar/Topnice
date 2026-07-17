@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # Manual trigger
     inputs:
       force-extract:
-        description: 'Force re-extract ALL projects with AI (fixes empty tiers after code changes)'
+        description: 'Fix empty ai_tiers (re-extract only empty-tiers projects with 20000 char limit)'
         required: false
         default: false
         type: boolean
@@ -80,7 +80,7 @@ jobs:
           fi
 
       - name: AI extract fields
-        run: python scripts/ai-extract.py ${{ github.event.inputs.force-extract == 'true' && '--force' || '' }}
+        run: python scripts/ai-extract.py ${{ github.event.inputs.force-extract == 'true' && '--only-empty-tiers' || '' }}
 
       - name: Commit AI-extracted fields (persist before validate/translate)
         if: always()
