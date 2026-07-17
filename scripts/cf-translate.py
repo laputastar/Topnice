@@ -87,12 +87,16 @@ Input:
                     max_retries=0,
                     proxies=PROXIES,
                 )
-                # 提取 JSON 数组
-                m = re.search(r'\[.*?\]', content, re.DOTALL)
+                # 提取 JSON 数组（贪婪匹配：从第一个[到最后一个]，避免字符串内的]截断）
+                m = re.search(r'\[.*\]', content, re.DOTALL)
                 if not m:
                     print(f"    ⚠️ 无法解析 JSON: {content[:100]}")
-                    continue  # 与旧行为一致：不 sleep，直接进入下一次尝试
-                translations = json.loads(m.group())
+                    continue
+                try:
+                    translations = json.loads(m.group())
+                except json.JSONDecodeError:
+                    print(f"    ⚠️ JSON 解析失败（截断/格式异常）: {m.group()[:100]}...")
+                    continue
                 # 回填
                 for i, (typ, fd, ref, subkey) in enumerate(field_map):
                     t = translations[i] if i < len(translations) else None
