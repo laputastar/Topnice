@@ -175,7 +175,16 @@ def call_cloudflare(
             data = resp.json()
             if not data.get("success"):
                 raise LLMError(str(data.get("errors", [{}])[0].get("message", "unknown")))
-            raw = data["result"]["response"]
+            result = data.get("result", {})
+            raw = result.get("response")
+            # Qwen3 等新模型返回 OpenAI 兼容格式: choices[].message.content
+            if raw is None or not isinstance(raw, str):
+                choices = result.get("choices", [])
+                if choices:
+                    msg = choices[0].get("message", {})
+                    raw = msg.get("content")
+                else:
+                    raw = None
             if not raw:
                 raise LLMError("empty response")
             return raw
