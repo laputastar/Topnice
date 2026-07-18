@@ -269,6 +269,70 @@ def main():
     # Convert merged dict back to list
     projects_list = list(merged.values())
 
+    # ── Final classification pass (enforces "classify → delete BEFORE extract") ──
+    # The classify above only covers freshly-fetched `all_new`. Existing projects that
+    # lost hw_type (e.g. LLM was down during a prior merge, or the field was never
+    # persisted) would stay unclassified and slip through. Re-classify ANY project
+    # still missing hw_type so the output is always fully filtered. LLM-unavailable
+    # batches fall back to hardware (kept) without hw_type and will be retried next run.
+    unclassified = [p for p in projects_list if not p.get("hw_type")]
+    if unclassified:
+        print(f"Re-classifying {len(unclassified)} projects lacking hw_type...")
+        re_cls = batch_hardware_classify(unclassified)
+        by_id = {p["id"]: p for p in re_cls}
+        for p in projects_list:
+            if p["id"] in by_id:
+                src = by_id[p["id"]]
+                p["hw_type"] = src.get("hw_type", p.get("hw_type"))
+                p["hw_reason"] = src.get("hw_reason", p.get("hw_reason"))
+                p["hardware_class"] = src.get("hardware_class", p.get("hardware_class"))
+
+    # Global safety net: drop any non-hardware that slipped through (incl. from above).
+    before = len(projects_list)
+    deleted = [p for p in projects_list if p.get("hardware_class") == "non-hardware"]
+    projects_list = [p for p in projects_list if p.get("hardware_class") != "non-hardware"]
+    removed = before - len(projects_list)
+    if removed:
+        print(f"  🗑️  Deleted {removed} non-hardware project(s) after classification")
+        # Audit manifest — write what was deleted so a wrong deletion is recoverable.
+        manifest = {
+            "deleted_at": datetime.utcnow().isoformat() + "Z",
+            "reason": "classified non-hardware by batch_hardware_classify (terminal pass)",
+            "count": removed,
+            "items": [
+                {
+                    "id": p.get("id"),
+                    "slug": p.get("slug"),
+                    "name": p.get("name"),
+                    "platform": p.get("platform"),
+                    "hw_type": p.get("hw_type"),
+                    "hw_reason": p.get("hw_reason"),
+                }
+                for p in deleted
+            ],
+        }
+        try:
+            import os
+            raw_dir = Path(__file__).parent / "raw"
+            raw_dir.mkdir(parents=True, exist_ok=True)
+            mpath = raw_dir / f"deleted_non_hardware_{datetime.utcnow().strftime('%Y%m%d')}.json"
+            # Append to today's manifest if it exists (multiple runs per day)
+            existing_manifest = []
+            if mpath.exists():
+                try:
+                    existing_manifest = json.loads(mpath.read_text(encoding="utf-8")).get("items", [])
+                except Exception:
+                    existing_manifest = []
+            all_items = existing_manifest + manifest["items"]
+            mpath.write_text(
+                json.dumps({"deleted_at": manifest["deleted_at"], "count": len(all_items), "items": all_items},
+                           ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+            print(f"  📝  Deletion manifest written: {mpath}")
+        except Exception as e:
+            print(f"  ⚠️  Failed to write deletion manifest: {e}")
+
     # Step: Initialize history & append daily snapshot
     snap_stats = batch_append(projects_list)
     print(f"  History: {snap_stats['initialized']} initialized, {snap_stats['appended']} appended")
