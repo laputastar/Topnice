@@ -138,7 +138,7 @@ def extract_html_tinyfish(url: str) -> dict:
 
 def fetch_one(url: str):
     """按降级顺序尝试 provider。返回 (result_dict, provider_name) 或 (None, None)。"""
-    global firecrawl_dead, contextdev_dead, tinyfish_dead
+    global firecrawl_dead, contextdev_dead
 
     # 1. Firecrawl 优先
     if not firecrawl_dead:
@@ -164,12 +164,11 @@ def fetch_one(url: str):
             contextdev_dead = True
             print(f"  ⚠️  Context.dev 异常({type(e).__name__}): {e}")
 
-    # 3. TinyFish Fetch 兜底（免费，0 credit/url）
-    if not tinyfish_dead:
+    # 3. TinyFish Fetch 兜底（免费，0 credit/url，失败只跳过当前项目不全局禁用）
+    if TINYFISH_API_KEY:
         try:
             return extract_html_tinyfish(url), "tinyfish"
         except Exception as e:
-            tinyfish_dead = True
             print(f"  ⚠️  TinyFish 异常({type(e).__name__}): {e}")
 
     return None, None
@@ -225,7 +224,7 @@ def main():
                 print(f"   URL: {url}")
                 result, provider = fetch_one(url)
                 if result is None:
-                    print("❌ 两 provider 均失败")
+                    print("❌ 所有 provider 均失败")
                     return
                 raw_meta = _save_raw_html(p.get("slug", p.get("id", target_project)), result["raw_html"])
                 p["raw_html_hash"] = raw_meta["raw_html_hash"]
@@ -247,7 +246,7 @@ def main():
         return
 
     print(f"📊 需要抓取: {len(to_fetch)}/{total} 个项目")
-    print(f"💰 预计最多花费: ~{len(to_fetch)} credits（Firecrawl 优先，失败降级 Context.dev）\n")
+    print(f"💰 预计花费: ~{len(to_fetch)} credits（Firecrawl 优先 → Context.dev 降级 → TinyFish 免费兜底）\n")
 
     total_credits = 0
     success = 0
@@ -262,11 +261,11 @@ def main():
             continue
         result, provider = fetch_one(url)
         if result is None:
-            if firecrawl_dead and contextdev_dead:
-                print("\n💀 Firecrawl 与 Context.dev 均不可用，提前结束。")
+            if firecrawl_dead and contextdev_dead and not TINYFISH_API_KEY:
+                print("\n💀 所有 provider 均不可用，提前结束。")
                 both_dead = True
                 break
-            print("  ❌ 两 provider 均失败，跳过，继续下一个")
+            print("  ❌ 所有 provider 均失败，跳过，继续下一个")
             continue
         raw_meta = _save_raw_html(p.get("slug", p.get("id", str(i))), result["raw_html"])
         p["raw_html_hash"] = raw_meta["raw_html_hash"]
@@ -281,7 +280,7 @@ def main():
 
     _save_data(data)
     if both_dead:
-        print(f"\n⏸️  两 provider 额度皆尽/均失败，提前结束: 成功 {success}/{len(to_fetch)}  💰 {total_credits} credits")
+        print(f"\n⏸️  所有 provider 均不可用，提前结束: 成功 {success}/{len(to_fetch)}  💰 {total_credits} credits")
         print("✅ 已抓取部分已存盘，workflow 会在本步后提交，恢复额度后重跑即可续传。")
     else:
         print(f"\n✅ 完成: {success}/{len(to_fetch)}  💰 {total_credits} credits")
