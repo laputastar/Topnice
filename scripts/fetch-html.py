@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-fetch-html.py — 用 Firecrawl / Context.dev 抓取 KS/IG 项目页 HTML
-双 provider 降级: Firecrawl 优先，额度耗尽/失败时自动切 Context.dev。
-两者共同支撑每月 topnice 抓取。
+fetch-html.py — 用 Firecrawl / Context.dev / TinyFish Fetch 抓取 KS/IG 项目页 HTML
+三 provider 降级: Firecrawl 优先 → Context.dev 次选 → TinyFish 兜底（免费）。
+Firecrawl 和 Context.dev 额度耗尽后自动走 TinyFish（0 credit/url）。
 
 功能:
   1. Raw layer:  原始 HTML → gzip → scripts/raw/html/{slug}.html.gz
@@ -26,6 +26,7 @@ SLEEP_SEC = 2
 # 安全：API Key 从环境变量读取，禁止硬编码（避免泄露进 git/分享）
 FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
 CONTEXT_DEV_API_KEY = os.environ.get("CONTEXT_DEV_API_KEY", "")
+TINYFISH_API_KEY = os.environ.get("TINYFISH_API_KEY", "")
 
 # Firecrawl 额度耗尽异常：不同 SDK 版本位置可能不同，做兜底导入
 try:
@@ -38,6 +39,7 @@ except Exception:
 # Provider 可用性全局标志（首次失败后置位，避免每个项目反复重试浪费时间）
 firecrawl_dead = not bool(FIRECRAWL_API_KEY)
 contextdev_dead = not bool(CONTEXT_DEV_API_KEY)
+tinyfish_dead = not bool(TINYFISH_API_KEY)
 
 
 def _save_raw_html(slug: str, html_text: str) -> dict:
@@ -105,6 +107,35 @@ def extract_html_contextdev(url: str) -> dict:
     }
 
 
+def extract_html_tinyfish(url: str) -> dict:
+    """TinyFish Fetch API 抓取（免费，0 credit/url）"""
+    import requests
+    r = requests.post(
+        "https://api.fetch.tinyfish.ai",
+        headers={
+            "X-API-Key": TINYFISH_API_KEY,
+            "Content-Type": "application/json",
+        },
+        json={"urls": [url], "format": "html"},
+        timeout=90,
+    )
+    data = r.json()
+    errors = data.get("errors", [])
+    if errors:
+        raise Exception(f"TinyFish error: {errors[0].get('message', str(errors[0]))}")
+    results = data.get("results", [])
+    if not results:
+        raise Exception("TinyFish: no results returned")
+    item = results[0]
+    html = item.get("text") or item.get("content") or ""
+    return {
+        "html_length": len(html),
+        "credits": 0,
+        "raw_html": html,
+        "credits_remaining": 999999,  # 免费，永不耗尽
+    }
+
+
 def fetch_one(url: str):
     """按降级顺序尝试 provider。返回 (result_dict, provider_name) 或 (None, None)。"""
     global firecrawl_dead, contextdev_dead
@@ -133,6 +164,14 @@ def fetch_one(url: str):
             contextdev_dead = True
             print(f"  ⚠️  Context.dev 异常({type(e).__name__}): {e}")
 
+    # 3. TinyFish Fetch 兜底（免费，0 credit/url）
+    if not tinyfish_dead:
+        try:
+            return extract_html_tinyfish(url), "tinyfish"
+        except Exception as e:
+            tinyfish_dead = True
+            print(f"  ⚠️  TinyFish 异常({type(e).__name__}): {e}")
+
     return None, None
 
 
@@ -158,8 +197,8 @@ def _save_data(data):
 
 
 def main():
-    if not FIRECRAWL_API_KEY and not CONTEXT_DEV_API_KEY:
-        print("ERROR: 需至少设置 FIRECRAWL_API_KEY 或 CONTEXT_DEV_API_KEY 之一。")
+    if not FIRECRAWL_API_KEY and not CONTEXT_DEV_API_KEY and not TINYFISH_API_KEY:
+        print("ERROR: 需至少设置 FIRECRAWL_API_KEY、CONTEXT_DEV_API_KEY 或 TINYFISH_API_KEY 之一。")
         sys.exit(1)
 
     limit = None
