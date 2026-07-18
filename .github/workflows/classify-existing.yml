@@ -2,6 +2,12 @@ name: Classify Existing Projects
 
 on:
   workflow_dispatch:
+    inputs:
+      apply:
+        description: '⚠️ Confirm deletion: permanently remove non-hardware projects from projects.json'
+        required: false
+        default: false
+        type: boolean
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -25,5 +31,5 @@ jobs:
       - name: Install dependencies
         run: pip install requests openai
 
-      - name: Classify existing projects (dry-run - shows results, no changes)
-        run: python scripts/classify-existing.py
+      - name: Classify and delete non-hardware projects
+        run: python scripts/classify-existing.py ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
