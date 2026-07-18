@@ -23,7 +23,27 @@ projects = data["projects"]
 
 print(f"📦 共 {len(projects)} 个项目")
 
-results = batch_hardware_classify(projects)
+# 检查是否已有保存的分类结果（hw_type 字段存在）
+already_classified = all(p.get("hw_type") for p in projects)
+
+if already_classified and not APPLY:
+    # 已有结果且是 dry-run：直接用已有结果统计，不调 API
+    print("  ✓ 已有之前保存的分类结果，跳过 Long Cat 调用")
+    results = projects
+elif already_classified and APPLY:
+    # 已有结果且是 apply：直接用已有结果做删除，不调 API
+    print("  ✓ 已有之前保存的分类结果，跳过 Long Cat 调用，直接执行删除")
+    results = projects
+else:
+    # 首次运行或缺少结果：调 Long Cat 分类
+    print("  🔄 调 Long Cat 分类...")
+    results = batch_hardware_classify(projects)
+    # 保存分类结果到 projects.json（hw_type / hw_reason 字段持久化）
+    data["projects"] = results
+    tmp = DATA + ".tmp"
+    json.dump(data, open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    os.replace(tmp, DATA)
+    print(f"  💾 分类结果已保存到 projects.json")
 
 hw = [p for p in results if p.get("hardware_class") == "hardware"]
 non_hw = [p for p in results if p.get("hardware_class") == "non-hardware"]
@@ -50,6 +70,6 @@ if non_hw:
         os.replace(tmp, DATA)
         print(f"\n✅ 已从 projects.json 删除 {len(non_hw)} 个非硬件项目")
     else:
-        print(f"\n💡 这是 --dry-run，未修改文件。确认后加 --apply 执行删除。")
+        print(f"\n💡 这是 --dry-run，未执行删除。勾选 apply 再跑一次将直接用已保存的结果删除，不重复调 API。")
 else:
     print("\n✅ 全部项目均为硬件，无剔除项。")
