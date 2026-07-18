@@ -10,6 +10,11 @@ on:
         required: false
         default: false
         type: boolean
+      skip-api-fetch:
+        description: 'Skip API fetch + merge. Only fetch missing HTML + AI extract + translate (faster, saves credits)'
+        required: false
+        default: false
+        type: boolean
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -38,18 +43,21 @@ jobs:
         run: pip install requests openai firecrawl-py context.dev
 
       - name: Fetch Kickstarter API
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.skip-api-fetch != 'true' }}
         continue-on-error: true
         run: python scripts/fetch-kickstarter.py
 
       - name: Fetch Indiegogo API
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.skip-api-fetch != 'true' }}
         continue-on-error: true
         run: python scripts/fetch-indiegogo.py
 
       - name: Merge data + score + snapshot
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.skip-api-fetch != 'true' }}
         run: python scripts/merge.py
 
       - name: Commit merged data (persist before HTML/AI steps)
-        if: always()
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.skip-api-fetch != 'true' }}
         continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
