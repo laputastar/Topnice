@@ -131,3 +131,17 @@ jobs:
             git commit -m "data: auto-update projects.json [skip actions]"
             git push
           fi
+
+      - name: Setup Node.js
+        if: always()
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: package-lock.json
+
+      - name: Build Astro site
+        if: always()
+        run: |
+          npm ci
+          npx astro build
