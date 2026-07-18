@@ -214,7 +214,7 @@ const S = lang === "zh" ? {
       for (var i = 0; i < allData.length; i++) {
         var it = allData[i];
         if (it.st !== 'live') continue;
-        var dl = it.dl ? new Date(it.dl).getTime() : NaN;
+        var dl = it.dl ? new Date(it.dl.endsWith('Z') ? it.dl : it.dl + 'Z').getTime() : NaN;
         if (isNaN(dl) || dl > now) liveNow++;
       }
       var el = document.getElementById('stat-active-count');
@@ -343,7 +343,7 @@ const S = lang === "zh" ? {
       function isEnded(item) {
         if (item.st !== 'live') return true;
         if (item.dl) {
-          var dl = new Date(item.dl).getTime();
+          var dl = new Date(item.dl.endsWith('Z') ? item.dl : item.dl + 'Z').getTime();
           if (!isNaN(dl) && dl < now) return true;
         }
         return false;
@@ -370,8 +370,8 @@ const S = lang === "zh" ? {
         live.sort(function(a,b) {
           var da = 99999999999999;
           var db = 99999999999999;
-          if (a.dl) { var dateA = new Date(a.dl); if (!isNaN(dateA.getTime())) da = dateA.getTime(); }
-          if (b.dl) { var dateB = new Date(b.dl); if (!isNaN(dateB.getTime())) db = dateB.getTime(); }
+          if (a.dl) { var dateA = new Date(a.dl.endsWith('Z') ? a.dl : a.dl + 'Z'); if (!isNaN(dateA.getTime())) da = dateA.getTime(); }
+          if (b.dl) { var dateB = new Date(b.dl.endsWith('Z') ? b.dl : b.dl + 'Z'); if (!isNaN(dateB.getTime())) db = dateB.getTime(); }
           return da - db;
         });
       }

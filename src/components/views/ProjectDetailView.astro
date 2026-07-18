@@ -16,7 +16,7 @@ const baseUrl = isZH ? "/zh" : "";
 
 const bc = project.backers_count || 0;
 const pct = project.percent_funded || 0;
-const deadlineMs = project.deadline ? new Date(project.deadline).getTime() : null;
+const deadlineMs = project.deadline ? new Date(project.deadline.endsWith('Z') ? project.deadline : project.deadline + 'Z').getTime() : null;
 const daysLeft = (deadlineMs && !isNaN(deadlineMs)) ? Math.max(0, Math.ceil((deadlineMs - Date.now()) / 86400000)) : null;
 const dl = daysLeft;
 const related = allProjects
@@ -391,7 +391,7 @@ const T = isZH ? {
           </div>
           <div class="meta-row">
             <span class="meta-label">{T.deadline}</span>
-            <span class="meta-value">{project.deadline ? new Date(project.deadline).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" }) : "N/A"}</span>
+            <span class="meta-value">{project.deadline ? new Date(project.deadline.endsWith('Z') ? project.deadline : project.deadline + 'Z').toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" }) : "N/A"}</span>
           </div>
           <div class="meta-row">
             <span class="meta-label">{T.backersMeta}</span>

@@ -55,7 +55,10 @@ export interface Project {
 
 function computeDaysLeft(deadline: string): number {
   if (!deadline) return 0;
-  const d = new Date(deadline);
+  // Force UTC parsing: most deadlines in the data are stored WITHOUT a trailing
+  // 'Z', so `new Date(str)` would interpret them in the local timezone. On a GMT+8
+  // build/browser that shifts them 8h early and wrongly flips "live" to "ended".
+  const d = new Date(deadline.endsWith('Z') ? deadline : deadline + 'Z');
   const now = new Date();
   return Math.max(0, Math.ceil((d.getTime() - now.getTime()) / (1000 * 60 * 60 * 24)));
 }
