@@ -49,18 +49,26 @@ def batch_hardware_classify(projects: list, batch_size: int = 50) -> list:
         prompt = f"""You are a crowdfunding product classifier. Classify each product as hardware (keep) or non-hardware (delete).
 
 KEEP (hardware):
-1. AI hardware: AI chip, local LLM terminal, AI camera, AI voice, robot, portable AI computing, AI sensor, offline AI device
-2. Smart IoT hardware: WiFi/Bluetooth/sensor/APP-connected devices, drones, 3D printers, power banks, digital audio/video, smart car accessories, electronic controllers
-3. Wearable hardware: smartwatches, bracelets, AR/VR, smart glasses, wearable health monitors, smart earphones, wearable sensors
+1. AI hardware: AI chip, local AI model terminal, AI camera, AI voice speaker, AI vision box, portable AI computing stick, AI painting terminal, AI sensor, AI robot, AI programming hardware, offline AI device, AI interactive controller
+2. Smart IoT hardware: WiFi/Bluetooth/IoT-connected, APP-controlled, auto-sensing electronic devices: smart lights, smart locks, smart thermostats, smart appliances, smart car accessories, drones, 3D printers, electronic displays, digital audio/video, charging/power devices
+3. Wearable hardware: smartwatches, bracelets, smart glasses, smart earphones, wearable sensors, wearable health monitors, VR/AR headsets, wearable interaction peripherals
 
 DELETE (non-hardware):
-Creative crafts, cards/board games, figures/toys, books, clothing/bags, furniture/tableware, food/drinks, handicrafts, pure outdoor tools, kitchenware, cosmetics, pure digital software/courses, non-electronic crafts, regular musical instruments, pet non-electronic products
+1. Creative crafts, art prints, posters, board games, card games, puzzles, figurines, blind boxes, fine art
+2. Home textiles, ceramic tableware, wooden storage, furniture (no electronic components)
+3. Clothing, bags, jewelry, leather goods (no smart modules)
+4. Food, beverages, coffee equipment, kitchenware (no circuits/chips)
+5. Books, courses, digital software (no physical hardware)
+6. Outdoor pure tools: knives, axes, tents, camping gear (no electronics)
+7. Pet toys, pet beds, pet bowls (no smart modules)
+8. Cosmetics, skincare, manual beauty tools
+9. Pure musical instruments, DIY craft kits (no circuit boards)
 
 BOUNDARY RULES:
-1. Main body is electronic hardware with accessories -> KEEP
-2. Main body is creative/fashion/furniture with tiny electronic gift -> DELETE
-3. Online software only, no physical hardware -> DELETE
-4. Design concept only, no circuit board hardware -> DELETE
+1. Product contains both electronic hardware AND ordinary accessories: if the main body is hardware -> KEEP
+2. Only includes minor electronic accessory, main body is clothing/furniture/crafts -> DELETE
+3. Pure digital memberships, APP software, cloud services, no physical hardware -> DELETE
+4. Prototype/concept product: clear mass-production electronic hardware -> KEEP; pure design concept with no physical circuit -> DELETE
 
 Output ONLY a JSON array. Each entry:
 {{"id": "product id", "keep": true/false, "product_type": "AI硬件/智能硬件/可穿戴硬件/非科技产品", "reason": "short reason"}}
