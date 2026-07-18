@@ -204,6 +204,23 @@ const S = lang === "zh" ? {
     try { allData = JSON.parse(dataEl.textContent); } catch(e) { return; }
     dataEl.remove();
 
+    // Keep the Hero "Active Projects" count truly real-time: recompute live-now
+    // from each project's deadline (vs. the current clock) instead of trusting the
+    // build-time snapshot. This way the headline number is always exact, even
+    // between rebuilds, as campaigns cross their deadline continuously.
+    (function patchActiveCount() {
+      var now = Date.now();
+      var liveNow = 0;
+      for (var i = 0; i < allData.length; i++) {
+        var it = allData[i];
+        if (it.st !== 'live') continue;
+        var dl = it.dl ? new Date(it.dl).getTime() : NaN;
+        if (isNaN(dl) || dl > now) liveNow++;
+      }
+      var el = document.getElementById('stat-active-count');
+      if (el) el.textContent = liveNow.toLocaleString();
+    })();
+
     var index = 24;
     var currentData = allData; // sorted copy for lazy loading after sort/filter
 

@@ -285,19 +285,12 @@ def main():
     if ended_count:
         print(f"  🏁 标记 {ended_count} 个过期项目为 ended（归档保留）")
 
-    # Compute stats for summary
-    total_raised = sum(p["pledged"] for p in projects_list)
-    total_backers = sum(p["backers_count"] for p in projects_list)
-    live_count = sum(1 for p in projects_list if p.get("state") == "live")
-
+    # NOTE: We intentionally do NOT write a static "stats" object into projects.json.
+    # Counts (total / live / raised / backers) are now derived at build time from the
+    # project array in src/data/projects.ts, so they can never drift out of sync
+    # when projects are added/removed outside of this script (e.g. classify deletions).
     out = {
         "updated_at": datetime.utcnow().isoformat() + "Z",
-        "stats": {
-            "total_projects": len(projects_list),
-            "live_projects": live_count,
-            "total_raised": total_raised,
-            "total_backers": total_backers,
-        },
         "projects": projects_list,
     }
 

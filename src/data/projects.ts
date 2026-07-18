@@ -80,6 +80,17 @@ export const allProjects: Project[] = rawProjects.map((p: any) => {
   };
 });
 
+// Derived stats — single source of truth, computed at build time from allProjects.
+// Every value is derived from the array itself, so counts can never drift out of sync
+// with the data (this replaces the old static "stats" snapshot in projects.json that
+// went stale whenever projects were added/removed outside of the pipeline).
+export const stats = {
+  total: allProjects.length,
+  liveNow: allProjects.filter((p) => p.state === "live").length,
+  totalRaised: allProjects.reduce((s, p) => s + (p.pledged || 0), 0),
+  totalBackers: allProjects.reduce((s, p) => s + (p.backers_count || 0), 0),
+};
+
 export function getProjectBySlug(slug: string): Project | undefined {
   return allProjects.find((p) => p.slug === slug);
 }
