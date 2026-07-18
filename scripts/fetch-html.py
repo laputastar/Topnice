@@ -138,7 +138,7 @@ def extract_html_tinyfish(url: str) -> dict:
 
 def fetch_one(url: str):
     """按降级顺序尝试 provider。返回 (result_dict, provider_name) 或 (None, None)。"""
-    global firecrawl_dead, contextdev_dead
+    global firecrawl_dead, contextdev_dead, tinyfish_dead
 
     # 1. Firecrawl 优先
     if not firecrawl_dead:
