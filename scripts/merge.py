@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Merge KS + IG data into unified projects.json with deduplication, history, and scoring."""
-import json, hashlib, os
+import json, hashlib, os, re
 from datetime import datetime
 from pathlib import Path
-import sys, requests
+import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 sys.path.insert(0, str(Path(__file__).parent))
 
 # 统一 LLM/API 调用层（集中读 env、统一重试/超时）
-from llm import call_cloudflare, LLMError
+from llm import call_longcat
 
 from scripts.snapshot import batch_append
 from scripts.score import batch_compute
@@ -17,60 +17,86 @@ from safeio import atomic_write_json, load_json_safe
 RAW_DIR = Path(__file__).parent / "raw"
 OUTPUT = Path(__file__).parent.parent / "src" / "data" / "projects.json"
 
-# Cloudflare Workers AI — hardware classifier (free tier: 10K neurons/day)
-# 凭据统一在 llm.py 读取（CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN）
+def batch_hardware_classify(projects: list, batch_size: int = 50) -> list:
+    """使用 Long Cat 批量分类硬件/非硬件项目（替代旧的 Cloudflare Llama 逐个分类）。
 
-HW_PROMPT = """You classify crowdfunding projects as hardware or non-hardware.
-- hardware: electronics, gadgets, tools, robots, 3D printers, cameras, wearables, PC components, audio hardware, charging equipment, EDC gear, physical mechanical products.
-- non-hardware: software, apps, films, books, music, food, clothing, skincare, crafts, digital goods, STL files, services, events.
-Reply with exactly one word: hardware or non-hardware."""
-
-_hw_session = None
-def _get_hw_session():
-    """复用连接的 Session（call_cloudflare 会自行注入鉴权头）"""
-    global _hw_session
-    if _hw_session is None:
-        _hw_session = requests.Session()
-    return _hw_session
-
-def classify_hardware(name: str, blurb: str) -> str:
-    """Returns 'hardware' or 'non-hardware' using Cloudflare Workers AI (free tier).
-
-    Falls back to keyword-based heuristic when AI is unavailable.
+    分批传入 name + tagline + category，Each 50 项一批避免上下文超限。
+    每项写入 hardware_class / hw_type / hw_reason 字段。
+    LLM 不可用时兜底标记为 hardware（safe default）。
     """
-    # Keyword-based pre-filter: catch obvious non-hardware before AI
-    _non_hw_keywords = [
-        "board game", "card game", "tabletop", "rpg", "role-playing",
-        "comic", "book", "novel", "publish", "zine",
-        "film", "movie", "documentary", "video", "animation",
-        "music", "album", "song", "concert",
-        "food", "cook", "recipe", "beverage", "coffee", "tea",
-        "fashion", "clothing", "apparel", "jewelry", "accessory",
-        "software", "app ", " mobile app", "digital",
-        "craft", "art ", "painting", "photography",
-        "service", "event", "workshop", "class",
-    ]
-    combined = (name + " " + blurb[:200]).lower()
-    for kw in _non_hw_keywords:
-        if kw in combined:
-            return "non-hardware"
+    if not projects:
+        return projects
 
-    # AI classifier
-    try:
-        result = call_cloudflare(
-            f"Name: {name}\nBlurb: {blurb[:200]}",
-            model="@cf/meta/llama-3.2-3b-instruct",
-            system=HW_PROMPT,
-            temperature=0,
-            max_tokens=10,
-            timeout=15,
-            max_retries=0,
-            session=_get_hw_session(),
-        ).strip().lower()
-        return result if result in ("hardware", "non-hardware") else "hardware"
-    except LLMError as e:
-        print(f"  ⚠️ CF AI error: {e}")
-        return "hardware"  # safe default: keep the project
+    classified = []
+    total = len(projects)
+    skipped = 0
+    n_batches = (total + batch_size - 1) // batch_size
+
+    for batch_idx in range(n_batches):
+        batch = projects[batch_idx * batch_size:(batch_idx + 1) * batch_size]
+
+        # 精简字段省 token
+        products = []
+        for p in batch:
+            products.append({
+                "id": p.get("id", ""),
+                "name": p.get("name", ""),
+                "tagline": (p.get("blurb") or p.get("tagline") or "")[:300],
+                "description": (p.get("story") or "")[:600],
+                "category": p.get("parent_category") or p.get("category") or "",
+            })
+
+        prompt = f"""You are a crowdfunding product classifier. Classify each product as hardware (keep) or non-hardware (delete).
+
+KEEP (hardware):
+1. AI hardware: AI chip, local LLM terminal, AI camera, AI voice, robot, portable AI computing, AI sensor, offline AI device
+2. Smart IoT hardware: WiFi/Bluetooth/sensor/APP-connected devices, drones, 3D printers, power banks, digital audio/video, smart car accessories, electronic controllers
+3. Wearable hardware: smartwatches, bracelets, AR/VR, smart glasses, wearable health monitors, smart earphones, wearable sensors
+
+DELETE (non-hardware):
+Creative crafts, cards/board games, figures/toys, books, clothing/bags, furniture/tableware, food/drinks, handicrafts, pure outdoor tools, kitchenware, cosmetics, pure digital software/courses, non-electronic crafts, regular musical instruments, pet non-electronic products
+
+BOUNDARY RULES:
+1. Main body is electronic hardware with accessories -> KEEP
+2. Main body is creative/fashion/furniture with tiny electronic gift -> DELETE
+3. Online software only, no physical hardware -> DELETE
+4. Design concept only, no circuit board hardware -> DELETE
+
+Output ONLY a JSON array. Each entry:
+{{"id": "product id", "keep": true/false, "product_type": "AI硬件/智能硬件/可穿戴硬件/非科技产品", "reason": "short reason"}}
+
+Products:
+{json.dumps(products, ensure_ascii=False, indent=2)}"""
+
+        try:
+            raw = call_longcat(
+                prompt,
+                system="You are a product classifier. Output only valid JSON arrays.",
+                temperature=0,
+                timeout=120,
+            )
+            m = re.search(r'\[.*\]', raw, flags=re.DOTALL)
+            if not m:
+                raise ValueError("No JSON array in LLM response")
+            classifications = json.loads(m.group())
+            for i, cls in enumerate(classifications):
+                if i < len(batch):
+                    keep = cls.get("keep", True)
+                    batch[i]["hardware_class"] = "hardware" if keep else "non-hardware"
+                    batch[i]["hw_type"] = cls.get("product_type", "")
+                    batch[i]["hw_reason"] = cls.get("reason", "")
+                    if not keep:
+                        skipped += 1
+        except Exception as e:
+            print(f"  ⚠️ 批次 {batch_idx + 1}/{n_batches} LLM 分类失败: {e}")
+            for p in batch:
+                p["hardware_class"] = "hardware"
+
+        classified.extend(batch)
+        print(f"  ✓ 批次 {batch_idx + 1}/{n_batches}: {len(batch)} 项")
+
+    print(f"  🚫 {skipped} non-hardware projects skipped ({total - skipped} hardware kept)")
+    return classified
 
 # Category mapping from KS subcategory ID → TopNice category
 CATEGORY_MAP = {
@@ -173,18 +199,9 @@ def main():
     # Merge
     all_new = ks_data + ig_data
 
-    # LLM hardware filter: classify ALL fresh API projects before merge
-    print(f"Running AI hardware filter on {len(all_new)} projects...")
-    hw_skipped = 0
-    for p in all_new:
-        hw = classify_hardware(p.get("name", ""), p.get("blurb", ""))
-        p["hardware_class"] = hw
-        if hw == "non-hardware":
-            hw_skipped += 1
-    if hw_skipped:
-        print(f"  🚫 {hw_skipped} non-hardware projects skipped")
-    else:
-        print(f"  ✅ All projects classified as hardware")
+    # Long Cat 批量硬件分类（替代旧的 Cloudflare 逐个判定）
+    print(f"Running LLM hardware filter on {len(all_new)} projects...")
+    all_new = batch_hardware_classify(all_new)
 
     merged = {}
     new_count = 0
