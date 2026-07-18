@@ -1,0 +1,29 @@
+name: Classify Existing Projects
+
+on:
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      LONG_CAT_API_KEY: ${{ secrets.LONG_CAT_API_KEY }}
+      AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests openai
+
+      - name: Classify existing projects (dry-run - shows results, no changes)
+        run: python scripts/classify-existing.py
