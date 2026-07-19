@@ -5,9 +5,8 @@ llm.py — TopNice 数据管线统一 LLM / API 调用层（共享模块）
 所有 API Key 仅从环境变量读取，严禁硬编码（防泄露进 git / 分享）。
 
 提供商:
-  - Long Cat   (OpenAI 兼容): LONG_CAT_API_KEY  / base https://api.longcat.chat/openai / model LongCat-2.0
-  - Agnes AI   (OpenAI 兼容): AGNES_API_KEY     / base https://apihub.agnes-ai.com/v1    / model agnes-2.0-flash
-  - Cloudflare Workers AI:     CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID / 模型可配
+  - Cloudflare Workers AI (主): CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID / 模型可配（默认 qwen3-30b）
+  - Agnes AI   (OpenAI 兼容, 推理模型, 备用): AGNES_API_KEY / base https://apihub.agnes-ai.com/v1 / model agnes-2.0-flash
 
 统一能力:
   - 环境变量只在此处集中读取一次（全管线唯一来源）
@@ -15,10 +14,11 @@ llm.py — TopNice 数据管线统一 LLM / API 调用层（共享模块）
   - 所有函数返回模型原始文本(str)；失败时抛 LLMError，由调用方决定 fallback
 
 环境变量:
-  LONG_CAT_API_KEY, AGNES_API_KEY, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+  AGNES_API_KEY, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
   可选: CF_TRANSLATE_MODEL (覆盖 CF 默认模型), CF_PROXY (中国网络访问 CF 的本地代理)
 """
 import os
+import re
 import time
 import json
 import requests
@@ -37,12 +37,6 @@ CF_MODEL = os.environ.get("CF_TRANSLATE_MODEL", "@cf/qwen/qwen3-30b-a3b-fp8")
 CF_PROXY = os.environ.get("CF_PROXY", "") or None
 CF_PROXIES = {"http": CF_PROXY, "https": CF_PROXY} if CF_PROXY else None
 
-LONGCAT = {
-    "api_key_var": "LONG_CAT_API_KEY",
-    "base_url": "https://api.longcat.chat/openai",
-    "model": "LongCat-2.0",
-    "timeout": 90,
-}
 AGNES = {
     "api_key_var": "AGNES_API_KEY",
     "base_url": "https://apihub.agnes-ai.com/v1",
@@ -63,6 +57,19 @@ def _strip_fences(text: str) -> str:
         if t.endswith("```"):
             t = t[:-3]
     return t.strip()
+
+
+def _strip_think(text: str) -> str:
+    """剥离推理模型可能在 content 中夹带的思考标签（<think>...</think> / <reasoning>...</reasoning>）。
+
+    部分推理模型（如 Agnes）把思维链写入独立字段 reasoning_content，正常不污染 content；
+    此处防御性移除，以防端点把思考塞进 content 而污染下游 JSON 解析 / 翻译。
+    """
+    if not text:
+        return text
+    cleaned = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL | re.IGNORECASE)
+    cleaned = re.sub(r"<reasoning>.*?</reasoning>", "", cleaned, flags=re.DOTALL | re.IGNORECASE)
+    return cleaned.strip()
 
 
 def parse_json(text: str):
@@ -87,14 +94,18 @@ def call_compatible_llm(
     system: str | None = None,
     temperature: float = 0.1,
     timeout: int = 90,
+    max_tokens: int = 2000,
     max_retries: int = 1,
     retry_rate_limit_only: bool = True,
 ) -> str:
-    """调用 OpenAI 协议兼容端点（LongCat / Agnes）。返回模型原始文本；失败抛 LLMError。
+    """调用 OpenAI 协议兼容端点（如 Agnes AI 推理模型）。返回模型原始文本；失败抛 LLMError。
 
     max_retries: 首次失败后的额外重试次数（总尝试 = max_retries + 1）。
     retry_rate_limit_only=True 时仅在 429 限流时重试（与 ai-extract 旧行为一致）；
     设为 False 则在任何异常时都重试。
+
+    max_tokens: 推理模型（如 Agnes）思考会占用上下文预算，需预留足够额度给最终答案，
+    避免答案被截断。同时会防御性剥离可能混入 content 的思考标签（<think>/<reasoning>）。
     """
     if not _HAS_OPENAI:
         raise LLMError("openai 未安装")
@@ -113,9 +124,13 @@ def call_compatible_llm(
                 model=model,
                 messages=messages,
                 temperature=temperature,
+                max_tokens=max_tokens,
                 timeout=timeout,
             )
             raw = resp.choices[0].message.content
+            # 推理模型（Agnes）可能在 content 中夹带 <think>/<reasoning> 思考内容，
+            # 防御性剥离，避免污染下游 JSON 解析 / 翻译。
+            raw = _strip_think(raw)
             if not raw:
                 raise LLMError("empty response")
             return raw
@@ -200,22 +215,12 @@ def call_cloudflare(
     raise LLMError(str(last_err))
 
 
-def call_longcat(prompt: str, *, system=None, temperature=0.1, timeout=90, max_retries=1) -> str:
-    """调用 Long Cat（OpenAI 协议兼容）。失败抛 LLMError。"""
-    return call_compatible_llm(
-        prompt,
-        api_key=os.environ.get(LONGCAT["api_key_var"], ""),
-        base_url=LONGCAT["base_url"],
-        model=LONGCAT["model"],
-        system=system,
-        temperature=temperature,
-        timeout=timeout,
-        max_retries=max_retries,
-    )
+def call_agnes(prompt: str, *, system=None, temperature=0.1, timeout=90, max_tokens=4000, max_retries=1) -> str:
+    """调用 Agnes AI（OpenAI 协议兼容，推理模型）。失败抛 LLMError。
 
-
-def call_agnes(prompt: str, *, system=None, temperature=0.1, timeout=90, max_retries=1) -> str:
-    """调用 Agnes AI（OpenAI 协议兼容）。失败抛 LLMError。"""
+    max_tokens 默认 4000：推理模型思考占用上下文预算，需为最终答案预留额度，
+    避免答案被截断（详见 call_compatible_llm 说明）。
+    """
     return call_compatible_llm(
         prompt,
         api_key=os.environ.get(AGNES["api_key_var"], ""),
@@ -223,6 +228,7 @@ def call_agnes(prompt: str, *, system=None, temperature=0.1, timeout=90, max_ret
         model=AGNES["model"],
         system=system,
         temperature=temperature,
+        max_tokens=max_tokens,
         timeout=timeout,
         max_retries=max_retries,
     )

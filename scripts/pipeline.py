@@ -15,10 +15,9 @@ pipeline.py — TopNice 每日数据管线（一次性编排）
 
 环境变量（均从环境变量读取，禁止硬编码）:
   FIRECRAWL_API_KEY        Firecrawl（抓取 HTML）
-  CLOUDFLARE_ACCOUNT_ID    Cloudflare Workers AI（硬件过滤 + 翻译）
+  CLOUDFLARE_ACCOUNT_ID    Cloudflare Workers AI（AI 提取主引擎 + 硬件分类 + 翻译，必需）
   CLOUDFLARE_API_TOKEN     Cloudflare Workers AI
-  LONG_CAT_API_KEY         AI 提取主引擎（可选，失败回退 Agnes/CF）
-  AGNES_API_KEY            AI 提取备用引擎（可选）
+  AGNES_API_KEY            AI 提取备用引擎（OpenAI 兼容推理模型，可选）
   CF_PROXY                 （可选）中国网络访问 CF 的本地代理
   CF_TRANSLATE_MODEL       （可选）覆盖翻译模型
 """

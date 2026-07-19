@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-classify-existing.py — 对 projects.json 已有的项目运行 Long Cat 硬件分类。
+classify-existing.py — 对 projects.json 已有的项目运行 Cloudflare Workers AI 硬件分类。
 
 用法:
   python scripts/classify-existing.py           # 仅展示分类结果，不修改
   python scripts/classify-existing.py --apply   # 展示 + 从 projects.json 删除非硬件
 
-依赖: LONG_CAT_API_KEY / AGNES_API_KEY 环境变量
+依赖: CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN 环境变量
 """
 import sys, json, os
 from collections import Counter
@@ -28,15 +28,15 @@ already_classified = all(p.get("hw_type") for p in projects)
 
 if already_classified and not APPLY:
     # 已有结果且是 dry-run：直接用已有结果统计，不调 API
-    print("  ✓ 已有之前保存的分类结果，跳过 Long Cat 调用")
+    print("  ✓ 已有之前保存的分类结果，跳过分类调用")
     results = projects
 elif already_classified and APPLY:
     # 已有结果且是 apply：直接用已有结果做删除，不调 API
-    print("  ✓ 已有之前保存的分类结果，跳过 Long Cat 调用，直接执行删除")
+    print("  ✓ 已有之前保存的分类结果，跳过分类调用，直接执行删除")
     results = projects
 else:
-    # 首次运行或缺少结果：调 Long Cat 分类
-    print("  🔄 调 Long Cat 分类...")
+    # 首次运行或缺少结果：调 Cloudflare 分类
+    print("  🔄 调 Cloudflare 分类...")
     results = batch_hardware_classify(projects)
     # 保存分类结果到 projects.json（hw_type / hw_reason 字段持久化）
     data["projects"] = results

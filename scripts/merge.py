@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 sys.path.insert(0, str(Path(__file__).parent))
 
 # 统一 LLM/API 调用层（集中读 env、统一重试/超时）
-from llm import call_longcat
+from llm import call_cloudflare
 
 from scripts.snapshot import batch_append
 from scripts.score import batch_compute
@@ -18,7 +18,7 @@ RAW_DIR = Path(__file__).parent / "raw"
 OUTPUT = Path(__file__).parent.parent / "src" / "data" / "projects.json"
 
 def batch_hardware_classify(projects: list, batch_size: int = 50) -> list:
-    """使用 Long Cat 批量分类硬件/非硬件项目（替代旧的 Cloudflare Llama 逐个分类）。
+    """使用 Cloudflare Workers AI 批量分类硬件/非硬件项目（替代旧的逐个分类）。
 
     分批传入 name + tagline + category，Each 50 项一批避免上下文超限。
     每项写入 hardware_class / hw_type / hw_reason 字段。
@@ -77,11 +77,14 @@ Products:
 {json.dumps(products, ensure_ascii=False, indent=2)}"""
 
         try:
-            raw = call_longcat(
+            raw = call_cloudflare(
                 prompt,
                 system="You are a product classifier. Output only valid JSON arrays.",
                 temperature=0,
+                max_tokens=4000,
                 timeout=120,
+                max_retries=1,
+                backoff=3,
             )
             m = re.search(r'\[.*\]', raw, flags=re.DOTALL)
             if not m:
@@ -207,8 +210,8 @@ def main():
     # Merge
     all_new = ks_data + ig_data
 
-    # Long Cat 批量硬件分类（替代旧的 Cloudflare 逐个判定）
-    print(f"Running LLM hardware filter on {len(all_new)} projects...")
+    # Cloudflare Workers AI 批量硬件分类
+    print(f"Running Cloudflare hardware classification on {len(all_new)} projects...")
     all_new = batch_hardware_classify(all_new)
 
     merged = {}

@@ -9,7 +9,7 @@ ai-extract.py — 用 LLM 从原始抓取内容提取项目结构化字段
   - 关键增强：LLM 同时产出 ai_tiers（档位/价格），解决 IG 正则解析失败的问题
   - KS / IG 共用同一套 AI schema，无需维护两套解析器
 
-提供商: Long Cat (首选) → Agnes AI (备用)
+提供商: Cloudflare Workers AI (首选) → Agnes AI (备用, 推理模型)
 
 用法:
   python scripts/ai-extract.py                              # 全量（只处理缺 AI 字段的 live 项目）
@@ -30,28 +30,24 @@ from safeio import atomic_write_json
 DATA_FILE = Path(__file__).parent.parent / "src" / "data" / "projects.json"
 RAW_HTML_DIR = Path(__file__).parent / "raw" / "html"
 
-# LLM 配置
+# AI 提供商优先级（全管线统一）：Cloudflare Workers AI 主用 → Agnes AI 备用
 # 所有 Key 均从环境变量读取，禁止硬编码（防泄露进 git/分享）。
-# 运行前请 export: LONG_CAT_API_KEY / AGNES_API_KEY / CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN
-LLM_CONFIGS = [
+# 运行前请 export: AGNES_API_KEY / CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN
+LLM_PROVIDERS = [
     {
-        "name": "Long Cat",
-        "api_key_var": "LONG_CAT_API_KEY",
-        "base_url": "https://api.longcat.chat/openai",
-        "model": "LongCat-2.0",
-        "timeout": 90,
+        "name": "Cloudflare Workers AI",
+        "type": "cloudflare",
+        "model": "@cf/meta/llama-3.2-3b-instruct",
     },
     {
         "name": "Agnes AI",
+        "type": "compatible",
         "api_key_var": "AGNES_API_KEY",
         "base_url": "https://apihub.agnes-ai.com/v1",
         "model": "agnes-2.0-flash",
         "timeout": 90,
     },
 ]
-
-# Cloudflare Workers AI 备用模型（仅当 LongCat+Agnes 都失败时使用；凭据统一在 llm.py 读取）
-CF_AI_MODEL = "@cf/meta/llama-3.2-3b-instruct"
 
 SYSTEM_PROMPT = """You are a senior crowdfunding product analyst. Given a project page's raw text, extract structured information.
 
@@ -113,8 +109,8 @@ def html_to_llm_content(raw_html: str) -> str:
     return merged[:MAX_CONTENT_CHARS]
 
 
-def _call_llm(content: str, currency: str, platform: str, config: dict) -> dict | None:
-    """调用单个 LLM，返回解析后的 dict 或 None"""
+def _call_llm(content: str, currency: str, platform: str, provider: dict) -> dict | None:
+    """调用单个 AI 提供商（Cloudflare 主 / Agnes 备用），返回解析后的 dict 或 None"""
     user_prompt = (
         "You are analyzing a crowdfunding project page (raw page text). "
         "Extract structured information as JSON.\n\n"
@@ -141,30 +137,34 @@ def _call_llm(content: str, currency: str, platform: str, config: dict) -> dict 
     )
 
 
-    # 1) 尝试配置中的 OpenAI 兼容提供商 (LongCat / Agnes)，限流自动退避重试 1 次
+    name = provider["name"]
+
+    # Cloudflare Workers AI（主用）：直接调用，无重试
+    if provider["type"] == "cloudflare":
+        try:
+            raw = call_cloudflare(
+                user_prompt, model=provider["model"], system=SYSTEM_PROMPT,
+                timeout=60, max_tokens=3000,
+            )
+            return parse_json(raw)
+        except Exception as e:
+            print(f"  ⚠️  {name} 失败: {e}")
+        return None
+
+    # Agnes AI（OpenAI 兼容 / 推理模型，备用）：限流自动退避重试 1 次
     try:
         raw = call_compatible_llm(
             user_prompt,
-            api_key=os.environ.get(config["api_key_var"], ""),
-            base_url=config["base_url"],
-            model=config["model"],
+            api_key=os.environ.get(provider["api_key_var"], ""),
+            base_url=provider["base_url"],
+            model=provider["model"],
             system=SYSTEM_PROMPT,
-            timeout=config["timeout"],
+            timeout=provider["timeout"],
             max_retries=1,
         )
         return parse_json(raw)
     except Exception as e:
-        print(f"  ⚠️  {config['name']} 失败: {e}")
-
-    # 2) Cloudflare Workers AI 备用（无重试，与旧行为一致）
-    print("  → 尝试 Cloudflare Workers AI 备用...")
-    try:
-        raw = call_cloudflare(user_prompt, model=CF_AI_MODEL, system=SYSTEM_PROMPT, timeout=60)
-        return parse_json(raw)
-    except Exception as e:
-        print(f"  ❌ Cloudflare 备用也失败: {e}")
-    return None
-    return None
+        print(f"  ⚠️  {name} 失败: {e}")
     return None
 
 
@@ -189,13 +189,13 @@ def extract(project: dict, force: bool = False) -> bool:
     print(f"  📖 来源:{src} | {len(content)} chars")
 
     result = None
-    for i, config in enumerate(LLM_CONFIGS):
-        name = config["name"]
-        # 首选 provider 重试 3 次（应对偶发超时），其余 provider 只试 1 次
+    for i, provider in enumerate(LLM_PROVIDERS):
+        name = provider["name"]
+        # 主用引擎（Cloudflare）重试 3 次（应对偶发超时），备用只试 1 次
         max_attempts = 3 if i == 0 else 1
         for attempt in range(1, max_attempts + 1):
             print(f"  📡 尝试 {name}... (attempt {attempt}/{max_attempts})")
-            result = _call_llm(content, currency, platform, config)
+            result = _call_llm(content, currency, platform, provider)
             if result:
                 print(f"  ✅ {name} 成功")
                 break
@@ -212,7 +212,7 @@ def extract(project: dict, force: bool = False) -> bool:
         print(f"  ⏭️  {name} 失败，切换下一个")
 
     if not result:
-        print("  ❌ 所有 LLM 提供商均失败")
+        print("  ❌ 所有 AI 提供商均失败")
         return False
 
     expected = ["ai_intro_en", "ai_highlights_en", "ai_specs_en",
