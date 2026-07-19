@@ -245,8 +245,11 @@ def main():
             old["staff_pick"] = p.get("staff_pick", False)
             old["score"] = p.get("score", old.get("score", 0))
 
-            # Check if static content changed (hash mismatch)
-            if content_hash(p) != old.get("content_hash", ""):
+            # Watchlist refresh = variables only; NEVER re-translate content
+            # (prevents wasting tokens re-translating already-translated pages)
+            if "watchlist" in (p.get("source") or ""):
+                updated_count += 1
+            elif content_hash(p) != old.get("content_hash", ""):
                 old["name"] = p["name"]
                 old["blurb"] = p["blurb"]
                 old["image_full"] = p["image_full"]
