@@ -52,6 +52,7 @@ KEEP (hardware):
 1. AI hardware: AI chip, local AI model terminal, AI camera, AI voice speaker, AI vision box, portable AI computing stick, AI painting terminal, AI sensor, AI robot, AI programming hardware, offline AI device, AI interactive controller
 2. Smart IoT hardware: WiFi/Bluetooth/IoT-connected, APP-controlled, auto-sensing electronic devices: smart lights, smart locks, smart thermostats, smart appliances, smart car accessories, drones, 3D printers, electronic displays, digital audio/video, charging/power devices
 3. Wearable hardware: smartwatches, bracelets, smart glasses, smart earphones, wearable sensors, wearable health monitors, VR/AR headsets, wearable interaction peripherals
+4. EDC & precision tools: titanium/steel pocket knives, multitools, precision screwdrivers/ratchets, mechanical fidget tools, machined everyday-carry gear (metal-constructed, precision-engineered)
 
 DELETE (non-hardware):
 1. Creative crafts, art prints, posters, board games, card games, puzzles, figurines, blind boxes, fine art
@@ -59,7 +60,7 @@ DELETE (non-hardware):
 3. Clothing, bags, jewelry, leather goods (no smart modules)
 4. Food, beverages, coffee equipment, kitchenware (no circuits/chips)
 5. Books, courses, digital software (no physical hardware)
-6. Outdoor pure tools: knives, axes, tents, camping gear (no electronics)
+6. Outdoor pure gear (non-precision): tents, sleeping bags, camping furniture, generic axes, cookware (no machined precision hardware)
 7. Pet toys, pet beds, pet bowls (no smart modules)
 8. Cosmetics, skincare, manual beauty tools
 9. Pure musical instruments, DIY craft kits (no circuit boards)
@@ -69,6 +70,7 @@ BOUNDARY RULES:
 2. Only includes minor electronic accessory, main body is clothing/furniture/crafts -> DELETE
 3. Pure digital memberships, APP software, cloud services, no physical hardware -> DELETE
 4. Prototype/concept product: clear mass-production electronic hardware -> KEEP; pure design concept with no physical circuit -> DELETE
+5. EDC precision tools (titanium knives, multitools, precision screwdrivers/ratchets) -> KEEP even if no electronics
 
 Output ONLY a JSON array. Each entry:
 {{"id": "product id", "keep": true/false, "product_type": "AI硬件/智能硬件/可穿戴硬件/非科技产品", "reason": "short reason"}}

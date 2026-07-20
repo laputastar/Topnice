@@ -26,7 +26,7 @@ const projectJson = JSON.stringify(sortedProjects.map(p => ({
   i: p.image_full || p.image_med || p.image_thumb || '',
   p: p.platform === "kickstarter" ? "k" : "i",
   c: p.topnice_category || p.category, d: p.pledged, g: p.goal,
-  f: p.percent_funded, st: p.state, l: p.daysLeft || 0, b: p.backers_count,
+  f: p.percent_funded, st: p.state, l: daysLeftFromDeadline(p.deadline) || 0, b: p.backers_count,
   sc: p.score || 0, dl: p.deadline || '', la: p.launched_at || ''
 })));
 
@@ -43,13 +43,22 @@ const totalRaised = allProjects.reduce((s, p) => s + p.pledged, 0);
 const totalBackers = allProjects.reduce((s, p) => s + p.backers_count, 0);
 const liveCount = allProjects.filter((p) => p.state === "live").length;
 
+// 实时从 deadline 推算剩余天数（浏览器本地时钟可信，避免 JSON 中 daysLeft 老化差 1 天）
+function daysLeftFromDeadline(deadline) {
+  if (!deadline) return 0;
+  const s = deadline.endsWith('Z') ? deadline : deadline + 'Z';
+  const t = new Date(s).getTime();
+  if (isNaN(t)) return 0;
+  return Math.max(0, Math.ceil((t - Date.now()) / 86400000));
+}
+
 // 标题：中文模式优先 nameZh，与详情页/搜索页一致
 const base = lang === "zh" ? "/zh" : "";
 
 // Hero 卡片 meta：中英文案按语言切换
 const heroMeta = (p: any) => lang === "zh"
-  ? (p.goal > 0 ? '目标 ' + fm(p.goal) + ' · ' : '') + p.backers_count.toLocaleString() + ' 支持者 · ' + (p.daysLeft > 0 ? p.daysLeft + ' 天剩余' : p.state !== 'live' ? '已结束' : '即将结束')
-  : (p.goal > 0 ? 'Goal ' + fm(p.goal) : '') + ' ' + p.backers_count.toLocaleString() + ' backers · ' + (p.daysLeft > 0 ? p.daysLeft + ' days left' : p.state !== 'live' ? 'Ended' : '');
+  ? (p.goal > 0 ? '目标 ' + fm(p.goal) + ' · ' : '') + p.backers_count.toLocaleString() + ' 支持者 · ' + (daysLeftFromDeadline(p.deadline) > 0 ? daysLeftFromDeadline(p.deadline) + ' 天剩余' : p.state !== 'live' ? '已结束' : '即将结束')
+  : (p.goal > 0 ? 'Goal ' + fm(p.goal) : '') + ' ' + p.backers_count.toLocaleString() + ' backers · ' + (daysLeftFromDeadline(p.deadline) > 0 ? daysLeftFromDeadline(p.deadline) + ' days left' : p.state !== 'live' ? 'Ended' : '');
 
 const S = lang === "zh" ? {
   h1a: "发现全球", h1b: "硬件众筹", h1c: "新品",
@@ -95,7 +104,7 @@ const S = lang === "zh" ? {
         <StatsBar
           totalProjects={liveCount}
           totalRaised={fm(totalRaised)}
-          totalBackers={fm(totalBackers)}
+          totalBackers={totalBackers.toLocaleString()}
           lang={lang}
         />
       </div>
@@ -235,7 +244,8 @@ const S = lang === "zh" ? {
       var pct = d.g > 0 ? Math.min(d.f, 9999).toFixed(0) + '%' : '';
       var pctHtml = d.g > 0 ? '<span class="card-percent">' + pct + '</span>' : '';
       var barWidth = d.g > 0 ? Math.min(d.f, 100) : 100;
-      var daysHtml = d.l > 0 ? d.l + ' ' + STR.days : STR.ended;
+      var daysNum = daysLeftFromDeadline(d.dl);
+      var daysHtml = daysNum > 0 ? daysNum + ' ' + STR.days : STR.ended;
       var fm = '$' + Math.round(d.d || 0).toLocaleString('en-US');
       var bc = (d.b || 0).toLocaleString('en-US');
 
@@ -295,7 +305,8 @@ const S = lang === "zh" ? {
       var imgBlock = '<div class="list-thumb">' + img + '</div>';
       var pct = d.g > 0 ? Math.min(d.f, 9999).toFixed(0) + '%' : '';
       var barWidth = d.g > 0 ? Math.min(d.f, 100) : 100;
-      var daysHtml = d.l > 0 ? d.l + ' ' + STR.days : STR.ended;
+      var daysNum = daysLeftFromDeadline(d.dl);
+      var daysHtml = daysNum > 0 ? daysNum + ' ' + STR.days : STR.ended;
       var fm = '$' + Math.round(d.d || 0).toLocaleString('en-US');
       var bc = (d.b || 0).toLocaleString('en-US');
       var el = document.createElement('div');

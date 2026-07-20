@@ -215,6 +215,16 @@ def extract(project: dict, force: bool = False) -> bool:
         print("  ❌ 所有 AI 提供商均失败")
         return False
 
+    # 空提取防护：若核心字段全部为空（intro/highlights/specs/tiers 全 0），
+    # 视为 AI 抽空（如推理模型返回空白 / JSON 解析丢字段），不落盘污染数据。
+    _intro = result.get("ai_intro_en") or ""
+    _hl = result.get("ai_highlights_en") or []
+    _sp = result.get("ai_specs_en") or []
+    _tr = result.get("ai_tiers") or []
+    if (not _intro) and (not _hl) and (not _sp) and (not _tr):
+        print("  ⚠️  空提取防护触发：intro/highlights/specs/tiers 全空，判定失败不落盘")
+        return False
+
     expected = ["ai_intro_en", "ai_highlights_en", "ai_specs_en",
                 "ai_risks_en", "ai_creator_bio_en", "ai_tiers"]
     for field in expected:
