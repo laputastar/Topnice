@@ -8,7 +8,10 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 sys.path.insert(0, str(Path(__file__).parent))
 
 # 统一 LLM/API 调用层（集中读 env、统一重试/超时）
-from llm import call_cloudflare
+from llm import call_cloudflare, CF_MODEL
+
+# 分类专用模型（默认沿用 CF 翻译模型 qwen3-30b；如需更强可设 CF_CLASSIFY_MODEL 覆盖）
+CLASSIFY_MODEL = os.environ.get("CF_CLASSIFY_MODEL", CF_MODEL)
 
 from scripts.snapshot import batch_append
 from scripts.score import batch_compute
@@ -65,6 +68,10 @@ DELETE (non-hardware):
 8. Cosmetics, skincare, manual beauty tools
 9. Pure musical instruments, DIY craft kits (no circuit boards)
 
+DEFAULT RULE (最重要): 当无法 100% 确定某产品是否为实体硬件时，一律 KEEP（保留）。
+只有能明确判定为以下纯非硬件时，才 DELETE：纯数字软件/课程/电子书、纸质书籍/漫画、
+普通食品饮料、无任何电子模块的服饰箱包、纯手工艺/绘画/雕塑、宠物用品、化妆品/护肤、纯乐器(无电路)。
+
 BOUNDARY RULES:
 1. Product contains both electronic hardware AND ordinary accessories: if the main body is hardware -> KEEP
 2. Only includes minor electronic accessory, main body is clothing/furniture/crafts -> DELETE
@@ -81,6 +88,7 @@ Products:
         try:
             raw = call_cloudflare(
                 prompt,
+                model=CLASSIFY_MODEL,
                 system="You are a product classifier. Output only valid JSON arrays.",
                 temperature=0,
                 max_tokens=4000,
@@ -104,6 +112,18 @@ Products:
             print(f"  ⚠️ 批次 {batch_idx + 1}/{n_batches} LLM 分类失败: {e}")
             for p in batch:
                 p["hardware_class"] = "hardware"
+
+        # 失败护栏：本批次删除率过高（>40%）视为模型异常，整批默认保留，
+        # 杜绝静默砍掉 90% 数据（参考 2026-07-20 的 635→58 事故）。
+        _non = sum(1 for p in batch if p.get("hardware_class") == "non-hardware")
+        if batch and _non / len(batch) > 0.4:
+            print(f"  🛡️ 护栏触发：本批 {_non}/{len(batch)} 被判删除(>{40}%) → 视为异常，整批改判保留")
+            for p in batch:
+                p["hardware_class"] = "hardware"
+                if not p.get("hw_type"):
+                    p["hw_type"] = "硬件(护栏兜底)"
+                if not p.get("hw_reason"):
+                    p["hw_reason"] = "删除率超阈值，护栏兜底保留"
 
         classified.extend(batch)
         print(f"  ✓ 批次 {batch_idx + 1}/{n_batches}: {len(batch)} 项")
@@ -212,9 +232,20 @@ def main():
     # Merge
     all_new = ks_data + ig_data
 
-    # Cloudflare Workers AI 批量硬件分类
-    print(f"Running Cloudflare hardware classification on {len(all_new)} projects...")
-    all_new = batch_hardware_classify(all_new)
+    # ⚠️ 增量分类（用户规则：除非显式要求整体重筛，否则只对【新增】产品
+    #    分类/删除；已入库项目沿用历史 hardware_class，绝不重新筛选或删除）。
+    new_projects = [p for p in all_new if p["id"] not in existing]
+    existing_raw = [p for p in all_new if p["id"] in existing]
+    print(f"  · 新增待分类: {len(new_projects)} | 已入库(跳过分类、沿用历史): {len(existing_raw)}")
+    if new_projects:
+        new_projects = batch_hardware_classify(new_projects)
+    # 已入库项目：沿用其在 projects.json 中的历史分类结果（不重新判定）
+    for p in existing_raw:
+        old = existing[p["id"]]
+        p["hardware_class"] = old.get("hardware_class", "hardware")
+        p["hw_type"] = old.get("hw_type", "")
+        p["hw_reason"] = old.get("hw_reason", "")
+    all_new = new_projects + existing_raw
 
     merged = {}
     new_count = 0
