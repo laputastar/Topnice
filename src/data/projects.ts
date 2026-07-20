@@ -67,19 +67,18 @@ function computeDaysLeft(deadline: string): number {
 const rawProjects: any[] = pipelineProjects?.projects ?? [];
 
 export const allProjects: Project[] = rawProjects.map((p: any) => {
-  const daysLeft = computeDaysLeft(p.deadline);
-  // IMPORTANT: state must be derived from deadline, never trusted from the JSON snapshot.
-  // Campaigns cross their deadline daily, so a stored "live" can already be "ended".
-  const state = p.deadline
-    ? daysLeft > 0
-      ? "live"
-      : "ended"
-    : p.state || "live";
+  // 修复：state / daysLeft 一律信任数据管线写入的值（merge.py 的 apply_ended_states
+  // 已在 GitHub Actions 正常时钟下按 deadline 标记 ended）。绝不在构建时用 new Date()
+  // 重新派生 state —— Cloudflare 构建容器的系统时钟曾异常快进，导致大量未来 deadline
+  // 被误判为 ended，首页 "Active Projects" 从 ~572 暴跌到 34。
+  // 前端的 patchActiveCount（HomeView.astro）仍会用浏览器本地时钟对 deadline 做实时
+  // 校验，那个时钟可信，所以"刚结束"的项目能正确从 active 中剔除。
+  const daysLeft = typeof p.daysLeft === "number" ? p.daysLeft : computeDaysLeft(p.deadline);
   return {
     ...p,
     slug: p.slug || p.id,
     daysLeft,
-    state,
+    state: p.state || "live",
   };
 });
 
