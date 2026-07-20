@@ -5788,7 +5788,81 @@
         "heat": 37.1
       },
       "raw_html_hash": "29157c24fa3e2e85",
-      "raw_fetched_at": "2026-07-20T04:09:30.854506+00:00"
+      "raw_fetched_at": "2026-07-20T04:09:30.854506+00:00",
+      "ai_intro_en": "Meet Lumi — your 24/7 friend that turns your daily life into emotional insight, personalized care, and a digital identity.",
+      "ai_highlights_en": [
+        "Seamlessly connects with the Lumi App, where the Lumi AI Agent actively monitors and interprets your health signals through medical-grade analytical models.",
+        "Delivers personalized guidance in a refined, podcast-style audio format, transforming complex physiological signals into clear, actionable recommendations.",
+        "Reduces the confusion caused by fragmented or overwhelming health data, providing a calmer, more intelligent experience."
+      ],
+      "ai_specs_en": [
+        [
+          "Colors & Styles",
+          "Replaceable Ring Mibo System"
+        ],
+        [
+          "Lumi Software Ecosystem",
+          "Why Lumi?"
+        ],
+        [
+          "Hardware Features",
+          "Colors & Styles"
+        ]
+      ],
+      "ai_risks_en": "Like all forward-looking projects on Kickstarter, Lumi Smart Ring involves certain risks inherent to bringing a new product to market.",
+      "ai_creator_bio_en": "Built with global tech and academic DNA.",
+      "ai_tiers": [
+        {
+          "name": "Back this project",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "All or nothing. This project will only be funded if it reaches its goal by Thu, September 17 2026 6:30 PM PDT."
+        },
+        {
+          "name": "5 items included+ optional add-ons +3 More",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 2,
+          "description": "Estimated delivery Oct 2026 6 items included+ optional add-ons +3 More"
+        },
+        {
+          "name": "6 items included+ optional add-ons +3 More",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 1,
+          "description": "Estimated delivery Oct 2026 6 items included+ optional add-ons +3 More"
+        },
+        {
+          "name": "6 items included+ optional add-ons +3 More",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 1,
+          "description": "Estimated delivery Oct 2026 6 items included+ optional add-ons +3 More"
+        },
+        {
+          "name": "6 items included+ optional add-ons +3 More",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 1,
+          "description": "Estimated delivery Oct 2026 6 items included+ optional add-ons +3 More"
+        },
+        {
+          "name": "6 items included+ optional add-ons +3 More",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 1,
+          "description": "Estimated delivery Oct 2026 6 items included+ optional add-ons +3 More"
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1621448784",
@@ -7097,7 +7171,69 @@
         "heat": 28.5
       },
       "raw_html_hash": "629895df5f11afa8",
-      "raw_fetched_at": "2026-07-20T04:09:44.472665+00:00"
+      "raw_fetched_at": "2026-07-20T04:09:44.472665+00:00",
+      "ai_intro_en": "Pants for Birds LLC is a hardware company based in Campbell, CA. We specialize in building embedded solutions for aircraft tracking, with open source schematics and firmware. Our open source ADS-B receiver project, ADSBee, has been deployed in applications ranging from industrial ground stations to weather balloons. We have fielded many requests from users of ADSBee to integrate the additional sensors required for turning it into a fully self-contained electronic flight bag receiver. After half a year of research and development, we're excited to announce the result of our efforts: ADSBee Winglet!",
+      "ai_highlights_en": [
+        "Tri-band Receiver Tracks up to 400 targets simultaneously: aircraft via ADS-B using 1090 MHz Mode S + 978 MHz UAT and drones via 2.4 GHz Remote ID.",
+        "It also received FIS-B Weather and TIS-B Traffic reports via UAT.",
+        "Built for the Cockpit, Awesome Anywhere Winglet can be affixed to the inside of an aircraft for use during flight, and provides both ADS-B in and GPS position to your favorite electronic flight bag app (e.g. Foreflight, Garmin Pilot, FlyQ, Avare, and others), or use the built-in screen for additional situational awareness."
+      ],
+      "ai_specs_en": [
+        [
+          "Internal multi-constellation WAAS GPS receiver",
+          "backup AHRS with onboard IMU + magnetometer attitude reference"
+        ],
+        [
+          "Onboard barometer for pressure altitude",
+          "Track logging is also provided via SD card"
+        ],
+        [
+          "Carbon Monoxide Sensor + Alarm",
+          "Cabin carbon monoxide (CO) monitoring with an audible alert for added safety"
+        ],
+        [
+          "Detachable holster clip compatible with Sentry-style window mounts"
+        ],
+        [
+          "Visible Day or Night Illuminated front panel with ePaper screen, with auto-dimming status lights and backlit keypad"
+        ],
+        [
+          "Battery Power Done Right 12+ hours of battery life, USB-C fast charging, and a user serviceable battery - no desoldering required!"
+        ],
+        [
+          "You can also power Winglet continuously via USB-C or PoE. (PoE connection requires additional accessory)"
+        ]
+      ],
+      "ai_risks_en": "Most of the risk in developing an integrated electronic flight bag receiver like ADSBee Winglet boils down to effectiveness of the core receiver technology, the manufacturing + supply chain challenge of getting the thing built, and regulatory hurdles in turning the device into a sellable product.",
+      "ai_creator_bio_en": "Pants for Birds LLC is a hardware company based in Campbell, CA. We specialize in building embedded solutions for aircraft tracking, with open source schematics and firmware.",
+      "ai_tiers": [
+        {
+          "name": "Earliest Bird",
+          "price": 350,
+          "price_usd": 350,
+          "currency": "USD",
+          "backers": 250,
+          "description": "Fresh off the assembly line - the first 250 backers get an ADSBee Winglet + optimized antennas for all 3 frequencies + holster for window mount (suction cup window-mount not included) for $350 - a 30% discount off of the final price!"
+        },
+        {
+          "name": "Early Bird",
+          "price": 395,
+          "price_usd": 395,
+          "currency": "USD",
+          "backers": 100,
+          "description": "You weren't the earliest bird, but there are plenty of worms to go around! This reward includes an ADSBee Winglet + optimized antennas for all 3 frequencies + holster for window mount (suction cup window-mount not included) for $395, a $100 discount off the final retail price."
+        },
+        {
+          "name": "Regular",
+          "price": 445,
+          "price_usd": 445,
+          "currency": "USD",
+          "backers": 0,
+          "description": "You weren't early, but you're still a bird, and we've still got some worms in the back, so things are going pretty all right. This reward includes an ADSBee Winglet + optimized antennas for all 3 frequencies + holster for window mount (suction cup window-mount not included) for $445, a $50 discount off the final retail price."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-499906279",
@@ -12335,12 +12471,90 @@
       },
       "raw_html_hash": "cc2573c515fc9fd5",
       "raw_fetched_at": "2026-07-18T10:14:22.963781+00:00",
-      "ai_intro_en": "",
-      "ai_highlights_en": [],
-      "ai_specs_en": [],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "",
-      "ai_tiers": [],
+      "ai_intro_en": "Product Summary",
+      "ai_highlights_en": [
+        "Highlight 1",
+        "Highlight 2",
+        "Highlight 3"
+      ],
+      "ai_specs_en": [
+        [
+          "Spec 1",
+          "Value 1"
+        ],
+        [
+          "Spec 2",
+          "Value 2"
+        ],
+        [
+          "Spec 3",
+          "Value 3"
+        ],
+        [
+          "Spec 4",
+          "Value 4"
+        ],
+        [
+          "Spec 5",
+          "Value 5"
+        ],
+        [
+          "Spec 6",
+          "Value 6"
+        ],
+        [
+          "Spec 7",
+          "Value 7"
+        ],
+        [
+          "Spec 8",
+          "Value 8"
+        ],
+        [
+          "Spec 9",
+          "Value 9"
+        ],
+        [
+          "Spec 10",
+          "Value 10"
+        ],
+        [
+          "Spec 11",
+          "Value 11"
+        ],
+        [
+          "Spec 12",
+          "Value 12"
+        ]
+      ],
+      "ai_risks_en": "Risk Assessment",
+      "ai_creator_bio_en": "Creator Bio",
+      "ai_tiers": [
+        {
+          "name": "Tier 1",
+          "price": "$10",
+          "price_usd": "10",
+          "currency": "USD",
+          "backers": null,
+          "description": "Description 1"
+        },
+        {
+          "name": "Tier 2",
+          "price": "$20",
+          "price_usd": "20",
+          "currency": "USD",
+          "backers": null,
+          "description": "Description 2"
+        },
+        {
+          "name": "Tier 3",
+          "price": "$30",
+          "price_usd": "30",
+          "currency": "USD",
+          "backers": null,
+          "description": "Description 3"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -12406,12 +12620,106 @@
       },
       "raw_html_hash": "20bc291ff901a2fc",
       "raw_fetched_at": "2026-07-18T10:14:27.049397+00:00",
-      "ai_intro_en": "",
-      "ai_highlights_en": [],
-      "ai_specs_en": [],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "",
-      "ai_tiers": [],
+      "ai_intro_en": "Product Summary",
+      "ai_highlights_en": [
+        "Highlight 1",
+        "Highlight 2",
+        "Highlight 3"
+      ],
+      "ai_specs_en": [
+        [
+          "Spec 1",
+          "Value 1"
+        ],
+        [
+          "Spec 2",
+          "Value 2"
+        ],
+        [
+          "Spec 3",
+          "Value 3"
+        ],
+        [
+          "Spec 4",
+          "Value 4"
+        ],
+        [
+          "Spec 5",
+          "Value 5"
+        ],
+        [
+          "Spec 6",
+          "Value 6"
+        ],
+        [
+          "Spec 7",
+          "Value 7"
+        ],
+        [
+          "Spec 8",
+          "Value 8"
+        ],
+        [
+          "Spec 9",
+          "Value 9"
+        ],
+        [
+          "Spec 10",
+          "Value 10"
+        ],
+        [
+          "Spec 11",
+          "Value 11"
+        ],
+        [
+          "Spec 12",
+          "Value 12"
+        ]
+      ],
+      "ai_risks_en": "Risk Assessment",
+      "ai_creator_bio_en": "Creator Bio",
+      "ai_tiers": [
+        {
+          "name": "Tier 1",
+          "price": "€10",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Description 1"
+        },
+        {
+          "name": "Tier 2",
+          "price": "€20",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Description 2"
+        },
+        {
+          "name": "Tier 3",
+          "price": "€30",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Description 3"
+        },
+        {
+          "name": "Tier 4",
+          "price": "€40",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Description 4"
+        },
+        {
+          "name": "Tier 5",
+          "price": "€50",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Description 5"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
