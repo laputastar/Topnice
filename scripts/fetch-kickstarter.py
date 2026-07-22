@@ -7,6 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from safeio import atomic_write_json, load_json_safe
+from blacklist import is_blacklisted, blacklist_size
 
 OUTPUT = Path(__file__).parent / "raw" / "kickstarter.json"
 
@@ -242,11 +243,14 @@ def main_discover():
     # Strategy: multiple sort orders to maximize coverage of live projects.
     # KS API limits each sort to ~5 pages per subcategory (403 on page 6+).
     # Different sort orders surface different projects.
+    blacklisted_skipped = 0
+    print(f"(blacklist: {blacklist_size()} audited non-hardware slugs will be skipped)")
+
     for sort in SORT_ORDERS:
         print(f"\n{'='*50}")
         print(f"Sort: {sort}")
         print(f"{'='*50}")
-        
+
         for sub_id in sorted(PHYSICAL_SUB_IDS):
             page = 1
             sub_count = 0
@@ -271,6 +275,11 @@ def main_discover():
 
                     sub = p.get("category", {}).get("id", 0)
                     if sub in EXCLUDE_SUB_IDS:
+                        continue
+
+                    # Skip audited non-hardware slugs (permanent block)
+                    if is_blacklisted(p.get("slug", "")):
+                        blacklisted_skipped += 1
                         continue
 
                     all_projects.append(extract_project(p))
@@ -305,6 +314,8 @@ def main_discover():
     })  # 原子写：崩溃不损坏，写前备份 .bak
 
     print(f"\n✅ Kickstarter: {len(all_projects)} live physical projects saved to {OUTPUT}")
+    if blacklisted_skipped:
+        print(f"   🚫 Skipped {blacklisted_skipped} blacklisted non-hardware slug(s)")
     return len(all_projects)
 
 def main_watchlist(limit: int | None = None) -> int:
@@ -328,6 +339,7 @@ def main_watchlist(limit: int | None = None) -> int:
         return 0
     known = load_json_safe(proj_file).get("projects", [])
     ks = [p for p in known if p.get("platform") == "kickstarter" and p.get("url")]
+    ks = [p for p in ks if not is_blacklisted(p.get("slug", ""))]
     print(f"Known KS projects to refresh: {len(ks)}")
 
     refreshed, ok, failed = [], 0, 0

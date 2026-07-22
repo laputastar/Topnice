@@ -6,6 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from safeio import atomic_write_json
+from blacklist import is_blacklisted, blacklist_size
 
 OUTPUT = Path(__file__).parent / "raw" / "indiegogo.json"
 
@@ -97,11 +98,18 @@ def main():
         return 0
 
     print(f"Total active IG projects: {len(all_data)}")
+    print(f"(blacklist: {blacklist_size()} audited non-hardware slugs will be skipped)")
 
     projects = []
     physical_count = 0
+    blacklisted_skipped = 0
 
     for p in all_data:
+        # Permanent block: audited non-hardware slugs must never re-ingest
+        if is_blacklisted(p.get("projectUrlName", "")):
+            blacklisted_skipped += 1
+            continue
+
         name = p.get("projectName", "")
         desc = p.get("shortDescription", "")
 
@@ -144,6 +152,8 @@ def main():
     })  # 原子写：崩溃不损坏，写前备份 .bak
 
     print(f"\n✅ Indiegogo: {len(projects)} physical projects (from {len(all_data)} total) saved to {OUTPUT}")
+    if blacklisted_skipped:
+        print(f"   🚫 Skipped {blacklisted_skipped} blacklisted non-hardware slug(s)")
     return len(projects)
 
 if __name__ == "__main__":
