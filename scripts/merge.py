@@ -56,6 +56,7 @@ KEEP (hardware):
 2. Smart IoT hardware: WiFi/Bluetooth/IoT-connected, APP-controlled, auto-sensing electronic devices: smart lights, smart locks, smart thermostats, smart appliances, smart car accessories, drones, 3D printers, electronic displays, digital audio/video, charging/power devices
 3. Wearable hardware: smartwatches, bracelets, smart glasses, smart earphones, wearable sensors, wearable health monitors, VR/AR headsets, wearable interaction peripherals
 4. EDC & precision tools: titanium/steel pocket knives, multitools, precision screwdrivers/ratchets, mechanical fidget tools, machined everyday-carry gear (metal-constructed, precision-engineered)
+5. Other clearly physical tech hardware: cameras/lenses, audio gear (headphones/speakers/mics), computer peripherals (keyboards/mice/gamepads), charging/power/storage devices, displays, sports & health hardware (massagers/fitness rings), maker/workshop electronics kits, any consumer electronics containing electronics or precision mechanics
 
 DELETE (non-hardware):
 1. Creative crafts, art prints, posters, board games, card games, puzzles, figurines, blind boxes, fine art
@@ -68,9 +69,10 @@ DELETE (non-hardware):
 8. Cosmetics, skincare, manual beauty tools
 9. Pure musical instruments, DIY craft kits (no circuit boards)
 
-DEFAULT RULE (最重要): 当无法 100% 确定某产品是否为实体硬件时，一律 KEEP（保留）。
-只有能明确判定为以下纯非硬件时，才 DELETE：纯数字软件/课程/电子书、纸质书籍/漫画、
-普通食品饮料、无任何电子模块的服饰箱包、纯手工艺/绘画/雕塑、宠物用品、化妆品/护肤、纯乐器(无电路)。
+DEFAULT RULE: TopNice only curates tech/electronic hardware, smart hardware, wearables, EDC precision tools, and maker/workshop electronics. The default bias flips from "keep" to "strict tech-hardware definition".
+- KEEP only if the product clearly belongs to the KEEP list above (AI / Smart IoT / Wearable / EDC precision tools / item 5) OR contains electronics/circuits/chips/smart modules/precision mechanics (CNC, titanium-forged, etc.).
+- Pure physical everyday consumer goods — kitchenware/food containers/drinks, apparel/bags, furniture/home decor, handcrafts, farm experiences, art/illustration, printed publications, pure cosmetics/skincare, pet supplies, plush toys, ordinary stationery (none with electronics/smart/precision mechanics) — DELETE even if not 100% certain.
+- Borderline (e.g. RFID wallet, smart-module bag): if the body is still an ordinary consumer good without a core electronic function, DELETE; only KEEP if electronics/smart function is the primary purpose.
 
 BOUNDARY RULES:
 1. Product contains both electronic hardware AND ordinary accessories: if the main body is hardware -> KEEP
