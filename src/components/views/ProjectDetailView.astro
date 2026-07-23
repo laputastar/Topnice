@@ -3,7 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import ProgressBar from "../../components/ProgressBar.astro";
 import AdUnit from "../../components/AdUnit.astro";
 import { allProjects } from "../../data/projects";
-import { fm, type AiTier } from "../../config/format";
+import { fmtMoney, type AiTier } from "../../config/currency";
 
 const { project, lang = "en" } = Astro.props;
 const isZH = lang === "zh";
@@ -66,7 +66,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Product",
   name: project.name,
-  description: `${project.platform === "kickstarter" ? "Kickstarter" : "Indiegogo"} project. ${fm(project.pledged)} from ${bc.toLocaleString()} backers.`,
+  description: `${project.platform === "kickstarter" ? "Kickstarter" : "Indiegogo"} project. ${fmtMoney(project.pledged, project.currency, project.currency_symbol)} from ${bc.toLocaleString()} backers.`,
   image: project.image_1024x576 || project.image_med,
 };
 
@@ -171,7 +171,7 @@ const T = isZH ? {
 
 <Layout
   title={displayName}
-  description={`${displayName} - ${isKS ? "Kickstarter" : "Indiegogo"} crowdfunding project. ${fm(project.pledged)} raised from ${bc.toLocaleString()} backers.`}
+  description={`${displayName} - ${isKS ? "Kickstarter" : "Indiegogo"} crowdfunding project. ${fmtMoney(project.pledged, project.currency, project.currency_symbol)} raised from ${bc.toLocaleString()} backers.`}
   image={ogImage}
   lang={lang}
   ogType="product"
@@ -190,10 +190,10 @@ const T = isZH ? {
         {project.blurb && <p class="hero-blurb">{T.blurbFallback}</p>}
 
         <div class="project-funding">
-          <div class="funding-amount">{fm(project.pledged)}</div>
+          <div class="funding-amount">{fmtMoney(project.pledged, project.currency, project.currency_symbol)}</div>
           <div class="funding-goal">
             {project.goal > 0
-              ? (isKS ? T.pledgeGoal.replace("{p}", fm(project.pledged)).replace("{g}", fm(project.goal)) : T.flexFunding)
+              ? (isKS ? T.pledgeGoal.replace("{p}", fmtMoney(project.pledged, project.currency, project.currency_symbol)).replace("{g}", fmtMoney(project.goal, project.currency, project.currency_symbol)) : T.flexFunding)
               : T.flexFunding}
           </div>
           <ProgressBar progress={project.goal > 0 ? Math.min(pct, 100) : 100} />
@@ -334,7 +334,7 @@ const T = isZH ? {
         )}
         {avgPledged > 0 && (
           <div class="insight-card">
-            <div class="insight-value">${avgPledged.toLocaleString()}</div>
+            <div class="insight-value">{fmtMoney(avgPledged, project.currency, project.currency_symbol)}</div>
             <div class="insight-label">{T.avgPledgeLabel}</div>
           </div>
         )}
@@ -425,7 +425,7 @@ const T = isZH ? {
           <div class="related-body">
             <div class="related-category">{rp.topnice_category || rp.category}</div>
             <div class="related-title-text">{isZH ? (rp.nameZh ?? rp.name) : rp.name}</div>
-            <div class="related-funded">{fm(rp.pledged)}</div>
+            <div class="related-funded">{fmtMoney(rp.pledged, rp.currency, rp.currency_symbol)}</div>
           </div>
         </a>
       ))}

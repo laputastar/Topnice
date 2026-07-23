@@ -1,6 +1,6 @@
 ---
 import { ui, type Lang } from "../config/i18n";
-import { fm } from "../config/format";
+import { fmtMoney } from "../config/currency";
 
 interface Project {
   slug: string;
@@ -19,6 +19,8 @@ interface Project {
   state: string;
   deadline: string;
   daysLeft: number;
+  currency?: string;
+  currency_symbol?: string;
 }
 
 interface Props { project: Project; lang: Lang; view?: "grid" | "list" }
@@ -44,7 +46,7 @@ const img = project.image_full || project.image_med || project.image_thumb || ""
       <div class="card-title">{displayName}</div>
       <div class="card-progress-area">
         <div class="card-progress-header">
-          <span class="card-funded">{fm(project.pledged)}</span>
+          <span class="card-funded">{fmtMoney(project.pledged, project.currency, project.currency_symbol)}</span>
           {project.goal > 0 && <span class="card-percent">{Math.min(project.percent_funded, 9999).toFixed(0)}%</span>}
         </div>
         <div class="progress-bar"><div class="progress-fill" style={`width:${project.goal > 0 ? Math.min(project.percent_funded,100) : 100}%`}></div></div>

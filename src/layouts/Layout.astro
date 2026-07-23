@@ -4,6 +4,7 @@ import Footer from "../components/Footer.astro";
 import SEO from "../components/SEO.astro";
 import type { Lang } from "../config/i18n";
 import { allProjects } from "../data/projects";
+import { moneySymbol } from "../config/currency";
 
 interface Props {
   title: string;
@@ -43,7 +44,9 @@ const searchIndex = JSON.stringify(allProjects.map(p => ({
   st: p.state || '',
   b: (p.blurbZh || p.blurb || '').slice(0, 200),
   c: p.topnice_category || p.category,
-  p: p.platform === "kickstarter" ? "k" : "i"
+  p: p.platform === "kickstarter" ? "k" : "i",
+  cu: p.currency || "USD",
+  sy: moneySymbol(p.currency, p.currency_symbol)
 })));
 
 ---

@@ -1,7 +1,8 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { allProjects } from "../../data/projects";
-import { fm, nameOf } from "../../config/format";
+import { nameOf } from "../../config/format";
+import { fmtMoney } from "../../config/currency";
 
 interface Props {
   lang: "en" | "zh";
@@ -84,7 +85,7 @@ const base = S.base;
               <div class="related-body">
                 <div class="related-category">{rp.topnice_category || rp.category}</div>
                 <div class="related-title-text">{nameOf(rp)}</div>
-                <div class="related-funded">{fm(rp.pledged)}</div>
+                <div class="related-funded">{fmtMoney(rp.pledged, rp.currency, rp.currency_symbol)}</div>
               </div>
             </a>
           ))
@@ -122,8 +123,8 @@ const base = S.base;
   var countEl = document.getElementById("search-count");
   var input = document.getElementById("search-query");
 
-  // 金额统一跟随英文站：$ + en-US
-  function fm(n) { return "$" + Math.round(n || 0).toLocaleString("en-US"); }
+  // 单个项目按自身币种符号展示（d.sy 由 search-index 预计算传入）
+  function fm(n, sy) { return (sy || "$") + Math.round(n || 0).toLocaleString("en-US"); }
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
 
   var STR = lang === "zh" ? {
@@ -206,7 +207,7 @@ const base = S.base;
         + (cat ? '<div class="sr-cat">' + esc(cat) + "</div>" : "")
         + '<div class="sr-title">' + esc(title) + "</div>"
         + '<div class="sr-progress-area">'
-        + '<div class="sr-progress-header"><span class="sr-funded">' + fm(d.d) + "</span>" + (d.g > 0 ? '<span class="sr-pct">' + Math.round(d.f) + "%</span>" : "") + "</div>"
+        + '<div class="sr-progress-header"><span class="sr-funded">' + fm(d.d, d.sy) + "</span>" + (d.g > 0 ? '<span class="sr-pct">' + Math.round(d.f) + "%</span>" : "") + "</div>"
         + '<div class="sr-bar"><div class="sr-bar-fill" style="width:' + pct + '%"></div></div>'
         + "</div>"
         + '<div class="sr-footer">'

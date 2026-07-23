@@ -5,7 +5,7 @@ import ProjectCard from "../../components/ProjectCard.astro";
 import { allProjects, getProjectsByCategory } from "../../data/projects";
 import { categories } from "../../config/categories";
 import type { Lang } from "../../config/i18n";
-import { fm } from "../../config/format";
+import { toUsd, fmtUsd } from "../../config/currency";
 
 export async function getStaticPaths() {
   return categories
@@ -22,12 +22,14 @@ const lang: Lang = "en";
 const projects_all = getProjectsByCategory(category.name);
 
 // Default SSR render: popular-sorted for SEO. Client-side JS handles actual sorting.
+// 排序按 USD 等价，避免 HKD/JPY 大额项目因币种虚高霸榜
 function sortProjects(projs: typeof projects_all) {
-  return [...projs].sort((a, b) => (b.pledged || 0) - (a.pledged || 0));
+  return [...projs].sort((a, b) => toUsd(b.pledged, b.currency) - toUsd(a.pledged, a.currency));
 }
 const projects = sortProjects(projects_all);
 const live = projects_all.filter((p) => p.state === "live").length;
-const totalRaised = projects_all.reduce((s, p) => s + p.pledged, 0);
+// 货币修复：pledged 是带币种数值，累加前先折算 USD 等价，混币相加会虚高数倍
+const totalRaised = projects_all.reduce((s, p) => s + toUsd(p.pledged, p.currency), 0);
 const totalBackers = projects_all.reduce((s, p) => s + p.backers_count, 0);
 ---
 
@@ -43,7 +45,7 @@ const totalBackers = projects_all.reduce((s, p) => s + p.backers_count, 0);
           <div class="hero-headline" style="margin-top: 0.5rem;">
             <h1>{category.name}</h1>
             <p class="hero-stats">
-              {projects_all.length} projects &middot; {live} live &middot; {fm(totalRaised)} raised &middot; {totalBackers} backers
+              {projects_all.length} projects &middot; {live} live &middot; {fmtUsd(totalRaised)} raised &middot; {totalBackers} backers
             </p>
           </div>
         </div>
@@ -69,7 +71,7 @@ const totalBackers = projects_all.reduce((s, p) => s + p.backers_count, 0);
       {projects.length > 0 ? (
         <div id="project-grid" class="project-grid">
           {projects.map((p) => (
-            <div key={p.slug} data-pledged={p.pledged} data-daysleft={p.daysLeft} data-launched={p.launched_at}>
+            <div key={p.slug} data-pledged={p.pledged} data-usd={toUsd(p.pledged, p.currency)} data-daysleft={p.daysLeft} data-launched={p.launched_at}>
               <ProjectCard project={p} lang={lang} view="grid" />
             </div>
           ))}
@@ -95,6 +97,7 @@ const totalBackers = projects_all.reduce((s, p) => s + p.backers_count, 0);
   const projects = cards.map(card => ({
     el: card,
     pledged: parseFloat(card.getAttribute("data-pledged") || "0"),
+    usd: parseFloat(card.getAttribute("data-usd") || "0"),
     daysLeft: parseInt(card.getAttribute("data-daysleft") || "0"),
     launched_at: card.getAttribute("data-launched") || "",
   }));
@@ -114,7 +117,8 @@ const totalBackers = projects_all.reduce((s, p) => s + p.backers_count, 0);
         });
       case "popular":
       default:
-        return arr.sort((a, b) => (b.pledged || 0) - (a.pledged || 0));
+        // 按 USD 等价排序（data-usd 由 SSR 预计算，避免客户端再带汇率表）
+        return arr.sort((a, b) => (b.usd || 0) - (a.usd || 0));
     }
   }
 
