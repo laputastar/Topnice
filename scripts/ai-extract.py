@@ -56,11 +56,60 @@ Rules:
 - If a field cannot be determined, return empty string or empty array
 - Prices must come from the TIERS data, not guessed
 - Do not fabricate, assume, or hallucinate
+- Never output template placeholder text such as "Product Summary", "Highlight 1", "Spec 1", "Tier 1", or "X goes here". If a field cannot be determined, return an empty string or empty array.
 - Output will be shown on an English-language website
 
 Respond ONLY with valid JSON, no markdown fences, no explanation."""
 
 MAX_CONTENT_CHARS = 20000
+
+# 占位符防护：LLM（尤其小模型）抽不出内容时，常回吐模板默认文本。
+# 这些必须被拦截，否则会像历史那样污染数据（且因字段非空而锁死重抽）。
+_PLACEHOLDER_EXACT = {"product summary", "risk assessment", "creator bio"}
+_PLACEHOLDER_RE = re.compile(
+    r"^(highlight|spec|tier|value|description)\s+\d+$", re.I
+)
+
+def _is_placeholder_str(v) -> bool:
+    if not isinstance(v, str):
+        return False
+    s = v.strip()
+    if not s:
+        return False
+    low = s.lower()
+    if low in _PLACEHOLDER_EXACT:
+        return True
+    if low.endswith("goes here"):
+        return True
+    if _PLACEHOLDER_RE.match(low):
+        return True
+    return False
+
+def _result_has_placeholder(result: dict) -> bool:
+    str_fields = ["ai_intro_en", "ai_risks_en", "ai_creator_bio_en"]
+    list_fields = ["ai_highlights_en", "ai_specs_en"]
+    for f in str_fields:
+        if _is_placeholder_str(result.get(f)):
+            return True
+    for f in list_fields:
+        v = result.get(f)
+        if isinstance(v, list):
+            for it in v:
+                if _is_placeholder_str(it):
+                    return True
+                if isinstance(it, list):  # specs: [["Spec 1","Value 1"], ...]
+                    for sub in it:
+                        if _is_placeholder_str(sub):
+                            return True
+    tiers = result.get("ai_tiers")
+    if isinstance(tiers, list):
+        for t in tiers:
+            if isinstance(t, dict):
+                if _is_placeholder_str(t.get("name")):
+                    return True
+                if _is_placeholder_str(t.get("description")):
+                    return True
+    return False
 
 
 def read_raw_html(slug: str):
@@ -223,6 +272,13 @@ def extract(project: dict, force: bool = False) -> bool:
     _tr = result.get("ai_tiers") or []
     if (not _intro) and (not _hl) and (not _sp) and (not _tr):
         print("  ⚠️  空提取防护触发：intro/highlights/specs/tiers 全空，判定失败不落盘")
+        return False
+
+    # 占位符防护：LLM 回吐模板默认文本（"Product Summary"/"Highlight 1"/
+    # "Tier 1"/"X goes here" 等）虽非空，但属毒数据。命中即判失败不落盘，
+    # 避免重抽时二次污染（历史 36 个项目即因此被锁死）。
+    if _result_has_placeholder(result):
+        print("  ⚠️  占位符防护触发：LLM 返回模板占位符，判定失败不落盘")
         return False
 
     expected = ["ai_intro_en", "ai_highlights_en", "ai_specs_en",
