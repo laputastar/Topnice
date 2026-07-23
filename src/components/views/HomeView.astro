@@ -225,6 +225,17 @@ const S = lang === "zh" ? {
     var USD_RATES = { USD:1, HKD:0.128, EUR:1.08, GBP:1.27, CAD:0.73, JPY:0.0067, CHF:1.12, AUD:0.66, SGD:0.74, PLN:0.25, NOK:0.095, MXN:0.058 };
     function toUsd(amount, currency) { var r = USD_RATES[currency] || 1; return (amount || 0) * r; }
 
+    // 客户端版 daysLeftFromDeadline：服务端 frontmatter 的函数无法注入 <script is:inline>，
+    // 而 makeCard/makeListItem 在客户端重建卡片时调用了它。缺失会导致点击排序/筛选时
+    // ReferenceError，rebuildGrid 已清空 grid 却无法回填 → 整页空白。逻辑与服务端保持一致。
+    function daysLeftFromDeadline(deadline) {
+      if (!deadline) return 0;
+      var s = deadline.endsWith('Z') ? deadline : deadline + 'Z';
+      var t = new Date(s).getTime();
+      if (isNaN(t)) return 0;
+      return Math.max(0, Math.ceil((t - Date.now()) / 86400000));
+    }
+
     // Keep the Hero "Active Projects" count truly real-time: recompute live-now
     // from each project's deadline (vs. the current clock) instead of trusting the
     // build-time snapshot. This way the headline number is always exact, even
