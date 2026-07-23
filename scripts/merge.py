@@ -50,39 +50,50 @@ def batch_hardware_classify(projects: list, batch_size: int = 50) -> list:
             })
 
         prompt = f"""You are a crowdfunding product classifier. Classify each product as hardware (keep) or non-hardware (delete).
+TopNice ONLY curates TECH / ELECTRONIC / SMART hardware. Strict bias: when in doubt, DELETE.
 
-KEEP (hardware):
-1. AI hardware: AI chip, local AI model terminal, AI camera, AI voice speaker, AI vision box, portable AI computing stick, AI painting terminal, AI sensor, AI robot, AI programming hardware, offline AI device, AI interactive controller
-2. Smart IoT hardware: WiFi/Bluetooth/IoT-connected, APP-controlled, auto-sensing electronic devices: smart lights, smart locks, smart thermostats, smart appliances, smart car accessories, drones, 3D printers, electronic displays, digital audio/video, charging/power devices
-3. Wearable hardware: smartwatches, bracelets, smart glasses, smart earphones, wearable sensors, wearable health monitors, VR/AR headsets, wearable interaction peripherals
-4. EDC & precision tools: titanium/steel pocket knives, multitools, precision screwdrivers/ratchets, mechanical fidget tools, machined everyday-carry gear (metal-constructed, precision-engineered)
-5. Other clearly physical tech hardware: cameras/lenses, audio gear (headphones/speakers/mics), computer peripherals (keyboards/mice/gamepads), charging/power/storage devices, displays, sports & health hardware (massagers/fitness rings), maker/workshop electronics kits, any consumer electronics containing electronics or precision mechanics
+DEFINITION OF HARDWARE (KEEP) — product must contain at least one clear electronic/intelligent signal:
+- electronic components / circuit board / chip / IC / PCB / soldered electronics
+- battery or rechargeable power as a CORE function (not just a decorative LED)
+- motor / brushless motor / actuator / pump / electrically-driven moving mechanism
+- sensor / camera module / microphone / display / screen / e-ink / touch panel
+- wireless module: WiFi / Bluetooth / NFC / RFID / Zigbee / UWB
+- computing unit: MCU / Arduino / Raspberry Pi / local AI chip / app-controlled logic
+- actively-controlled heating/cooling element (graphene heating, Peltier, thermoelectric)
+- smart / APP-connected function that is the PRIMARY purpose of the product
 
-DELETE (non-hardware):
-1. Creative crafts, art prints, posters, board games, card games, puzzles, figurines, blind boxes, fine art
-2. Home textiles, ceramic tableware, wooden storage, furniture (no electronic components)
-3. Clothing, bags, jewelry, leather goods (no smart modules)
-4. Food, beverages, coffee equipment, kitchenware (no circuits/chips)
-5. Books, courses, digital software (no physical hardware)
-6. Outdoor pure gear (non-precision): tents, sleeping bags, camping furniture, generic axes, cookware (no machined precision hardware)
-7. Pet toys, pet beds, pet bowls (no smart modules)
-8. Cosmetics, skincare, manual beauty tools
-9. Pure musical instruments, DIY craft kits (no circuit boards)
+KEEP examples (verified real hardware from audit):
+1. AI hardware: AI chip, local AI terminal, AI camera/speaker/vision/robot/controller
+2. Smart IoT: WiFi/BT/IoT devices, drones, 3D printers, smart home, digital A/V, charging/power
+3. Wearables: smartwatch, smart glasses, smart earbuds, health monitors, VR/AR, wearable sensors
+4. Consumer electronics: cameras/lenses, audio gear, computer peripherals, storage, displays, maker/workshop electronics kits, solar chargers WITH circuits, ferrofluid music visualizers with mic, Arduino/Pi kits
+5. Electrified tools/vehicles: brushless foam-dart blaster, motorized window fan, e-bike/scooter motor accessories, electronic/Bluetooth percussion (smart drum)
+6. Smart apparel/accessories: heated shoes/vest (battery-powered), smart glasses with display, NFC-equipped gear
 
-DEFAULT RULE: TopNice only curates tech/electronic hardware, smart hardware, wearables, EDC precision tools, and maker/workshop electronics. The default bias flips from "keep" to "strict tech-hardware definition".
-- KEEP only if the product clearly belongs to the KEEP list above (AI / Smart IoT / Wearable / EDC precision tools / item 5) OR contains electronics/circuits/chips/smart modules/precision mechanics (CNC, titanium-forged, etc.).
-- Pure physical everyday consumer goods — kitchenware/food containers/drinks, apparel/bags, furniture/home decor, handcrafts, farm experiences, art/illustration, printed publications, pure cosmetics/skincare, pet supplies, plush toys, ordinary stationery (none with electronics/smart/precision mechanics) — DELETE even if not 100% certain.
-- Borderline (e.g. RFID wallet, smart-module bag): if the body is still an ordinary consumer good without a core electronic function, DELETE; only KEEP if electronics/smart function is the primary purpose.
+DELETE (non-hardware) — pure physical / service / digital with NONE of the electronic signals above:
+1. Food, beverage, coffee gear, kitchenware, food containers, cookware (no circuit/chip)
+2. Apparel, footwear, bags, jewelry, watches that are purely mechanical/analog with no smart module
+3. Home/furniture/decor, storage, cable organizers (purely physical, no electronics)
+4. Books, comics, biographies, films/TV series, music albums, VST plugins (pure software), digital downloads (STL files, e-books)
+5. Pure toys/board games/card games/puzzles/figurines/blind boxes/mechanical fidget toys (no circuit)
+6. App/software/cloud service with NO physical hardware; pure digital membership
+7. Services & personal fundraising: bar/restaurant space, farm experience, individual "help me upgrade" campaigns, racing/arcade VENUE + app (no product shipped)
+8. Pure mechanical EDC / precision tools with NO electronics: titanium/steel knives, multitools, screwdrivers, ratchets, sharpeners, outdoor cooking tools, flip tools, mechanical pen (DELETE even if CNC/titanium-forged/precision-engineered)
+9. Cosmetics, skincare, manual beauty tools, pet supplies (no smart module)
+10. Courses, workshops, fitness coaching (no hardware shipped)
+
+CATEGORY RED FLAGS — default DELETE unless the description clearly shows an electronic signal above:
+Product Design, Ready-to-wear, Footwear, Performance Art, Interactive Design, Toys (pure toys), Sound (audio software), 3D Printing (pure STL), DIY (pure handcraft no circuit), Gadgets (pure accessory), and EMPTY/missing category with no electronic descriptor.
 
 BOUNDARY RULES:
-1. Product contains both electronic hardware AND ordinary accessories: if the main body is hardware -> KEEP
-2. Only includes minor electronic accessory, main body is clothing/furniture/crafts -> DELETE
-3. Pure digital memberships, APP software, cloud services, no physical hardware -> DELETE
-4. Prototype/concept product: clear mass-production electronic hardware -> KEEP; pure design concept with no physical circuit -> DELETE
-5. EDC precision tools (titanium knives, multitools, precision screwdrivers/ratchets) -> KEEP even if no electronics
+1. Product has electronic body + ordinary accessories → KEEP (body is hardware)
+2. Only minor electronic accessory, main body is clothing/furniture/craft → DELETE
+3. Pure digital / app / cloud / membership, no physical hardware → DELETE
+4. Prototype: clear mass-production electronic hardware → KEEP; pure design concept, no circuit → DELETE
+5. EDC/precision tools: KEEP ONLY IF they contain electronics/motor/battery/smart module. Pure mechanical tools (knife/screwdriver/ratchet/sharpener/cooking tool/flip tool/fidget pen) → DELETE even if titanium/CNC/precision-engineered.
 
 Output ONLY a JSON array. Each entry:
-{{"id": "product id", "keep": true/false, "product_type": "AI硬件/智能硬件/可穿戴硬件/非科技产品", "reason": "short reason"}}
+{{"id": "product id", "keep": true/false, "product_type": "智能硬件/含电子硬件/可穿戴硬件/纯机械工具/纯软件/服务众筹/数字下载/服饰鞋包/食品厨具/书籍影视/其他非硬件", "reason": "short reason"}}
 
 Products:
 {json.dumps(products, ensure_ascii=False, indent=2)}"""
