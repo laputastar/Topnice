@@ -219,7 +219,12 @@ def _call_llm(content: str, currency: str, platform: str, provider: dict) -> dic
 
 def extract(project: dict, force: bool = False) -> bool:
     """为单个项目提取 AI 字段。返回 True=成功写入，False=跳过/失败。"""
-    if not force and project.get("ai_intro_en"):
+    # 修复：跳过判据从"ai_intro_en 非空"改为"ai_validated == True"。
+    # 旧逻辑只看单一字段，若某项目仅部分字段缺失（intro 有值但其余空）会被永久跳过，
+    # 造成"字段不全却无法重抽"的锁死。改为以 ai_validated 为准：
+    # 只有同时通过"爬取完整 + AI 完整解读"两项校验的项目才跳过重抽，
+    # 其余（真空 / 占位符 / 部分缺失）一律进入重抽候选，避免数据毒药锁死。
+    if not force and project.get("ai_validated"):
         return False
 
     slug = project.get("slug") or project.get("id")
@@ -332,7 +337,7 @@ def main():
         if only_empty_tiers:
             if p.get("ai_tiers") and len(p.get("ai_tiers", [])) > 0:
                 continue  # already has tiers, skip even if force
-        elif not force and p.get("ai_intro_en"):
+        elif not force and p.get("ai_validated"):
             continue
         # 需要 raw HTML 或 html_story 才能提取
         slug = p.get("slug") or p.get("id")
