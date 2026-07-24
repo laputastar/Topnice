@@ -112,16 +112,9 @@ jobs:
       - name: Validate AI data
         run: python scripts/validate-ai-data.py
 
-      - name: Translate new content (Cloudflare AI)
-        run: |
-          python scripts/translate_zh.py extract
-          for f in scripts/translations/batch_*.jsonl; do
-            [ -f "$f" ] || continue
-            [[ "$f" != *_zh.jsonl ]] || continue
-            python scripts/cf-translate.py "$f"
-          done
-          python scripts/translate_zh.py apply
-        continue-on-error: true
+      # 翻译已拆出到独立 workflow (translate-only.yml)，使用 Mouter AI 独立引擎，
+      # 与本管道的 Cloudflare 英文抽取解耦，避免免费额度撞车。
+      # 此处不再翻译，让 ai-extract 独占 Cloudflare 额度把英文源抽满。
 
       - name: Commit and push if changed
         if: always()

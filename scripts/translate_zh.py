@@ -18,7 +18,7 @@ translate_zh.py — 本地批量翻译脚本
   - ai_description 分段数保持一致
 """
 
-import json, os, sys, re, shutil
+import json, os, sys, re, shutil, glob
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -30,6 +30,7 @@ BACKUP_SUFFIX = ".bak"
 # 需要翻译的字段对: (en_field, zh_field, field_type, description)
 FIELD_DEFS = [
     ("name",              "nameZh",              "str",       "项目名称"),
+    ("blurb",             "blurbZh",             "str",       "项目简介"),
     ("ai_intro_en",       "ai_intro_zh",         "str",       "AI 简短介绍"),
     ("ai_description_en",  "ai_description_zh",   "str|list",  "AI 详细描述（多段）"),
     ("ai_highlights_en",  "ai_highlights_zh",    "list",      "Key Highlights"),
@@ -81,6 +82,21 @@ def normalize_tier(tier):
             result[k] = v
     return result
 
+def is_fully_translated(proj):
+    """判断项目是否已全部翻译完成。
+
+    语义：对每个 (en, zh) 字段对，若英文源存在则该中文译文也必须存在，否则视为未译完。
+    英文源缺失的字段（如部分项目无档位）不参与判定，不阻塞「已译完」。
+    """
+    for en_field, zh_field, ftype, desc in FIELD_DEFS:
+        en = proj.get(en_field)
+        if en is None or en == "" or (isinstance(en, list) and len(en) == 0):
+            continue  # 无源 → 不要求译文
+        zh = proj.get(zh_field)
+        if zh is None or zh == "" or (isinstance(zh, list) and len(zh) == 0):
+            return False
+    return True
+
 # ─── Extract ─────────────────────────────────────────────────
 
 def extract(args):
@@ -101,10 +117,21 @@ def extract(args):
     total = len(projects)
     print(f"📦 共 {total} 个项目")
 
+    # 清理上一轮遗留的 _zh 译文，避免 apply 默认 glob 误用陈旧译文
+    stale = glob.glob(os.path.join("scripts", "translations", "batch_*_zh.jsonl"))
+    for old in stale:
+        os.remove(old)
+    if stale:
+        print(f"🧹 清理 {len(stale)} 个陈旧译文文件")
+
     need_translate = []
     for idx, proj in enumerate(projects):
         if limit and len(need_translate) >= limit:
             break
+
+        # 整条已译完的项目直接跳过，不再消耗翻译额度
+        if is_fully_translated(proj):
+            continue
 
         fields = []
         for en_field, zh_field, ftype, desc in FIELD_DEFS:
@@ -184,8 +211,13 @@ def extract(args):
 
 def apply(args):
     if not args:
-        print("❌ 用法: python scripts/translate_zh.py apply <translated.jsonl...>")
-        return
+        # CI 无参调用场景：默认应用 scripts/translations/ 下所有 _zh.jsonl
+        # （此前无参调用会直接 return，导致中文译文从未回填——正是历史缺译根因）
+        files = sorted(glob.glob(os.path.join("scripts", "translations", "batch_*_zh.jsonl")))
+        if not files:
+            print("ℹ️ 没有可应用的译文文件（batch_*_zh.jsonl），跳过")
+            return
+        args = files
 
     if not os.path.exists(DATA_PATH):
         print(f"❌ 找不到 {DATA_PATH}")
@@ -280,6 +312,11 @@ def apply(args):
                         else:
                             print(f"  ⚠️ {proj.get('name','?')}.{zh_field}: 空译文，跳过")
                             errors += 1
+
+    # 重算 needs_translation：已译完=False，其余=True。
+    # 关键：只更新这一个变量，绝不改动项目其他任何内容（含已存在的中文译文）。
+    for proj in projects:
+        proj["needs_translation"] = not is_fully_translated(proj)
 
     # 写回（原子写：先 .tmp+fsync 再替换，崩溃不损坏；手动 .bak 备份保留）
     atomic_write_json(DATA_PATH, data, backup=False)

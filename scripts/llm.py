@@ -5,8 +5,10 @@ llm.py — TopNice 数据管线统一 LLM / API 调用层（共享模块）
 所有 API Key 仅从环境变量读取，严禁硬编码（防泄露进 git / 分享）。
 
 提供商:
-  - Cloudflare Workers AI (主): CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID / 模型可配（默认 qwen3-30b）
+  - Cloudflare Workers AI (主, 英文抽取): CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID / 模型可配（默认 qwen3-30b）
   - Agnes AI   (OpenAI 兼容, 推理模型, 备用): AGNES_API_KEY / base https://apihub.agnes-ai.com/v1 / model agnes-2.0-flash
+  - Mouter AI  (OpenAI 兼容, 翻译专用独立引擎): MOUTER_API_KEY + MOUTER_BASE_URL(缺省 https://api.ainext.com/v1) + MOUTER_MODEL(缺省 nvidia/nemotron-3-super-120b-a12b)
+    翻译链路独占该引擎额度，与 Cloudflare 英文抽取解耦，避免 10k 免费额度撞车。
 
 统一能力:
   - 环境变量只在此处集中读取一次（全管线唯一来源）
@@ -15,6 +17,7 @@ llm.py — TopNice 数据管线统一 LLM / API 调用层（共享模块）
 
 环境变量:
   AGNES_API_KEY, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+  MOUTER_API_KEY, MOUTER_BASE_URL, MOUTER_MODEL (翻译专用独立引擎)
   可选: CF_TRANSLATE_MODEL (覆盖 CF 默认模型), CF_PROXY (中国网络访问 CF 的本地代理)
 """
 import os
@@ -42,6 +45,16 @@ AGNES = {
     "base_url": "https://apihub.agnes-ai.com/v1",
     "model": "agnes-2.0-flash",
     "timeout": 90,
+}
+
+# Mouter AI — 翻译专用独立引擎（OpenAI 兼容协议）。
+# 三个变量均从环境变量读取，绝不硬编码。base_url 缺省回退到官方地址 https://api.ainext.com/v1；
+# model 缺省回退到 nvidia/nemotron-3-super-120b-a12b；若对应环境变量存在则以其为准（便于切换端点/模型）。
+MOUTER = {
+    "api_key_var": "MOUTER_API_KEY",
+    "base_url": os.environ.get("MOUTER_BASE_URL") or "https://api.ainext.com/v1",
+    "model": os.environ.get("MOUTER_MODEL") or "nvidia/nemotron-3-super-120b-a12b",
+    "timeout": 120,
 }
 
 
@@ -226,6 +239,30 @@ def call_agnes(prompt: str, *, system=None, temperature=0.1, timeout=90, max_tok
         api_key=os.environ.get(AGNES["api_key_var"], ""),
         base_url=AGNES["base_url"],
         model=AGNES["model"],
+        system=system,
+        temperature=temperature,
+        max_tokens=max_tokens,
+        timeout=timeout,
+        max_retries=max_retries,
+    )
+
+
+def call_mouter(prompt: str, *, system=None, temperature=0.1, timeout=120, max_tokens=2000, max_retries=1) -> str:
+    """调用 Mouter AI（翻译专用独立引擎，OpenAI 协议兼容）。失败抛 LLMError。
+
+    与 Cloudflare 英文抽取解耦：翻译独占该引擎额度，避免两者在 Cloudflare
+    免费 10k neurons 下撞车导致抽取/翻译互相饿死。
+
+    未配置（MOUTER_BASE_URL 或 MOUTER_MODEL 为空）时明确抛错，而非用空 base_url
+    打到 openai.com 默认端点造成难以排查的失败。
+    """
+    if not MOUTER["base_url"] or not MOUTER["model"]:
+        raise LLMError("Mouter AI 未配置 (需设置 MOUTER_BASE_URL 与 MOUTER_MODEL 环境变量)")
+    return call_compatible_llm(
+        prompt,
+        api_key=os.environ.get(MOUTER["api_key_var"], ""),
+        base_url=MOUTER["base_url"],
+        model=MOUTER["model"],
         system=system,
         temperature=temperature,
         max_tokens=max_tokens,

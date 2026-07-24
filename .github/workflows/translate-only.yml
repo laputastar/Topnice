@@ -1,7 +1,19 @@
-name: Translate Only
+name: Translate Only (Mouter AI)
+
+# 翻译独立流水线：使用 Mouter AI 独立引擎，与 fetch-data.yml 的 Cloudflare 英文抽取
+# 完全解耦，互不抢占免费额度。
+#
+# 幂等保护：
+#   - extract 跳过已有中文的字段/整条已译完项目，绝不二次翻译浪费额度。
+#   - mouter-translate 复用已有 _zh.jsonl 中已完成的项目（断点续译）。
+#   - apply 只写中文译文 + 重算 needs_translation 标志，绝不改动其他内容。
+#   - 崩溃/额度耗尽不会丢失已译内容（原子写 + .bak 兜底）。
 
 on:
   workflow_dispatch:
+  # 可选：跟随主数据流水线之后自动接力翻译（默认关闭，避免重复触发）
+  # repository_dispatch:
+  #   types: [data-updated]
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -12,12 +24,12 @@ jobs:
     permissions:
       contents: write
     env:
-      FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-      CONTEXT_DEV_API_KEY: ${{ secrets.CONTEXT_DEV_API_KEY }}
-      LONG_CAT_API_KEY: ${{ secrets.LONG_CAT_API_KEY }}
-      AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      # Mouter AI 独立翻译引擎（OpenAI 兼容协议）
+      MOUTER_API_KEY: ${{ secrets.MOUTER_API_KEY }}
+      MOUTER_BASE_URL: ${{ secrets.MOUTER_BASE_URL }}
+      MOUTER_MODEL: ${{ secrets.MOUTER_MODEL }}
+      # 可选：中国网络访问 Mouter 时的本地代理
+      MOUTER_PROXY: ${{ secrets.MOUTER_PROXY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,13 +41,13 @@ jobs:
       - name: Install dependencies
         run: pip install requests openai
 
-      - name: Translate new content (Qwen3 via Cloudflare Workers AI)
+      - name: Translate new content (Mouter AI)
         run: |
           python scripts/translate_zh.py extract
           for f in scripts/translations/batch_*.jsonl; do
             [ -f "$f" ] || continue
             [[ "$f" != *_zh.jsonl ]] || continue
-            python scripts/cf-translate.py "$f"
+            python scripts/mouter-translate.py "$f"
           done
           python scripts/translate_zh.py apply
 
@@ -43,11 +55,11 @@ jobs:
         if: always()
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.com"
           git add src/data/projects.json
           if git diff --staged --quiet; then
             echo "No translation changes to commit"
           else
-            git commit -m "data: translate content (Qwen3) [skip actions]"
+            git commit -m "data: translate content (Mouter AI) [skip actions]"
             git push
           fi
