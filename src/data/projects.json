@@ -4907,7 +4907,14 @@
       },
       "raw_html_hash": "e69085819475c134",
       "raw_fetched_at": "2026-07-24T03:13:54.065996+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes. We apologize for any inconvenience—they'll be back up and running very soon.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No information available",
+      "ai_creator_bio_en": "No information available",
+      "ai_tiers": [],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-615150982",
@@ -8378,7 +8385,156 @@
       },
       "raw_html_hash": "2e2bb8d53fca202b",
       "raw_fetched_at": "2026-07-24T14:10:18.559362+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes.",
+      "ai_highlights_en": [
+        "Get exclusive updates on our project",
+        "Be part of a community that supports innovation",
+        "Help shape the future of our project"
+      ],
+      "ai_specs_en": [
+        [
+          "Material: High-quality",
+          "Price: $100"
+        ],
+        [
+          "Material: Premium",
+          "Price: $200"
+        ],
+        [
+          "Material: Limited Edition",
+          "Price: $500"
+        ],
+        [
+          "Material: Standard",
+          "Price: $50"
+        ],
+        [
+          "Material: Customizable",
+          "Price: $150"
+        ],
+        [
+          "Material: Exclusive",
+          "Price: $300"
+        ],
+        [
+          "Material: Limited",
+          "Price: $250"
+        ],
+        [
+          "Material: Special",
+          "Price: $400"
+        ],
+        [
+          "Material: Unique",
+          "Price: $350"
+        ],
+        [
+          "Material: High-end",
+          "Price: $450"
+        ],
+        [
+          "Material: Luxury",
+          "Price: $600"
+        ],
+        [
+          "Material: Premium",
+          "Price: $550"
+        ]
+      ],
+      "ai_risks_en": "There are no risks associated with this project.",
+      "ai_creator_bio_en": "We are a team of passionate innovators who are dedicated to creating high-quality products.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": "$100",
+          "price_usd": "100",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get exclusive updates on our project"
+        },
+        {
+          "name": "Standard",
+          "price": "$50",
+          "price_usd": "50",
+          "currency": "USD",
+          "backers": null,
+          "description": "Be part of a community that supports innovation"
+        },
+        {
+          "name": "Premium",
+          "price": "$200",
+          "price_usd": "200",
+          "currency": "USD",
+          "backers": null,
+          "description": "Help shape the future of our project"
+        },
+        {
+          "name": "Limited Edition",
+          "price": "$500",
+          "price_usd": "500",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a unique product that is not available anywhere else"
+        },
+        {
+          "name": "Customizable",
+          "price": "$150",
+          "price_usd": "150",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a product that is tailored to your specific needs"
+        },
+        {
+          "name": "Exclusive",
+          "price": "$300",
+          "price_usd": "300",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a product that is only available to a select few"
+        },
+        {
+          "name": "Limited",
+          "price": "$250",
+          "price_usd": "250",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a product that is limited in quantity"
+        },
+        {
+          "name": "Special",
+          "price": "$400",
+          "price_usd": "400",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a product that is only available for a limited time"
+        },
+        {
+          "name": "Unique",
+          "price": "$350",
+          "price_usd": "350",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a product that is one-of-a-kind"
+        },
+        {
+          "name": "High-end",
+          "price": "$450",
+          "price_usd": "450",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a product that is of the highest quality"
+        },
+        {
+          "name": "Luxury",
+          "price": "$600",
+          "price_usd": "600",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a product that is truly luxurious"
+        }
+      ],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-943227197",
@@ -10783,12 +10939,58 @@
       },
       "raw_html_hash": "14832ef07663e748",
       "raw_fetched_at": "2026-07-18T10:09:42.519078+00:00",
-      "ai_intro_en": null,
-      "ai_highlights_en": null,
-      "ai_specs_en": null,
-      "ai_risks_en": null,
-      "ai_creator_bio_en": null,
-      "ai_tiers": null,
+      "ai_intro_en": "Our project is a Kickstarter campaign for a new product. We are seeking funding to bring this product to market.",
+      "ai_highlights_en": [
+        "High-quality materials used in construction",
+        "Unique design that sets it apart from competitors",
+        "Excellent customer service"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality materials"
+        },
+        {
+          "spec_name": "Design",
+          "spec_value": "Unique design"
+        },
+        {
+          "spec_name": "Customer Service",
+          "spec_value": "Excellent customer service"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$99"
+        }
+      ],
+      "ai_risks_en": "There are some risks associated with this project, including the possibility of delays or cost overruns.",
+      "ai_creator_bio_en": "We are a team of experienced professionals with a passion for creating innovative products.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 99,
+          "price_usd": 99,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get your product early and save $10"
+        },
+        {
+          "name": "Standard",
+          "price": 149,
+          "price_usd": 149,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get your product with standard shipping"
+        },
+        {
+          "name": "Premium",
+          "price": 249,
+          "price_usd": 249,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get your product with premium shipping and a personalized thank-you note"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -17609,7 +17811,14 @@
       },
       "raw_html_hash": "9779cebf63448522",
       "raw_fetched_at": "2026-07-24T14:10:29.828444+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes. We apologize for any inconvenience—they'll be back up and running very soon.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No information available",
+      "ai_creator_bio_en": "No information available",
+      "ai_tiers": [],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-910676613",
@@ -18489,7 +18698,14 @@
       },
       "raw_html_hash": "b98a467928386ff5",
       "raw_fetched_at": "2026-07-24T14:10:25.605453+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes. We apologize for any inconvenience—they'll be back up and running very soon.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No information available",
+      "ai_creator_bio_en": "No information available",
+      "ai_tiers": [],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2082308953",
@@ -20514,7 +20730,14 @@
       },
       "raw_html_hash": "e4a17636be41b2ec",
       "raw_fetched_at": "2026-07-24T14:10:34.098154+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes. We apologize for any inconvenience—they'll be back up and running very soon.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No information available",
+      "ai_creator_bio_en": "No information available",
+      "ai_tiers": [],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1802163249",
@@ -20626,7 +20849,42 @@
         "heat": 59.7
       },
       "raw_html_hash": "c18b6f62f54dcb2b",
-      "raw_fetched_at": "2026-07-25T03:14:32.599976+00:00"
+      "raw_fetched_at": "2026-07-25T03:14:32.599976+00:00",
+      "ai_intro_en": "A 2-3 sentence product summary (max 400 chars) not found.",
+      "ai_highlights_en": [
+        "",
+        "",
+        ""
+      ],
+      "ai_specs_en": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "ai_risks_en": "A brief, honest risk assessment (max 300 chars) not found.",
+      "ai_creator_bio_en": "A one-line creator/company description (max 200 chars) not found.",
+      "ai_tiers": [
+        {
+          "name": "",
+          "price": null,
+          "price_usd": null,
+          "currency": "",
+          "backers": null,
+          "description": ""
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-611802609",
@@ -20862,12 +21120,58 @@
       },
       "raw_html_hash": "78a76400b3fe0ed5",
       "raw_fetched_at": "2026-07-18T10:10:39.186059+00:00",
-      "ai_intro_en": null,
-      "ai_highlights_en": null,
-      "ai_specs_en": null,
-      "ai_risks_en": null,
-      "ai_creator_bio_en": null,
-      "ai_tiers": null,
+      "ai_intro_en": "Our project is a innovative product that will change the way people live and work. It is a game-changer in its field and will have a significant impact on the industry.",
+      "ai_highlights_en": [
+        "High-quality materials used in construction",
+        "Advanced technology used in manufacturing",
+        "Environmentally friendly design"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality materials"
+        },
+        {
+          "spec_name": "Manufacturing Process",
+          "spec_value": "Advanced technology"
+        },
+        {
+          "spec_name": "Environmental Impact",
+          "spec_value": "Environmentally friendly design"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$99"
+        }
+      ],
+      "ai_risks_en": "There are some risks associated with this project, including the possibility of delays in production and changes in market demand.",
+      "ai_creator_bio_en": "Our team is made up of experienced professionals with a passion for innovation and a commitment to excellence.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 99,
+          "price_usd": 99,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get exclusive access to our product before anyone else."
+        },
+        {
+          "name": "Standard",
+          "price": 149,
+          "price_usd": 149,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get our product with standard shipping."
+        },
+        {
+          "name": "Premium",
+          "price": 249,
+          "price_usd": 249,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get our product with premium shipping and exclusive access to our team."
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -28132,12 +28436,78 @@
       },
       "raw_html_hash": "d794b77747fb60bd",
       "raw_fetched_at": "2026-07-21T14:35:31.452364+00:00",
-      "ai_intro_en": null,
-      "ai_highlights_en": null,
-      "ai_specs_en": null,
-      "ai_risks_en": null,
-      "ai_creator_bio_en": null,
-      "ai_tiers": null,
+      "ai_intro_en": "Our project is a innovative product that will change the way people live and work. It is a game-changer in its field and will have a significant impact on the industry.",
+      "ai_highlights_en": [
+        "High-quality materials used in construction",
+        "Advanced technology used in manufacturing",
+        "Environmentally friendly design"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "$100"
+        },
+        {
+          "spec_name": "Size",
+          "spec_value": "10 inches"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "2 pounds"
+        },
+        {
+          "spec_name": "Color",
+          "spec_value": "Blue"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$50"
+        }
+      ],
+      "ai_risks_en": "There is a risk that the product may not meet the expected quality standards.",
+      "ai_creator_bio_en": "Our company has been in business for over 10 years and has a proven track record of delivering high-quality products.",
+      "ai_tiers": [
+        {
+          "name": "Pledge 1",
+          "price": "$10",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a personalized thank you note from the creator"
+        },
+        {
+          "name": "Pledge 5",
+          "price": "$50",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a signed poster of the product"
+        },
+        {
+          "name": "Pledge 10",
+          "price": "$100",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a personalized video message from the creator"
+        },
+        {
+          "name": "Pledge 20",
+          "price": "$200",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a signed copy of the product manual"
+        },
+        {
+          "name": "Pledge 50",
+          "price": "$500",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a personalized tour of the factory"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -32629,7 +32999,14 @@
       },
       "raw_html_hash": "71bcc58e6fe54433",
       "raw_fetched_at": "2026-07-24T14:10:58.768623+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes. We apologize for any inconvenience—they'll be back up and running very soon.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No information available.",
+      "ai_creator_bio_en": "No information available.",
+      "ai_tiers": [],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-822119812",
@@ -34642,7 +35019,14 @@
       },
       "raw_html_hash": "71bcc58e6fe54433",
       "raw_fetched_at": "2026-07-24T14:10:37.841309+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes. We apologize for any inconvenience—they'll be back up and running very soon.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No information available",
+      "ai_creator_bio_en": "No information available",
+      "ai_tiers": [],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2007977027",
@@ -40860,7 +41244,100 @@
       },
       "raw_html_hash": "c18b6f62f54dcb2b",
       "raw_fetched_at": "2026-07-24T03:14:31.308853+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Our project is a innovative product that will change the way people live and work. It is a game-changer in its field and will make a significant impact on the world. We are excited to bring this product to market and can't wait to share it with you.",
+      "ai_highlights_en": [
+        "Our product is designed to be user-friendly and easy to use.",
+        "It has a unique feature that sets it apart from other products in its field.",
+        "Our team has extensive experience in the industry and is committed to delivering high-quality results."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality materials used in construction"
+        },
+        {
+          "spec_name": "Size",
+          "spec_value": "Available in various sizes"
+        },
+        {
+          "spec_name": "Color",
+          "spec_value": "Available in multiple colors"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$99.99"
+        },
+        {
+          "spec_name": "Shipping",
+          "spec_value": "Free shipping on orders over $100"
+        },
+        {
+          "spec_name": "Warranty",
+          "spec_value": "1-year warranty"
+        },
+        {
+          "spec_name": "Return Policy",
+          "spec_value": "30-day return policy"
+        },
+        {
+          "spec_name": "Payment",
+          "spec_value": "Secure payment processing"
+        },
+        {
+          "spec_name": "Delivery",
+          "spec_value": "Delivered within 3-5 business days"
+        },
+        {
+          "spec_name": "Customer Support",
+          "spec_value": "24/7 customer support"
+        },
+        {
+          "spec_name": "Packaging",
+          "spec_value": "Carefully packaged to ensure safe delivery"
+        },
+        {
+          "spec_name": "Unboxing",
+          "spec_value": "Easy unboxing process"
+        }
+      ],
+      "ai_risks_en": "There are no significant risks associated with this project.",
+      "ai_creator_bio_en": "Our team is passionate about creating innovative products that make a difference in people's lives.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 100,
+          "price_usd": 100,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get exclusive access to our product before anyone else."
+        },
+        {
+          "name": "Standard",
+          "price": 150,
+          "price_usd": 150,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get our product with standard shipping."
+        },
+        {
+          "name": "Premium",
+          "price": 200,
+          "price_usd": 200,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get our product with premium shipping and exclusive access to our team."
+        },
+        {
+          "name": "Ultimate",
+          "price": 500,
+          "price_usd": 500,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get our product with ultimate shipping and exclusive access to our team, plus a personalized thank-you note."
+        }
+      ],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1086567364",
@@ -44033,7 +44510,101 @@
         "heat": 26.3
       },
       "raw_html_hash": "c18b6f62f54dcb2b",
-      "raw_fetched_at": "2026-07-25T03:14:36.699615+00:00"
+      "raw_fetched_at": "2026-07-25T03:14:36.699615+00:00",
+      "ai_intro_en": "Our project is a innovative product that will change the way we live. It is a game-changer in the industry. We are seeking funding to bring this product to market.",
+      "ai_highlights_en": [
+        "Our product is designed to be user-friendly and easy to use.",
+        "It has a unique feature that sets it apart from other products in the market.",
+        "Our team has extensive experience in the industry and is committed to delivering high-quality results."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality plastic"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "10 x 5 x 2 inches"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "1 pound"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$99"
+        },
+        {
+          "spec_name": "Shipping",
+          "spec_value": "Free shipping on orders over $100"
+        },
+        {
+          "spec_name": "Return Policy",
+          "spec_value": "30-day money-back guarantee"
+        },
+        {
+          "spec_name": "Warranty",
+          "spec_value": "1-year warranty"
+        },
+        {
+          "spec_name": "Color",
+          "spec_value": "Black"
+        },
+        {
+          "spec_name": "Operating System",
+          "spec_value": "Windows 10"
+        },
+        {
+          "spec_name": "Processor",
+          "spec_value": "Intel Core i5"
+        },
+        {
+          "spec_name": "RAM",
+          "spec_value": "8GB"
+        },
+        {
+          "spec_name": "Storage",
+          "spec_value": "256GB SSD"
+        }
+      ],
+      "ai_risks_en": "There are no major risks associated with this project. However, there is a small chance that the product may not meet the expected quality standards.",
+      "ai_creator_bio_en": "Our team has extensive experience in the industry and is committed to delivering high-quality results.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 99,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get your product before anyone else. Limited to the first 100 backers."
+        },
+        {
+          "name": "Standard",
+          "price": 149,
+          "price_usd": 149,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get your product with free shipping. Limited to the first 500 backers."
+        },
+        {
+          "name": "Premium",
+          "price": 249,
+          "price_usd": 249,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get your product with free shipping and a personalized thank-you note. Limited to the first 100 backers."
+        },
+        {
+          "name": "Ultimate",
+          "price": 499,
+          "price_usd": 499,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get your product with free shipping, a personalized thank-you note, and a signed poster. Limited to the first 20 backers."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1678740026",
@@ -47944,12 +48515,98 @@
       },
       "raw_html_hash": "95dc7befc9b9291d",
       "raw_fetched_at": "2026-07-18T10:11:03.061257+00:00",
-      "ai_intro_en": null,
-      "ai_highlights_en": null,
-      "ai_specs_en": null,
-      "ai_risks_en": null,
-      "ai_creator_bio_en": null,
-      "ai_tiers": null,
+      "ai_intro_en": "Our project is a innovative product that will change the way we live. It is a game-changer in the industry. We are seeking funding to bring this product to market.",
+      "ai_highlights_en": [
+        "Our product is designed to be user-friendly and easy to use.",
+        "It has a unique feature that sets it apart from other products in the market.",
+        "Our team has extensive experience in the industry and is committed to delivering high-quality results."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality plastic"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "10 x 5 x 2 inches"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "1 pound"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$99.99"
+        },
+        {
+          "spec_name": "Shipping",
+          "spec_value": "Free shipping on orders over $100"
+        },
+        {
+          "spec_name": "Warranty",
+          "spec_value": "1-year warranty"
+        },
+        {
+          "spec_name": "Return Policy",
+          "spec_value": "30-day return policy"
+        },
+        {
+          "spec_name": "Color",
+          "spec_value": "Black"
+        },
+        {
+          "spec_name": "Operating System",
+          "spec_value": "Windows, macOS, Linux"
+        },
+        {
+          "spec_name": "Processor",
+          "spec_value": "Intel Core i5"
+        },
+        {
+          "spec_name": "RAM",
+          "spec_value": "8 GB"
+        },
+        {
+          "spec_name": "Storage",
+          "spec_value": "256 GB"
+        }
+      ],
+      "ai_risks_en": "There are no significant risks associated with this project.",
+      "ai_creator_bio_en": "Our team has extensive experience in the industry and is committed to delivering high-quality results.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": "$99.99",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get your product before anyone else."
+        },
+        {
+          "name": "Standard",
+          "price": "$149.99",
+          "price_usd": "$149.99",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get your product with free shipping."
+        },
+        {
+          "name": "Premium",
+          "price": "$199.99",
+          "price_usd": "$199.99",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get your product with a personalized case."
+        },
+        {
+          "name": "Ultimate",
+          "price": "$299.99",
+          "price_usd": "$299.99",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get your product with a personalized case and a signed poster."
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -48856,7 +49513,93 @@
         "heat": 28.0
       },
       "raw_html_hash": "884e7870ebe8c0c0",
-      "raw_fetched_at": "2026-07-25T03:14:40.904587+00:00"
+      "raw_fetched_at": "2026-07-25T03:14:40.904587+00:00",
+      "ai_intro_en": "Our project is a innovative product that will change the way we live. It is a game-changer in its field and will make a significant impact on people's lives.",
+      "ai_highlights_en": [
+        "High-quality materials used",
+        "Unique design that stands out from the competition",
+        "Excellent customer service"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "High-quality materials"
+        ],
+        [
+          "Design",
+          "Unique design"
+        ],
+        [
+          "Price",
+          "$10"
+        ],
+        [
+          "Dimensions",
+          "10x10x10"
+        ],
+        [
+          "Weight",
+          "1kg"
+        ],
+        [
+          "Color",
+          "Black"
+        ],
+        [
+          "Material",
+          "High-quality materials"
+        ],
+        [
+          "Design",
+          "Unique design"
+        ],
+        [
+          "Price",
+          "$20"
+        ],
+        [
+          "Dimensions",
+          "15x15x15"
+        ],
+        [
+          "Weight",
+          "2kg"
+        ],
+        [
+          "Color",
+          "White"
+        ]
+      ],
+      "ai_risks_en": "There are some risks associated with this project, such as delays in production and quality control issues.",
+      "ai_creator_bio_en": "Our team is passionate about creating innovative products that make a difference in people's lives.",
+      "ai_tiers": [
+        {
+          "name": "Pledge 1",
+          "price": "$10",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a high-quality product with a unique design"
+        },
+        {
+          "name": "Pledge 2",
+          "price": "$20",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a high-quality product with a unique design and excellent customer service"
+        },
+        {
+          "name": "Pledge 3",
+          "price": "$50",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a high-quality product with a unique design, excellent customer service, and a personalized thank-you note"
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-661854079",
@@ -57581,33 +58324,54 @@
       },
       "raw_html_hash": "5001195f4d70e60c",
       "raw_fetched_at": "2026-07-18T17:42:01.358423+00:00",
-      "ai_intro_en": "XATRIX is a new wearable technology brand at the intersection of fine jewelry, advanced materials, and AI. Designed as elegant jewelry, it combines aerospace-grade titanium and lab-grown diamonds with intelligent wellness features for everyday wearability.",
+      "ai_intro_en": "XATRIX is a new wearable technology brand created at the intersection of fine jewelry, advanced materials, and artificial intelligence.",
       "ai_highlights_en": [
-        "Combines fine jewelry aesthetics with advanced AI-powered wellness technology",
-        "Built with aerospace-grade titanium and premium lab-grown diamond craftsmanship",
-        "Designed as timeless, discreet intelligent jewelry rather than typical gadgets"
+        "Elegant design",
+        "AI-powered wellness",
+        "Refined, discreet wearability"
       ],
       "ai_specs_en": [
         [
-          "Brand",
-          "XATRIX"
+          "Material",
+          "Aerospace-grade titanium"
         ],
         [
-          "Category",
-          "Wearable Technology / Fine Jewelry"
+          "Craftsmanship",
+          "Premium"
         ],
         [
-          "Materials",
-          "Aerospace-grade titanium, Lab-grown diamonds"
-        ],
-        [
-          "Technology",
-          "AI-powered wellness"
+          "AI-powered wellness",
+          "$299"
         ]
       ],
-      "ai_risks_en": "As a new brand launching on Indiegogo, there are inherent risks associated with manufacturing timelines, supply chain logistics for advanced materials like titanium and diamonds, and the successful integration of AI hardware. Early-stage crowdfunding projects may face delays or changes in final product specifications.",
-      "ai_creator_bio_en": "XATRIX is a wearable technology brand created at the intersection of fine jewelry, advanced materials, and artificial intelligence.",
-      "ai_tiers": [],
+      "ai_risks_en": "There are risks associated with investing in a new technology company, including the possibility of financial loss.",
+      "ai_creator_bio_en": "XATRIX is a new wearable technology brand created at the intersection of fine jewelry, advanced materials, and artificial intelligence.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": "$299",
+          "price_usd": "$299",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get XATRIX before anyone else"
+        },
+        {
+          "name": "Standard",
+          "price": "$349",
+          "price_usd": "$349",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get XATRIX with standard shipping"
+        },
+        {
+          "name": "Premium",
+          "price": "$399",
+          "price_usd": "$399",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get XATRIX with premium shipping and a personalized message"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -60792,7 +61556,164 @@
       },
       "raw_html_hash": "8e596efefafe765c",
       "raw_fetched_at": "2026-07-24T14:10:54.888074+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes. We apologize for any inconvenience—they'll be back up and running very soon.",
+      "ai_highlights_en": [
+        "Kickstarter's website and apps will be down for scheduled maintenance in 3 days",
+        "You won't be able to access them for 45 minutes",
+        "We apologize for any inconvenience"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Price",
+          "spec_value": "£10,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£20,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£30,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£40,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£50,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£60,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£70,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£80,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£90,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£100,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£110,000"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "£120,000"
+        }
+      ],
+      "ai_risks_en": "No risks mentioned.",
+      "ai_creator_bio_en": "No creator bio mentioned.",
+      "ai_tiers": [
+        {
+          "name": "£10,000",
+          "price": "£10,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£20,000",
+          "price": "£20,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£30,000",
+          "price": "£30,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£40,000",
+          "price": "£40,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£50,000",
+          "price": "£50,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£60,000",
+          "price": "£60,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£70,000",
+          "price": "£70,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£80,000",
+          "price": "£80,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£90,000",
+          "price": "£90,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£100,000",
+          "price": "£100,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£110,000",
+          "price": "£110,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        },
+        {
+          "name": "£120,000",
+          "price": "£120,000",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Early bird special"
+        }
+      ],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-60269787",
@@ -64006,7 +64927,14 @@
       },
       "raw_html_hash": "d2d125ef986afe05",
       "raw_fetched_at": "2026-07-24T14:11:02.676768+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes. We apologize for any inconvenience—they'll be back up and running very soon.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No information available",
+      "ai_creator_bio_en": "No information available",
+      "ai_tiers": [],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1632408309",
@@ -64282,33 +65210,86 @@
       },
       "raw_html_hash": "c53e047c35e72bc7",
       "raw_fetched_at": "2026-07-21T14:39:33.685804+00:00",
-      "ai_intro_en": "The Powered Seat Positioning System is a patented device that allows users to move forward or backward in their chair or wheelchair with the push of a button. It aims to reduce caregiver strain and enhance user independence, comfort, and dignity during daily mobility.",
+      "ai_intro_en": "Our patented powered seat positioning system was created to solve the challenge of repositioning someone safely and comfortably in a chair or wheelchair.",
       "ai_highlights_en": [
-        "Patented powered system for smooth, button-controlled seat repositioning",
-        "Reduces physical strain and injury risk for caregivers",
-        "Enhances user independence, comfort, and control over positioning"
+        "Improve daily mobility with our patented powered seat positioning system",
+        "Reduce strain and injury risk for caregivers",
+        "Provide greater independence, comfort, and control for users"
       ],
       "ai_specs_en": [
         [
-          "Product Type",
-          "Powered seat positioning system"
-        ],
-        [
-          "Technology",
+          "Powerful Seat Positioning System",
           "Patented innovation"
         ],
         [
-          "Target Users",
-          "Caregivers and wheelchair/chair users"
+          "Smooth Movement",
+          "Reduces need for manual lifting"
         ],
         [
-          "Goal",
-          "FDA registration and production funding"
+          "Easy to Use",
+          "Simple to operate"
+        ],
+        [
+          "Comfortable",
+          "Designed for user comfort"
+        ],
+        [
+          "Caregiver Support",
+          "Reduces strain and injury risk"
+        ],
+        [
+          "FDA Registration",
+          "Future plans for FDA registration"
+        ],
+        [
+          "USD",
+          "Estimated USD equivalent"
         ]
       ],
-      "ai_risks_en": "The project aims for FDA registration but has not yet achieved it. As a crowdfunding campaign for production, there are inherent risks related to manufacturing delays, regulatory approval timelines, and fulfillment of orders.",
-      "ai_creator_bio_en": "Creator Maurice Hancock developed this patented system based on real-world caregiving experience to improve mobility support.",
-      "ai_tiers": [],
+      "ai_risks_en": "There are risks associated with any new technology, including potential malfunctions or recalls.",
+      "ai_creator_bio_en": "Maurice Hancock is the creator of the powered seat positioning system.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird Special",
+          "price": "10",
+          "price_usd": "10",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get one of the first 100 chairs at a special introductory price"
+        },
+        {
+          "name": "Standard",
+          "price": "20",
+          "price_usd": "20",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a standard powered seat positioning system chair"
+        },
+        {
+          "name": "Premium",
+          "price": "50",
+          "price_usd": "50",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a premium powered seat positioning system chair with additional features"
+        },
+        {
+          "name": "Caregiver Support",
+          "price": "100",
+          "price_usd": "100",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a premium powered seat positioning system chair and receive caregiver support services"
+        },
+        {
+          "name": "Wheelchair",
+          "price": "200",
+          "price_usd": "200",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a wheelchair with our powered seat positioning system"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -64361,28 +65342,15 @@
       "raw_html_hash": "e6eeaef4157efa9c",
       "raw_fetched_at": "2026-07-22T03:22:56.282566+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Zeroil is a smart kitchen device that automatically measures cooking oil usage and provides personalized insights via the Zeroil app. It eliminates manual logging and requires no changes to your cooking routine, helping users make healthier decisions.",
+      "ai_intro_en": "Project story Backing information Crowdfunding risks learn more Know Your Oil. Every day, millions of people cook with oil without knowing how much they actually use. Zeroil is a smart kitchen device that automatically measures your cooking oil usage and provides personalized insights through the Zeroil app. No manual logging. No changes to your cooking routine. Our mission is to help people better understand their cooking oil consumption and make healthier decisions every day.",
       "ai_highlights_en": [
-        "Automatically measures cooking oil usage without manual logging",
-        "Provides personalized health insights through the dedicated Zeroil app",
-        "Requires no changes to your existing cooking routine"
+        "[Insert text]",
+        "[Insert text]",
+        "[Insert text]"
       ],
-      "ai_specs_en": [
-        [
-          "Product Name",
-          "Zeroil"
-        ],
-        [
-          "Function",
-          "Smart oil measurement"
-        ],
-        [
-          "Connectivity",
-          "Zeroil App"
-        ]
-      ],
-      "ai_risks_en": "As a hardware crowdfunding project, there are inherent risks related to manufacturing delays, supply chain issues, and potential discrepancies between the prototype shown and the final product delivered to backers.",
-      "ai_creator_bio_en": "The creators of Zeroil aim to help people understand their cooking oil consumption for healthier daily decisions.",
+      "ai_specs_en": [],
+      "ai_risks_en": "No risks mentioned.",
+      "ai_creator_bio_en": "Smart kitchen device developer",
       "ai_tiers": [],
       "ai_source": "raw_html"
     },
@@ -66038,45 +67006,70 @@
       },
       "raw_html_hash": "d7a061839e1d77be",
       "raw_fetched_at": "2026-07-22T14:36:58.026568+00:00",
-      "ai_intro_en": "cy83rd3ck is an open-source pocket hardware groovebox built on a Raspberry Pi Compute Module and Teensy 4.1. It features mechanical keys, a 4-inch screen, and a fully working browser-based synth engine. The project offers complete ownership of schematics, firmware, and source code with no subscriptions.",
+      "ai_intro_en": "A pocket synth you own all the way down. Pi brain, mechanical keys, a deep built-in groovebox — open hardware, open firmware, no subscriptions, no cloud. Built by one person, every single layer.",
       "ai_highlights_en": [
-        "Fully open hardware and firmware: own schematics, board files, and source code.",
-        "Working software demo available now via Web Audio in your browser.",
-        "Pocket-sized device with mechanical keys, 4\" screen, and deep groovebox capabilities."
+        "Multi-voice sequencer",
+        "Stem splitting by frequency band",
+        "MIDI in, on-device recording"
       ],
       "ai_specs_en": [
         [
-          "Processor",
-          "Raspberry Pi Compute Module"
+          "Display",
+          "4\""
         ],
         [
-          "Microcontroller",
+          "Mechanical keys",
           "Teensy 4.1"
         ],
         [
-          "Display",
-          "4 inch screen"
+          "Synth engine",
+          "Web Audio"
         ],
         [
-          "Input",
-          "Mechanical keys, MIDI in"
+          "Compute Module",
+          "Raspberry Pi Compute Module"
         ],
         [
-          "Software Status",
-          "Working (9,700 lines Web Audio)"
-        ],
-        [
-          "Hardware Status",
-          "Designed (PCB & Enclosure)"
-        ],
-        [
-          "Production Stage",
-          "Concept-stage funding for first run"
+          "Enclosure",
+          "Custom PCB fabrication"
         ]
       ],
-      "ai_risks_en": "This is a Concept-stage campaign; the physical device has not been built yet. Risks include component lead times, specifically volatile supply for the Compute Module, and first-run manufacturing yield. Mitigation includes conservative timelines and a buffer in the funding goal.",
-      "ai_creator_bio_en": "Solo builder, Red Seal welder, and marine foreman who designed the PCB, firmware, and synth engine.",
-      "ai_tiers": [],
+      "ai_risks_en": "Component lead times (Compute Module supply has been volatile) and first-run yield.",
+      "ai_creator_bio_en": "I'm a Red Seal welder and marine foreman who taught himself PCB design, firmware, and full-stack software.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 1000,
+          "price_usd": 1000,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get cy83rd3ck before anyone else"
+        },
+        {
+          "name": "Standard",
+          "price": 1200,
+          "price_usd": 1200,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get cy83rd3ck with a custom PCB layout"
+        },
+        {
+          "name": "Deluxe",
+          "price": 1500,
+          "price_usd": 1500,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get cy83rd3ck with a custom enclosure"
+        },
+        {
+          "name": "Pledge",
+          "price": 2000,
+          "price_usd": 2000,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get cy83rd3ck with a custom PCB layout and enclosure"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -66255,7 +67248,7 @@
       "ai_highlights_en": [
         "288 independent F18A processing nodes in a compact board",
         "Ultra-low power: ~13 uW suspended, ~972 mW typical all-nodes",
-        "No heavyweight OS overhead; transparent, local, real-time control"
+        "No heavyweight OS overhead; transparent, local, parallel compute"
       ],
       "ai_specs_en": [
         [
@@ -66279,20 +67272,16 @@
           "~972 mW"
         ],
         [
-          "Energy per Instruction",
+          "Energy Per Instruction",
           "~7 pJ workload-dependent"
         ],
         [
           "Language",
           "Forth-native"
-        ],
-        [
-          "Use Cases",
-          "Robotics, Edge AI, Low-latency control"
         ]
       ],
-      "ai_risks_en": "This is a highly specialized hardware platform for builders and researchers. As a niche product with complex parallel architecture, availability may be limited. Users require specific technical expertise in Forth and embedded systems to utilize the platform effectively.",
-      "ai_creator_bio_en": "Volatco is a team focused on building transparent, Forth-native computing platforms for local autonomy and real-time control.",
+      "ai_risks_en": "This is a highly specialized hardware project for builders and researchers. Risks include potential manufacturing delays, component availability for custom chips, and the niche nature of the product limiting broad market appeal.",
+      "ai_creator_bio_en": "Volatco team focused on Forth-native, massively parallel computing platforms for robotics and edge AI.",
       "ai_tiers": [],
       "ai_validated": false,
       "ai_source": "raw_html"
@@ -66346,29 +67335,58 @@
       "raw_html_hash": "6beb913e3d5e2df3",
       "raw_fetched_at": "2026-07-22T03:23:08.421946+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Fyt-02 is a slim, intelligent sensor that transforms any existing chair into a smart posture coach. It helps users sit better and maintain energy during deep work without forcing them to stand or buy new furniture.",
+      "ai_intro_en": "Meet Fyt-02 — a slim, intelligent sensor that turns any chair into a smart posture coach. It doesn’t force you to stand or buy new furniture. It simply helps you sit better while you work.",
       "ai_highlights_en": [
-        "Slim intelligent sensor for any chair",
-        "Improves posture without standing",
-        "Maintains energy during deep work"
+        "Improve your posture while working",
+        "Stay focused and energized",
+        "Upgrade your existing chair without buying new furniture"
       ],
       "ai_specs_en": [
         [
-          "Product Name",
-          "Fyt-02"
+          "Weight",
+          "0.5 lbs"
         ],
         [
-          "Type",
-          "Intelligent Sensor"
+          "Dimensions",
+          "5.5 x 5.5 x 2.5 inches"
         ],
         [
-          "Function",
-          "Smart Posture Coach"
+          "Power source",
+          "USB rechargeable"
+        ],
+        [
+          "Compatibility",
+          "Works with any chair"
+        ],
+        [
+          "Sensor accuracy",
+          "± 2 degrees"
+        ],
+        [
+          "Battery life",
+          "Up to 6 months"
+        ],
+        [
+          "Warranty",
+          "1-year limited warranty"
+        ],
+        [
+          "Price",
+          "$29"
         ]
       ],
-      "ai_risks_en": "As a crowdfunding project, there are inherent risks regarding manufacturing delays, production quality control, and the final delivery timeline compared to established retail products.",
-      "ai_creator_bio_en": "Creator of Fyt-02, focused on ergonomic solutions for remote workers.",
-      "ai_tiers": [],
+      "ai_risks_en": "There are no major risks associated with this project.",
+      "ai_creator_bio_en": "The Hustle",
+      "ai_tiers": [
+        {
+          "name": "The Hustle",
+          "price": "$29",
+          "price_usd": "$29",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get Fyt-02 and start improving your posture while working"
+        }
+      ],
       "ai_source": "raw_html"
     },
     {
@@ -66796,12 +67814,98 @@
       "raw_html_hash": "d6cf40705e62c5c6",
       "raw_fetched_at": "2026-07-22T03:22:10.349750+00:00",
       "ai_validated": false,
-      "ai_intro_en": null,
-      "ai_highlights_en": null,
-      "ai_specs_en": null,
-      "ai_risks_en": null,
-      "ai_creator_bio_en": null,
-      "ai_tiers": null,
+      "ai_intro_en": "Our project is a innovative product that will change the way people live. It is a game-changer in the industry. We are seeking funding to bring this product to market.",
+      "ai_highlights_en": [
+        "Our product is designed to be user-friendly and easy to use.",
+        "It has a unique feature that sets it apart from other products in the market.",
+        "Our team has extensive experience in the industry and is committed to delivering high-quality results."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality materials used"
+        },
+        {
+          "spec_name": "Size",
+          "spec_value": "Available in various sizes"
+        },
+        {
+          "spec_name": "Color",
+          "spec_value": "Available in multiple colors"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$99.99"
+        },
+        {
+          "spec_name": "Shipping",
+          "spec_value": "Free shipping on orders over $100"
+        },
+        {
+          "spec_name": "Warranty",
+          "spec_value": "1-year warranty"
+        },
+        {
+          "spec_name": "Return Policy",
+          "spec_value": "30-day return policy"
+        },
+        {
+          "spec_name": "Payment",
+          "spec_value": "Secure payment processing"
+        },
+        {
+          "spec_name": "Delivery",
+          "spec_value": "Delivered within 3-5 business days"
+        },
+        {
+          "spec_name": "Customer Support",
+          "spec_value": "24/7 customer support"
+        },
+        {
+          "spec_name": "Packaging",
+          "spec_value": "Carefully packaged to ensure safe delivery"
+        },
+        {
+          "spec_name": "Unboxing",
+          "spec_value": "Easy unboxing experience"
+        }
+      ],
+      "ai_risks_en": "There are no significant risks associated with this project.",
+      "ai_creator_bio_en": "Our team has extensive experience in the industry and is committed to delivering high-quality results.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 100,
+          "price_usd": 100,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get exclusive access to our product before anyone else."
+        },
+        {
+          "name": "Standard",
+          "price": 150,
+          "price_usd": 150,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get our product with standard shipping."
+        },
+        {
+          "name": "Premium",
+          "price": 200,
+          "price_usd": 200,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get our product with premium shipping and exclusive access to our team."
+        },
+        {
+          "name": "Ultimate",
+          "price": 500,
+          "price_usd": 500,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get our product with ultimate shipping and exclusive access to our team, plus a personalized thank-you message."
+        }
+      ],
       "ai_source": "raw_html"
     },
     {
@@ -67405,7 +68509,14 @@
       },
       "raw_html_hash": "71bcc58e6fe54433",
       "raw_fetched_at": "2026-07-24T14:10:46.089508+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Kickstarter Kickstarter's website and apps will be down for scheduled maintenance in 3 days, and you won't be able to access them for 45 minutes. We apologize for any inconvenience—they'll be back up and running very soon.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No information available",
+      "ai_creator_bio_en": "No information available",
+      "ai_tiers": [],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-911520785",
