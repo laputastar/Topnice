@@ -9,7 +9,7 @@ ai-extract.py — 用 LLM 从原始抓取内容提取项目结构化字段
   - 关键增强：LLM 同时产出 ai_tiers（档位/价格），解决 IG 正则解析失败的问题
   - KS / IG 共用同一套 AI schema，无需维护两套解析器
 
-提供商: Cloudflare Workers AI (首选) → Agnes AI (备用, 推理模型)
+提供商: Mouter AI (主用, 独立引擎, OpenAI 兼容) → Cloudflare Workers AI (备用) → Agnes AI (备用, 推理模型)
 
 用法:
   python scripts/ai-extract.py                              # 全量（只处理缺 AI 字段的 live 项目）
@@ -24,16 +24,27 @@ from datetime import datetime
 
 # 统一 LLM/API 调用层（集中读 env、统一重试/超时）
 sys.path.insert(0, str(Path(__file__).parent))
-from llm import call_compatible_llm, call_cloudflare, parse_json
+from llm import call_compatible_llm, call_cloudflare, parse_json, call_mouter, MOUTER
 from safeio import atomic_write_json
 
 DATA_FILE = Path(__file__).parent.parent / "src" / "data" / "projects.json"
 RAW_HTML_DIR = Path(__file__).parent / "raw" / "html"
 
-# AI 提供商优先级（全管线统一）：Cloudflare Workers AI 主用 → Agnes AI 备用
+# AI 提供商优先级（全管线统一）：Mouter AI 主用 → Cloudflare Workers AI 备用 → Agnes AI 备用
+# 设计意图：英文抽取（6 个 ai_* 字段）耗时大、单日需求远超 Cloudflare 免费 10k neurons，
+# 历史上每次 CI run 都被额度饿死尾部项目 → 出现"72 个产品缺 AI 字段"。
+# 改由 Mouter AI（用户单独购买的独立引擎）独占额度抽英文源，彻底摆脱 CF 额度撞车；
+# Cloudflare / Agnes 仅作 Mouter 不可用时的兜底，避免完全无引擎可抽。
 # 所有 Key 均从环境变量读取，禁止硬编码（防泄露进 git/分享）。
-# 运行前请 export: AGNES_API_KEY / CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN
+# 运行前请 export: MOUTER_API_KEY（主用） / CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN（兜底） / AGNES_API_KEY（兜底）
 LLM_PROVIDERS = [
+    {
+        "name": "Mouter AI",
+        "type": "mouter",
+        "model": MOUTER["model"],
+        "timeout": 120,
+        "max_tokens": 4000,
+    },
     {
         "name": "Cloudflare Workers AI",
         "type": "cloudflare",
@@ -194,6 +205,20 @@ def _call_llm(content: str, currency: str, platform: str, provider: dict) -> dic
             raw = call_cloudflare(
                 user_prompt, model=provider["model"], system=SYSTEM_PROMPT,
                 timeout=60, max_tokens=3000,
+            )
+            return parse_json(raw)
+        except Exception as e:
+            print(f"  ⚠️  {name} 失败: {e}")
+        return None
+
+    # Mouter AI（OpenAI 兼容，主用）：抽取英文源数据，独占 Mouter 独立额度
+    if provider["type"] == "mouter":
+        try:
+            raw = call_mouter(
+                user_prompt,
+                system=SYSTEM_PROMPT,
+                timeout=provider.get("timeout", 120),
+                max_tokens=provider.get("max_tokens", 4000),
             )
             return parse_json(raw)
         except Exception as e:

@@ -28,6 +28,7 @@ jobs:
       FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
       CONTEXT_DEV_API_KEY: ${{ secrets.CONTEXT_DEV_API_KEY }}
       TINYFISH_API_KEY: ${{ secrets.TINYFISH_API_KEY }}
+      MOUTER_API_KEY: ${{ secrets.MOUTER_API_KEY }}
       AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -112,9 +113,11 @@ jobs:
       - name: Validate AI data
         run: python scripts/validate-ai-data.py
 
-      # 翻译已拆出到独立 workflow (translate-only.yml)，使用 Mouter AI 独立引擎，
-      # 与本管道的 Cloudflare 英文抽取解耦，避免免费额度撞车。
-      # 此处不再翻译，让 ai-extract 独占 Cloudflare 额度把英文源抽满。
+      # 翻译已拆出到独立 workflow (translate-only.yml)，使用 Mouter AI 独立引擎。
+      # 英文抽取 (ai-extract) 也已迁到 Mouter 主用（见 scripts/ai-extract.py 的
+      # LLM_PROVIDERS 顺序）：抽取与翻译都走 Mouter 独占额度，与 Cloudflare 免费
+      # 10k neurons 彻底解耦，解决"新抓项目被额度饿死、缺 AI 字段"的历史问题。
+      # Cloudflare / Agnes 仅作 Mouter 不可用时的兜底。
 
       - name: Commit and push if changed
         if: always()
