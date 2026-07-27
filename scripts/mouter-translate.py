@@ -152,6 +152,7 @@ Input lines:
                     prompt,
                     system=system,
                     timeout=120,
+                    max_tokens=4000,  # 单批聚合多字段译文，预留足额输出避免截断（与 ai-extract 一致）
                     max_retries=0,
                     proxies=PROXIES,
                 )

@@ -36,7 +36,6 @@ FIELD_DEFS = [
     ("ai_highlights_en",  "ai_highlights_zh",    "list",      "Key Highlights"),
     ("ai_specs_en",       "ai_specs_zh",         "list",      "Technical Specs [[label,val],...]"),
     ("ai_risks_en",       "ai_risks_zh",         "str",       "Risks & Challenges"),
-    ("ai_risks_structured_en", "ai_risks_structured_zh", "list", "结构化风险 [[title,desc],...]"),
     ("ai_creator_bio_en", "ai_creator_bio_zh",   "str",       "Creator Bio"),
     ("ai_tiers",          "ai_tiers_zh",         "list",      "Reward Tiers（翻 name/description）"),
 ]
