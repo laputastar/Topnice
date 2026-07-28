@@ -64388,11 +64388,28 @@
       "raw_fetched_at": "2026-07-18T17:42:01.358423+00:00",
       "ai_intro_en": "XATRIX is a new wearable technology brand created at the intersection of fine jewelry, advanced materials, and artificial intelligence. Designed as a piece of jewelry, it brings elegance, emotional value, and everyday wearability into a device that quietly supports modern life through intelligent features. Built on years of experience in advanced materials and lab-grown diamond manufacturing, XATRIX combines aerospace-grade titanium, premium craftsmanship, and AI-powered wellness into a new category of wearable technology.",
       "ai_highlights_en": [
-        "Elegant jewelry design that blends fine jewelry aesthetics with wearable tech.",
-        "Advanced materials including aerospace-grade titanium and lab-grown diamond for durability and luxury.",
-        "AI-powered wellness features that provide discreet, intelligent support for modern daily life."
+        "Elegant jewelry design that integrates wearable technology for daily wear.",
+        "Uses aerospace-grade titanium and lab-grown diamonds for premium durability and beauty.",
+        "Features AI-powered wellness capabilities that discreetly support modern life."
       ],
-      "ai_specs_en": [],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Aerospace-grade titanium"
+        ],
+        [
+          "Gemstone",
+          "Lab-grown diamonds"
+        ],
+        [
+          "Technology",
+          "AI-powered wellness features"
+        ],
+        [
+          "Craftsmanship",
+          "Premium handcrafted"
+        ]
+      ],
       "ai_risks_en": "",
       "ai_creator_bio_en": "XATRIX is a new wearable technology brand created at the intersection of fine jewelry, advanced materials, and artificial intelligence.",
       "ai_tiers": [],
@@ -69808,7 +69825,32 @@
         "heat": 3.4
       },
       "raw_html_hash": "3f58a0e7b9804a8c",
-      "raw_fetched_at": "2026-07-28T14:38:47.078476+00:00"
+      "raw_fetched_at": "2026-07-28T14:38:47.078476+00:00",
+      "ai_intro_en": "Dead Man Walking is a horror-comedy film about Chris Gallo, a con man who discovers he's dead but still animate, racing against decomposition to uncover his death and find a way back to life. The project uses animatronic effects and seeks backer support to finish production and release before Halloween.",
+      "ai_highlights_en": [
+        "Unique animatronic corpse special effects",
+        "Race-against-time horror‑comedy storyline",
+        "Goal to finish and release the film before Halloween"
+      ],
+      "ai_specs_en": [
+        [
+          "Special Effects",
+          "Animatronic corpse"
+        ],
+        [
+          "Target Release",
+          "Before Halloween"
+        ],
+        [
+          "Production Status",
+          "In progress (animatronic corpse built)"
+        ]
+      ],
+      "ai_risks_en": "The main risks include production delays if the funding goal is not met, reliance on backer contributions to complete the film before Halloween, and potential issues with physical perk fulfillment such as shipping damage or manufacturing defects.",
+      "ai_creator_bio_en": "Karl Huber, operating as Crimson Hands FX, is the creator behind the Dead Man Walking film project.",
+      "ai_tiers": [],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2064317982",
@@ -72834,52 +72876,15 @@
       },
       "raw_html_hash": "c53e047c35e72bc7",
       "raw_fetched_at": "2026-07-21T14:39:33.685804+00:00",
-      "ai_intro_en": "Our patented powered seat positioning system allows a seated user to move forward or backward smoothly within their chair or wheelchair at the push of a button. This reduces the need for manual lifting, pulling, or repositioning, making daily mobility safer, easier, and more dignified. For caregivers, it reduces strain and injury risk; for users, it provides greater independence, comfort, and control.",
+      "ai_intro_en": "Our patented powered seat positioning system lets a seated user move forward or backward smoothly within a chair or wheelchair at the push of a button, reducing the need for manual lifting or repositioning. It eases caregiver strain and injury risk while giving users greater independence, comfort, and control over their positioning. Designed for home, care facilities, or everyday use, it aims to improve quality of life for both caregivers and those they assist.",
       "ai_highlights_en": [
-        "Patented powered seat positioning system moves user forward/backward at push of a button.",
-        "Reduces caregiver strain and injury risk by minimizing manual lifting.",
-        "Provides users with greater independence, comfort, and control over positioning."
+        "Powered forward/backward movement with a single button press",
+        "Reduces physical strain and injury risk for caregivers",
+        "Enhances user independence, comfort, and precise positioning control"
       ],
-      "ai_specs_en": [
-        [
-          "Creator",
-          "MauriceHancock"
-        ],
-        [
-          "Category",
-          "Wellness"
-        ],
-        [
-          "Tags",
-          "chairs"
-        ],
-        [
-          "Product Type",
-          "powered seat positioning system"
-        ],
-        [
-          "Patent Status",
-          "patented"
-        ],
-        [
-          "Movement",
-          "forward or backward smoothly at push of a button"
-        ],
-        [
-          "Caregiver Benefit",
-          "reduces strain and injury risk"
-        ],
-        [
-          "User Benefit",
-          "greater independence, comfort, and control"
-        ],
-        [
-          "Goal",
-          "produce more powered seating system chairs and wheelchairs and get FDA registered"
-        ]
-      ],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "",
+      "ai_specs_en": [],
+      "ai_risks_en": "The project faces risks such as potential delays in securing FDA approval, challenges in scaling manufacturing to meet demand, and uncertainties in meeting the funding goal needed for production.",
+      "ai_creator_bio_en": "MauriceHancock is the inventor and creator of the patented powered seat positioning system.",
       "ai_tiers": [],
       "ai_validated": false,
       "ai_source": "raw_html"
@@ -72933,32 +72938,32 @@
       "raw_html_hash": "e6eeaef4157efa9c",
       "raw_fetched_at": "2026-07-22T03:22:56.282566+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Zeroil is a smart kitchen device that automatically measures your cooking oil usage and provides personalized insights through the Zeroil app. It requires no manual logging and no changes to your cooking routine. Our mission is to help people better understand their cooking oil consumption and make healthier decisions every day.",
+      "ai_intro_en": "Zeroil is a smart kitchen device that automatically measures your cooking oil usage and provides personalized insights through the Zeroil app. No manual logging and no changes to your cooking routine are required.",
       "ai_highlights_en": [
-        "Automatically measures cooking oil usage without manual logging.",
-        "Delivers personalized insights via the Zeroil app for better health decisions.",
-        "Requires no changes to your existing cooking routine."
+        "Automatically measures cooking oil usage",
+        "Provides personalized insights via the Zeroil app",
+        "Requires no manual logging or changes to cooking routine"
       ],
       "ai_specs_en": [
         [
-          "Product Type",
+          "Device type",
           "Smart kitchen device"
         ],
         [
-          "Measurement",
-          "Automatic cooking oil usage"
+          "Function",
+          "Automatically measures cooking oil usage"
         ],
         [
-          "App Insights",
-          "Personalized insights via Zeroil app"
+          "App integration",
+          "Zeroil app"
         ],
         [
-          "Logging",
-          "No manual logging required"
+          "Manual logging required",
+          "No"
         ],
         [
-          "Routine Change",
-          "No changes required"
+          "Changes to cooking routine required",
+          "No"
         ]
       ],
       "ai_risks_en": "",
@@ -73124,7 +73129,19 @@
         "heat": 0.0
       },
       "raw_html_hash": "c18b6f62f54dcb2b",
-      "raw_fetched_at": "2026-07-28T14:38:51.763923+00:00"
+      "raw_fetched_at": "2026-07-28T14:38:51.763923+00:00",
+      "ai_intro_en": "",
+      "ai_highlights_en": [
+        "",
+        "",
+        ""
+      ],
+      "ai_specs_en": [],
+      "ai_risks_en": "",
+      "ai_creator_bio_en": "",
+      "ai_tiers": [],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-59144439",
@@ -74206,36 +74223,52 @@
       },
       "raw_html_hash": "9bf03e84fb4b2b58",
       "raw_fetched_at": "2026-07-28T03:10:09.759657+00:00",
-      "ai_intro_en": "PulseGuard Guardian is an automatic emergency detection device designed for individuals with Alzheimer's disease or dementia. It continuously monitors movement, heart activity, and stress signals, detecting falls, abnormal behavior, or wandering outside a preset safe zone without requiring any user interaction. When danger is detected, it instantly sends real-time location and alerts to emergency contacts via built‑in connectivity, operating without a phone or app.",
+      "ai_intro_en": "PulseGuard Guardian is a wearable device that automatically detects emergencies such as falls, abnormal heart signals, or wandering outside a predefined safe zone, and instantly sends real-time location alerts to emergency contacts without requiring a phone, app, or user interaction. It continuously monitors movement, heart activity, and stress levels to provide proactive protection for individuals with Alzheimer's disease or dementia. The device operates autonomously, ensuring help is summoned even when the user cannot call for help.",
       "ai_highlights_en": [
-        "Automatic emergency detection with no buttons or user interaction required.",
-        "Built‑in GPS tracking provides real‑time location anywhere, without needing a phone.",
-        "Guardian Mode™ sets safe zones, detects wandering, and monitors heart & stress signals."
+        "Automatic emergency detection – no buttons or user interaction needed.",
+        "GPS location tracking – know the exact whereabouts of the wearer at all times.",
+        "Built‑in connectivity – works anywhere without requiring a phone or external device."
       ],
       "ai_specs_en": [
         [
-          "Monitoring",
-          "Movement, heart activity & stress"
+          "Movement Tracking",
+          "Yes"
         ],
         [
-          "Detection",
-          "Falls, abnormal signals, wandering outside safe zone"
+          "Heart Activity Monitoring",
+          "Yes"
         ],
         [
-          "Alert",
-          "Instant emergency alerts with real‑time location"
+          "Stress Monitoring",
+          "Yes"
         ],
         [
-          "Connectivity",
-          "Built‑in, works without phone"
+          "Fall Detection",
+          "Yes"
         ],
         [
-          "Guardian Mode",
-          "Safe zone setting & wandering prevention"
+          "Abnormal Signal Detection",
+          "Yes"
         ],
         [
-          "Health Monitoring",
-          "Heart & stress signal tracking"
+          "Wandering Detection (Safe Zone)",
+          "Yes"
+        ],
+        [
+          "Real‑time Location Alerts",
+          "Yes"
+        ],
+        [
+          "Emergency Contact Notification",
+          "Yes"
+        ],
+        [
+          "No Phone Required",
+          "Yes"
+        ],
+        [
+          "Automatic Operation",
+          "Yes"
         ]
       ],
       "ai_risks_en": "",
@@ -74292,68 +74325,40 @@
       },
       "raw_html_hash": "f9f37f0d4c522b66",
       "raw_fetched_at": "2026-07-26T14:02:11.545451+00:00",
-      "ai_intro_en": "A foldable all-terrain utility cart with AI-assist, designed for tools, camping, hunting, and heavy gear. Two models are planned: a 4-wheel AI-assist cart and a 6-wheel heavier-duty hunting cart. The campaign seeks funding to build and test a working prototype.",
+      "ai_intro_en": "We are building a new kind of foldable all-terrain utility cart designed for people who work, explore, hunt, camp, repair, build, and carry heavy gear across real terrain. The project introduces two planned models: a 4-wheel AI-assist utility cart with hub motors, foldable frame, modular storage, LED lighting, built-in charging, and an AI auto-follow camera system; and a heavier-duty 6-wheel utility and hunting cart with extra middle-wheel support, stronger frame, hunting gear storage, modular side racks, water-resistant construction, and optional 110V power inverter.",
       "ai_highlights_en": [
-        "Foldable frame with hub motors for powered mobility",
-        "AI auto-follow camera system for hands‑free tracking",
-        "Modular storage, LED lighting, built‑in charging, and optional 110V inverter"
+        "Foldable all-terrain design for rugged outdoor use",
+        "AI-assist features including hub motors and auto-follow camera system",
+        "Modular storage with LED lighting, built-in charging, and optional 110V power inverter"
       ],
       "ai_specs_en": [
         [
-          "Foldable frame",
-          "Included"
+          "Model 1",
+          "4-wheel all-terrain foldable AI-assist utility cart"
         ],
         [
-          "Hub motors",
-          "Included"
+          "Model 1 features",
+          "hub motors, foldable frame, modular storage, LED lighting, built-in charging, and an AI auto-follow camera system"
         ],
         [
-          "Modular storage",
-          "Included"
+          "Model 2",
+          "6-wheel utility and hunting cart"
         ],
         [
-          "LED lighting",
-          "Included"
+          "Model 2 features",
+          "extra middle-wheel support, a stronger frame, hunting gear storage, modular side racks, water-resistant construction, and an optional 110V power inverter"
         ],
         [
-          "Built‑in charging",
-          "Included"
+          "Intended use",
+          "people who work, explore, hunt, camp, repair, build, and carry heavy gear across real terrain"
         ],
         [
-          "AI auto-follow camera system",
-          "Included"
-        ],
-        [
-          "Extra middle-wheel support (Model 2)",
-          "Included"
-        ],
-        [
-          "Stronger frame (Model 2)",
-          "Included"
-        ],
-        [
-          "Hunting gear storage (Model 2)",
-          "Included"
-        ],
-        [
-          "Water-resistant construction (Model 2)",
-          "Included"
-        ],
-        [
-          "Optional 110V power inverter (Model 2)",
-          "Optional"
-        ],
-        [
-          "6-wheel configuration (Model 2)",
-          "Included"
-        ],
-        [
-          "4-wheel configuration (Model 1)",
-          "Included"
+          "Project stage",
+          "moving the project from concept design into prototype development, testing, and refinement"
         ]
       ],
-      "ai_risks_en": "The project is still in concept stage; final specifications may change during engineering and prototyping. Delays are possible as the team works to refine the folding mechanism, test load capacity, and validate motor and AI systems. Concept renders are the only visuals available at this time.",
-      "ai_creator_bio_en": "Rabih ELMasri is the creator developing the foldable all‑terrain utility cart project.",
+      "ai_risks_en": "The project is currently in concept stage; final specifications may change during engineering, prototyping, and safety testing, and the images shown are concept renders that may not reflect the final product.",
+      "ai_creator_bio_en": "Rabih ELMasri is the creator of this project.",
       "ai_tiers": [],
       "ai_validated": false,
       "ai_source": "raw_html"
@@ -74488,63 +74493,55 @@
       },
       "raw_html_hash": "d7a061839e1d77be",
       "raw_fetched_at": "2026-07-22T14:36:58.026568+00:00",
-      "ai_intro_en": "cy83rd3ck is a pocket-sized hardware groovebox built around a Raspberry Pi Compute Module and Teensy 4.1, featuring real mechanical keys, a 4‑inch screen, and an open‑source synth engine. It offers open hardware, open firmware, no subscriptions or cloud dependencies, and fits in a jacket pocket for gig‑ready music making.",
+      "ai_intro_en": "A pocket synth you own all the way down. Pi brain, mechanical keys, a deep built-in groovebox — open hardware, open firmware, no subscriptions, no cloud. Built by one person, every single layer.",
       "ai_highlights_en": [
-        "Fully open hardware/firmware: schematics, board files, firmware, full source provided; no subscriptions or cloud lock‑in.",
-        "Pocket‑sized groovebox with real mechanical keys, a 4″ screen, Raspberry Pi Compute Module and Teensy 4.1 for gig‑ready performance.",
-        "Solo builder’s end‑to‑end expertise – designed, fabricated, and programmed by one person with a welding and marine foreman background ensuring real‑world durability."
+        "Open hardware and firmware with no subscriptions or cloud dependency.",
+        "Pocket-sized groovebox featuring Raspberry Pi Compute Module, Teensy 4.1, and mechanical keys.",
+        "Try the synth engine instantly in your browser before backing."
       ],
       "ai_specs_en": [
         [
-          "Brain",
+          "Processor",
           "Raspberry Pi Compute Module"
         ],
         [
-          "Key controller",
+          "Microcontroller",
           "Teensy 4.1"
         ],
         [
           "Display",
-          "4‑inch screen"
+          "4\" screen"
         ],
         [
-          "Form factor",
-          "Pocket‑sized, fits in jacket pocket"
+          "Open hardware",
+          "Yes"
         ],
         [
-          "Keys",
-          "Real mechanical keys"
+          "Open firmware",
+          "Yes"
         ],
         [
-          "Sequencer",
-          "Multi‑voice sequencer"
+          "No subscriptions",
+          "Yes"
         ],
         [
-          "Audio processing",
-          "Stem splitting by frequency band"
+          "No cloud",
+          "Yes"
         ],
         [
-          "MIDI",
-          "MIDI input supported"
+          "Mechanical keys",
+          "Yes"
         ],
         [
-          "Recording",
-          "On‑device recording"
+          "Synth engine",
+          "Web Audio multi-voice sequencer"
         ],
         [
-          "Openness",
-          "Open hardware, open firmware, full source provided"
-        ],
-        [
-          "No subscriptions/cloud",
-          "No subscriptions, no cloud dependency"
-        ],
-        [
-          "Builder",
-          "Solo builder – Red Seal welder and marine foreman"
+          "Pocket-sized",
+          "Fits in jacket pocket"
         ]
       ],
-      "ai_risks_en": "Software risk is retired; remaining hardware risks include display integration, board finalization, and small‑batch assembly. Key concerns are volatile Compute Module lead times and possible first‑run yield issues, mitigated by conservative timelines, a funding‑goal buffer, and shipping a validated design.",
+      "ai_risks_en": "Remaining risks are hardware-related: display integration, board finalization, and small-batch assembly; main concerns are volatile Compute Module supply and first-run yield, mitigated by conservative timelines, funding goal buffer, and shipping validated design.",
       "ai_creator_bio_en": "Red Seal welder and marine foreman turned solo hardware builder, designing PCB, firmware, and synth engine for cy83rd3ck.",
       "ai_tiers": [],
       "ai_validated": false,
@@ -74721,24 +74718,23 @@
       },
       "raw_html_hash": "cec8437853663eeb",
       "raw_fetched_at": "2026-07-18T17:42:45.381092+00:00",
-      "ai_intro_en": "Volatco is an ultra-compact multicomputer for builders who want real-time control without cloud dependence. It is a Forth-native, massively parallel computing platform for robotics, edge AI, and low-latency control systems, built around 2 x GA144 chips providing 288 independent F18A processing nodes.",
+      "ai_intro_en": "Volatco is an ultra-compact multicomputer built around two GA144 chips, providing 288 independent F18A processing nodes for massively parallel, real-time control. It targets robotics, edge AI, and low-latency applications where deterministic response and minimal cloud dependence are critical.",
       "ai_highlights_en": [
-        "288 independent F18A processing nodes",
-        "Up to 96B primitive ops/s per chip",
-        "Near-instant transition between active and inactive behavior"
+        "288 independent F18A processing nodes on a compact board",
+        "Up to 96B primitive operations per second per chip with ultra-low power consumption",
+        "Near-instant active/inactive transitions and no heavyweight OS overhead"
       ],
       "ai_specs_en": [
-        [
-          "Number of F18A processing nodes",
-          "288"
-        ],
         [
           "GA144 chips",
           "2"
         ],
         [
-          "Primitive ops/s per chip",
-          "Up to 96B"
+          "F18A processing nodes",
+          "288"
+        ],
+        [
+          "Primitive ops/s per chip ops/s per chip: 96B"
         ],
         [
           "Suspended power",
@@ -74753,12 +74749,12 @@
           "~7 pJ"
         ],
         [
-          "Transition between active/inactive",
+          "Active/inactive transition",
           "Near-instant"
         ],
         [
           "OS overhead",
-          "No heavyweight OS overhead"
+          "No heavyweight"
         ]
       ],
       "ai_risks_en": "",
@@ -74816,12 +74812,8 @@
       "raw_html_hash": "6beb913e3d5e2df3",
       "raw_fetched_at": "2026-07-22T03:23:08.421946+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Fyt-02 — a slim, intelligent sensor that turns any chair into a smart posture coach. It doesn’t force you to stand or buy new furniture. It simply helps you sit better while you work.",
-      "ai_highlights_en": [
-        "Slim, intelligent sensor",
-        "Turns any chair into a smart posture coach",
-        "Helps you sit better while you work"
-      ],
+      "ai_intro_en": "Fyt-02 is a slim, intelligent sensor that turns any chair into a smart posture coach. It helps you sit better while you work without forcing you to stand or buy new furniture. By monitoring your posture, it aims to reduce stiffness, improve focus, and maintain energy during long work sessions.",
+      "ai_highlights_en": [],
       "ai_specs_en": [],
       "ai_risks_en": "",
       "ai_creator_bio_en": "",
