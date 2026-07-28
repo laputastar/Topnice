@@ -24,6 +24,7 @@ import os
 import re
 import time
 import json
+import threading
 import requests
 
 try:
@@ -56,6 +57,33 @@ MOUTER = {
     "model": os.environ.get("MOUTER_MODEL") or "nvidia/nemotron-3-super-120b-a12b",
     "timeout": 120,
 }
+
+# Mouter 固定请求速率上限（RPM）。默认 3（即每 20s 最多 1 次），
+# 可用环境变量 MOUTER_RPM 覆盖（便于后续按套餐调整，无需改代码）。
+# 所有 Mouter 调用（英文抽取 ai-extract + 翻译 mouter-translate）共享此上限，
+# 代表「Mouter 账户整体 ≤ N 次/分钟」，无论抽取还是翻译都不突破。
+MOUTER_RPM = int(os.environ.get("MOUTER_RPM", "3"))
+
+_rl_lock = threading.Lock()
+_rl_last: dict[str, float] = {}
+
+def _rate_limit(key: str, rpm: int) -> None:
+    """保证同一 key 维度每分钟请求数 ≤ rpm（最小间隔 = 60/rpm 秒）。
+
+    仅在「距上次请求不足间隔」时才 sleep；若自然间隔已 ≥ 间隔则不阻塞。
+    重试（call_compatible_llm 内部 attempt 循环）也会经过此处，故 429 重试同样受约束，
+    不会出现「重试瞬间突破 RPM」的情况。
+    """
+    if rpm is None or rpm <= 0:
+        return
+    interval = 60.0 / rpm
+    with _rl_lock:
+        last = _rl_last.get(key, 0.0)
+        wait = interval - (time.monotonic() - last)
+        if wait > 0:
+            print(f"  ⏳ 限速({key})：间隔 {interval:.0f}s 不足，sleep {wait:.1f}s")
+            time.sleep(wait)
+        _rl_last[key] = time.monotonic()
 
 
 class LLMError(Exception):
@@ -110,6 +138,8 @@ def call_compatible_llm(
     max_tokens: int = 2000,
     max_retries: int = 1,
     retry_rate_limit_only: bool = True,
+    rpm_limit: int | None = None,
+    rate_limit_key: str | None = None,
 ) -> str:
     """调用 OpenAI 协议兼容端点（如 Agnes AI 推理模型）。返回模型原始文本；失败抛 LLMError。
 
@@ -133,6 +163,8 @@ def call_compatible_llm(
     last_err = None
     for attempt in range(max_retries + 1):
         try:
+            if rpm_limit:
+                _rate_limit(rate_limit_key or base_url, rpm_limit)
             resp = client.chat.completions.create(
                 model=model,
                 messages=messages,
@@ -248,10 +280,13 @@ def call_agnes(prompt: str, *, system=None, temperature=0.1, timeout=90, max_tok
 
 
 def call_mouter(prompt: str, *, system=None, temperature=0.1, timeout=120, max_tokens=2000, max_retries=1) -> str:
-    """调用 Mouter AI（翻译专用独立引擎，OpenAI 协议兼容）。失败抛 LLMError。
+    """调用 Mouter AI（独立引擎，OpenAI 协议兼容）。失败抛 LLMError。
 
-    与 Cloudflare 英文抽取解耦：翻译独占该引擎额度，避免两者在 Cloudflare
+    与 Cloudflare 英文抽取解耦：抽取/翻译独占该引擎额度，避免两者在 Cloudflare
     免费 10k neurons 下撞车导致抽取/翻译互相饿死。
+
+    固定请求速率上限 MOUTER_RPM（默认 3 RPM），由 _rate_limit 在每次实际 HTTP 请求前
+    （含 429 重试）统一约束，代表「Mouter 账户整体 ≤ N 次/分钟」。
 
     未配置（MOUTER_BASE_URL 或 MOUTER_MODEL 为空）时明确抛错，而非用空 base_url
     打到 openai.com 默认端点造成难以排查的失败。
@@ -268,4 +303,6 @@ def call_mouter(prompt: str, *, system=None, temperature=0.1, timeout=120, max_t
         max_tokens=max_tokens,
         timeout=timeout,
         max_retries=max_retries,
+        rpm_limit=MOUTER_RPM,
+        rate_limit_key="mouter",
     )

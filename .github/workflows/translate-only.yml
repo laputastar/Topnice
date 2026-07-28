@@ -28,6 +28,9 @@ jobs:
       MOUTER_API_KEY: ${{ secrets.MOUTER_API_KEY }}
       MOUTER_BASE_URL: ${{ secrets.MOUTER_BASE_URL }}
       MOUTER_MODEL: ${{ secrets.MOUTER_MODEL }}
+      # Mouter 固定请求速率上限（RPM）。默认 3（每 20s 最多 1 次）；
+      # 如需调整，在 repo Secrets 设 MOUTER_RPM 即可，无需改代码。
+      MOUTER_RPM: ${{ secrets.MOUTER_RPM || '3' }}
       # 可选：中国网络访问 Mouter 时的本地代理
       MOUTER_PROXY: ${{ secrets.MOUTER_PROXY }}
     steps:
