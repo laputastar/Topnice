@@ -123,6 +123,25 @@ def _result_has_placeholder(result: dict) -> bool:
     return False
 
 
+def _is_useful_result(result) -> bool:
+    """判断 LLM 返回是否“可用”：必须是非空 dict，且通过空提取 + 占位符双重防护。
+
+    空字典 / 全空字段 / 占位符结果都判为不可用，让主循环回落到下一个 provider，
+    而非被当成“成功”锁死（修复：此前空/占位符结果会阻断 Cloudflare/Agnes 兜底，
+    导致主用引擎抽空时该项目永远抽不全、且浪费主用额度反复重试）。"""
+    if not isinstance(result, dict) or not result:
+        return False
+    _intro = result.get("ai_intro_en") or ""
+    _hl = result.get("ai_highlights_en") or []
+    _sp = result.get("ai_specs_en") or []
+    _tr = result.get("ai_tiers") or []
+    if (not _intro) and (not _hl) and (not _sp) and (not _tr):
+        return False
+    if _result_has_placeholder(result):
+        return False
+    return True
+
+
 def read_raw_html(slug: str):
     """读取 raw gz HTML，不存在返回 None"""
     gz = RAW_HTML_DIR / f"{slug}.html.gz"
@@ -270,14 +289,17 @@ def extract(project: dict, force: bool = False) -> bool:
     result = None
     for i, provider in enumerate(LLM_PROVIDERS):
         name = provider["name"]
-        # 主用引擎（Cloudflare）重试 3 次（应对偶发超时），备用只试 1 次
+        # 主用引擎（i==0，Mouter）重试 3 次（应对偶发超时），其余备用只试 1 次
         max_attempts = 3 if i == 0 else 1
         for attempt in range(1, max_attempts + 1):
             print(f"  📡 尝试 {name}... (attempt {attempt}/{max_attempts})")
-            result = _call_llm(content, currency, platform, provider)
-            if result:
+            r = _call_llm(content, currency, platform, provider)
+            # 仅“有用”的结果（非空且非占位符）才算成功；空/占位符判失败并回落下一个 provider
+            if r and _is_useful_result(r):
+                result = r
                 print(f"  ✅ {name} 成功")
                 break
+            print(f"  ⚠️  {name} 返回空/占位符结果，判失败")
             if attempt < max_attempts:
                 backoff = 2 * attempt  # 2s, 4s
                 print(f"  ⏳ {name} 失败，{backoff}s 后重试")
@@ -291,7 +313,7 @@ def extract(project: dict, force: bool = False) -> bool:
         print(f"  ⏭️  {name} 失败，切换下一个")
 
     if not result:
-        print("  ❌ 所有 AI 提供商均失败")
+        print("  ❌ 所有 AI 提供商均失败（或均返回空/占位符）")
         return False
 
     # 空提取防护：若核心字段全部为空（intro/highlights/specs/tiers 全 0），

@@ -41,6 +41,14 @@ firecrawl_dead = not bool(FIRECRAWL_API_KEY)
 contextdev_dead = not bool(CONTEXT_DEV_API_KEY)
 tinyfish_dead = not bool(TINYFISH_API_KEY)
 
+# 薄快照自愈：渲染商（Firecrawl/Context.dev）本 run 是否已成功抓取过。
+# 仅当渲染商实际可用时才允许对过薄快照重抓，避免等待期只有 TinyFish（不渲染）时反复重抓空壳。
+rendering_worked = False
+
+# 薄快照阈值：解压后 HTML 字符数低于此值视为抓取不完整（JS 渲染前 SPA 空壳）。
+# 可通过环境变量 THIN_HTML_MAX_CHARS 调整；默认值经过实测：完整渲染页 26k+ chars，空壳 ~12.7k chars。
+THIN_HTML_MAX_CHARS = int(os.environ.get("THIN_HTML_MAX_CHARS", "20000"))
+
 
 def _save_raw_html(slug: str, html_text: str) -> dict:
     """将原始 HTML 压缩存储到 raw/html/{slug}.html.gz，返回 metadata"""
@@ -138,12 +146,14 @@ def extract_html_tinyfish(url: str) -> dict:
 
 def fetch_one(url: str):
     """按降级顺序尝试 provider。返回 (result_dict, provider_name) 或 (None, None)。"""
-    global firecrawl_dead, contextdev_dead
+    global firecrawl_dead, contextdev_dead, rendering_worked
 
     # 1. Firecrawl 优先
     if not firecrawl_dead:
         try:
-            return extract_html_firecrawl(url), "firecrawl"
+            r = extract_html_firecrawl(url)
+            rendering_worked = True  # 渲染商实际抓到了，标记可用（用于薄快照自愈）
+            return r, "firecrawl"
         except PaymentRequiredError:
             firecrawl_dead = True
             print("  ⚠️  Firecrawl 额度耗尽，后续降级 Context.dev")
@@ -159,6 +169,7 @@ def fetch_one(url: str):
                 contextdev_dead = True
                 print("  ⚠️  Context.dev 额度耗尽")
                 return None, None
+            rendering_worked = True  # 渲染商实际抓到了，标记可用（用于薄快照自愈）
             return r, "contextdev"
         except Exception as e:
             contextdev_dead = True
@@ -174,13 +185,32 @@ def fetch_one(url: str):
     return None, None
 
 
+def _is_thin_snapshot(slug: str, raw_html_dir: Path) -> bool:
+    """判断已存在的 raw HTML 快照是否过薄（抓取不完整）。
+    解压失败/过薄都返回 True（倾向重抓，安全）。"""
+    gz = raw_html_dir / f"{slug}.html.gz"
+    if not gz.exists():
+        return False
+    try:
+        with gzip.open(gz, "rt", encoding="utf-8", errors="ignore") as f:
+            txt = f.read()
+        return len(txt) < THIN_HTML_MAX_CHARS
+    except Exception:
+        return True
+
+
+def _rendering_available() -> bool:
+    """渲染商（Firecrawl/Context.dev）本 run 是否已成功抓取过。
+
+    仅当渲染商实际可用时才允许薄快照重抓，避免等待期只有 TinyFish（不渲染）时
+    反复重抓空壳、空耗 CI。额度恢复后的首个成功渲染会置位 rendering_worked，
+    此后薄快照候选才会被真正重抓。"""
+    return rendering_worked
+
+
 def needs_refetch(p: dict, raw_html_dir: Path) -> bool:
-    """判断是否需要抓取
-    - 项目必须 live（已结束的不抓）
-    - 不能已有 raw HTML 快照（从未抓过）
-    - 必须有 URL
-    - KS/IG 都支持
-    """
+    """判断是否需要“首次”抓取：从未抓过（无 raw HTML 快照）的 live/active 项目。
+    薄快照的重抓逻辑在 main() 中单独处理（需渲染商本 run 可用）。"""
     if p.get("state") not in ("live", "active"):
         return False
     slug = p.get("slug") or p.get("id")
@@ -237,24 +267,49 @@ def main():
         return
 
     # 批量模式
-    to_fetch = [p for p in projects if needs_refetch(p, RAW_HTML_DIR)]
+    # 两类待抓：(1) 从未抓取（无 gz 快照）；(2) 已有快照但过薄（JS 渲染前 SPA 空壳）且未通过 AI 校验。
+    # 第 (2) 类在循环中按“渲染商本 run 是否已证明可用”再判定，避免等待期对免费兜底反复重抓空壳。
+    never_fetched = [p for p in projects if needs_refetch(p, RAW_HTML_DIR)]
+    thin_candidates = []
+    for p in projects:
+        if p.get("state") not in ("live", "active"):
+            continue
+        if not p.get("url"):
+            continue
+        if p.get("ai_validated"):
+            continue
+        slug = p.get("slug") or p.get("id")
+        if (RAW_HTML_DIR / f"{slug}.html.gz").exists() and _is_thin_snapshot(slug, RAW_HTML_DIR):
+            thin_candidates.append(p)
+    to_fetch = never_fetched + thin_candidates
     total = len(to_fetch)
     if limit:
         to_fetch = to_fetch[:limit]
     if not to_fetch:
-        print("✅ 所有项目已有 html_story，无需抓取")
+        print("✅ 所有项目已有 HTML 快照，无需抓取")
         return
 
-    print(f"📊 需要抓取: {len(to_fetch)}/{total} 个项目")
-    print(f"💰 预计花费: ~{len(to_fetch)} credits（Firecrawl 优先 → Context.dev 降级 → TinyFish 免费兜底）\n")
+    print(f"📊 需要抓取: {len(to_fetch)}/{total} 个项目"
+          f"（其中 {len(thin_candidates)} 个薄快照重抓候选）")
+    print(f"💰 预计花费: ~{len(never_fetched)} credits（Firecrawl 优先 → Context.dev 降级 → TinyFish 免费兜底）\n")
 
     total_credits = 0
     success = 0
     both_dead = False
+    skipped_thin = 0
 
     for i, p in enumerate(to_fetch):
         name = p.get("name", "?")[:50]
         url = p.get("url", "")
+        slug = p.get("slug") or p.get("id")
+        gz_exists = (RAW_HTML_DIR / f"{slug}.html.gz").exists()
+        # 薄快照重抓候选：仅当渲染商本 run 已证明可用时才真正重抓，
+        # 否则跳过（等待额度恢复后自动重抓，避免对免费兜底空壳反复重写）
+        if gz_exists and not _rendering_available():
+            print(f"[{i+1}/{len(to_fetch)}] {name}")
+            print("  ⏭️  已有快照且渲染商本 run 未启用，跳过（薄快照待额度恢复后重抓）")
+            skipped_thin += 1
+            continue
         print(f"[{i+1}/{len(to_fetch)}] {name}")
         if not url:
             print("  ⚠️  无 URL，跳过")
@@ -284,6 +339,8 @@ def main():
         print("✅ 已抓取部分已存盘，workflow 会在本步后提交，恢复额度后重跑即可续传。")
     else:
         print(f"\n✅ 完成: {success}/{len(to_fetch)}  💰 {total_credits} credits")
+    if skipped_thin:
+        print(f"ℹ️  跳过 {skipped_thin} 个薄快照重抓（渲染商不可用，待 Firecrawl/Context.dev 额度恢复后自动重抓）")
 
 
 if __name__ == "__main__":
