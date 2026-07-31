@@ -9670,7 +9670,133 @@
         "heat": 84.5
       },
       "raw_html_hash": "83d62d8849f8ec4b",
-      "raw_fetched_at": "2026-07-31T14:39:40.705610+00:00"
+      "raw_fetched_at": "2026-07-31T14:39:40.705610+00:00",
+      "ai_intro_en": "ChillVolt is a 2-in-1 handheld gadget combining a turbo fan with 12,000RPM airflow and a semiconductor-cooled metal plate for instant cool-touch comfort. It also features a 10,000mAh battery that provides up to 20W USB-C PD backup power for your devices. Weighing approximately 260g, it replaces three separate gadgets in one portable EDC tool.",
+      "ai_highlights_en": [
+        "12,000RPM turbo fan with 1-100 stepless wind control for precise airflow",
+        "Semiconductor-cooled metal plate provides instant localized cool-touch comfort",
+        "10,000mAh battery with 20W PD fast charge output for device backup power"
+      ],
+      "ai_specs_en": [
+        [
+          "Battery Capacity",
+          "10,000mAh (37Wh)"
+        ],
+        [
+          "Motor Speed",
+          "12,000RPM"
+        ],
+        [
+          "Fast Charge Output",
+          "20W USB-C PD (PPS supported)"
+        ],
+        [
+          "Fast Charge Input",
+          "18W USB-C PD"
+        ],
+        [
+          "Weight",
+          "Approx. 260g"
+        ],
+        [
+          "Dimensions",
+          "58 × 45 × 140mm"
+        ],
+        [
+          "Wind Control",
+          "1-100 stepless"
+        ],
+        [
+          "Cooling Type",
+          "Semiconductor-cooled aluminum plate"
+        ],
+        [
+          "Air Speed",
+          "Up to 6.6m/s (prototype)"
+        ],
+        [
+          "Shipping Estimate",
+          "August 2026"
+        ],
+        [
+          "Warranty",
+          "3-Year"
+        ],
+        [
+          "Mass Production",
+          "July 2026"
+        ]
+      ],
+      "ai_risks_en": "Prototype-based specs may vary in final production. Semiconductor cooling plate provides localized touch cooling, not air conditioning. Battery output capacity is lower than nominal due to conversion losses. Global supply chain fluctuations could affect component sourcing. International shipping with battery-containing electronics may face customs delays.",
+      "ai_creator_bio_en": "MOVESPEED creates high-quality, high-performance tech products focused on portability and thoughtful engineering, from ultra-thin power solutions to innovative smart storage.",
+      "ai_tiers": [
+        {
+          "name": "Support (No Reward)",
+          "price": 2,
+          "price_usd": 2,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Support the project for no reward, just because it speaks to you."
+        },
+        {
+          "name": "2-in-1 Cooling Fan Power Bank 1【SEB】",
+          "price": 312,
+          "price_usd": 40,
+          "currency": "HKD",
+          "backers": 40,
+          "description": "Super Early Bird: 1x Cooling Fan Power Bank + Manual + 3-Year Warranty. First 100 units only."
+        },
+        {
+          "name": "2-in-1 Cooling Fan Power Bank 1【EB】",
+          "price": 360,
+          "price_usd": 46,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Early Bird: 1x Cooling Fan Power Bank + Manual + 3-Year Warranty. 200 units available."
+        },
+        {
+          "name": "2-in-1 Cooling Fan Power Bank 1【KS】",
+          "price": 439,
+          "price_usd": 56,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Kickstarter Exclusive: 1x Cooling Fan Power Bank + Manual + 3-Year Warranty."
+        },
+        {
+          "name": "2-in-1 Cooling Fan Power Bank 2【EB】",
+          "price": 721,
+          "price_usd": 92,
+          "currency": "HKD",
+          "backers": 6,
+          "description": "Early Bird: 2x Cooling Fan Power Banks + 2 Manuals + 3-Year Warranty. 100 units available."
+        },
+        {
+          "name": "2-in-1 Cooling Fan Power Bank 2【KS】",
+          "price": 878,
+          "price_usd": 112,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Kickstarter Exclusive: 2x Cooling Fan Power Banks + 2 Manuals + 3-Year Warranty."
+        },
+        {
+          "name": "2-in-1 Cooling Fan Power Bank 3【EB】",
+          "price": 1082,
+          "price_usd": 138,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Early Bird: 3x Cooling Fan Power Banks + 3 Manuals + 3-Year Warranty. 100 units available."
+        },
+        {
+          "name": "2-in-1 Cooling Fan Power Bank 3【KS】",
+          "price": 1314,
+          "price_usd": 168,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Kickstarter Exclusive: 3x Cooling Fan Power Banks + 3 Manuals + 3-Year Warranty."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1451480835",
@@ -19440,7 +19566,31 @@
       },
       "raw_html_hash": "0126a9365b84f191",
       "raw_fetched_at": "2026-07-30T14:38:03.509013+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "null",
+      "ai_highlights_en": [
+        "null",
+        "null",
+        "null"
+      ],
+      "ai_specs_en": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null",
+        "null"
+      ],
+      "ai_risks_en": "null",
+      "ai_creator_bio_en": "null",
+      "ai_tiers": [],
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1592186479",
@@ -59940,7 +60090,125 @@
         "heat": 27.6
       },
       "raw_html_hash": "af8e83718cc036cb",
-      "raw_fetched_at": "2026-07-31T14:39:46.995228+00:00"
+      "raw_fetched_at": "2026-07-31T14:39:46.995228+00:00",
+      "ai_intro_en": "L3 Pro combines precise mechanical movement, professional full-spectrum illumination, intelligent control, and advanced thermal management in one refined desk lamp. It moves with your work, responds to your presence, and delivers the right light for reading, designing, coding, drawing, crafting, and detailed creative projects.",
+      "ai_highlights_en": [
+        "Precision Five-Axis Engineering for Effortless Control",
+        "Up to 10,000 Lux of Focused Illumination",
+        "CRI 98 for More Accurate, Natural Color"
+      ],
+      "ai_specs_en": [
+        [
+          "Color Temperature",
+          "5000K (morning), 4000K (day), 3500K (evening), 2700K (night)"
+        ],
+        [
+          "Lux",
+          "Up to 10,000"
+        ],
+        [
+          "CRI",
+          "98"
+        ],
+        [
+          "LED",
+          "Bridgelux Thrive Full-Spectrum"
+        ],
+        [
+          "Cooling",
+          "Active and Passive Dual Cooling"
+        ],
+        [
+          "Materials",
+          "Aerospace-Grade Aluminum Construction"
+        ],
+        [
+          "Dimensions",
+          "Not specified"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Power",
+          "Not specified"
+        ],
+        [
+          "Dimensions",
+          "Not specified"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Power",
+          "Not specified"
+        ]
+      ],
+      "ai_risks_en": "LYMAX faces risks including supply chain disruptions, fluctuating raw material costs, and technological advancements by competitors.",
+      "ai_creator_bio_en": "For more than a decade, LYMAX has focused on developing advanced lighting solutions for modern workspaces.",
+      "ai_tiers": [
+        {
+          "name": "LYMAX First",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "First created"
+        },
+        {
+          "name": "Standard version",
+          "price": 299,
+          "price_usd": 299,
+          "currency": "USD",
+          "backers": 9,
+          "description": "Standard version"
+        },
+        {
+          "name": "Super Early Bird",
+          "price": 319,
+          "price_usd": 319,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Super Early Bird"
+        },
+        {
+          "name": "Launch Special",
+          "price": 429,
+          "price_usd": 429,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Launch Special"
+        },
+        {
+          "name": "Super Early Bird",
+          "price": 459,
+          "price_usd": 459,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Super Early Bird"
+        },
+        {
+          "name": "Launch Special",
+          "price": 589,
+          "price_usd": 589,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Launch Special"
+        },
+        {
+          "name": "Launch Special",
+          "price": 849,
+          "price_usd": 849,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Launch Special"
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-921979597",
@@ -64833,7 +65101,109 @@
         "heat": 20.8
       },
       "raw_html_hash": "691067a401015174",
-      "raw_fetched_at": "2026-07-31T14:39:55.196605+00:00"
+      "raw_fetched_at": "2026-07-31T14:39:55.196605+00:00",
+      "ai_intro_en": "ONE Square02 combines flexibility, organization, durability, and portability into one simple system. Instead of carrying multiple bags for different situations, you only need one. Whether it’s your daily commute, weekend camping, road trips, beach days, grocery runs, or unexpected adventures, ONE Square02 is designed to adapt.",
+      "ai_highlights_en": [
+        "Wrap anything, stay organized, and adapt in seconds",
+        "Freedom outside. Order inside. Carry anything, stay organized, and adapt in seconds",
+        "No zippers. No limits. No fragile zippers. No fixed structure. Just wrap, tighten, and go"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "900D Oxford fabric"
+        },
+        {
+          "spec_name": "Weight capacity",
+          "spec_value": "60 lb"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "25 × 25-inch"
+        },
+        {
+          "spec_name": "Water resistance",
+          "spec_value": "Waterproof & leak-resistant"
+        },
+        {
+          "spec_name": "Brass eyelets",
+          "spec_value": "24"
+        },
+        {
+          "spec_name": "Drawcord",
+          "spec_value": "Abrasion-resistant"
+        },
+        {
+          "spec_name": "Shoulder strap",
+          "spec_value": "Heavy-duty, quick-release"
+        },
+        {
+          "spec_name": "Compression",
+          "spec_value": "Smart compression system"
+        },
+        {
+          "spec_name": "Dual-ring locking mechanism",
+          "spec_value": "Reliable friction"
+        },
+        {
+          "spec_name": "Packing size",
+          "spec_value": "7 × 7-inch"
+        }
+      ],
+      "ai_risks_en": "Every crowdfunding project comes with challenges, but we have done everything possible to minimize the risks before launching ONE Square02.",
+      "ai_creator_bio_en": "We are outdoor enthusiasts, designers, and makers who believe carrying gear should be simpler and more adaptable.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 39,
+          "price_usd": 39,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Be among the very first to own ONE Square02 at our exclusive Super Early Bird price."
+        },
+        {
+          "name": "Early Bird",
+          "price": 45,
+          "price_usd": 45,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Perfect for first-time backers or anyone looking to upgrade the way they carry."
+        },
+        {
+          "name": "Duo Pack",
+          "price": 69,
+          "price_usd": 69,
+          "currency": "USD",
+          "backers": 2,
+          "description": "Better together. Keep one at home and one in your car, share one with a partner, or connect both together to create an even larger carrying surface."
+        },
+        {
+          "name": "Explorer Pack",
+          "price": 99,
+          "price_usd": 99,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Built for explorers. Get three ONE Square02 units for camping, road trips, beach days, sports, or everyday life."
+        },
+        {
+          "name": "Crew Pack",
+          "price": 159,
+          "price_usd": 159,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Designed for families, outdoor groups, and anyone who wants a ONE Square02 ready wherever they go."
+        },
+        {
+          "name": "Ultimate Bundle",
+          "price": 299,
+          "price_usd": 299,
+          "currency": "USD",
+          "backers": 0,
+          "description": "The ultimate bundle for teams, clubs, businesses, gifts, or anyone who wants the biggest Kickstarter savings."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-332912773",
@@ -68664,7 +69034,73 @@
         "heat": 14.5
       },
       "raw_html_hash": "e357357557ae9b21",
-      "raw_fetched_at": "2026-07-31T14:40:02.484663+00:00"
+      "raw_fetched_at": "2026-07-31T14:40:02.484663+00:00",
+      "ai_intro_en": "For creators For creators Log in You'll need an HTML5 capable browser to see this content. 0:00 0:00 Sound Hong Kong, Hong Kong $414 pledged of $2,550 pledged of $2,550 goal 6 backers 29 days to go Back this project Remind me All or nothing. This project will only be funded if it reaches its goal by Sun, August 30 2026 8:59 AM EDT.",
+      "ai_highlights_en": [
+        "Open-ear bone conduction design for night runs, outdoor training, and everyday movement",
+        "Built-in LED safety light for night running and outdoor movement",
+        "Supports TF card offline music playback with storage support up to 8GB"
+      ],
+      "ai_specs_en": [
+        [
+          "Weight",
+          "29g"
+        ],
+        [
+          "Battery Life",
+          "8 hours of music playback or 7 hours of call time"
+        ],
+        [
+          "Materials",
+          "IP68-rated design for sweat, rain, and daily rinsing after workouts"
+        ]
+      ],
+      "ai_risks_en": "Component Sourcing: Key parts such as the Bluetooth chipset, bone conduction transducers, LED light strip, battery, and magnetic charging components require stable lead times. Solution: We are coordinating early with suppliers and preparing core components in advance to reduce the risk of production delays.",
+      "ai_creator_bio_en": "We are a team that creates open bone conduction headphones, dedicated to bringing better daily auditory enjoyment",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 541,
+          "price_usd": 69,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "1x x76"
+        },
+        {
+          "name": "Early Bird",
+          "price": 619,
+          "price_usd": 79,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "1x x76"
+        },
+        {
+          "name": "KS Special",
+          "price": 697,
+          "price_usd": 89,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "1x x76"
+        },
+        {
+          "name": "Duo Pack",
+          "price": 1089,
+          "price_usd": 139,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "2× x76"
+        },
+        {
+          "name": "Trio Pack",
+          "price": 1639,
+          "price_usd": 209,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "3× x76"
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-479117284",
@@ -76469,7 +76905,93 @@
         "heat": 8.6
       },
       "raw_html_hash": "bb526f1e01b57375",
-      "raw_fetched_at": "2026-07-31T14:40:11.283449+00:00"
+      "raw_fetched_at": "2026-07-31T14:40:11.283449+00:00",
+      "ai_intro_en": "For creators For creators Log in You'll need an HTML5 capable browser to see this content. 0:00 0:00 Footwear Melbourne, AU $498 pledged of $21,076 pledged of $21,076 goal 4 backers 29 days to go Back this project Remind me All or nothing. This project will only be funded if it reaches its goal by Sun, August 30 2026 6:27 AM EDT.",
+      "ai_highlights_en": [
+        "A basketball shoe built to fit your feet, without sacrificing performance.",
+        "Designed to let your feet move naturally, while still delivering the support basketball demands.",
+        "A hybrid barefoot basketball shoe with a wide toe box, midfoot lockdown wings, and a low heel-to-toe drop."
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Breathable mesh"
+        ],
+        [
+          "Heel-to-toe drop",
+          "Low"
+        ],
+        [
+          "Midsole",
+          "EVA foam"
+        ],
+        [
+          "Outsole",
+          "Solid rubber"
+        ],
+        [
+          "Width",
+          "Wide"
+        ],
+        [
+          "Toe box",
+          "Wide"
+        ],
+        [
+          "Price",
+          "$180"
+        ],
+        [
+          "Currency",
+          "AUD"
+        ]
+      ],
+      "ai_risks_en": "Production Risks: Production may be affected by unforeseen circumstances, such as natural disasters. In such cases, we will keep our backers informed through updates. Additionally, if demand exceeds expectations, production timelines may be extended, potentially delaying shipments.",
+      "ai_creator_bio_en": "Industrial Designer and Project Manager with a decade of experience bringing products from concept to market globally.",
+      "ai_tiers": [
+        {
+          "name": "Paw-01 Barefoot Basketball Shoe",
+          "price": 180,
+          "price_usd": 127,
+          "currency": "AUD",
+          "backers": 1,
+          "description": "Get one pair of our barefoot inspired basketball shoes at below retail. In our sleek all black colourway with a hit of our signature purple."
+        },
+        {
+          "name": "Paw-01 Barefoot Basketball Shoe",
+          "price": 180,
+          "price_usd": 127,
+          "currency": "AUD",
+          "backers": 1,
+          "description": "Get one pair of our barefoot inspired basketball shoes at below retail. In our classic white colourway with subtle silver detail."
+        },
+        {
+          "name": "Paw-01 Barefoot Basketball Shoe",
+          "price": 180,
+          "price_usd": 127,
+          "currency": "AUD",
+          "backers": 0,
+          "description": "Get one pair of our barefoot inspired basketball shoes at below retail. In our striking two tone colourway with yellow hits."
+        },
+        {
+          "name": "Socks and Shoes Bundle",
+          "price": 200,
+          "price_usd": 141,
+          "currency": "AUD",
+          "backers": 1,
+          "description": "Get our socks and shoes as a matching set to complete the look. Choose your shoe and sock colours from our range."
+        },
+        {
+          "name": "Customised Paw-01",
+          "price": 300,
+          "price_usd": 211,
+          "currency": "AUD",
+          "backers": 0,
+          "description": "Get a pair of our shoes with custom paint for a personalised look. Limited to campaign period. (Midsole and side panel only, paint may wear with use.)"
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1655653224",
@@ -76522,7 +77044,113 @@
         "heat": 8.8
       },
       "raw_html_hash": "aa4677d2e5ac1f47",
-      "raw_fetched_at": "2026-07-31T14:40:21.176340+00:00"
+      "raw_fetched_at": "2026-07-31T14:40:21.176340+00:00",
+      "ai_intro_en": "Three Knives. One Leather Roll. Built for Everyday Prep. The Indigo Rose set brings together three knives for everyday prep: Indigo Rose – 20, Indigo Rose – 15 and Indigo Rose – 9. Every complete set includes a fitted leather roll. The first 50 complete sets are available for €149, with delivery currently estimated for October 2026.",
+      "ai_highlights_en": [
+        "High-quality, handmade 512-layer 1095/15N20 carbon-steel knives",
+        "Fitted leather roll for storage and transport",
+        "Resharpened before packing for optimal performance"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "1095 and 15N20 carbon steel"
+        ],
+        [
+          "Handle material",
+          "Natural wood"
+        ],
+        [
+          "Blade length",
+          "20 cm (8″)"
+        ],
+        [
+          "Blade length",
+          "15 cm (6″)"
+        ],
+        [
+          "Blade length",
+          "9 cm (3.5″)"
+        ],
+        [
+          "Estimated delivery",
+          "October 2026"
+        ],
+        [
+          "Price",
+          "€149"
+        ],
+        [
+          "Price",
+          "€79"
+        ],
+        [
+          "Price",
+          "€89"
+        ],
+        [
+          "Price",
+          "€169"
+        ],
+        [
+          "Price",
+          "€280"
+        ]
+      ],
+      "ai_risks_en": "Producing three knife types and matching leather rolls creates several practical risks. Demand may exceed the capacity of a handmade production process; materials may arrive late or vary; individual sets may require rework during inspection; and customs or carriers may delay international delivery.",
+      "ai_creator_bio_en": "KlingenFreunde is a brand built around one simple idea: great products should feel personal. Founded by Yannick and Usmann, we combine a passion for great design with a commitment to quality and craftsmanship.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird – Indigo Rose – 9",
+          "price": 69,
+          "price_usd": 80,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Indigo Rose – 9 · Paring Knife · 9 cm Blade. Launch-price reward limited to the first 50 backers. Estimated delivery: October 2026."
+        },
+        {
+          "name": "Early Bird – Indigo Rose – 15",
+          "price": 79,
+          "price_usd": 91,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Indigo Rose – 15 · Utility Knife · 15 cm Blade. Launch-price reward limited to the first 50 backers. Estimated delivery: October 2026."
+        },
+        {
+          "name": "Early Bird – Indigo Rose – 20",
+          "price": 89,
+          "price_usd": 103,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Indigo Rose – 20 · Chef’s Knife · 20 cm Blade. Launch-price reward limited to the first 50 backers. Estimated delivery: October 2026."
+        },
+        {
+          "name": "Complete 3-Piece Set",
+          "price": 149,
+          "price_usd": 172,
+          "currency": "EUR",
+          "backers": 2,
+          "description": "Launch-price version of the complete knife set, limited to the first 50 backers. Estimated delivery: October 2026."
+        },
+        {
+          "name": "Complete 3-Piece Set + Leather Roll",
+          "price": 169,
+          "price_usd": 195,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "The complete three-knife set with fitted leather roll at the standard campaign price. Estimated delivery: October 2026."
+        },
+        {
+          "name": "Two Complete 3-Piece Sets",
+          "price": 280,
+          "price_usd": 323,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Two complete three-knife sets with two leather rolls. Suitable for two kitchens or as a shared gift reward. Estimated delivery: October 2026."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1803301317",
@@ -78585,7 +79213,109 @@
         "heat": 17.5
       },
       "raw_html_hash": "bb565e61b2c6379d",
-      "raw_fetched_at": "2026-07-31T14:40:30.361286+00:00"
+      "raw_fetched_at": "2026-07-31T14:40:30.361286+00:00",
+      "ai_intro_en": "NOVA is a collection of premium sculptural handbag STL files designed specifically for FDM 3D printing. The initial pack includes 4 unique handbag designs that are optimized for clean, high-quality prints on most desktop printers. Files are delivered digitally via Google Drive after the campaign ends.",
+      "ai_highlights_en": [
+        "4 unique sculptural handbag STL designs optimized for FDM 3D printing",
+        "Fully scalable from compact to large sizes while maintaining clean geometry",
+        "Commercial license available to sell printed bags with lifetime rights"
+      ],
+      "ai_specs_en": [
+        [
+          "Format",
+          "STL files (digital download)"
+        ],
+        [
+          "Initial designs",
+          "4 handbag STL files"
+        ],
+        [
+          "Printer type",
+          "FDM 3D printers"
+        ],
+        [
+          "Original size",
+          "17 cm (6.7 inches) tall"
+        ],
+        [
+          "Scalable",
+          "Yes, via slicer"
+        ],
+        [
+          "Delivery method",
+          "Google Drive download link"
+        ],
+        [
+          "Delivery time",
+          "Within 48 hours after campaign ends"
+        ],
+        [
+          "License options",
+          "Personal use and Commercial (sell prints)"
+        ]
+      ],
+      "ai_risks_en": "This is a digital STL project with minimal manufacturing, shipping, and logistics risks. All initial models are already completed. Stretch goal designs will be created during and after the campaign with time allocated for testing. Updated files will be provided at no extra cost if bugs are found. AI was used only for concept development and marketing, not for final 3D models.",
+      "ai_creator_bio_en": "Angela 10 is a 3D designer focused on creating high-detail, functional decor models that people can actually use and display.",
+      "ai_tiers": [
+        {
+          "name": "Support",
+          "price": null,
+          "price_usd": 2,
+          "currency": "USD",
+          "backers": null,
+          "description": "Pledge without a reward. Support the project because you believe in it."
+        },
+        {
+          "name": "stl pack",
+          "price": 7,
+          "price_usd": 9,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Main set and all stretch goals unlocked during the campaign for personal use."
+        },
+        {
+          "name": "get them all stl",
+          "price": 15,
+          "price_usd": 18,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "All STLs with all stretch goals even if they don't unlock, for personal use only."
+        },
+        {
+          "name": "stl pack with commercial",
+          "price": 20,
+          "price_usd": 24,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Main set and all stretch goals unlocked during the campaign with lifetime commercial license for sell prints."
+        },
+        {
+          "name": "get them all commercial",
+          "price": 35,
+          "price_usd": 41,
+          "currency": "EUR",
+          "backers": 1,
+          "description": "All STLs with all stretch goals even if they don't unlock, with lifetime commercial license for sell prints."
+        },
+        {
+          "name": "bundle stl",
+          "price": 35,
+          "price_usd": 41,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Main set and all stretch goals even if they don't unlock, plus all STLs from fantasy bags collection for personal use."
+        },
+        {
+          "name": "bundle pack commercial",
+          "price": 90,
+          "price_usd": 104,
+          "currency": "EUR",
+          "backers": 1,
+          "description": "Main set and all stretch goals even if they don't unlock, plus all STLs with all stretch goals from fantasy bags campaign with lifetime commercial license."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-186142253",
@@ -82283,7 +83013,65 @@
         "heat": 0.0
       },
       "raw_html_hash": "b1ea977854d884b3",
-      "raw_fetched_at": "2026-07-31T14:40:37.790624+00:00"
+      "raw_fetched_at": "2026-07-31T14:40:37.790624+00:00",
+      "ai_intro_en": "For creators For creators Log in You'll need an HTML5 capable browser to see this content. 0:00 0:00 Product Design California City, CA US$ 0 pledged of US$ 2,000 pledged of US$ 2,000 goal 0 backers 29 days to go Back this project Notify me on launch All or nothing. This project will only be funded if it reaches its goal by Sun, August 30 2026 10:01 AM EDT.",
+      "ai_highlights_en": [
+        "Six precision-machined dice rotate like a real V6 engine — combining mechanical beauty, tabletop gaming, and collectible craftsmanship into one unforgettable piece.",
+        "Every surface is designed with automotive-inspired details: • Engine bolts • Fuel lines • Metallic textures • Mechanical structures",
+        "Backers can choose the collection option that best fits their needs. Each set includes the engine-top rotating dice and a storage box at the base."
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "High-quality zinc alloy metal"
+        ],
+        [
+          "Shipping",
+          "Deliveries to remote areas or incomplete/incorrect addresses may result in failed delivery attempts. Backers are required to provide complete and accurate shipping information."
+        ],
+        [
+          "Delivery",
+          "Production and final quality checks will be completed before fulfillment begins. We plan to start shipping in September."
+        ]
+      ],
+      "ai_risks_en": "Material: The V6 Engine Dice is crafted from high-quality zinc alloy metal, designed for durability and a premium feel.",
+      "ai_creator_bio_en": "A dice maker who loves to design different styles of artistic dice.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 48,
+          "price_usd": 48,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Whether shared with friends or given as a gift, it's a precious present. Rewards include: 1.V6 Engine Dice x1(Any 1 of the 4 colors) 2.High-quality zinc alloy structure Color selection and shipping details will be collected after the event ends."
+        },
+        {
+          "name": "1 set of dice",
+          "price": 58,
+          "price_usd": 58,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Whether shared with friends or given as a gift, it's a precious present. Rewards include: 1.V6 Engine Dice x1(Any 1 of the 4 colors) 2.High-quality zinc alloy structure Color selection and shipping details will be collected after the event ends."
+        },
+        {
+          "name": "2 sets of dice",
+          "price": 89,
+          "price_usd": 89,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Whether shared with friends or given as a gift, it's a precious present. Rewards include: 1.V6 Engine Dice x2(Any 2 of the 4 colors) 2.High-quality zinc alloy structure Color selection and shipping details will be collected after the event ends."
+        },
+        {
+          "name": "4 sets of dice",
+          "price": 168,
+          "price_usd": 168,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Whether shared with friends or given as a gift, it's a precious present. 1.V6 Engine Dice x4(Choose any of the 4 colors) 2.High-quality zinc alloy structure Color selection and shipping details will be collected after the event ends."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-122710036",
