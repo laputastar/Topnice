@@ -70552,7 +70552,133 @@
         "heat": 15.5
       },
       "raw_html_hash": "b4e2f76c907f0696",
-      "raw_fetched_at": "2026-08-01T13:58:44.988719+00:00"
+      "raw_fetched_at": "2026-08-01T13:58:44.988719+00:00",
+      "ai_intro_en": "PorchDrop is a patent-pending, modular delivery station designed to keep food, groceries, and packages clean, elevated, and off the ground. Purpose-built for modern delivery lifestyles, it provides a dedicated destination at your front door for meals, packages, and more.",
+      "ai_highlights_en": [
+        "Patent-pending modular design keeps deliveries clean, elevated, and off the ground",
+        "Intuitive for drivers—no instructions needed; naturally guides deliveries to the right spot",
+        "Built for outdoor use with sustainable, recyclable materials and long-lasting durability"
+      ],
+      "ai_specs_en": [
+        [
+          "Product Name",
+          "PorchDrop Classic"
+        ],
+        [
+          "Early Bird Price",
+          "$25 USD"
+        ],
+        [
+          "Standard Price",
+          "$30 USD"
+        ],
+        [
+          "Double Pack",
+          "$55 USD (2 units)"
+        ],
+        [
+          "Quad Pack",
+          "$100 USD (4 units)"
+        ],
+        [
+          "Founders Wall",
+          "$500 USD"
+        ],
+        [
+          "Community Champion",
+          "$1,500 USD (10 units + donation)"
+        ],
+        [
+          "Launch Partner",
+          "$2,500 USD (30 units, shipping included)"
+        ],
+        [
+          "Property Partner Package",
+          "$5,000 USD (75 units, shipping included)"
+        ],
+        [
+          "Shipping",
+          "Continental U.S. only"
+        ],
+        [
+          "Estimated Delivery",
+          "December 2026"
+        ],
+        [
+          "Funding Goal",
+          "$20,000 USD"
+        ]
+      ],
+      "ai_risks_en": "As with any physical product, manufacturing and shipping may face unexpected challenges including material availability, production schedules, quality control, or international shipping delays. The team has completed a working prototype and established manufacturing partnerships, with flexibility built into the timeline. Regular updates will be provided throughout production and fulfillment.",
+      "ai_creator_bio_en": "PorchDrop was created by a delivery driver frustrated with dirty, wet porches; based in Orlando, FL. The team has completed design, prototyping, and established manufacturing partnerships.",
+      "ai_tiers": [
+        {
+          "name": "PorchDrop Classic Early Bird",
+          "price": 25,
+          "price_usd": 25,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Exclusive Kickstarter discount. Includes 1 PorchDrop Classic, save $5 off retail, priority fulfillment. Limited to 50."
+        },
+        {
+          "name": "PorchDrop Classic",
+          "price": 30,
+          "price_usd": 30,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Standard edition. Includes 1 PorchDrop Classic for everyday deliveries."
+        },
+        {
+          "name": "DoubleDrop Classic",
+          "price": 55,
+          "price_usd": 55,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Ideal for multiple entrances or gifting. Includes 2 PorchDrop Classics."
+        },
+        {
+          "name": "PorchDrop Quad Pack",
+          "price": 100,
+          "price_usd": 100,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Bundle for busy households. Includes 4 PorchDrop Classics plus a special thank-you from the founder."
+        },
+        {
+          "name": "Founders Wall",
+          "price": 500,
+          "price_usd": 500,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Name on Founders Wall, exclusive private livestream, behind-the-scenes updates."
+        },
+        {
+          "name": "Community Champion",
+          "price": 1500,
+          "price_usd": 1500,
+          "currency": "USD",
+          "backers": 0,
+          "description": "10 PorchDrop Classics (5 for you, 5 donated to veteran organizations), Founders Wall name, impact stories, early roadmap access."
+        },
+        {
+          "name": "Launch Partner",
+          "price": 2500,
+          "price_usd": 2500,
+          "currency": "USD",
+          "backers": 0,
+          "description": "30 PorchDrop Classics with shipping included, Founders Wall name, signed certificate, behind-the-scenes updates, priority support. Limited to 5."
+        },
+        {
+          "name": "Property Partner Package",
+          "price": 5000,
+          "price_usd": 5000,
+          "currency": "USD",
+          "backers": 1,
+          "description": "75 PorchDrop Classics with shipping included, Founding Property Partner recognition, certificate, priority fulfillment, early product access, direct founder communication. Limited to 5."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-727782778",
@@ -73362,7 +73488,129 @@
         "heat": 14.0
       },
       "raw_html_hash": "5fdc31f92d135e34",
-      "raw_fetched_at": "2026-08-01T13:58:50.111602+00:00"
+      "raw_fetched_at": "2026-08-01T13:58:50.111602+00:00",
+      "ai_intro_en": "iomixer lets you read inputs and control outputs, by setting up graphical configurations instead of writing source code. The system consists of firmware for a STM32 micro-controller, a web-browser configurator, and a 'relay server' which connects them.",
+      "ai_highlights_en": [
+        "Visual configuration for easy setup",
+        "Emulates gamepad and MIDI devices",
+        "Supports various input and output devices"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "STM32F1 micro",
+          "spec_value": "STM32F1 micro"
+        },
+        {
+          "spec_name": "SPI flash",
+          "spec_value": "SPI flash"
+        },
+        {
+          "spec_name": "Digital input",
+          "spec_value": "37 digital inputs"
+        },
+        {
+          "spec_name": "Digital output",
+          "spec_value": "37 digital outputs"
+        },
+        {
+          "spec_name": "UART",
+          "spec_value": "3 UART inputs"
+        },
+        {
+          "spec_name": "I2C",
+          "spec_value": "6 I2C devices"
+        },
+        {
+          "spec_name": "Analog input",
+          "spec_value": "6 analog inputs"
+        },
+        {
+          "spec_name": "Servo PWM output",
+          "spec_value": "37 servo PWM outputs"
+        },
+        {
+          "spec_name": "RGB LED",
+          "spec_value": "128 RGB LEDs"
+        },
+        {
+          "spec_name": "NRF24L01 module",
+          "spec_value": "1 nRF24L01 module"
+        },
+        {
+          "spec_name": "I2C/SPI display",
+          "spec_value": "1 I2C/SPI display"
+        },
+        {
+          "spec_name": "USB gamepad emulation",
+          "spec_value": "16 axes, 64 buttons"
+        },
+        {
+          "spec_name": "External IMU",
+          "spec_value": "1 external IMU"
+        },
+        {
+          "spec_name": "External pressure sensor",
+          "spec_value": "1 external pressure sensor"
+        },
+        {
+          "spec_name": "External digital potentiometer",
+          "spec_value": "2 external digital potentiometers"
+        },
+        {
+          "spec_name": "PPM output",
+          "spec_value": "1 PPM output"
+        },
+        {
+          "spec_name": "SBUS serial RC",
+          "spec_value": "1 SBUS serial RC"
+        },
+        {
+          "spec_name": "MIDI note or CC events",
+          "spec_value": "MIDI note or CC events"
+        },
+        {
+          "spec_name": "Duty cycle PWM output",
+          "spec_value": "4 duty cycle PWM outputs"
+        },
+        {
+          "spec_name": "Firmware",
+          "spec_value": "Closed source, requires activation"
+        },
+        {
+          "spec_name": "Activation cost",
+          "spec_value": "$ few dollars per board"
+        }
+      ],
+      "ai_risks_en": "Some parts may be on back-order and can slow things down.",
+      "ai_creator_bio_en": "iomixer - visual programming for STM32",
+      "ai_tiers": [
+        {
+          "name": "One iomixer (early bird)",
+          "price": 49,
+          "price_usd": 29,
+          "currency": "NZ$",
+          "backers": 7,
+          "description": "One iomixer"
+        },
+        {
+          "name": "One iomixer",
+          "price": 49,
+          "price_usd": 29,
+          "currency": "NZ$",
+          "backers": 0,
+          "description": "One v1.5 iomixer board"
+        },
+        {
+          "name": "Two iomixers, with radio modules",
+          "price": 98,
+          "price_usd": 58,
+          "currency": "NZ$",
+          "backers": 8,
+          "description": "Two v1.5 iomixer boards, along with two nRF24L01 modules"
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1330888928",
@@ -82383,7 +82631,105 @@
         "heat": 3.8
       },
       "raw_html_hash": "471a8e6d5ae88417",
-      "raw_fetched_at": "2026-08-01T13:59:00.094542+00:00"
+      "raw_fetched_at": "2026-08-01T13:59:00.094542+00:00",
+      "ai_intro_en": "Meet CleanClaw, a smarter way to clean your home safely. Double-Sided Cleaning Clean Both Sides in One Pass Not one side. Not twice. Just one smooth glide.",
+      "ai_highlights_en": [
+        "The safer way to clean Ceiling Fans, AC Vents, Windows and Floors — all with one versatile tool.",
+        "Cleaning High Places Shouldn't Be Dangerous Climbing ladders isn't safe. Dust falls everywhere. Cleaning takes too long.",
+        "One tool for every job? Does it exist?"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Durable, high-quality materials"
+        ],
+        [
+          "Dimensions",
+          "Compact, right-sized packaging"
+        ],
+        [
+          "Weight",
+          "Lightweight"
+        ],
+        [
+          "Color",
+          "Grey and Orange"
+        ],
+        [
+          "Pricing",
+          "$39/pc (Retail price: $65/pc)"
+        ],
+        [
+          "Pricing",
+          "$48/pc (Retail price: $65/pc)"
+        ],
+        [
+          "Pricing",
+          "$62/pc (Retail price: $65/pc)"
+        ],
+        [
+          "Pricing",
+          "$69/pc"
+        ],
+        [
+          "Pricing",
+          "$123/pc"
+        ]
+      ],
+      "ai_risks_en": "Bringing a physical innovation like CleanClaw into global mass production is an exciting journey, but it comes with real-world responsibilities.",
+      "ai_creator_bio_en": "Charles Tan, founder of CleanClaw.",
+      "ai_tiers": [
+        {
+          "name": "Reward 1—Support Our Journey",
+          "price": 2,
+          "price_usd": 2,
+          "currency": "S$",
+          "backers": 0,
+          "description": "Love our idea? Help bring CleanClaw to life. You'll receive exclusive project updates and our heartfelt thanks."
+        },
+        {
+          "name": "Reward 2—Founder Edition",
+          "price": 39,
+          "price_usd": 31,
+          "currency": "S$",
+          "backers": 0,
+          "description": "Includes: Cleaner head: 1 pc, Poles: 4 pcs, Orange Microfiber: 1 pc, Grey Chenille Pads: 2 pcs, Cardboard Box: 1 pc"
+        },
+        {
+          "name": "Reward 3—Early Explorer",
+          "price": 48,
+          "price_usd": 38,
+          "currency": "S$",
+          "backers": 0,
+          "description": "Includes: Cleaner head: 1 pc, Poles: 4 pcs, Orange Microfiber: 1 pc, Grey Chenille Pads: 2 pcs, Cardboard Box: 1 pc"
+        },
+        {
+          "name": "Reward 4—Kickstarter Special",
+          "price": 62,
+          "price_usd": 49,
+          "currency": "S$",
+          "backers": 0,
+          "description": "Get CleanClaw before it reaches retail stores and save compared to the future MSRP. Includes: Cleaner head: 1 pc, Poles: 4 pcs, Orange Microfiber: 1 pc, Grey Chenille Pads: 2 pcs, Cardboard Box: 2 pc"
+        },
+        {
+          "name": "Reward 5—Duo Pack",
+          "price": 69,
+          "price_usd": 54,
+          "currency": "S$",
+          "backers": 1,
+          "description": "Best for Couples & Friends. Includes: CleanClaw Functional Ceiling Fan cleaner x 2"
+        },
+        {
+          "name": "Reward 6—Family Pack",
+          "price": 123,
+          "price_usd": 96,
+          "currency": "S$",
+          "backers": 0,
+          "description": "Best Value. Includes: CleanClaw Functional Ceiling Fan cleaner x 4"
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-209419859",
@@ -84828,7 +85174,105 @@
         "heat": 0.0
       },
       "raw_html_hash": "f97eac35e9696463",
-      "raw_fetched_at": "2026-08-01T13:59:06.049580+00:00"
+      "raw_fetched_at": "2026-08-01T13:59:06.049580+00:00",
+      "ai_intro_en": "MagTwin is a multifunctional magnetic dual-side cleaner for curved car windshields. Clean Smarter, Drive Safer.",
+      "ai_highlights_en": [
+        "Clean both sides of your car window simultaneously with magnetic synchronization. One movement. Two perfectly cleaned surfaces.",
+        "Save nearly half the cleaning time compared to traditional glass wipers.",
+        "No metal exposure. No paint scratches. Just smooth, effortless cleaning."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Magnetic Window Cleaning",
+          "spec_value": "Mode 1 &nbsp;Magnetic Window Cleaning"
+        },
+        {
+          "spec_name": "Paint-Safe Body Cleaning",
+          "spec_value": "Mode 2 &nbsp;Paint-Safe Body Cleaning"
+        },
+        {
+          "spec_name": "Flexible Floating Cleaning Head",
+          "spec_value": "Engineered for Curved Automotive Glass"
+        },
+        {
+          "spec_name": "Ergonomic 90° Rotating Handle",
+          "spec_value": "Designed Around Human Movement"
+        },
+        {
+          "spec_name": "Soft Protective Materials",
+          "spec_value": "Soft Everywhere That Matters"
+        },
+        {
+          "spec_name": "High-density fish-scale microfiber",
+          "spec_value": "Premium, long-lasting materials"
+        },
+        {
+          "spec_name": "Ultra-absorbent snow velvet cloth",
+          "spec_value": "Premium, long-lasting materials"
+        },
+        {
+          "spec_name": "Aluminum Extension Rods",
+          "spec_value": "Aluminum Extension Rods (65cm + 11cm)"
+        },
+        {
+          "spec_name": "Chenille Mop Pads",
+          "spec_value": "2 × Chenille Mop Pads"
+        },
+        {
+          "spec_name": "Fish Scale Microfiber Pads",
+          "spec_value": "4 × Fish Scale Microfiber Pads"
+        },
+        {
+          "spec_name": "User Guide",
+          "spec_value": "1 × User Guide"
+        }
+      ],
+      "ai_risks_en": "We are committed to 100% transparency. Over the past 12 months, we have rigorously tested prototypes and secured patent protection to minimize risks.",
+      "ai_creator_bio_en": "We're not a startup looking for a factory after crowdfunding. We manufacture magnetic cleaning products ourselves.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird— Limited 100 Units",
+          "price": 59,
+          "price_usd": 46,
+          "currency": "SGD",
+          "backers": 0,
+          "description": "Includes: 1 × Magnetic Cleaning Head 2 × Aluminum Extension Rods 2 × Chenille Mop Pads 4 × Fish Scale Microfiber Pads 1 × User Guide Worldwide Shipping Available"
+        },
+        {
+          "name": "Early Bird — Limited 100 Units",
+          "price": 72,
+          "price_usd": 57,
+          "currency": "SGD",
+          "backers": 0,
+          "description": "Includes: 1 × Magnetic Cleaning Head 2 × Aluminum Extension Rods (65cm + 11cm) 2 × Chenille Mop Pads 4 × Fish Scale Microfiber Pads 1 × User Guide Worldwide Shipping Available"
+        },
+        {
+          "name": "Kickstarter Special",
+          "price": 80,
+          "price_usd": 63,
+          "currency": "SGD",
+          "backers": 0,
+          "description": "Includes: 1 × Magnetic Cleaning Head 2 × Aluminum Extension Rods (65cm + 11cm) 2 × Chenille Mop Pads 4 × Fish Scale Microfiber Pads 1 × User Guide Worldwide Shipping Available"
+        },
+        {
+          "name": "Duo Pack (2 Sets)",
+          "price": 105,
+          "price_usd": 82,
+          "currency": "SGD",
+          "backers": 0,
+          "description": "Includes: 2 × MagTwin Sets Worldwide Shipping Available"
+        },
+        {
+          "name": "Family Pack (4 Sets)",
+          "price": 202,
+          "price_usd": 158,
+          "currency": "SGD",
+          "backers": 0,
+          "description": "Includes: 4 × MagTwin Sets Worldwide Shipping Available"
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1623284228",
@@ -84881,7 +85325,73 @@
         "heat": 0.0
       },
       "raw_html_hash": "45d71dd95195c583",
-      "raw_fetched_at": "2026-08-01T13:59:13.284287+00:00"
+      "raw_fetched_at": "2026-08-01T13:59:13.284287+00:00",
+      "ai_intro_en": "For creators For creators Log in You'll need an HTML5 capable browser to see this content. 0:00 0:00 Product Design Houston, TX US$ 0 pledged of US$ 10,000 pledged of US$ 10,000 goal 0 backers 59 days to go Back this project Remind me All or nothing. This project will only be funded if it reaches its goal by Wed, September 30 2026 1:19 AM EDT. The Body Scrubber for Bathing And Exfoliation Hypoallergic, Gentle Exfoliation, Skin-safe material, Ergonomic Design, Non-slip grip, Quick-Drying, Easy to Clean and DURABLE.",
+      "ai_highlights_en": [
+        "Hypoallergic, Gentle Exfoliation, Skin-safe material",
+        "Ergonomic Design, Non-slip grip, Quick-Drying, Easy to Clean and DURABLE",
+        "Long-lasting design, made from durable, BPA-free plastic with an ergonomic, non-slip design"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "BPA-free, skin-safe"
+        ],
+        [
+          "Design",
+          "Ergonomic, non-slip grip"
+        ],
+        [
+          "Size",
+          "Variable"
+        ],
+        [
+          "Weight",
+          "Variable"
+        ],
+        [
+          "Color",
+          "Variable"
+        ],
+        [
+          "Price",
+          "$15"
+        ],
+        [
+          "Delivery",
+          "Estimated delivery Oct 2026"
+        ],
+        [
+          "Ships to",
+          "Anywhere in the world"
+        ],
+        [
+          "Includes",
+          "1 item"
+        ],
+        [
+          "Material",
+          "BPA-free, recycled plastic"
+        ],
+        [
+          "Material",
+          "BPA-free, non-toxic, skin-safe silicone"
+        ]
+      ],
+      "ai_risks_en": "Developing a plastic and silicone body scrubber presents several challenges, including manufacturing, material safety, production costs, and supply chain reliability.",
+      "ai_creator_bio_en": "I am Tofique Nizamani, based out of Houston. I believe healthy skin means healthy mind which is why, I have come up with this body scrubber...",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 15,
+          "price_usd": 15,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Back it because you believe in my product"
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-591412763",
