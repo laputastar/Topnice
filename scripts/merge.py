@@ -20,6 +20,13 @@ from safeio import atomic_write_json, load_json_safe
 RAW_DIR = Path(__file__).parent / "raw"
 OUTPUT = Path(__file__).parent.parent / "src" / "data" / "projects.json"
 
+# 非硬件细分类别（来自分类器 DELETE 枚举）。与 binary 的 hardware_class=='non-hardware'
+# 并列作为摄入过滤依据——防止护栏把 hardware_class 翻回 hardware 但残留非硬件 hw_type 时漏网。
+NON_HARDWARE_TYPES = {
+    "纯机械工具", "纯软件", "服务众筹", "数字下载",
+    "服饰鞋包", "食品厨具", "书籍影视", "其他非硬件",
+}
+
 def batch_hardware_classify(projects: list, batch_size: int = 50) -> list:
     """使用 Cloudflare Workers AI 批量分类硬件/非硬件项目（替代旧的逐个分类）。
 
@@ -117,7 +124,7 @@ Products:
                 if i < len(batch):
                     keep = cls.get("keep", True)
                     batch[i]["hardware_class"] = "hardware" if keep else "non-hardware"
-                    batch[i]["hw_type"] = cls.get("product_type", "")
+                    batch[i]["hw_type"] = (cls.get("product_type", "") or "").strip()
                     batch[i]["hw_reason"] = cls.get("reason", "")
                     if not keep:
                         skipped += 1
@@ -267,8 +274,8 @@ def main():
 
     for p in all_new:
         pid = p["id"]
-        # Skip non-hardware projects entirely
-        if p.get("hardware_class") == "non-hardware":
+        # Skip non-hardware projects entirely (binary class OR fine-grained non-hardware type)
+        if p.get("hardware_class") == "non-hardware" or (p.get("hw_type") or "").strip() in NON_HARDWARE_TYPES:
             if pid in existing:
                 # Also remove from existing so it doesn't come back via historical step
                 del existing[pid]
@@ -341,8 +348,10 @@ def main():
 
     # Global safety net: drop any non-hardware that slipped through (incl. from above).
     before = len(projects_list)
-    deleted = [p for p in projects_list if p.get("hardware_class") == "non-hardware"]
-    projects_list = [p for p in projects_list if p.get("hardware_class") != "non-hardware"]
+    deleted = [p for p in projects_list
+               if p.get("hardware_class") == "non-hardware" or (p.get("hw_type") or "").strip() in NON_HARDWARE_TYPES]
+    projects_list = [p for p in projects_list
+                     if p.get("hardware_class") != "non-hardware" and (p.get("hw_type") or "").strip() not in NON_HARDWARE_TYPES]
     removed = before - len(projects_list)
     if removed:
         print(f"  🗑️  Deleted {removed} non-hardware project(s) after classification")
