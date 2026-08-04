@@ -17699,8 +17699,65 @@
       ],
       "ai_risks_en": "Product is in prototype phase with final specs subject to change. Long-term filter life unestablished through extended field testing. Small family business scaling manufacturing for the first time. Timeline spans July 2026 to early 2027 with multiple production phases that could face delays.",
       "ai_creator_bio_en": "Joel Hartlaub (Joel Creates), former manufacturing manager with 5 years in scientific instrumentation, leading a small family business.",
-      "ai_tiers": [],
-      "ai_source": "raw_html",
+      "ai_tiers": [
+        {
+          "name": "[Early Bird] OddCube Complete Kit",
+          "price": 219.0,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": null,
+          "description": "• Complete Physical Kit\n• OddCube 3D Printing Files\n• Access to the OddCube Workshop\n\nFilters are not included but can be added on. \nShipping covers the contiguous U.S. only. Additional shipping may apply for AK, HI, and U.S. territories."
+        },
+        {
+          "name": "[Early Bird ] 3D Printing Package",
+          "price": 29.0,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": null,
+          "description": "• OddCube 3D Printing Files\n• Access to OddCube Workshop\n\nFiles are licensed for personal, non-commercial use; the complete license agreement will accompany the download."
+        },
+        {
+          "name": "3D Printing Package",
+          "price": 39.0,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": null,
+          "description": "• OddCube 3D Printing Files\n• Access to OddCube Workshop\n\nFiles are licensed for personal, non-commercial use; the complete license agreement will accompany the download."
+        },
+        {
+          "name": "[EarlyBird]OddCube Printed Parts Package",
+          "price": 109.0,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": null,
+          "description": "• OddCube Printed Components\n• O-rings\n• OddCube 3D Printing Files\n• Access to OddCube Workshop\n\nShipping covers the contiguous U.S. only. Additional shipping may apply for AK, HI, and U.S. territories."
+        },
+        {
+          "name": "OddCube Printed Parts Package",
+          "price": 129.0,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": null,
+          "description": "• OddCube Printed Components\n• O-rings\n• OddCube 3D Printing Files\n• Access to OddCube Workshop\n\nShipping covers the contiguous U.S. only. Additional shipping may apply for AK, HI, and U.S. territories."
+        },
+        {
+          "name": "OddCube Complete Kit",
+          "price": 239.0,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": null,
+          "description": "• Complete Physical Kit\n• OddCube 3D Printing Files\n• Access to the OddCube Workshop\n\nFilters are not included but can be added on. \nShipping covers the contiguous U.S. only. Additional shipping may apply for AK, HI, and U.S. territories."
+        },
+        {
+          "name": "[Super Early Bird] OddCube Complete Kit",
+          "price": 199.0,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": null,
+          "description": "• Complete Physical Kit\n• OddCube 3D Printing Files\n• Access to the OddCube Workshop\n\nFilters are not included but can be added on. \nShipping covers the contiguous U.S. only. Additional shipping may apply for AK, HI, and U.S. territories."
+        }
+      ],
+      "ai_source": "local-extract",
       "hw_type": "智能硬件",
       "hw_reason": "Air purifier with electronic components"
     },
@@ -29654,9 +29711,90 @@
       ],
       "ai_risks_en": "Swigable is in advanced prototype stage; final production details, materials, finishes and aesthetics may change during engineering validation and manufacturing. The team is still refining AI edge cases, retraining models, improving power efficiency, and stress-testing the bottle. Delays or design alterations are possible as they prioritise quality and reliability over speed.",
       "ai_creator_bio_en": "A small British team of entrepreneurs, parents, designers and tech enthusiasts based in London, dedicated to creating thoughtful, high-quality products that improve everyday wellbeing.",
-      "ai_tiers": [],
+      "ai_tiers": [
+        {
+          "name": "Kickstarter DUO Pack (Most Popular)",
+          "price": 79.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Double the hydration. Share the experience. Perfect for friends, couples, or keeping one bottle at home and one on the go."
+        },
+        {
+          "name": "Early Bird",
+          "price": 38.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Missed our Super Early Bird? You're still early. Secure your Swigable at an exclusive Early Bird Kickstarter price before retail. Available while rewards last."
+        },
+        {
+          "name": "Kickstarter Special",
+          "price": 42.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Join the Swigable journey and secure your bottle before it launches at retail. Every pledge helps bring Swigable to life, and every backer becomes part of our story from the very beginning."
+        },
+        {
+          "name": "Family Pack",
+          "price": 149.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "The best value for families. Get 4 Swigable bottles and help everyone build healthier hydration habits together.\n\nBack us today, save compared to retail, and be among the first to receive Swigable before the public launch. Thank you for helping bring our vision to life!"
+        },
+        {
+          "name": "Swigable Founders Bottles",
+          "price": 249.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Our ultimate collector's reward. Receive 2 Swigable bottles, exclusive limited edition Founder merch, and Founder's Certificate to celebrate your place in the very beginning of the Swigable journey.\n\nA limited reward for our earliest supporters. Thank you for helping bring Swigable to life."
+        },
+        {
+          "name": "Founders Circle",
+          "price": 349.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "For our biggest believers. Join a small group of supporters who will forever be part of the Swigable story. This exclusive reward is our way of saying thank you to those who believed in our vision from the very beginning.\n\nLimited availability."
+        },
+        {
+          "name": "Team Pack",
+          "price": 599.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Built for startups, small businesses and growing teams, just like us. Receive 10 Swigable bottles and help your team build healthier hydration habits together"
+        },
+        {
+          "name": "Corporate 25",
+          "price": 799.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Keep your company hydrated with Swigable. Perfect for small businesses and growing teams looking to build healthier hydration habits while supporting innovation from day one."
+        },
+        {
+          "name": "Corporate 50",
+          "price": 1599.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Keep your company hydrated with Swigable. Ideal for growing workplaces investing in employee wellbeing and securing exclusive Kickstarter pricing before retail."
+        },
+        {
+          "name": "Corporate 100",
+          "price": 2999.0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Keep your company hydrated with Swigable. Our largest corporate reward, designed for businesses that want to make hydration part of their workplace culture while supporting the future of smarter hydration."
+        }
+      ],
       "ai_validated": true,
-      "ai_source": "raw_html",
+      "ai_source": "local-extract",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic hydration tracking device with sensors"
     },
@@ -36653,9 +36791,58 @@
       ],
       "ai_risks_en": "Project is still in Beta with app under development. Currently at $5,117 of $6,375 goal with only 16 backers and 21 days remaining. All-or-nothing funding model means no rewards if goal isn't met. Future cloud AI features are planned but not yet available.",
       "ai_creator_bio_en": "Interactive Design Central, Hong Kong, founded by Philip Leung under Sharings African Drumming Arena (SADA) since 2004",
-      "ai_tiers": [],
+      "ai_tiers": [
+        {
+          "name": "Support the Mission of Ai Djembe",
+          "price": 100.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Stand with us in our mission to break senior loneliness through the universal power of rhythm.\n✅ Global Health Database Directory Honor: Your name permanently honored in our official global research contributor directory as a foundational pioneer.\n\n✅ A Deep Sense of Gratitude: Our team at Sharings African Drumming Arena (SADA) will send a personal, heartfelt digital postcard thank-you note directly to your inbox."
+        },
+        {
+          "name": "Level 1: Super early bird Pack",
+          "price": 1499.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Be the very first to bring the ultimate joyful energy of rhythm into your home! Save 40% off the future retail price. Perfect for individuals, seniors, and anyone looking to enhance coordination and rhythm habits through gamified AI rhythm-training. Perfect for individuals, seniors and anyone looking to boost brain health and motor skills through gamified AI rhythm-training. \nItems Included: \n✅ 1× Ai Djembe GO - Patented Smart Hardware\n✅ 1× Lifetime Premium App Access\n✅ 1× Custom-Fit Carry Bag\n✅ 1× Dedicated Foot Paddle \n✅ 1× 1.5m Premium Sound Cable & 1× Ergonomic Earphones \n✅ 1× Type-C Power Charging Cable \n✅ Your name honored in our Global Databank official directory. \n✈️ Shipping & Logistics Information: \n• Shipping Cost: HK$550 for the USA and Europe.\n•After the campaign ends, we will send a survey to collect your verified shipping address. \n•Due to local logistical constraints, we are currently unable to ship to Russia, Belarus, Iran, Sudan, North Korea, Syria, and Cuba."
+        },
+        {
+          "name": "Level 2: Kickstarter Special Pack",
+          "price": 2199.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Missed the Super Early Bird? You can still secure the Ai Djembe at an exclusive crowdfunding discount! Join our global movement to experience precision rhythmic training powered by our friendly AI mentor, BoBo. \nItems Included: \n✅ 1× Ai Djembe GO - Patented Smart Hardware \n✅ 1× Lifetime Premium App Access \n✅ 1× Custom-Fit Carry Bag\n✅ 1× Dedicated Foot Paddle \n✅ 1× 1.5m Premium Sound Cable & 1× Ergonomic Earphones \n✅ 1× Type-C Power Charging Cable \n✅ Your name honored in our Global Databank official directory. \n✈️ Shipping & Logistics Information: \n• Shipping Cost: HK$550 for the USA and Europe.\n• After the campaign ends, we will send a survey to collect your verified shipping address. \n• Due to local logistical constraints, we are currently unable to ship to Russia, Belarus, Iran, Sudan, North Korea, Syria & Cuba"
+        },
+        {
+          "name": "Level 3: Ultimate Ai Djembe-GO Premium",
+          "price": 2699.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Our most popular and complete standard tier! Perfect for seniors, families, or individuals who want full access to our interactive rhythm games, personalized training tracks, and remote care.\nItems Included:\n✅ 1× Ai Djembe GO - Patented Smart Hardware\n✅ 1× Lifetime Premium App Access \n✅ 1× Lifetime Caregiver APP Portal with 2x Lifetime licenses\n✅ 1× Custom-Fit Carry Bag\n✅ 1× Dedicated Foot Paddle \n✅ 1× 1.5m Premium Sound Cable & 1× Ergonomic Earphones\n✅ 1× Type-C Power Charging Cable \n✅ Your name honored in our Global Databank official directory. \n✈️ Shipping & Logistics Information: \n• Shipping Cost: HK$550 for the USA and Europe.\n•After the campaign ends, we will send a survey to collect your verified shipping address. \n•Due to local logistical constraints, we are currently unable to ship to Russia, Belarus, Iran, Sudan, North Korea, Syria, and Cuba."
+        },
+        {
+          "name": "Level 4: Family Wellness Double Pack",
+          "price": 5099.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Double the rhythm, double the connection! Ideal for couples, families, or small wellness practices. Bring two premium AI Djembe sets into your home and support long-term well-being through shared rhythm.\n\n✅ 2× Ai Djembe GO Premium Sets (Full Package)\n✅ 2× Lifetime App Access\n✅ 1× Caregiver Portal Account with 4 Licenses\n✅ All Accessories Included: Carry Bags, Foot Pedals, Cables, Earphones, and Chargers\n✅ Your name honored in our Global Databank directory\n✈️ Shipping & Logistics Information: \n• Shipping Cost: HK$550 for the USA and Europe.\n•After the campaign ends, we will send a survey to collect your verified shipping address. \n•Due to local logistical constraints, we are currently unable to ship to Russia, Belarus, Iran, Sudan, North Korea, Syria, and Cuba."
+        },
+        {
+          "name": "Level 5: Community Wellness 5x Packages",
+          "price": 13299.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Ideal for senior care communities, wellness centers, daycare facilities, and schools. Bring rhythm-based wellness to your organization with 5 complete premium sets and centralized data management.\n\n✅ 5× Ai Djembe GO Premium\n✅ 5× Lifetime Premium App Access\n✅ 2× Lifetime Caregiver Portal Accounts (20 Individual Licenses)\n✅ 5× Carry Bags, Foot Pedals, Sound Cables, Earphones, and Charging Cables\n✅ Your name honored in our Global Databank directory\n✈️ Shipping & Logistics Information:\n•After the campaign ends, we will send a survey to collect your verified shipping address. \n•Due to local logistical constraints, we are currently unable to ship to Russia, Belarus, Iran, Sudan, North Korea, Syria, and Cuba."
+        }
+      ],
       "ai_validated": true,
-      "ai_source": "raw_html",
+      "ai_source": "local-extract",
       "ended_at": "2026-08-03T04:22:00.628220Z"
     },
     {
@@ -37190,9 +37377,90 @@
       ],
       "ai_risks_en": "Project is all-or-nothing; if funding goal isn't met by deadline, no charges are made but backers receive nothing. Cloud data access requires ongoing service availability; hardware delivery may face manufacturing or shipping delays common in crowdfunding.",
       "ai_creator_bio_en": "Hardware Hong Kong is the creator behind Kylendar Mini, building on their acclaimed 7-inch Kylendar to deliver compact, low-power e-paper dashboards for focused digital minimalism.",
-      "ai_tiers": [],
+      "ai_tiers": [
+        {
+          "name": "🚀 Early Supporter Special (Black)",
+          "price": 469.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        },
+        {
+          "name": "🚀 Early Supporter Special (White)",
+          "price": 469.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        },
+        {
+          "name": "✨ Core Backer Edition (White)",
+          "price": 539.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        },
+        {
+          "name": "✨ Core Backer Edition (Black)",
+          "price": 539.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        },
+        {
+          "name": "💎 Plus Bundle Backer (Black)",
+          "price": 619.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        },
+        {
+          "name": "💎 Plus Bundle Backer (White)",
+          "price": 619.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        },
+        {
+          "name": "👑 Premium Founder Pack (Black)",
+          "price": 699.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        },
+        {
+          "name": "👑 Premium Founder Pack (White)",
+          "price": 699.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        },
+        {
+          "name": "⚡Early Bird Starter (Black)",
+          "price": 389.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        },
+        {
+          "name": "⚡Early Bird Starter (White)",
+          "price": 389.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "What's Included:\n\n✅ Kylendar Mini 4.2\" E-Paper Smart Calendar\n🎁 FREE Built-in 3000mAh Rechargeable Battery\n🎁 FREE 6-Month Premium Subscription\n✅ Premium USB Type-C Charging Cable\n✅ User Manual\n\n⚠️ USB Type-C cable is included for charging."
+        }
+      ],
       "ai_validated": true,
-      "ai_source": "raw_html"
+      "ai_source": "local-extract"
     },
     {
       "id": "ks-479117284",
@@ -68219,9 +68487,58 @@
       ],
       "ai_risks_en": "Compatibility depends on Tesla's hardware: NACS vehicles require 'CCS and 3rd-party NACS DC charging: Enabled' (post-2022 models usually have it); older models need a CCS ECU retrofit. Type 2 vehicles require retrofit and an official Tesla adapter. CCS2 vehicles are plug-and-play. As with any early-stage V2L market, there is risk of software bugs, though WETOX claims in-house protocol development and OTA updates to address issues.",
       "ai_creator_bio_en": "WETOX is a Hong Kong-based manufacturer and official CATL partner, leading the global V2L adapter market with over 100,000 units sold and OEM integrations with major automakers.",
-      "ai_tiers": [],
+      "ai_tiers": [
+        {
+          "name": "Launch Special | WETOX D2 - NACS (US&CA)",
+          "price": 5875.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Designed specifically for North America🇺🇸🇨🇦 .\n\nThis NACS version is engineered for 120V 60Hz systems, featuring a native NACS connector and dual built-in 5-15R outlets on the main panel. With a powerful 3,600W output, it’s built to handle your most demanding appliances with ease.\n\n🔥 Launch Special: Get 1 x D2 V2L Adapter for just $749 (Save 50% off MSRP $1,499)!\nTax Free. Strictly limited quantity at this special price!"
+        },
+        {
+          "name": "Super Early Bird|WETOX D2 - NACS (US&CA)",
+          "price": 6267.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Designed specifically for North America🇺🇸🇨🇦 .\n\nThis NACS version is engineered for 120V 60Hz systems, featuring a native NACS connector and dual built-in 5-15R outlets on the main panel. With a powerful 3,600W output, it’s built to handle your most demanding appliances with ease.\n\n🔥 Super Early Bird: Get 1 x D2 V2L Adapter for just $799 (Save 47% off MSRP $1,499)!\nTax Free.Act fast to lock in our next best tier before it sells out!\nShipping fee will be charged after the campaign ends."
+        },
+        {
+          "name": "Launch Special | WETOX D2 - CCS2 (Intl)",
+          "price": 6659.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Designed for Europe & International Markets (EU🇪🇺, UK🇬🇧, AU🇦🇺, NZ🇳🇿).\n\nThis CCS2 version supports a massive 6,660W output (230V 50Hz). The main panel features a dedicated Circular Connector, and the package includes a premium 3m IPX6 waterproof power strip.\n\nImportant: Please specify your required socket type (Type F, Type G, or Type I) via note or email.\n\n🔥 Launch Special: Get 1 x D2 V2L Adapter for just $849 (Save 50% off MSRP $1,699)!\nTax Free. Strictly limited quantity at this special price!\nShipping fee will be charged after the campaign ends."
+        },
+        {
+          "name": "Super Early Bird | WETOX D2-CCS2 (Intl)",
+          "price": 7051.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Designed for Europe & International Markets (EU🇪🇺, UK🇬🇧, AU🇦🇺, NZ🇳🇿).\n\nThis CCS2 version supports a massive 6,660W output (230V 50Hz). The main panel features a dedicated Circular Connector, and the package includes a premium 3m IPX6 waterproof power strip.\n\nImportant: Please specify your required socket type (Type F, Type G, or Type I) via note or email.\n\n🔥 Super Early Bird: Get 1 x D2 V2L Adapter for just $899 (Save 47% off MSRP $1,699)!\nTax Free. Act fast to lock in our next best tier before it sells out!\nShipping fee will be charged after the campaign ends."
+        },
+        {
+          "name": "2-Pack WETOX D2 - NACS (US&CA)",
+          "price": 11757.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Best value for multi-vehicle households or sharing with a friend! \nIncludes 2 x D2 V2L Adapters (NACS).\n\n🔥 Get 2 units for just $1,499 (Save 50% off MSRP $2,999)!\nTax Free. Double up for maximum value. Adjust your add-on quantities as needed!\nShipping fee will be charged after the campaign ends."
+        },
+        {
+          "name": "2-Pack WETOX D2 - CCS2 (Intl)",
+          "price": 13326.0,
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Best value for multi-vehicle households or sharing with a friend! \nIncludes 2 x D2 V2L Adapters (CCS2) and 2 x 3m IPX6-reated Power Strips.\n\nImportant: Please specify your required socket type (Type F, G, or I) via note or email.\n\n🔥 Get 2 units for just $1,699 (Save 50% off MSRP $3,399)!\nTax Free. Double up for maximum value. Adjust your add-on quantities as needed!\nShipping fee will be charged after the campaign ends."
+        }
+      ],
       "ai_validated": true,
-      "ai_source": "raw_html"
+      "ai_source": "local-extract"
     },
     {
       "id": "ks-31204669",

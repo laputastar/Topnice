@@ -272,7 +272,11 @@ def main():
     never_fetched = [p for p in projects if needs_refetch(p, RAW_HTML_DIR)]
     thin_candidates = []
     for p in projects:
-        if p.get("state") not in ("live", "active"):
+        # 放宽：非 live 项目（successful/ended/failed）的薄快照也纳入重抓候选。
+        # 旧逻辑只重抓 live/active，导致已结束/失败项目的桩页快照永远卡死无法补全。
+        # 安全护栏：仍需满足「有 url + 未通过 AI 校验 + 确属薄快照」，且真正重抓
+        # 受 _rendering_available() 门控（仅渲染商本 run 可用时才写盘，避免免费兜底空耗）。
+        if p.get("state") not in ("live", "active", "successful", "ended", "failed"):
             continue
         if not p.get("url"):
             continue

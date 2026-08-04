@@ -377,7 +377,11 @@ def main():
             continue
         if p.get("platform") not in ("kickstarter", "indiegogo"):
             continue
-        if p.get("state") not in ("live", "active"):
+        # 放宽：非 live 项目（successful/ended/failed）也纳入抽取候选。
+        # 旧逻辑只抽 live/active，导致已结束/失败项目（含其薄快照经重抓后拿到真 HTML 者）
+        # 永远无法补全 AI 字段。安全护栏：下方仍按 ai_validated 守卫跳过已校验项目，
+        # 且 extract() 在无 raw HTML/html_story 时会自行跳过，不会污染数据。
+        if p.get("state") not in ("live", "active", "successful", "ended", "failed"):
             continue
         if target_project and target_project not in p.get("slug", "") and target_project not in p.get("id", ""):
             continue
