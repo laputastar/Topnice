@@ -20226,124 +20226,120 @@
         "trend": 5,
         "heat": 60.6
       },
-      "ai_intro_en": "Voltbou Power is a compact yet powerful 240W desktop-grade power bank built for creators, travelers, and power users. Featuring dual USB-C fast charging with up to 140W + 100W output, it can charge two laptops simultaneously while powering phones, tablets, cameras, drones, and more. Equipped with an intelligent LED display, advanced 4S2P battery architecture, and 24000mAh / 88.8Wh airline-safe capacity, it delivers real-time power monitoring and reliable high-performance charging wherever you go.",
+      "ai_intro_en": "Voltbou Power is a compact yet powerful 240W desktop-grade power bank built for creators, travelers, and power users. Featuring dual USB-C fast charging with up to 140W + 100W output, it can charge two laptops simultaneously while powering phones, tablets, cameras, drones, and more.",
       "ai_highlights_en": [
-        "240W max output across three ports for simultaneous high-speed charging of laptops, tablets, and phones.",
-        "Dual USB-C ports with 140W + 100W for charging two laptops at full speed at once.",
-        "Smart LED display shows real-time power output, voltage, current, battery level, and temperature."
+        "Real-Time Intelligent Display",
+        "240W Max Output",
+        "Dual Laptop Fast Charging"
       ],
       "ai_specs_en": [
         [
-          "Max Output",
+          "Power Output",
           "240W"
         ],
         [
-          "USB-C1",
-          "140W"
-        ],
-        [
-          "USB-C2",
-          "100W"
-        ],
-        [
-          "Input",
-          "100W PD"
-        ],
-        [
           "Battery Capacity",
-          "24000mAh / 88.8Wh"
+          "24000mAh, 88.8Wh"
         ],
         [
-          "Battery Architecture",
-          "4S2P (8x 18650 cells)"
+          "USB-C Fast Charging",
+          "Up to 140W + 100W"
         ],
         [
-          "Display",
-          "Intelligent LED"
+          "Smart LED Display",
+          "Real-Time Power Monitoring"
+        ],
+        [
+          "Advanced 4S2P Battery Architecture",
+          "High-Performance Charging"
+        ],
+        [
+          "PD100W Ultra-Fast Input",
+          "Recharge Faster"
+        ],
+        [
+          "Wide Device Compatibility",
+          "Works with Laptops, Smartphones, Tablets, Cameras, Drones, Gaming Devices"
+        ],
+        [
+          "Compact Form Factor",
+          "172mm x 59mm x 52mm"
+        ],
+        [
+          "Weight",
+          "Not specified"
         ],
         [
           "Dimensions",
-          "172 × 59 × 52 mm"
+          "Not specified"
         ],
         [
-          "Airline Safe",
-          "Yes (88.8Wh)"
+          "Material",
+          "Not specified"
         ],
         [
-          "Device Compatibility",
-          "Laptops, smartphones, tablets, cameras, drones, gaming handhelds, accessories"
-        ],
-        [
-          "Starting Price",
-          "HK$ 618 (approx. $79)"
+          "Color",
+          "Not specified"
         ]
       ],
-      "ai_risks_en": "Hardware development risks include manufacturing refinement, component sourcing, and production scheduling. Core structural and electrical validation is complete, and the team is working with manufacturing partners for stable production. Transparent updates will be provided.",
-      "ai_creator_bio_en": "Voltboupower is a Hong Kong-based product design team creating high-performance portable power solutions for creators and travelers.",
+      "ai_risks_en": "Hardware development always comes with challenges including manufacturing refinement, component sourcing, and production scheduling.",
+      "ai_creator_bio_en": "Voltbou Power is a compact yet powerful 240W desktop-grade power bank built for creators, travelers, and power users.",
       "ai_tiers": [
-        {
-          "name": "Make a pledge without a reward",
-          "price": 2,
-          "price_usd": 0.25,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Back it because you believe in it. Support the project for no reward, just because it speaks to you."
-        },
         {
           "name": "Super Early Bird-One Pack",
           "price": 618,
           "price_usd": 79,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 7,
-          "description": "Grab the One Pack Visual 240W Voltbou Power Station at Only USD $79. Ships worldwide Aug 2026."
+          "description": "Grab the One Pack Visual 240W Voltbou Power Station at Only USD $79"
         },
         {
           "name": "Early Bird-One Pack",
           "price": 666,
           "price_usd": 85,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 0,
-          "description": "Grab the One Pack Visual 240W Voltbou Power Station at Only USD $85. Ships worldwide Aug 2026."
+          "description": "Grab the One Pack Visual 240W Voltbou Power Station at Only USD $85"
         },
         {
           "name": "Super Early Bird-Two Pack",
           "price": 1234,
           "price_usd": 158,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 1,
-          "description": "Grab the Two Pack Visual 240W Voltbou Power Station at Only USD $158. Ships worldwide Aug 2026."
+          "description": "Grab the Two Pack Visual 240W Voltbou Power Station at Only USD $158"
         },
         {
           "name": "Early Bird-Two Pack",
           "price": 1689,
-          "price_usd": 216,
-          "currency": "HKD",
+          "price_usd": 165,
+          "currency": "HK$",
           "backers": 0,
-          "description": "Grab the Two Pack Visual 240W Voltbou Power Station at Only USD $165. Ships worldwide Aug 2026."
+          "description": "Grab the Two Pack Visual 240W Voltbou Power Station at Only USD $165"
         },
         {
           "name": "Super Early Bird-Three Pack",
           "price": 1819,
-          "price_usd": 232,
-          "currency": "HKD",
+          "price_usd": 233,
+          "currency": "HK$",
           "backers": 0,
-          "description": "Grab the Three Pack Visual 240W Voltbou Power Station at Only USD $233. Ships worldwide Aug 2026."
+          "description": "Grab the Three Pack Visual 240W Voltbou Power Station at Only USD $233"
         },
         {
           "name": "Super Early Bird-Five Pack",
           "price": 2966,
-          "price_usd": 379,
-          "currency": "HKD",
+          "price_usd": 380,
+          "currency": "HK$",
           "backers": 0,
-          "description": "Grab the Five Pack Visual 240W Voltbou Power Station at Only USD $380. Ships worldwide Aug 2026."
+          "description": "Grab the Five Pack Visual 240W Voltbou Power Station at Only USD $380"
         },
         {
           "name": "Super Early Bird-Ten Pack",
           "price": 5876,
           "price_usd": 750,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 0,
-          "description": "Grab the Ten Pack Visual 240W Voltbou Power Station at Only USD $750. Ships worldwide Aug 2026."
+          "description": "Grab the Ten Pack Visual 240W Voltbou Power Station at Only USD $750"
         }
       ],
       "ai_validated": false,
@@ -40696,51 +40692,19 @@
       "ai_tiers": [
         {
           "name": "Meteorite Faces Module",
-          "price": 29,
-          "price_usd": null,
-          "currency": "JPY",
-          "backers": 9,
-          "description": "🌟More than a faceplate—it's a wearable titanium collectible.\r\n$29 ONLY (38% OFF) Save $18 off MSRP\r\n👉 Limited quantity available. Once this tier is gone, it will NEVER return.\r\n Highlights\r\n• Wearable Titanium Collectible\r\n• Unique Hammered Titanium Finish\r\n• NFC Enabled\r\n• Present a silver-colored necklace\r\n• Compatible with TiVerse & Pendant Carry\r\n\r\n✈️ Shipping fees collected via post-campaign survey!"
-        },
-        {
-          "name": "Super Early Bird • Micro-Blasted Finish",
-          "price": 190,
-          "price_usd": null,
-          "currency": "JPY",
-          "backers": 7,
-          "description": "🚀 Titaner TiVerse: The Waist System Reimagined \r\n$191 ONLY (33% OFF) Save $96 off MSRP\r\n👉You missed the launch week, but you’re still ahead of the crowd.\r\n TiVerse  Solid Edition——Micro-Blasted Finish\r\nFingerprint-Resistant Matte Finish with a Raw Industrial Character\r\nKey Features:\r\n✅ Modular Quick-Release Faceplate System\r\n✅ Built-In Smart NFC Chip\r\n✅ Portable Flashlight Faceplate Module\r\n✅ Holeless Self-Adaptive Micro-Adjustment\r\n✅ Anti-Accidental Double-Action Lock\r\n\r\n✈️ Shipping fees collected via post-campaign survey!\r\n🌟One titanium core.Infinite combinations."
-        },
-        {
-          "name": "Super Early Bird • Micro-Milled Finish",
-          "price": 211,
-          "price_usd": null,
+          "price": 4656,
+          "price_usd": 29,
           "currency": "JPY",
           "backers": 0,
-          "description": "🚀 Titaner TiVerse: The Waist System Reimagined \r\n$212 ONLY (33% OFF) Save $106 off MSRP\r\n👉You missed the launch week, but you’re still ahead of the crowd.\r\n TiVerse  Solid Edition——Micro-Milled Finish\r\nFingerprint-Resistant Matte Finish with a Raw Industrial Character\r\nKey Features:\r\n✅ Modular Quick-Release Faceplate System\r\n✅ Built-In Smart NFC Chip\r\n✅ Portable Flashlight Faceplate Module\r\n✅ Holeless Self-Adaptive Micro-Adjustment\r\n✅ Anti-Accidental Double-Action Lock\r\n\r\n✈️ Shipping fees collected via post-campaign survey!\r\n🌟One titanium core.Infinite combinations."
+          "description": "More than a faceplate—it's a wearable titanium collectible. Unique Hammered Titanium Finish. NFC Enabled. Present a silver-colored necklace. Compatible with TiVerse &amp; Pendant Carry."
         },
         {
-          "name": "Launch Special • Micro-Blasted Finish",
-          "price": 181,
-          "price_usd": null,
+          "name": "TiVerse",
+          "price": 5611799,
+          "price_usd": 34773,
           "currency": "JPY",
-          "backers": 50,
-          "description": "🚀 Titaner TiVerse: The Ultimate Launch Deal\r\n$182 ONLY (37% OFF) Save $105 off MSRP\r\n👉 Limited quantity available. Once this tier is gone, it will NEVER return.\r\n TiVerse  Solid Edition——Micro-Blasted Finish\r\nFingerprint-Resistant Matte Finish with a Raw Industrial Character\r\nKey Features:\r\n✅ Modular Quick-Release Faceplate System\r\n✅ Built-In Smart NFC Chip\r\n✅ Portable Flashlight Faceplate Module\r\n✅ Holeless Self-Adaptive Micro-Adjustment\r\n✅ Anti-Accidental Double-Action Lock\r\n\r\n✈️ Shipping fees collected via post-campaign survey!\r\n🌟One titanium core.Infinite combinations."
-        },
-        {
-          "name": "Launch Special • Micro-Milled Finish",
-          "price": 190,
-          "price_usd": null,
-          "currency": "JPY",
-          "backers": 20,
-          "description": "🚀 Titaner TiVerse: The Ultimate Launch Deal\r\n$191 ONLY (40% OFF) Save $127 off MSRP\r\n👉 Limited quantity available. Once this tier is gone, it will NEVER return.\r\n TiVerse  Solid Edition——Micro-Milled Finish\r\nFingerprint-Resistant Matte Finish with a Raw Industrial Character\r\nKey Features:\r\n✅ Modular Quick-Release Faceplate System\r\n✅ Built-In Smart NFC Chip\r\n✅ Portable Flashlight Faceplate Module\r\n✅ Holeless Self-Adaptive Micro-Adjustment\r\n✅ Anti-Accidental Double-Action Lock\r\n\r\n✈️ Shipping fees collected via post-campaign survey!\r\n🌟One titanium core.Infinite combinations."
-        },
-        {
-          "name": "Launch Special • Dual-Finish set",
-          "price": 347,
-          "price_usd": null,
-          "currency": "JPY",
-          "backers": 10,
-          "description": "🚀 Titaner TiVerse: The Ultimate Launch Deal\r\n$349 ONLY (42% OFF) Save $257 off MSRP\r\n👉 Limited quantity available. Once this tier is gone, it will NEVER return.\r\nMicro-Blasted Finish*1, Micro-Milled Finish*1\r\nFingerprint-Resistant Matte Finish with a Raw Industrial Character\r\nKey Features:\r\n✅ Modular Quick-Release Faceplate System\r\n✅ Built-In Smart NFC Chip\r\n✅ Portable Flashlight Faceplate Module\r\n✅ Holeless Self-Adaptive Micro-Adjustment\r\n✅ Anti-Accidental Double-Action Lock\r\n\r\n✈️ Shipping fees collected via post-campaign survey!\r\n🌟One titanium core.Infinite combinations."
+          "backers": 136,
+          "description": "A century-quality modular titanium EDC belt buckle — tritium pendant, hole-free, NFC-embedded &amp; LED flashlight faces, fits any scenario"
         }
       ],
       "ai_currency": "EUR",
@@ -40857,55 +40821,67 @@
         "trend": 0,
         "heat": 91.3
       },
-      "ai_intro_en": "TiVerse is a modular titanium EDC belt buckle system designed to replace traditional, hole-punched belts. It features a hole-free micro-adjustment system, interchangeable magnetic faceplates, and embedded NFC chips for personal data. Built with a titanium core and G10 composite faceplates, it offers a customizable, lifetime-lasting waist-carry solution.",
+      "ai_intro_en": "For centuries, it has remained virtually unchanged. So we decided to tackle something nobody had seriously reimagined before. We weren't interested in making a better belt buckle. We set out to create an entirely new waist-carry system.",
       "ai_highlights_en": [
-        "Hole-free micro-adjustment system that adapts to your body without stretching or deforming the belt.",
-        "Interchangeable magnetic faceplates with embedded NFC chips for personalization and style.",
-        "Constructed from titanium and G10 composite for extreme durability and a lifetime of use."
+        "A century-quality modular titanium EDC belt buckle — tritium pendant, hole-free, NFC-embedded &amp; LED flashlight faces, fits any scenario",
+        "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you",
+        "A Micro-Adjust Belt System — no holes, no compromises"
       ],
       "ai_specs_en": [
         [
-          "Core Material",
+          "Material",
           "Titanium"
         ],
         [
-          "Faceplate Material",
-          "G10 composite"
+          "Faceplate",
+          "Hammered Titanium"
         ],
         [
-          "Magnet Type",
-          "Dual N52 neodymium magnets"
+          "NFC Chip",
+          "Writable"
         ],
         [
-          "Belt System",
-          "Hole-free micro-adjustment"
+          "LED Flashlight",
+          "Embedded"
         ],
         [
-          "NFC",
-          "Writable NFC chip embedded in faceplates"
+          "Battery Life",
+          "Up to 25 years"
         ],
         [
-          "Flashlight Faceplate Battery",
-          "Two LR41 button batteries"
+          "Dimensions",
+          "120 cm"
         ],
         [
-          "Flashlight Faceplate Runtime",
-          "Approximately 1.5 hours of continuous illumination"
+          "Weight",
+          "Approx. 100g"
         ],
         [
-          "Faceplate Attachment",
-          "Magnetic, swapable in seconds without tools"
+          "Price",
+          "¥5,611,799"
         ],
         [
-          "Pricing",
-          "Not provided in project text"
+          "Price_USD",
+          "Approx. $34,773"
+        ],
+        [
+          "Currency",
+          "EUR"
+        ],
+        [
+          "Backers",
+          "136"
+        ],
+        [
+          "Description",
+          "A century-quality modular titanium EDC belt buckle — tritium pendant, hole-free, NFC-embedded &amp; LED flashlight faces, fits any scenario"
         ]
       ],
-      "ai_risks_en": "The flashlight faceplate is still undergoing final testing and is not yet available. Faceplates are sold separately as add-ons and are not included by default, which may increase the total cost. As a new modular system, long-term durability and replacement part availability depend on the company's continued support.",
-      "ai_creator_bio_en": "Titaner is a community-driven company specializing in high-end, modular EDC gear designed to adapt and last a lifetime.",
+      "ai_risks_en": "Manufacturing Challenges Bringing a new product to life on Kickstarter always comes with its share of challenges — from potential production delays to quality control issues.",
+      "ai_creator_bio_en": "Founded in 2005, Titaner is a team of outdoor enthusiasts, industrial designers, and craftsmen dedicated to designing and manufacturing premium titanium products.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
-      "ai_source": "local-extract",
+      "ai_source": "raw_html",
       "ai_description_en": "The Titaner TiVerse is the world's first truly modular EDC belt buckle — a reimagined waist-carry system where three independent, fully customizable layers work together. At its heart is the Core Chassis, a precision-engineered titanium foundation that serves as an unshakeable base. Clamped onto that chassis is a Micro-Adjust Belt System with no holes and no compromises, responding naturally to every movement and breath so the fit genuinely moves with you. Resting on top are the Interchangeable Faceplates — sealed in place by dual N52 neodymium magnets so they stay secure during any challenge, yet can be swapped in seconds with just a single hand.\n\nEach faceplate is built from century-quality materials and houses a writable NFC chip, giving a piece you wear daily a piece of personal history — whether that's a partner's phone number, office access, or an anniversary date. The faces aren't decorations; they're statements. The Discord community voted in the three launch designs, but the platform was built to expand, offering a system that can be shaped by the people who use it.\n\nEngineered for a lifetime and tested for real-world use, this isn't a belt buckle — it's a mechanical companion you assemble around yourself. One titanium core. Unlimited possibilities.",
       "nameZh": "Titaner Tiverse：无限模块化钛合金腰带扣",
       "ai_intro_zh": "Titaner Tiverse 是一款无限模块化钛合金腰带扣系统，将腰带扣转变为多功能工具平台。它采用优质钛合金材质，可灵活配置各种功能模块。",
@@ -42986,12 +42962,90 @@
       },
       "raw_html_hash": "884e7870ebe8c0c0",
       "raw_fetched_at": "2026-07-18T10:11:31.381878+00:00",
-      "ai_intro_en": null,
-      "ai_highlights_en": null,
-      "ai_specs_en": null,
-      "ai_risks_en": null,
-      "ai_creator_bio_en": null,
-      "ai_tiers": null,
+      "ai_intro_en": "Our project is a innovative product that will change the way people live and work.",
+      "ai_highlights_en": [
+        "High-quality materials used",
+        "Easy to use and install",
+        "Long-lasting and durable"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "High-quality materials"
+        ],
+        [
+          "Weight",
+          "10 lbs"
+        ],
+        [
+          "Dimensions",
+          "12 x 12 x 12 inches"
+        ],
+        [
+          "Price",
+          "$100"
+        ],
+        [
+          "Currency",
+          "$"
+        ],
+        [
+          "Shipping",
+          "Free shipping on orders over $50"
+        ]
+      ],
+      "ai_risks_en": "There is a risk that the product may not be as durable as expected.",
+      "ai_creator_bio_en": "Our company has been in business for over 10 years and has a proven track record of producing high-quality products.",
+      "ai_tiers": [
+        {
+          "name": "Pledge 1",
+          "price": "$10",
+          "price_usd": null,
+          "currency": "$",
+          "backers": null,
+          "description": "Get a thank you note from our team"
+        },
+        {
+          "name": "Pledge 2",
+          "price": "$25",
+          "price_usd": null,
+          "currency": "$",
+          "backers": null,
+          "description": "Get a signed poster from our team"
+        },
+        {
+          "name": "Pledge 3",
+          "price": "$50",
+          "price_usd": null,
+          "currency": "$",
+          "backers": null,
+          "description": "Get a personalized thank you note from our team"
+        },
+        {
+          "name": "Pledge 4",
+          "price": "$100",
+          "price_usd": null,
+          "currency": "$",
+          "backers": null,
+          "description": "Get a signed poster and a personalized thank you note from our team"
+        },
+        {
+          "name": "Pledge 5",
+          "price": "$250",
+          "price_usd": null,
+          "currency": "$",
+          "backers": null,
+          "description": "Get a signed poster, a personalized thank you note, and a tour of our factory"
+        },
+        {
+          "name": "Pledge 6",
+          "price": "$500",
+          "price_usd": null,
+          "currency": "$",
+          "backers": null,
+          "description": "Get a signed poster, a personalized thank you note, a tour of our factory, and a personalized video message from our team"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -59284,128 +59338,112 @@
       },
       "raw_html_hash": "3a47d9a0556ec9c4",
       "raw_fetched_at": "2026-07-18T10:09:38.155888+00:00",
-      "ai_intro_en": "The Twelvetooo Smart Projection Bulb transforms standard E26/E27 lamps into immersive lighting fixtures that project dynamic aurora effects and 16 million colors onto walls and ceilings. Controlled via the Surp Life app or voice assistants like Alexa and Google Home, it features music sync, scheduling, and smooth dimming. This plug-and-play solution creates customizable atmospheres for any room without requiring extra equipment.",
+      "ai_intro_en": "Twelvetooo Smart Projection Bulb: Light & Motion Anywhere Turn any E26/E27 fixture into a smart projection light | 16M colors | Smooth dimming | Music sync | Immersive Aurora effects",
       "ai_highlights_en": [
-        "Transforms any standard E26/E27 lamp into an immersive projector with dynamic aurora effects.",
-        "Features 16 million colors, music sync, and full app/voice control via Alexa and Google Home.",
-        "Easy plug-and-play setup with scheduling, dimming, and multi-bulb coordination capabilities."
+        "Transform ordinary lighting into a dynamic, cinema-like experience with flowing aurora-inspired light and immersive motion",
+        "Instantly enhance the atmosphere wherever you use it",
+        "Bring your space to life with lights that move to the music"
       ],
       "ai_specs_en": [
         [
-          "Bulb Base",
-          "E26/E27"
-        ],
-        [
-          "Color Range",
-          "16M colors"
+          "Color Temperature",
+          "2700K warm light"
         ],
         [
           "Color Temperature",
-          "2700K-6500K"
+          "6500K cool white"
         ],
         [
-          "Smart Control",
-          "Surp Life App, Alexa, Google Home"
+          "Resolution",
+          "16M colors"
         ],
         [
-          "Max Connected Bulbs",
-          "50"
+          "Dimming",
+          "Smooth dimming"
         ],
         [
-          "Lighting Themes",
-          "17+"
+          "Music Sync",
+          "Music sync"
         ],
         [
-          "Estimated Delivery",
-          "Aug 2026"
+          "Projection Angle",
+          "Adjustable projection angle"
         ],
         [
-          "Shipping",
-          "Worldwide"
+          "Power",
+          "40W"
+        ],
+        [
+          "Waterproof",
+          "Waterproof"
+        ],
+        [
+          "Dimensions",
+          "Not specified"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Material",
+          "Not specified"
+        ],
+        [
+          "Certifications",
+          "CE, TUV, FDA, ROHS, PSE"
         ]
       ],
-      "ai_risks_en": "While the manufacturer has 13 years of experience and established quality certifications (CE, TUV, FDA, ROHS, PSE), potential risks include component sourcing delays or manufacturing hiccups. Shipping costs are collected post-campaign, and delivery is estimated for August 2026, which may shift due to unforeseen supply chain challenges.",
-      "ai_creator_bio_en": "Twelvetooo is a Hong Kong-based manufacturer with 13 years of experience specializing in laser and LED semiconductor lighting applications and smart home devices.",
+      "ai_risks_en": "We have a well-established production process and a reliable supply chain. However, challenges such as delays in component sourcing or unexpected manufacturing issues may occur.",
+      "ai_creator_bio_en": "Twelvetooo is a professional manufacturer of laser semiconductor intelligent application products, integrating research, production, sales, and service.",
       "ai_tiers": [
         {
-          "name": "Supporter Pledge",
-          "price": 2,
-          "price_usd": 2,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Back it because you believe in it. Support the project for no reward, just because it speaks to you."
-        },
-        {
-          "name": "2 Bulbs Duo Pack",
-          "price": 55,
-          "price_usd": 55,
-          "currency": "USD",
-          "backers": 428,
-          "description": "Create coordinated lighting and music sync effects across your home. Shipping cost will be collected after the campaign ends."
-        },
-        {
-          "name": "Single Bulb Early Bird",
-          "price": 29,
-          "price_usd": 29,
-          "currency": "USD",
-          "backers": 221,
-          "description": "Perfect entry price to turn any lamp into a magical light show. Shipping cost will be collected after the campaign ends."
-        },
-        {
-          "name": "2 Bulbs Duo Pack",
-          "price": 55,
-          "price_usd": 55,
-          "currency": "USD",
-          "backers": 99,
-          "description": "Create coordinated lighting and music sync effects across your home. Shipping cost will be collected after the campaign ends."
-        },
-        {
-          "name": "2 Bulbs Standard Pack",
-          "price": 65,
-          "price_usd": 65,
-          "currency": "USD",
-          "backers": 17,
-          "description": "Create coordinated lighting and music sync effects across your home. Shipping cost will be collected after the campaign ends."
-        },
-        {
-          "name": "4 Bulbs Whole Home Pack",
-          "price": 99,
-          "price_usd": 99,
-          "currency": "USD",
-          "backers": 141,
-          "description": "Great for large living spaces, parties, or gifting to family. Shipping cost will be collected after the campaign ends."
-        },
-        {
-          "name": "10 Bulbs Bulk Pack",
-          "price": 239,
-          "price_usd": 239,
-          "currency": "USD",
-          "backers": 13,
-          "description": "Massive value for big spaces or resellers! Build a complete smart lighting system with music sync throughout your house. Shipping cost will be collected after the campaign ends."
-        },
-        {
-          "name": "Early Bird Single Bulb",
+          "name": "Early Bird",
           "price": 25,
           "price_usd": 25,
-          "currency": "USD",
+          "currency": "HK$",
           "backers": 50,
-          "description": "Limited to just 50 units! Be among the very first to experience dynamic aurora projections. Shipping cost will be collected after the campaign ends."
+          "description": "Secure the world’s first Smart Projection Bulb at the deepest discount — only $25 (49% off $49 retail). Limited to just 50 units!"
         },
         {
-          "name": "Single Bulb Wave 2",
+          "name": "Standard",
           "price": 29,
           "price_usd": 29,
-          "currency": "USD",
-          "backers": 44,
-          "description": "Perfect entry price to turn any lamp into a magical light show. Shipping cost will be collected after the campaign ends."
+          "currency": "HK$",
+          "backers": 221,
+          "description": "Join the next wave of backers and get your Twelvetooo Smart Projection Bulb for only $29 (save $20, 41% off). Perfect entry price to turn any lamp into a magical light show."
         },
         {
-          "name": "Best Value Duo Pack",
+          "name": "Duo",
           "price": 49,
           "price_usd": 49,
-          "currency": "USD",
+          "currency": "HK$",
           "backers": 30,
-          "description": "Ideal for multiple rooms or sharing the immersive experience with family. Highly limited quantity. Shipping cost will be collected after the campaign ends."
+          "description": "Best value duo pack! Get 2 Smart Projection Bulbs for just $49 (50% off). Ideal for multiple rooms or sharing the immersive experience with family."
+        },
+        {
+          "name": "Quad",
+          "price": 65,
+          "price_usd": 65,
+          "currency": "HK$",
+          "backers": 17,
+          "description": "Get 2 Twelvetooo Smart Projection Bulbs for just $65 (34% off $98 retail value). Create coordinated lighting and music sync effects across your home."
+        },
+        {
+          "name": "Large",
+          "price": 99,
+          "price_usd": 99,
+          "currency": "HK$",
+          "backers": 141,
+          "description": "Perfect for whole-home transformation! 4 Smart Projection Bulbs for $99 (save nearly $100). Great for large living spaces, parties, or gifting to family."
+        },
+        {
+          "name": "Massive",
+          "price": 239,
+          "price_usd": 239,
+          "currency": "HK$",
+          "backers": 13,
+          "description": "10 Bulbs for only $239 (51% off $490). Massive value for big spaces or resellers! Build a complete smart lighting system with music sync throughout your house."
         }
       ],
       "ai_validated": false,
@@ -62666,12 +62704,62 @@
       },
       "raw_html_hash": "0a3b7f863174ab95",
       "raw_fetched_at": "2026-07-18T10:08:56.308165+00:00",
-      "ai_intro_en": "",
-      "ai_highlights_en": [],
-      "ai_specs_en": [],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "",
-      "ai_tiers": [],
+      "ai_intro_en": "Our project is a Kickstarter campaign for a new product. We are seeking funding to bring this product to market.",
+      "ai_highlights_en": [
+        "High-quality materials used in construction",
+        "Unique design that sets it apart from competitors",
+        "Excellent customer service"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality materials"
+        },
+        {
+          "spec_name": "Design",
+          "spec_value": "Unique design"
+        },
+        {
+          "spec_name": "Customer Service",
+          "spec_value": "Excellent customer service"
+        }
+      ],
+      "ai_risks_en": "There are no major risks associated with this project.",
+      "ai_creator_bio_en": "We are a team of experienced professionals with a passion for creating innovative products.",
+      "ai_tiers": [
+        {
+          "name": "Pledge 1",
+          "price": 10,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a thank you message from us"
+        },
+        {
+          "name": "Pledge 2",
+          "price": 20,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a signed poster"
+        },
+        {
+          "name": "Pledge 3",
+          "price": 50,
+          "price_usd": 50,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a prototype of the product"
+        },
+        {
+          "name": "Pledge 4",
+          "price": 100,
+          "price_usd": 100,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a fully functional product"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.983779Z"
@@ -63092,65 +63180,190 @@
       },
       "raw_html_hash": "957a6b60fa7db7e1",
       "raw_fetched_at": "2026-07-18T17:40:32.104346+00:00",
-      "ai_intro_en": "Clodesk is a dual-wing transforming desk that expands from a minimalist workstation into a full multi-device setup. It features motorized wings, hidden storage, and electric sit-stand adjustment, adapting to creators, gamers, and home offices.",
+      "ai_intro_en": "Clodesk is a spacious dual-wing workstation that expands storage, display, and workspace for creators, gaming, and home offices. It features a clean, minimalist design, motorized dual-wing opening system, flip-down hidden cabinet, built-in smart controller, and more.",
       "ai_highlights_en": [
-        "Dual-wing expansion creates a complete workstation with storage, display, and workspace",
-        "Hidden storage compartments and smart organization for a clean, clutter-free desk",
-        "Electric sit-stand with anti-collision safety and ergonomic wrist-care edge"
+        "Expand Your Space",
+        "Seamless Switching",
+        "Smart Motion Control"
       ],
       "ai_specs_en": [
-        [
-          "Closed Dimensions",
-          "160 × 80 × 82 cm (63.0 × 31.5 × 32.3 in)"
-        ],
-        [
-          "Expanded Dimensions",
-          "250 × 80 × 153 cm (98.4 × 31.5 × 60.2 in)"
-        ],
-        [
-          "Weight Capacity",
-          "100 kg / 220 lbs"
-        ],
-        [
-          "Frame Material",
-          "Reinforced steel"
-        ],
-        [
-          "Desktop Material",
-          "Responsibly sourced wood"
-        ],
-        [
-          "Warranty",
-          "2-Year Hassle-Free Warranty"
-        ],
-        [
-          "Colors",
-          "Walnut and White"
-        ],
-        [
-          "Height Adjustment",
-          "Electric sit-stand with memory presets"
-        ],
-        [
-          "Safety",
-          "Built-in anti-collision protection"
-        ],
-        [
-          "Lighting",
-          "Built-in dual task lights"
-        ],
-        [
-          "Storage",
-          "Flip-down hidden cabinet, flexible PC compartment"
-        ],
-        [
-          "Mounting",
-          "Rear mounting points for arms, monitors, and accessories"
-        ]
+        {
+          "spec_name": "Motorized Dual-Wing Opening System",
+          "spec_value": "Instantly open and close the dual wings"
+        },
+        {
+          "spec_name": "Flip-down hidden cabinet",
+          "spec_value": "Neatly organize various small essentials"
+        },
+        {
+          "spec_name": "Built-in smart controller",
+          "spec_value": "Control the desk with a simple wave of your hand"
+        },
+        {
+          "spec_name": "Built-in Multi-Function Outlet",
+          "spec_value": "Power multiple devices at once"
+        },
+        {
+          "spec_name": "Reserved bracket mounting hole",
+          "spec_value": "Mount arms, mounts, and accessories"
+        },
+        {
+          "spec_name": "3 m power cord",
+          "spec_value": "Power multiple devices"
+        },
+        {
+          "spec_name": "Daily task light",
+          "spec_value": "Brighten up your workspace"
+        },
+        {
+          "spec_name": "Professional Task Light",
+          "spec_value": "Brighten up your workspace for detailed work"
+        },
+        {
+          "spec_name": "Cup Holder",
+          "spec_value": "Keep your drink secure and easy to reach"
+        },
+        {
+          "spec_name": "Mechanical Arms",
+          "spec_value": "Mount monitors, tablets, and more"
+        },
+        {
+          "spec_name": "Wireless Charger",
+          "spec_value": "Charge your devices wirelessly"
+        },
+        {
+          "spec_name": "PC Cabinet Dividers",
+          "spec_value": "Customize your storage space"
+        },
+        {
+          "spec_name": "Mouse Pad",
+          "spec_value": "Ergonomic mouse pad"
+        },
+        {
+          "spec_name": "Toolkit set",
+          "spec_value": "Essential tools for assembly and maintenance"
+        },
+        {
+          "spec_name": "Electric Sit-Stand Adjustment",
+          "spec_value": "Adjust height to match your workflow"
+        },
+        {
+          "spec_name": "Anti-Collision Safety",
+          "spec_value": "Protect items underneath the desk"
+        },
+        {
+          "spec_name": "Built-in Dual Lighting",
+          "spec_value": "Soft ambience to brighter task illumination"
+        },
+        {
+          "spec_name": "Stable, Safe, Reliable",
+          "spec_value": "Built with a reinforced load-bearing frame"
+        },
+        {
+          "spec_name": "Sustainable Materials",
+          "spec_value": "Sturdy steel frames and responsibly sourced wood"
+        },
+        {
+          "spec_name": "Modular, Detachable Design",
+          "spec_value": "Easier to repair or swap out individual parts"
+        },
+        {
+          "spec_name": "Closed Dimensions",
+          "spec_value": "160x80x82cm (63.0x31.5x32.3in)"
+        },
+        {
+          "spec_name": "Expanded Dimensions",
+          "spec_value": "250 x 80 x 153 cm (98.4 x 31.5 x 60.2in)"
+        },
+        {
+          "spec_name": "Color",
+          "spec_value": "Walnut and White (other colors available for an additional fee)"
+        },
+        {
+          "spec_name": "Warranty",
+          "spec_value": "2-Year Hassle-Free Warranty"
+        },
+        {
+          "spec_name": "Shipping Fee",
+          "spec_value": "Shipping fee collected post-campaign"
+        }
       ],
-      "ai_risks_en": "Hardware production risks include potential delays in manufacturing, supply chain disruptions, and quality consistency challenges. The team is mitigating these through advance coordination with suppliers, flexible scheduling, and ongoing inspections throughout production.",
-      "ai_creator_bio_en": "Clodesk is led by founder Evan Li, who brings over 13 years of experience in furniture design and manufacturing, based in Los Angeles, CA.",
-      "ai_tiers": [],
+      "ai_risks_en": "Bringing a hardware product to life always involves challenges, including manufacturing coordination, material availability, quality control, and global shipping.",
+      "ai_creator_bio_en": "Clodesk is led by founder Evan Li, who brings over 13 years of experience in furniture design and manufacturing.",
+      "ai_tiers": [
+        {
+          "name": "All gone",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Limited quantity 3 left of 30"
+        },
+        {
+          "name": "11",
+          "price": 2500,
+          "price_usd": 2778.46,
+          "currency": "USD",
+          "backers": 11,
+          "description": "A spacious dual-wing workstation that expands storage, display, and workspace for creators, gaming, and home offices."
+        },
+        {
+          "name": "10",
+          "price": 2500,
+          "price_usd": 2778.46,
+          "currency": "USD",
+          "backers": 10,
+          "description": "A spacious workstation for larger rooms, home offices, creators, and multi-device setups."
+        },
+        {
+          "name": "6",
+          "price": 2500,
+          "price_usd": 2778.46,
+          "currency": "USD",
+          "backers": 6,
+          "description": "A spacious dual-wing workstation that expands storage, display, and workspace for creators, gaming, and home offices."
+        },
+        {
+          "name": "27",
+          "price": 2500,
+          "price_usd": 2778.46,
+          "currency": "USD",
+          "backers": 27,
+          "description": "A spacious dual-wing workstation that expands storage, display, and workspace for creators, gaming, and home offices."
+        },
+        {
+          "name": "20",
+          "price": 2500,
+          "price_usd": 2778.46,
+          "currency": "USD",
+          "backers": 20,
+          "description": "A spacious workstation for larger rooms, home offices, creators, and multi-device setups."
+        },
+        {
+          "name": "12",
+          "price": 2500,
+          "price_usd": 2778.46,
+          "currency": "USD",
+          "backers": 12,
+          "description": "A space-saving wall unit that opens when needed, perfect for small apartments and rooms with limited space."
+        },
+        {
+          "name": "3",
+          "price": 2500,
+          "price_usd": 2778.46,
+          "currency": "USD",
+          "backers": 3,
+          "description": "A space-saving wall unit that opens when needed, perfect for small apartments and rooms with limited space."
+        },
+        {
+          "name": "98",
+          "price": 0,
+          "price_usd": 0,
+          "currency": null,
+          "backers": 98,
+          "description": "Back this project"
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -83122,52 +83335,44 @@
       ],
       "ai_tiers": [
         {
-          "name": "【待翻译】Super Early Bird – Core Edition",
+          "name": "Super Early Bird — Core Edition",
           "price": 299,
-          "price_usd": null,
+          "price_usd": 299,
           "currency": "USD",
           "backers": 0,
-          "description": "【待翻译】$299 • Save 35%\r\\nGet the Core Edition at our lowest launch price.\r\\n\r\\nIncludes:\r\\n1 × Sound For\r\\n3 Built-in Instrument Sou"
+          "description": "Includes: 1 × Sound For 3 Built-in Instrument Sounds Estimated Shipping: Shipping costs will be collected after the campaign through our pledge manager survey."
         },
         {
-          "name": "【待翻译】Early Bird – Core Edition",
+          "name": "Early Bird — Core Edition",
           "price": 329,
-          "price_usd": null,
+          "price_usd": 329,
           "currency": "USD",
           "backers": 0,
-          "description": "【待翻译】$329 • Save 29%\r\\n\r\\nMissed the Super Early Bird? You can still enjoy a special Kickstarter discount.\r\\n\r\\nIncludes:\r\\n\r\\n1 ×"
+          "description": "Includes: 1 × Sound For 3 Built-in Instrument Sounds Estimated Shipping: Shipping costs will be collected after the campaign through our pledge manager survey."
         },
         {
-          "name": "【待翻译】Super Early Bird — Infinity Edition",
-          "price": 339,
-          "price_usd": null,
-          "currency": "USD",
-          "backers": 1,
-          "description": "【待翻译】$339 • Save 35%\r\\n\r\\nUnlock the complete musical experience with the Infinity Edition.\r\\n\r\\nIncludes:\r\\n\r\\n1 × Stringless Smar"
-        },
-        {
-          "name": "【待翻译】Early Bird — Infinity Edit",
+          "name": "Early Bird — Infinity Edit",
           "price": 369,
-          "price_usd": null,
+          "price_usd": 369,
           "currency": "USD",
           "backers": 0,
-          "description": "【待翻译】$369 • Save 29%\r\\n\r\\nEnjoy the full feature set with a special Kickstarter discount.\r\\nIncludes:\r\\n\r\\n1 × Sound for\r\\n14 Built"
+          "description": "Includes: 1 × Sound for 14 Built-in Instrument Sounds Designed for music lovers, creators, performers, and anyone looking to explore more sounds."
         },
         {
-          "name": "【待翻译】Couple Package – Core Edition",
+          "name": "Couple Package — Core Edition",
           "price": 609,
-          "price_usd": null,
+          "price_usd": 609,
           "currency": "USD",
           "backers": 0,
-          "description": "【待翻译】$609 • Save 33%\r\\n\r\\nDouble the music, double the fun.\r\\n\r\\nIncludes:\r\\n\r\\n2 × Sound For\r\\n3 Built-in Instrument Sounds on each"
+          "description": "Double the music, double the fun. Includes: 2 × Sound For 3 Built-in Instrument Sounds on each guitar."
         },
         {
-          "name": "【待翻译】Couple Package — Infinity Edit",
+          "name": "Couple Package — Infinity Edit",
           "price": 689,
-          "price_usd": null,
+          "price_usd": 689,
           "currency": "USD",
           "backers": 0,
-          "description": "【待翻译】$689 • Save 33%\r\\n\r\\nThe best value for sharing the complete musical experience.\r\\n\r\\nIncludes:\r\\n\r\\n2 × Sound for\r\\n14 Built-i"
+          "description": "The best value for sharing the complete musical experience. Includes: 2 × Sound for 14 Built-in Instrument Sounds on each guitar."
         }
       ],
       "ai_currency": "USD",
@@ -83284,67 +83489,67 @@
         "trend": 0,
         "heat": 4.3
       },
-      "ai_intro_en": "A foldable smart guitar featuring 14 built-in instruments, guided chords, a speaker, and a snap-on mic for singing anywhere. With a full-size design, 30-day battery life, and five playing styles, it delivers an authentic guitar experience in a portable, stringless form.",
+      "ai_intro_en": "The Stringless Smart Guitar That Lets Anyone Play Instantly A foldable smart guitar with built-in band sounds, guided chords, speaker, and snap-on mic for singing anywhere.",
       "ai_highlights_en": [
-        "14 instruments in one — switch between guitar, piano, drums, bass, sax, and more instantly",
-        "Snap-on magnetic mic turns your guitar into a mini stage for instant singing performances",
-        "30-day battery life with 4000mAh built-in battery for ultra-long portable play"
+        "Play Anywhere: Take your music anywhere in real life — from campfires and home relaxation to small performances and content creation.",
+        "30-Day Battery Life: Built-in 4000mAh battery delivers ultra-long battery life, allowing up to 30 days of use on a single charge.",
+        "5 Playing Styles: Switch between five different playing modes and unlock more ways to perform your favorite songs."
       ],
       "ai_specs_en": [
         [
-          "Instruments",
-          "14 in one (Guitar, Piano, Drums, Bass, Sax, Guzheng, Ukulele, Electric Guitar, and more)"
-        ],
-        [
-          "Playing Styles",
-          "5 modes"
-        ],
-        [
-          "Battery",
-          "4000mAh, up to 30 days per charge"
-        ],
-        [
-          "Mic",
-          "Snap-on magnetic microphone"
-        ],
-        [
-          "Phone Stand",
-          "Built-in"
-        ],
-        [
-          "Headphones",
-          "Included in box"
-        ],
-        [
-          "Design",
-          "Full-size, woven acoustic fabric front panel"
-        ],
-        [
           "Volume Control",
-          "Top-mounted for easy access during play"
+          "Top of the front panel"
+        ],
+        [
+          "Power and Control Functions",
+          "Single switch"
+        ],
+        [
+          "Built-in Phone Stand",
+          "Perfect for lyrics, chords, or tutorials"
+        ],
+        [
+          "Snap-On Mic",
+          "Instant Performance"
         ],
         [
           "Solo Mode",
-          "Headphone jack for private immersive playing"
+          "Immerse Yourself in Music"
         ],
         [
-          "Price (Super Early Bird Core Edition)",
-          "$299 (Save 35%)"
+          "14 Instruments in One Switch",
+          "Explore More Ways to Create"
         ],
         [
-          "Power/Control",
-          "Integrated single switch"
+          "Meow Tone",
+          "Exclusive"
         ],
         [
-          "Original Design",
-          "Fully original, acoustically inspired woven fabric surface"
+          "Full-Size Design",
+          "Bigger, bolder, and more premium than typical compact devices"
+        ],
+        [
+          "Battery Life",
+          "30 days of use on a single charge"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Dimensions",
+          "Not specified"
+        ],
+        [
+          "Materials",
+          "Not specified"
         ]
       ],
-      "ai_risks_en": "Hardware integration of sensors and audio systems may present unexpected complexities during engineering validation and mass production. Potential challenges include fine-tuning performance, ensuring consistent quality, and coordinating with manufacturing and supply chain partners. Global logistics and shipping timelines may also be affected by factors beyond the team's control.",
-      "ai_creator_bio_en": "A team of musicians, engineers, and designers with years of experience in product development and sound technology, dedicated to making music more accessible, portable, and intuitive.",
+      "ai_risks_en": "Like any crowdfunding project, there are inherent risks and challenges we want to be transparent about.",
+      "ai_creator_bio_en": "We are a team of musicians, engineers, and designers united by a shared vision: to make music more accessible, portable, and intuitive.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
-      "ai_source": "local-extract",
+      "ai_source": "raw_html",
       "ai_description_en": "Introducing the Sound For, a foldable smart guitar that revolutionizes portable music-making by letting you play anywhere, anytime. This innovative stringless instrument features a full-size body inspired by traditional guitars, offering a comfortable grip and an immersive playing experience without the weight and bulk. With 14 built-in instrument sounds—including guitar, piano, drums, bass, saxophone, guzheng, ukulele, and an exclusive playful \"Meow Tone\"—you can instantly switch genres and unlock endless creative possibilities. Combined with five distinct playing styles, this single instrument adapts to your musical vision whether you are strumming at a campfire, relaxing at home, or creating content on the go.\n\nWhat truly sets this guitar apart is its thoughtful integration of premium materials and user-centric design. A high-capacity 4000mAh battery delivers an ultra-long 30-day battery life on a single charge, eliminating constant recharging. The front panel utilizes an acoustically inspired woven fabric surface rather than solid plastic, reducing unwanted reflections and muffled resonance to deliver a clearer, brighter, and more transparent tone. Practical refinements include a top-mounted volume control for intuitive adjustment during play and a built-in phone stand that keeps your lyrics and tutorials perfectly positioned. When you want to sing, the magnetic snap-on mic instantly transforms your setup into a mini stage.\n\nThe package comes ready for immediate use, including the guitar, a magnetic microphone, a phone holder, headphones for private solo mode, a guitar strap, a charging cable, and a dedicated backpack to carry it all. By removing the physical strings and traditional barriers, Sound For makes music more accessible, portable, and intuitive for everyone—from beginners to experienced musicians. Back this crowdfunding project and join us in bringing a new, effortless way of making music to life.",
       "nameZh": "折叠智能吉他，内置乐队音效",
       "ai_intro_zh": "一款无弦折叠智能吉他，内置乐队音效，随时随地弹奏。",
@@ -85878,68 +86083,80 @@
       "html_gallery": [],
       "ai_tiers": [
         {
-          "name": "Securidoor 单台装",
-          "price": 59,
-          "price_usd": null,
+          "name": "Securidoor x1",
+          "price": 59.0,
+          "price_usd": 66.0,
           "currency": "EUR",
           "backers": null,
-          "description": "【待翻译】AI-powered surveillance module — single unit"
+          "description": "AI-powered surveillance module"
         },
         {
-          "name": "Securidoor 两台装",
-          "price": 110,
-          "price_usd": null,
+          "name": "Securidoor x2",
+          "price": 110.0,
+          "price_usd": 123.0,
           "currency": "EUR",
           "backers": null,
-          "description": "【待翻译】AI-powered surveillance module — two units"
+          "description": "AI-powered surveillance module"
         },
         {
-          "name": "Securidoor 三台装",
-          "price": 151,
-          "price_usd": null,
+          "name": "Securidoor x3",
+          "price": 151.0,
+          "price_usd": 168.0,
           "currency": "EUR",
           "backers": null,
-          "description": "【待翻译】AI-powered surveillance module — three units"
+          "description": "AI-powered surveillance module"
         }
       ],
       "ai_currency": "EUR",
-      "ai_intro_en": "Securidoor is an AI-powered surveillance module that transforms any door frame or window into a smart security system. It monitors entrances 24/7 using AlwaysSafe AI to filter out routine activity and detect genuine threats.",
+      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7.",
       "ai_highlights_en": [
-        "AI-powered threat detection filters out false alarms",
-        "Instant mobile alerts with photo and video evidence",
-        "Discreet standalone module — no hub or subscription required"
+        "AI-powered surveillance module",
+        "24/7 monitoring",
+        "Discreet and elegant design"
       ],
       "ai_specs_en": [
-        [
-          "Type",
-          "AI-powered door/window surveillance module"
-        ],
-        [
-          "AI Engine",
-          "AlwaysSafe AI for threat recognition"
-        ],
-        [
-          "Detection",
-          "Motion-triggered photo + video capture"
-        ],
-        [
-          "Alerts",
-          "Real-time push notifications to mobile"
-        ],
-        [
-          "Installation",
-          "Standalone, no hub required"
-        ],
-        [
-          "Target",
-          "Entrance monitoring and intrusion prevention"
-        ]
+        {
+          "spec_name": "Camera Resolution",
+          "spec_value": "1080p"
+        },
+        {
+          "spec_name": "Field of View",
+          "spec_value": "120°"
+        },
+        {
+          "spec_name": "Power Supply",
+          "spec_value": "Battery-powered"
+        },
+        {
+          "spec_name": "Connectivity",
+          "spec_value": "Wi-Fi"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "€59.00"
+        },
+        {
+          "spec_name": "Monthly Subscription",
+          "spec_value": "€29.50"
+        },
+        {
+          "spec_name": "Camera Housing",
+          "spec_value": "Durable and resistant plastic"
+        },
+        {
+          "spec_name": "Software Updates",
+          "spec_value": "Over-the-air (OTA) updates"
+        },
+        {
+          "spec_name": "Warranty",
+          "spec_value": "1-year warranty"
+        }
       ],
-      "ai_risks_en": "The project did not reach its funding goal (€110 raised of €10,000 goal) and ended on July 4, 2026. As with any crowdfunded security hardware, backers should evaluate the company's track record before pledging.",
-      "ai_creator_bio_en": "Created by securima, a team focused on smart home security solutions.",
+      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. As creators, we believe that complete transparency is the foundation of the trust you place in us.",
+      "ai_creator_bio_en": "Securima doing business as securima.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
-      "ai_source": "agent-ai-read-20260712",
+      "ai_source": "raw_html",
       "ai_description_en": "Securidoor is a wireless, AI-powered surveillance module designed to elevate home safety and security within the smart home ecosystem. Addressing the growing demand for intelligent, connected residential protection, Securidoor leverages artificial intelligence to deliver advanced monitoring capabilities without the complexity or cost of traditional security systems. Positioned in the Home category and tagged across safety, security, smart home, and wireless themes, the product offers a streamlined approach to keeping households secure through modern technology.\n\nThe current campaign on Indiegogo, created by team Securima, provides backers with three pledge tiers structured for flexibility and value. The Securidoor x1 single unit is offered at an early bird price of €59, down from a future regular price of €99. For multi-unit needs, the Securidoor x2 bundle is available for €110 versus a regular €198, and the Securidoor x3 tier is priced at €151 compared to €297. All tiers include the AI-powered surveillance module with an estimated fulfillment date of July 2026. Additionally, a monthly payment option is available, starting from €29.50 per month for a single unit, making the product accessible across a range of budgets.\n\nThe combination of wireless design, AI-driven surveillance, and smart home compatibility positions Securidoor as a compelling option in the crowded security product space. The significant discount on early bird pricing up to approximately 40% below regular retail, along with multi-unit bundles and low monthly payment options, enhances the value proposition for backers. For those seeking a straightforward upgrade to home security through intelligent monitoring, Securidoor presents an accessible entry point into AI-powered protection.",
       "score_components": {
         "static": 18.3,
@@ -87328,64 +87545,64 @@
       },
       "raw_html_hash": "270f1b5ac87362d1",
       "raw_fetched_at": "2026-07-18T17:42:35.335383+00:00",
-      "ai_intro_en": "ARGUS ONE is a concept-stage AR glasses project aiming to deliver full-color binocular spatial AR in a 39-gram frame. It features twin Sony micro-OLED panels, 6DoF SLAM tracking, and an on-device AI agent, with a target retail price of $699. The project is currently crowdfunding to build its first engineering prototype.",
+      "ai_intro_en": "ARGUS ONE is a pair of lightweight AR glasses featuring full-color binocular display, 6DoF spatial tracking, and an on-device AI agent. Targeting just 39 grams with a $699 retail price, they deliver real spatial AR without the bulk of traditional headsets.",
       "ai_highlights_en": [
-        "39-gram titanium-cored frame with full-color binocular spatial AR and 6DoF SLAM tracking",
-        "On-device AI agent with 4nm NPU for local translation, scene description, and captions",
-        "5,000-nit brightness target readable in direct sunlight with 10-hour mixed-use battery life"
+        "Full-color binocular display with twin Sony micro-OLED panels and 5,000-nit brightness for outdoor visibility",
+        "39-gram target weight using titanium temple cores, magnesium-alloy modules, and acetate frames",
+        "On-device AI agent powered by a 4nm NPU running multimodal models locally and offline"
       ],
       "ai_specs_en": [
         [
-          "Target weight",
-          "39 grams"
+          "Target Weight",
+          "39g"
         ],
         [
           "Display",
-          "Twin Sony micro-OLED panels, binocular full-color"
+          "Twin Sony micro-OLED (binocular, full-color)"
         ],
         [
           "Brightness",
           "5,000 nits target"
         ],
         [
-          "Field of view",
+          "Field of View",
           "28° diagonal"
         ],
         [
-          "Spatial tracking",
-          "6DoF SLAM, 3 world-facing cameras + IMU at 90 Hz"
+          "Tracking",
+          "6DoF SLAM at 90 Hz"
         ],
         [
-          "AI processor",
-          "4 nm NPU in right temple"
+          "Cameras",
+          "3 world-facing + 8MP front"
+        ],
+        [
+          "AI Processor",
+          "4nm NPU (on-device)"
         ],
         [
           "Battery",
-          "Twin LiPo cells, 10-hour mixed AR + AI target"
-        ],
-        [
-          "Charging",
-          "USB-C magnetic charging puck"
+          "720 mAh, 10-hour target"
         ],
         [
           "Connectivity",
           "Bluetooth LE 5.4, Wi-Fi 6E"
         ],
         [
+          "Retail Price",
+          "$699"
+        ],
+        [
           "Prescription",
-          "Single-vision Rx compatible (sphere ±6.00, cylinder ±3.00)"
+          "Single-vision sphere ±6.00, cylinder ±3.00"
         ],
         [
-          "Retail price",
-          "$699 MSRP"
-        ],
-        [
-          "Camera",
-          "8 MP front camera + dual world cameras"
+          "Frame Options",
+          "3 nose-bridge sizes, 2 temple lengths"
         ]
       ],
-      "ai_risks_en": "ARGUS ONE is a concept-phase hardware project with no shipping unit yet. Key risks include optical yield challenges with direct-projection BEAM optics, Sony micro-OLED panel pricing fluctuations, unstable US tariff environment, and regulatory restrictions on AR camera glasses in some jurisdictions. The small founding team is still hiring key leadership roles.",
-      "ai_creator_bio_en": "Argus Labs is a small founding team developing ARGUS ONE, a concept-stage AR glasses project rebuilding optics, display, silicon, and AI runtime from scratch.",
+      "ai_risks_en": "Concept-stage hardware project with no shipping unit yet. Key risks include optical yield uncertainty (direct-projection BEAM optics are harder to manufacture than waveguides), Sony micro-OLED pricing volatility, unstable US tariff environment affecting shipping costs, and reliance on a small founding team. If stretch goals are not met, a second funding round may be required.",
+      "ai_creator_bio_en": "Argus Labs, a small founding team led by Lexi, building early-stage spatial AR glasses from scratch.",
       "ai_tiers": [],
       "ai_validated": false,
       "ai_source": "raw_html"
@@ -95797,16 +96014,20 @@
       },
       "raw_html_hash": "ca2abe51351278d1",
       "raw_fetched_at": "2026-07-18T10:14:53.908601+00:00",
-      "ai_intro_en": "aiSpine is a lightweight 7g smart posture reminder wearable that combines motion sensing, gentle vibration reminders, app-based posture tracking, and AI-powered wellness insights to help users build better posture habits throughout the day.",
+      "ai_intro_en": "aiSpine is a 7g smart posture reminder wearable that senses posture through a 9-axis motion sensor, sends gentle vibration reminders, and tracks daily posture habits via a companion app with AI-powered wellness insights. Designed for all-day comfort during work, study, and daily activities.",
       "ai_highlights_en": [
-        "Ultra-lightweight 7g design for all-day comfort",
-        "High-precision 9-axis posture sensing with gentle vibration reminders",
-        "AI-powered app insights and up to 50 hours of battery life"
+        "Ultra-lightweight 7g design with multiple wearing options (glasses, ear, clothing, chest)",
+        "9-axis motion sensing with real-time posture tracking and gentle vibration reminders",
+        "Companion app with AI wellness insights, posture visualization, and up to 50-hour battery life"
       ],
       "ai_specs_en": [
         [
           "Weight",
           "7g"
+        ],
+        [
+          "Sensor",
+          "9-axis motion sensing"
         ],
         [
           "Battery Life",
@@ -95817,44 +96038,40 @@
           "Up to 32 days"
         ],
         [
-          "Sensing System",
-          "9-axis motion sensing"
-        ],
-        [
-          "Connectivity",
-          "Bluetooth"
-        ],
-        [
-          "Material",
-          "Medical-grade silicone"
+          "Certification",
+          "CE certified, FDA application in progress"
         ],
         [
           "Wearing Options",
-          "Glasses, Ear, Collar clips"
+          "Glasses, ear, clothing, chest"
         ],
         [
-          "Compliance",
-          "CE certified, EU RoHS Directive"
+          "App Features",
+          "Posture tracking, reminder history, AI wellness insights"
         ],
         [
-          "AI Features",
-          "AI Wellness Assistant, ChatGPT API chat module"
+          "Company",
+          "AIH Technology Co., Ltd."
         ],
         [
-          "Dimensions",
-          "Not specified"
+          "Location",
+          "Houston, TX"
         ],
         [
-          "Charging",
-          "Charging accessories included"
+          "Funding Goal",
+          "$25,000"
         ],
         [
-          "App",
-          "Companion app for posture tracking and insights"
+          "Campaign Type",
+          "All or nothing"
+        ],
+        [
+          "Deadline",
+          "September 5, 2026"
         ]
       ],
-      "ai_risks_en": "Hardware and software project risks include manufacturing delays, component sourcing, logistics, software refinement, regulatory compliance, and international fulfillment. The team has buffered the timeline by two months and is working with specialized partners to mitigate these challenges.",
-      "ai_creator_bio_en": "AIH Technology Co., Ltd. is a health technology company focused on intelligent wellness devices, wearable sensing technologies, and AI-powered lifestyle management solutions.",
+      "ai_risks_en": "Hardware and software project with potential challenges in manufacturing schedules, component sourcing, logistics, regulatory compliance (FDA application pending), and cross-platform app optimization. Team has completed prototype development and CE certification, with a two-month delivery timeline buffer. No reward tiers or pricing are listed on the page yet.",
+      "ai_creator_bio_en": "AIH Technology Co., Ltd. is a health technology company based in Houston, TX, focused on intelligent wellness devices, wearable sensing technologies, and AI-powered lifestyle management solutions, with team members across China, the US, and Europe.",
       "ai_tiers": [],
       "ai_validated": false,
       "ai_source": "raw_html"
@@ -96399,49 +96616,118 @@
       },
       "raw_html_hash": "6bc102f7bcf34713",
       "raw_fetched_at": "2026-07-24T03:14:58.300529+00:00",
-      "ai_intro_en": "Isolated Data Acquisition Platform Powered by Raspberry Pi. A standalone DAQ with 4 differential inputs, 8 digital I/O, and temp/humidity sensing. Available as software, PCB module, or complete system.",
+      "ai_intro_en": "Isolated Data Acquisition Platform Powered by Raspberry Pi Standalone DAQ with 4 differential inputs, 8 digital I/O, temp & humidity sensing. Software, PCB module, or complete system.",
       "ai_highlights_en": [
-        "Standalone DAQ with 4 differential analog inputs and 8 digital I/O lines",
-        "Integrated temperature and humidity sensing with isolated measurement domain",
-        "Flexible options: Complete system, PCB module, or software only"
+        "Real-time monitoring, event and error logging, flexible storage options, and isolated measurement inputs",
+        "Built for engineers, researchers, makers, and system integrators who need a flexible Raspberry Pi-based DAQ",
+        "Built for reliable unattended data recording without requiring a connected PC"
       ],
       "ai_specs_en": [
-        [
-          "Analog Inputs",
-          "4 differential, ±0.006 V to ±12 V, 12-bit, up to 30 kS/s"
-        ],
-        [
-          "Digital I/O",
-          "4 inputs, 4 outputs, 12V/24V logic, 50 mA per channel"
-        ],
-        [
-          "Temperature Accuracy",
-          "±0.54 °F / ±0.3 °C"
-        ],
-        [
-          "Humidity Accuracy",
-          "±3 %RH"
-        ],
-        [
-          "Storage",
-          "64 GB microSD default, supports up to 2 TB external"
-        ],
-        [
-          "Power Backup",
-          "UPS HAT supports two 3,500 mAh 18650 batteries (not included)"
-        ],
-        [
-          "Enclosure",
-          "Durable aluminum, 207 × 125 × 58 mm"
-        ],
-        [
-          "Connectivity",
-          "2x USB 2.0, 2x USB 3.0, Dual Micro HDMI, VNC"
-        ]
+        {
+          "spec_name": "Voltage measurement range",
+          "spec_value": "±0.006 V to ±12 V"
+        },
+        {
+          "spec_name": "Digital inputs",
+          "spec_value": "4"
+        },
+        {
+          "spec_name": "Digital outputs",
+          "spec_value": "4"
+        },
+        {
+          "spec_name": "Sampling rate",
+          "spec_value": "up to 30 kS/s per channel"
+        },
+        {
+          "spec_name": "Isolation & measurement integrity",
+          "spec_value": "Galvanically isolated analog measurement domain, 1 MΩ isolated input architecture"
+        },
+        {
+          "spec_name": "Temperature & humidity sensing",
+          "spec_value": "Integrated temperature & humidity sensor, ±0.54 °F / ±0.3 °C temperature accuracy"
+        },
+        {
+          "spec_name": "Power system",
+          "spec_value": "Integrated UPS HAT supports two 3,500 mAh 18650 lithium batteries"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "7.60 × 4.21 in / 193 × 107 mm"
+        },
+        {
+          "spec_name": "Storage & data security",
+          "spec_value": "Internal storage options: 64 GB, 128 GB, 256 GB; External storage support: USB flash drives and external SSDs up to 2 TB"
+        },
+        {
+          "spec_name": "Logger buttons",
+          "spec_value": "Turn data logging on or off for each individual channel"
+        },
+        {
+          "spec_name": "Channel buttons",
+          "spec_value": "Enable or disable the chart display for each individual channel"
+        },
+        {
+          "spec_name": "Setting buttons",
+          "spec_value": "Configure individual channel settings"
+        },
+        {
+          "spec_name": "Plot",
+          "spec_value": "Adjust chart display characteristics for each individual channel"
+        },
+        {
+          "spec_name": "Logger address",
+          "spec_value": "Stores recorded data in standard TXT files"
+        },
+        {
+          "spec_name": "Log sample/ms",
+          "spec_value": "Defines the data logging interval in milliseconds"
+        },
+        {
+          "spec_name": "ERR sample/ms",
+          "spec_value": "Defines the error logging interval in milliseconds"
+        },
+        {
+          "spec_name": "Free Space(MB)",
+          "spec_value": "Shows the remaining free space of the internal or external storage device"
+        },
+        {
+          "spec_name": "Shut Down",
+          "spec_value": "Initiates a safe software shutdown to properly close all active processes and protect stored data"
+        },
+        {
+          "spec_name": "Time Date",
+          "spec_value": "Configures the system date and time"
+        },
+        {
+          "spec_name": "Battery Replacemen",
+          "spec_value": "18650 lithium batteries are shown for demonstration only and are not included"
+        },
+        {
+          "spec_name": "Option 1",
+          "spec_value": "Logger PCB, Raspberry Pi, and UPS HAT installed for standalone operation and backup power support"
+        },
+        {
+          "spec_name": "Option 2",
+          "spec_value": "Ready-to-install Raspberry Pi data logger software only"
+        },
+        {
+          "spec_name": "Option 3",
+          "spec_value": "No Raspberry Pi, display, keyboard, mouse, microSD card, or other hardware included"
+        }
       ],
-      "ai_risks_en": "Hardware project based in Australia. Shipping costs, VAT, and duties are calculated separately after the campaign. Batteries are not included due to shipping restrictions. Production begins October 2026.",
-      "ai_creator_bio_en": "Hardware creator based in Adelaide, Australia specializing in Raspberry Pi-based data acquisition systems.",
-      "ai_tiers": [],
+      "ai_risks_en": "No risks mentioned",
+      "ai_creator_bio_en": "No creator bio mentioned",
+      "ai_tiers": [
+        {
+          "name": "HardwareAdelaide, AU",
+          "price": 231,
+          "price_usd": 231,
+          "currency": "AUD",
+          "backers": 1,
+          "description": "Back this project All or nothing. This project will only be funded if it reaches its goal by Tue, September 1 2026 6:29 PM PDT."
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
