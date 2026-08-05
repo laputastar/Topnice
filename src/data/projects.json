@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T04:14:42.015251Z",
+  "updated_at": "2026-08-05T15:47:59.803320Z",
   "projects": [
     {
       "id": "ig-fat-iron-core",
@@ -262,9 +262,9 @@
       "image_thumb": "https://cdn.images.indiegogo.com/projectimage/projects/44051/0646877d-9b23-4d04-8e24-b9a5e4a98c5b.jpeg",
       "image_1024x576": "https://cdn.images.indiegogo.com/projectimage/projects/44051/0646877d-9b23-4d04-8e24-b9a5e4a98c5b.jpeg",
       "goal": 10000.0,
-      "pledged": 78515.0,
-      "backers_count": 358,
-      "percent_funded": 785.1,
+      "pledged": 91866.0,
+      "backers_count": 422,
+      "percent_funded": 918.7,
       "currency": "USD",
       "currency_symbol": "",
       "launched_at": "2026-08-04T13:00:00Z",
@@ -288,10 +288,10 @@
       "first_seen": "2026-08-04T14:48:41.159532Z",
       "needs_translation": true,
       "score_components": {
-        "static": 63.0,
+        "static": 63.3,
         "momentum": 0,
         "trend": 0,
-        "heat": 95.5
+        "heat": 96.2
       },
       "raw_html_hash": "e2ba6da8161f6664",
       "raw_fetched_at": "2026-08-04T14:49:02.635379+00:00",
@@ -744,7 +744,7 @@
         }
       ],
       "blurbZh": "全球最低调极简智能手表，助你重拾专注",
-      "ended_at": "2026-08-05T04:14:42.014490Z",
+      "ended_at": "2026-08-05T15:47:59.802518Z",
       "hardware_class": "hardware",
       "hw_type": "可穿戴硬件",
       "hw_reason": "Smartwatch wearable device."
@@ -1607,7 +1607,7 @@
       "name": "PHANTOM M³ — MAGNETIC MECHANICAL MASTERPIECE",
       "blurb": "Build, display, admire: a premium mechanical masterpiece with magnetic shells and a powered display base.",
       "slug": "m3-magnetic-mechanical-masterpiece",
-      "state": "live",
+      "state": "ended",
       "platform": "kickstarter",
       "category": "Product Design",
       "parent_category": "Design",
@@ -1851,7 +1851,8 @@
         }
       ],
       "ai_validated": true,
-      "ai_source": "raw_html"
+      "ai_source": "raw_html",
+      "ended_at": "2026-08-05T15:47:59.802532Z"
     },
     {
       "id": "ig-onexplayer-3-next-gen-3-in-1-ai-gaming-and-productivity-handheld",
@@ -2648,7 +2649,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electrolyzed water generating device with electronic components",
-      "ended_at": "2026-08-05T04:14:42.014502Z"
+      "ended_at": "2026-08-05T15:47:59.802537Z"
     },
     {
       "id": "ks-241123377",
@@ -2981,7 +2982,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electric ice maker with auto clean function",
-      "ended_at": "2026-08-05T04:14:42.014505Z"
+      "ended_at": "2026-08-05T15:47:59.802540Z"
     },
     {
       "id": "ks-1087170784",
@@ -3740,9 +3741,9 @@
           "pledged": 278229.0
         }
       ],
-      "score": 52,
+      "score": 51,
       "score_components": {
-        "static": 78.0,
+        "static": 76.2,
         "momentum": 31.1,
         "trend": 5,
         "heat": 93.2
@@ -4869,7 +4870,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014513Z"
+      "ended_at": "2026-08-05T15:47:59.802551Z"
     },
     {
       "id": "ks-741161919",
@@ -5089,7 +5090,7 @@
       "name": "Snowtix: The 240W Intelligent Smart Color Display USB4 Cable",
       "blurb": "Smart Color Display | USB4 v2.0 80Gbps Transfer | PD3.1 240W Charging | 16K@60Hz or Dual 8K@120Hz",
       "slug": "snowtix-intelligent-smart-color-display-usb4-80gbps-240w",
-      "state": "live",
+      "state": "ended",
       "platform": "kickstarter",
       "category": "Gadgets",
       "parent_category": "Technology",
@@ -5351,7 +5352,8 @@
         }
       ],
       "ai_validated": true,
-      "ai_source": "raw_html"
+      "ai_source": "raw_html",
+      "ended_at": "2026-08-05T15:47:59.802559Z"
     },
     {
       "id": "ig-gpdg2",
@@ -6202,7 +6204,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Smart lock with solar charging and electronic components",
-      "ended_at": "2026-08-05T04:14:42.014522Z"
+      "ended_at": "2026-08-05T15:47:59.802564Z"
     },
     {
       "id": "ks-342966553",
@@ -6877,7 +6879,7 @@
       "hardware_class": "hardware",
       "hw_type": "AI硬件",
       "hw_reason": "AI-native KVM hardware with AI agent empowerment",
-      "ended_at": "2026-08-05T04:14:42.014527Z"
+      "ended_at": "2026-08-05T15:47:59.802570Z"
     },
     {
       "id": "ks-1542195646",
@@ -7857,7 +7859,7 @@
         }
       ],
       "blurbZh": "三合一阅读配件：书灯、书页固定器和书签",
-      "ended_at": "2026-08-05T04:14:42.014532Z",
+      "ended_at": "2026-08-05T15:47:59.802575Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic book light with LED components."
@@ -8208,7 +8210,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic wireless pet barrier system",
-      "ended_at": "2026-08-05T04:14:42.014536Z"
+      "ended_at": "2026-08-05T15:47:59.802579Z"
     },
     {
       "id": "ks-222296081",
@@ -8689,7 +8691,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014540Z"
+      "ended_at": "2026-08-05T15:47:59.802584Z"
     },
     {
       "id": "ks-1297508518",
@@ -9198,7 +9200,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic portable air blower with wireless charging and motor",
-      "ended_at": "2026-08-05T04:14:42.014544Z"
+      "ended_at": "2026-08-05T15:47:59.802588Z"
     },
     {
       "id": "ks-750302700",
@@ -9756,7 +9758,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "High-speed electronic cable with 80Gbps and 240W power delivery",
-      "ended_at": "2026-08-05T04:14:42.014547Z"
+      "ended_at": "2026-08-05T15:47:59.802593Z"
     },
     {
       "id": "ks-2018380342",
@@ -10072,7 +10074,7 @@
       "hardware_class": "hardware",
       "hw_type": "AI硬件",
       "hw_reason": "AI robot mower with 6-cam AI vision",
-      "ended_at": "2026-08-05T04:14:42.014551Z"
+      "ended_at": "2026-08-05T15:47:59.802597Z"
     },
     {
       "id": "ks-1200343439",
@@ -10644,7 +10646,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Bluetooth speaker with pixel display and electronics.",
-      "ended_at": "2026-08-05T04:14:42.014555Z"
+      "ended_at": "2026-08-05T15:47:59.802603Z"
     },
     {
       "id": "ks-1337446481",
@@ -10988,7 +10990,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "View dock with display connectivity and USB expansion hardware.",
-      "ended_at": "2026-08-05T04:14:42.014559Z"
+      "ended_at": "2026-08-05T15:47:59.802607Z"
     },
     {
       "id": "ks-1795471255",
@@ -11609,7 +11611,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic vinyl record flattener with heating components",
-      "ended_at": "2026-08-05T04:14:42.014563Z"
+      "ended_at": "2026-08-05T15:47:59.802613Z"
     },
     {
       "id": "ks-368174215",
@@ -12098,7 +12100,7 @@
         }
       ],
       "blurbZh": "全球首款半固态冷却 MagSafe 充电器",
-      "ended_at": "2026-08-05T04:14:42.014567Z",
+      "ended_at": "2026-08-05T15:47:59.802617Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic power bank with cooling and charging circuitry."
@@ -12548,7 +12550,7 @@
       "hardware_class": "hardware",
       "hw_type": "可穿戴硬件",
       "hw_reason": "Safety eyewear with LED array, gesture control, and removable batteries",
-      "ended_at": "2026-08-05T04:14:42.014571Z"
+      "ended_at": "2026-08-05T15:47:59.802622Z"
     },
     {
       "id": "ks-811134682",
@@ -12981,7 +12983,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "GaN travel adapter with USB-C and power bank functionality",
-      "ended_at": "2026-08-05T04:14:42.014574Z"
+      "ended_at": "2026-08-05T15:47:59.802626Z"
     },
     {
       "id": "ks-1582479015",
@@ -14502,7 +14504,7 @@
       "hardware_class": "hardware",
       "hw_type": "可穿戴硬件",
       "hw_reason": "TWS wellness earbuds with magnetic TES link attachment",
-      "ended_at": "2026-08-05T04:14:42.014581Z"
+      "ended_at": "2026-08-05T15:47:59.802637Z"
     },
     {
       "id": "ks-1743629519",
@@ -14774,7 +14776,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014584Z"
+      "ended_at": "2026-08-05T15:47:59.802642Z"
     },
     {
       "id": "ks-674150989",
@@ -15398,7 +15400,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Desktop hub with 100W charging and RGB electronic lighting",
-      "ended_at": "2026-08-05T04:14:42.014588Z"
+      "ended_at": "2026-08-05T15:47:59.802648Z"
     },
     {
       "id": "ks-130448845",
@@ -15670,7 +15672,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "GaN wall charger with electronic components",
-      "ended_at": "2026-08-05T04:14:42.014591Z"
+      "ended_at": "2026-08-05T15:47:59.802653Z"
     },
     {
       "id": "ks-635715679",
@@ -15930,7 +15932,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014594Z"
+      "ended_at": "2026-08-05T15:47:59.802657Z"
     },
     {
       "id": "ks-484781160",
@@ -17219,7 +17221,7 @@
         }
       ],
       "blurbZh": "全球首款全自动簇绒机，智能地毯制作。",
-      "ended_at": "2026-08-05T04:14:42.014600Z",
+      "ended_at": "2026-08-05T15:47:59.802667Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Automated tufting machine with smart automation hardware."
@@ -17704,7 +17706,7 @@
         }
       ],
       "blurbZh": "实时骑行风洞数据",
-      "ended_at": "2026-08-05T04:14:42.014605Z",
+      "ended_at": "2026-08-05T15:47:59.802673Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic sensor system for bicycle wind tunnel data."
@@ -18164,7 +18166,7 @@
         }
       ],
       "blurbZh": "全球首款倒 L 型三屏便携显示器，三倍效率。",
-      "ended_at": "2026-08-05T04:14:42.014608Z",
+      "ended_at": "2026-08-05T15:47:59.802678Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Triple monitor display hardware."
@@ -18660,7 +18662,7 @@
         }
       ],
       "blurbZh": "胰岛素智能便携冷藏箱",
-      "ended_at": "2026-08-05T04:14:42.014612Z",
+      "ended_at": "2026-08-05T15:47:59.802683Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Smart cooler case with semiconductor cooling and temperature display."
@@ -19030,7 +19032,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Automatic electronic resin management device",
-      "ended_at": "2026-08-05T04:14:42.014615Z"
+      "ended_at": "2026-08-05T15:47:59.802688Z"
     },
     {
       "id": "ks-1375152726",
@@ -19544,7 +19546,7 @@
         }
       ],
       "blurbZh": "类纸 E-ink 数码相框",
-      "ended_at": "2026-08-05T04:14:42.014619Z",
+      "ended_at": "2026-08-05T15:47:59.802692Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "E-ink digital frame with wireless connectivity and battery."
@@ -19911,7 +19913,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Robotic lawn mower with AI obstacle avoidance and multi-zone mapping",
-      "ended_at": "2026-08-05T04:14:42.014622Z"
+      "ended_at": "2026-08-05T15:47:59.802697Z"
     },
     {
       "id": "ks-1389092449",
@@ -20305,7 +20307,7 @@
         }
       ],
       "blurbZh": "9 合 1 光驱集线器",
-      "ended_at": "2026-08-05T04:14:42.014625Z",
+      "ended_at": "2026-08-05T15:47:59.802702Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "DVD drive hub with optical drive and USB expansion hardware."
@@ -20826,14 +20828,14 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic presence-responsive light with sensors",
-      "ended_at": "2026-08-05T04:14:42.014630Z"
+      "ended_at": "2026-08-05T15:47:59.802709Z"
     },
     {
       "id": "ks-721222221",
       "name": "Neakasa Riko Fresh-Made Wet Meal Feeder For Cats",
       "blurb": "No cans. No thawing. From freeze-dried to ready-to-eat wet food at every feeding.",
       "slug": "neakasa-riko-the-smart-wet-food-feeder",
-      "state": "live",
+      "state": "ended",
       "platform": "kickstarter",
       "category": "Product Design",
       "parent_category": "Design",
@@ -21020,7 +21022,8 @@
         }
       ],
       "ai_validated": true,
-      "ai_source": "raw_html"
+      "ai_source": "raw_html",
+      "ended_at": "2026-08-05T15:47:59.802713Z"
     },
     {
       "id": "ks-863980289",
@@ -22932,7 +22935,7 @@
         }
       ],
       "blurbZh": "手持桌面两用数码显微镜",
-      "ended_at": "2026-08-05T04:14:42.014640Z",
+      "ended_at": "2026-08-05T15:47:59.802727Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Digital microscope with screen and camera hardware."
@@ -23143,6 +23146,276 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic odor extractor device"
+    },
+    {
+      "id": "ks-1701475078",
+      "name": "Twelvetooo Smart Projection Bulb: Light & Motion Anywhere",
+      "blurb": "Turn any E26/E27 fixture into a smart projection light | 16M colors | Smooth dimming | Music sync | Immersive Aurora effects",
+      "slug": "twelvetooo-smart-projection-bulb-light-and-motion-anywhere",
+      "state": "successful",
+      "platform": "kickstarter",
+      "category": "Product Design",
+      "parent_category": "Design",
+      "category_id": 28,
+      "image_full": "https://i.kickstarter.com/assets/054/154/655/6ce78c88f95d46841386e754de565fab_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1781780023&width=560&sig=Pm2MsVi3o7%2F9vJRaWFhXRl5XV48iz8YfFlAFQy61W%2B4%3D",
+      "image_med": "https://i.kickstarter.com/assets/054/154/655/6ce78c88f95d46841386e754de565fab_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1781780023&width=272&sig=J%2Fx9fgPeJUbUxFHb9tUpm7j9njBe0fV6y6HKQSsyq2g%3D",
+      "image_thumb": "https://i.kickstarter.com/assets/054/154/655/6ce78c88f95d46841386e754de565fab_original.png?anim=false&fit=cover&gravity=auto&height=27&origin=ugc&q=92&v=1781780023&width=48&sig=AyMcBU5rt9q50AFpKp13hFqllhyaW0afiVS7FZXIYy0%3D",
+      "image_1024x576": "https://i.kickstarter.com/assets/054/154/655/6ce78c88f95d46841386e754de565fab_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1781780023&width=1024&sig=ewO9s4dcGb3JcCDCz8LoPwWtEAjNlWNg3JHzOgAvDTk%3D",
+      "goal": 30000.0,
+      "pledged": 522571.0,
+      "backers_count": 1106,
+      "percent_funded": 1741.0,
+      "currency": "HKD",
+      "currency_symbol": "$",
+      "launched_at": "2026-06-18T12:00:17",
+      "deadline": "2026-07-18T12:00:17",
+      "creator_name": "Twelvetooo",
+      "creator_avatar_medium": "https://i.kickstarter.com/assets/046/389/141/e2ed3642ca331ea3496bc8c028c3b657_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1725851650&width=160&sig=ZDG8lhN45ArxOXehFHP0sr0gw0Q6NNRC0EISQ9Udzfc%3D",
+      "location": "Hong Kong, Hong Kong",
+      "country": "Hong Kong",
+      "staff_pick": false,
+      "video_url": "https://v2.kickstarter.com/1784350827-BfeUgycx2fzTfKEJxWBtf3qM4vh3t7%2F7tQJqjA%2FZvjs%3D/projects/5335374/video-1438646-h264_high.mp4",
+      "url": "https://www.kickstarter.com/projects/twelvetooo/twelvetooo-smart-projection-bulb-light-and-motion-anywhere",
+      "hardware_class": "hardware",
+      "hw_type": "智能硬件",
+      "hw_reason": "Smart projection bulb with color and music sync",
+      "topnice_category": "Product Design",
+      "content_hash": "4de3553461ba01677384663f88e877f7",
+      "first_seen": "2026-07-18T10:08:49.608663Z",
+      "needs_translation": true,
+      "history": [
+        {
+          "date": "2026-07-18",
+          "backers": 1091,
+          "pledged": 515985.0
+        },
+        {
+          "date": "2026-07-19",
+          "backers": 1091,
+          "pledged": 515985.0
+        },
+        {
+          "date": "2026-07-20",
+          "backers": 1105,
+          "pledged": 522026.0
+        },
+        {
+          "date": "2026-07-21",
+          "backers": 1105,
+          "pledged": 522026.0
+        },
+        {
+          "date": "2026-07-22",
+          "backers": 1105,
+          "pledged": 522026.0
+        },
+        {
+          "date": "2026-07-23",
+          "backers": 1105,
+          "pledged": 522026.0
+        },
+        {
+          "date": "2026-07-24",
+          "backers": 1105,
+          "pledged": 522026.0
+        },
+        {
+          "date": "2026-07-25",
+          "backers": 1105,
+          "pledged": 522026.0
+        },
+        {
+          "date": "2026-07-26",
+          "backers": 1105,
+          "pledged": 522026.0
+        },
+        {
+          "date": "2026-07-27",
+          "backers": 1105,
+          "pledged": 522026.0
+        },
+        {
+          "date": "2026-07-28",
+          "backers": 1105,
+          "pledged": 522026.0
+        },
+        {
+          "date": "2026-07-29",
+          "backers": 1106,
+          "pledged": 522571.0
+        },
+        {
+          "date": "2026-07-30",
+          "backers": 1106,
+          "pledged": 522571.0
+        },
+        {
+          "date": "2026-07-31",
+          "backers": 1106,
+          "pledged": 522571.0
+        },
+        {
+          "date": "2026-08-01",
+          "backers": 1106,
+          "pledged": 522571.0
+        },
+        {
+          "date": "2026-08-02",
+          "backers": 1106,
+          "pledged": 522571.0
+        },
+        {
+          "date": "2026-08-03",
+          "backers": 1106,
+          "pledged": 522571.0
+        },
+        {
+          "date": "2026-08-04",
+          "backers": 1106,
+          "pledged": 522571.0
+        },
+        {
+          "date": "2026-08-05",
+          "backers": 1106,
+          "pledged": 522571.0
+        }
+      ],
+      "score": 40,
+      "score_components": {
+        "static": 79.6,
+        "momentum": 0.0,
+        "trend": 0,
+        "heat": 100
+      },
+      "raw_html_hash": "1b725c2f98c68555",
+      "raw_fetched_at": "2026-08-04T14:50:59.005802+00:00",
+      "ai_intro_en": "Twelvetooo Smart Projection Bulb: Light & Motion Anywhere Turn any E26/E27 fixture into a smart projection light | 16M colors | Smooth dimming | Music sync | Immersive Aurora effects",
+      "ai_highlights_en": [
+        "Transform any lamp into a magical light show",
+        "16M colors | Smooth dimming | Music sync | Immersive Aurora effects",
+        "Seamless integration with Amazon Alexa and Google Home for voice control"
+      ],
+      "ai_specs_en": [
+        [
+          "Color Temperature",
+          "2700K warm light, 6500K cool white"
+        ],
+        [
+          "Dimming",
+          "Smooth dimming"
+        ],
+        [
+          "Music Sync",
+          "Built with a high-sensitivity microphone"
+        ],
+        [
+          "Projection Angle",
+          "Adjustable projection angle"
+        ],
+        [
+          "Power",
+          "40W"
+        ],
+        [
+          "Waterproof",
+          "Waterproof outdoor projector"
+        ],
+        [
+          "Colors",
+          "1000+ colors"
+        ],
+        [
+          "Coverage",
+          "Wide coverage"
+        ],
+        [
+          "Bluetooth Speaker",
+          "Built-in Bluetooth speaker"
+        ],
+        [
+          "White Noise",
+          "8 white noise sounds for sleep"
+        ],
+        [
+          "Remote Control",
+          "Remote control via Surp Life app"
+        ],
+        [
+          "Smart Home Integration",
+          "Works seamlessly with Amazon Alexa and Google Home"
+        ]
+      ],
+      "ai_risks_en": "We have a well-established production process and a reliable supply chain. However, challenges such as delays in component sourcing or unexpected manufacturing issues may occur.",
+      "ai_creator_bio_en": "Twelvetooo is a professional manufacturer of laser semiconductor intelligent application products, integrating research, production, sales, and service.",
+      "ai_tiers": [
+        {
+          "name": "Single Bulb",
+          "price": 310,
+          "price_usd": 40,
+          "currency": "HK$",
+          "backers": 4,
+          "description": "Perfect entry price to turn any lamp into a magical light show."
+        },
+        {
+          "name": "2 Bulbs",
+          "price": 545,
+          "price_usd": 70,
+          "currency": "HK$",
+          "backers": 4,
+          "description": "Excellent savings on the popular duo! 2 Bulbs for only $69 (30% off $98)."
+        },
+        {
+          "name": "Single Bulb (Limited Launch Offer)",
+          "price": 196,
+          "price_usd": 25,
+          "currency": "HK$",
+          "backers": 50,
+          "description": "Secure the world’s first Smart Projection Bulb at the deepest discount — only $25 (49% off $49 retail)."
+        },
+        {
+          "name": "Super Early Bird: Single Bulb",
+          "price": 230,
+          "price_usd": 30,
+          "currency": "HK$",
+          "backers": 44,
+          "description": "Join the next wave of backers and get your Twelvetooo Smart Projection Bulb for only $29 (save $20, 41% off)."
+        },
+        {
+          "name": "Super Early Bird: 2 Bulbs",
+          "price": 432,
+          "price_usd": 56,
+          "currency": "HK$",
+          "backers": 430,
+          "description": "Excellent savings on the popular duo! 2 Bulbs for only $55 (44% off $98)."
+        },
+        {
+          "name": "Early Bird: 2 Bulbs",
+          "price": 510,
+          "price_usd": 66,
+          "currency": "HK$",
+          "backers": 17,
+          "description": "Get 2 Twelvetooo Smart Projection Bulbs for just $65 (34% off $98 retail value)."
+        },
+        {
+          "name": "Family & Party Pack: 4 Bulbs",
+          "price": 776,
+          "price_usd": 99,
+          "currency": "HK$",
+          "backers": 142,
+          "description": "Perfect for whole-home transformation! 4 Smart Projection Bulbs for $99 (save nearly $100)."
+        },
+        {
+          "name": "10 Bulbs Combo Pack",
+          "price": 1874,
+          "price_usd": 239,
+          "currency": "HK$",
+          "backers": 13,
+          "description": "Massive value for big spaces or resellers! Build a complete smart lighting system with music sync throughout your house."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html",
+      "ended_at": "2026-07-18T17:39:43.983757Z"
     },
     {
       "id": "ig-seno-hypercool-the-next-generation-smartphone-cooling-device",
@@ -25118,7 +25391,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic vacuum therapy system with pump and controls",
-      "ended_at": "2026-08-05T04:14:42.014651Z"
+      "ended_at": "2026-08-05T15:47:59.802743Z"
     },
     {
       "id": "ks-910676613",
@@ -25612,7 +25885,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic CO2 measuring sensor device",
-      "ended_at": "2026-08-05T04:14:42.014654Z"
+      "ended_at": "2026-08-05T15:47:59.802748Z"
     },
     {
       "id": "ks-749387701",
@@ -25888,7 +26161,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014657Z"
+      "ended_at": "2026-08-05T15:47:59.802752Z"
     },
     {
       "id": "ks-1903477594",
@@ -26266,7 +26539,7 @@
         }
       ],
       "blurbZh": "摄像头精密螺丝刀 74 合 1",
-      "ended_at": "2026-08-05T04:14:42.014660Z",
+      "ended_at": "2026-08-05T15:47:59.802757Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Wireless torque screwdriver with HD camera and app control."
@@ -26695,7 +26968,7 @@
         }
       ],
       "blurbZh": "4G AI 运动对讲机",
-      "ended_at": "2026-08-05T04:14:42.014664Z",
+      "ended_at": "2026-08-05T15:47:59.802762Z",
       "hardware_class": "hardware",
       "hw_type": "AI硬件",
       "hw_reason": "AI sports walkie-talkie with LTE communication hardware."
@@ -27116,7 +27389,7 @@
         }
       ],
       "blurbZh": "3000 流明口袋手电，仅重 134g",
-      "ended_at": "2026-08-05T04:14:42.014667Z",
+      "ended_at": "2026-08-05T15:47:59.802767Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "LED flashlight with electronic driver and USB-C charging."
@@ -27916,7 +28189,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "E-ink electronic display device",
-      "ended_at": "2026-08-05T04:14:42.014673Z"
+      "ended_at": "2026-08-05T15:47:59.802775Z"
     },
     {
       "id": "ks-859019171",
@@ -28561,7 +28834,7 @@
         }
       ],
       "blurbZh": "4K 口袋相机，6 轴防抖。",
-      "ended_at": "2026-08-05T04:14:42.014677Z",
+      "ended_at": "2026-08-05T15:47:59.802781Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "4K camera with WiFi connectivity and electronic image stabilization."
@@ -28942,7 +29215,7 @@
         }
       ],
       "blurbZh": "4 槽磁吸 SSD 扩展坞，ProRes 录制",
-      "ended_at": "2026-08-05T04:14:42.014680Z",
+      "ended_at": "2026-08-05T15:47:59.802786Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Magnetic SSD hub with storage and connectivity hardware."
@@ -29563,7 +29836,7 @@
         }
       ],
       "blurbZh": "联网智能钥匙扣，防丢警报+实用工具",
-      "ended_at": "2026-08-05T04:14:42.014683Z",
+      "ended_at": "2026-08-05T15:47:59.802791Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Connected keychain with electronic communication hardware."
@@ -29925,7 +30198,7 @@
         }
       ],
       "blurbZh": "3 合 1 太阳能充电宝，18W 太阳能。",
-      "ended_at": "2026-08-05T04:14:42.014687Z",
+      "ended_at": "2026-08-05T15:47:59.802796Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Solar power bank with photovoltaic panels and charging circuitry."
@@ -30492,7 +30765,7 @@
         }
       ],
       "blurbZh": "手持 3D Gaussian 扫描仪",
-      "ended_at": "2026-08-05T04:14:42.014690Z",
+      "ended_at": "2026-08-05T15:47:59.802801Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "3D scanner with blue-light MEMS and processing hardware."
@@ -31197,7 +31470,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014696Z"
+      "ended_at": "2026-08-05T15:47:59.802809Z"
     },
     {
       "id": "ks-164477939",
@@ -31514,7 +31787,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic OLED display with app control",
-      "ended_at": "2026-08-05T04:14:42.014699Z"
+      "ended_at": "2026-08-05T15:47:59.802813Z"
     },
     {
       "id": "ks-1572426209",
@@ -31910,7 +32183,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "KVM docking station with electronic switching and connectivity",
-      "ended_at": "2026-08-05T04:14:42.014703Z"
+      "ended_at": "2026-08-05T15:47:59.802818Z"
     },
     {
       "id": "ks-179531745",
@@ -32137,7 +32410,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014706Z"
+      "ended_at": "2026-08-05T15:47:59.802823Z"
     },
     {
       "id": "ks-121152256",
@@ -32514,7 +32787,7 @@
         }
       ],
       "blurbZh": "6 合 1 370W GaN 桌面充电站。",
-      "ended_at": "2026-08-05T04:14:42.014709Z",
+      "ended_at": "2026-08-05T15:47:59.802827Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Desktop charger with GaN power electronics and wireless charging."
@@ -32913,7 +33186,7 @@
         }
       ],
       "blurbZh": "智能雨林生态缸，自动雾化系统。",
-      "ended_at": "2026-08-05T04:14:42.014712Z",
+      "ended_at": "2026-08-05T15:47:59.802832Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Smart bioactive terrarium with automated misting electronics."
@@ -33677,7 +33950,7 @@
         }
       ],
       "blurbZh": "4K 1 对多无线同步，无需 Wi-Fi。",
-      "ended_at": "2026-08-05T04:14:42.014716Z",
+      "ended_at": "2026-08-05T15:47:59.802837Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Wireless video sync and transmission hardware."
@@ -35031,7 +35304,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Pocket Linux computer with open hardware components.",
-      "ended_at": "2026-08-05T04:14:42.014726Z"
+      "ended_at": "2026-08-05T15:47:59.802847Z"
     },
     {
       "id": "ks-985382277",
@@ -35546,7 +35819,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014730Z"
+      "ended_at": "2026-08-05T15:47:59.802854Z"
     },
     {
       "id": "ks-69394996",
@@ -36308,277 +36581,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014735Z"
-    },
-    {
-      "id": "ks-1701475078",
-      "name": "Twelvetooo Smart Projection Bulb: Light & Motion Anywhere",
-      "blurb": "Turn any E26/E27 fixture into a smart projection light | 16M colors | Smooth dimming | Music sync | Immersive Aurora effects",
-      "slug": "twelvetooo-smart-projection-bulb-light-and-motion-anywhere",
-      "state": "successful",
-      "platform": "kickstarter",
-      "category": "Product Design",
-      "parent_category": "Design",
-      "category_id": 28,
-      "image_full": "https://i.kickstarter.com/assets/054/154/655/6ce78c88f95d46841386e754de565fab_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1781780023&width=560&sig=Pm2MsVi3o7%2F9vJRaWFhXRl5XV48iz8YfFlAFQy61W%2B4%3D",
-      "image_med": "https://i.kickstarter.com/assets/054/154/655/6ce78c88f95d46841386e754de565fab_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1781780023&width=272&sig=J%2Fx9fgPeJUbUxFHb9tUpm7j9njBe0fV6y6HKQSsyq2g%3D",
-      "image_thumb": "https://i.kickstarter.com/assets/054/154/655/6ce78c88f95d46841386e754de565fab_original.png?anim=false&fit=cover&gravity=auto&height=27&origin=ugc&q=92&v=1781780023&width=48&sig=AyMcBU5rt9q50AFpKp13hFqllhyaW0afiVS7FZXIYy0%3D",
-      "image_1024x576": "https://i.kickstarter.com/assets/054/154/655/6ce78c88f95d46841386e754de565fab_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1781780023&width=1024&sig=ewO9s4dcGb3JcCDCz8LoPwWtEAjNlWNg3JHzOgAvDTk%3D",
-      "goal": 30000.0,
-      "pledged": 522571.0,
-      "backers_count": 1106,
-      "percent_funded": 1741.0,
-      "currency": "HKD",
-      "currency_symbol": "$",
-      "launched_at": "2026-06-18T12:00:17",
-      "deadline": "2026-07-18T12:00:17",
-      "creator_name": "Twelvetooo",
-      "creator_avatar_medium": "https://i.kickstarter.com/assets/046/389/141/e2ed3642ca331ea3496bc8c028c3b657_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1725851650&width=160&sig=ZDG8lhN45ArxOXehFHP0sr0gw0Q6NNRC0EISQ9Udzfc%3D",
-      "location": "Hong Kong, Hong Kong",
-      "country": "Hong Kong",
-      "staff_pick": false,
-      "video_url": "https://v2.kickstarter.com/1784350827-BfeUgycx2fzTfKEJxWBtf3qM4vh3t7%2F7tQJqjA%2FZvjs%3D/projects/5335374/video-1438646-h264_high.mp4",
-      "url": "https://www.kickstarter.com/projects/twelvetooo/twelvetooo-smart-projection-bulb-light-and-motion-anywhere",
-      "hardware_class": "hardware",
-      "hw_type": "智能硬件",
-      "hw_reason": "Smart projection bulb with color and music sync",
-      "topnice_category": "Product Design",
-      "content_hash": "4de3553461ba01677384663f88e877f7",
-      "first_seen": "2026-07-18T10:08:49.608663Z",
-      "needs_translation": true,
-      "history": [
-        {
-          "date": "2026-07-18",
-          "backers": 1091,
-          "pledged": 515985.0
-        },
-        {
-          "date": "2026-07-19",
-          "backers": 1091,
-          "pledged": 515985.0
-        },
-        {
-          "date": "2026-07-20",
-          "backers": 1105,
-          "pledged": 522026.0
-        },
-        {
-          "date": "2026-07-21",
-          "backers": 1105,
-          "pledged": 522026.0
-        },
-        {
-          "date": "2026-07-22",
-          "backers": 1105,
-          "pledged": 522026.0
-        },
-        {
-          "date": "2026-07-23",
-          "backers": 1105,
-          "pledged": 522026.0
-        },
-        {
-          "date": "2026-07-24",
-          "backers": 1105,
-          "pledged": 522026.0
-        },
-        {
-          "date": "2026-07-25",
-          "backers": 1105,
-          "pledged": 522026.0
-        },
-        {
-          "date": "2026-07-26",
-          "backers": 1105,
-          "pledged": 522026.0
-        },
-        {
-          "date": "2026-07-27",
-          "backers": 1105,
-          "pledged": 522026.0
-        },
-        {
-          "date": "2026-07-28",
-          "backers": 1105,
-          "pledged": 522026.0
-        },
-        {
-          "date": "2026-07-29",
-          "backers": 1106,
-          "pledged": 522571.0
-        },
-        {
-          "date": "2026-07-30",
-          "backers": 1106,
-          "pledged": 522571.0
-        },
-        {
-          "date": "2026-07-31",
-          "backers": 1106,
-          "pledged": 522571.0
-        },
-        {
-          "date": "2026-08-01",
-          "backers": 1106,
-          "pledged": 522571.0
-        },
-        {
-          "date": "2026-08-02",
-          "backers": 1106,
-          "pledged": 522571.0
-        },
-        {
-          "date": "2026-08-03",
-          "backers": 1106,
-          "pledged": 522571.0
-        },
-        {
-          "date": "2026-08-04",
-          "backers": 1106,
-          "pledged": 522571.0
-        },
-        {
-          "date": "2026-08-05",
-          "backers": 1106,
-          "pledged": 522571.0
-        }
-      ],
-      "score": 36,
-      "score_components": {
-        "static": 72.4,
-        "momentum": 0.0,
-        "trend": 0,
-        "heat": 100
-      },
-      "raw_html_hash": "1b725c2f98c68555",
-      "raw_fetched_at": "2026-08-04T14:50:59.005802+00:00",
-      "ai_intro_en": "Twelvetooo Smart Projection Bulb: Light & Motion Anywhere Turn any E26/E27 fixture into a smart projection light | 16M colors | Smooth dimming | Music sync | Immersive Aurora effects",
-      "ai_highlights_en": [
-        "Transform any lamp into a magical light show",
-        "16M colors | Smooth dimming | Music sync | Immersive Aurora effects",
-        "Seamless integration with Amazon Alexa and Google Home for voice control"
-      ],
-      "ai_specs_en": [
-        [
-          "Color Temperature",
-          "2700K warm light, 6500K cool white"
-        ],
-        [
-          "Dimming",
-          "Smooth dimming"
-        ],
-        [
-          "Music Sync",
-          "Built with a high-sensitivity microphone"
-        ],
-        [
-          "Projection Angle",
-          "Adjustable projection angle"
-        ],
-        [
-          "Power",
-          "40W"
-        ],
-        [
-          "Waterproof",
-          "Waterproof outdoor projector"
-        ],
-        [
-          "Colors",
-          "1000+ colors"
-        ],
-        [
-          "Coverage",
-          "Wide coverage"
-        ],
-        [
-          "Bluetooth Speaker",
-          "Built-in Bluetooth speaker"
-        ],
-        [
-          "White Noise",
-          "8 white noise sounds for sleep"
-        ],
-        [
-          "Remote Control",
-          "Remote control via Surp Life app"
-        ],
-        [
-          "Smart Home Integration",
-          "Works seamlessly with Amazon Alexa and Google Home"
-        ]
-      ],
-      "ai_risks_en": "We have a well-established production process and a reliable supply chain. However, challenges such as delays in component sourcing or unexpected manufacturing issues may occur.",
-      "ai_creator_bio_en": "Twelvetooo is a professional manufacturer of laser semiconductor intelligent application products, integrating research, production, sales, and service.",
-      "ai_tiers": [
-        {
-          "name": "Single Bulb",
-          "price": 310,
-          "price_usd": 40,
-          "currency": "HK$",
-          "backers": 4,
-          "description": "Perfect entry price to turn any lamp into a magical light show."
-        },
-        {
-          "name": "2 Bulbs",
-          "price": 545,
-          "price_usd": 70,
-          "currency": "HK$",
-          "backers": 4,
-          "description": "Excellent savings on the popular duo! 2 Bulbs for only $69 (30% off $98)."
-        },
-        {
-          "name": "Single Bulb (Limited Launch Offer)",
-          "price": 196,
-          "price_usd": 25,
-          "currency": "HK$",
-          "backers": 50,
-          "description": "Secure the world’s first Smart Projection Bulb at the deepest discount — only $25 (49% off $49 retail)."
-        },
-        {
-          "name": "Super Early Bird: Single Bulb",
-          "price": 230,
-          "price_usd": 30,
-          "currency": "HK$",
-          "backers": 44,
-          "description": "Join the next wave of backers and get your Twelvetooo Smart Projection Bulb for only $29 (save $20, 41% off)."
-        },
-        {
-          "name": "Super Early Bird: 2 Bulbs",
-          "price": 432,
-          "price_usd": 56,
-          "currency": "HK$",
-          "backers": 430,
-          "description": "Excellent savings on the popular duo! 2 Bulbs for only $55 (44% off $98)."
-        },
-        {
-          "name": "Early Bird: 2 Bulbs",
-          "price": 510,
-          "price_usd": 66,
-          "currency": "HK$",
-          "backers": 17,
-          "description": "Get 2 Twelvetooo Smart Projection Bulbs for just $65 (34% off $98 retail value)."
-        },
-        {
-          "name": "Family & Party Pack: 4 Bulbs",
-          "price": 776,
-          "price_usd": 99,
-          "currency": "HK$",
-          "backers": 142,
-          "description": "Perfect for whole-home transformation! 4 Smart Projection Bulbs for $99 (save nearly $100)."
-        },
-        {
-          "name": "10 Bulbs Combo Pack",
-          "price": 1874,
-          "price_usd": 239,
-          "currency": "HK$",
-          "backers": 13,
-          "description": "Massive value for big spaces or resellers! Build a complete smart lighting system with music sync throughout your house."
-        }
-      ],
-      "ai_validated": false,
-      "ai_source": "raw_html",
-      "ended_at": "2026-07-18T17:39:43.983757Z"
+      "ended_at": "2026-08-05T15:47:59.802919Z"
     },
     {
       "id": "ks-822119812",
@@ -36988,7 +36991,7 @@
         }
       ],
       "blurbZh": "双 TEC 制冷降温外套，瞬间降温 20°C。",
-      "ended_at": "2026-08-05T04:14:42.014738Z",
+      "ended_at": "2026-08-05T15:47:59.802924Z",
       "hardware_class": "hardware",
       "hw_type": "可穿戴硬件",
       "hw_reason": "Cooling sun jacket with electronic TEC and fan modules."
@@ -37559,7 +37562,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronics engineering lab kit with physical electronic components",
-      "ended_at": "2026-08-05T04:14:42.014742Z"
+      "ended_at": "2026-08-05T15:47:59.802928Z"
     },
     {
       "id": "ks-506728641",
@@ -37819,7 +37822,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014746Z"
+      "ended_at": "2026-08-05T15:47:59.802931Z"
     },
     {
       "id": "ks-592683450",
@@ -38589,7 +38592,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014751Z"
+      "ended_at": "2026-08-05T15:47:59.802935Z"
     },
     {
       "id": "ks-615150982",
@@ -39666,7 +39669,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic travel adapter with USB-C charging",
-      "ended_at": "2026-08-05T04:14:42.014758Z"
+      "ended_at": "2026-08-05T15:47:59.802940Z"
     },
     {
       "id": "ks-911144144",
@@ -40061,7 +40064,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic DAC and headphone amplifier",
-      "ended_at": "2026-08-05T04:14:42.014762Z"
+      "ended_at": "2026-08-05T15:47:59.802943Z"
     },
     {
       "id": "ks-1997922821",
@@ -40507,7 +40510,7 @@
         }
       ],
       "blurbZh": "模块化手电筒，露营灯+聚光灯双模式。",
-      "ended_at": "2026-08-05T04:14:42.014765Z",
+      "ended_at": "2026-08-05T15:47:59.802945Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Modular flashlight with electronic LED driver."
@@ -41184,7 +41187,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic EDC flashlight with battery dock",
-      "ended_at": "2026-08-05T04:14:42.014769Z"
+      "ended_at": "2026-08-05T15:47:59.802949Z"
     },
     {
       "id": "ks-2030323937",
@@ -41699,7 +41702,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014773Z"
+      "ended_at": "2026-08-05T15:47:59.802952Z"
     },
     {
       "id": "ks-1707831047",
@@ -42048,7 +42051,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic sampler synth with control interface",
-      "ended_at": "2026-08-05T04:14:42.014777Z"
+      "ended_at": "2026-08-05T15:47:59.802954Z"
     },
     {
       "id": "ks-416766807",
@@ -42396,7 +42399,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Digital camera with printing capability for kids",
-      "ended_at": "2026-08-05T04:14:42.014780Z"
+      "ended_at": "2026-08-05T15:47:59.802957Z"
     },
     {
       "id": "ks-1487290522",
@@ -43574,7 +43577,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Wireless charging stand with electronic components",
-      "ended_at": "2026-08-05T04:14:42.014785Z"
+      "ended_at": "2026-08-05T15:47:59.802961Z"
     },
     {
       "id": "ks-1607254258",
@@ -44365,7 +44368,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014791Z"
+      "ended_at": "2026-08-05T15:47:59.802966Z"
     },
     {
       "id": "ks-1733890188",
@@ -46010,7 +46013,7 @@
       "name": "BRIZZON: The Grill Cleaning Robot That Works for You",
       "blurb": "Self-Cleaning Design | 4 Motors & 4 Brushes | Intelligent Self-Recovery | Fully Washable | Built For Covered Grills & Smokers",
       "slug": "brizzon-never-scrub-your-grill-again",
-      "state": "live",
+      "state": "ended",
       "platform": "kickstarter",
       "category": "Technology",
       "parent_category": "",
@@ -46242,7 +46245,8 @@
       ],
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
-      "hw_reason": "Electronic cleaning robot with motors"
+      "hw_reason": "Electronic cleaning robot with motors",
+      "ended_at": "2026-08-05T15:47:59.802974Z"
     },
     {
       "id": "ks-1369770306",
@@ -46494,7 +46498,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014801Z"
+      "ended_at": "2026-08-05T15:47:59.802976Z"
     },
     {
       "id": "ks-1316672809",
@@ -47103,7 +47107,7 @@
         }
       ],
       "blurbZh": "85% 准确率狗语翻译器，16 种情绪。",
-      "ended_at": "2026-08-05T04:14:42.014819Z",
+      "ended_at": "2026-08-05T15:47:59.802980Z",
       "hardware_class": "hardware",
       "hw_type": "AI硬件",
       "hw_reason": "Dog emotion interpreter with AI processing hardware."
@@ -47390,7 +47394,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Desktop DAC and headphone amplifier with operating system",
-      "ended_at": "2026-08-05T04:14:42.014822Z"
+      "ended_at": "2026-08-05T15:47:59.802983Z"
     },
     {
       "id": "ks-1379133465",
@@ -47666,7 +47670,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic 3D music visualizer with kinetic components",
-      "ended_at": "2026-08-05T04:14:42.014826Z"
+      "ended_at": "2026-08-05T15:47:59.802985Z"
     },
     {
       "id": "ks-1751484651",
@@ -47930,7 +47934,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic CO detector with sensors and alerts",
-      "ended_at": "2026-08-05T04:14:42.014830Z"
+      "ended_at": "2026-08-05T15:47:59.802988Z"
     },
     {
       "id": "ks-449944594",
@@ -48641,7 +48645,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Wireless charging desk solution with electronic components",
-      "ended_at": "2026-08-05T04:14:42.014835Z"
+      "ended_at": "2026-08-05T15:47:59.802992Z"
     },
     {
       "id": "ks-1871008584",
@@ -49793,7 +49797,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014842Z"
+      "ended_at": "2026-08-05T15:47:59.802998Z"
     },
     {
       "id": "ks-585687748",
@@ -50116,7 +50120,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic atmosphere lamp with sound and lighting",
-      "ended_at": "2026-08-05T04:14:42.014846Z"
+      "ended_at": "2026-08-05T15:47:59.803001Z"
     },
     {
       "id": "ks-413046335",
@@ -50446,7 +50450,7 @@
         }
       ],
       "blurbZh": "可编程 ESP32-S3 双摇杆控制器。",
-      "ended_at": "2026-08-05T04:14:42.014849Z",
+      "ended_at": "2026-08-05T15:47:59.803003Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Programmable joystick controller with ESP32-S3 chip and LCD."
@@ -52909,7 +52913,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic floor scrubber with vacuum and steam",
-      "ended_at": "2026-08-05T04:14:42.014863Z"
+      "ended_at": "2026-08-05T15:47:59.803014Z"
     },
     {
       "id": "ks-1033941911",
@@ -53440,7 +53444,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic Arduino CNC plotter",
-      "ended_at": "2026-08-05T04:14:42.014867Z"
+      "ended_at": "2026-08-05T15:47:59.803018Z"
     },
     {
       "id": "ks-29584654",
@@ -53792,7 +53796,7 @@
         }
       ],
       "blurbZh": "跨平台物品追踪器，支持 Find My 和 Android Find Hub。",
-      "ended_at": "2026-08-05T04:14:42.014870Z",
+      "ended_at": "2026-08-05T15:47:59.803020Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Smart item tracker with wireless communication hardware."
@@ -54147,7 +54151,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electric mug warmer with sanitizing support",
-      "ended_at": "2026-08-05T04:14:42.014875Z"
+      "ended_at": "2026-08-05T15:47:59.803023Z"
     },
     {
       "id": "ks-1273851080",
@@ -54274,7 +54278,7 @@
       "ai_creator_bio_en": "",
       "ai_tiers": [],
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014878Z"
+      "ended_at": "2026-08-05T15:47:59.803026Z"
     },
     {
       "id": "ks-1134004143",
@@ -56244,7 +56248,7 @@
         }
       ],
       "blurbZh": "将孩子的创意变成真实贴纸。",
-      "ended_at": "2026-08-05T04:14:42.014888Z",
+      "ended_at": "2026-08-05T15:47:59.803034Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Voice-controlled sticker creation hardware device."
@@ -56810,7 +56814,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Magnetic modular power bank with electronic charging modules",
-      "ended_at": "2026-08-05T04:14:42.014893Z"
+      "ended_at": "2026-08-05T15:47:59.803038Z"
     },
     {
       "id": "ks-251937063",
@@ -58186,7 +58190,7 @@
       ],
       "ai_validated": true,
       "ai_source": "local-extract",
-      "ended_at": "2026-08-05T04:14:42.014905Z"
+      "ended_at": "2026-08-05T15:47:59.803047Z"
     },
     {
       "id": "ks-662765141",
@@ -59289,7 +59293,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic delay and reverb effects unit",
-      "ended_at": "2026-08-05T04:14:42.014911Z"
+      "ended_at": "2026-08-05T15:47:59.803052Z"
     },
     {
       "id": "ks-635204864",
@@ -59521,7 +59525,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014914Z"
+      "ended_at": "2026-08-05T15:47:59.803055Z"
     },
     {
       "id": "ks-785227956",
@@ -59816,7 +59820,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic visual stimulus shot timer with sensors/display",
-      "ended_at": "2026-08-05T04:14:42.014918Z"
+      "ended_at": "2026-08-05T15:47:59.803057Z"
     },
     {
       "id": "ks-1632408309",
@@ -60098,7 +60102,7 @@
       "hardware_class": "hardware",
       "hw_type": "AI硬件",
       "hw_reason": "Portable AI golf camera for capturing and tracking ball flight.",
-      "ended_at": "2026-08-05T04:14:42.014921Z"
+      "ended_at": "2026-08-05T15:47:59.803060Z"
     },
     {
       "id": "ks-1912871921",
@@ -60346,7 +60350,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic 4K camera with touchscreen",
-      "ended_at": "2026-08-05T04:14:42.014925Z"
+      "ended_at": "2026-08-05T15:47:59.803063Z"
     },
     {
       "id": "ks-499906279",
@@ -60663,7 +60667,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Cordless ultrasonic cutter with electronic motor and cooling.",
-      "ended_at": "2026-08-05T04:14:42.014928Z"
+      "ended_at": "2026-08-05T15:47:59.803065Z"
     },
     {
       "id": "ks-807051246",
@@ -61190,7 +61194,7 @@
         }
       ],
       "blurbZh": "雷达预警 GPS 安全背心。",
-      "ended_at": "2026-08-05T04:14:42.014933Z",
+      "ended_at": "2026-08-05T15:47:59.803069Z",
       "hardware_class": "hardware",
       "hw_type": "可穿戴硬件",
       "hw_reason": "Smart running vest with radar and GPS electronic modules."
@@ -61680,7 +61684,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic flashlight with RGB and laser module",
-      "ended_at": "2026-08-05T04:14:42.014937Z"
+      "ended_at": "2026-08-05T15:47:59.803072Z"
     },
     {
       "id": "ks-332912773",
@@ -62179,7 +62183,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic waist fan with battery and smart display",
-      "ended_at": "2026-08-05T04:14:42.014942Z"
+      "ended_at": "2026-08-05T15:47:59.803075Z"
     },
     {
       "id": "ks-144419710",
@@ -63028,7 +63032,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014949Z"
+      "ended_at": "2026-08-05T15:47:59.803080Z"
     },
     {
       "id": "ks-1707706714",
@@ -63276,7 +63280,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Modular electronic light panel",
-      "ended_at": "2026-08-05T04:14:42.014952Z"
+      "ended_at": "2026-08-05T15:47:59.803083Z"
     },
     {
       "id": "ks-642715549",
@@ -64063,7 +64067,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Bluetooth 5.4 audio adapter with wireless connectivity",
-      "ended_at": "2026-08-05T04:14:42.014958Z"
+      "ended_at": "2026-08-05T15:47:59.803087Z"
     },
     {
       "id": "ks-1709551860",
@@ -64932,7 +64936,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.014963Z"
+      "ended_at": "2026-08-05T15:47:59.803091Z"
     },
     {
       "id": "ks-1364464154",
@@ -65293,7 +65297,7 @@
         }
       ],
       "blurbZh": "全球首款 17W 太阳能斜挎包。",
-      "ended_at": "2026-08-05T04:14:42.014966Z",
+      "ended_at": "2026-08-05T15:47:59.803093Z",
       "hardware_class": "hardware",
       "hw_type": "可穿戴硬件",
       "hw_reason": "Solar sling bag with integrated photovoltaic charging hardware."
@@ -65626,7 +65630,7 @@
         }
       ],
       "blurbZh": "交互式 USB 控制中心，实时电源分析。",
-      "ended_at": "2026-08-05T04:14:42.014969Z",
+      "ended_at": "2026-08-05T15:47:59.803096Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Smart desk hub powered by ESP32-S3 with sensors, RGB, and USB control."
@@ -67496,7 +67500,7 @@
         }
       ],
       "blurbZh": "内置滚轮鼠标，滚动速度 2.5 倍。",
-      "ended_at": "2026-08-05T04:14:42.014980Z",
+      "ended_at": "2026-08-05T15:47:59.803104Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Computer mouse with electronic rotary encoder."
@@ -67930,7 +67934,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic foldable fan with power bank",
-      "ended_at": "2026-08-05T04:14:42.014984Z"
+      "ended_at": "2026-08-05T15:47:59.803108Z"
     },
     {
       "id": "ks-661854079",
@@ -68226,7 +68230,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Automated motorcycle wash machine with mechanical/electronic components",
-      "ended_at": "2026-08-05T04:14:42.014988Z"
+      "ended_at": "2026-08-05T15:47:59.803110Z"
     },
     {
       "id": "ks-976302152",
@@ -68849,7 +68853,7 @@
         }
       ],
       "blurbZh": "高尔夫计分可穿戴设备。",
-      "ended_at": "2026-08-05T04:14:42.014993Z",
+      "ended_at": "2026-08-05T15:47:59.803113Z",
       "hardware_class": "hardware",
       "hw_type": "可穿戴硬件",
       "hw_reason": "Connected wearable device for golf stroke tracking."
@@ -69516,7 +69520,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic ironing and drying smart station",
-      "ended_at": "2026-08-05T04:14:42.014998Z"
+      "ended_at": "2026-08-05T15:47:59.803118Z"
     },
     {
       "id": "ks-2007977027",
@@ -69881,7 +69885,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Turbo thrust device with 1000W motor and battery",
-      "ended_at": "2026-08-05T04:14:42.015002Z"
+      "ended_at": "2026-08-05T15:47:59.803120Z"
     },
     {
       "id": "ks-758366024",
@@ -70259,7 +70263,7 @@
         }
       ],
       "blurbZh": "一键让附近手机平板响铃，快速找到物品。",
-      "ended_at": "2026-08-05T04:14:42.015005Z",
+      "ended_at": "2026-08-05T15:47:59.803122Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic beacon device for locating phones via wireless signal."
@@ -70915,7 +70919,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "STEM platform for building real electronic circuits",
-      "ended_at": "2026-08-05T04:14:42.015010Z"
+      "ended_at": "2026-08-05T15:47:59.803126Z"
     },
     {
       "id": "ks-123500889",
@@ -71297,7 +71301,7 @@
         }
       ],
       "blurbZh": "61 键磁轴游戏键盘，0.005mm 精度。",
-      "ended_at": "2026-08-05T04:14:42.015013Z",
+      "ended_at": "2026-08-05T15:47:59.803128Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Magnetic gaming keyboard with PCB, RGB LEDs, and magnetic switches."
@@ -72389,7 +72393,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Bluetooth audio-integrated window shade with wireless connectivity",
-      "ended_at": "2026-08-05T04:14:42.015019Z"
+      "ended_at": "2026-08-05T15:47:59.803133Z"
     },
     {
       "id": "ks-339751822",
@@ -73116,7 +73120,7 @@
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Outdoor flashlight with electronic illumination components.",
-      "ended_at": "2026-08-05T04:14:42.015023Z"
+      "ended_at": "2026-08-05T15:47:59.803136Z"
     },
     {
       "id": "ks-1803301317",
@@ -73749,7 +73753,7 @@
         }
       ],
       "blurbZh": "苏联 ILC1-1/7 VFD 电子管时钟 DIY。",
-      "ended_at": "2026-08-05T04:14:42.015028Z",
+      "ended_at": "2026-08-05T15:47:59.803140Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "DIY clock kit using a preprogrammed microcontroller and VFD tubes."
@@ -74784,7 +74788,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Industrial dust collector with electronic components",
-      "ended_at": "2026-08-05T04:14:42.015036Z"
+      "ended_at": "2026-08-05T15:47:59.803145Z"
     },
     {
       "id": "ks-479117284",
@@ -76083,7 +76087,7 @@
         }
       ],
       "blurbZh": "模块化 3D 打印 LED 六角桌面系统。",
-      "ended_at": "2026-08-05T04:14:42.015043Z",
+      "ended_at": "2026-08-05T15:47:59.803150Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Modular table with interactive LED hex-grid and smart accessory inlays."
@@ -76653,7 +76657,7 @@
         }
       ],
       "blurbZh": "3D 打印 DIY 自动换笔绘图仪。",
-      "ended_at": "2026-08-05T04:14:42.015048Z",
+      "ended_at": "2026-08-05T15:47:59.803154Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "DIY plotter and custom PCB system with electronic components."
@@ -77844,7 +77848,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "2-in-1 electric and charcoal BBQ grill with electronic switching",
-      "ended_at": "2026-08-05T04:14:42.015057Z"
+      "ended_at": "2026-08-05T15:47:59.803160Z"
     },
     {
       "id": "ig-seat-system-for-chairs-and-wheelchairs",
@@ -78939,7 +78943,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic luggage with built-in vacuum pump and USB-C",
-      "ended_at": "2026-08-05T04:14:42.015067Z"
+      "ended_at": "2026-08-05T15:47:59.803167Z"
     },
     {
       "id": "ks-34602651",
@@ -79976,7 +79980,7 @@
         }
       ],
       "blurbZh": "智能臭虫检测器，买 2 捐 1。",
-      "ended_at": "2026-08-05T04:14:42.015073Z",
+      "ended_at": "2026-08-05T15:47:59.803171Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Patented IoT bed bug detector with smart connectivity."
@@ -81263,7 +81267,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Power bank with smart LED display and charging circuitry.",
-      "ended_at": "2026-08-05T04:14:42.015083Z"
+      "ended_at": "2026-08-05T15:47:59.803179Z"
     },
     {
       "id": "ks-716393937",
@@ -83385,7 +83389,7 @@
         }
       ],
       "score_components": {
-        "static": 38.1,
+        "static": 37.5,
         "momentum": 0.0,
         "trend": 0,
         "heat": 4.3
@@ -83968,7 +83972,7 @@
       "ai_source": "raw_html",
       "hw_type": "可穿戴硬件",
       "hw_reason": "Smart wearable sleep mask with recharge system",
-      "ended_at": "2026-08-05T04:14:42.015097Z"
+      "ended_at": "2026-08-05T15:47:59.803190Z"
     },
     {
       "id": "ks-591412763",
@@ -85425,7 +85429,7 @@
       "ai_source": "raw_html",
       "hw_type": "可穿戴硬件",
       "hw_reason": "Wireless rechargeable heated shoes with graphene insulation",
-      "ended_at": "2026-08-05T04:14:42.015106Z"
+      "ended_at": "2026-08-05T15:47:59.803197Z"
     },
     {
       "id": "ks-682715784",
@@ -85636,7 +85640,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.015109Z"
+      "ended_at": "2026-08-05T15:47:59.803200Z"
     },
     {
       "id": "ks-1652951191",
@@ -86250,7 +86254,7 @@
         }
       ],
       "blurbZh": "内置 24 寸 2K 165Hz 屏的便携机箱。",
-      "ended_at": "2026-08-05T04:14:42.015113Z",
+      "ended_at": "2026-08-05T15:47:59.803202Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "PC case with a built-in 24\" 2K 165Hz display and electronics."
@@ -88255,7 +88259,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Cordless electric cutter with built-in battery and AI smart-tracking",
-      "ended_at": "2026-08-05T04:14:42.015125Z"
+      "ended_at": "2026-08-05T15:47:59.803213Z"
     },
     {
       "id": "ks-1364684146",
@@ -89045,7 +89049,7 @@
         }
       ],
       "blurbZh": "无需安装的浴室净身器。",
-      "ended_at": "2026-08-05T04:14:42.015132Z",
+      "ended_at": "2026-08-05T15:47:59.803218Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Electronic bidet requiring no plumbing, powered by hardware."
@@ -91435,7 +91439,7 @@
       "hardware_class": "hardware",
       "hw_type": "AI硬件",
       "hw_reason": "Modular robot platform with phone control, camera, and ToF sensor",
-      "ended_at": "2026-08-05T04:14:42.015144Z"
+      "ended_at": "2026-08-05T15:47:59.803228Z"
     },
     {
       "id": "ks-1552170765",
@@ -91663,7 +91667,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Wireless telescope guidance finder system",
-      "ended_at": "2026-08-05T04:14:42.015147Z"
+      "ended_at": "2026-08-05T15:47:59.803231Z"
     },
     {
       "id": "ks-599852413",
@@ -92381,7 +92385,7 @@
         }
       ],
       "blurbZh": "儿童复古智能时钟+AI 故事机。",
-      "ended_at": "2026-08-05T04:14:42.015154Z",
+      "ended_at": "2026-08-05T15:47:59.803234Z",
       "hardware_class": "hardware",
       "hw_type": "智能硬件",
       "hw_reason": "Smart clock with AI tutor and storyteller features."
@@ -94003,7 +94007,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.015166Z"
+      "ended_at": "2026-08-05T15:47:59.803243Z"
     },
     {
       "id": "ks-2106339536",
@@ -94215,7 +94219,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Timer-locked box with wireless charging electronics",
-      "ended_at": "2026-08-05T04:14:42.015170Z"
+      "ended_at": "2026-08-05T15:47:59.803246Z"
     },
     {
       "id": "ig-fyt-02",
@@ -95044,7 +95048,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Airbrush compressor with digital screen and motor",
-      "ended_at": "2026-08-05T04:14:42.015178Z"
+      "ended_at": "2026-08-05T15:47:59.803251Z"
     },
     {
       "id": "ks-406788657",
@@ -95292,7 +95296,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Fishing lure with LED lights and electronic chip",
-      "ended_at": "2026-08-05T04:14:42.015181Z"
+      "ended_at": "2026-08-05T15:47:59.803254Z"
     },
     {
       "id": "ks-1440469896",
@@ -95779,7 +95783,7 @@
       "ai_source": "raw_html",
       "hw_type": "AI硬件",
       "hw_reason": "Low power processing semiconductor chip for AI/IoT applications",
-      "ended_at": "2026-08-05T04:14:42.015186Z"
+      "ended_at": "2026-08-05T15:47:59.803257Z"
     },
     {
       "id": "ks-395024583",
@@ -96805,7 +96809,7 @@
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Plug-and-play gaming ecosystem hardware",
-      "ended_at": "2026-08-05T04:14:42.015193Z"
+      "ended_at": "2026-08-05T15:47:59.803262Z"
     },
     {
       "id": "ks-78607103",
@@ -100159,7 +100163,7 @@
       ],
       "ai_validated": true,
       "ai_source": "raw_html",
-      "ended_at": "2026-08-05T04:14:42.015211Z"
+      "ended_at": "2026-08-05T15:47:59.803276Z"
     },
     {
       "id": "ks-546661192",
