@@ -45,9 +45,13 @@ tinyfish_dead = not bool(TINYFISH_API_KEY)
 # 仅当渲染商实际可用时才允许对过薄快照重抓，避免等待期只有 TinyFish（不渲染）时反复重抓空壳。
 rendering_worked = False
 
-# 薄快照阈值：解压后 HTML 字符数低于此值视为抓取不完整（JS 渲染前 SPA 空壳）。
-# 可通过环境变量 THIN_HTML_MAX_CHARS 调整；默认值经过实测：完整渲染页 26k+ chars，空壳 ~12.7k chars。
+# 薄快照阈值（旧版）：解压后 HTML 字符数低于此值视为抓取不完整。
+# 缺陷：Kickstarter/Indiegogo 是 SPA，JS 渲染空壳页（可见正文 0、但内联脚本/JSON 巨大）
+# 解压后也能有 50KB+，被误判成"完整页"而永不重抓。保留作为兼容常量。
 THIN_HTML_MAX_CHARS = int(os.environ.get("THIN_HTML_MAX_CHARS", "20000"))
+# 薄快照判定（新版主用）：可见正文词数低于此值视为薄快照。
+# 实测：SPA 空壳页 15 词、真实渲染页 2000+ 词，200 是清晰分界。可用 THIN_VISIBLE_WORDS 覆盖。
+THIN_VISIBLE_WORDS = int(os.environ.get("THIN_VISIBLE_WORDS", "200"))
 
 
 def _save_raw_html(slug: str, html_text: str) -> dict:
@@ -187,16 +191,27 @@ def fetch_one(url: str):
 
 def _is_thin_snapshot(slug: str, raw_html_dir: Path) -> bool:
     """判断已存在的 raw HTML 快照是否过薄（抓取不完整）。
-    解压失败/过薄都返回 True（倾向重抓，安全）。"""
+
+    判定改用「可见正文词数」(THIN_VISIBLE_WORDS)，而非旧版的全文本长度。
+    原因：Kickstarter/Indiegogo 是 SPA，JS 渲染空壳页（可见正文 ~0、但内联脚本/
+    JSON 巨大）解压后也能有 50KB+，旧版用全文本长度 < 20000 判薄会把这类空壳
+    误判成"完整页"而永不重抓。可见正文词数是 SPA 空壳的可靠指纹
+    （空壳 15 词 vs 真渲染页 2000+ 词）。解压失败也返回 True（倾向重抓，安全）。
+    """
     gz = raw_html_dir / f"{slug}.html.gz"
     if not gz.exists():
         return False
     try:
         with gzip.open(gz, "rt", encoding="utf-8", errors="ignore") as f:
             txt = f.read()
-        return len(txt) < THIN_HTML_MAX_CHARS
     except Exception:
         return True
+    # 去掉 script/style 与标签，提取可见正文词数
+    import re
+    body = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", txt, flags=re.I | re.S)
+    body = re.sub(r"<[^>]+>", " ", body)
+    words = len(re.findall(r"\w+", body))
+    return words < THIN_VISIBLE_WORDS
 
 
 def _rendering_available() -> bool:
