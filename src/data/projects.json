@@ -12655,56 +12655,52 @@
       "raw_html_hash": "ce7321da049fb591",
       "raw_fetched_at": "2026-08-06T04:18:19.717830+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Litejam Neo is the world's first RGB smart guitar and bass that lights up chords, scales, fingerpicking patterns, and songs directly on the fretboard to guide your playing in real time. It combines a carbon fiber body, rechargeable wireless design, and an interactive learning platform to help you learn faster, play with confidence, and perform anywhere.",
+      "ai_intro_en": "Litejam Neo is the world's first RGB smart guitar and bass that lights up chords, scales, fingerpicking patterns, and songs directly on the fretboard. It helps users learn faster, play with confidence, and perform anywhere via real-time LED guidance and a built‑in rechargeable battery.",
       "ai_highlights_en": [
-        "RGB Smart Fretboard lights up chords, scales, fingerpicking, and songs in real time for intuitive learning and performance.",
-        "Carbon fiber body provides lightweight durability, while a rechargeable battery offers 5–8 hours of wireless play with Bluetooth connectivity.",
-        "Integrated Litejam Learning Platform and Perform Mode deliver guided lessons, customizable lighting effects, and instant song practice via app."
+        "RGB Smart Fretboard with real‑time LED guidance for chords, scales, fingerpicking, and songs.",
+        "Built‑in rechargeable battery (5–8 hours) and Bluetooth/USB‑C wireless connectivity.",
+        "Lightweight carbon‑fiber body and neck for durability, travel‑ready performance."
       ],
       "ai_specs_en": [
         [
-          "RGB Smart Fretboard",
-          "88+ RGB LEDs"
-        ],
-        [
           "Body Material",
-          "Carbon Fiber"
+          "Full Carbon Fiber Composite"
         ],
         [
           "Neck Material",
-          "Roasted Maple"
+          "Carbon Fiber Neck & Fingerboard"
         ],
         [
           "Frets",
-          "Stainless Steel 24 frets"
+          "Stainless Steel 24 Frets"
         ],
         [
           "Battery Life",
-          "5–8 hours"
+          "Up to 5–8 hours (rechargeable)"
         ],
         [
           "Connectivity",
-          "Bluetooth and USB-C"
+          "Bluetooth and USB‑C"
         ],
         [
-          "Pickup Configuration",
-          "9 unique voices (5-way selector + mini toggle)"
+          "Pickup System",
+          "Litejam Neo Alnico V Humbucker Set (9 unique voices)"
         ],
         [
-          "Body Wood",
-          "American Alder"
+          "Scale Length (Bass)",
+          "34 inches"
         ],
         [
-          "Tremolo",
-          "Wilkinson 2-point tremolo"
+          "LED Colors",
+          "RGB with color‑coded guidance for techniques"
         ],
         [
-          "Scale Mode",
-          "12 root keys, 18 scale types per key"
+          "App Compatibility",
+          "iOS and Android Litejam App"
         ]
       ],
       "ai_risks_en": "",
-      "ai_creator_bio_en": "Litejam creates interactive music learning tools that combine smart hardware with visual guidance to help anyone learn guitar faster and enjoy playing.",
+      "ai_creator_bio_en": "Litejam is a San Francisco‑based company creating interactive smart guitars and basses to transform music learning.",
       "ai_tiers": [],
       "ai_source": "raw_html"
     },
@@ -24712,7 +24708,117 @@
         "momentum": 0,
         "trend": 0,
         "heat": 55.2
-      }
+      },
+      "ai_intro_en": "The Retractable USB4 Cable by PULWTOP is a versatile all-in-one cable featuring 240W PD3.1 charging, 20Gbps data transfer, and 8K@60Hz video output. Its dual-way synchronized retraction design offers four lockable lengths (40/70/90/100cm) in a compact, pocketable aluminum housing.",
+      "ai_highlights_en": [
+        "240W PD3.1 fast charging powers laptops, tablets, phones, and gaming consoles",
+        "Dual-way retractable design with 4 click-stop lengths for flexible everyday carry",
+        "20Gbps USB4 transfer and 8K@60Hz video output in one compact aluminum cable"
+      ],
+      "ai_specs_en": [
+        [
+          "Charging Power",
+          "240W PD3.1"
+        ],
+        [
+          "Data Transfer",
+          "20Gbps USB4"
+        ],
+        [
+          "Video Output",
+          "8K@60Hz / 4K@144Hz"
+        ],
+        [
+          "Retraction",
+          "Dual-way synchronized"
+        ],
+        [
+          "Lock Positions",
+          "40/70/90/100cm"
+        ],
+        [
+          "Housing",
+          "Premium Aluminum"
+        ],
+        [
+          "Compatibility",
+          "All USB-C devices"
+        ],
+        [
+          "Estimated Delivery",
+          "Sep 2026"
+        ]
+      ],
+      "ai_risks_en": "PULWTOP cites supply chain disruptions, fluctuating raw material costs, and competitor technological advancements as risks. Scaling production while maintaining quality and navigating international regulatory requirements are additional challenges. As with all Kickstarter hardware projects, delivery timelines may shift.",
+      "ai_creator_bio_en": "PULWTOP is a Hong Kong-based consumer electronics company combining innovative technology with industrial aesthetics.",
+      "ai_tiers": [
+        {
+          "name": "Support",
+          "price": null,
+          "price_usd": 2,
+          "currency": "USD",
+          "backers": null,
+          "description": "Back the project for no reward, just because it speaks to you."
+        },
+        {
+          "name": "Super Early *1 (Orange)",
+          "price": 196,
+          "price_usd": 25,
+          "currency": "HKD",
+          "backers": 4,
+          "description": "PULWTOP Bundle for $25 — 50% OFF. 1 USB4 Cable."
+        },
+        {
+          "name": "Super Early Bird *1 (Black)",
+          "price": 196,
+          "price_usd": 25,
+          "currency": "HKD",
+          "backers": 2,
+          "description": "PULWTOP Bundle for $25 — 50% OFF. 1 USB4 Cable."
+        },
+        {
+          "name": "Super Early Bird *2 (Orange)",
+          "price": 392,
+          "price_usd": 50,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "PULWTOP Bundle for $50 — 50% OFF. 1 USB4 Cable."
+        },
+        {
+          "name": "Super Early Bird *2 (Black)",
+          "price": 392,
+          "price_usd": 50,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "PULWTOP Bundle for $50 — 50% OFF. 1 USB4 Cable."
+        },
+        {
+          "name": "Super Early Bird *2 (Orange+Black)",
+          "price": 392,
+          "price_usd": 50,
+          "currency": "HKD",
+          "backers": 4,
+          "description": "PULWTOP Bundle for $50 — 50% OFF. 1 USB4 Cable."
+        },
+        {
+          "name": "Super Early Bird *3 (Orange)",
+          "price": 588,
+          "price_usd": 75,
+          "currency": "HKD",
+          "backers": 1,
+          "description": "PULWTOP Bundle for $75 — 50% OFF. 1 USB4 Cable."
+        },
+        {
+          "name": "Super Early Bird *3 (Black)",
+          "price": 588,
+          "price_usd": 75,
+          "currency": "HKD",
+          "backers": 3,
+          "description": "PULWTOP Bundle for $75 — 50% OFF. 1 USB4 Cable."
+        }
+      ],
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1480087963",
@@ -42324,11 +42430,11 @@
       },
       "raw_html_hash": "1b725c2f98c68555",
       "raw_fetched_at": "2026-08-04T14:50:59.005802+00:00",
-      "ai_intro_en": "Twelvetooo is a professional manufacturer of laser semiconductor intelligent application products, integrating research, production, sales, and service. As an innovative technology enterprise combining Laser & LED semiconductor applications, Twelvetooo specializes in the development, production, and sales of laser modules, lasers, laser stage applications, outdoor laser sights, laser flashlights and tools, outdoor city landscape lighting, home decor, and hotel components. We strive to achieve beautiful lighting artistry in product light effects, showcasing the allure of next-generation laser and LED light sources.",
+      "ai_intro_en": "Twelvetooo Smart Projection Bulb: Light & Motion Anywhere Turn any E26/E27 fixture into a smart projection light | 16M colors | Smooth dimming | Music sync | Immersive Aurora effects",
       "ai_highlights_en": [
-        "Transforms ordinary lighting into a dynamic, cinema-like experience with flowing aurora-inspired light and immersive motion.",
-        "Endless color possibilities from crisp pure white lighting to deep immersive ambient tones with smooth dimming and full-spectrum lighting control.",
-        "Seamless smart home integration with Amazon Alexa and Google Home for voice control and effortless lighting control."
+        "Transform ordinary lighting into a dynamic, cinema-like experience with flowing aurora-inspired light and immersive motion.",
+        "Endless Color Possibilities From crisp pure white lighting to deep immersive ambient tones, SMART PROJECTION BULB lets you freely customize colors and brightness with smooth dimming and full-spectrum lighting control.",
+        "Smart Home Integration Works seamlessly with Amazon Alexa and Google Home, allowing you to control power, brightness, and colors with simple voice commands."
       ],
       "ai_specs_en": [
         {
@@ -42341,7 +42447,7 @@
         },
         {
           "spec_name": "Music Sync",
-          "spec_value": "Music sync mode"
+          "spec_value": "Music sync"
         },
         {
           "spec_name": "Projection Angle",
@@ -42356,14 +42462,6 @@
           "spec_value": "Waterproof"
         },
         {
-          "spec_name": "Colors",
-          "spec_value": "1000+ colors"
-        },
-        {
-          "spec_name": "Coverage",
-          "spec_value": "Wide coverage"
-        },
-        {
           "spec_name": "Bluetooth Speaker",
           "spec_value": "Built-in Bluetooth speaker"
         },
@@ -42372,103 +42470,27 @@
           "spec_value": "8 white noise sounds for sleep"
         },
         {
-          "spec_name": "Remote Control",
-          "spec_value": "Remote control"
+          "spec_name": "Smart Control",
+          "spec_value": "Surp Life App for iOS and Android"
         },
         {
           "spec_name": "Smart Home Integration",
-          "spec_value": "Seamless smart home integration with Amazon Alexa and Google Home"
+          "spec_value": "Works with Amazon Alexa and Google Home"
         },
         {
-          "spec_name": "App Control",
-          "spec_value": "Surp Life app for easy adjustment of brightness, colors, and dynamic projection effects"
+          "spec_name": "Color Temperature",
+          "spec_value": "2700K warm light, 6500K cool white"
         },
         {
-          "spec_name": "Themes",
-          "spec_value": "17+ themes for every mood"
+          "spec_name": "Galaxy & Nebula Effects",
+          "spec_value": "10+ stunning galaxy & nebula effects"
         },
         {
-          "spec_name": "Music Sync Mode",
-          "spec_value": "Built with a high-sensitivity microphone for real-time audio detection"
-        },
-        {
-          "spec_name": "Laser Module",
-          "spec_value": "Laser module"
-        },
-        {
-          "spec_name": "LED Module",
-          "spec_value": "LED module"
-        },
-        {
-          "spec_name": "Power Source",
-          "spec_value": "Batteries"
-        },
-        {
-          "spec_name": "Battery Life",
-          "spec_value": "30+ days"
-        },
-        {
-          "spec_name": "Screen",
-          "spec_value": "Screen-free"
-        },
-        {
-          "spec_name": "Wearability",
-          "spec_value": "Dual wearable"
-        },
-        {
-          "spec_name": "Lifters",
-          "spec_value": "For lifters"
-        },
-        {
-          "spec_name": "Battery",
-          "spec_value": "Battery"
-        },
-        {
-          "spec_name": "Subscription",
-          "spec_value": "No subscription required"
-        },
-        {
-          "spec_name": "Tempo",
-          "spec_value": "Tempo"
-        },
-        {
-          "spec_name": "Side Asymmetries",
-          "spec_value": "L/R side asymmetries"
-        },
-        {
-          "spec_name": "Time Under Tension",
-          "spec_value": "Time under tension"
-        },
-        {
-          "spec_name": "Rep Tempo",
-          "spec_value": "Rep tempo"
-        },
-        {
-          "spec_name": "App",
-          "spec_value": "Paprclip"
-        },
-        {
-          "spec_name": "Location",
-          "spec_value": "Brooklyn, NY"
-        },
-        {
-          "spec_name": "Genre",
-          "spec_value": "Social Accountability App"
-        },
-        {
-          "spec_name": "Creator",
-          "spec_value": "Kyle Fraser"
-        },
-        {
-          "spec_name": "Funding Period",
-          "spec_value": "Jun 18 2026 - Jul 18 2026 (30 days)"
-        },
-        {
-          "spec_name": "Similar Projects",
-          "spec_value": "Tensio: The Dual Wearable for Lifters, Paprclip: The Social Accountability App, THE LAST TEMPTATION OF BECKY, American Pachuco: The Legend of Luis Valdez"
+          "spec_name": "Robot Astronaut Star Projector",
+          "spec_value": "Cute robot astronaut star projector with 10+ stunning galaxy & nebula effects"
         }
       ],
-      "ai_risks_en": "We have a well-established production process and a reliable supply chain. However, challenges such as delays in component sourcing or unexpected manufacturing issues may occur. To minimize these risks, we have partnered with trusted suppliers and have implemented rigorous quality control measures at every stage of production.",
+      "ai_risks_en": "We have a well-established production process and a reliable supply chain. However, challenges such as delays in component sourcing or unexpected manufacturing issues may occur.",
       "ai_creator_bio_en": "Twelvetooo is a professional manufacturer of laser semiconductor intelligent application products, integrating research, production, sales, and service.",
       "ai_tiers": [
         {
@@ -42485,7 +42507,7 @@
           "price_usd": 70,
           "currency": "HK$",
           "backers": 4,
-          "description": "Excellent savings on the popular duo! 2 Bulbs for only $69 (30% off $98)."
+          "description": "Excellent savings on the popular duo! Create coordinated lighting and music sync effects across your home."
         },
         {
           "name": "Single Bulb (Limited Launch Offer)",
@@ -42496,7 +42518,7 @@
           "description": "Secure the world’s first Smart Projection Bulb at the deepest discount — only $25 (49% off $49 retail)."
         },
         {
-          "name": "Super Early Bird: Single Bulb",
+          "name": "2 Bulbs (Super Early Bird)",
           "price": 230,
           "price_usd": 30,
           "currency": "HK$",
@@ -42504,7 +42526,23 @@
           "description": "Join the next wave of backers and get your Twelvetooo Smart Projection Bulb for only $29 (save $20, 41% off)."
         },
         {
-          "name": "Super Early Bird: 2 Bulbs",
+          "name": "2 Bulbs (Limited Launch Offer)",
+          "price": 385,
+          "price_usd": 50,
+          "currency": "HK$",
+          "backers": 30,
+          "description": "Best value duo pack! Get 2 Smart Projection Bulbs for just $49 (50% off)."
+        },
+        {
+          "name": "2 Bulbs (Super Early Bird)",
+          "price": 432,
+          "price_usd": 56,
+          "currency": "HK$",
+          "backers": 99,
+          "description": "Excellent savings on the popular duo! 2 Bulbs for only $55 (44% off $98)."
+        },
+        {
+          "name": "2 Bulbs (Featured)",
           "price": 432,
           "price_usd": 56,
           "currency": "HK$",
@@ -42512,7 +42550,7 @@
           "description": "Excellent savings on the popular duo! 2 Bulbs for only $55 (44% off $98)."
         },
         {
-          "name": "Early Bird: 2 Bulbs",
+          "name": "2 Bulbs (Early Bird)",
           "price": 510,
           "price_usd": 66,
           "currency": "HK$",
@@ -42520,7 +42558,7 @@
           "description": "Get 2 Twelvetooo Smart Projection Bulbs for just $65 (34% off $98 retail value)."
         },
         {
-          "name": "Family & Party Pack: 4 Bulbs",
+          "name": "4 Bulbs",
           "price": 776,
           "price_usd": 99,
           "currency": "HK$",
@@ -42528,12 +42566,12 @@
           "description": "Perfect for whole-home transformation! 4 Smart Projection Bulbs for $99 (save nearly $100)."
         },
         {
-          "name": "10 Bulbs Combo Pack",
+          "name": "10 Bulbs",
           "price": 1874,
           "price_usd": 239,
           "currency": "HK$",
           "backers": 13,
-          "description": "Massive value for big spaces or resellers! Build a complete smart lighting system with music sync throughout your house."
+          "description": "Massive value for big spaces or resellers! 10 Bulbs for only $239 (51% off $490)."
         }
       ],
       "ai_validated": false,
@@ -62193,20 +62231,20 @@
       ],
       "ai_tiers": [
         {
+          "name": "No reward",
+          "price": null,
+          "price_usd": 1,
+          "currency": "JPY",
+          "backers": null,
+          "description": "Back it because you believe in it. Support the project for no reward, just because it speaks to you."
+        },
+        {
           "name": "Meteorite Faces Module",
           "price": 4656,
           "price_usd": 29,
           "currency": "JPY",
           "backers": 9,
-          "description": "🌟More than a faceplate—it's a wearable titanium collectible. Highlights • Wearable Titanium Collectible • Unique Hammered Titanium Finish • NFC Enabled • Present a silver-colored necklace • Compatible with TiVerse & Pendant Carry ✈️ Shipping fees collected via post-campaign survey!"
-        },
-        {
-          "name": "Support",
-          "price": null,
-          "price_usd": 1,
-          "currency": "JPY",
-          "backers": null,
-          "description": "Pledge without a reward to support the project."
+          "description": "More than a faceplate—it's a wearable titanium collectible with a unique hammered finish, NFC chip for data storage, and a silver‑colored necklace; compatible with TiVerse and pendant carry."
         }
       ],
       "ai_currency": "EUR",
@@ -62383,52 +62421,48 @@
         "trend": 0,
         "heat": 91.3
       },
-      "ai_intro_en": "The Titaner TiVerse is a modular titanium EDC belt buckle system featuring interchangeable faceplates, a hole‑free micro‑adjust belt, and a core chassis. It integrates a tritium pendant for long‑lasting glow and an optional LED flashlight faceplate, allowing users to customize both function and style. Built from precision‑CNC machined titanium, it’s designed to evolve with the wearer for a lifetime of use.",
+      "ai_intro_en": "Titaner TiVerse is a modular titanium EDC belt buckle system featuring interchangeable faceplates, a hole‑free micro‑adjust belt system, and a core chassis. It includes NFC‑enabled faceplates for personal data storage and an optional LED flashlight faceplate that runs on LR41 batteries for about 1.5 hours of light. Designed to adapt to the wearer and built for a lifetime of use.",
       "ai_highlights_en": [
-        "Hole‑free micro‑adjust belt system that moves with your waist, eliminating uncomfortable holes and belt wear.",
-        "Interchangeable NFC‑enabled faceplates with tritium glow, G10 composite texture, and optional LED flashlight add‑on.",
-        "Precision‑CNC machined titanium construction with two premium finishes, engineered for lifelong durability and smooth feel."
+        "Interchangeable Faceplates – designed for different moods, occasions, and versions of you, secured by dual N52 neodymium magnets.",
+        "Hole‑free micro‑adjust belt system – no holes, no compromises; moves with your waist and stays securely locked.",
+        "Writable NFC chip stores personal data; tritium slot glows up to 25 years without batteries."
       ],
       "ai_specs_en": [
         [
-          "Material",
-          "Titanium chassis with G10 composite faceplates"
+          "Material (core)",
+          "Titanium"
         ],
         [
-          "Adjustment System",
-          "Hole‑free micro‑adjust belt"
+          "Material (faceplates)",
+          "G10 composite"
         ],
         [
-          "Faceplate Attachment",
+          "Magnet type",
           "Dual N52 neodymium magnets"
         ],
         [
-          "Tritium Glow",
-          "Up to 25 years self‑powered illumination"
+          "Tritium glow duration",
+          "Up to 25 years without batteries"
         ],
         [
-          "LED Flashlight (Add‑on)",
-          "Approx. 1.5 hours continuous illumination (2× LR41 batteries)"
+          "LED flashlight battery life",
+          "Approx. 1.5 hours continuous illumination (LR41)"
         ],
         [
-          "Available Finishes",
-          "TITANER Micro‑Milled or Micro‑Blasted"
-        ],
-        [
-          "Belt Length (Standard)",
+          "Belt length (standard)",
           "120 cm"
         ],
         [
-          "Magnet Security",
-          "Requires two‑action latch to prevent accidental release"
+          "Finish options",
+          "TITANER Micro‑Milled or Micro‑Blasted"
         ],
         [
-          "Price (Meteorite Faces Module)",
-          "¥4,656 (~$29)"
+          "Manufacturing process",
+          "Precision CNC machining (over 21 years experience)"
         ]
       ],
-      "ai_risks_en": "Manufacturing may face delays due to high‑precision CNC machining and reliance on trusted partners; international shipping and customs could affect delivery timelines; however, the team has pre‑launch testing, real‑time production communication, and a robust fulfillment strategy to mitigate these risks.",
-      "ai_creator_bio_en": "Founded in 2005, Titaner is a team of outdoor enthusiasts, industrial designers, and craftsmen dedicated to designing and manufacturing precision titanium EDC gear.",
+      "ai_risks_en": "Manufacturing challenges include potential production delays and quality control issues, mitigated by pre‑launch testing and trusted manufacturers. Fulfillment and shipping risks involve international logistics, customs processes, and shifting demand, addressed through a robust fulfillment strategy and reliable logistics partners.",
+      "ai_creator_bio_en": "Titaner is a team of outdoor enthusiasts, industrial designers, and craftsmen dedicated to designing and manufacturing precision titanium EDC products since 2005.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
@@ -66130,20 +66164,28 @@
       },
       "raw_html_hash": "bd03fc9c11a227c2",
       "raw_fetched_at": "2026-08-04T14:51:09.625335+00:00",
-      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system that uses mmWave radar to monitor breathing, snoring, and sleep position without wearables. It offers 2,000 nights of clinical validation, helps reduce snoring, and integrates with smart home devices via Matter to adjust lighting, temperature, and sounds for better sleep. The system prioritizes privacy with no camera, provides sleep-aware aid and alarm features, and offers an optional AI+ subscription for advanced insights and content.",
+      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, validated over 2,000 nights of clinical testing. It helps reduce snoring, provides sleep-aware aid and alarm, and integrates with smart home devices while ensuring privacy with no camera.",
       "ai_highlights_en": [
-        "Contactless mmWave radar tracks breathing and snoring with 2,000 nights of clinical validation.",
-        "Reduces snoring and improves sleep via sleep-aware aid, alarm, and smart home Matter integration.",
-        "Privacy-first design with no camera; optional AI+ subscription adds advanced sleep coaching and content."
+        "Contactless mmWave radar sensing with respiratory rate RMSE below 2 breaths per minute.",
+        "Privacy-first design: no camera, all data processed on-device.",
+        "Smart home integration via Matter, controlling lights, temperature, and humidity."
       ],
       "ai_specs_en": [
         [
-          "Technology",
+          "Sensor type",
           "mmWave radar"
         ],
         [
-          "Respiratory rate accuracy",
-          "RMSE below 2 breaths per minute (vs medical-grade)"
+          "Respiratory rate RMSE",
+          "<2 breaths per minute"
+        ],
+        [
+          "Privacy",
+          "No camera"
+        ],
+        [
+          "Smart home protocol",
+          "Matter"
         ],
         [
           "Clinical validation",
@@ -66162,36 +66204,24 @@
           "Temperature, humidity, ambient light, noise"
         ],
         [
-          "Smart home integration",
-          "Matter compatible"
-        ],
-        [
-          "Alarm features",
-          "Sleep-aware aid, alarm, lights/sounds adjustment"
-        ],
-        [
-          "Privacy",
-          "No camera"
+          "AI features",
+          "Sleep stage, snoring, posture analysis"
         ],
         [
           "Subscription",
-          "Optional AI+ for advanced insights and content"
-        ],
-        [
-          "Price (VIP Deposit Holder)",
-          "$5"
+          "Optional AI+ for advanced insights"
         ]
       ],
-      "ai_risks_en": "As a first-of-its-kind contactless bedside lamp, Sleepal faces risks such as production delays, unforeseen technical challenges in achieving reliable accuracy, and supply chain uncertainties. The team notes its extensive experience with millimeter-wave radar products and commits to regular updates to keep backers informed.",
-      "ai_creator_bio_en": "Sleepal is a Hong Kong-based hardware company developing contactless AI sleep technology.",
+      "ai_risks_en": "The project faces typical crowdfunding risks such as production delays and unforeseen technical challenges, though the team cites extensive experience with millimeter-wave radar to mitigate them.",
+      "ai_creator_bio_en": "",
       "ai_tiers": [
         {
-          "name": "$5 VIP Deposit Holder",
+          "name": "VIP Deposit Holder",
           "price": 5,
           "price_usd": 5,
           "currency": "USD",
           "backers": null,
-          "description": "VIP Deposit Holder receives a secret link; details provided via email."
+          "description": ""
         }
       ],
       "ai_validated": false,
@@ -68214,53 +68244,142 @@
       },
       "raw_html_hash": "957a6b60fa7db7e1",
       "raw_fetched_at": "2026-07-18T17:40:32.104346+00:00",
-      "ai_intro_en": "Clodesk is a dual-wing transforming desk that expands to create a multi-functional workspace with hidden storage, smart lift, ergonomic design, and integrated lighting. It offers sit-stand adjustment, anti-collision safety, and modular accessories for creators, gamers, and home offices. Built from steel and responsibly sourced wood, it supports up to 100 kg and ships worldwide with an estimated delivery in October 2026.",
+      "ai_intro_en": "Clodesk is a spacious dual-wing workstation that expands storage, display, and workspace for creators, gaming, and home offices.",
       "ai_highlights_en": [
-        "Dual-wing transforming design opens to reveal a spacious workstation with hidden storage and integrated power outlets.",
-        "Smart electric lift with sit-stand memory, anti-collision protection, and ergonomic wrist-rest edge for comfortable long sessions.",
-        "Modular accessory ecosystem includes monitor arms, wireless charger, lighting, and toolkit, letting you customize the desk to your workflow."
+        "Expandable storage and display for creators, gaming, and home offices",
+        "Motorized dual-wing opening system for seamless switching",
+        "Smart motion control for effortless adjustments"
       ],
       "ai_specs_en": [
-        [
-          "Closed Dimensions",
-          "160x80x82cm (63.0x31.5x32.3in)"
-        ],
-        [
-          "Expanded Dimensions",
-          "250 x 80 x 153 cm (98.4 x 31.5x 60.2in)"
-        ],
-        [
-          "Weight Capacity",
-          "up to 100 kg / 220 lbs"
-        ],
-        [
-          "Warranty",
-          "2-Year Hassle-Free"
-        ],
-        [
-          "Available Colors",
-          "Walnut and White (other colors available for additional fee)"
-        ],
-        [
-          "Estimated Delivery",
-          "Oct 2026"
-        ],
-        [
-          "Power Cord Length",
-          "3 m"
-        ],
-        [
-          "Material",
-          "Steel frame with responsibly sourced wood"
-        ],
-        [
-          "Voltage Compatibility",
-          "US/EU/UK/AU plug types matched to shipping country"
-        ]
+        {
+          "spec_name": "Motorized Dual-Wing Opening System",
+          "spec_value": "Seamless switching between dual-wing and flat surfaces"
+        },
+        {
+          "spec_name": "Smart Motion Control",
+          "spec_value": "Gesture control for effortless adjustments"
+        },
+        {
+          "spec_name": "Hidden Storage",
+          "spec_value": "Neatly organized small essentials with easy access"
+        },
+        {
+          "spec_name": "Electric Sit-Stand Adjustment",
+          "spec_value": "Switch between sitting and standing for comfort and productivity"
+        },
+        {
+          "spec_name": "Anti-Collision Safety",
+          "spec_value": "Automatic stops or rebounds to prevent pinching and protect items underneath"
+        },
+        {
+          "spec_name": "Dual Lighting",
+          "spec_value": "Soft ambience to brighter task illumination for detailed work"
+        },
+        {
+          "spec_name": "Flexible PC Compartment",
+          "spec_value": "Customizable storage space for different needs"
+        },
+        {
+          "spec_name": "Reinforced Load-Bearing Frame",
+          "spec_value": "Stable and reliable support for up to 100 kg / 220 lbs of gear and essentials"
+        },
+        {
+          "spec_name": "Power ，Built-in",
+          "spec_value": "Built-in dual lighting for comfortable and clear workspace"
+        },
+        {
+          "spec_name": "Cup Holder",
+          "spec_value": "Secure and easy-to-reach drink holder"
+        },
+        {
+          "spec_name": "Mechanical Arms",
+          "spec_value": "Mounting points for arms, mounts, and accessories"
+        },
+        {
+          "spec_name": "Wireless Charger",
+          "spec_value": "Convenient wireless charging for devices"
+        },
+        {
+          "spec_name": "Warranty",
+          "spec_value": "2-Year Hassle-Free Warranty"
+        }
       ],
-      "ai_risks_en": "Bringing a hardware product to life involves challenges such as manufacturing coordination, material availability, quality control, and global shipping; unexpected delays can arise when scaling production, and maintaining consistent quality across units requires ongoing inspection and feedback integration.",
-      "ai_creator_bio_en": "Founded by Evan Li, a furniture designer with over 13 years' experience, Clodesk is developed by a team expert in smart furniture design, production, and international logistics.",
-      "ai_tiers": [],
+      "ai_risks_en": "Manufacturing coordination, material availability, quality control, and global shipping may pose challenges.",
+      "ai_creator_bio_en": "Clodesk is led by founder Evan Li, who brings over 13 years of experience in furniture design and manufacturing.",
+      "ai_tiers": [
+        {
+          "name": "All gone",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Limited quantity 3 left of 30"
+        },
+        {
+          "name": "11",
+          "price": 250,
+          "price_usd": 250,
+          "currency": "USD",
+          "backers": 11,
+          "description": "A spacious dual-wing workstation that expands storage, display, and workspace for creators, gaming, and home offices."
+        },
+        {
+          "name": "10",
+          "price": 300,
+          "price_usd": 300,
+          "currency": "USD",
+          "backers": 10,
+          "description": "A spacious workstation for larger rooms, home offices, creators, and multi-device setups."
+        },
+        {
+          "name": "6",
+          "price": 400,
+          "price_usd": 400,
+          "currency": "USD",
+          "backers": 6,
+          "description": "A spacious dual-wing workstation that expands storage, display, and workspace for creators, gaming, and home offices."
+        },
+        {
+          "name": "3",
+          "price": 500,
+          "price_usd": 500,
+          "currency": "USD",
+          "backers": 3,
+          "description": "A spacious workstation for larger rooms, home offices, creators, and multi-device setups."
+        },
+        {
+          "name": "202",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 202,
+          "description": "Back this project"
+        },
+        {
+          "name": "98",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 98,
+          "description": "Back this project"
+        },
+        {
+          "name": "20",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": 20,
+          "description": "Back this project"
+        },
+        {
+          "name": "5",
+          "price": 5000,
+          "price_usd": 5000,
+          "currency": "USD",
+          "backers": 5,
+          "description": "All or nothing. This project will only be funded if it reaches its goal by Fri, July 24 2026 8:00 AM PDT."
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -81798,11 +81917,11 @@
       },
       "raw_html_hash": "5a8931f32c7823c5",
       "raw_fetched_at": "2026-08-04T14:50:52.864183+00:00",
-      "ai_intro_en": "The Frame is a wall‑mounted, vertical record player that reimagines the turntable as kinetic art. Crafted from solid wood with a carbon‑fiber reinforced tonearm, it serves as both a high‑fidelity audio device and a gallery‑grade picture frame. Its design allows vertical, horizontal, or leaning placement, turning vinyl playback into a visual performance.",
+      "ai_intro_en": "The Frame is a wall‑mounted, vertical record player that reimagines the turntable as kinetic art. Crafted from solid wood with a carbon‑fiber reinforced tonearm, it works as both a high‑fidelity audio device and a gallery‑grade picture frame. It can be mounted vertically, horizontally, or leaned against a wall, turning vinyl playback into a visual performance.",
       "ai_highlights_en": [
-        "Gallery‑grade solid wood construction with carbon‑fiber tonearm for premium look and sound.",
-        "Dual speakers, Bluetooth, USB power, and multiple outputs for flexible audio setup.",
-        "Versatile mounting options (wall‑mounted vertical/horizontal or leaning) plus dust‑free vertical playback reducing vibration."
+        "Wall‑mounted design lets you play records vertically, horizontally, or leaned, saving space and turning playback into wall art.",
+        "Built with gallery‑grade materials: solid wood frame, carbon‑fiber reinforced tonearm, genuine paper mat for authentic look and sound.",
+        "Upgraded with feedback‑controlled motor, dual speakers, and a rounded paper mat for improved accuracy, audio, and visual impact."
       ],
       "ai_specs_en": [
         [
@@ -81826,7 +81945,7 @@
           "Included"
         ],
         [
-          "Built-in Speakers",
+          "Build-in Speakers",
           "Yes"
         ],
         [
@@ -81848,38 +81967,34 @@
         [
           "Installation",
           "Standard Picture Frame Installation"
-        ],
-        [
-          "Price range",
-          "HK$ 2,120 – HK$ 2,790"
         ]
       ],
-      "ai_risks_en": "The design is finalized and trial production validated, so technical risks are low; the main risk is a possible slight delay in mass production that could affect delivery timelines.",
-      "ai_creator_bio_en": "Coelacanths Ltd. is a Hong Kong‑based company founded by two brothers who are educators and entrepreneurs, known for creating innovative products like the Glow series.",
+      "ai_risks_en": "The design is finalized and trial production validated, so technical issues are unlikely; the main risk is a slight delay in mass production.",
+      "ai_creator_bio_en": "Coelacanths Ltd. is a two‑brother team of educators and entrepreneurs who created The Frame and the earlier Glow project.",
       "ai_tiers": [
-        {
-          "name": "Kickstarter Offer",
-          "price": 2790,
-          "price_usd": 356,
-          "currency": "HKD",
-          "backers": 2,
-          "description": "1 x The Frame Turntable at 34% OFF retail price. Ships worldwide. Estimated delivery Nov 2026. Limited quantity: 98 of 100 left."
-        },
         {
           "name": "Kickstarter Early Bird",
           "price": 2120,
           "price_usd": 271,
           "currency": "HKD",
           "backers": 20,
-          "description": "1 x The Frame Turntable at 50% OFF retail price. Ships worldwide. Estimated delivery Nov 2026. Limited quantity: none left."
+          "description": "1 x The Frame Turntable at 50% OFF retail price"
         },
         {
-          "name": "No Reward",
-          "price": null,
-          "price_usd": null,
+          "name": "Kickstarter Offer",
+          "price": 2790,
+          "price_usd": 356,
+          "currency": "HKD",
+          "backers": 2,
+          "description": "1 x The Frame Turntable at 34% OFF retail price"
+        },
+        {
+          "name": "Support",
+          "price": 2,
+          "price_usd": 2,
           "currency": "HKD",
           "backers": null,
-          "description": "Pledge any amount to support the project without receiving a reward."
+          "description": "Pledge without a reward"
         }
       ],
       "ai_validated": false,
@@ -90681,9 +90796,9 @@
       },
       "ai_intro_en": "Voltbou Power is a compact yet powerful 240W desktop-grade power bank built for creators, travelers, and power users. Featuring dual USB-C fast charging with up to 140W + 100W output, it can charge two laptops simultaneously while powering phones, tablets, cameras, drones, and more.",
       "ai_highlights_en": [
-        "Real-Time Intelligent Display",
-        "240W Max Output",
-        "Dual Laptop Fast Charging"
+        "Dual USB-C fast charging with up to 140W + 100W output",
+        "Real-time power monitoring and reliable high-performance charging",
+        "Compact and portable form factor designed for everyday carry"
       ],
       "ai_specs_en": [
         [
@@ -90691,32 +90806,16 @@
           "240W"
         ],
         [
-          "Battery Capacity",
-          "24000mAh, 88.8Wh"
+          "Design",
+          "Compact and portable"
         ],
         [
-          "USB-C Fast Charging",
-          "Up to 140W + 100W"
+          "Rewards",
+          "Available rewards: Super Early Bird-One Pack, Early Bird-One Pack, Super Early Bird-Two Pack, Early Bird-Two Pack, Super Early Bird-Three Pack, Early Bird-Three Pack, Super Early Bird-Five Pack, Early Bird-Five Pack, Super Early Bird-Ten Pack, Early Bird-Ten Pack"
         ],
         [
-          "Smart LED Display",
-          "Real-Time Power Monitoring"
-        ],
-        [
-          "Advanced 4S2P Battery Architecture",
-          "High-Performance Charging"
-        ],
-        [
-          "PD100W Ultra-Fast Input",
-          "Recharge Faster"
-        ],
-        [
-          "Wide Device Compatibility",
-          "Seamless Power Distribution"
-        ],
-        [
-          "Compact Form Factor",
-          "172mm x 59mm x 52mm"
+          "Risks and challenges",
+          "Hardware development always comes with challenges including manufacturing refinement, component sourcing, and production scheduling."
         ]
       ],
       "ai_risks_en": "Hardware development always comes with challenges including manufacturing refinement, component sourcing, and production scheduling.",
@@ -90726,7 +90825,7 @@
           "name": "Super Early Bird-One Pack",
           "price": 618,
           "price_usd": 79,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 7,
           "description": "Grab the One Pack Visual 240W Voltbou Power Station at Only USD $79"
         },
@@ -90734,7 +90833,7 @@
           "name": "Early Bird-One Pack",
           "price": 666,
           "price_usd": 85,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 0,
           "description": "Grab the One Pack Visual 240W Voltbou Power Station at Only USD $85"
         },
@@ -90742,15 +90841,15 @@
           "name": "Super Early Bird-Two Pack",
           "price": 1234,
           "price_usd": 158,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 1,
           "description": "Grab the Two Pack Visual 240W Voltbou Power Station at Only USD $158"
         },
         {
           "name": "Early Bird-Two Pack",
           "price": 1689,
-          "price_usd": 216,
-          "currency": "HKD",
+          "price_usd": 165,
+          "currency": "HK$",
           "backers": 0,
           "description": "Grab the Two Pack Visual 240W Voltbou Power Station at Only USD $165"
         },
@@ -90758,25 +90857,49 @@
           "name": "Super Early Bird-Three Pack",
           "price": 1819,
           "price_usd": 233,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 0,
           "description": "Grab the Three Pack Visual 240W Voltbou Power Station at Only USD $233"
+        },
+        {
+          "name": "Early Bird-Three Pack",
+          "price": 1869,
+          "price_usd": 216,
+          "currency": "HK$",
+          "backers": 0,
+          "description": "Grab the Three Pack Visual 240W Voltbou Power Station at Only USD $216"
         },
         {
           "name": "Super Early Bird-Five Pack",
           "price": 2966,
           "price_usd": 380,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 0,
           "description": "Grab the Five Pack Visual 240W Voltbou Power Station at Only USD $380"
+        },
+        {
+          "name": "Early Bird-Five Pack",
+          "price": 2966,
+          "price_usd": 379,
+          "currency": "HK$",
+          "backers": 0,
+          "description": "Grab the Five Pack Visual 240W Voltbou Power Station at Only USD $379"
         },
         {
           "name": "Super Early Bird-Ten Pack",
           "price": 5876,
           "price_usd": 750,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 0,
           "description": "Grab the Ten Pack Visual 240W Voltbou Power Station at Only USD $750"
+        },
+        {
+          "name": "Early Bird-Ten Pack",
+          "price": 5876,
+          "price_usd": 749,
+          "currency": "HK$",
+          "backers": 0,
+          "description": "Grab the Ten Pack Visual 240W Voltbou Power Station at Only USD $749"
         }
       ],
       "ai_validated": false,
@@ -107617,24 +107740,24 @@
       },
       "raw_html_hash": "6701c6cd9e667f84",
       "raw_fetched_at": "2026-08-04T14:51:17.533097+00:00",
-      "ai_intro_en": "NEXAIR is a pocket-sized smart air pump that combines real-time pressure monitoring, automatic shutoff, and a 20,000 RPM brushless motor delivering up to 13 L/min airflow. Weighing only 132 g, it inflates tires, sports balls, and other items with precision and convenience. The device features USB-C charging, LED lighting, and multiple valve compatibility.",
+      "ai_intro_en": "NEXAIR is a pocket-sized smart air pump that combines real-time pressure monitoring, fast inflation, and intelligent control in a 132g device. Powered by a 20,000 RPM brushless motor delivering up to 13 L/min airflow, it inflates tires and sports equipment up to 150 PSI with auto stop and USB-C charging. Its lightweight design and multiple valve compatibility make it ideal for cyclists, outdoor enthusiasts, and everyday use.",
       "ai_highlights_en": [
-        "Ultra-lightweight at 132 g, pocket-sized design fits easily in a pocket or bag.",
+        "Ultra-lightweight at 132g, pocket-sized for easy carry in pockets, bags, or bike kits.",
         "20,000 RPM brushless motor provides up to 13 L/min airflow with auto-stop at set pressure for precise inflation.",
-        "Real-time PSI/BAR display, USB-C rechargeable battery, LED light, and compatibility with Presta, Schrader, and ball needles."
+        "Real-time pressure display, USB-C rechargeable, and compatible with Presta, Schrader, and ball needles."
       ],
       "ai_specs_en": [
         [
-          "Pressure range",
-          "3–150 PSI (0.2–10.3 BAR)"
+          "Max Pressure",
+          "150 PSI"
         ],
         [
-          "Motor speed",
+          "Motor Speed",
           "20,000 RPM brushless"
         ],
         [
           "Airflow",
-          "up to 13 L/min"
+          "13 L/min"
         ],
         [
           "Weight",
@@ -107645,36 +107768,36 @@
           "6.5 × 4 × 3 cm"
         ],
         [
-          "Battery capacity",
-          "1200mAh rechargeable lithium"
+          "Battery Capacity",
+          "1200 mAh"
         ],
         [
           "Charging",
-          "USB-C, ~50 minutes full charge"
+          "USB-C"
         ],
         [
-          "Battery indicator",
-          "four-level LED"
+          "Charge Time",
+          "~50 minutes"
         ],
         [
-          "LED light",
-          "built-in for low-light use"
+          "Pressure Range",
+          "3–150 PSI (0.2–10.3 BAR)"
         ],
         [
-          "Housing material",
-          "flame-retardant ABS + PC"
+          "LED Light",
+          "Built-in"
         ],
         [
-          "Compatible valves",
-          "Presta, Schrader, ball needles"
+          "Battery Indicator",
+          "Four-level"
         ],
         [
-          "Auto stop",
-          "yes"
+          "Housing Material",
+          "Flame-retardant ABS + PC"
         ]
       ],
-      "ai_risks_en": "While the design is complete, risks include potential delays in component sourcing, manufacturing scheduling, quality control, and international shipping. The team mitigates these by working with experienced suppliers, adding schedule buffers, and committing to regular updates.",
-      "ai_creator_bio_en": "NEXAIR is a Los Angeles-based startup developing portable smart air pumps for cyclists and outdoor enthusiasts.",
+      "ai_risks_en": "While the design is complete, risks include potential delays from component sourcing, manufacturing scheduling, testing, or shipping; mitigations involve experienced suppliers, extra schedule buffer, and close partner coordination.",
+      "ai_creator_bio_en": "NEXAIR, based in Los Angeles, CA, develops portable smart air pumps for everyday mobility.",
       "ai_tiers": [],
       "ai_validated": false,
       "ai_source": "raw_html",
@@ -108307,11 +108430,11 @@
       },
       "raw_html_hash": "e182ae679ea75a02",
       "raw_fetched_at": "2026-08-16T02:09:26.542321+00:00",
-      "ai_intro_en": "Phase 0.25 is a validation framework readiness initiative building the traceability systems, technical framework, and government-alignment industrial layer needed before any full downstream processing program can responsibly move forward. The campaign funds the Clean Critical Minerals Readiness Framework, a library of plain-language digital educational resources that explain responsible mineral processing before any facility is built. It aims to bridge the gap between raw mineral exports and local value creation by educating communities, policymakers, and investors.",
+      "ai_intro_en": "The Philippine Clean Critical Minerals Readiness Initiative – Phase 0.25 is a validation framework that builds traceability systems, technical standards, and government‑aligned industrial layers needed before responsible downstream processing of critical minerals can proceed. It funds a library of plain‑language digital educational resources—including eBooks, visual diagrams, traceability explainers, ESG accounting, and community safeguard concepts—to help stakeholders understand what responsible mineral preparation looks like before any facility is built.",
       "ai_highlights_en": [
-        "Builds traceability systems, technical framework, and government-alignment industrial layer for responsible mineral processing.",
-        "Provides a library of plain-language digital educational resources (eBooks, briefings, archives) explaining responsible preparation before industrial development.",
-        "Focuses on education and knowledge transfer to empower local communities, policymakers, and investors ahead of any mining or extraction decisions."
+        "Plain‑language digital educational resources that explain responsible mineral processing for diverse audiences.",
+        "Traceability and auditability tools that enable verification of mineral supply chains beyond mere claims.",
+        "Community‑focused safeguard concepts that outline environmental and social protection before ground‑breaking."
       ],
       "ai_specs_en": [
         [
@@ -108323,16 +108446,12 @@
           "1%"
         ],
         [
-          "Amount raised",
-          "$500"
-        ],
-        [
-          "Backers",
-          "1"
-        ],
-        [
           "Days left",
           "46"
+        ],
+        [
+          "Total backers",
+          "1"
         ],
         [
           "Currency",
@@ -108344,92 +108463,88 @@
         ],
         [
           "Location",
-          "United States"
-        ],
-        [
-          "Project",
-          "Philippine Clean Critical Minerals Readiness Initiative - Phase 0.25"
+          "Philippines"
         ]
       ],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "Creator: ingridhnelson at ecometals, part of EcoMetals Nextech / EcoMetals Resource Group.",
+      "ai_risks_en": "The initiative notes that without a local readiness framework, any future Philippine processing plants are likely to be financed and operated by the same Chinese conglomerates that dominate regional refining, meaning the country could remain dependent on external control. It also highlights that communities face heightened climate risks (e.g., typhoons) while exporting raw ore, and that traditional funders often avoid proof‑of‑concept stages, making readiness work hard to finance.",
+      "ai_creator_bio_en": "Ingrid H. Nelson, founder of EcoMetals Nextech/EcoMetals Resource Group, leads efforts to create open educational resources for responsible critical mineral processing.",
       "ai_tiers": [
         {
           "name": "Tier 1 – Early Digital Supporter",
-          "price": 5.0,
-          "price_usd": 5.0,
+          "price": 5,
+          "price_usd": 5,
           "currency": "USD",
           "backers": null,
           "description": "A downloadable digital PDF exploring the hidden geological future of the Philippines and future-facing infrastructure systems."
         },
         {
-          "name": "TIER 2 — MINI BRIEF",
-          "price": 15.0,
-          "price_usd": 15.0,
+          "name": "Tier 2 — MINI BRIEF",
+          "price": 15,
+          "price_usd": 15,
           "currency": "USD",
           "backers": null,
           "description": "A concise digital briefing on Philippine geology, advanced materials, and resilient supply chains."
         },
         {
           "name": "Tier 3 FULL E-BOOK PRE-ORDER",
-          "price": 35.0,
-          "price_usd": 35.0,
+          "price": 35,
+          "price_usd": 35,
           "currency": "USD",
           "backers": null,
           "description": "The complete digital e-book edition exploring geology, advanced materials, and future infrastructure systems."
         },
         {
-          "name": "TIER 4 - FOUNDER BRIEFING PACK",
-          "price": 75.0,
-          "price_usd": 75.0,
+          "name": "Tier 4 - FOUNDER BRIEFING PACK",
+          "price": 75,
+          "price_usd": 75,
           "currency": "USD",
           "backers": null,
           "description": "Expanded digital briefing materials exploring future systems, infrastructure, and industrial transformation."
         },
         {
-          "name": "TIER 5 - VALIDATION READINESS BRIEF",
-          "price": 150.0,
-          "price_usd": 150.0,
+          "name": "Tier 5 - VALIDATION READINESS BRIEF",
+          "price": 150,
+          "price_usd": 150,
           "currency": "USD",
           "backers": null,
           "description": "A future-facing digital briefing archive focused on systems readiness and resilient infrastructure concepts."
         },
         {
-          "name": "FEATURED TIER 6 - INSTITUTIONAL DIGITAL PACK",
-          "price": 500.0,
-          "price_usd": 500.0,
+          "name": "Tier 6 - INSTITUTIONAL DIGITAL PACK",
+          "price": 500,
+          "price_usd": 500,
           "currency": "USD",
           "backers": null,
           "description": "A comprehensive digital archive exploring resilient infrastructure systems and future industrial ecosystems."
         },
         {
-          "name": "TIER 7 - FUTURE BENEATH PARADISE ARCHIVE",
-          "price": 2500.0,
-          "price_usd": 2500.0,
+          "name": "Tier 7 - FUTURE BENEATH PARADISE ARCHIVE",
+          "price": 2500,
+          "price_usd": 2500,
           "currency": "USD",
           "backers": null,
           "description": "A curated digital archive exploring geology, infrastructure, maritime systems, and advanced materials futures."
         },
         {
-          "name": "TIER 8 - INSTITUTIONAL CIVILIZATION ARCHIVE",
-          "price": 5000.0,
-          "price_usd": 5000.0,
+          "name": "Tier 8 - INSTITUTIONAL CIVILIZATION ARCHIVE",
+          "price": 5000,
+          "price_usd": 5000,
           "currency": "USD",
           "backers": null,
           "description": "A long-form digital archive exploring future civilization systems, infrastructure resilience, and industrial evolution."
         },
         {
-          "name": "TIER 9 - MASTER RESEARCH COLLECTION",
-          "price": 10000.0,
-          "price_usd": 10000.0,
+          "name": "Tier 9 - MASTER RESEARCH COLLECTION",
+          "price": 10000,
+          "price_usd": 10000,
           "currency": "USD",
           "backers": null,
           "description": "A master digital archive featuring future systems, industrial infrastructure, and advanced materials research."
         },
         {
-          "name": "TIER 10 - CORPORATE DIGITAL INTELLIGENCE PACK",
-          "price": 25000.0,
-          "price_usd": 25000.0,
+          "name": "Tier 10 - CORPORATE DIGITAL INTELLIGENCE PACK",
+          "price": 25000,
+          "price_usd": 25000,
           "currency": "USD",
           "backers": null,
           "description": "A premium digital archive exploring infrastructure systems, resilient supply chains, and future industrial ecosystems."
@@ -116525,7 +116640,7 @@
           "price_usd": 299,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 1× Sound For 3 built‑in instrument sounds, magnetic mic, phone holder, headphones, backpack, guitar strap, charging cable. Ideal for beginners."
+          "description": "Core Edition with 3 built‑in instrument sounds, includes magnetic microphone, phone holder, headphones, backpack, guitar strap, charging cable. Estimated delivery Sep 2026."
         },
         {
           "name": "Early Bird – Core Edition",
@@ -116533,7 +116648,7 @@
           "price_usd": 329,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 1× Sound For 3 built‑in instrument sounds, magnetic mic, phone holder, headphones, backpack, guitar strap, charging cable. Special Kickstarter discount."
+          "description": "Core Edition with 3 built‑in instrument sounds, includes magnetic microphone, phone holder, headphones, backpack, guitar strap, charging cable. Estimated delivery Sep 2026."
         },
         {
           "name": "Super Early Bird — Infinity Edition",
@@ -116541,7 +116656,7 @@
           "price_usd": 339,
           "currency": "USD",
           "backers": 1,
-          "description": "Includes 1× Stringless Smart Guitar with 14 built‑in instrument sounds, magnetic mic, phone holder, headphones, backpack, guitar strap. Full musical experience."
+          "description": "Infinity Edition with 14 built‑in instrument sounds, includes magnetic microphone, phone holder, headphones, backpack, guitar strap. Estimated delivery Sep 2026."
         },
         {
           "name": "Early Bird — Infinity Edit",
@@ -116549,7 +116664,7 @@
           "price_usd": 369,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 1× Sound for 14 built‑in instrument sounds, magnetic mic, phone holder, headphones, backpack, guitar strap. Special Kickstarter discount."
+          "description": "Infinity Edition with 14 built‑in instrument sounds, includes magnetic microphone, phone holder, headphones, backpack, guitar strap. Estimated delivery Sep 2026."
         },
         {
           "name": "Couple Package – Core Edition",
@@ -116557,7 +116672,7 @@
           "price_usd": 609,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 2× Sound For 3 built‑in instrument sounds (each guitar), 2× magnetic mic, 2× phone holder, 2× headphones, 2× backpack, 2× guitar straps, 2× charging cables. For couples/friends."
+          "description": "Two Core Edition guitars, each with 3 built‑in instrument sounds, includes dual magnetic microphones, phone holders, headphones, backpacks, guitar straps. Estimated delivery Sep 2026."
         },
         {
           "name": "Couple Package — Infinity Edit",
@@ -116565,7 +116680,7 @@
           "price_usd": 689,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 2× Sound for 14 built‑in instrument sounds (each guitar), 2× magnetic mic, 2× phone holder, 2× headphones, 2× backpack, 2× guitar straps. Best value for sharing the complete musical experience."
+          "description": "Two Infinity Edition guitars, each with 14 built‑in instrument sounds, includes dual magnetic microphones, phone holders, headphones, backpacks, guitar straps. Estimated delivery Sep 2026."
         }
       ],
       "ai_currency": "USD",
@@ -116742,11 +116857,11 @@
         "trend": 0,
         "heat": 4.3
       },
-      "ai_intro_en": "The Stringless Smart Guitar is a foldable smart guitar with built-in band sounds, guided chords, a speaker, and a snap-on mic for singing anywhere. It offers 14 instrument sounds, 30‑day battery life, and a phone stand, letting anyone play instantly without strings.",
+      "ai_intro_en": "The Stringless Smart Guitar is a foldable smart guitar featuring built‑in band sounds, guided chords, a speaker, and a snap‑on mic for singing anywhere. It offers 14 instrument sounds, a 30‑day battery life, and a full‑size design that feels like a real guitar. Included accessories such as a magnetic mic, phone stand, and headphones let you play, record, and practice instantly.",
       "ai_highlights_en": [
-        "14 built-in instrument sounds (guitar, piano, drums, etc.) switchable instantly.",
-        "Snap‑on magnetic microphone and phone stand enable instant singing and hands‑free use.",
-        "30‑day battery life from a 4000mAh battery, plus foldable, full‑size design for portability."
+        "14 built‑in instrument sounds (guitar, piano, drums, etc.) switch instantly for versatile music creation.",
+        "Foldable, full‑size design with a 4000mAh battery providing up to 30 days of playtime on a single charge.",
+        "Includes magnetic microphone, phone stand, and headphones for instant singing, private practice, and portable performance."
       ],
       "ai_specs_en": [
         [
@@ -116759,46 +116874,30 @@
         ],
         [
           "Instrument Sounds",
-          "14 built‑in"
+          "14"
         ],
         [
           "Playing Styles",
-          "5 modes"
+          "5"
         ],
         [
-          "Includes Headphones",
-          "Yes"
+          "Design",
+          "Foldable full‑size"
         ],
         [
-          "Includes Magnetic Mic",
-          "Yes"
+          "Included Accessories",
+          "Magnetic microphone, phone stand, headphones"
         ],
         [
-          "Includes Phone Holder",
-          "Yes"
+          "Shipping Destination",
+          "Anywhere in the world"
         ],
         [
-          "Dimensions",
-          "Full‑size guitar shape"
-        ],
-        [
-          "Weight",
-          "Not specified"
-        ],
-        [
-          "Price (Core Edition)",
-          "$299"
-        ],
-        [
-          "Price (Infinity Edition)",
-          "$339"
-        ],
-        [
-          "Currency",
-          "USD"
+          "Estimated Delivery",
+          "Sep 2026"
         ]
       ],
-      "ai_risks_en": "Hardware integration of sensors, audio systems, and manufacturing may face performance fine‑tuning, quality consistency, and supply‑chain coordination challenges; global logistics and shipping timelines could be affected by external factors; the team is building buffer time and will provide regular updates to mitigate risks.",
+      "ai_risks_en": "Hardware development risks include integrating sensors, audio systems, and ensuring consistent quality; supply chain or manufacturing delays could affect timelines; global logistics may impact shipping. The team is working with reliable partners and building buffer time to mitigate these issues.",
       "ai_creator_bio_en": "We are a team of musicians, engineers, and designers united by a shared vision to make music more accessible, portable, and intuitive.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
@@ -120582,68 +120681,72 @@
       "ai_tiers": [
         {
           "name": "Securidoor x1",
-          "price": 59,
+          "price": 59.0,
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "AI-powered surveillance module"
+          "description": "AI-powered surveillance module more info July 2026 Get it for €29.50 /month"
         },
         {
           "name": "Securidoor x2",
-          "price": 110,
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": 1,
-          "description": "AI-powered surveillance module"
-        },
-        {
-          "name": "Securidoor x3",
-          "price": 151,
+          "price": 110.0,
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "AI-powered surveillance module"
+          "description": "AI-powered surveillance module more info July 2026 Get it for €55.00 /month"
+        },
+        {
+          "name": "Securidoor x3",
+          "price": 151.0,
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "AI-powered surveillance module more info July 2026 Get it for €75.50 /month"
         }
       ],
       "ai_currency": "EUR",
-      "ai_intro_en": "Securidoor is the world’s first AI-powered surveillance module that turns any door or window into a smart security device. It monitors entrances 24/7, using AlwaysSafe© AI to filter routine activity and only alert you to genuine threats like lock picking, forced entry, or vandalism. Upon detection, it captures photos and video clips and sends instant mobile alerts with evidence.",
+      "ai_intro_en": "The Securidoor is the world’s first AI-powered surveillance module designed to be installed on a door frame or window, providing discreet 24/7 monitoring of your entrance. Using AlwaysSafe© AI, it filters out everyday activity and only alerts you when it detects hostile behaviors such as lock picking, banging, or vandalism, sending instant mobile alerts with photo and video evidence. The standalone device also supports over‑the‑air software updates for ongoing improvements.",
       "ai_highlights_en": [
-        "AI-powered detection of hostile behaviors (lock picking, forced entry, vandalism) with minimal false alerts.",
-        "Discreet, standalone module that installs easily on doors or windows for 24/7 surveillance.",
-        "Instant mobile alerts with photo/video evidence, enabling proactive response before intrusion."
+        "AI-powered threat detection that distinguishes real dangers from everyday activity.",
+        "Discreet, standalone module that installs on any door or window for 24/7 monitoring.",
+        "Over‑the‑air software updates enable continuous improvement without returning the device."
       ],
       "ai_specs_en": [
         [
-          "AI technology",
-          "AlwaysSafe©"
-        ],
-        [
-          "Monitoring",
-          "24/7"
+          "Detection",
+          "Recognizes lock picking, banging on door, vandalism"
         ],
         [
           "Recording",
-          "Photo and short video clip per detection"
+          "Automatically captures photo and short video clip on detection"
         ],
         [
-          "Alert type",
-          "Instant mobile alert with video evidence"
+          "Alert",
+          "Instant mobile notification with video evidence"
         ],
         [
-          "Software updates",
-          "Over-the-air (OTA)"
+          "Power",
+          "Standalone 24/7 entrance monitoring"
         ],
         [
-          "Installation",
-          "Fits standard door frame"
+          "Updates",
+          "Over‑the‑air (OTA) firmware upgrades"
         ],
         [
-          "Warranty",
-          "Manufacturer's warranty for defective units"
+          "Prototype Status",
+          "100% functional hardware validated"
+        ],
+        [
+          "Components",
+          "Critical parts already provisioned under supplier agreements"
+        ],
+        [
+          "Goal",
+          "Fund factory production via tooling, molds, and MOQ"
         ]
       ],
-      "ai_risks_en": "Remaining risks include minor mechanical tweaks during mold transition, possible shipping/customs delays, assembly line calibration adjustments, and potential software beta delays, though mitigated with safety margins and OTA updates.",
-      "ai_creator_bio_en": "Securima is the developer behind Securidoor, focusing on AI-powered surveillance solutions for home security.",
+      "ai_risks_en": "The main risks involve transitioning from a functional prototype to mass production: potential delays in tooling and injection mold fabrication, assembly line calibration challenges, and minor global logistical delays for secondary components. Software beta testing could also extend timelines, though OTA updates ensure hardware ships on schedule.",
+      "ai_creator_bio_en": "Securima is the creator behind Securidoor, developing AI-powered security hardware for home protection.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
@@ -130140,67 +130243,67 @@
       "raw_html_hash": "6b5e5ae28af91455",
       "raw_fetched_at": "2026-08-06T04:18:36.715916+00:00",
       "ai_validated": false,
-      "ai_intro_en": "This project supports the design and construction of a small-scale, electrolytic silver refining system focused on recovering silver from silver-plated scrap materials that are commonly discarded as low- or no-value waste. Many silver-plated items are scrapped or landfilled because conventional recovery methods are inefficient or cost-prohibitive. Our system utilizes an electrolytic recovery process, allowing the electrolyte to remain in service over extended periods while pure silver is continuously reclaimed from it.",
+      "ai_intro_en": "This project aims to design and build a small-scale electrolytic silver refinery that recovers silver from discarded silver-plated scrap. The system uses a low-waste electrolytic process, allowing the electrolyte to be reused while pure silver is continuously reclaimed. Backers receive physical silver crystal artifacts produced during normal operation.",
       "ai_highlights_en": [
-        "Electrolyte longevity: electrolyte remains active over long periods rather than being discarded after each cycle.",
-        "Direct solution recovery: silver recovered directly from solution, significantly reducing dissolved metal waste.",
-        "Reduced secondary waste: low generation of secondary waste streams compared to batch chemical stripping."
+        "Electrolyte reuse reduces chemical waste and enables continuous silver recovery from solution.",
+        "Produces ultra‑pure (999+) silver crystals and sand, sealed for lifelong preservation against tarnish.",
+        "Diverts silver‑plated scrap from landfills while recycling base metals, cutting demand for newly mined ore."
       ],
       "ai_specs_en": [
         [
-          "Electrolyte longevity",
-          "active over long periods"
+          "Electrolytic Cell",
+          "Engineered for long-term electrolyte stability and continuous use"
         ],
         [
-          "Direct solution recovery",
-          "silver recovered from solution"
+          "Power Delivery",
+          "Low-voltage, precision-controlled DC power delivery systems"
         ],
         [
-          "Secondary waste reduction",
-          "low generation of secondary waste"
+          "Containment & Collection",
+          "Custom anode containment for silver-bearing plated materials and specialized cathode collection systems for crystal formation"
         ],
         [
-          "Electrolyte management",
-          "integrated filtration and secondary containment"
+          "Post-Processing Setup",
+          "Tools for crystal harvesting, thorough washing, and drying processes"
         ],
         [
-          "Power delivery",
-          "low-voltage, precision-controlled DC"
+          "Environmental Management",
+          "Integrated filtration, electrolyte management, and secondary containment systems"
         ],
         [
-          "Anode containment",
-          "custom for silver-bearing plated materials"
+          "Safety Infrastructure",
+          "Dedicated monitoring components and safety equipment for a controlled lab environment"
         ],
         [
-          "Cathode collection",
-          "specialized for crystal formation"
+          "Electrolyte Longevity",
+          "Electrolyte remains active over long periods rather than being discarded after each cycle"
         ],
         [
-          "Post-processing",
-          "tools for crystal harvesting, washing, drying"
+          "Direct Solution Recovery",
+          "Silver recovered directly from solution, reducing dissolved metal waste"
         ],
         [
-          "Safety infrastructure",
-          "dedicated monitoring components"
+          "Reduced Secondary Streams",
+          "Low generation of secondary waste streams vs. batch chemical stripping"
         ],
         [
-          "Silver purity",
-          "999+ (ultra-pure)"
+          "Small-Scale Containment",
+          "Controlled, contained lab-scale processing to highlight responsible reclamation"
         ],
         [
-          "Form",
-          "crystal chunks and granular silver sand"
+          "Silver Purity",
+          "999+ pure silver"
         ],
         [
-          "Available weights",
-          "10 g, 0.5 troy oz, 1 troy oz, 10 troy oz, 1000 g"
+          "Packaging",
+          "Fully reusable glass jars, natural cork/metal seals, 100% recycled paper labels"
         ]
       ],
-      "ai_risks_en": "Scrap composition variance affects recovery efficiency; electrolytic parameters require precise tuning per material; crystal morphology varies naturally between runs; supply chain logistics may impact timelines.",
-      "ai_creator_bio_en": "Greg is the creator of the Electrolytic Silver Refinery project, focused on recovering silver from discarded plated scrap.",
+      "ai_risks_en": "Risks include variability in scrap composition affecting recovery efficiency, need for precise tuning of electrolytic parameters for each material type, natural variation in crystal morphology, and potential supply chain delays for specialized lab equipment and power electronics.",
+      "ai_creator_bio_en": "Greg is an independent creator focused on electrolytic silver recovery from scrap.",
       "ai_tiers": [
         {
-          "name": "10 Gram .999 Fine Silver Sand $35",
+          "name": "10 Gram .999 Fine Silver Sand",
           "price": 35,
           "price_usd": 35,
           "currency": "USD",
@@ -130208,23 +130311,23 @@
           "description": "One clear glass display vial containing 10 grams of high-purity, granular silver sand captured directly from our initial recovery line. This reward is not an investment and carries no financial or resale guarantees."
         },
         {
-          "name": "1/2 Troy Ounce .999 Fine Silver Sand $55",
+          "name": "1/2 Troy Ounce .999 Fine Silver Sand",
           "price": 55,
           "price_usd": 55,
           "currency": "USD",
           "backers": 0,
-          "description": "One clear glass display vial containing 1/2 Troy ounce of high-purity, granular silver sand captured directly from our initial recovery line. This reward is not an investment and carries no financial or resale guarantees."
+          "description": "One clear glass display vial containing 1/2 Troy ounces of high-purity, granular silver sand captured directly from our initial recovery line. This reward is not an investment and carries no financial or resale guarantees."
         },
         {
-          "name": "1 Troy oz Mixed Silver Display Jar $95",
+          "name": "1 Troy oz Mixed Silver Display Jar",
           "price": 95,
           "price_usd": 95,
           "currency": "USD",
           "backers": 0,
-          "description": "One clear glass presentation jar featuring 1 Troy ounce of refined silver—consisting of 1/2 oz of heavy crystal chunks layered cleanly over 1/2 oz of fine granular silver sand. This reward is not an investment and carries no financial or resale guarantees."
+          "description": "One clear glass presentation jar featuring 1 Troy ounce of refined silver—consisting of 1/2 oz of heavy crystal chunks layered cleanly over 1/2 oz of fine granular silver sand."
         },
         {
-          "name": "10 Troz Master Crystal & Sand Collection $725",
+          "name": "10 Troz Master Crystal & Sand Collection",
           "price": 725,
           "price_usd": 725,
           "currency": "USD",
@@ -130232,7 +130335,7 @@
           "description": "A heavy-weight display lot consisting of 10 troy ounces of refined silver packaged in glass jars: 5 troy ounces of select dense silver crystal chunks and 5 troy ounces of fine silver sand from the exact same refining batch."
         },
         {
-          "name": "1,000 Gram Kilo Display $1,450",
+          "name": "1,000 Gram Kilo Display",
           "price": 1450,
           "price_usd": 1450,
           "currency": "USD",
@@ -137773,56 +137876,48 @@
       },
       "raw_html_hash": "cafdd21a212bf9a9",
       "raw_fetched_at": "2026-08-04T14:51:23.460130+00:00",
-      "ai_intro_en": "Meowetrics is a connected scale that effortlessly tracks your cat's weight and nutrition, providing reliable and smart data. Developed by a data analyst and web developer, it automates weight and feeding habit monitoring to help detect health issues early. The system operates autonomously with local processing, offering a web interface and Home Assistant integration.",
+      "ai_intro_en": "Meowetrics is a connected scale that effortlessly tracks your cat's weight and nutrition, providing reliable and smart data. It helps owners monitor health metrics like weight and eating habits, enabling early detection of issues such as diabetes. The system operates autonomously with local data processing and a web interface, ensuring privacy and no subscription fees.",
       "ai_highlights_en": [
-        "Stress‑free automatic tracking of cat weight and meal frequency.",
-        "Fully autonomous operation with local data processing, no subscriptions or external servers.",
-        "Early health‑issue detection (e.g., diabetes) and Home Assistant integration for smart‑home use."
+        "Stress-free weight and nutrition tracking for cats",
+        "Fully autonomous operation with local data processing, no external servers or subscriptions",
+        "Accurate measurement that distinguishes real health changes from environmental noise"
       ],
       "ai_specs_en": [
         [
-          "Tracks weight",
+          "Tracks weight and nutrition",
           "Yes"
         ],
         [
-          "Tracks nutrition (meal quantity/frequency)",
+          "Autonomous operation (no external servers)",
           "Yes"
         ],
         [
-          "Processor",
-          "ESP32"
+          "Local data processing and web interface",
+          "Yes"
         ],
         [
-          "Software stack",
-          "Django/React full-stack"
+          "Energy-efficient",
+          "Yes"
         ],
         [
-          "Connectivity",
-          "WiFi"
-        ],
-        [
-          "Local data processing",
-          "Yes (autonomous, no external servers)"
-        ],
-        [
-          "Subscription required",
-          "No"
+          "Cloud-independent",
+          "Yes"
         ],
         [
           "Home Assistant integration",
-          "Yes (documentation provided)"
-        ],
-        [
-          "Energy efficient",
           "Yes"
         ],
         [
-          "User‑modifiable and repairable",
+          "Measurement precision distinguishes real variations from noise",
+          "Yes"
+        ],
+        [
+          "User-modifiable and repairable",
           "Yes"
         ]
       ],
-      "ai_risks_en": "Ensuring data reliability and clarity; building an autonomous system without external subscriptions; achieving measurement precision to distinguish real variations from environmental noise.",
-      "ai_creator_bio_en": "Rabu Pierre, a data analyst and web developer, is the creator of Meowetrics, an embedded system for tracking cats' weight and nutrition.",
+      "ai_risks_en": "The project faces challenges in ensuring data reliability and clarity, building an autonomous embedded system without external servers, and achieving measurement precision to distinguish real variations from environmental noise. Overcoming these technical hurdles is critical to delivering a trustworthy product.",
+      "ai_creator_bio_en": "Developer and maker designing Meowetrics, an embedded system to track cats' weight and nutrition.",
       "ai_tiers": [
         {
           "name": "Soutien symbolique",
@@ -137830,15 +137925,15 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": 1,
-          "description": "Thank-you email and regular project updates."
+          "description": "Thank-you email and regular project updates supporting autonomous, energy-efficient, server-independent development."
         },
         {
-          "name": "Soutien Maker",
+          "name": "Soutient Maker",
           "price": 10,
           "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "Receive the Meowetrics presentation PDF, maker documentation, high-quality logo wallpaper, and personal thanks with updates."
+          "description": "Receive presentation PDF, maker documentation, logo wallpaper, and personal thanks while supporting autonomous, energy-efficient, cloud-independent development."
         },
         {
           "name": "Soutien Développement",
@@ -137846,7 +137941,7 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "Receive comprehensive PDF story, technical insights, trial/error logs, design focus, hardware/software evolution, photos, maker doc, wallpapers, and personal thanks."
+          "description": "Get comprehensive PDF story, technical insights, trial/error logs, design focus, maker docs, wallpapers, and personal thanks."
         },
         {
           "name": "Système Meowetrics",
@@ -137854,7 +137949,7 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "Receive a fully assembled Meowetrics connected scale with pre-configured WiFi, local web interface, maker doc, development story PDF, wallpapers, and personal thanks."
+          "description": "Receive fully assembled connected scale with WiFi, weight monitoring, local web interface, Home Assistant docs, maker documentation, development story PDF, wallpapers, and personal thanks."
         },
         {
           "name": "Édition Supporter",
@@ -137862,7 +137957,7 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "Receive a personalized Meowetrics system, customization for your cat, signed numbered limited edition, direct installation/Home Assistant assistance, plus all previous rewards."
+          "description": "Receive personalized customized scale, signed limited edition, direct installation assistance, plus all previous rewards."
         }
       ],
       "ai_validated": false,
