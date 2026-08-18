@@ -15,6 +15,7 @@ CLASSIFY_MODEL = os.environ.get("CF_CLASSIFY_MODEL", CF_MODEL)
 
 from scripts.snapshot import batch_append
 from scripts.score import batch_compute
+from scripts.gate import gate_smart_hardware
 from safeio import atomic_write_json, load_json_safe
 
 RAW_DIR = Path(__file__).parent / "raw"
@@ -26,6 +27,40 @@ NON_HARDWARE_TYPES = {
     "纯机械工具", "纯软件", "服务众筹", "数字下载",
     "服饰鞋包", "食品厨具", "书籍影视", "其他非硬件",
 }
+
+# 闸门拦截项累计（供 main 统一写删除清单，保证可恢复）
+GATE_DELETED = []
+
+def append_deletion_manifest(items: list) -> None:
+    """集中写入「非硬件删除清单」到 scripts/raw/deleted_non_hardware_YYYYMMDD.json。
+
+    同一次运行内多次调用会追加（支持「闸门拦截」+「终态安全网」两处来源合并）。
+    items 元素: {"id","slug","name","platform","hw_type","hw_reason","source"}
+    """
+    if not items:
+        return
+    try:
+        raw_dir = Path(__file__).parent / "raw"
+        raw_dir.mkdir(parents=True, exist_ok=True)
+        mpath = raw_dir / f"deleted_non_hardware_{datetime.utcnow().strftime('%Y%m%d')}.json"
+        existing_items = []
+        if mpath.exists():
+            try:
+                existing_items = json.loads(mpath.read_text(encoding="utf-8")).get("items", [])
+            except Exception:
+                existing_items = []
+        all_items = existing_items + items
+        mpath.write_text(
+            json.dumps(
+                {"deleted_at": datetime.utcnow().isoformat() + "Z",
+                 "count": len(all_items), "items": all_items},
+                ensure_ascii=False, indent=2,
+            ),
+            encoding="utf-8",
+        )
+        print(f"  📝 删除清单已写入: {mpath} (+{len(items)})")
+    except Exception as e:
+        print(f"  ⚠️ 删除清单写入失败: {e}")
 
 def batch_hardware_classify(projects: list, batch_size: int = 50) -> list:
     """使用 Cloudflare Workers AI 批量分类硬件/非硬件项目（替代旧的逐个分类）。
@@ -40,14 +75,38 @@ def batch_hardware_classify(projects: list, batch_size: int = 50) -> list:
     classified = []
     total = len(projects)
     skipped = 0
+    gate_blocked = 0
     n_batches = (total + batch_size - 1) // batch_size
 
     for batch_idx in range(n_batches):
         batch = projects[batch_idx * batch_size:(batch_idx + 1) * batch_size]
 
-        # 精简字段省 token
-        products = []
+        # ① 内容级闸门（零 API 依赖）：先拦明显非硬件。不打 LLM（CF 宕机也能拦），
+        #    且不参与下方护栏统计（不会被「单批删除率>40% 整批兜底保留」误保）。
+        llm_batch = []
         for p in batch:
+            g = gate_smart_hardware(p)
+            if g["decision"] == "block":
+                p["hardware_class"] = "non-hardware"
+                p["hw_type"] = g["hw_type"]
+                p["hw_reason"] = "[GATE] " + g["hw_reason"]
+                p["gate_blocked"] = True
+                gate_blocked += 1
+                GATE_DELETED.append({
+                    "id": p.get("id"),
+                    "slug": p.get("slug"),
+                    "name": p.get("name"),
+                    "platform": p.get("platform"),
+                    "hw_type": g["hw_type"],
+                    "hw_reason": "[GATE] " + g["hw_reason"],
+                    "source": "gate",
+                })
+            else:
+                llm_batch.append(p)
+
+        # ② 仅对未拦截项调 LLM 分类（精简字段省 token）
+        products = []
+        for p in llm_batch:
             products.append({
                 "id": p.get("id", ""),
                 "name": p.get("name", ""),
@@ -121,34 +180,50 @@ Products:
                 raise ValueError("No JSON array in LLM response")
             classifications = json.loads(m.group())
             for i, cls in enumerate(classifications):
-                if i < len(batch):
+                if i < len(llm_batch):
                     keep = cls.get("keep", True)
-                    batch[i]["hardware_class"] = "hardware" if keep else "non-hardware"
-                    batch[i]["hw_type"] = (cls.get("product_type", "") or "").strip()
-                    batch[i]["hw_reason"] = cls.get("reason", "")
+                    llm_batch[i]["hardware_class"] = "hardware" if keep else "non-hardware"
+                    llm_batch[i]["hw_type"] = (cls.get("product_type", "") or "").strip()
+                    llm_batch[i]["hw_reason"] = cls.get("reason", "")
                     if not keep:
                         skipped += 1
         except Exception as e:
             print(f"  ⚠️ 批次 {batch_idx + 1}/{n_batches} LLM 分类失败: {e}")
-            for p in batch:
+            for p in llm_batch:
                 p["hardware_class"] = "hardware"
 
-        # 失败护栏：本批次删除率过高（>40%）视为模型异常，整批默认保留，
+        # 失败护栏：本批次【LLM 判定】删除率过高（>40%）视为模型异常，整批默认保留，
         # 杜绝静默砍掉 90% 数据（参考 2026-07-20 的 635→58 事故）。
-        _non = sum(1 for p in batch if p.get("hardware_class") == "non-hardware")
-        if batch and _non / len(batch) > 0.4:
-            print(f"  🛡️ 护栏触发：本批 {_non}/{len(batch)} 被判删除(>{40}%) → 视为异常，整批改判保留")
-            for p in batch:
+        # ⚠️ 仅统计 LLM 判定项（llm_batch），闸门拦截项不参与，
+        # 否则会被整批兜底保留（违背闸门初衷）。
+        _non = sum(1 for p in llm_batch if p.get("hardware_class") == "non-hardware")
+        if llm_batch and _non / len(llm_batch) > 0.4:
+            print(f"  🛡️ 护栏触发：本批 LLM 判定 {_non}/{len(llm_batch)} 删除(>{40}%) → 视为异常，整批改判保留")
+            for p in llm_batch:
                 p["hardware_class"] = "hardware"
                 if not p.get("hw_type"):
                     p["hw_type"] = "硬件(护栏兜底)"
                 if not p.get("hw_reason"):
                     p["hw_reason"] = "删除率超阈值，护栏兜底保留"
 
-        classified.extend(batch)
-        print(f"  ✓ 批次 {batch_idx + 1}/{n_batches}: {len(batch)} 项")
+        # LLM 判定为删除的项（护栏后真实删除）记入删除清单，保证可恢复
+        for p in llm_batch:
+            if p.get("hardware_class") == "non-hardware":
+                GATE_DELETED.append({
+                    "id": p.get("id"),
+                    "slug": p.get("slug"),
+                    "name": p.get("name"),
+                    "platform": p.get("platform"),
+                    "hw_type": p.get("hw_type"),
+                    "hw_reason": p.get("hw_reason"),
+                    "source": "llm",
+                })
 
-    print(f"  🚫 {skipped} non-hardware projects skipped ({total - skipped} hardware kept)")
+        classified.extend(batch)
+        print(f"  ✓ 批次 {batch_idx + 1}/{n_batches}: {len(batch)} 项 (闸门 {len(batch)-len(llm_batch)}, LLM {len(llm_batch)})")
+
+    print(f"  🚫 {skipped} non-hardware projects skipped by LLM ({total - skipped - gate_blocked} hardware kept)")
+    print(f"  🔒 {gate_blocked} obvious non-hardware blocked by content gate (CF-independent)")
     return classified
 
 # Category mapping from KS subcategory ID → TopNice category
@@ -355,44 +430,11 @@ def main():
     removed = before - len(projects_list)
     if removed:
         print(f"  🗑️  Deleted {removed} non-hardware project(s) after classification")
-        # Audit manifest — write what was deleted so a wrong deletion is recoverable.
-        manifest = {
-            "deleted_at": datetime.utcnow().isoformat() + "Z",
-            "reason": "classified non-hardware by batch_hardware_classify (terminal pass)",
-            "count": removed,
-            "items": [
-                {
-                    "id": p.get("id"),
-                    "slug": p.get("slug"),
-                    "name": p.get("name"),
-                    "platform": p.get("platform"),
-                    "hw_type": p.get("hw_type"),
-                    "hw_reason": p.get("hw_reason"),
-                }
-                for p in deleted
-            ],
-        }
-        try:
-            import os
-            raw_dir = Path(__file__).parent / "raw"
-            raw_dir.mkdir(parents=True, exist_ok=True)
-            mpath = raw_dir / f"deleted_non_hardware_{datetime.utcnow().strftime('%Y%m%d')}.json"
-            # Append to today's manifest if it exists (multiple runs per day)
-            existing_manifest = []
-            if mpath.exists():
-                try:
-                    existing_manifest = json.loads(mpath.read_text(encoding="utf-8")).get("items", [])
-                except Exception:
-                    existing_manifest = []
-            all_items = existing_manifest + manifest["items"]
-            mpath.write_text(
-                json.dumps({"deleted_at": manifest["deleted_at"], "count": len(all_items), "items": all_items},
-                           ensure_ascii=False, indent=2),
-                encoding="utf-8",
-            )
-            print(f"  📝  Deletion manifest written: {mpath}")
-        except Exception as e:
-            print(f"  ⚠️  Failed to write deletion manifest: {e}")
+
+    # 删除清单（集中写入，含「闸门拦截项 + 本安全网兜底项」），保证可恢复
+    if deleted or GATE_DELETED:
+        append_deletion_manifest(deleted + GATE_DELETED)
+        GATE_DELETED.clear()
 
     # Step: Initialize history & append daily snapshot
     snap_stats = batch_append(projects_list)
