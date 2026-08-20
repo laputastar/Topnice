@@ -26,6 +26,7 @@ OUTPUT = Path(__file__).parent.parent / "src" / "data" / "projects.json"
 NON_HARDWARE_TYPES = {
     "纯机械工具", "纯软件", "服务众筹", "数字下载",
     "服饰鞋包", "食品厨具", "书籍影视", "其他非硬件",
+    "化妆品",
 }
 
 # 闸门拦截项累计（供 main 统一写删除清单，保证可恢复）

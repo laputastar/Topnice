@@ -36,7 +36,7 @@ ELECTRONIC_RE = re.compile(
         smart-?band | smart-?scale | smart-?lock | app-?controlled | companion-?app |
         \bapp\b | connected | rechargeable | battery | batteries | usb-?c | \busb\b | solar |
         electric | electrical | charge | charging | charger |
-        motor | brushless | actuator | pump | thermoelectric | peltier | heating-?element |
+        motor | brushless | actuator | pump | diffuser | atomizer | thermoelectric | peltier | heating-?element |
         sensor | sensors | camera | microphone | display | screen | e-?ink | touch-?screen |
         touch-?panel | mcu | arduino | raspberry | \bchip\b | pcb | circuit-?board | \bcircuit\b |
         led | oled | speaker | headphone | earbud | earbuds | projector | haptic | \bgpu\b |
@@ -130,6 +130,15 @@ NONHW_RULES = [
      r"chopping board|titanium.*(tool|utensil)|climbing board|climbboard|fingerboard|"
      r"finger board|hangboard|hang board|training board|pull-?up board)\b",
      "纯机械工具", "纯机械工具，无电子模块"),
+
+    # 化妆品 / 美妆 / 护发 / 防晒（无电子信号；2026-08-20 补漏：Brown Chic Naturals / SUNFREAKS）
+    (r"\b(sunscreen|sunblock|spf ?\d+|moisturizer|moisturiser|lipstick|lip balm|lip gloss|"
+     r"mascara|shampoo|hair conditioner|haircare|hair care|perfume|fragrance|cologne|"
+     r"eau de toilette|cosmetics|cosmetic|makeup|make-?up|skincare|skin care|"
+     r"face serum|body lotion|body cream|face cream|hand cream|eye cream|"
+     r"deodorant|antiperspirant|nail polish|body wash|concealer|beard oil|beard balm|"
+     r"essential oil|face wash|hair oil|body oil)\b",
+     "化妆品", "化妆品/美妆/护发/防晒类，无电子信号"),
 ]
 
 
