@@ -16,6 +16,7 @@ ai-extract.py — 用 LLM 从原始抓取内容提取项目结构化字段
   python scripts/ai-extract.py --platform indiegogo --force # 强制重抽全部 IG（含 raw HTML tiers）
   python scripts/ai-extract.py --project omni-x1            # 指定项目
   python scripts/ai-extract.py --dry-run                    # 仅列出待处理
+  python scripts/ai-extract.py --only-description [--limit N]  # 轻量补抽缺 ai_description_en（存量 backfill，只抽/只写该字段，省 token）
 """
 import json, sys, os, gzip, re, time
 from pathlib import Path
@@ -198,12 +199,30 @@ def html_to_llm_content(raw_html: str) -> str:
     return merged[:MAX_CONTENT_CHARS]
 
 
-def _call_llm(content: str, currency: str, platform: str, provider: dict) -> dict | None:
-    """调用单个 AI 提供商（Mouter 主 / Cloudflare / Agnes 备用），返回解析后的 dict 或 None"""
-    user_prompt = (
-        "You are analyzing a crowdfunding project page (raw page text). "
-        "Extract structured information as JSON.\n\n"
-        f"CONTEXT:\n- Platform: {platform}\n- Currency hint: {currency}\n\n"
+def _call_llm(content: str, currency: str, platform: str, provider: dict,
+              only_description: bool = False) -> dict | None:
+    """调用单个 AI 提供商（Mouter 主 / Cloudflare / Agnes 备用），返回解析后的 dict 或 None。
+
+    only_description=True 时走轻量模式：只让 LLM 输出 ai_description_en（省 token，
+    用于存量补抽详情描述，不重抽其他字段、不改 ai_validated）。
+    """
+    if only_description:
+        user_prompt = (
+            "You are analyzing a crowdfunding project page (raw page text). "
+            "Extract ONE field as JSON.\n\n"
+            f"CONTEXT:\n- Platform: {platform}\n\n"
+            "1. ai_description_en: A longer detailed project description, 2-5 sentences "
+            "(max 600 chars). Optional enhancement for the detail page — return an empty "
+            "string if the page content is too thin to summarize.\n\n"
+            "PAGE TEXT:\n"
+            f"{content}\n\n"
+            "Respond ONLY with valid JSON: {\"ai_description_en\": \"...\"}"
+        )
+    else:
+        user_prompt = (
+            "You are analyzing a crowdfunding project page (raw page text). "
+            "Extract structured information as JSON.\n\n"
+            f"CONTEXT:\n- Platform: {platform}\n- Currency hint: {currency}\n\n"
         "Reward tiers may be called 'rewards', 'perks', 'contribution levels', or 'pledges'.\n\n"
         "Extract these fields:\n"
         "1. ai_intro_en: A 2-3 sentence product summary (max 400 chars)\n"
@@ -274,14 +293,22 @@ def _call_llm(content: str, currency: str, platform: str, provider: dict) -> dic
     return None
 
 
-def extract(project: dict, force: bool = False) -> bool:
-    """为单个项目提取 AI 字段。返回 True=成功写入，False=跳过/失败。"""
+def extract(project: dict, force: bool = False, only_description: bool = False) -> bool:
+    """为单个项目提取 AI 字段。返回 True=成功写入，False=跳过/失败。
+
+    only_description=True（轻量补抽）：只抽取/写入 ai_description_en，不重抽其他
+    字段、不改 ai_validated；跳过判据只看「是否已有 description」。
+    """
     # 修复：跳过判据从"ai_intro_en 非空"改为"ai_validated == True"。
     # 旧逻辑只看单一字段，若某项目仅部分字段缺失（intro 有值但其余空）会被永久跳过，
     # 造成"字段不全却无法重抽"的锁死。改为以 ai_validated 为准：
     # 只有同时通过"爬取完整 + AI 完整解读"两项校验的项目才跳过重抽，
     # 其余（真空 / 占位符 / 部分缺失）一律进入重抽候选，避免数据毒药锁死。
-    if not force and project.get("ai_validated"):
+    if only_description:
+        if project.get("ai_description_en"):
+            print("  ⏭️  已有 ai_description_en，跳过")
+            return False
+    elif not force and project.get("ai_validated"):
         return False
 
     slug = project.get("slug") or project.get("id")
@@ -306,9 +333,12 @@ def extract(project: dict, force: bool = False) -> bool:
         max_attempts = 3 if i == 0 else 1
         for attempt in range(1, max_attempts + 1):
             print(f"  📡 尝试 {name}... (attempt {attempt}/{max_attempts})")
-            r = _call_llm(content, currency, platform, provider)
+            r = _call_llm(content, currency, platform, provider, only_description=only_description)
             # 仅“有用”的结果（非空且非占位符）才算成功；空/占位符判失败并回落下一个 provider
-            if r and _is_useful_result(r):
+            if r and (
+                (only_description and (r.get("ai_description_en") and not _is_placeholder_str(r.get("ai_description_en"))))
+                or (not only_description and _is_useful_result(r))
+            ):
                 result = r
                 print(f"  ✅ {name} 成功")
                 break
@@ -328,6 +358,17 @@ def extract(project: dict, force: bool = False) -> bool:
     if not result:
         print("  ❌ 所有 AI 提供商均失败（或均返回空/占位符）")
         return False
+
+    # —— 轻量补抽模式：只写 description_en，不碰其他字段 / 不改 ai_validated ——
+    if only_description:
+        desc = result.get("ai_description_en")
+        if not desc or _is_placeholder_str(desc):
+            print("  ⚠️  description 为空或占位符，不落盘")
+            return False
+        project["ai_description_en"] = desc
+        project["ai_source"] = src
+        print(f"  ✅ description {len(desc)} chars")
+        return True
 
     # 空提取防护：若核心字段全部为空（intro/highlights/specs/tiers 全 0），
     # 视为 AI 抽空（如推理模型返回空白 / JSON 解析丢字段），不落盘污染数据。
@@ -371,14 +412,18 @@ def main():
     force = "--force" in sys.argv
     dry_run = "--dry-run" in sys.argv
     only_empty_tiers = "--only-empty-tiers" in sys.argv
+    only_description = "--only-description" in sys.argv
     target_project = None
     platform_filter = None
+    limit = None
 
     for i, arg in enumerate(sys.argv[1:]):
         if arg == "--project" and i + 2 < len(sys.argv):
             target_project = sys.argv[i + 2]
         elif arg == "--platform" and i + 2 < len(sys.argv):
             platform_filter = sys.argv[i + 2]
+        elif arg == "--limit" and i + 2 < len(sys.argv):
+            limit = int(sys.argv[i + 2])
 
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -399,7 +444,10 @@ def main():
             continue
         if target_project and target_project not in p.get("slug", "") and target_project not in p.get("id", ""):
             continue
-        if only_empty_tiers:
+        if only_description:
+            if p.get("ai_description_en"):
+                continue  # 已有 description，跳过（不重抽）
+        elif only_empty_tiers:
             if p.get("ai_tiers") and len(p.get("ai_tiers", [])) > 0:
                 continue  # already has tiers, skip even if force
         elif not force and p.get("ai_validated"):
@@ -409,6 +457,8 @@ def main():
         if not read_raw_html(slug) and not p.get("html_story"):
             continue
         candidates.append(p)
+        if limit and len(candidates) >= limit:
+            break
 
     if dry_run:
         print(f"📋 待处理项目: {len(candidates)} 个")
@@ -427,7 +477,7 @@ def main():
     for i, p in enumerate(candidates):
         name = p.get("name", "?")[:50]
         print(f"\n[{i+1}/{len(candidates)}] {name}")
-        ok = extract(p, force=force or only_empty_tiers)
+        ok = extract(p, force=force or only_empty_tiers, only_description=only_description)
         if ok:
             success += 1
         if (i + 1) % 5 == 0:

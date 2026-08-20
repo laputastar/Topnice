@@ -15,6 +15,16 @@ on:
         required: false
         default: false
         type: boolean
+      backfill-description:
+        description: 'Backfill missing ai_description_en only (lightweight mode, no full re-extract, ~4000 tokens each)'
+        required: false
+        default: false
+        type: boolean
+      description-limit:
+        description: 'Max projects to backfill (empty = all; use a small number first to verify quality & RPM)'
+        required: false
+        default: ''
+        type: string
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -95,7 +105,12 @@ jobs:
           fi
 
       - name: AI extract fields
-        run: python scripts/ai-extract.py ${{ github.event.inputs.force-extract == 'true' && '--only-empty-tiers' || '' }}
+        run: |
+          ARGS=""
+          [ "${{ github.event.inputs.force-extract }}" = "true" ] && ARGS="$ARGS --only-empty-tiers"
+          [ "${{ github.event.inputs.backfill-description }}" = "true" ] && ARGS="$ARGS --only-description"
+          [ -n "${{ github.event.inputs.description-limit }}" ] && ARGS="$ARGS --limit ${{ github.event.inputs.description-limit }}"
+          python scripts/ai-extract.py $ARGS
 
       - name: Commit AI-extracted fields (persist before validate/translate)
         if: always()
