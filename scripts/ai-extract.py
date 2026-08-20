@@ -199,7 +199,7 @@ def html_to_llm_content(raw_html: str) -> str:
 
 
 def _call_llm(content: str, currency: str, platform: str, provider: dict) -> dict | None:
-    """调用单个 AI 提供商（Cloudflare 主 / Agnes 备用），返回解析后的 dict 或 None"""
+    """调用单个 AI 提供商（Mouter 主 / Cloudflare / Agnes 备用），返回解析后的 dict 或 None"""
     user_prompt = (
         "You are analyzing a crowdfunding project page (raw page text). "
         "Extract structured information as JSON.\n\n"
@@ -231,7 +231,7 @@ def _call_llm(content: str, currency: str, platform: str, provider: dict) -> dic
 
     name = provider["name"]
 
-    # Cloudflare Workers AI（主用）：直接调用，无重试
+    # Cloudflare Workers AI（备用）：直接调用，无重试
     if provider["type"] == "cloudflare":
         try:
             raw = call_cloudflare(

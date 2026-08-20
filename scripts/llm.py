@@ -5,10 +5,10 @@ llm.py — TopNice 数据管线统一 LLM / API 调用层（共享模块）
 所有 API Key 仅从环境变量读取，严禁硬编码（防泄露进 git / 分享）。
 
 提供商:
-  - Cloudflare Workers AI (主, 英文抽取): CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID / 模型可配（默认 qwen3-30b）
+  - Mouter AI  (OpenAI 兼容, 主用, 英文抽取 + 翻译): MOUTER_API_KEY + MOUTER_BASE_URL(缺省 https://api.ainext.com/v1) + MOUTER_MODEL(缺省 nvidia/nemotron-3-super-120b-a12b)
+    英文抽取 (ai-extract) 与翻译 (mouter-translate) 均独占该引擎额度，与 Cloudflare 免费 10k neurons 解耦避免撞车（2026-07-27 起 Mouter 主用英文抽取）。
+  - Cloudflare Workers AI (备用): CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID / 模型可配（默认 qwen3-30b）
   - Agnes AI   (OpenAI 兼容, 推理模型, 备用): AGNES_API_KEY / base https://apihub.agnes-ai.com/v1 / model agnes-2.0-flash
-  - Mouter AI  (OpenAI 兼容, 翻译专用独立引擎): MOUTER_API_KEY + MOUTER_BASE_URL(缺省 https://api.ainext.com/v1) + MOUTER_MODEL(缺省 nvidia/nemotron-3-super-120b-a12b)
-    翻译链路独占该引擎额度，与 Cloudflare 英文抽取解耦，避免 10k 免费额度撞车。
 
 统一能力:
   - 环境变量只在此处集中读取一次（全管线唯一来源）
@@ -66,6 +66,7 @@ MOUTER_RPM = int(os.environ.get("MOUTER_RPM", "3"))
 
 _rl_lock = threading.Lock()
 _rl_last: dict[str, float] = {}
+_client_cache: dict = {}  # OpenAI client 复用缓存（key: base_url|api_key，避免每次握手）
 
 def _rate_limit(key: str, rpm: int) -> None:
     """保证同一 key 维度每分钟请求数 ≤ rpm（最小间隔 = 60/rpm 秒）。
@@ -154,7 +155,12 @@ def call_compatible_llm(
         raise LLMError("openai 未安装")
     if not api_key:
         raise LLMError("API Key 未配置")
-    client = OpenAI(api_key=api_key, base_url=base_url)
+    # 复用 client：按 (base_url|api_key) 缓存，避免每次调用重复 TCP/TLS 握手
+    _cache_key = f"{base_url}|{api_key}"
+    client = _client_cache.get(_cache_key)
+    if client is None:
+        client = OpenAI(api_key=api_key, base_url=base_url)
+        _client_cache[_cache_key] = client
     messages = []
     if system:
         messages.append({"role": "system", "content": system})
