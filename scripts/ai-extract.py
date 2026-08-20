@@ -68,6 +68,7 @@ Rules:
 - Prices must come from the TIERS data, not guessed
 - Do not fabricate, assume, or hallucinate
 - Never output template placeholder text such as "Product Summary", "Highlight 1", "Spec 1", "Tier 1", or "X goes here". If a field cannot be determined, return an empty string or empty array.
+- Ignore page chrome and boilerplate: navigation links, "For creators", login/sign-up prompts, cookie banners, maintenance notices ("will be down for scheduled maintenance"), "HTML5 capable browser" warnings, or anything that is not genuine project content. Never use such text in ai_intro_en.
 - Output will be shown on an English-language website
 
 Respond ONLY with valid JSON, no markdown fences, no explanation."""
@@ -97,7 +98,7 @@ def _is_placeholder_str(v) -> bool:
     return False
 
 def _result_has_placeholder(result: dict) -> bool:
-    str_fields = ["ai_intro_en", "ai_risks_en", "ai_creator_bio_en"]
+    str_fields = ["ai_intro_en", "ai_risks_en", "ai_creator_bio_en", "ai_description_en"]
     list_fields = ["ai_highlights_en", "ai_specs_en"]
     for f in str_fields:
         if _is_placeholder_str(result.get(f)):
@@ -180,10 +181,19 @@ def html_to_llm_content(raw_html: str) -> str:
     )
     # 去掉剩余 HTML 标签，保留文本
     cleaned = re.sub(r'<[^>]+>', ' ', cleaned)
-    # 合并空白
-    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
-    # 去掉过短行
-    lines = [l.strip() for l in cleaned.split("\n") if len(l.strip()) >= 3]
+    # 按行清洗：合并行内空白，丢弃页面噪音行（导航/登录/维护/cookie 等，
+    # 避免 LLM 把它们当项目内容抽取——历史 21 项 ai_intro_en 垃圾即因此产生）
+    # 与过短行。注意：原逻辑先 \s+ 合并整篇再 split("\n") 导致行过滤失效，故顺序改为先分行。
+    _NOISE_LINE_RE = re.compile(
+        r"(for creators|log in|sign up|sign-in|subscribe|newsletter|"
+        r"html5 (capable )?browser|scheduled maintenance|accept cookies|"
+        r"cookie (policy|banner|notice)|enable javascript|javascript required|"
+        r"back to top|stay in the loop|follow us on)", re.I)
+    lines = []
+    for ln in cleaned.split("\n"):
+        s = re.sub(r'\s+', ' ', ln).strip()
+        if len(s) >= 3 and not _NOISE_LINE_RE.search(s):
+            lines.append(s)
     merged = "\n".join(lines)
     return merged[:MAX_CONTENT_CHARS]
 
@@ -209,7 +219,10 @@ def _call_llm(content: str, currency: str, platform: str, provider: dict) -> dic
         "   - Extract EVERY tier with its price.\n"
         "   - If price is non-USD, put native price in 'price' with that 'currency', "
         "estimate 'price_usd' if inferable, else null.\n"
-        "   - If no tiers on page, return empty array.\n\n"
+        "   - If no tiers on page, return empty array.\n"
+        "7. ai_description_en: A longer detailed project description, 2-5 sentences "
+        "(max 600 chars). Optional enhancement for the detail page — return an empty "
+        "string if the page content is too thin to summarize.\n\n"
         "PAGE TEXT:\n"
         f"{content}\n\n"
         "Respond ONLY with valid JSON, no markdown."
@@ -334,7 +347,8 @@ def extract(project: dict, force: bool = False) -> bool:
         return False
 
     expected = ["ai_intro_en", "ai_highlights_en", "ai_specs_en",
-                "ai_risks_en", "ai_creator_bio_en", "ai_tiers"]
+                "ai_risks_en", "ai_creator_bio_en", "ai_tiers",
+                "ai_description_en"]
     for field in expected:
         if field not in result:
             result[field] = [] if field in ("ai_highlights_en", "ai_specs_en", "ai_tiers") else ""

@@ -53,7 +53,7 @@ def _is_placeholder(v):
 
 
 def _placeholder_field(p):
-    str_fields = ['ai_intro_en', 'ai_risks_en', 'ai_creator_bio_en']
+    str_fields = ['ai_intro_en', 'ai_risks_en', 'ai_creator_bio_en', 'ai_description_en']
     list_fields = ['ai_highlights_en', 'ai_specs_en']
     for f in str_fields:
         if _is_placeholder(p.get(f)):
