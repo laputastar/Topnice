@@ -21,13 +21,9 @@ from safeio import atomic_write_json, load_json_safe
 RAW_DIR = Path(__file__).parent / "raw"
 OUTPUT = Path(__file__).parent.parent / "src" / "data" / "projects.json"
 
-# 非硬件细分类别（来自分类器 DELETE 枚举）。与 binary 的 hardware_class=='non-hardware'
-# 并列作为摄入过滤依据——防止护栏把 hardware_class 翻回 hardware 但残留非硬件 hw_type 时漏网。
-NON_HARDWARE_TYPES = {
-    "纯机械工具", "纯软件", "服务众筹", "数字下载",
-    "服饰鞋包", "食品厨具", "书籍影视", "其他非硬件",
-    "化妆品",
-}
+# 非硬件终判：见 scripts/hwfilter.py（2026-09-10 由「精确集合匹配」重构为
+# 「关键词包含匹配 + 硬电子词豁免」，修复 LLM 输出 off-enum 导致 42 项滞留线上的问题）。
+from scripts.hwfilter import is_non_hardware
 
 # 闸门拦截项累计（供 main 统一写删除清单，保证可恢复）
 GATE_DELETED = []
@@ -351,7 +347,7 @@ def main():
     for p in all_new:
         pid = p["id"]
         # Skip non-hardware projects entirely (binary class OR fine-grained non-hardware type)
-        if p.get("hardware_class") == "non-hardware" or (p.get("hw_type") or "").strip() in NON_HARDWARE_TYPES:
+        if p.get("hardware_class") == "non-hardware" or is_non_hardware(p):
             if pid in existing:
                 # Also remove from existing so it doesn't come back via historical step
                 del existing[pid]
@@ -425,9 +421,9 @@ def main():
     # Global safety net: drop any non-hardware that slipped through (incl. from above).
     before = len(projects_list)
     deleted = [p for p in projects_list
-               if p.get("hardware_class") == "non-hardware" or (p.get("hw_type") or "").strip() in NON_HARDWARE_TYPES]
+               if p.get("hardware_class") == "non-hardware" or is_non_hardware(p)]
     projects_list = [p for p in projects_list
-                     if p.get("hardware_class") != "non-hardware" and (p.get("hw_type") or "").strip() not in NON_HARDWARE_TYPES]
+                     if p.get("hardware_class") != "non-hardware" and not is_non_hardware(p)]
     removed = before - len(projects_list)
     if removed:
         print(f"  🗑️  Deleted {removed} non-hardware project(s) after classification")

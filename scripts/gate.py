@@ -51,6 +51,25 @@ ELECTRONIC_RE = re.compile(
 )
 
 # ─────────────────────────────────────────────────────────────────────────────
+# 1b) 法语电子信号（2026-09-10 新增）。魁北克/法国项目文案为法语，上面的 ASCII 正则
+#     一个词都命中不了（\b 在带重音字符前不成立），导致法语非硬件项目绕过闸门。
+#     ⚠️ 不能用 re.ASCII，否则 \b 对 é/è/ç 失效；本正则单独编译且为 Unicode 模式。
+#     ⚠️ 刻意不含 "intelligent/intelligente"：Projet BTU 正是用 "réutilisation
+#        intelligente" 描述纯基础设施工程，加进去会给它一个假的电子信号从而放行。
+# ─────────────────────────────────────────────────────────────────────────────
+FR_ELECTRONIC_RE = re.compile(
+    r"""(?x) \b(
+        électrique | électronique | électroniquement | batterie | batteries |
+        rechargeable | bluetooth | wifi | wi-?fi | sans-?fil | capteur | capteurs |
+        écran | processeur | puce | circuit | moteur | chargeur | solaire |
+        connecté | connectée | application | usb | led | caméra | microphone |
+        haut-?parleur | écouteurs | casque | imprimante | robot | drone |
+        gyroscope | accéléromètre | firmware | capteur-?photo
+    )\b""",
+    re.VERBOSE | re.IGNORECASE,   # 注意：无 re.ASCII，\b 需支持重音字符
+)
+
+# ─────────────────────────────────────────────────────────────────────────────
 # 2) 类别强信号（结构化、可靠）：parent_category / category 命中且无电子信号 → 拦截。
 #    仅保留「几乎确定非硬件」的品类，避免误拦（如 Photography/Art/Games 含硬件边缘，不放）。
 #    映射：类别词 → (hw_type, 展示名)
@@ -139,6 +158,61 @@ NONHW_RULES = [
      r"deodorant|antiperspirant|nail polish|body wash|concealer|beard oil|beard balm|"
      r"essential oil|face wash|hair oil|body oil)\b",
      "化妆品", "化妆品/美妆/护发/防晒类，无电子信号"),
+
+    # 基础设施 / 能源工程 / 市政社区众筹（无实体产品交付，2026-09-10 补漏：Projet BTU）
+    # 特征：工程/安装类，回报多为参观、刻名、挂 logo，不给 backer 寄硬件。
+    # ⚠️ 刻意不含 "heat pump"（可能是热泵产品）；"geothermal" 亦不收，避免误拦。
+    (r"\b(waste heat|heat recovery|waste-?heat recovery|server farm|data ?cent(?:er|re)|"
+     r"district heating|community heating|solar farm|community greenhouse|"
+     r"church basement|municipal building|heritage building|"
+     r"heating bill|heat(?:ing)? (?:the|a) (?:church|school|village))\b",
+     "基础设施众筹", "基础设施/能源工程类众筹，无实体硬件交付"),
+]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 3b) 法语非硬件规则（2026-09-10 新增）。魁北克/法国项目持续增长，此前因全英文词表
+#     而整个绕过闸门。与英文规则同样要求「命中非硬件词 且 无电子信号」。
+#     注意：无 re.ASCII，保证 \b 对重音字符生效。
+# ─────────────────────────────────────────────────────────────────────────────
+FR_NONHW_RULES = [
+    # 基础设施 / 能源 / 市政（Projet BTU 命中项：centres informatiques / chauffage / église）
+    (r"\b(chauffage|chauffer|église|centres? informatiques?|serveurs? informatiques?|"
+     r"serre communautaire|facture de chauffage|réutilisation de la chaleur|"
+     r"chaleur perdue|municipalité|municipalités|bâtiment patrimonial)\b",
+     "基础设施众筹", "法语：基础设施/供暖工程类众筹，无实体硬件交付"),
+
+    # 食品 / 饮品
+    (r"\b(chocolat|café|thé|bière|fromage|épices?|confiture|miel|vin|cidre|"
+     r"bonbon|biscuit|gâteau|pâtisserie|kombucha|huile d'olive|nouilles|ramen)\b",
+     "食品厨具", "法语：食品/饮品，无电子信号"),
+
+    # 服饰 / 配饰
+    (r"\b(chandail|pull-over|veste|écharpe|chaussettes|bas|bijoux|collier|bracelet|"
+     r"boucles d'oreilles|sac à main|porte-?feuille|t-?shirt|casquette|tuque)\b",
+     "服饰鞋包", "法语：服饰/配饰，无电子信号"),
+
+    # 书籍 / 影视 / 音乐
+    (r"\b(roman|bande dessinée|documentaire|long métrage|court métrage|album|"
+     r"livre|poésie|pièce de théâtre|récit|mémoires|biographie|zine|"
+     r"film|série|disque vinyle)\b",
+     "书籍影视", "法语：出版/影视/音乐，无电子信号"),
+
+    # 手作 / 装饰 / 文具 / 玩具
+    (r"\b(affiche|autocollants?|carte postale|papeterie|tricot|crochet|broderie|"
+     r"peluche|figurine|jeu de société|jeu de cartes|casse-?tête|poupée)\b",
+     "其他非硬件", "法语：手作/装饰/玩具，无电子信号"),
+
+    # 服务 / 体验 / 场地
+    (r"\b(restaurant|café-bar|bar|brasserie|salle de spectacle|festival|"
+     r"atelier de (?:création|cuisine|danse)|retraite|spectacle|"
+     r"campagne de financement|espace communautaire)\b",
+     "服务众筹", "法语：服务/体验类，无实体硬件"),
+
+    # 化妆品 / 个护
+    (r"\b(crème|shampooing|revitalisant|parfum|maquillage|savon|"
+     r"huile essentielle|baume|sérum|déodorant|vernis à ongles|"
+     r"crème solaire|lotion|nettoyant)\b",
+     "化妆品", "法语：化妆品/个护，无电子信号"),
 ]
 
 
@@ -176,7 +250,8 @@ def gate_smart_hardware(proj: dict) -> dict:
     该判定不调用任何 LLM/API，结果稳定可复现。
     """
     text, cat_text = _project_text(proj)
-    has_elec = bool(ELECTRONIC_RE.search(text))
+    # 电子信号：英文（ASCII 模式）+ 法语（Unicode 模式，支持重音字符 \b）
+    has_elec = bool(ELECTRONIC_RE.search(text)) or bool(FR_ELECTRONIC_RE.search(text))
 
     # ① 类别强信号（结构化，可靠）：命中且无电子信号 → 拦截
     if not has_elec:
@@ -193,6 +268,17 @@ def gate_smart_hardware(proj: dict) -> dict:
     if not has_elec:
         for pat, hw_type, reason in NONHW_RULES:
             if re.search(pat, text, re.IGNORECASE | re.ASCII):
+                return {
+                    "decision": "block",
+                    "hw_type": hw_type,
+                    "hw_reason": reason,
+                    "gate": True,
+                }
+
+    # ③ 法语关键词规则（Unicode 模式，不用 re.ASCII）
+    if not has_elec:
+        for pat, hw_type, reason in FR_NONHW_RULES:
+            if re.search(pat, text, re.IGNORECASE):
                 return {
                     "decision": "block",
                     "hw_type": hw_type,

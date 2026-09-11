@@ -12,7 +12,8 @@ import sys, json, os
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from merge import batch_hardware_classify, NON_HARDWARE_TYPES
+from merge import batch_hardware_classify
+from scripts.hwfilter import is_non_hardware
 
 APPLY = "--apply" in sys.argv
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -46,9 +47,9 @@ else:
     print(f"  💾 分类结果已保存到 projects.json")
 
 hw = [p for p in results
-       if p.get("hardware_class") == "hardware" and (p.get("hw_type") or "").strip() not in NON_HARDWARE_TYPES]
+       if p.get("hardware_class") == "hardware" and not is_non_hardware(p)]
 non_hw = [p for p in results
-          if p.get("hardware_class") == "non-hardware" or (p.get("hw_type") or "").strip() in NON_HARDWARE_TYPES]
+          if p.get("hardware_class") == "non-hardware" or is_non_hardware(p)]
 
 print(f"\n{'='*55}")
 print(f"  硬件保留:  {len(hw):4} ({len(hw)*100//len(results):2}%)")
