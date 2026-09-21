@@ -51357,82 +51357,74 @@
       },
       "raw_html_hash": "bd03fc9c11a227c2",
       "raw_fetched_at": "2026-08-04T14:51:09.625335+00:00",
-      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, providing personalized insights to help you make meaningful adjustments and improve your sleep quality. With over 2,000 nights of clinical validation, Sleepal tracks respiratory rate with an RMSE below 2 breaths per minute when benchmarked against medical-grade devices.",
+      "ai_intro_en": "Sleepal is the world’s first contactless bedside AI sleep system that uses mmWave radar to monitor breathing, snoring, sleep position, and bedroom environment without a camera. It integrates with smart home systems via Matter and syncs with Apple Health and Google Fit, offering personalized insights and automated adjustments to improve sleep quality.",
       "ai_highlights_en": [
-        "Help reduce snoring with Sleepal's advanced mmWave radar technology",
-        "Get personalized sleep insights and recommendations with Sleepal's AI-powered sleep coach",
-        "Smart home integration with Matter protocol for seamless control of lighting and temperature"
+        "Contactless mmWave radar tracks breathing, snoring, and sleep position with medical‑grade accuracy.",
+        "Privacy‑first design: no camera, all data processed on‑device, and AI models trained only on consented clinical data.",
+        "Smart home ready with Matter integration, automatic lighting/temperature control, and Apple Health/Google Fit sync."
       ],
       "ai_specs_en": [
-        {
-          "spec_name": "Respiratory Rate",
-          "spec_value": "RMSE below 2 breaths per minute"
-        },
-        {
-          "spec_name": "Snoring Reduction",
-          "spec_value": "Up to 40% reduction in snoring"
-        },
-        {
-          "spec_name": "Smart Home Integration",
-          "spec_value": "Matter protocol for seamless control of lighting and temperature"
-        }
+        [
+          "Clinical validation",
+          "2,000 nights"
+        ],
+        [
+          "Snoring pattern detection",
+          "Detected"
+        ],
+        [
+          "Sensing technology",
+          "mmWave radar with sound, thermal, ambient light, temperature, humidity"
+        ],
+        [
+          "Respiratory rate accuracy",
+          "RMSE below 2 breaths per minute vs medical-grade"
+        ],
+        [
+          "Health platform integration",
+          "Apple Health & Google Fit"
+        ],
+        [
+          "Smart home standard",
+          "Matter"
+        ],
+        [
+          "Alarm feature",
+          "Keeps alarm active until user gets out of bed"
+        ],
+        [
+          "Subscription tier",
+          "Sleepal AI+ (optional) for advanced sleep staging and coaching"
+        ],
+        [
+          "AI model training data",
+          "2,000+ hospital datasets with informed consent"
+        ],
+        [
+          "Multi-user tracking",
+          "Tracks person closest to device, works with bed sharing and pets"
+        ],
+        [
+          "Privacy",
+          "No camera, on-device processing"
+        ]
       ],
-      "ai_risks_en": "As with any crowdfunding venture, there are inherent risks and challenges. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&amp;D, industrial design, mass production, and after-sales service across the smart home sector.",
-      "ai_creator_bio_en": "Sleepal is a pioneering endeavor from the very start, and we are incredibly eager to deliver it to you as soon as possible, so that everyone can enjoy better sleep.",
+      "ai_risks_en": "The main risks include scaling up production of a first‑of‑its‑kind contactless bedside lamp, ensuring reliable accuracy in mass‑produced units, and managing supply chain timelines; however, the team cites extensive radar‑product experience and commits to regular updates to keep backers informed.",
+      "ai_creator_bio_en": "",
       "ai_tiers": [
         {
-          "name": "Early Bird",
-          "price": 1499,
-          "price_usd": 1499,
-          "currency": "HKD",
+          "name": "VIP Deposit Holder",
+          "price": 5,
+          "price_usd": 5,
+          "currency": "USD",
           "backers": null,
-          "description": "Get Sleepal 1 year before anyone else"
-        },
-        {
-          "name": "Standard",
-          "price": 1999,
-          "price_usd": 1999,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Get Sleepal with standard features"
-        },
-        {
-          "name": "Premium",
-          "price": 2499,
-          "price_usd": 2499,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Get Sleepal with premium features"
-        },
-        {
-          "name": "VIP",
-          "price": 2999,
-          "price_usd": 2999,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Get Sleepal with VIP features"
-        },
-        {
-          "name": "Family",
-          "price": 3999,
-          "price_usd": 3999,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Get Sleepal for the whole family"
-        },
-        {
-          "name": "Enterprise",
-          "price": 4999,
-          "price_usd": 4999,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Get Sleepal for your business"
+          "description": ""
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.983779Z",
-      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks respiratory rate, snoring, sleep position, and bedroom environment to provide personalized insights and recommendations. With over 2,000 nights of clinical validation, Sleepal is the world's first contactless sleep system. It integrates with Apple Health and Google Fit, and is compatible with Matter protocol for seamless control of lighting and temperature."
+      "ai_description_en": "Sleepal combines mmWave radar with multimodal sensors to monitor breathing, snoring, sleep position, and bedroom environment without a camera, delivering private, contactless sleep tracking. The device integrates with smart home systems via Matter to adjust lighting and temperature, and syncs with Apple Health and Google Fit for a holistic health view. An optional Sleepal AI+ subscription provides advanced sleep staging, snoring analysis, personalized coaching, and a growing library of expert‑curated content, while core features remain subscription‑free. Designed for durability and privacy, Sleepal aims to help users build better sleep habits through actionable insights and automated bedtime routines."
     },
     {
       "id": "ks-206217094",
@@ -68132,28 +68124,36 @@
       ],
       "ai_tiers": [
         {
+          "name": "Support",
+          "price": 1,
+          "price_usd": 1,
+          "currency": "JPY",
+          "backers": null,
+          "description": "Pledge without a reward to support the project."
+        },
+        {
           "name": "Meteorite Faces Module",
           "price": 4656,
           "price_usd": 29,
-          "currency": "EUR",
+          "currency": "JPY",
           "backers": 9,
-          "description": "More than a faceplate—it's a wearable titanium collectible."
+          "description": "Wearable titanium collectible with unique hammered finish, NFC enabled, compatible with TiVerse and Pendant Carry."
         },
         {
           "name": "Super Early Bird • Micro-Blasted Finish",
           "price": 30634,
           "price_usd": 190,
-          "currency": "EUR",
+          "currency": "JPY",
           "backers": 7,
-          "description": "Titaner TiVerse: The Waist System Reimagined"
+          "description": "Titaner TiVerse waist system with micro-blasted finish, includes modular faceplate system, NFC chip, flashlight module, holeless micro-adjustment, double-action lock."
         },
         {
           "name": "Super Early Bird • Micro-Milled Finish",
           "price": 34003,
           "price_usd": 211,
-          "currency": "EUR",
-          "backers": 0,
-          "description": ""
+          "currency": "JPY",
+          "backers": null,
+          "description": "Titaner TiVerse waist system with micro-milled finish, includes modular faceplate system, NFC chip, flashlight module, holeless micro-adjustment, double-action lock."
         }
       ],
       "ai_currency": "EUR",
@@ -68510,53 +68510,60 @@
         "trend": -5,
         "heat": 91.3
       },
-      "ai_intro_en": "One System. Yours to Architect. Save Campaign Story One System. Yours to Architect. Meet the Faces Now It Adjusts to You Nothing Falls. Tested in Hell. Always On You. Always With You. Our Craftsmanship &amp; Materials Engineered for a Lifetime. The Unboxing Experience What Do Our Backers Say? What Sizes Are Available? How to Order? So... How Much Does It Cost? Want More？",
+      "ai_intro_en": "TiVerse is a modular waist-carry system consisting of interchangeable faceplates, a hole-free micro-adjust belt system, and a titanium core chassis. It allows users to customize their look and function with magnetic faceplates that can include NFC chips and optional flashlight modules, all engineered for a lifetime of use.",
       "ai_highlights_en": [
-        "Wearable Titanium Collectible",
-        "Unique Hammered Titanium Finish",
-        "NFC Enabled",
-        "Present a silver-colored necklace"
+        "Interchangeable magnetic faceplates with NFC capability for personalization and optional flashlight add-on.",
+        "Hole-free micro-adjust belt system that adapts to waist changes without stretching or wear.",
+        "Precision CNC-machined titanium construction with premium finishes for durability and lifetime use."
       ],
       "ai_specs_en": [
         [
-          "Material",
-          "G10 composite"
+          "Materials",
+          "Titanium core chassis, G10 composite faceplates, N52 neodymium magnets, LR41 batteries (flashlight module), tritium slot"
         ],
         [
-          "Dimensions",
-          "120 cm"
+          "Adjustment System",
+          "Hole-free micro-adjust belt system"
         ],
         [
-          "Weight",
-          ""
+          "Faceplate Security",
+          "Dual N52 neodymium magnets per faceplate"
         ],
         [
-          "Color",
-          "Titaner Micro-Milled Finish/Titaner Micro-Blasted Finish"
+          "NFC Chip",
+          "Writable NFC chip inside each faceplate"
         ],
         [
-          "Price",
-          "¥5,611,799"
+          "Flashlight Module",
+          "Optional faceplate with two LR41 button batteries, ~1.5 hours illumination"
         ],
         [
-          "Price_USD",
-          ""
+          "Tritium Slot",
+          "Self-powered micro light source glowing up to 25 years"
         ],
         [
-          "Backers",
-          "136"
+          "Finishes",
+          "TITANER Micro-Milled Finish or TITANER Micro-Blasted Finish"
         ],
         [
-          "Description",
-          "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you. Swap them in seconds and give your everyday carry a fresh identity."
+          "Core Chassis",
+          "Titanium with four mechanical designs for connector tube"
+        ],
+        [
+          "Locking Mechanism",
+          "Double-action latch requiring inward press and upward lift"
+        ],
+        [
+          "Belt Length Included",
+          "120 cm version"
         ]
       ],
-      "ai_risks_en": "Manufacturing Challenges, Fulfillment &amp; Shipping",
-      "ai_creator_bio_en": "a group of engineers and friends who love design and are obsessed with precision engineering",
+      "ai_risks_en": "Manufacturing challenges including potential production delays and quality control issues; fulfillment and shipping risks due to international logistics, customs, and shifting demand; mitigated by pre-launch testing, trusted manufacturers, real-time communication, and robust fulfillment strategy.",
+      "ai_creator_bio_en": "Titaner is a team of outdoor enthusiasts, industrial designers, and craftsmen dedicated to designing and manufacturing premium titanium products with over 21 years of experience in precision CNC machining.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "One System. Yours to Architect. Save Campaign Story One System. Yours to Architect. Meet the Faces Now It Adjusts to You Nothing Falls. Tested in Hell. Always On You. Always With You. Our Craftsmanship &amp; Materials Engineered for a Lifetime. The Unboxing Experience What Do Our Backers Say? What Sizes Are Available? How to Order? So... How Much Does It Cost? Want More？",
+      "ai_description_en": "TiVerse reimagines the waist-carry system with three independent layers: interchangeable faceplates for style and function, a hole-free micro-adjust belt system that adapts to your body, and a titanium core chassis for security. Faceplates feature dual N52 neodymium magnets, writable NFC chips, and optional flashlight modules powered by LR41 batteries. The belt uses a side-opening mechanism for effortless adjustment without holes, ensuring a consistent fit over time. The chassis includes a double-action lock to prevent accidental release and a tritium slot for long-term glow. Crafted from precision CNC-machined titanium with premium finishes, TiVerse is built to last a lifetime.",
       "nameZh": "Titaner Tiverse：无限模块化钛合金腰带扣",
       "ai_intro_zh": "Titaner Tiverse 是一款无限模块化钛合金腰带扣系统，将腰带扣转变为多功能工具平台。它采用优质钛合金材质，可灵活配置各种功能模块。",
       "ai_description_zh": "Titaner TiVerse 是一款无限模块化钛合金腰带扣，为你提供无尽的个性化可能。核心腰带扣由钛合金制成，可搭配各种可互换的面板，让你根据自己的风格或心情定制外观。\n\n模块化系统包括多种面板选项——从极简金属表面到复杂图案——全部通过磁吸或卡扣机制安全固定。钛合金底座耐腐蚀且轻巧，适合日常佩戴。\n\nTiVerse 兼容标准腰带宽度，可轻松替换现有腰带扣。这是 EDC 爱好者和任何欣赏模块化设计的人的终极自我表达工具。",
@@ -77801,11 +77808,11 @@
       "raw_html_hash": "ce7321da049fb591",
       "raw_fetched_at": "2026-08-06T04:18:19.717830+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Litejam Acoustic Neo A1 is a smart acoustic-electric guitar featuring an LED‑guided fretboard that teaches fingerpicking, chords, scales and songs in real time. Built with a lightweight carbon‑fiber body, rechargeable battery and Bluetooth connectivity, it lets you learn and play anywhere while tracking your progress via the companion app.",
+      "ai_intro_en": "Litejam Acoustic Neo A1 is a smart guitar featuring an LED‑guided fretboard that lights up finger positions for chords, scales, fingerpicking and songs in real time. It combines a lightweight carbon‑fiber body, rechargeable wireless operation and a companion app to make learning guitar intuitive, fun and frustration‑free.",
       "ai_highlights_en": [
-        "Real‑time LED fretboard guides both fretting and picking hands for fingerpicking and chords.",
-        "Carbon‑fiber body provides lightweight durability and up to 5‑8 hours of wireless play via Bluetooth.",
-        "Interactive app offers Scale Mode, Chord Builder, Arpeggio, Song import with Glowtab and Perform Mode lighting effects."
+        "LED‑guided fretboard shows real‑time finger positions for chords, scales, fingerpicking and songs.",
+        "Carbon‑fiber body with acoustic‑electric EQ, lightweight, durable and road‑ready.",
+        "Rechargeable battery (5‑8 h), Bluetooth connectivity and built‑in learning app for practice anywhere."
       ],
       "ai_specs_en": [
         [
@@ -77817,12 +77824,24 @@
           "Roasted Maple"
         ],
         [
-          "Fingerboard",
-          "Roasted Maple"
+          "Frets",
+          "24 Stainless Steel"
         ],
         [
-          "Frets",
-          "Stainless Steel 24"
+          "Pickups",
+          "Alnico V Humbucker (HH) set"
+        ],
+        [
+          "Controls",
+          "5‑way selector + mini toggle (9 pickup configurations)"
+        ],
+        [
+          "Bridge",
+          "Wilkinson 2‑point tremolo"
+        ],
+        [
+          "Body Wood (if any)",
+          "American Alder (tone block)"
         ],
         [
           "Battery Life",
@@ -77830,38 +77849,26 @@
         ],
         [
           "Connectivity",
-          "Bluetooth"
+          "Bluetooth + USB‑C"
         ],
         [
-          "Pickup System",
-          "Neo Alnico V Humbucker Set"
+          "Available Finishes",
+          "Green Metallic Burst (Gold Hardware), Black Metallic Burst (Chrome Hardware)"
         ],
         [
-          "Pickup Configurations",
-          "9 unique voices (5‑way selector + mini toggle)"
+          "Learning Platform",
+          "Litejam App with LED‑guided lessons"
         ],
         [
-          "Tremolo",
-          "Wilkinson 2‑point"
-        ],
-        [
-          "Machine Heads",
-          "Premium locking tuners"
-        ],
-        [
-          "Construction",
-          "One‑piece molded carbon fiber"
-        ],
-        [
-          "Body Wood",
-          "American Alder"
+          "Output",
+          "Acoustic‑Electric EQ for amp/PA/audio interface"
         ]
       ],
       "ai_risks_en": "",
-      "ai_creator_bio_en": "Litejam is an international team of engineers, musicians and designers from the US, Europe, China and Thailand, backed by marketing agency Naturality Digital.",
+      "ai_creator_bio_en": "Litejam is an international team of engineers, designers and musicians creating smart hardware and interactive music‑learning platforms.",
       "ai_tiers": [],
       "ai_source": "raw_html",
-      "ai_description_en": "Litejam Acoustic Neo A1 combines a carbon‑fiber acoustic‑electric guitar with an LED fretboard that lights up to guide finger placement for chords, scales, fingerpicking patterns and songs in real time. The companion app offers interactive lessons, a chord library, scale modes, arpeggio practice, and the ability to import Guitar Pro files via Glowtab for personalized learning. With up to five‑eight hours of wireless play, Bluetooth connectivity and a built‑in rechargeable battery, the instrument is ready for practice, recording or live performance anywhere. Additional features include a Wilkinson 2‑point tremolo, stainless‑steel frets, premium machine heads and a versatile humbucker set that delivers nine distinct tones.",
+      "ai_description_en": "The Litejam Acoustic Neo A1 integrates an RGB LED fretboard with a companion app to guide finger placement for chords, scales, fingerpicking patterns and songs in real time. Its carbon‑fiber body houses a Wilkinson tremolo, Alnico V humbuckers and a rechargeable battery offering 5–8 hours of wireless play, while Bluetooth connects to iOS/Android for lessons, practice tools and performance modes. Beyond the core guitar, the campaign offers stretch goals such as a Classical Fingerstyle Pack, a full beginner guitar course, a 1‑year Play Pass and an AI Backing Track Studio, expanding the learning ecosystem as funding milestones are reached.",
       "ended_at": "2026-09-21T06:54:34.630701Z"
     },
     {
@@ -98143,68 +98150,133 @@
       },
       "raw_html_hash": "957a6b60fa7db7e1",
       "raw_fetched_at": "2026-07-18T17:40:32.104346+00:00",
-      "ai_intro_en": "Clodesk is a transforming dual-wing desk that expands from a compact minimalist surface into a complete multi-device workstation. It features motorized height adjustment, hidden storage compartments, built-in lighting and power outlets, and gesture-controlled wing expansion for flexible home office use.",
+      "ai_intro_en": "Clodesk is a transforming dual-wing desk that expands from a compact minimalist surface into a full multi-station workstation. It features motorized height adjustment, hidden storage cabinets, built-in lighting and power, and gesture-controlled wing expansion for adaptable home office or creative setups.",
       "ai_highlights_en": [
-        "Motorized dual-wing expansion transforms compact desk into full workstation with one touch",
-        "Electric sit-stand adjustment with anti-collision safety and memory height presets",
-        "Built-in dual task lighting, power outlets, wireless charger, and hidden storage compartments"
+        "Motorized dual-wing system expands desk surface with one-touch or gesture control",
+        "Electric sit-stand adjustment with anti-pinch safety and memory height settings",
+        "Hidden storage cabinets, built-in lights, power outlets, and wireless charger"
       ],
       "ai_specs_en": [
         [
-          "Closed Dimensions (120cm)",
+          "Closed dimensions (120cm model)",
           "120 × 70 × 80 cm"
         ],
         [
-          "Expanded Dimensions (120cm)",
+          "Expanded dimensions (120cm model)",
           "120 × 70 × 141 cm"
         ],
         [
-          "Closed Dimensions (160cm)",
+          "Closed dimensions (160cm model)",
           "160 × 80 × 82 cm"
         ],
         [
-          "Expanded Dimensions (160cm)",
+          "Expanded dimensions (160cm model)",
           "160 × 80 × 153 cm"
         ],
         [
-          "Expanded Dimensions (250cm)",
+          "Closed dimensions (250cm model)",
+          "160 × 80 × 82 cm"
+        ],
+        [
+          "Expanded dimensions (250cm model)",
           "250 × 80 × 153 cm"
         ],
         [
-          "Weight Capacity",
+          "Weight capacity",
           "100 kg / 220 lbs"
         ],
         [
-          "Lift System",
-          "Electric sit-stand"
+          "Lift system",
+          "Electric sit-stand with memory"
         ],
         [
-          "Control Methods",
+          "Control methods",
           "Gesture, remote, one-touch"
         ],
         [
-          "Colors Available",
-          "Walnut, White"
+          "Colors available",
+          "Walnut, White (others for extra fee)"
         ],
         [
           "Warranty",
           "2-Year Hassle-Free"
         ],
         [
-          "Estimated Delivery",
+          "Estimated delivery",
           "Oct 2026"
-        ],
-        [
-          "Shipping",
-          "Worldwide"
         ]
       ],
-      "ai_risks_en": "Hardware manufacturing involves coordination with production partners in Shenzhen and Foshan. Potential risks include material availability, quality control consistency, and global shipping delays. The team has spent two years on prototyping and is coordinating with experienced manufacturing partners to mitigate these risks.",
-      "ai_creator_bio_en": "Clodesk is led by founder Evan Li, based in Los Angeles, with over 13 years of furniture design and smart furniture manufacturing experience.",
-      "ai_tiers": [],
+      "ai_risks_en": "Hardware manufacturing involves coordination with production partners in Shenzhen and Foshan. Risks include material availability, quality consistency, and global shipping delays. The team states they have spent considerable time refining the design and coordinating with suppliers, but unexpected disruptions in sourcing, assembly, or logistics remain possible.",
+      "ai_creator_bio_en": "Clodesk is led by founder Evan Li, with over 13 years of experience in furniture design and manufacturing, plus 10 years exporting large furniture products overseas.",
+      "ai_tiers": [
+        {
+          "name": "Clodesk 120cm - Early Bird",
+          "price": null,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 98,
+          "description": "120cm dual-wing desk, wall-unit style. Includes motorized system, hidden cabinets, lights, power outlets, wireless charger, cup holder, mechanical arms, and toolkit."
+        },
+        {
+          "name": "Clodesk 120cm - Regular",
+          "price": null,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 12,
+          "description": "120cm dual-wing desk. Same inclusions as Early Bird. Limited quantity."
+        },
+        {
+          "name": "Clodesk 160cm - Early Bird",
+          "price": null,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 6,
+          "description": "160cm spacious workstation. Includes hidden cabinets, controller, power outlets, task lights, and toolkit."
+        },
+        {
+          "name": "Clodesk 160cm - Regular",
+          "price": null,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 10,
+          "description": "160cm spacious workstation. Same inclusions as Early Bird. Limited quantity."
+        },
+        {
+          "name": "Clodesk 250cm - Early Bird",
+          "price": null,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 6,
+          "description": "250cm large dual-wing desk with motorized system, hidden cabinets, lights, power, wireless charger, cup holder, mechanical arms, and toolkit."
+        },
+        {
+          "name": "Clodesk 250cm - Regular",
+          "price": null,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 27,
+          "description": "250cm large dual-wing desk. Same inclusions as Early Bird. Limited quantity."
+        },
+        {
+          "name": "Clodesk 250cm Dual - Early Bird",
+          "price": null,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 11,
+          "description": "Two 250cm dual-wing desks with full accessory sets including dual motorized systems, 4 hidden cabinets, dual lights, dual wireless chargers, and more."
+        },
+        {
+          "name": "Support the Project",
+          "price": null,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": null,
+          "description": "Pledge without a reward to support the project."
+        }
+      ],
       "ai_validated": false,
       "ai_source": "raw_html",
-      "ai_description_en": "Clodesk is a transforming dual-wing desk designed for modern multi-device workspaces. When closed, it appears as a clean minimalist desk; when expanded, it reveals hidden storage, professional task lighting, built-in power outlets, and a wireless charger. The motorized lift system adjusts height for sitting or standing, while gesture control opens the dual wings seamlessly. Available in three sizes (120cm, 160cm, 250cm expanded) with walnut or white finishes, it supports up to four monitors and includes a 2-year warranty. The team has spent nearly two years refining prototypes and is working with established manufacturing partners in China for mass production."
+      "ai_description_en": "Clodesk is a transforming dual-wing desk designed to expand from a clean, compact surface into a complete multi-station workstation. It features motorized wing expansion with gesture or remote control, electric sit-stand adjustment with anti-pinch safety, hidden flip-down storage cabinets, built-in dual task lighting, power outlets, and a wireless charger. The desk supports up to 100kg and includes mounting points for monitors, cameras, and accessories. Available in three sizes (120cm, 160cm, 250cm) in Walnut or White, with a 2-year warranty. Founder Evan Li brings 13 years of furniture design and manufacturing experience, with production coordinated in Shenzhen and Foshan. Estimated delivery is October 2026."
     },
     {
       "id": "ks-581249882",
@@ -128447,11 +128519,11 @@
       },
       "raw_html_hash": "5a8931f32c7823c5",
       "raw_fetched_at": "2026-08-04T14:50:52.864183+00:00",
-      "ai_intro_en": "The Frame is a wall‑mounted turntable that combines a solid wood frame with a carbon‑fiber reinforced tonearm, allowing vinyl to be played vertically or horizontally. It functions as both a high‑fidelity record player and a gallery‑style display for album covers. Designed to save space and reduce vibrations, it turns listening into a visual performance.",
+      "ai_intro_en": "The Frame is a wall-mounted, gallery-grade turntable that combines high-fidelity audio with artful design, allowing vinyl to be displayed and played vertically or horizontally. Crafted from solid wood with a carbon‑fiber reinforced tonearm, it features dual speakers, Bluetooth, and a genuine paper mat that showcases album covers like artwork.",
       "ai_highlights_en": [
-        "Wall‑mounted, space‑saving design that can be hung vertically, horizontally, or leaned against any surface.",
-        "Gallery‑grade materials: solid wood frame, genuine paper mat, carbon‑fiber tonearm for authentic look and high‑fidelity sound.",
-        "Enhanced features: feedback‑controlled motor, dual speakers, Bluetooth, and vibration‑isolated playback for clear, stable sound."
+        "Wall‑mounted design lets you play records vertically or horizontally, saving space and turning album covers into wall art.",
+        "Premium build: solid wood frame, carbon‑fiber tonearm, genuine paper mat, and furniture‑grade finish for a gallery‑quality look.",
+        "Enhanced audio: feedback‑controlled motor, dual speakers, Bluetooth, RCA/headphone outputs, and switchable 33/45 RPM speeds."
       ],
       "ai_specs_en": [
         [
@@ -128475,7 +128547,7 @@
           "Included"
         ],
         [
-          "Build-in Speakers",
+          "Built-in Speakers",
           "Yes"
         ],
         [
@@ -128487,7 +128559,7 @@
           "Yes (for connection to external Bluetooth speakers)"
         ],
         [
-          "Headphone output",
+          "Headphone Output",
           "3.5mm stereo (for headphone and external speakers connection)"
         ],
         [
@@ -128497,10 +128569,14 @@
         [
           "Installation",
           "Standard Picture Frame Installation"
+        ],
+        [
+          "Price range",
+          "HK$ 2,120 – HK$ 2,790"
         ]
       ],
-      "ai_risks_en": "The design is finalized and trial production validated, so technical risks are low; the main concern is a possible slight delay in mass production.",
-      "ai_creator_bio_en": "Coelacanths Ltd. is a Hong Kong‑based company founded by two brother educators and entrepreneurs.",
+      "ai_risks_en": "While the design is finalized and trial production successful, the main risk is a slight delay in mass‑production scheduling, which could affect delivery timelines.",
+      "ai_creator_bio_en": "Coelacanths Ltd. is a Hong Kong‑based company founded by two brothers who are educators and entrepreneurs, known for creating innovative products like The Frame turntable.",
       "ai_tiers": [
         {
           "name": "Support",
@@ -128511,25 +128587,25 @@
           "description": "Pledge without a reward to support the project."
         },
         {
-          "name": "Kickstarter Offer",
-          "price": 2790,
-          "price_usd": 356,
-          "currency": "HKD",
-          "backers": 2,
-          "description": "1 x The Frame Turntable at 34% OFF retail price. Ships worldwide. Estimated delivery Nov 2026."
-        },
-        {
           "name": "Kickstarter Early Bird",
           "price": 2120,
           "price_usd": 271,
           "currency": "HKD",
           "backers": 20,
-          "description": "1 x The Frame Turntable at 50% OFF retail price. Ships worldwide. Estimated delivery Nov 2026."
+          "description": "1 x The Frame Turntable at 50% OFF retail price."
+        },
+        {
+          "name": "Kickstarter Offer",
+          "price": 2790,
+          "price_usd": 356,
+          "currency": "HKD",
+          "backers": 2,
+          "description": "1 x The Frame Turntable at 34% OFF retail price."
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
-      "ai_description_en": "The Frame reimagines the turntable as a wall‑mounted, gallery‑grade instrument that lets you play vinyl vertically or horizontally while showcasing album covers as art. Built from furniture‑grade solid wood with a carbon‑fiber reinforced tonearm, it includes a genuine paper mat, dual speakers, Bluetooth, and a feedback‑controlled motor for stable, vibration‑free playback. Designed for flexible installation—hanging, leaning, or mounting—it saves space and reduces footfall vibrations, turning listening into a visual performance. The project has completed prototyping and trial production, with mass production slated for delivery in November 2026."
+      "ai_description_en": "The Frame reimagines the turntable as a wall‑mounted, gallery‑grade instrument that lets you display and play vinyl vertically or horizontally. Built from furniture‑grade solid wood with a carbon‑fiber reinforced tonearm, it includes a genuine paper mat, dual speakers, Bluetooth, and switchable 33/45 RPM speeds for versatile listening. Designed to eliminate footfall vibrations and reduce dust buildup, The Frame turns album covers into art while delivering high‑fidelity sound. Early backers can secure the unit at a significant discount, with shipping worldwide estimated for November 2026."
     },
     {
       "id": "ks-1814208126",
@@ -143843,15 +143919,15 @@
       "raw_html_hash": "899218244e17c95f",
       "raw_fetched_at": "2026-07-30T14:42:29.155863+00:00",
       "ai_validated": false,
-      "ai_intro_en": "The V1 Pro Selfie Monitor Screen mirrors your phone's rear camera to a portable screen so you can see yourself while filming solo. It plugs in via USB‑C, works with iPhone and Android devices that support DP Alt Mode, and requires no apps or Bluetooth. The all‑in‑one unit also includes a wireless mic and remote that magnetically attach, offering up to 5.5 hours of use per charge and a remote range of up to 200 m in open spaces.",
+      "ai_intro_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow.",
       "ai_highlights_en": [
-        "Plug‑and‑play rear‑camera monitoring with zero lag, supporting 4K/120fps on iPhone and up to 8K/30fps on Android.",
-        "Built‑in wireless mic with ENC and magnetic remote that work up to 200 m (open) and 15‑25 m in real‑world use.",
-        "Compact, MagSafe‑ready design (0.4 in thick, 58 g) with a secondary USB‑C port for pass‑through charging and all‑day shooting."
+        "No more guessing. No more reshoots. Just full creative control, even when you’re filming alone.",
+        "Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance.",
+        "MagSafe-ready—snap it on and it stays put. No wobble, no slipping."
       ],
       "ai_specs_en": [
         [
-          "Screen size",
+          "Screen Size",
           "2.41 inches"
         ],
         [
@@ -143859,48 +143935,56 @@
           "450 nits"
         ],
         [
-          "Thickness",
-          "0.4 in (10 mm)"
+          "Adjustable Brightness",
+          "4 levels"
+        ],
+        [
+          "Resolution",
+          "4K/120fps"
+        ],
+        [
+          "Remote Trigger",
+          "Up to 15 meters"
+        ],
+        [
+          "Battery Life",
+          "1.5 hours, 5.5 hours of use"
         ],
         [
           "Weight",
-          "0.13 lb (58 g)"
+          "0.13 lb (58g)"
         ],
         [
-          "Battery life",
-          "1.5‑hour charge ≈ 5.5 hours use"
+          "Dimensions",
+          "0.4in (10mm) thin"
         ],
         [
-          "Remote range",
-          "up to 200 m open, 15‑25 m typical"
+          "Material",
+          "Aluminum"
         ],
         [
-          "Video support",
-          "iPhone up to 4K/120fps, Android up to 8K/30fps"
-        ],
-        [
-          "Compatibility",
-          "USB‑C with DP Alt Mode (iPhone & Android)"
+          "Color",
+          "Silver"
         ],
         [
           "Ports",
-          "Dual USB‑C (monitor + pass‑through charging)"
+          "2 x USB-C"
         ],
         [
           "Warranty",
-          "1‑Year"
+          "1-year warranty"
         ]
       ],
-      "ai_risks_en": "While we are confident in the development and delivery of V1 Pro, as with any new technology there may be unforeseen challenges. We pledge transparency and proactive communication with backers throughout the process to promptly address any risks and uphold trust.",
-      "ai_creator_bio_en": "At Cardon, we are passionate about creating everyday essentials that blend sophistication with cutting‑edge functionality.",
+      "ai_risks_en": "Risks and challenges While we are confident in the development and delivery of V1 Pro, as with any new technology, there may be unforeseen challenges. We pledge transparency and proactive communication with our backers throughout the process, ensuring any risks are promptly addressed to uphold the trust placed in us.",
+      "ai_creator_bio_en": "Cardon 4 created &nbsp;•&nbsp; 3 backed",
       "ai_tiers": [
         {
           "name": "Super Early Bird",
           "price": 85,
           "price_usd": 85,
           "currency": "USD",
-          "backers": 9,
-          "description": "Includes 1× V1 Pro Monitor Screen, 1× Magnetic Mic & Remote, 1× C‑to‑C Cable (Yellow, 5.4 in), 1× Metal Ring, 1× User Manual, 1‑Year Warranty."
+          "backers": 3,
+          "description": "1 x V1 Pro Monitor Screen, 1 x Magnetic Mic &amp; Remote, 1 x C to C Cable, 1 x Metal Ring, 1 x User Manual, 1 - Year Warranty"
         },
         {
           "name": "Bundle 1",
@@ -143908,7 +143992,7 @@
           "price_usd": 95,
           "currency": "USD",
           "backers": 14,
-          "description": "Includes 1× Magnetic Phone Ring Stand, 1× V1 Pro Monitor Screen, 1× Magnetic Mic & Remote, 1× C‑to‑C Cable, 1× Metal Ring, 1× User Manual, 1‑Year Warranty."
+          "description": "1 x Magnetic Phone Ring Stand, 1 x V1 Pro Monitor Screen, 1 x Magnetic Mic &amp; Remote, 1 x C to C Cable, 1 x Metal Ring, 1 x User Manual, 1 - Year Warranty"
         },
         {
           "name": "Bundle 2",
@@ -143916,7 +144000,7 @@
           "price_usd": 105,
           "currency": "USD",
           "backers": 26,
-          "description": "Includes 1× Floor Selfie Stick (Tripod & Selfie Stick), 1× V1 Pro Monitor Screen, 1× Magnetic Mic & Remote, 1× C‑to‑C Cable, 1× Metal Ring, 1× User Manual, 1‑Year Warranty."
+          "description": "1 x Floor Selfie Stick, 1 x V1 Pro Monitor Screen, 1 x Magnetic Mic &amp; Remote, 1 x C to C Cable, 1 x Metal Ring, 1 x User Manual, 1 - Year Warranty"
         },
         {
           "name": "2Pack",
@@ -143924,7 +144008,7 @@
           "price_usd": 148,
           "currency": "USD",
           "backers": 3,
-          "description": "Includes 2× V1 Pro Monitor Screen, 2× Magnetic Mic & Remote, 2× C‑to‑C Cable (Yellow, 5.4 in), 2× Metal Ring, 2× User Manual, 1‑Year Warranty."
+          "description": "2 x V1 Pro Monitor Screen, 2 x Magnetic Mic &amp; Remote, 2 x C to C Cable, 2 x Metal Ring, 2 x User Manual, 2 - Year Warranty"
         },
         {
           "name": "Bundle 3",
@@ -143932,20 +144016,20 @@
           "price_usd": 184,
           "currency": "USD",
           "backers": 3,
-          "description": "Includes 1× Magnetic Phone Ring Stand, 1× Tripod & Selfie Stick, 2× V1 Pro Monitor Screen, 2× Magnetic Mic & Remote, 2× C‑to‑C Cable, 2× Metal Ring, 2× User Manual, 2‑Year Warranty."
+          "description": "1 x Magnetic Phone Ring Stand, 1 x Tripod &amp; Selfie Stick, 2 x V1 Pro Monitor Screen, 2 x Magnetic Mic &amp; Remote, 2 x C to C Cable, 2 x Metal Ring, 2 x User Manual, 2 - Year Warranty"
         },
         {
-          "name": "All gone Limited to 48 Hours",
+          "name": "All gone",
           "price": 80,
           "price_usd": 80,
           "currency": "USD",
           "backers": 59,
-          "description": "Includes 1× V1 Pro Monitor Screen, 1× Magnetic Mic & Remote, 1× C‑to‑C Cable (Yellow, 5.4 in), 1× Metal Ring, 1× User Manual, 1‑Year Warranty."
+          "description": "1 x V1 Pro Monitor Screen, 1 x Magnetic Mic &amp; Remote, 1 x C to C Cable, 1 x Metal Ring, 1 x User Manual, 1 - Year Warranty"
         }
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-09-21T06:54:34.631079Z",
-      "ai_description_en": "The V1 Pro Selfie Monitor Screen provides a real‑time rear‑camera view on a compact 2.41‑inch display, enabling solo creators to frame shots accurately without guesswork. It connects via USB‑C to any DP Alt Mode‑compatible iPhone or Android phone, delivering lag‑free monitoring up to 4K/120fps on iPhone and 8K/30fps on Android. The built‑in wireless mic with ENC and magnetic remote offer clear audio and reliable control up to 200 m in open environments, while a secondary USB‑C port allows pass‑through charging for all‑day shooting. Weighing just 58 g and measuring 0.4 in thick, the MagSafe‑ready monitor clips securely to your phone or rig, and includes a metal ring, cable, manual and a one‑year warranty."
+      "ai_description_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow. No more guessing. No more reshoots. Just full creative control, even when you’re filming alone. Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance. MagSafe-ready—snap it on and it stays put. No wobble, no slipping."
     },
     {
       "id": "ks-169565551",
@@ -156114,11 +156198,11 @@
       },
       "raw_html_hash": "5bd15064f9245525",
       "raw_fetched_at": "2026-08-31T19:28:04.791042+00:00",
-      "ai_intro_en": "ICEY-Q rethinks the ice maker by making only what you need—four‑ice personal batches for a single drink. It combines USB‑C PD power, TEC solid‑state cooling, and a can‑inspired compact design to deliver fresh ice wherever you are.",
+      "ai_intro_en": "ICEY-Q rethinks the ice maker around one simple idea: make only what you need. Four-ice personal batches, USB-C PD power, TEC cooling, and a can-inspired form come together in one compact design made for the drink right in front of you. Most ice makers are built to keep producing; ICEY-Q takes the opposite approach—a four-ice personal batch made for cold brew, sparkling water, cocktails, and everyday drinks.",
       "ai_highlights_en": [
-        "Four‑ice personal batches tailored for one drink, reducing waste and countertop bulk.",
-        "USB‑C PD power lets you run ICEY‑Q from laptops, power banks, or vehicle outlets.",
-        "TEC solid‑state cooling enables a compact, compressor‑free form factor."
+        "USB-C PD power for flexible charging from desks, bars, vehicles and portable sources.",
+        "TEC solid-state cooling enables a compact cylindrical form without a compressor.",
+        "Can‑inspired, space‑smart design delivers a personal four‑ice batch beside your drink."
       ],
       "ai_specs_en": [
         [
@@ -156127,18 +156211,18 @@
         ],
         [
           "Power input",
-          "USB‑C PD"
+          "USB-C PD"
         ],
         [
           "Cooling technology",
-          "TEC solid‑state"
+          "TEC solid-state"
         ],
         [
           "Form factor",
           "Can‑inspired compact"
         ],
         [
-          "Shipping",
+          "Shipping destination",
           "Worldwide"
         ],
         [
@@ -156146,11 +156230,11 @@
           "Nov 2026"
         ],
         [
-          "MSRP",
+          "MSRP (single unit)",
           "$139"
         ]
       ],
-      "ai_risks_en": "As a new hardware product, ICEY‑Q may encounter challenges in final testing, production, component supply, and shipping, with performance potentially affected by ambient temperature. The team plans to mitigate these risks through rigorous testing, quality control, close supplier coordination, and transparent updates to backers.",
+      "ai_risks_en": "As a new hardware product, ICEY-Q may face challenges in final testing, production, component supply, and shipping, with performance potentially varying with ambient temperature. The team plans to mitigate these risks through repeated testing, strict quality control, close supplier coordination, and transparent backer updates.",
       "ai_creator_bio_en": "",
       "ai_tiers": [
         {
@@ -156159,7 +156243,7 @@
           "price_usd": 69,
           "currency": "USD",
           "backers": 28,
-          "description": "Get 1× ICEY‑Q at 50% off—save $70 from the $139 MSRP. Select your color via survey after the campaign. Shipping calculated after campaign."
+          "description": "Get 1× ICEY-Q at 50% off—save $70 from the $139 MSRP. Select your color via survey after the campaign. Shipping calculated after campaign."
         },
         {
           "name": "Kickstarter Special X1",
@@ -156167,7 +156251,7 @@
           "price_usd": 99,
           "currency": "USD",
           "backers": 0,
-          "description": "Get 1× ICEY‑Q at 29% off—save $40 from the $139 MSRP. Select your color via survey after the campaign. Shipping calculated after campaign."
+          "description": "Get 1× ICEY-Q at 29% off—save $40 from the $139 MSRP. Select your color via survey after the campaign. Shipping calculated after campaign."
         },
         {
           "name": "Super Early Bird X2",
@@ -156175,7 +156259,7 @@
           "price_usd": 129,
           "currency": "USD",
           "backers": 7,
-          "description": "Get 2× ICEY‑Q at 54% off—save $149 from the $278 MSRP. Select your color via survey after the campaign. Shipping calculated after campaign."
+          "description": "Get 2× ICEY-Q at 54% off—save $149 from the $278 MSRP. Select your color via survey after the campaign. Shipping calculated after campaign."
         },
         {
           "name": "Super Early Bird X4",
@@ -156183,10 +156267,10 @@
           "price_usd": 239,
           "currency": "USD",
           "backers": 0,
-          "description": "Get 4× ICEY‑Q at 57% off—save $317 from the $556 MSRP. Select your color via survey after the campaign. Shipping calculated after campaign."
+          "description": "Get 4× ICEY-Q at 57% off—save $317 from the $556 MSRP. Select your color via survey after the campaign. Shipping calculated after campaign."
         }
       ],
-      "ai_description_en": "ICEY‑Q is a personal ice maker designed to produce just four ice cubes at a time, matching the amount needed for a single drink. It uses USB‑C PD power for flexible operation from laptops, power banks, or vehicle outlets, and employs TEC solid‑state cooling to achieve a compact, compressor‑free form. The can‑inspired, space‑smart design lets it sit beside your glass without taking over the countertop, making fresh ice available for cold brew, cocktails, sparkling water, or any beverage. Simple operation—remove the cover, add water, connect power, and start—turns ice preparation into a quick, satisfying ritual.",
+      "ai_description_en": "ICEY-Q rethinks the ice maker around one simple idea: make only what you need. It produces four‑ice personal batches using USB‑C PD power and TEC solid‑state cooling, housed in a can‑inspired compact form that sits beside your drink. The device is designed for cold brew, sparkling water, cocktails and everyday drinks, delivering just the right amount of fresh ice without excess bulk. With easy setup—remove the cover, open the pull‑tab, add water, connect power—and a distinctive industrial look, ICEY‑Q brings personal ice to desks, home bars, campsites and anywhere you enjoy a drink.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -170651,11 +170735,11 @@
       },
       "raw_html_hash": "03b7d1f03519924a",
       "raw_fetched_at": "2026-09-11T16:55:08.926027+00:00",
-      "ai_intro_en": "ORVEX is a compact titanium rotary fidget designed for everyday carry, featuring a smooth central rotating mechanism and a vintage brass core for tactile feedback. Its anodized titanium outer ring shifts colors with light, offering a premium, interactive experience without screens or charging. Small enough to attach to keys or slip into a pocket, ORVEX provides a satisfying fidget tool for work, commute, or downtime.",
+      "ai_intro_en": "ORVEX is a compact titanium rotary fidget designed for everyday carry, featuring a smooth central rotating mechanism and a vintage brass core for tactile feedback. Its anodized titanium outer ring shifts colors with light, offering a premium, pocket‑sized spinner that requires no charging or screens. Easy to carry and use, ORVEX provides a simple, satisfying motion for moments of waiting, thinking or taking a break.",
       "ai_highlights_en": [
-        "Compact titanium design with color‑shifting anodized finish.",
-        "Smooth one‑finger rotation with vintage brass core for premium feel.",
-        "Portable EDC with integrated carry loop, no batteries or charging needed."
+        "Compact titanium body with color‑shifting anodized finish that shifts hues as light changes.",
+        "Smooth one‑finger rotation powered by a precision bearing, paired with a vintage brass core for satisfying tactile feedback.",
+        "No batteries, no charging – ready to spin anytime, anywhere, with a built‑in carry loop for everyday carry."
       ],
       "ai_specs_en": [
         [
@@ -170667,27 +170751,31 @@
           "9 mm"
         ],
         [
-          "Material",
-          "Titanium outer ring, vintage brass core"
+          "Outer material",
+          "Titanium (anodized)"
+        ],
+        [
+          "Core material",
+          "Vintage brass"
         ],
         [
           "Finish",
-          "Anodized titanium"
+          "Anodized titanium (color‑shifting)"
         ],
         [
           "Rotation mechanism",
-          "Smooth bearing"
-        ],
-        [
-          "Carry feature",
-          "Integrated carry loop"
+          "Smooth bearing, one‑finger flick"
         ],
         [
           "MSRP",
           "$59"
+        ],
+        [
+          "Estimated delivery",
+          "Nov 2026"
         ]
       ],
-      "ai_risks_en": "The main production risks involve assembly tolerances of the central rotating component, which could affect rotation feel if too tight or cause wobble if too loose. Titanium machining and surface‑finish consistency may vary, leading to color shifts between batches. Additionally, the timeline could be impacted by material availability, manufacturing adjustments, quality inspections, and logistics.",
+      "ai_risks_en": "The main production risks involve assembly tolerances of the central rotating component, which could affect rotation feel if too tight or cause wobble if too loose; titanium machining and surface‑finish consistency may vary, leading to slight color shifts between batches; and timelines could be impacted by material availability, manufacturing adjustments, quality inspections, or logistics.",
       "ai_creator_bio_en": "",
       "ai_tiers": [
         {
@@ -170696,7 +170784,7 @@
           "price_usd": 29,
           "currency": "USD",
           "backers": 14,
-          "description": "Includes 1× ORVEX for just $29. Save $30 — 51% off the planned $59 MSRP."
+          "description": "Get 1× ORVEX at the best early‑bird price of $29, saving 51% off the $59 MSRP."
         },
         {
           "name": "Kickstarter Special — 1× ORVEX",
@@ -170704,7 +170792,7 @@
           "price_usd": 35,
           "currency": "USD",
           "backers": 0,
-          "description": "Get 1× ORVEX at our Kickstarter special price. A pocket-sized fidget spinner designed for smooth one-finger spinning and everyday carry. Save $24 — 41% off the planned $59 MSRP."
+          "description": "Get 1× ORVEX at the Kickstarter special price of $35, saving 41% off the $59 MSRP."
         },
         {
           "name": "Duo Pack — 2× ORVEX",
@@ -170712,7 +170800,7 @@
           "price_usd": 55,
           "currency": "USD",
           "backers": 1,
-          "description": "Get 2× ORVEX — one for yourself and one to share, gift, or keep close at hand. Just $27.50 each. Save $63 — 53% off the combined $118 MSRP."
+          "description": "Get 2× ORVEX for $55 ($27.50 each), saving 53% off the combined $118 MSRP."
         },
         {
           "name": "Trio Pack — 3× ORVEX",
@@ -170720,7 +170808,7 @@
           "price_usd": 79,
           "currency": "USD",
           "backers": 0,
-          "description": "Get 3× ORVEX at an even better bundle price. Perfect for sharing, gifting, or keeping ORVEX in more than one everyday setup. Just $26.33 each. Save $98 — 55% off the combined $177 MSRP."
+          "description": "Get 3× ORVEX for $79 ($26.33 each), saving 55% off the combined $177 MSRP."
         },
         {
           "name": "Collector 5-Pack — 5× ORVEX",
@@ -170728,10 +170816,10 @@
           "price_usd": 119,
           "currency": "USD",
           "backers": 0,
-          "description": "The best-value ORVEX bundle. Get 5× ORVEX for just $23.80 each — ideal for collectors, gifts, or sharing with friends. Save $176 — 60% off the combined $295 MSRP."
+          "description": "Get 5× ORVEX for $119 ($23.80 each), saving 60% off the combined $295 MSRP."
         }
       ],
-      "ai_description_en": "ORVEX is a compact titanium rotary fidget designed for everyday carry, measuring 22.5 mm in diameter and 9 mm thick. It features an anodized titanium outer ring that shifts colors with light, a vintage brass core for warm‑cool contrast, and a smooth bearing mechanism for effortless one‑finger spinning. The integrated carry loop lets you attach it to keys, backpacks, or slip it into a pocket, providing a tactile, screen‑free break whenever you need it.",
+      "ai_description_en": "ORVEX is a compact titanium rotary fidget designed for everyday carry, combining a smooth central rotating mechanism with a vintage brass core for tactile feedback. Its anodized titanium outer ring shifts colors with light, offering a premium, pocket‑sized spinner that requires no charging or screens. The device features a built‑in carry loop for easy attachment to keys, backpacks or pockets, and its 22.5 mm diameter makes it comfortable to flick with one finger. ORVEX aims to provide a simple, satisfying motion for moments of waiting, thinking or taking a break, while showcasing detailed metal craftsmanship.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-21T06:54:34.631193Z"
@@ -188240,18 +188328,14 @@
       "raw_html_hash": "ea80696888f0226a",
       "raw_fetched_at": "2026-07-24T03:14:25.298722+00:00",
       "ai_validated": false,
-      "ai_intro_en": "",
-      "ai_highlights_en": [
-        "",
-        "",
-        ""
-      ],
+      "ai_intro_en": "This is a Kickstarter project. Please provide more content to extract the product summary.",
+      "ai_highlights_en": [],
       "ai_specs_en": [],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "",
+      "ai_risks_en": "No risk assessment provided.",
+      "ai_creator_bio_en": "No creator bio provided.",
       "ai_tiers": [],
       "ai_source": "raw_html",
-      "ai_description_en": ""
+      "ai_description_en": "No detailed project description provided."
     },
     {
       "id": "ks-65188773",
@@ -198032,24 +198116,24 @@
       },
       "raw_html_hash": "6701c6cd9e667f84",
       "raw_fetched_at": "2026-08-04T14:51:17.533097+00:00",
-      "ai_intro_en": "NEXAIR is a pocket-sized smart air pump that combines real-time pressure monitoring, fast inflation, and intelligent control in a 132g device. Powered by a 20,000 RPM brushless motor delivering up to 13 L/min airflow, it inflates tires and sports equipment up to 150 PSI with auto shutoff. Its compact design fits in a pocket, making it ideal for cyclists and outdoor enthusiasts.",
+      "ai_intro_en": "NEXAIR is a pocket-sized smart air pump that combines real-time pressure monitoring, fast inflation, and intelligent control in a 132 g device. Powered by a 20,000 RPM brushless motor delivering up to 13 L/min airflow, it can inflate tires and sports equipment up to 150 PSI with auto‑stop and a clear LCD display. USB‑C charging, LED light, and multiple valve adapters make it ready for everyday mobility.",
       "ai_highlights_en": [
-        "150 PSI max pressure with real-time LCD display, auto shutoff, and PSI/BAR switching for precise inflation.",
-        "Weighs only 132g and fits in a pocket, offering portable inflation for bikes, sports balls, and outdoor gear.",
-        "Powered by a 20,000 RPM brushless motor delivering up to 13 L/min airflow, with a 1200mAh battery for 6-8 bike tire top-ups per charge."
+        "Ultra‑lightweight at 132 g, fits in a pocket or saddle bag for true portability.",
+        "High‑speed 20,000 RPM brushless motor provides up to 13 L/min airflow for rapid inflation.",
+        "Smart pressure control with real‑time LCD, auto‑stop, and memory settings ensures accurate, hassle‑free inflation."
       ],
       "ai_specs_en": [
         [
-          "Pressure range",
-          "3–150 PSI (0.2–10.3 BAR)"
+          "Maximum Pressure",
+          "150 PSI"
         ],
         [
-          "Motor speed",
-          "20,000 RPM brushless"
+          "Motor Speed",
+          "20,000 RPM"
         ],
         [
           "Airflow",
-          "up to 13 L/min"
+          "13 L/min"
         ],
         [
           "Weight",
@@ -198060,35 +198144,43 @@
           "6.5 × 4 × 3 cm"
         ],
         [
-          "Battery capacity",
-          "1200mAh"
+          "Battery Capacity",
+          "1200 mAh"
         ],
         [
-          "Charging time",
-          "approx. 50 minutes (USB-C)"
+          "Charge Time",
+          "approx 50 minutes"
         ],
         [
-          "Inflations per charge (mountain bike)",
-          "approx. 6–8"
+          "Pressure Range",
+          "3–150 PSI (0.2–10.3 BAR)"
         ],
         [
-          "LED light",
-          "built-in for low-light visibility"
+          "Auto Stop",
+          "Yes"
         ],
         [
-          "Housing material",
-          "flame-retardant ABS + PC"
+          "Real-Time Pressure Display",
+          "Yes"
+        ],
+        [
+          "LED Light",
+          "Yes"
+        ],
+        [
+          "Cooling Design",
+          "Independent airflow channels"
         ]
       ],
-      "ai_risks_en": "Potential risks include delays from component availability, production scheduling, testing, or international shipping; mitigated by experienced suppliers, established manufacturing partners, and added schedule buffer.",
-      "ai_creator_bio_en": "NEXAIR is a Los Angeles-based team developing portable smart inflation devices for cyclists and outdoor enthusiasts.",
+      "ai_risks_en": "Bringing a hardware product to market involves risks such as manufacturing delays, component sourcing, quality control, and logistics. Although the design and prototyping are complete, unexpected setbacks in supplier availability, production scheduling, testing, or international shipping could affect timelines. The team mitigates these by working with experienced manufacturers and building schedule buffers.",
+      "ai_creator_bio_en": "NEXAIR, based in Los Angeles, CA, develops portable smart air pumps for cyclists and outdoor enthusiasts.",
       "ai_tiers": [],
       "ai_validated": false,
       "ai_source": "raw_html",
       "hw_type": "智能硬件",
       "hw_reason": "Smart air pump with brushless motor and real-time pressure display",
       "ended_at": "2026-07-30T14:32:48.687296Z",
-      "ai_description_en": "NEXAIR is a pocket-sized smart air pump that integrates real-time pressure monitoring, automatic shutoff, and intelligent control into a 132g device. Powered by a 20,000 RPM brushless motor delivering up to 13 L/min airflow, it inflates tires and sports equipment up to 150 PSI with precision. The device features a 1200mAh USB-C rechargeable battery, LED lighting, LCD pressure display, and compatibility with Presta, Schrader, and ball needle valves. Its lightweight, durable design makes it ideal for cyclists, campers, and anyone needing reliable inflation on the go."
+      "ai_description_en": "NEXAIR integrates a 20,000 RPM brushless motor with a 1200 mAh lithium battery, delivering up to 13 L/min airflow and a full recharge in about 50 minutes via USB‑C. Its compact 6.5 × 4 × 3 cm housing weighs only 132 g and includes a real‑time LCD pressure display, LED light, and independent cooling channels to manage heat. The pump supports Presta, Schrader, and ball‑needle valves, with a pressure range of 3–150 PSI (0.2–10.3 BAR) and auto‑stop at user‑set targets. With up to 6–8 mountain‑bike tire top‑ups per charge, it offers reliable, on‑the‑go inflation for bikes, sports balls, and inflatables."
     },
     {
       "id": "ig-airtrek-smartbag",
@@ -212024,17 +212116,17 @@
       },
       "raw_html_hash": "ffad6fb0290d3ad3",
       "raw_fetched_at": "2026-09-08T04:23:16.486317+00:00",
-      "ai_intro_en": "Mixora is a hands‑free dual‑bottle paint shaker that mixes two bottles simultaneously, letting you keep painting while it works. It features adjustable straps for various bottle sizes and an automatic reversing motion to prevent pigment settling. Portable and easy to disassemble, Mixora travels with you to workshops, paint nights, or wherever creativity strikes.",
+      "ai_intro_en": "Mixora is a hands‑free dual‑bottle paint shaker that mixes two bottles simultaneously, letting artists keep painting while it works. Adjustable straps accommodate various bottle sizes, from mini droppers to larger craft bottles, and an automatic reversing motion prevents pigment settling for even consistency. Its portable, easy‑to‑disassemble design lets you bring it to workshops, paint nights, or wherever creativity strikes.",
       "ai_highlights_en": [
-        "Dual‑bottle, hands‑free mixing lets you paint continuously while it prepares your next colors.",
-        "Adjustable straps securely fit a wide range of bottle sizes, from droppers to larger craft bottles.",
-        "Automatic reversing motion prevents pigment settling, delivering consistent mixes without manual shaking."
+        "Hands‑free dual‑bottle mixing: prepares two paint bottles at once so you can keep creating.",
+        "Adjustable straps fit a wide range of bottle sizes, from miniature droppers to larger craft bottles.",
+        "Automatic reversing motion (clockwise/counterclockwise) prevents pigment settling and ensures consistent paint."
       ],
       "ai_specs_en": [],
-      "ai_risks_en": "Mixora has completed core design and testing, but manufacturing may face delays due to component shortages, packaging adjustments, or shipping disruptions from customs and logistics. The team is working with experienced partners, testing each stage, and adding schedule buffers to mitigate risks, while committing to regular updates and transparent communication if issues arise.",
+      "ai_risks_en": "As with any manufacturing project, Mixora faces possible risks such as minor production delays, component shortages, packaging adjustments, or shipping disruptions from customs and local logistics. The team is working with experienced partners, testing each production stage, and adding extra time to the delivery schedule to mitigate these issues and keep backers informed.",
       "ai_creator_bio_en": "",
       "ai_tiers": [],
-      "ai_description_en": "Mixora was created to eliminate the tedious task of shaking paint bottles by hand. Its hands‑free dual‑bottle design mixes two containers at once, so you can keep working on your project while it prepares the next colors. Adjustable straps accommodate everything from miniature droppers to larger craft bottles, and an automatic reversing motion ensures pigments stay evenly suspended. Portable and easy to disassemble, Mixora fits in a bag for workshops, paint nights, or travel, letting artists focus on creation rather than preparation.",
+      "ai_description_en": "Mixora was designed for paint mixing easier, steadier, and more efficient so you can spend less time shaking and more time creating. It mixes two bottles simultaneously with hands‑free operation, adjustable straps for various bottle sizes, and an automatic reversing motion that helps loosen settled pigment and bring paint to an even consistency. The device is easy to take apart, pack, and bring with you to paint nights, workshops, or a friend’s place, fitting easily into a bag and setting up again in just a few steps. Whether you’re painting miniatures, detailing nail art, working on canvas, or finishing DIY pieces, Mixora takes care of the mixing so you can stay focused on your creation.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -218788,84 +218880,60 @@
         "trend": -5,
         "heat": 27.0
       },
-      "ai_intro_en": "Intelligent LED Display gives you complete real-time visibility of your charging system. Instantly monitor power output, voltage, current, battery level, temperature, and charging status across every port, allowing smarter power management and a more professional desktop-level charging experience wherever you are. With a combined maximum output of 240W across all three ports, Voltbou Power delivers true desktop-level charging performance in a portable form. Power laptops, tablets, smartphones, gaming devices, and accessories simultaneously without sacrificing charging speed, making it the perfect all-in-one power solution for work, travel, and everyday carry.",
+      "ai_intro_en": "Voltbou Power is a portable 240W power station with an intelligent LED display providing real-time visibility of power output, voltage, current, battery level, temperature, and charging status across every port. It features a 4S2P battery architecture with 8 high-efficiency 18650 cells in a compact 172×59×52mm form factor.",
       "ai_highlights_en": [
-        "Instantly monitor power output, voltage, current, battery level, temperature, and charging status across every port",
-        "True desktop-level charging performance in a portable form",
-        "Power laptops, tablets, smartphones, gaming devices, and accessories simultaneously without sacrificing charging speed"
+        "240W combined max output across 3 ports for desktop-level portable charging",
+        "Intelligent LED display shows real-time power metrics for every port",
+        "Compact 172×59×52mm design with 4S2P 18650 cell battery architecture"
       ],
       "ai_specs_en": [
-        {
-          "spec_name": "Power Output",
-          "spec_value": "240W"
-        },
-        {
-          "spec_name": "Battery Pack",
-          "spec_value": "Advanced 4S2P High-Performance Battery Pack"
-        },
-        {
-          "spec_name": "Device Compatibility",
-          "spec_value": "Wide range of modern devices, including laptops, smartphones, tablets, cameras, drones, gaming handhelds, wireless accessories, and more"
-        },
-        {
-          "spec_name": "Dimensions",
-          "spec_value": "172mm × 59mm × 52mm"
-        },
-        {
-          "spec_name": "Output Design",
-          "spec_value": "Triple-Port Max240W Output"
-        },
-        {
-          "spec_name": "Price",
-          "spec_value": "$79"
-        },
-        {
-          "spec_name": "Currency",
-          "spec_value": "USD"
-        },
-        {
-          "spec_name": "Backers",
-          "spec_value": "7"
-        },
-        {
-          "spec_name": "Estimated Delivery",
-          "spec_value": "Aug 2026"
-        },
-        {
-          "spec_name": "Limited Quantity",
-          "spec_value": "93 left of 100"
-        },
-        {
-          "spec_name": "Price (HK$)",
-          "spec_value": "$79"
-        },
-        {
-          "spec_name": "Currency (HK$)",
-          "spec_value": "HKD"
-        },
-        {
-          "spec_name": "Backers (HK$)",
-          "spec_value": "7"
-        },
-        {
-          "spec_name": "Estimated Delivery (HK$)",
-          "spec_value": "Aug 2026"
-        },
-        {
-          "spec_name": "Limited Quantity (HK$)",
-          "spec_value": "93 left of 100"
-        }
+        [
+          "Power Output",
+          "240W max across 3 ports"
+        ],
+        [
+          "Battery",
+          "4S2P 18650 cells (8 cells)"
+        ],
+        [
+          "Dimensions",
+          "172mm × 59mm × 52mm"
+        ],
+        [
+          "Charging Ports",
+          "3 (USB-C fast charging)"
+        ],
+        [
+          "Compatibility",
+          "Laptops, smartphones, tablets, cameras, drones, gaming handhelds"
+        ],
+        [
+          "Estimated Delivery",
+          "Aug 2026"
+        ],
+        [
+          "Shipping",
+          "Worldwide"
+        ]
       ],
-      "ai_risks_en": "Hardware development always comes with challenges including manufacturing refinement, component sourcing, and production scheduling.",
-      "ai_creator_bio_en": "Voltbou Power: The Visual 240W Power Station",
+      "ai_risks_en": "Hardware development always involves challenges including manufacturing refinement, component sourcing, and production scheduling. The team has completed core structural and electrical validation and is working with manufacturing partners. AI was used for some visual concept images and presentation materials only; actual product design and engineering are based on real development work.",
+      "ai_creator_bio_en": "Voltbou Power is a hardware team creating portable high-output power solutions with intelligent monitoring displays.",
       "ai_tiers": [
+        {
+          "name": "Support",
+          "price": 2,
+          "price_usd": 2,
+          "currency": "USD",
+          "backers": null,
+          "description": "Support the project for no reward, just because it speaks to you."
+        },
         {
           "name": "Super Early Bird-One Pack",
           "price": 618,
           "price_usd": 79,
           "currency": "HKD",
           "backers": 7,
-          "description": "Grab the One Pack Visual 240W Voltbou Power Station at Only USD $79"
+          "description": "One Pack Visual 240W Voltbou Power Station. Limited 93 left of 100."
         },
         {
           "name": "Early Bird-One Pack",
@@ -218873,7 +218941,7 @@
           "price_usd": 85,
           "currency": "HKD",
           "backers": 0,
-          "description": "Grab the One Pack Visual 240W Voltbou Power Station at Only USD $85"
+          "description": "One Pack Visual 240W Voltbou Power Station."
         },
         {
           "name": "Super Early Bird-Two Pack",
@@ -218881,7 +218949,7 @@
           "price_usd": 158,
           "currency": "HKD",
           "backers": 1,
-          "description": "Grab the Two Pack Visual 240W Voltbou Power Station at Only USD $158"
+          "description": "Two Packs Visual 240W Voltbou Power Station. Limited 99 left of 100."
         },
         {
           "name": "Early Bird-Two Pack",
@@ -218889,23 +218957,23 @@
           "price_usd": 216,
           "currency": "HKD",
           "backers": 0,
-          "description": "Grab the Two Pack Visual 240W Voltbou Power Station at Only USD $165"
+          "description": "Two Packs Visual 240W Voltbou Power Station."
         },
         {
           "name": "Super Early Bird-Three Pack",
           "price": 1819,
-          "price_usd": 233,
+          "price_usd": 232,
           "currency": "HKD",
           "backers": 0,
-          "description": "Grab the Three Pack Visual 240W Voltbou Power Station at Only USD $233"
+          "description": "Three Packs Visual 240W Voltbou Power Station. Limited 100 left of 100."
         },
         {
           "name": "Super Early Bird-Five Pack",
           "price": 2966,
-          "price_usd": 380,
+          "price_usd": 379,
           "currency": "HKD",
           "backers": 0,
-          "description": "Grab the Five Pack Visual 240W Voltbou Power Station at Only USD $380"
+          "description": "Five Packs Visual 240W Voltbou Power Station. Limited 100 left of 100."
         },
         {
           "name": "Super Early Bird-Ten Pack",
@@ -218913,7 +218981,7 @@
           "price_usd": 750,
           "currency": "HKD",
           "backers": 0,
-          "description": "Grab the Ten Pack Visual 240W Voltbou Power Station at Only USD $750"
+          "description": "Ten Packs Visual 240W Voltbou Power Station. Limited 100 left of 100."
         }
       ],
       "ai_validated": false,
@@ -218921,7 +218989,7 @@
       "hw_type": "智能硬件",
       "hw_reason": "Power bank with smart LED display and charging circuitry.",
       "ended_at": "2026-09-21T06:54:34.631407Z",
-      "ai_description_en": "With a combined maximum output of 240W across all three ports, Voltbou Power delivers true desktop-level charging performance in a portable form. Power laptops, tablets, smartphones, gaming devices, and accessories simultaneously without sacrificing charging speed, making it the perfect all-in-one power solution for work, travel, and everyday carry."
+      "ai_description_en": "Voltbou Power is a portable 240W power station featuring an intelligent LED display that gives complete real-time visibility of your charging system, monitoring power output, voltage, current, battery level, temperature, and charging status across every port. Built with an advanced 4S2P battery architecture using 8 high-efficiency 18650 cells, it delivers stable high-output performance with improved thermal efficiency. Despite its powerful 240W desktop-level output, it maintains a compact form factor measuring just 172×59×52mm, easily fitting into backpacks and camera bags. It works seamlessly with laptops, smartphones, tablets, cameras, drones, gaming handhelds, and more, with advanced USB-C fast charging support and intelligent power distribution."
     },
     {
       "id": "ks-841020287",
@@ -228234,27 +228302,15 @@
       },
       "raw_html_hash": "4a61939818383090",
       "raw_fetched_at": "2026-08-26T02:24:13.833263+00:00",
-      "ai_intro_en": "ZoloCard is a smart business card that uses contactless NFC and QR code technology to instantly share profiles and links. It offers link redirection and a no‑fee forever pricing model, letting users make a memorable impression in a soloistic way.",
+      "ai_intro_en": "ZoloCard is a smart business card that enables contactless sharing via NFC and QR codes. It offers a profile and link page with link redirection and promises no fees forever.",
       "ai_highlights_en": [
-        "Contactless NFC and QR Code Sharing for instant profile exchange",
-        "Profile and Linkpage with customizable link redirection",
-        "No‑fee forever pricing model"
+        "Contactless NFC sharing",
+        "QR code sharing",
+        "No fee forever"
       ],
       "ai_specs_en": [
         [
-          "Technology",
-          "Contactless NFC and QR Code"
-        ],
-        [
-          "Features",
-          "Profile and Linkpage, Link Redirection"
-        ],
-        [
-          "Pricing Model",
-          "No Fee Forever"
-        ],
-        [
-          "Total Funding",
+          "Total funding",
           "£128"
         ],
         [
@@ -228262,18 +228318,14 @@
           "4"
         ],
         [
-          "Days Left",
+          "Days left",
           "13"
-        ],
-        [
-          "Product Type",
-          "Stunning Smart Business Card"
         ]
       ],
       "ai_risks_en": "",
-      "ai_creator_bio_en": "Minute Objects is the creator behind ZoloCard, focusing on innovative smart business card solutions.",
+      "ai_creator_bio_en": "Minute Objects is the creator behind ZoloCard.",
       "ai_tiers": [],
-      "ai_description_en": "ZoloCard redefines the traditional business card by integrating contactless NFC and QR code technologies, enabling users to share their professional profiles and links with a simple tap or scan. The card includes a customizable linkpage and link redirection feature, ensuring that recipients always reach the intended online destination. With a no‑fee forever pricing model and current crowdfunding momentum of £128 raised from 4 backers, ZoloCard aims to provide a lasting, cost‑effective networking tool.",
+      "ai_description_en": "",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-08T04:22:46.807477Z"
@@ -234080,7 +234132,7 @@
           "price_usd": 299,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 1 × Sound For with 3 built‑in instrument sounds, plus optional add‑ons: magnetic microphone, phone holder, headphones, backpack, guitar strap, charging cable."
+          "description": "Core Edition with 3 built‑in instrument sounds, includes phone holder, magnetic mic, headphones, backpack, strap, charging cable."
         },
         {
           "name": "Early Bird – Core Edition",
@@ -234088,7 +234140,7 @@
           "price_usd": 329,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 1 × Sound For with 3 built‑in instrument sounds, plus optional add‑ons: magnetic microphone, phone holder, headphones, backpack, guitar strap, charging cable."
+          "description": "Core Edition with 3 built‑in instrument sounds, includes phone holder, magnetic mic, headphones, backpack, strap, charging cable."
         },
         {
           "name": "Super Early Bird — Infinity Edition",
@@ -234096,7 +234148,7 @@
           "price_usd": 339,
           "currency": "USD",
           "backers": 1,
-          "description": "Includes 1 × Stringless Smart Guitar with 14 built‑in instrument sounds, plus optional add‑ons: magnetic microphone, phone holder, headphones, backpack, guitar strap."
+          "description": "Infinity Edition with 14 built‑in instrument sounds, includes phone holder, magnetic mic, headphones, backpack, strap."
         },
         {
           "name": "Early Bird — Infinity Edit",
@@ -234104,7 +234156,7 @@
           "price_usd": 369,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 1 × Sound For with 14 built‑in instrument sounds, plus optional add‑ons: magnetic microphone, phone holder, headphones, backpack, guitar strap."
+          "description": "Infinity Edition with 14 built‑in instrument sounds, includes phone holder, magnetic mic, headphones, backpack, strap."
         },
         {
           "name": "Couple Package – Core Edition",
@@ -234112,7 +234164,7 @@
           "price_usd": 609,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 2 × Sound For units each with 3 built‑in instrument sounds, plus optional add‑ons: 2× magnetic microphone, 2× phone holder, 2× headphones, 2× backpack, 2× guitar strap."
+          "description": "Two Core Edition guitars, each with 3 instrument sounds, includes dual phone holders, mics, headphones, backpacks, straps, charging cables."
         },
         {
           "name": "Couple Package — Infinity Edit",
@@ -234120,7 +234172,7 @@
           "price_usd": 689,
           "currency": "USD",
           "backers": 0,
-          "description": "Includes 2 × Sound For units each with 14 built‑in instrument sounds, plus optional add‑ons: 2× magnetic microphone, 2× phone holder, 2× headphones, 2× backpack, 2× guitar strap."
+          "description": "Two Infinity Edition guitars, each with 14 instrument sounds, includes dual phone holders, mics, headphones, backpacks, straps."
         }
       ],
       "ai_currency": "USD",
@@ -234477,11 +234529,11 @@
         "trend": 0,
         "heat": 4.3
       },
-      "ai_intro_en": "Play Smarter is a stringless smart guitar that offers a full‑size, authentic feel with a built‑in phone stand, magnetic mic, and included headphones. It provides 14 switchable instrument sounds, five playing styles, and up to 30 days of battery life for portable music making anywhere.",
+      "ai_intro_en": "The Play Smarter stringless smart guitar combines a full‑size, real‑guitar feel with 14 built‑in instrument sounds, a snap‑on magnetic microphone, and a built‑in phone stand for lyrics or tutorials. It offers up to 30‑day battery life, headphones for private play, and multiple playing modes, letting you make music anywhere from campfires to home studios.",
       "ai_highlights_en": [
-        "14 built‑in instrument sounds (guitar, piano, drums, etc.) switch instantly for versatile playing.",
-        "Full‑size design with integrated phone stand, magnetic mic, and headphones delivers a real‑guitar experience.",
-        "30‑day battery life and lightweight build let you play anywhere, from campfires to home practice."
+        "14 instruments in one, switch instantly between guitar, piano, drums, bass, sax, guzheng, ukulele and more.",
+        "Built‑in phone stand and snap‑on magnetic mic turn the guitar into a mini stage for instant performance.",
+        "30‑day battery life and portable design let you play anywhere, from campfires to home studios."
       ],
       "ai_specs_en": [
         [
@@ -234490,10 +234542,10 @@
         ],
         [
           "Battery capacity",
-          "4000mAh"
+          "4000 mAh"
         ],
         [
-          "Built‑in instrument sounds",
+          "Number of instruments",
           "14"
         ],
         [
@@ -234501,28 +234553,28 @@
           "5"
         ],
         [
-          "Phone stand",
-          "Built‑in"
+          "Built‑in phone stand",
+          "Yes"
         ],
         [
-          "Magnetic mic",
-          "Included"
+          "Snap‑on microphone",
+          "Yes"
         ],
         [
-          "Headphones",
-          "Included"
+          "Headphones included",
+          "Yes"
         ],
         [
-          "Materials",
-          "Acoustically inspired woven fabric front panel"
+          "Full‑size design",
+          "Yes"
         ]
       ],
-      "ai_risks_en": "As a hardware innovation, the project faces typical crowdfunding risks such as unexpected technical challenges in integrating sensors, audio, and hardware; potential delays in fine‑tuning performance and ensuring consistent quality; and possible supply‑chain or logistics disruptions that could affect shipping timelines. The team is building buffer time and will provide regular updates.",
-      "ai_creator_bio_en": "We are a team of musicians, engineers, and designers dedicated to making music more accessible, portable, and intuitive.",
+      "ai_risks_en": "The main risks involve integrating hardware, sensors, and audio systems into a new instrument, which may require fine‑tuning and quality coordination with manufacturing partners. Global logistics and shipping timelines could also be affected by external factors, though the team is building buffer time and will provide regular updates.",
+      "ai_creator_bio_en": "We are a team of musicians, engineers, and designers united by a shared vision: to make music more accessible, portable, and intuitive.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "Play Smarter reimagines the guitar as a stringless smart instrument that combines a full‑size, guitar‑shaped body with an acoustically woven fabric front panel for clear tone. It features 14 instantly switchable instrument sounds, five playing modes, a built‑in phone stand, magnetic mic, and included headphones for immersive practice. Powered by a 4000mAh battery, it delivers up to 30 days of use on a single charge, making it ideal for travel, home jam sessions, or small performances. The project has completed tooling and plans a trial mold run, with estimated delivery in September 2026.",
+      "ai_description_en": "The Play Smarter stringless smart guitar offers a full‑size, real‑guitar feel with 14 built‑in instrument sounds that can be switched instantly. It features a snap‑on magnetic microphone, built‑in phone stand for lyrics or tutorials, and a private solo mode with included headphones. Powered by a 4000 mAh battery, it delivers up to 30 days of playtime and is designed for portability, letting you play anywhere from campfires to home studios. The team of musicians, engineers, and designers aims to make music more accessible, portable, and intuitive through this innovative instrument.",
       "nameZh": "折叠智能吉他，内置乐队音效",
       "ai_intro_zh": "一款无弦折叠智能吉他，内置乐队音效，随时随地弹奏。",
       "ai_description_zh": "这款智能吉他通过触控感应面板代替琴弦，无需调音即可弹奏。内置多种乐器音色和伴奏风格。\n\n折叠设计便携收纳。蓝牙耳机静音练习不打扰他人。",
@@ -234704,7 +234756,7 @@
       },
       "raw_html_hash": "7624e64f790d2b3c",
       "raw_fetched_at": "2026-09-11T16:54:09.604313+00:00",
-      "ai_intro_en": "This is a product project. It is a product. It is a product project.",
+      "ai_intro_en": "Project description here.",
       "ai_highlights_en": [],
       "ai_specs_en": [],
       "ai_risks_en": "",
@@ -249809,64 +249861,40 @@
         }
       ],
       "ai_currency": "EUR",
-      "ai_intro_en": "Securidoor is an AI-powered surveillance module that transforms any door frame or window into a smart security device, monitoring entrances 24/7. Using its AlwaysSafe© AI, it filters out routine activity, captures photo and video clips on detected threats, and sends instant mobile alerts with evidence to enable preemptive response.",
+      "ai_intro_en": "Securidoor is an AI-powered surveillance module that installs discreetly in door frames or windows to monitor entrances 24/7. Using AlwaysSafe© AI, it filters routine activity and only alerts users to detected hostile behaviors such as lock picking, forced entry, or vandalism, sending instant mobile alerts with photo and video evidence.",
       "ai_highlights_en": [
-        "AlwaysSafe© AI filters routine alerts and detects specific threats such as lock picking, banging, or vandalism.",
-        "Instant mobile alerts with photo and video evidence let you react before an intrusion occurs.",
-        "Discreet, standalone module fits door/window frames and receives over‑the‑air updates for lasting security."
+        "AI-powered detection of hostile behaviors (lock picking, forced entry, vandalism) with instant mobile alerts and evidence.",
+        "Discreet, standalone module fits standard door frames or windows for continuous 24/7 monitoring.",
+        "Over-the-air firmware updates enable continuous improvement, new features, and long-term support without hardware changes."
       ],
       "ai_specs_en": [
         [
-          "Module type",
+          "Product type",
           "AI-powered surveillance module"
         ],
         [
           "AI technology",
-          "AlwaysSafe© Artificial Intelligence"
+          "AlwaysSafe©"
         ],
         [
-          "Monitoring",
-          "24/7 entrance monitoring"
+          "Delivery estimate",
+          "July 2026"
         ],
         [
-          "Event capture",
-          "Photo and short video clip on detection"
+          "Currency",
+          "EUR"
         ],
         [
-          "Threat detection",
-          "Recognizes hostile behaviors (lock picking, banging, vandalism)"
-        ],
-        [
-          "Alert system",
-          "Instant mobile alerts with video evidence"
-        ],
-        [
-          "Design",
-          "Discreet, standalone module for door/window frames"
-        ],
-        [
-          "Software updates",
-          "Over-the-air (OTA) firmware updates"
-        ],
-        [
-          "Price (x1)",
+          "Base price (EUR)",
           "€59.00"
-        ],
-        [
-          "Price (x2)",
-          "€110.00"
-        ],
-        [
-          "Price (x3)",
-          "€151.00"
         ]
       ],
-      "ai_risks_en": "While hardware development is complete and key components are secured, risks remain: minor adjustments during factory tooling, possible logistics delays, assembly line calibration, and software beta testing. These could affect timing but not core functionality.",
-      "ai_creator_bio_en": "Securima is the developer behind Securidoor, focusing on AI-powered home security solutions.",
+      "ai_risks_en": "While the prototype is functional and key components are secured, risks remain including potential delays in factory tooling and mold production, meeting minimum order quantities, initial assembly line calibration, and possible software beta testing delays that could affect OTA update timing.",
+      "ai_creator_bio_en": "Securima is the creator behind Securidoor, developing AI-powered security hardware for home protection.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "Securidoor is a standalone AI-powered surveillance module designed to be installed in door frames or windows, providing 24/7 monitoring of your entrance. Its AlwaysSafe© AI filters out routine activity, detects specific hostile behaviors such as lock picking, banging, or vandalism, and captures photo and video evidence while sending instant mobile alerts. The device is discreet, easy to install, and supports over‑the‑air firmware updates for ongoing improvements and new features. The Indiegogo campaign aims to fund factory production, including tooling and molds, to move from a functional prototype to mass production.",
+      "ai_description_en": "Securidoor uses AlwaysSafe© AI to distinguish between normal activity and genuine threats like lock picking, forced entry, or vandalism, triggering instant mobile alerts with photo and video evidence. The discreet module installs in a door frame or window and monitors the entrance 24/7 without the false alarms of traditional cameras. Hardware development is complete, with a fully functional prototype, secured critical components, and OTA‑capable firmware for future updates. The Indiegogo campaign aims to fund factory tooling and molds to reach the minimum order quantity needed for mass production.",
       "score_components": {
         "static": 18.3,
         "momentum": 0,
@@ -257754,11 +257782,11 @@
       },
       "raw_html_hash": "daa49833cb266510",
       "raw_fetched_at": "2026-09-10T16:43:53.516883+00:00",
-      "ai_intro_en": "The Waht Magnetic Fluid Interactive Display is a PC case featuring a magnetic fluid module on the front panel that reacts to audio signals, creating a real-time visual display. It supports M-ATX/ITX motherboards, radiators up to 360mm, and up to seven 120mm fans for versatile cooling.",
+      "ai_intro_en": "The Waht Magnetic Fluid Interactive Display is a PC case featuring a magnetic fluid module on the front panel that reacts to audio signals, creating a real-time visual display synced with music and ambient sound. It supports M-ATX and ITX motherboards, accommodates GPUs up to 430mm, CPU coolers up to 182mm, and radiators up to 360mm. Additional features include up to seven 120mm fans, multi‑side dust filters, 3.5\"+2.5\" drive bays, and front I/O with USB‑C and two USB‑3.0 ports.",
       "ai_highlights_en": [
-        "Magnetic fluid front panel visualizes audio in real time, responding to music and ambient sound.",
-        "Supports up to 360mm radiator, seven 120mm fans, and graphics cards up to 430mm for high-performance builds.",
-        "Includes multi-side dust filters, 3.5\"+2.5\" drive bays, and front I/O with USB-C, two USB 3.0 ports, and LED power button."
+        "Magnetic fluid interactive display that visualizes audio in real time.",
+        "Supports M-ATX/ITX motherboards, GPUs up to 430mm, radiators up to 360mm.",
+        "Expandable cooling with up to seven 120mm fans and multi‑side dust filters."
       ],
       "ai_specs_en": [
         [
@@ -257766,8 +257794,16 @@
           "M-ATX / ITX"
         ],
         [
+          "Maximum GPU Length",
+          "430mm"
+        ],
+        [
+          "Maximum CPU Cooler Height",
+          "182mm"
+        ],
+        [
           "Radiator Support",
-          "Up to 360mm"
+          "Up to 360mm length, 53.5mm thickness"
         ],
         [
           "Fan Support",
@@ -257775,48 +257811,24 @@
         ],
         [
           "Dust Filters",
-          "Multi-side (top, bottom, both sides)"
+          "Multi‑side (top, bottom, both sides)"
         ],
         [
-          "Drive Mounting",
-          "3.5\" + 2.5\" bays"
+          "Drive Bays",
+          "1 × 3.5\\\", 2 × 2.5\\\""
         ],
         [
           "Front I/O",
-          "1 USB Type-C, 2 USB 3.0 Type-A, LED-lit power button"
+          "1 × USB‑C, 2 × USB‑3.0 Type‑A, LED power button"
         ],
         [
-          "Graphics Card Length",
-          "Up to 430mm"
-        ],
-        [
-          "CPU Cooler Height",
-          "Up to 182mm"
-        ],
-        [
-          "Radiator Thickness",
-          "Max 53.5mm"
-        ],
-        [
-          "Early Bird Price",
-          "$169"
-        ],
-        [
-          "Kickstarter Special Price",
-          "$179"
+          "Magnetic Fluid Display",
+          "Audio‑responsive visual panel"
         ]
       ],
-      "ai_risks_en": "Potential risks include manufacturing delays, quality control issues, material sourcing challenges, and shipping setbacks; the team is working closely with manufacturing partners to mitigate these and will keep backers updated on progress.",
+      "ai_risks_en": "Potential risks include manufacturing delays, quality control issues, material sourcing challenges, and shipping logistics; the team is working closely with partners to mitigate these risks and will keep backers informed of any updates.",
       "ai_creator_bio_en": "",
       "ai_tiers": [
-        {
-          "name": "Support (No Reward)",
-          "price": null,
-          "price_usd": null,
-          "currency": "",
-          "backers": null,
-          "description": "Pledge any amount to support the project without receiving a reward. Back it because you believe in it. Support the project for no reward, just because it speaks to you."
-        },
         {
           "name": "Early Bird — Limited to 100 Units",
           "price": 169,
@@ -257834,7 +257846,7 @@
           "description": "Get the PC case at the exclusive Kickstarter price. 1 item included + optional add-ons PC Case Details."
         }
       ],
-      "ai_description_en": "The Waht Magnetic Fluid Interactive Display PC case integrates a magnetic fluid module that reacts to audio, creating a dynamic visual front panel. It accommodates M-ATX and ITX motherboards, graphics cards up to 430mm, and CPU coolers up to 182mm tall. Cooling options include radiators up to 360mm thick (max 53.5mm) and up to seven 120mm fans, with dust filters on all intake sides. Storage flexibility is provided by one 3.5-inch and two 2.5-inch drive bays, while front I/O offers USB-C, two USB 3.0 ports, and an LED power button.",
+      "ai_description_en": "The Waht Magnetic Fluid Interactive Display PC case integrates a magnetic fluid module on its front panel that reacts to audio signals, producing a dynamic visual display that moves with music and ambient sound. It is built for M-ATX and ITX motherboards, offering GPU clearance up to 430mm, CPU cooler height up to 182mm, and support for radiators up to 360mm thick. Cooling flexibility includes mounting points for up to seven 120mm fans and multi‑side dust filters to keep internals clean. Storage options consist of one 3.5‑inch and two 2.5‑inch drive bays, while the front I/O provides USB‑C, two USB‑3.0 ports, and an LED power button.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -287567,40 +287579,64 @@
       "raw_html_hash": "6b5e5ae28af91455",
       "raw_fetched_at": "2026-08-06T04:18:36.715916+00:00",
       "ai_validated": false,
-      "ai_intro_en": "This project aims to design and build a small-scale electrolytic silver refining system that recovers pure silver from discarded silver-plated scrap. Backers will receive physical silver crystal artifacts produced during normal operation. The system emphasizes electrolyte reuse, waste reduction, and sustainable materials.",
+      "ai_intro_en": "This project develops a small-scale electrolytic silver refining system to recover silver from discarded silver-plated scrap. The process continuously reclaims pure silver from solution, reducing chemical waste and enabling long-term electrolyte reuse. Backers receive physical silver crystal artifacts produced during operation.",
       "ai_highlights_en": [
-        "Electrolyte remains active for extended use, minimizing chemical waste and enabling continuous silver recovery.",
-        "Produces high‑purity (.999) silver crystals and sand, sealed in reusable glass containers for lasting brilliance.",
-        "Uses sustainable packaging and closed‑loop processes to divert silver‑plated waste from landfills and reduce mining demand."
+        "Electrolyte longevity allows continuous silver recovery with minimal chemical waste.",
+        "Rewards include high-purity (999+) silver crystals and sand, produced directly from the refining process.",
+        "Closed-loop system diverts scrap from landfill and recycles base metals, lowering environmental impact."
       ],
       "ai_specs_en": [
         [
-          "System type",
-          "Electrolytic silver refinery"
+          "System Type",
+          "Small-scale electrolytic silver refining"
         ],
         [
-          "Output forms",
-          "Silver crystals and granular sand"
+          "Electrolyte Longevity",
+          "Remains active over extended periods"
         ],
         [
-          "Purity",
-          ".999 fine silver"
+          "Silver Purity",
+          "999+ fine"
         ],
         [
-          "Electrolyte longevity",
-          "Long‑term reuse"
+          "Reward Item",
+          "Silver crystal artifacts and sand"
         ],
         [
-          "Packaging",
-          "Reusable glass jars with recycled labels"
+          "Starting Price",
+          "$35"
         ],
         [
-          "Shipping",
-          "Worldwide"
+          "Power Delivery",
+          "Low-voltage, precision-controlled DC"
+        ],
+        [
+          "Containment",
+          "Custom anode containment and specialized cathode collection"
+        ],
+        [
+          "Post-Processing",
+          "Tools for crystal harvesting, washing, and drying"
+        ],
+        [
+          "Environmental Management",
+          "Integrated filtration and electrolyte management"
+        ],
+        [
+          "Safety Infrastructure",
+          "Dedicated monitoring and safety equipment for lab"
+        ],
+        [
+          "Scale",
+          "Lab-scale, repeatable recovery platform"
+        ],
+        [
+          "Base Metal Recovery",
+          "Copper and brass routed to industrial recycling"
         ]
       ],
-      "ai_risks_en": "Challenges include variability in scrap composition affecting recovery efficiency, need for precise tuning of electrolytic parameters for each material, natural variation in crystal morphology, and potential supply‑chain delays for specialized lab components.",
-      "ai_creator_bio_en": "Creator Greg, known as Greg the Cable Guy, focuses on artisanal chemistry and material reclamation from silver‑plated scrap.",
+      "ai_risks_en": "Challenges include variability in scrap composition affecting recovery efficiency, need for precise electrolyte parameter tuning per material, natural variation in crystal morphology, and potential supply chain delays for specialized equipment, mitigated by using established suppliers.",
+      "ai_creator_bio_en": "Greg, known as Greg the Cable Guy (@gregthegoldguy), leads the project focusing on artisanal chemistry and silver recovery from scrap.",
       "ai_tiers": [
         {
           "name": "10 Gram .999 Fine Silver Sand",
@@ -287608,7 +287644,7 @@
           "price_usd": 35,
           "currency": "USD",
           "backers": 0,
-          "description": "One clear glass vial with 10 g of high‑purity granular silver sand from the initial recovery line; not an investment, no resale guarantee."
+          "description": "One clear glass display vial containing 10 grams of high-purity, granular silver sand captured directly from our initial recovery line. This reward is not an investment and carries no financial or resale guarantees."
         },
         {
           "name": "1/2 Troy Ounce .999 Fine Silver Sand",
@@ -287616,7 +287652,7 @@
           "price_usd": 55,
           "currency": "USD",
           "backers": 0,
-          "description": "One clear glass vial containing 0.5 troy oz of .999 fine granular silver sand; not an investment, no resale guarantee."
+          "description": "One clear glass display vial containing 1/2 Troy ounce of high-purity, granular silver sand captured directly from our initial recovery line. This reward is not an investment and carries no financial or resale guarantees."
         },
         {
           "name": "1 Troy oz Mixed Silver Display Jar",
@@ -287624,15 +287660,15 @@
           "price_usd": 95,
           "currency": "USD",
           "backers": 0,
-          "description": "Presentation jar with 0.5 troy oz heavy crystal chunks and 0.5 troy oz fine silver sand layered; not an investment, no resale guarantee."
+          "description": "One clear glass presentation jar featuring 1 Troy ounce of refined silver—consisting of 1/2 oz of heavy crystal chunks layered cleanly over 1/2 oz of fine granular silver sand."
         },
         {
-          "name": "10 Troy oz Master Crystal & Sand Collection",
+          "name": "10 Troz Master Crystal & Sand Collection",
           "price": 725,
           "price_usd": 725,
           "currency": "USD",
           "backers": 0,
-          "description": "Glass jars holding 5 troy oz dense crystal chunks and 5 troy oz fine silver sand from the same batch; not an investment, no resale guarantee."
+          "description": "A heavy-weight display lot consisting of 10 troy ounces of refined silver packaged in glass jars: 5 troy ounces of select dense silver crystal chunks and 5 troy ounces of fine silver sand from the exact same refining batch."
         },
         {
           "name": "1,000 Gram Kilo Display",
@@ -287640,12 +287676,12 @@
           "price_usd": 1450,
           "currency": "USD",
           "backers": 1,
-          "description": "Kilogram set with 500 g heavy crystal chunks and 500 g fine silver sand in oversized glass jars; not an investment, no resale guarantee."
+          "description": "The ultimate project benefactor lot. A single presentation-grade display set containing exactly 1,000 grams (1 Kilogram) of pure refined silver in oversized glass display jars: 500 grams of heavy, dense crystal chunks and 500 grams of fine silver sand."
         }
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-08-06T04:17:58.590149Z",
-      "ai_description_en": "The project seeks to fund a lab‑scale electrolytic refinery that extracts silver from discarded plated items, turning waste into pure crystal and sand products. By keeping the electrolyte in service and recovering silver directly from solution, the process cuts chemical waste and avoids disposal of toxic streams. Backers receive tangible silver artifacts while supporting a sustainable, closed‑loop recycling pipeline that can operate for years. The effort also highlights environmental benefits such as diverting metal from landfills and reducing demand for newly mined ore."
+      "ai_description_en": "The project aims to design, assemble, and test a purpose-built electrolytic refinery optimized for recovering silver from silver-plated scrap. The system uses a stable electrolyte that can be reused over long periods, capturing pure silver directly from solution to minimize chemical waste. Environmental benefits include diverting scrap from landfills, recycling base metals, and providing a closed-loop process that reduces the need for newly mined ore. Backers receive high‑purity silver crystal artifacts as tangible rewards for supporting sustainable material reclamation."
     },
     {
       "id": "ks-1117572010",
@@ -313080,11 +313116,11 @@
       },
       "raw_html_hash": "b488819db8e3bb3f",
       "raw_fetched_at": "2026-07-30T14:50:16.789095+00:00",
-      "ai_intro_en": "The Smart Tag AZ Series offers programmable NFC tags that adapt to your personal needs, letting you store and change data without buying new tags. Made from eco‑friendly polylactic acid (PLA) and featuring a battery‑free, firmware‑free design, the tags are built for long‑term daily use. AZRYON manages design, manufacturing, and fulfillment in‑house to ensure quality and quick response to demand.",
+      "ai_intro_en": "The Smart Tag AZ Series are battery‑free NFC tags that adapt to your personal needs and can be re‑programmed indefinitely. Made from eco‑friendly PLA, they are durable, impact‑resistant and designed for long‑term daily use. The project offers early‑bird bundles from €15, with import taxes and shipping covered.",
       "ai_highlights_en": [
-        "Reusable NFC tags: change data repeatedly without replacement.",
-        "Sustainable PLA shell: biodegradable, low‑carbon‑footprint material.",
-        "Battery‑free, firmware‑free NFC: no electronics to fail, long lifespan."
+        "Battery‑free NFC tags that can be re‑programmed indefinitely via smartphone.",
+        "Eco‑friendly PLA shell, impact‑resistant and compostable at end of life.",
+        "Early‑bird bundles from €15 (~$18) with taxes and shipping included."
       ],
       "ai_specs_en": [
         [
@@ -313092,52 +313128,28 @@
           "Polylactic acid (PLA)"
         ],
         [
-          "NFC Type",
-          "Firmware‑free (no battery)"
-        ],
-        [
-          "Reusability",
-          "Data can be rewritten unlimited times"
+          "Power source",
+          "Battery‑free NFC"
         ],
         [
           "Warranty",
-          "Covers manufacturing defects, shipping damage, incorrect items"
+          "Consumer protection (repair/replace/refund)"
         ],
         [
           "Shipping",
-          "Limited to certain countries"
+          "Import taxes and duties covered"
         ],
         [
-          "Estimated Delivery",
+          "Estimated delivery",
           "October 2026"
         ],
         [
-          "Price (Early Bird)",
-          "€15 (~$18)"
-        ],
-        [
-          "Price (Kickstarter Special)",
-          "€20 (~$23)"
-        ],
-        [
-          "Currency",
-          "EUR"
-        ],
-        [
-          "Funding Goal",
-          "€1,144"
-        ],
-        [
-          "Amount Pledged",
-          "€22"
-        ],
-        [
-          "Days Left",
-          "14"
+          "Price range",
+          "€15–€20 (~$18–$23)"
         ]
       ],
-      "ai_risks_en": "The main challenges are scaling production while maintaining consistent quality and fulfilling orders quickly if demand spikes. AZRYON mitigates these risks by producing in controlled batches, inspecting each tag, keeping the design simple, and maintaining clear communication with backers throughout the campaign.",
-      "ai_creator_bio_en": "AZRYON is a creator team that designs, manufactures, and fulfills innovative NFC tags in‑house to bring bold ideas to life.",
+      "ai_risks_en": "The main risks are scaling production, maintaining unit consistency, and fulfilling orders quickly if demand spikes. AZryon plans to mitigate these by using controlled batches, inspecting each tag, keeping the design simple, and maintaining clear communication with backers.",
+      "ai_creator_bio_en": "Azryon.Global builds projects and brings bold ideas to life.",
       "ai_tiers": [
         {
           "name": "Support",
@@ -313145,61 +313157,61 @@
           "price_usd": 2,
           "currency": "EUR",
           "backers": null,
-          "description": "Pledge without a reward"
+          "description": "Pledge without a reward to support the project."
         },
         {
-          "name": "Early Bird AZ1 Bundle",
+          "name": "Early Bird - Smart Tag AZ1 Bundle",
           "price": 15,
           "price_usd": 18,
           "currency": "EUR",
           "backers": 1,
-          "description": "Smart Tag AZ1 Bundle, price without tax"
+          "description": "Includes 1 Smart Tag AZ1, ships to select countries, estimated delivery Oct 2026."
         },
         {
-          "name": "Early Bird AZ2 Bundle",
+          "name": "Early Bird - Smart Tag AZ2 Bundle",
           "price": 15,
           "price_usd": 18,
           "currency": "EUR",
           "backers": 0,
-          "description": "Smart Tag AZ2 Bundle, price without tax"
+          "description": "Includes 1 Smart Tag AZ2, ships to select countries, estimated delivery Oct 2026."
         },
         {
-          "name": "Early Bird AZ3 Bundle",
+          "name": "Early Bird - Smart Tag AZ3 Bundle",
           "price": 15,
           "price_usd": 18,
           "currency": "EUR",
           "backers": 0,
-          "description": "Smart Tag AZ3 Bundle, price without tax"
+          "description": "Includes 1 Smart Tag AZ3, ships to select countries, estimated delivery Oct 2026."
         },
         {
-          "name": "Kickstarter Special AZ1 Bundle",
+          "name": "Kickstarter Special - Smart Tag AZ1 Bundle",
           "price": 20,
           "price_usd": 23,
           "currency": "EUR",
           "backers": 0,
-          "description": "Smart Tag AZ1 Bundle, price without tax"
+          "description": "Includes 1 Smart Tag AZ1, ships to select countries, estimated delivery Oct 2026."
         },
         {
-          "name": "Kickstarter Special AZ2 Bundle",
+          "name": "Kickstarter Special - Smart Tag AZ2 Bundle",
           "price": 20,
           "price_usd": 23,
           "currency": "EUR",
           "backers": 0,
-          "description": "Smart Tag AZ2 Bundle, price without tax"
+          "description": "Includes 1 Smart Tag AZ2, ships to select countries, estimated delivery Oct 2026."
         },
         {
-          "name": "Kickstarter Special AZ3 Bundle",
+          "name": "Kickstarter Special - Smart Tag AZ3 Bundle",
           "price": 20,
           "price_usd": 23,
           "currency": "EUR",
           "backers": 0,
-          "description": "Smart Tag AZ3 Bundle, price without tax"
+          "description": "Includes 1 Smart Tag AZ3, ships to select countries, estimated delivery Oct 2026."
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-18T07:25:43.327124Z",
-      "ai_description_en": "The Smart Tag AZ Series consists of NFC tags that can be reprogrammed repeatedly, eliminating the need to purchase new tags when your data changes. Encased in durable, biodegradable PLA shells, the tags resist drops and daily wear while containing no batteries or firmware that could fail. AZRYON handles the entire production process—from design to assembly and shipping—allowing tight quality control and rapid response to backer feedback. Stretch goals and optional add‑ons let supporters customize their bundles, and the project emphasizes sustainability through reusable design and eco‑friendly materials."
+      "ai_description_en": "The Smart Tag AZ Series offers battery‑free NFC tags that can be re‑programmed via smartphone to store contacts, links, or commands. Constructed from impact‑resistant PLA, the tags are designed to survive drops and daily wear while remaining compostable at end of life. Early‑bird backers can choose from three AZ models at €15, with import taxes and shipping covered, and delivery expected in October 2026. The creator manages full production in‑house to ensure quality and mitigate scaling risks."
     },
     {
       "id": "ks-496664221",
@@ -321231,47 +321243,63 @@
       },
       "raw_html_hash": "cafdd21a212bf9a9",
       "raw_fetched_at": "2026-08-04T14:51:23.460130+00:00",
-      "ai_intro_en": "Meowetrics is a connected scale that effortlessly tracks a cat's weight and nutrition, delivering reliable data without causing stress. It operates autonomously with a local web interface, enabling owners to monitor health trends and detect issues early.",
+      "ai_intro_en": "Meowetrics is a connected scale that effortlessly tracks a cat's weight and nutrition, providing reliable data to help owners monitor health. Developed by data analyst and web developer Rabu Pierre, it helped detect diabetes early and offers a stress‑free way to monitor eating habits. The system operates autonomously with local storage, no subscriptions, and includes a web interface for easy access.",
       "ai_highlights_en": [
-        "Stress‑free weight and nutrition tracking for cats.",
-        "Autonomous, cloud‑independent system with local web interface and Home Assistant support.",
-        "Early health‑issue detection (e.g., diabetes) through accurate, actionable data."
+        "Automatic weight and nutrition tracking without stressing the cat.",
+        "Early health issue detection (e.g., diabetes) through data trends.",
+        "Fully autonomous, local operation with no subscriptions or external servers."
       ],
       "ai_specs_en": [
         [
-          "Weight tracking",
-          "Yes"
-        ],
-        [
-          "Nutrition tracking (meal quantity & frequency)",
-          "Yes"
+          "Type",
+          "Connected scale"
         ],
         [
           "Connectivity",
-          "WiFi"
+          "Pre‑configured WiFi"
         ],
         [
-          "Microcontroller",
-          "ESP32"
+          "Interface",
+          "Local web interface"
         ],
         [
-          "Software stack",
-          "Django/React"
+          "Integration",
+          "Home Assistant documentation"
         ],
         [
-          "Local interface",
-          "Web interface"
-        ],
-        [
-          "Home Assistant integration",
-          "Documentation provided"
-        ],
-        [
-          "Power efficiency",
+          "Power",
           "Energy‑efficient design"
+        ],
+        [
+          "Autonomy",
+          "Autonomous and cloud‑independent"
+        ],
+        [
+          "Modifiability",
+          "User‑modifiable and repairable"
+        ],
+        [
+          "Hardware",
+          "ESP32 firmware"
+        ],
+        [
+          "Software",
+          "Django/React full‑stack"
+        ],
+        [
+          "Data",
+          "Tracks weight, food intake, meal frequency"
+        ],
+        [
+          "Health benefit",
+          "Enabled early diabetes detection"
+        ],
+        [
+          "Creator",
+          "Rabu Pierre, developer and maker"
         ]
       ],
-      "ai_risks_en": "Ensuring data reliability and clarity is challenging; the system must deliver consistent, understandable measurements for owners and vets. Building an autonomous, server‑free architecture requires robust embedded design. Finally, distinguishing real weight/food variations from environmental noise demands high measurement precision.",
+      "ai_risks_en": "Key risks include ensuring data reliability and clarity, building a fully autonomous system without external servers, and achieving measurement precision that distinguishes real variations from environmental or behavioral noise.",
       "ai_creator_bio_en": "Rabu Pierre is a developer and maker creating Meowetrics, an embedded system to track cats' weight and nutrition.",
       "ai_tiers": [
         {
@@ -321280,7 +321308,7 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": 1,
-          "description": "Thank‑you email and regular project updates. Supporter receives acknowledgment that their backing helps develop an autonomous, energy‑efficient, cloud‑independent, and accessible system."
+          "description": "Thank‑you email and regular updates; supports autonomous, energy‑efficient, server‑independent development."
         },
         {
           "name": "Soutien Maker",
@@ -321288,7 +321316,7 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "Receive the Meowetrics presentation PDF, Maker Documentation, high‑resolution logo wallpaper, and personal thanks with updates. Supports development of an autonomous, energy‑efficient, cloud‑independent, and modifiable system."
+          "description": "Receive presentation PDF, maker documentation, logo wallpaper, and personal thanks; supports autonomous, energy‑efficient, cloud‑independent, modifiable system."
         },
         {
           "name": "Soutien Développement",
@@ -321296,7 +321324,7 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "Get a comprehensive PDF of the project story, technical insights, trial‑and‑error logs, cat‑focused design notes, hardware/software evolution photos, plus Maker Documentation, wallpapers, and personal thanks."
+          "description": "Get comprehensive story PDF, technical insights, trial/error logs, cat‑focused design, hardware/software evolution, photos, maker docs, wallpapers, and updates."
         },
         {
           "name": "Système Meowetrics",
@@ -321304,7 +321332,7 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "Receive a fully assembled Meowetrics connected scale with pre‑configured WiFi, weight and visit monitoring, local web interface, Home Assistant integration docs, Maker Documentation, development story PDF, wallpapers, and personal thanks."
+          "description": "Receive fully assembled Meowetrics scale with pre‑configured WiFi, local web interface, cat visit/weight monitoring, Home Assistant docs, maker documentation, development story PDF, wallpapers, and updates."
         },
         {
           "name": "Édition Supporter",
@@ -321312,13 +321340,13 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "In addition to all lower‑tier rewards, receive a personalized Meowetrics system, cat‑specific customization, signed numbered limited edition, and direct installation/Home Assistant assistance. Supports ongoing development."
+          "description": "All previous rewards plus a personalized, signed limited‑edition scale, cat‑specific customization, and direct installation/Home Assistant assistance."
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.984101Z",
-      "ai_description_en": "In 2021, after adopting an 8‑year‑old cat, Rabu Pierre began monitoring her weight to manage her slight overweight. Finding manual tracking stressful, he leveraged his data‑analysis and web‑development background to build Meowetrics—a connected scale that automatically records weight and meal frequency. The prototype helped detect early signs of diabetes in 2025, demonstrating the value of reliable, long‑term data. He is now refining the hardware, improving the web interface, and preparing the system for broader release to cat owners."
+      "ai_description_en": "Meowetrics is a connected scale designed to monitor a cat's weight, food intake, and eating habits without causing stress. Created by developer Rabu Pierre, the system helped detect his cat's diabetes early and provides reliable data for owners and veterinarians. It operates autonomously with local storage, features a web interface and Home Assistant integration, and is built to be energy‑efficient, user‑modifiable, and subscription‑free."
     },
     {
       "id": "ks-123439353",
