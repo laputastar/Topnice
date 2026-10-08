@@ -2249,7 +2249,7 @@
         }
       ],
       "ai_description_en": "SLogic32U3 is the 3rd generation of the SLogic series by Sipeed, following SLogicCombo8 and SLogic16U3. It features a custom 10 Gbps FPGA IP developed in-house, delivering professional-grade performance at a price comparable to ordinary USB 2.0 logic analyzers. The device offers 32 digital channels at up to 1.4 GS/s with coaxial probes featuring front-end AFE circuitry for cleaner signals. An optional $9 ADC module adds analog channels with twice the sample rate and bandwidth of Logic Pro 16's built-in analog. It works with open-source tools like PulseView, ngscopeclient, and Sigrok, plus a browser-based host app requiring no installation. A built-in MCP server enables AI agents like Claude, Cursor, and Codex to trigger captures, decode protocols, and automate debugging in CI/CD and regression testing workflows. The CNC-machined aluminum enclosure is built to last a decade, with replaceable probes and field-upgradeable firmware.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -11048,7 +11048,8 @@
         "heat": 84.7
       },
       "raw_html_hash": "4fe2c39f9ffa8d82",
-      "raw_fetched_at": "2026-10-08T19:25:20.393359+00:00"
+      "raw_fetched_at": "2026-10-08T19:25:20.393359+00:00",
+      "ai_validated": false
     },
     {
       "id": "ks-1124956418",
@@ -11203,7 +11204,7 @@
         }
       ],
       "ai_description_en": "Plumora is a smart weighing bowl for birds that uses AI technology to track their health and well-being. It is designed to be easy to use and clean, and is suitable for birds weighing 150–200 g or less. The bowl is made of food-grade materials and has a durable design that can withstand the daily use of a bird. The app is available for both iOS and Android devices and allows users to track their bird's health and receive notifications when the bird's health score needs to be checked. The app also allows users to customize the bowl's settings and receive personalized recommendations for their bird's health.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -20692,7 +20693,7 @@
         }
       ],
       "ai_description_en": "WindAid is a bicycle electric assist conversion kit that upgrades any everyday bike with motor support for climbs up to 60°, up to 9 assist levels, and three riding modes: Throttle, Pedal Assist, and Cruise. It features a 4-inch color display showing battery, speed, distance, and assist level, plus Type-C phone charging and NFC tap-to-unlock anti-theft on PRO and SPORT models. The all-aluminum alloy body is IP66-rated, operates at just 48 dB, and includes energy recovery, walk assist, and a built-in rear taillight. Three models are available—BASE, PRO, and SPORT—with tested ranges up to 88 km. The project has completed over 11,000 km of durability testing and is ready for mass production with an estimated delivery of January 2027.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -53209,7 +53210,7 @@
         }
       ],
       "ai_description_en": "The Long Way Tarot is a 78-card tarot deck and guidebook crafted from lovingly hand-collaged found images over four years by illustrator Amelia Rose. Each card presents a first-person medieval fantasy journey through evocative landscapes, transforming familiar tarot archetypes into vivid, immersive environments. The deck features gold foil edges, hot stamped gold foil details, and soft-touch matte velvet lamination, housed in an extra-large display box with a matching guidebook filled with wisdom and instruction. It can be used as a standalone deck or as a companion to Rose's previously sold-out Runners of the Sun Oracle.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -60290,7 +60291,7 @@
         }
       ],
       "ai_description_en": "BirdVue is the world's first proactive birding ecosystem, combining dual 4G and WiFi connectivity with millimeter-wave radar and multi-modal AI. It features 2K imaging, remote smart feeding with dual seed compartments, dual 6W solar panels with a 5200 mAh battery, IP65 weather resistance, and GPS tracking. The BirdVue app automatically identifies bird species, creates species-based albums, generates highlight videos, and enables remote food dispensing. Also available is the BirdVue TRAIL 5, a compact telephoto wildlife camera that shares the same advanced technology.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -90249,7 +90250,7 @@
         }
       ],
       "ai_description_en": "RoadRoam addresses the common frustration of leveling an RV at uneven campsites by providing real‑time tilt measurements from a 6‑axis IMU and turning them into clear, actionable guidance via a mobile app. The system recommends how many leveling blocks to add and shows adjustments on your phone, letting you level solo with confidence. A detachable design lets the device double as a standalone LED level with instant red/green feedback for everyday tasks. Powered by a 2000mAh rechargeable lithium battery with USB‑C charging, it offers long‑lasting use and durable ABS construction for years of travel.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -174517,7 +174518,7 @@
         }
       ],
       "ai_description_en": "PickleBug is a net‑mounted, double‑sided scoreboard designed specifically for pickleball, operated by a two‑button wristband that lets players add points, undo mistakes, and reset games. The display automatically switches the green and orange scores to reflect which team is serving and shows the server number in the serving team's color, while a side‑light indicates serve side. It supports standard and rally scoring for singles and doubles, a tennis mode that tracks games won, and a basic scoreboard for other games. Built with an outdoor‑visible, sunlight‑readable screen, IP‑54 weather resistance, and USB‑C rechargeable batteries delivering 8+ hours of play, PickleBug aims to be a durable, versatile scoring solution for pickleball and similar sports.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -207396,7 +207397,7 @@
       "ai_creator_bio_en": "ēnsso is a product design studio established in 2014 in Huntington Beach, California, known for award-winning designs including Red Dot and Good Design accolades.",
       "ai_tiers": [],
       "ai_description_en": "The UNO XL Titanium reimagines the classic pen with a titanium body machined from Grade 5 alloy, ensuring strength, lightness, and corrosion resistance. Its innovative swivel mechanism unifies cap and grip, allowing the tip to be exposed with a simple twist while providing a knurled grip for control. Designed to accept the Pilot Hi-Tec-C refill, the pen delivers ultra‑fine, consistent lines ideal for writing, sketching, and technical drawing. With production slated for December 2026, backers receive an exclusive 40% discount off the future retail price.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -307157,7 +307158,7 @@
         }
       ],
       "ai_description_en": "The Multipurpose Modular Riser is a flexible, modular 3D-printable riser system that lets users create flat risers, height‑adjustable surfaces, angled platforms, and stacked displays by combining interchangeable components. Designed for FDM printers, the parts print without supports using PLA, with the largest piece measuring 170×170×3.6 mm and the tallest reaching 165 mm. The project offers two licensing options: a Personal Use license for non‑commercial printing and a Commercial Lifetime license that permits selling physical prints, with early‑bird pricing available for the first five days. Backers receive digital STL files after the campaign, plus any new accessories developed during the campaign at no extra cost.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -336468,7 +336469,7 @@
         }
       ],
       "ai_description_en": "Puzzlebox aims to replace disposable flatpack with a range of hardwood furniture that uses no screws, glue or plastic fixings, allowing pieces to be taken apart and rebuilt indefinitely. The inaugural collection features a 50 cm round oak table weighing 8.1 kg, made from five precision‑cut pieces that assemble in under 30 seconds, and a forthcoming bookshelf line. All items are crafted from sustainably sourced oak, designed for decades of use and easy recycling at end‑of‑life. By backing the Kickstarter, supporters help fund the first production run and the development of additional pieces such as dining tables and chairs.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -336576,7 +336577,7 @@
         }
       ],
       "ai_description_en": "Putt Press began as a solution to the frustrating task of drawing alignment lines on golf balls with markers and stencils. The team has built a 3D‑printed prototype and tested its shape, ball fit, pressing mechanism, and ink transfer, confirming the concept but revealing inconsistency in the ink‑transfer process. Funds will be used to refine the mechanism, test various inks and transfer materials, complete a next‑generation prototype, finalize the design, create manufacturing tooling, and produce an initial batch. The goal is a durable, reusable tool that golfers can keep in their bags for thousands of uses, reducing waste compared to disposable stencils and markers.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
@@ -387919,7 +387920,7 @@
         }
       ],
       "ai_description_en": "Lumis began as Dominik’s hobby of designing and 3D‑printing small figurines, each given a unique personality and backstory. The Kickstarter campaign seeks funds to scale production, develop new series and limited editions, create premium packaging, and start building a digital platform that will connect the physical collectibles with an online world. Backers who pledge at the Supporter level receive a digital entry in the Lumis community, while the First Lumi tier includes an exclusive Kickstarter‑only figure plus that digital entry. The project emphasizes quality, transparency, and long‑term growth, aiming to prove there is lasting interest in a evolving collectible universe.",
-      "ai_validated": false,
+      "ai_validated": true,
       "ai_source": "raw_html"
     },
     {
