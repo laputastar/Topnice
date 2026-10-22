@@ -404,7 +404,118 @@
         "heat": 92.3
       },
       "raw_html_hash": "3c1c6e815a43d757",
-      "raw_fetched_at": "2026-10-22T17:38:15.342045+00:00"
+      "raw_fetched_at": "2026-10-22T17:38:15.342045+00:00",
+      "ai_intro_en": "Resin post-processing has never been this easy! Three independent modules — print, wash, dry — each runs on its own. Each serviced on its own. One module down? The rest keep working. Repairs stay small. Downtime stays low. S10 offers advanced users the ability to select different washing and drying modes and parameters, allowing you to adapt the times depending on what models you are printing. Extended draining and drying times help remove residual IPA before the build plate returns above the resin vat, minimizing the risk of unwanted drips and resin contamination.",
+      "ai_highlights_en": [
+        "Resin post-processing has never been this easy! Three independent modules — print, wash, dry — each runs on its own.",
+        "Advanced Two-stage Washing: S10 performs two automated wash cycles to thoroughly clean most standard prints.",
+        "Exclusive Multi-Sided Drying: S10 rotates the build plate 270°, exposing multiple sides of your prints to gentle warm airflow at 35–45°C (95–113°F)."
+      ],
+      "ai_specs_en": [
+        [
+          "Print Module",
+          "3"
+        ],
+        [
+          "Wash Module",
+          "2-stage"
+        ],
+        [
+          "Drying Module",
+          "270° rotation"
+        ],
+        [
+          "Wash Fluid Reuse",
+          "15% longer solution life"
+        ],
+        [
+          "Curing Module",
+          "Optional"
+        ],
+        [
+          "Resin Profiles",
+          "5 pre-configured profiles"
+        ],
+        [
+          "Slicing Software",
+          "Dedicated S10 slicing software"
+        ],
+        [
+          "Ventilation System",
+          "Enclosed purification system"
+        ],
+        [
+          "Heating Element",
+          "PTC ceramic heating"
+        ],
+        [
+          "Airflow",
+          "Controlled airflow"
+        ],
+        [
+          "Build Plate",
+          "Dual rail structure"
+        ],
+        [
+          "Warranty",
+          "1-year warranty (2 years within EU & VIP pre-order backers)"
+        ]
+      ],
+      "ai_risks_en": "Every hardware project carries risks. Here is what we see, and what we are doing about each one. Production and timeline. S10 combines printing, washing, and drying in one machine, which makes assembly more complex than a standard resin printer. We have completed multiple prototype generations and trial runs to validate the assembly process. If any stage slips, we will tell backers early and share a revised timeline.",
+      "ai_creator_bio_en": "Making Resin 3D Printing Simpler, Together. Founded in 2021, UniFormation was built on a shared passion for resin 3D printing and a simple belief: creating should be exciting, not complicated.",
+      "ai_tiers": [
+        {
+          "name": "S10 Single Unit - Kickstarter Special",
+          "price": 7840,
+          "price_usd": 1000,
+          "currency": "HK$",
+          "backers": 61,
+          "description": "1× S10 Resin 3D Printer, 1× Toolkit and Spare Accessories, 1-year warranty (2 years within EU & VIP pre-order backers)"
+        },
+        {
+          "name": "S10 Starter Bundle - Kickstarter Special",
+          "price": 8615,
+          "price_usd": 1099,
+          "currency": "HK$",
+          "backers": 44,
+          "description": "1× S10 Resin 3D Printer, 1× Curing Module, 1× Painting Tool Kit, 2× 1kg Standard Resin, 1-year warranty (2 years within EU & VIP pre-order backers)"
+        },
+        {
+          "name": "S10 Best Value Pack - Kickstarter Special",
+          "price": 10670,
+          "price_usd": 1335,
+          "currency": "HK$",
+          "backers": 50,
+          "description": "1× S10 Resin 3D Printer, 1× UniFormation Fluid Hub, 2× 1kg Standard Resin, 1-year warranty (2 years within EU & VIP pre-order backers)"
+        },
+        {
+          "name": "S10 Pro Pack - Time Limited",
+          "price": 18926,
+          "price_usd": 2397,
+          "currency": "HK$",
+          "backers": 18,
+          "description": "1× S10 Resin 3D Printer, 1× UniFormation Fluid Hub, 2× 1kg Standard Resin, 1-year warranty (2 years within EU & VIP pre-order backers)"
+        },
+        {
+          "name": "S10 Business Pack - Kickstarter Special",
+          "price": 18830,
+          "price_usd": 3305,
+          "currency": "HK$",
+          "backers": 4,
+          "description": "2× S10 Resin 3D Printer, 1× UniFormation Fluid Hub, 4× 1kg Standard Resin, 1-year warranty (2 years within EU & VIP pre-order backers)"
+        },
+        {
+          "name": "S10 Best Value Pack - Time Limited",
+          "price": 10470,
+          "price_usd": 1335,
+          "currency": "HK$",
+          "backers": 50,
+          "description": "1× S10 Resin 3D Printer, 1× UniFormation Fluid Hub, 2× 1kg Standard Resin, 1-year warranty (2 years within EU & VIP pre-order backers)"
+        }
+      ],
+      "ai_description_en": "S10 is the world's first all-in-one resin printing experience. It combines printing, washing, and drying in one machine, making it easier to manage and reducing downtime. With its advanced two-stage washing and exclusive multi-sided drying, S10 provides a hassle-free printing experience. The machine also features a dedicated fluid hub, allowing for easy fluid management and minimizing waste. S10 is designed for both beginners and professionals, with a range of features and options to suit different needs and budgets.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ig---3291056",
@@ -1618,59 +1729,55 @@
       "raw_html_hash": "5ad01fa7a0f0bce8",
       "raw_fetched_at": "2026-10-21T17:37:08.623658+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Crafted with oak wood, Podium works as a pedestal or side table for your favorite objects - all while cleaning the air in your home from particles, dust, chemicals, bacteria, and odors. Podium is made by the creators of Birdie the viral, iconic indoor air monitor that raised over $1M+ on Kickstarter (the most funded air monitor ever) and won the iF GOLD Design Award.",
+      "ai_intro_en": "Crafted with oak wood, Podium works as a pedestal or side table for your favorite objects - all while cleaning the air in your home from particles, dust, chemicals, bacteria, and odors. Podium in a nutshell...",
       "ai_highlights_en": [
-        "Beautiful design that doesn’t feel like tech at all. It should feel like home.",
-        "High-performance air purification wrapped in Scandinavian design.",
-        "Certified by TÜV Rheinland, with lab-tested performance and a 2-year warranty."
+        "An air purifier in disguise",
+        "Medical-grade HEPA-13 filter + activated carbon filter + pre-filter",
+        "App + Smart Home features (fan speed, sleep mode, historical data)"
       ],
       "ai_specs_en": [
         [
+          "Noise (dB)",
+          "356.5 m³/h CFM"
+        ],
+        [
+          "Room Size Coverage",
+          "62 m² (667 sq ft)"
+        ],
+        [
+          "CADR",
+          "356.5 m³/h CFM"
+        ],
+        [
           "Cord length",
-          "1.5 meter / 4ft. 11\""
+          "1.5 meter / 4ft. 11'"
         ],
         [
           "Size of Podium",
-          "31.5cm x 31.5cm x 65 cm / 12.4\" × 12.4\" × 25.6\""
+          "31.5cm x 31.5cm x 65 cm / 12.4\" × 12.4\" × 25.6'"
         ],
         [
           "AC",
           "100V-240V 50/60Hz"
         ],
         [
-          "Voltage and plugs",
+          "Plug/Sockets",
           "Works with EU/UK/US voltage and plugs"
         ],
         [
-          "Filter",
-          "Medical-grade HEPA-13 filter + active coal filter + pre-filter"
+          "Material",
+          "Oak wood veneer"
         ],
         [
           "Power-saving feature",
-          "Auto-mode with power-saving feature"
+          "Auto-mode"
         ],
         [
-          "App and Smart Home",
-          "App + Smart Home features (fan speed, sleep mode, historic data)"
-        ],
-        [
-          "Noise level",
-          "Noise (dB)"
-        ],
-        [
-          "CADR",
-          "356.5 m³/h CFM: 210"
-        ],
-        [
-          "Room size coverage",
-          "62 m² (667 sq ft)"
-        ],
-        [
-          "Certification",
-          "Certified by TÜV Rheinland"
+          "Filter replacement",
+          "6 months (depending on usage)"
         ]
       ],
-      "ai_risks_en": "Birdie Podium is a new product. We’ve produced a working test batch, and the next step is scaling up to full production. Here are the main risks we see and how we plan to handle them.",
+      "ai_risks_en": "Birdie Podium is a new product. We’ve produced a working test batch, and the next step is scaling up to full production.",
       "ai_creator_bio_en": "We are a team of 13 employees with our office and store in Copenhagen.",
       "ai_tiers": [
         {
@@ -1679,31 +1786,31 @@
           "price_usd": 995,
           "currency": "USD",
           "backers": 8,
-          "description": "Probably the most iconic air purifier at the most iconic price. Incl. 2-Year Warranty."
+          "description": "Probably the most iconic air purifier at the most iconic price. — Incl. 2-Year Warranty."
         },
         {
           "name": "Early Bird",
           "price": 995,
-          "price_usd": 995,
-          "currency": "USD",
+          "price_usd": null,
+          "currency": null,
           "backers": 2,
-          "description": "Probably the most iconic air purifier at the most iconic price. Incl. 2-Year Warranty."
+          "description": "Probably the most iconic air purifier at the most iconic price. — Incl. 2-Year Warranty."
         },
         {
           "name": "Double Bundle",
           "price": 1339,
-          "price_usd": 1339,
-          "currency": "USD",
+          "price_usd": null,
+          "currency": null,
           "backers": 14,
-          "description": "Probably the most iconic air purifier at the most iconic price. Incl. 2-Year Warranty."
+          "description": "Probably the most iconic air purifier at the most iconic price. — Incl. 2-Year Warranty."
         },
         {
           "name": "Birdie Pro Oak Bundle",
           "price": 999,
-          "price_usd": 999,
-          "currency": "USD",
+          "price_usd": null,
+          "currency": null,
           "backers": 0,
-          "description": "Probably the most iconic air purifier at the most iconic price. Incl. 2-Year Warranty."
+          "description": "Probably the most iconic air purifier at the most iconic price. — Incl. 2-Year Warranty."
         },
         {
           "name": "Similar projects",
@@ -1714,7 +1821,7 @@
           "description": "See more Moss Hexa: Modular Moss Panels for Any Space MOSSLAB 26 days left • 2714% funded Create a natural focal point with 100% real moss, ambient light, and wood panels you can arrange to fit your space."
         }
       ],
-      "ai_description_en": "Podium is the next evolution of improving indoor air quality in homes, offices and public buildings across the world. We are on a mission to improve air quality in order to ensure better health & life-quality in homes, offices and public buildings.",
+      "ai_description_en": "Podium is the next evolution of improving indoor air quality in homes, offices and public buildings across the world.",
       "ai_source": "raw_html"
     },
     {
@@ -1924,7 +2031,90 @@
         "heat": 77.2
       },
       "raw_html_hash": "3aec632001a3cef5",
-      "raw_fetched_at": "2026-10-22T17:38:26.723760+00:00"
+      "raw_fetched_at": "2026-10-22T17:38:26.723760+00:00",
+      "ai_intro_en": "Welcome to MANILONE Model M1, our fifth project on Kickstarter. Model M1 is the most complete expression of everything we have learned across four previous campaigns. It brings together a redesigned 316L stainless steel case, an integrated bracelet, and the Hangzhou 5000A micro-rotor movement — finished with Côtes de Genève — under one coherent design language.",
+      "ai_highlights_en": [
+        "A redesigned 316L stainless steel case and integrated bracelet",
+        "The Hangzhou 5000A micro-rotor automatic movement",
+        "Two distinct dial philosophies: Handmade Guilloché Translucent Grand Feu Enamel and Natural Stone Dial"
+      ],
+      "ai_specs_en": [
+        [
+          "Case diameter",
+          "39.5 mm"
+        ],
+        [
+          "Lug-to-lug measurement",
+          "46 mm"
+        ],
+        [
+          "Thickness",
+          "11.0 mm"
+        ],
+        [
+          "Movement",
+          "Hangzhou 5000A micro-rotor automatic"
+        ],
+        [
+          "Power reserve",
+          "42 hours"
+        ],
+        [
+          "Côtes de Genève finishing",
+          "visible through the exhibition caseback"
+        ],
+        [
+          "Dial color options",
+          "Azure, Ultramarine, Forest"
+        ],
+        [
+          "Dial material",
+          "316L stainless steel, Turquoise, Sodalite"
+        ],
+        [
+          "Price",
+          "HK$ 3,296 (Stone Dial-Early Bird), HK$ 6,435 (Enamel Dial- Early Bird), HK$ 3,060 (Stone Dial-Super Early Bird), HK$ 6,200 (Enamel Dial-Super Early Bird)"
+        ]
+      ],
+      "ai_risks_en": "With our years of experience with enamel watch development, our team is very confident with our product quality, user experience, and shipping schedule for MANILONE.",
+      "ai_creator_bio_en": "MANILONE operates on the belief that well-designed watches should be accessible to everybody.",
+      "ai_tiers": [
+        {
+          "name": "Model M1 - Stone Dial-Early Bird",
+          "price": 3296,
+          "price_usd": 421,
+          "currency": "HKD",
+          "backers": 21,
+          "description": "With 316L Stainless Steel Case & Integrated Bracelet, Micro-Rotor Automatic Mechanical Movement"
+        },
+        {
+          "name": "Model M1 - Enamel Dial- Early Bird",
+          "price": 6435,
+          "price_usd": 820,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "With 316L Stainless Steel Case & Integrated Bracelet, Micro-Rotor Automatic Mechanical Movement"
+        },
+        {
+          "name": "Model M1 - Stone Dial-Super Early Bird",
+          "price": 3060,
+          "price_usd": 391,
+          "currency": "HKD",
+          "backers": 7,
+          "description": "With 316L Stainless Steel Case & Integrated Bracelet, Micro-Rotor Automatic Mechanical Movement"
+        },
+        {
+          "name": "Model M1 - Enamel Dial-Super Early Bird",
+          "price": 6200,
+          "price_usd": 791,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "With 316L Stainless Steel Case & Integrated Bracelet, Micro-Rotor Automatic Mechanical Movement"
+        }
+      ],
+      "ai_description_en": "Building on the experience gained from our previous guilloché enamel dial watch, we present a thoroughly refined design. This new model features a different guilloché pattern, a redesigned case, and a newly selected movement, while further elevating the enamel craftsmanship.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ig-onexplayer-3-next-gen-3-in-1-ai-gaming-and-productivity-handheld",
@@ -6310,78 +6500,54 @@
         "With Bluetooth 5.4 audio transmission, M1 lets you wirelessly send CD audio to compatible Bluetooth headphones or speakers"
       ],
       "ai_specs_en": [
-        [
-          "Compact Retro-Modern Design",
-          "Blending retro-inspired details with a clean, modern look"
-        ],
-        [
-          "Built-in Rechargeable Battery",
-          "Up to 60 minutes of playback on a single charge"
-        ],
-        [
-          "Anti-Skip Protection",
-          "Up to 60 seconds of protection during CD playback and 120 seconds during MP3 playback"
-        ],
-        [
-          "Five EQ Modes",
-          "Flat, Classical, Rock, Pop, and Jazz"
-        ],
-        [
-          "Programmable Playback",
-          "Up to 20 tracks"
-        ],
-        [
-          "Four Playback Sources",
-          "CD, USB, Bluetooth, and FM radio"
-        ],
-        [
-          "LED Screen",
-          "Essential playback information clearly in view"
-        ],
-        [
-          "Stereo Speakers",
-          "Built-in speakers for filling your space with music"
-        ],
-        [
-          "3.5mm Headphone Output",
-          "Private listening"
-        ],
-        [
-          "USB-C Charging",
-          "Convenient and fast charging"
-        ],
-        [
-          "FM Radio",
-          "Tune in to FM radio from 87.5 to 108.0 MHz"
-        ],
-        [
-          "Bluetooth 5.4",
-          "Wireless audio transmission"
-        ],
-        [
-          "Sleep Timer",
-          "10 settings, ranging from 5 to 120 minutes"
-        ],
-        [
-          "A-B Repeat",
-          "Mark a specific section and replay it as many times as you like"
-        ],
-        [
-          "Customizable Track Programming",
-          "Arrange your favorite songs in a personalized sequence"
-        ],
-        [
-          "Compact Size",
-          "Saves space"
-        ],
-        [
-          "Dust Cover",
-          "Protects CDs from dust and scratches"
-        ],
-        [
-          "Moisture Protection",
-          "Reduces exposure to moisture when not in use"
-        ]
+        {
+          "spec_name": "Built-in Stereo Speakers",
+          "spec_value": "Fills your space with music"
+        },
+        {
+          "spec_name": "3.5mm Headphone Output",
+          "spec_value": "Private listening"
+        },
+        {
+          "spec_name": "Bluetooth 5.4 Audio Transmission",
+          "spec_value": "Wireless audio transmission"
+        },
+        {
+          "spec_name": "LED Screen",
+          "spec_value": "Essential playback information clearly displayed"
+        },
+        {
+          "spec_name": "Anti-Skip Protection",
+          "spec_value": "Up to 60 seconds of protection during CD playback and 120 seconds during MP3 playback"
+        },
+        {
+          "spec_name": "Sleep Timer",
+          "spec_value": "10 settings, ranging from 5 to 120 minutes"
+        },
+        {
+          "spec_name": "EQ Modes",
+          "spec_value": "Five EQ modes: Flat, Classical, Rock, Pop, and Jazz"
+        },
+        {
+          "spec_name": "USB Playback",
+          "spec_value": "Supports WMA, MP3, and FLAC audio files"
+        },
+        {
+          "spec_name": "FM Radio",
+          "spec_value": "Tune in to FM radio from 87.5 to 108.0 MHz"
+        },
+        {
+          "spec_name": "Compact Design",
+          "spec_value": "Blending retro-inspired details with a clean, modern look"
+        },
+        {
+          "spec_name": "Battery Life",
+          "spec_value": "Built-in rechargeable battery"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "Compact size"
+        }
       ],
       "ai_risks_en": "As with any hardware project, we may still face challenges during mass production, including component availability, manufacturing consistency, quality control, and unexpected technical issues.",
       "ai_creator_bio_en": "We are a multidisciplinary team of designers, engineers, and product developers with years of experience in consumer electronics and hardware development.",
@@ -6476,182 +6642,54 @@
         },
         {
           "name": "Back this project",
-          "price": "$542",
+          "price": "$69 HK$ 542",
           "price_usd": "$70",
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": "200",
           "description": "Back this project"
         },
         {
           "name": "KS Special",
-          "price": "$620",
+          "price": "$79 HK$ 620",
           "price_usd": "$80",
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": "300",
           "description": "KS Special"
         },
         {
           "name": "Super Early Bird",
-          "price": "$699",
+          "price": "$89 HK$ 699",
           "price_usd": "$90",
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": "0",
           "description": "Super Early Bird"
         },
         {
           "name": "Super Early Bird x2",
-          "price": "$1,020",
+          "price": "$130 HK$ 1,020",
           "price_usd": "$130",
-          "currency": "HKD",
-          "backers": "2",
+          "currency": "HK$",
+          "backers": "0",
           "description": "Super Early Bird x2"
         },
         {
           "name": "Super Early Bird x3",
-          "price": "$1,483",
+          "price": "$189 HK$ 1,483",
           "price_usd": "$189",
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": "1",
           "description": "Super Early Bird x3"
         },
         {
           "name": "Stretch Goal",
-          "price": null,
-          "price_usd": null,
+          "price": "$387",
+          "price_usd": "$387",
           "currency": null,
           "backers": null,
           "description": "Stretch Goal"
-        },
-        {
-          "name": "Demo Video",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Demo Video"
-        },
-        {
-          "name": "ADD-ON",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "ADD-ON"
-        },
-        {
-          "name": "Specification",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Specification"
-        },
-        {
-          "name": "What's in the Box",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "What's in the Box"
-        },
-        {
-          "name": "Shipping",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Shipping"
-        },
-        {
-          "name": "Design Process",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Design Process"
-        },
-        {
-          "name": "Timeline",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Timeline"
-        },
-        {
-          "name": "About the Team",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "About the Team"
-        },
-        {
-          "name": "Project budget",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Project budget"
-        },
-        {
-          "name": "Risks",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Risks"
-        },
-        {
-          "name": "Environmental commitments",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Environmental commitments"
-        },
-        {
-          "name": "Rewards",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Rewards"
-        },
-        {
-          "name": "FAQ",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "FAQ"
-        },
-        {
-          "name": "Updates",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Updates"
-        },
-        {
-          "name": "Comments",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Comments"
-        },
-        {
-          "name": "Community",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Community"
         }
       ],
-      "ai_description_en": "We’ve successfully delivered our previous three projects, and we’re grateful to every backer who made it possible. Your trust inspires us to keep moving forward, exploring new ideas, and creating products that bring meaningful value to everyday life. Thank you for being part of our journey! With experience spanning product design, hardware engineering, prototyping, testing, and manufacturing, our team knows how to turn ideas into reliable products. We work closely throughout every stage of development, continuously refining both user experience and technical performance. Our goal is to ensure Memdock is thoughtfully designed, carefully engineered, and built for everyday use.",
+      "ai_description_en": "M1 combines CD, USB, Bluetooth playback, FM radio, built-in stereo speakers, two-way Bluetooth 5.4, and a dedicated LED screen in one compact device. With five EQ modes, customizable track programming, A-B repeat, and a sleep timer, it gives you more ways to enjoy music on your own terms. Whether you’re revisiting treasured albums, repeating a favorite passage, creating your own listening sequence, or winding down with music before bed, M1 makes every listening moment more personal. It’s not just about playing music — it’s about bringing the joy of listening back into your everyday life.",
       "ai_source": "raw_html"
     },
     {
@@ -26760,7 +26798,93 @@
       },
       "raw_html_hash": "45db99893f717726",
       "raw_fetched_at": "2026-10-21T17:37:38.058978+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "TACO AI is a handheld remote and companion software designed to replace your mouse and keyboard in everyday work. With computer use, Taco Hub can act on your computer for you: opening apps, searching for information, sending emails, and more.",
+      "ai_highlights_en": [
+        "Speak Naturally, Taco Polishe: Remove filler words and repetition, handle mid-sentence corrections, and turn rough speech into clear writing or more precise AI prompts.",
+        "In Every App, on Every Device: TACO supports Windows, Mac, iOS, and Android. Connect to multiple devices at once, then switch between your phone, computer, laptop, tablet, and even Xbox with a single button.",
+        "One-handed Control: Its compact circular form, touch panel, physical controls, and voice input work together so you can speak, scroll, switch, and confirm without changing your posture or reaching for a full keyboard and mouse setup."
+      ],
+      "ai_specs_en": [
+        [
+          "Resolution",
+          "1080p"
+        ],
+        [
+          "Weight",
+          "0.5 kg"
+        ],
+        [
+          "Dimensions",
+          "10 x 7 x 2 cm"
+        ],
+        [
+          "Battery Life",
+          "12 hours of standby time"
+        ],
+        [
+          "Charging",
+          "Wireless charging"
+        ],
+        [
+          "Operating System",
+          "Windows, Mac, iOS, Android"
+        ],
+        [
+          "Language",
+          "English, Spanish, French, German"
+        ],
+        [
+          "Price",
+          "£74"
+        ],
+        [
+          "Price USD",
+          "≈ $99"
+        ],
+        [
+          "Warranty",
+          "12-month warranty"
+        ]
+      ],
+      "ai_risks_en": "Unexpected delays during production, certification, or shipping remain possible.",
+      "ai_creator_bio_en": "A technology development team focused on creating practical hardware products that improve everyday digital interaction.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 82,
+          "price_usd": 110,
+          "currency": "GBP",
+          "backers": 1,
+          "description": "TACO x1"
+        },
+        {
+          "name": "Early Bird",
+          "price": 74,
+          "price_usd": 99,
+          "currency": "GBP",
+          "backers": 26,
+          "description": "TACO x1"
+        },
+        {
+          "name": "Duo Pack",
+          "price": 135,
+          "price_usd": 181,
+          "currency": "GBP",
+          "backers": 4,
+          "description": "2× TACO AI Voice Typing Remote"
+        },
+        {
+          "name": "Trio Pack",
+          "price": 197,
+          "price_usd": 264,
+          "currency": "GBP",
+          "backers": 2,
+          "description": "3× TACO AI Voice Typing Remote"
+        }
+      ],
+      "ai_description_en": "TACO AI is a handheld remote and companion software designed to replace your mouse and keyboard in everyday work. With computer use, Taco Hub can act on your computer for you: opening apps, searching for information, sending emails, and more. TACO supports Windows, Mac, iOS, and Android. Connect to multiple devices at once, then switch between your phone, computer, laptop, tablet, and even Xbox with a single button. Its compact circular form, touch panel, physical controls, and voice input work together so you can speak, scroll, switch, and confirm without changing your posture or reaching for a full keyboard and mouse setup.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-130448845",
@@ -52878,7 +53002,70 @@
         "heat": 53.3
       },
       "raw_html_hash": "53d17d894a37f8f8",
-      "raw_fetched_at": "2026-10-22T17:38:50.879191+00:00"
+      "raw_fetched_at": "2026-10-22T17:38:50.879191+00:00",
+      "ai_intro_en": "Wear a Distant World: EXOP Titanium Swiss Automatic Watch, four exoplanet-inspired designs crafted in lightweight titanium and powered by a Swiss-made Sellita automatic movement.",
+      "ai_highlights_en": [
+        "Four exoplanet-inspired designs crafted in lightweight titanium",
+        "Swiss-made Sellita automatic movement",
+        "Limited to 50 backers"
+      ],
+      "ai_specs_en": [
+        [
+          "Movement",
+          "Sellita SW200"
+        ],
+        [
+          "Case",
+          "Lightweight titanium"
+        ],
+        [
+          "Strap",
+          "TecTuff Leather Strap"
+        ],
+        [
+          "Strap",
+          "NATO Strap with Leather Detailing"
+        ],
+        [
+          "Price",
+          "$4,416"
+        ],
+        [
+          "Price",
+          "$631 (HKD)"
+        ]
+      ],
+      "ai_risks_en": "Producing a mechanical watch requires the coordination of many individual components and manufacturing processes.",
+      "ai_creator_bio_en": "Caught Watches 2 created • 0 backed",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 4950,
+          "price_usd": 631,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "1x EXOP Titanium Automatic Watch, 1x TecTuff Leather Strap, 1x NATO Strap with Leather Detailing, 1x EXOP Presentation Box, 1x 12 months International Warranty Card, 1x Watch Cloth"
+        },
+        {
+          "name": "Duo Set",
+          "price": 9110,
+          "price_usd": 1162,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Receive all four EXOP Titanium Automatic Watches, each inspired by a distant world"
+        },
+        {
+          "name": "Collector's Set",
+          "price": 16870,
+          "price_usd": 2151,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Receive all four EXOP Titanium Automatic Watches, each inspired by a distant world"
+        }
+      ],
+      "ai_description_en": "The EXOP watch was designed and developed by CAUGHT without generative AI. Physical prototypes were produced before the campaign. AI assists with selected campaign imagery, backgrounds, lighting, visual cleanup, promotional videos and copywriting. AI-assisted product visuals reference our physical prototypes and are reviewed for accuracy. Our team verifies and approves all final content; AI is not used to invent product features or specifications.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-638960917",
@@ -116618,11 +116805,11 @@
       },
       "raw_html_hash": "bd03fc9c11a227c2",
       "raw_fetched_at": "2026-08-04T14:51:09.625335+00:00",
-      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, providing 2,000 nights of clinical validation. It helps reduce snoring, sleep position, and bedroom environment to create the perfect sleep environment.",
+      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, providing personalized insights to help you make meaningful adjustments and improve your sleep quality. With over 2,000 nights of clinical validation, Sleepal tracks respiratory rate with an RMSE below 2 breaths per minute when benchmarked against medical-grade devices.",
       "ai_highlights_en": [
-        "Sleepal tracks respiratory rate with an RMSE below 2 breaths per minute when benchmarked against medical-grade devices.",
-        "The system integrates sound, thermal sensing, ambient light, temperature, and humidity into a multimodal sensing system.",
-        "Sleepal keeps the alarm active until you get out of bed, no more turning off alarms and falling back asleep."
+        "Help reduce snoring with Sleepal's AI-powered snoring analysis",
+        "Get personalized sleep insights and recommendations to improve your sleep quality",
+        "Smart home integration with Matter protocol for seamless control of lighting and temperature"
       ],
       "ai_specs_en": [
         {
@@ -116630,54 +116817,78 @@
           "spec_value": "RMSE below 2 breaths per minute"
         },
         {
-          "spec_name": "Sensing Technology",
-          "spec_value": "Multimodal sensing system (sound, thermal, ambient light, temperature, humidity)"
+          "spec_name": "Snoring Analysis",
+          "spec_value": "AI-powered snoring analysis"
         },
         {
-          "spec_name": "Alarm Functionality",
-          "spec_value": "Keeps alarm active until user gets out of bed"
+          "spec_name": "Smart Home Integration",
+          "spec_value": "Matter protocol for seamless control of lighting and temperature"
+        },
+        {
+          "spec_name": "Sleep Quality",
+          "spec_value": "Personalized insights and recommendations"
+        },
+        {
+          "spec_name": "Wake-up Timing",
+          "spec_value": "Optimized wake-up timing"
         }
       ],
-      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&D, industrial design, mass production, and after-sales service.",
-      "ai_creator_bio_en": "Sleepal is developed by Sleepal, a Hong Kong-based company.",
+      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges we need to acknowledge. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&amp;D, industrial design, mass production, and after-sales service across the smart home sector.",
+      "ai_creator_bio_en": "Sleepal is a product of Sleepal, a company dedicated to improving sleep quality through innovative technology.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": 1998,
-          "price_usd": 249,
+          "price": 199,
+          "price_usd": 25,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal 1 month before the general public."
+          "description": "Get Sleepal AI Lamp at a special introductory price"
         },
         {
           "name": "Standard",
-          "price": 2498,
-          "price_usd": 315,
+          "price": 299,
+          "price_usd": 37,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal with a 1-year subscription to Sleepal AI+"
+          "description": "Get Sleepal AI Lamp with standard features"
         },
         {
           "name": "Premium",
-          "price": 3498,
-          "price_usd": 425,
+          "price": 399,
+          "price_usd": 50,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal with a 2-year subscription to Sleepal AI+"
+          "description": "Get Sleepal AI Lamp with premium features"
         },
         {
           "name": "VIP",
-          "price": 4998,
-          "price_usd": 595,
+          "price": 499,
+          "price_usd": 62,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal with a 3-year subscription to Sleepal AI+ and a personalized sleep coach"
+          "description": "Get Sleepal AI Lamp with VIP features"
+        },
+        {
+          "name": "Family",
+          "price": 599,
+          "price_usd": 75,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Get Sleepal AI Lamp for the whole family"
+        },
+        {
+          "name": "Enterprise",
+          "price": 999,
+          "price_usd": 125,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Get Sleepal AI Lamp for business use"
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.983779Z",
-      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks respiratory rate, sleep position, and bedroom environment to create the perfect sleep environment. It integrates with Apple Health and Google Fit and provides personalized insights to help users make meaningful adjustments. Sleepal also features a smart home integration, allowing users to adjust their room's lighting and temperature to create a sleep-conducive environment."
+      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks respiratory rate, snoring, sleep position, and bedroom environment to provide personalized insights and recommendations to improve sleep quality. With over 2,000 nights of clinical validation, Sleepal is a reliable and accurate sleep tracker that can help you make meaningful adjustments and wake up feeling refreshed and rejuvenated."
     },
     {
       "id": "ks-1158739154",
@@ -125469,7 +125680,7 @@
           "price_usd": 190,
           "currency": "JPY",
           "backers": 7,
-          "description": "Titaner TiVerse: The Waist System Reimagined"
+          "description": "Titaner TiVerse: The Waist System Reimagined. $191 ONLY (33% OFF) Save $96 off MSRP."
         },
         {
           "name": "Super Early Bird • Micro-Milled Finish",
@@ -125477,7 +125688,7 @@
           "price_usd": 211,
           "currency": "JPY",
           "backers": 7,
-          "description": "Titaner TiVerse: The Waist System Reimagined"
+          "description": "Titaner TiVerse: The Waist System Reimagined."
         }
       ],
       "ai_currency": "EUR",
@@ -126030,7 +126241,7 @@
           "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you. Swap them in seconds and give your everyday carry a fresh identity."
         ]
       ],
-      "ai_risks_en": "Manufacturing Challenges and Fulfillment &amp; Shipping Risks",
+      "ai_risks_en": "Manufacturing Challenges and Fulfillment &amp; Shipping Risks.",
       "ai_creator_bio_en": "A group of engineers and friends who love design and are obsessed with precision engineering.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
@@ -202848,7 +203059,134 @@
         "heat": 28.4
       },
       "raw_html_hash": "090bab9a8836e367",
-      "raw_fetched_at": "2026-10-22T17:39:08.720125+00:00"
+      "raw_fetched_at": "2026-10-22T17:39:08.720125+00:00",
+      "ai_intro_en": "Petyfun is developing JDB1 to make indoor play more engaging for dogs while giving pet owners a simple, durable, and easy-to-use interactive toy. Support the project for no reward, just because it speaks to you. Available rewards include Super Early Bird One Pack for HK$ 212 About $28, and Two Pack for HK$ 416 About $54.",
+      "ai_highlights_en": [
+        "3 interactive play modes, unpredictable movements, and up to 5 hours of playtime",
+        "Pet-Friendly Material",
+        "IPX7 Waterproof"
+      ],
+      "ai_specs_en": [
+        [
+          "Size",
+          "3.2\""
+        ],
+        [
+          "Color Options",
+          "Trooper Blue/Trooper Yellow"
+        ],
+        [
+          "Ships to Anywhere in the world",
+          "Estimated delivery Jan 2027"
+        ],
+        [
+          "Pledge",
+          "HK$ 212 About $28"
+        ],
+        [
+          "Pledge",
+          "HK$ 416 About $54"
+        ],
+        [
+          "Add-ons",
+          "2× Petyfun, 2× User Manuel, 2× Type-C Charging Cable"
+        ],
+        [
+          "Shipping Fee",
+          "Limited quantity 89 left of 100"
+        ],
+        [
+          "Shipping Fee",
+          "Limited quantity 98 left of 100"
+        ]
+      ],
+      "ai_risks_en": "Bringing a new pet product from prototype to mass production always comes with challenges, and we want to be transparent about where we are in the development process.",
+      "ai_creator_bio_en": "Petyfun First created &nbsp;•&nbsp; 0 backed",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird One Pack",
+          "price": "HK$ 212 About $28",
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Be among the first to bring home Petyfun JDB1 at our lowest Kickstarter price!"
+        },
+        {
+          "name": "Limited $27 Super Early Bird",
+          "price": "HK$ 27",
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Be among the first to bring home Petyfun JDB1 at our lowest Kickstarter price!"
+        },
+        {
+          "name": "Two Pack",
+          "price": "HK$ 416 About $54",
+          "price_usd": null,
+          "currency": "HKD",
+          "backers": null,
+          "description": "Be among the first to bring home Petyfun JDB1 at our lowest Kickstarter price!"
+        },
+        {
+          "name": "Three Play Mode",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Give your dog a little planet of joy with 3 interactive play modes, unpredictable movements, and up to 5 hours of playtime."
+        },
+        {
+          "name": "Pet-Friendly Material",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Pet-Friendly Material"
+        },
+        {
+          "name": "IPX7 Waterproof",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "IPX7 Waterproof"
+        },
+        {
+          "name": "Color Options",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Colour Options: Trooper Blue/Trooper Yellow"
+        },
+        {
+          "name": "Ships to Anywhere in the world",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Estimated delivery Jan 2027"
+        },
+        {
+          "name": "Limited quantity 89 left of 100",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Limited quantity 89 left of 100"
+        },
+        {
+          "name": "Limited quantity 98 left of 100",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Limited quantity 98 left of 100"
+        }
+      ],
+      "ai_description_en": "Petyfun is developing JDB1 to make indoor play more engaging for dogs while giving pet owners a simple, durable, and easy-to-use interactive toy. Support the project for no reward, just because it speaks to you. Available rewards include Super Early Bird One Pack for HK$ 212 About $28, and Two Pack for HK$ 416 About $54.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-461814217",
@@ -270254,7 +270592,101 @@
       },
       "raw_html_hash": "6fe6616e4faed37d",
       "raw_fetched_at": "2026-10-21T17:37:43.271264+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Meet RDX Handmade Crochet Lily of the Valley LED Light — a hand-woven bouquet in five colors, each flower glowing softly without glare. It lights up as you approach and fades when you leave. Beautiful by day. Helpful by night. No switches. No sleep disruption. Just the right light, right where you need it.",
+      "ai_highlights_en": [
+        "Soft, gentle glow without glare",
+        "Motion-sensing night light",
+        "Handmade, one-of-a-kind design"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Handmade crochet flowers, green leaves, and a minimalist circular frame"
+        ],
+        [
+          "LED Light",
+          "Built-in white LED"
+        ],
+        [
+          "Power Source",
+          "USB Type-C port"
+        ],
+        [
+          "Charging Time",
+          "Approximately one hour"
+        ],
+        [
+          "Runtime",
+          "24 Hours (Always-On Mode), 20~30 Days (Standby Time)"
+        ],
+        [
+          "Dimensions",
+          "Not specified"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Color",
+          "Five colors"
+        ],
+        [
+          "Price",
+          "$39"
+        ],
+        [
+          "Battery Life",
+          "20~30 Days"
+        ]
+      ],
+      "ai_risks_en": "The main challenges of this campaign are the time required for handmade crochet production, material availability, and quality control.",
+      "ai_creator_bio_en": "RDX Design is a small independent team inspired by the beauty of handmade craft, combining crocheted flowers with practical LED lighting.",
+      "ai_tiers": [
+        {
+          "name": "Handmade Crochet Lily LED Light",
+          "price": 306,
+          "price_usd": 39,
+          "currency": "HKD",
+          "backers": 1,
+          "description": "One handmade crochet lily of the valley LED night light with steady-on and motion-activated modes."
+        },
+        {
+          "name": "Full Package Set",
+          "price": 541,
+          "price_usd": 69,
+          "currency": "HKD",
+          "backers": 2,
+          "description": "In addition to the RDX Handmade Lily of the Valley LED Night Light, 2 this package includes two 3-meter Sakura Light Strips, 3 one Star Projector Night Light, 4 one 20W GaN Charger (USB-C & USB-A) and 5 one 1-meter Charging Cable."
+        },
+        {
+          "name": "2 x Handmade Crochet Lily LED Light",
+          "price": 581,
+          "price_usd": 75,
+          "currency": "HKD",
+          "backers": 2,
+          "description": "Two handmade crochet lily of the valley LED night lights with steady-on and motion-activated modes."
+        },
+        {
+          "name": "3 x Handmade Crochet Lily LED Light",
+          "price": 871,
+          "price_usd": 111,
+          "currency": "HKD",
+          "backers": 1,
+          "description": "Three handmade crochet lily of the valley LED night lights with steady-on and motion-activated modes."
+        },
+        {
+          "name": "4 x Handmade Crochet Lily LED Light",
+          "price": 1161,
+          "price_usd": 148,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Four handmade crochet lily of the valley LED night lights with steady-on and motion-activated modes."
+        }
+      ],
+      "ai_description_en": "",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1269293950",
@@ -312597,7 +313029,62 @@
         "heat": 15.8
       },
       "raw_html_hash": "460b2de8939ac961",
-      "raw_fetched_at": "2026-10-22T17:39:33.142482+00:00"
+      "raw_fetched_at": "2026-10-22T17:39:33.142482+00:00",
+      "ai_intro_en": "I believe a tool should fit the mind that uses it. For years, mine didn't, and I thought the problem was me. I built a planner around how an ADHD brain actually works, using 24 published sources and the experiences of 80+ people who live with it.",
+      "ai_highlights_en": [
+        "A planner built for an ADHD brain, with undated pages and a disc-bound design.",
+        "Research-backed pages to help manage time, tasks, and stress.",
+        "A tool to help you keep your brain organized and your head out of your hands."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Disc-bound",
+          "spec_value": "19 undated page layouts"
+        },
+        {
+          "spec_name": "Size",
+          "spec_value": "A5"
+        },
+        {
+          "spec_name": "Material",
+          "spec_value": "Navy vegan leather"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$30 (first 50 backers)"
+        }
+      ],
+      "ai_risks_en": "There are no major risks associated with this project, as it is a well-researched and designed tool for individuals with ADHD.",
+      "ai_creator_bio_en": "I'm Ellie, a psychology and entrepreneurship student at Duke, and I have ADHD.",
+      "ai_tiers": [
+        {
+          "name": "Stratoplanner",
+          "price": 30,
+          "price_usd": 30,
+          "currency": "USD",
+          "backers": null,
+          "description": "The lowest tier, with a single planner"
+        },
+        {
+          "name": "Stratoplanner + Bonus",
+          "price": 50,
+          "price_usd": 50,
+          "currency": "USD",
+          "backers": null,
+          "description": "Includes a bonus planner and a personalized thank-you note"
+        },
+        {
+          "name": "Stratoplanner + Research",
+          "price": 100,
+          "price_usd": 100,
+          "currency": "USD",
+          "backers": null,
+          "description": "Includes a bonus planner, a personalized thank-you note, and a contribution to ADHD research"
+        }
+      ],
+      "ai_description_en": "This project aims to create a planner designed specifically for individuals with ADHD, using research-backed pages to help manage time, tasks, and stress. The planner will be disc-bound and A5 in size, with a navy vegan leather cover. 10% of all funds raised will go to the Duke Center for Girls & Women with ADHD, one of the only programs in the country dedicated to ADHD research in girls and women.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1585768180",
@@ -358751,9 +359238,9 @@
       "raw_fetched_at": "2026-08-04T14:51:17.533097+00:00",
       "ai_intro_en": "NEXAIR combines pressure measurement, inflation, and intelligent control into a palm-sized device weighing just 132g. Whether you're inflating a mountain bike, road bike, gravel bike, folding bike, or sports equipment such as basketballs and soccer balls, one compact device handles it all.",
       "ai_highlights_en": [
-        "Real-time pressure monitoring and automatic shutoff for accurate inflation",
-        "Compact design weighing only 132g and measuring 6.5 x 4 x 3 cm",
-        "Suitable for a variety of inflation tasks, including sports balls, bicycles, and high-pressure applications"
+        "Real-time pressure monitoring and automatic shutoff",
+        "20,000 RPM brushless motor with up to 13L/min airflow",
+        "Compact design weighing only 132g"
       ],
       "ai_specs_en": [
         [
@@ -358762,23 +359249,19 @@
         ],
         [
           "Airflow",
-          "13 L/min"
+          "up to 13L/min"
         ],
         [
-          "Battery Life",
-          "6–8 mountain bike tire top-ups on a full charge"
+          "Battery",
+          "1200mAh rechargeable lithium battery"
         ],
         [
-          "Weight",
-          "132g"
-        ],
-        [
-          "Dimensions",
-          "6.5 x 4 x 3 cm"
+          "Charging",
+          "USB-C charging"
         ],
         [
           "Display",
-          "Clear LCD display"
+          "clear LCD display"
         ],
         [
           "Pressure Range",
@@ -358789,28 +359272,12 @@
           "Presta valves, Schrader valves, Ball needles"
         ],
         [
-          "Charging",
-          "USB-C charging, 1200mAh rechargeable battery"
+          "Weight",
+          "132g"
         ],
         [
-          "Power",
-          "Brushless motor"
-        ],
-        [
-          "Cooling",
-          "Independent cooling airflow design"
-        ],
-        [
-          "Materials",
-          "ABS+PC engineering plastics"
-        ],
-        [
-          "Color",
-          "Not specified"
-        ],
-        [
-          "Warranty",
-          "Not specified"
+          "Dimensions",
+          "6.5 × 4 × 3 cm"
         ]
       ],
       "ai_risks_en": "Manufacturing, component sourcing, quality control, and logistics risks may occur during production.",
@@ -358826,19 +359293,19 @@
         },
         {
           "name": "Standard",
-          "price": 149.0,
-          "price_usd": 149.0,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get NEXAIR and receive a free carrying case."
-        },
-        {
-          "name": "Deluxe",
           "price": 199.0,
           "price_usd": 199.0,
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR, a carrying case, and a lifetime warranty."
+          "description": "Get NEXAIR with a free carrying case and a lifetime warranty."
+        },
+        {
+          "name": "Deluxe",
+          "price": 249.0,
+          "price_usd": 249.0,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get NEXAIR with a free carrying case, a lifetime warranty, and a NEXAIR-branded tool kit."
         },
         {
           "name": "Ultimate",
@@ -358846,7 +359313,7 @@
           "price_usd": 299.0,
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR, a carrying case, a lifetime warranty, and a personalized thank-you video."
+          "description": "Get NEXAIR with a free carrying case, a lifetime warranty, a NEXAIR-branded tool kit, and a NEXAIR-branded bike pump."
         }
       ],
       "ai_validated": false,
@@ -358854,7 +359321,7 @@
       "hw_type": "智能硬件",
       "hw_reason": "Smart air pump with brushless motor and real-time pressure display",
       "ended_at": "2026-07-30T14:32:48.687296Z",
-      "ai_description_en": "NEXAIR is a compact, palm-sized air pump that combines pressure measurement, inflation, and intelligent control. It features a real-time pressure display, automatic shutoff, and a brushless motor for fast and efficient inflation. NEXAIR is suitable for a variety of inflation tasks, including sports balls, bicycles, and high-pressure applications. It is designed to be lightweight and compact, making it easy to carry anywhere."
+      "ai_description_en": "NEXAIR is a compact, palm-sized air pump that combines pressure measurement, inflation, and intelligent control. It features a real-time pressure display, automatic shutoff, and a 20,000 RPM brushless motor with up to 13L/min airflow. NEXAIR is designed for everyday mobility and is suitable for a variety of inflation tasks, including mountain bikes, road bikes, gravel bikes, and sports equipment."
     },
     {
       "id": "ks-1980219579",
@@ -358907,7 +359374,98 @@
         "heat": 9.9
       },
       "raw_html_hash": "3e77e19c269bcca7",
-      "raw_fetched_at": "2026-10-22T17:39:38.949012+00:00"
+      "raw_fetched_at": "2026-10-22T17:39:38.949012+00:00",
+      "ai_intro_en": "ICUKTAA brings together humidification, scent diffusion, and four-stage air treatment in one compact device, designed to make your everyday spaces more comfortable and enjoyable. From your desk and bedside table to the living room or car, ICUKTAA fits naturally into your surroundings while giving you more ways to personalize the air around you.",
+      "ai_highlights_en": [
+        "One compact device. Three ways to transform your space.",
+        "Four Stages. One Continuous Airflow.",
+        "Make your space smell the way you love. Your favorite scent is personal."
+      ],
+      "ai_specs_en": [
+        [
+          "Humidity Support",
+          "10 mL/h"
+        ],
+        [
+          "4-Stage Air Care",
+          "UV treatment, ionization, water-assisted airflow"
+        ],
+        [
+          "RGB Ambient Lighting",
+          "Three ambient light colors"
+        ],
+        [
+          "Water Reservoir",
+          "150 mL"
+        ],
+        [
+          "Motor-Driven Evaporation",
+          "Continuous agitates water for natural evaporation"
+        ],
+        [
+          "Filter",
+          "Replaceable"
+        ],
+        [
+          "Power Source",
+          "USB-C"
+        ],
+        [
+          "Dimensions",
+          "Approximately 8–12 m²"
+        ],
+        [
+          "Weight",
+          "Approximately 1.5 kg"
+        ],
+        [
+          "Color Options",
+          "Silver or Black"
+        ],
+        [
+          "Warranty",
+          "1-Year Warranty with Free Replacement for Non-User-Caused Defects"
+        ]
+      ],
+      "ai_risks_en": "Our main risks are manufacturing delays and quality control. We're mitigating these by using proven, industry-standard components and precision-sealing every unit for long-term waterproofing.",
+      "ai_creator_bio_en": "Founder David designed icuktaa because he noticed the same small feeling: the space around him could feel empty, even when everything else was fine.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 384,
+          "price_usd": 49,
+          "currency": "HKD",
+          "backers": 500,
+          "description": "Get Icuktaa at Our Super Early Bird Price! Save 38% off the $79 MSRP and get: 1 × Icuktaa — Your Personal Air &amp; Mood Companion, Humidity Support + 4-Stage Air Care + RGB Ambient Lighting, 1-Year Warranty with Free Replacement for Non-User-Caused Defects!"
+        },
+        {
+          "name": "Early Bird",
+          "price": 431,
+          "price_usd": 55,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Get Icuktaa at Our Early Bird Price! Save 30% off the $79 MSRP and get: 1 × Icuktaa — Your Personal Air &amp; Mood Companion, Humidity Support + 4-Stage Air Care + RGB Ambient Lighting, 1-Year Warranty with Free Replacement for Non-User-Caused Defects!"
+        },
+        {
+          "name": "Duo Pack",
+          "price": 699,
+          "price_usd": 90,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Double the Comfort, Share the Experience! Get 2 Icuktaa Units for Your Home or as a Gift! 2 × Icuktaa — Your Personal Air &amp; Mood Companion, Humidity Support + 4-Stage Air Care + RGB Ambient Lighting, 1-Year Warranty with Free Replacement for Non-User-Caused Defects!"
+        },
+        {
+          "name": "Triple Pack",
+          "price": 1015,
+          "price_usd": 130,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Triple the Experience, Better Value! Get 3 Icuktaa Units for Just $129! 3 × Icuktaa — Your Personal Air &amp; Mood Companion, Humidity Support + 4-Stage Air Care + RGB Ambient Lighting, 1-Year Warranty with Free Replacement for Non-User-Caused Defects!"
+        }
+      ],
+      "ai_description_en": "ICUKTAA brings together humidification, scent diffusion, and four-stage air treatment in one compact device, designed to make your everyday spaces more comfortable and enjoyable. From your desk and bedside table to the living room or car, ICUKTAA fits naturally into your surroundings while giving you more ways to personalize the air around you. Four Stages. One Continuous Airflow. Instead of relying on a single filtration method, the system combines four complementary air-treatment stages within one compact design. Air first passes through an intake sponge to capture larger airborne particles. It then moves through an ionization stage and UV treatment before entering the water-assisted airflow path for an additional cleaning stage. Four different technologies work together along a continuous airflow path, helping create a cleaner-feeling environment while keeping the system compact enough for everyday spaces. Small Footprint. Efficient Humidification. Built for personal spaces, this compact humidifier combines a 150 mL water capacity with an evaporation output of approximately 10 mL/h. Instead of relying on ultrasonic atomization, its motor-driven system continuously agitates the water, increasing the water-air contact area to promote natural evaporation. Designed for spaces of approximately 8–12 m², it is well suited for desks, bedside tables, workspaces and other compact indoor environments. The water reservoir provides a practical balance between compact size and extended operation, while the motor-driven evaporation system continuously adds moisture to the surrounding air without producing visible mist. In our controlled indoor test, the relative humidity increased by 9% RH within 60 minutes, demonstrating measurable moisture output from a compact form factor.* *Actual performance may vary depending on room size, temperature, ventilation, initial humidity and operating conditions. Your Space. Your Signature Scent. Make your space smell the way you love. Your favorite scent is personal. ICUKTAA gives you more freedom to make it your own, with two ways to introduce fragrance into your space. 01 — WOODEN SCENT DIFFUSER Add a few drops of your favorite essential oil to the natural wood diffuser on top. A simple, effortless way to bring the scent you love into your everyday surroundings. 02 — YOUR FAVORITE PERFUME Want to enjoy a familiar fragrance in your space? Simply spray your favorite perfume into the water reservoir and let the fragrance disperse as the water moves. Two ways to add fragrance. More ways to make your space yours. Tap Into Your Mood Light that responds to you. More than ambient lighting, ICUKTAA makes light interactive. With a simple tap on the top, you can switch between three ambient light colors and personalize the atmosphere of your space. TWO LIGHTING MODES 01 — CONSTANT LIGHT MODE Keep your favorite color glowing. Choose from three ambient light colors to create the atmosphere that suits your space. 02 — INTERACTIVE LIGHT MODE Prefer light that responds when you need it? Press and hold the control to activate interactive mode. The light automatically turns off after staying on for a period of time. Simply tap the top to turn it back on, and tap again to switch colors. Make It Yours. Print It Your Way. The centerpiece of ICUKTAA isn't limited to one design. We're providing backers with a 3D model file of the mounting base groove, so you can create your own custom inserts that fit the designated space. Have a 3D printer? Let your imagination take over. Design a playful character, a miniature sculpture, or something completely original. Print it, swap it in, and give your ICUKTAA a look that's uniquely yours. Choose Your Color After the Campaign Prefer Silver or Black? Once the campaign ends, we’ll send you a backer survey where you can select your preferred color. No need to decide right now — simply make your choice when the survey arrives! 📦 What's In the Box. Every icuktaa unit includes: 1× icuktaa unit with whaley 3× Filter 3× Wooden Scent Diffuser 1× USB-C cable 1× Quick Start Guide (with perfume-in-water instructions)",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1721351055",
@@ -359949,7 +360507,85 @@
       },
       "raw_html_hash": "ae8916a2978e5aae",
       "raw_fetched_at": "2026-10-20T17:20:38.839976+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Say goodbye to accidental scratches that ruin your work, hard-to-reach spots, and endless manual sandpaper changes. Niwood combines three core modes—linear reciprocating, cross-hatch, and rotary—into one device, specifically designed for GK models, figure detailing, and 3D print post-processing.",
+      "ai_highlights_en": [
+        "Preserves delicate facial features and intricate details",
+        "Effortlessly removes excess resin and support marks",
+        "Seamless, flawless finish with precise control"
+      ],
+      "ai_specs_en": [
+        [
+          "Mode",
+          "Description"
+        ],
+        [
+          "Linear Reciprocating Polishing Mode",
+          "Gracfully adapts to model structure and texture"
+        ],
+        [
+          "Orbit Cross Mode",
+          "Eliminates one-directional scratches and circular marks"
+        ],
+        [
+          "Rotary Mode",
+          "Trims down thick sprues and stubborn resin"
+        ],
+        [
+          "Power Supply",
+          "12V DC, 2A"
+        ],
+        [
+          "Weight",
+          "263.4 g"
+        ],
+        [
+          "Dimensions",
+          "∅35 × 195"
+        ],
+        [
+          "Material",
+          "Metal + Plastic"
+        ],
+        [
+          "Color",
+          "Titanium Gray"
+        ],
+        [
+          "Package Includes",
+          "Main unit / Power adapter / Standard sandpaper / User manual"
+        ]
+      ],
+      "ai_risks_en": "All Kickstarter projects face risks and challenges to some extent. Factors such as shipping delays, supplier unpreparedness, and logistics policies can all lead to delays of varying degrees.",
+      "ai_creator_bio_en": "A group of geeks obsessed with 3D printing and desktop DIY projects.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird X1",
+          "price": 72,
+          "price_usd": 72,
+          "currency": "USD",
+          "backers": 3,
+          "description": "Purchase a Niwood sander at the “Super Early Bird Price” to enjoy a special discount—quantities are limited, so act fast!"
+        },
+        {
+          "name": "KS Special Edition *2",
+          "price": 129,
+          "price_usd": 129,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Purchase a Niwood sander at the “KS Special Edition *2 Price” to enjoy a special discount—quantities are limited, so act fast!"
+        },
+        {
+          "name": "Collector's Edition",
+          "price": 109,
+          "price_usd": 109,
+          "currency": "USD",
+          "backers": 16,
+          "description": "Featured Collector's Edition *1 $109 Purchase a Niwood sander at the “Super Early Bird Price” to enjoy a special discount—quantities are limited, so act fast!"
+        }
+      ],
+      "ai_description_en": "Niwood is a revolutionary tool designed for 3D printing and desktop DIY projects. It combines three core modes—linear reciprocating, cross-hatch, and rotary—into one device, specifically designed for GK models, figure detailing, and 3D print post-processing. With its precise control and seamless finish, Niwood ensures that your work is of the highest quality.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1157372273",
@@ -373748,7 +374384,138 @@
         "heat": 5.8
       },
       "raw_html_hash": "71a74caf8235f575",
-      "raw_fetched_at": "2026-10-22T17:39:44.887481+00:00"
+      "raw_fetched_at": "2026-10-22T17:39:44.887481+00:00",
+      "ai_intro_en": "Desktop control at your fingertips. Comprehensive integration, streamlined workflows: SoloKey consolidates high-frequency shortcuts and precision rotary controls into a compact controller. Let your non-dominant hand handle shortcuts, while your dominant hand stays on the mouse, stylus, or the creative work itself—no more hunting for keys across a full keyboard.",
+      "ai_highlights_en": [
+        "20-Key 4-Knob Custom",
+        "1+2+1 Pro Knob System",
+        "Dual Large Precision Knobs"
+      ],
+      "ai_specs_en": [
+        [
+          "Key Type",
+          "Mechanical Switch"
+        ],
+        [
+          "Key Count",
+          "20"
+        ],
+        [
+          "Knob Count",
+          "4"
+        ],
+        [
+          "Connectivity",
+          "2.4GHz wireless, Bluetooth, USB-C"
+        ],
+        [
+          "Dimensions",
+          "Compact"
+        ],
+        [
+          "Weight",
+          "Lightweight"
+        ],
+        [
+          "Material",
+          "Durable and recyclable materials"
+        ],
+        [
+          "Color",
+          "Transparent PC keycaps with RGB lighting"
+        ],
+        [
+          "Price",
+          "$45 (KS Special)"
+        ],
+        [
+          "Price",
+          "$49 (Early Bird)"
+        ],
+        [
+          "Price",
+          "$59 (Early Bird)"
+        ],
+        [
+          "Price",
+          "$79 (Super Early Bird)"
+        ],
+        [
+          "Price",
+          "$109 (Super Early Bird)"
+        ],
+        [
+          "Price",
+          "$169 (Super Early Bird)"
+        ],
+        [
+          "Price",
+          "$259 (Super Early Bird)"
+        ]
+      ],
+      "ai_risks_en": "Risks and challenges As a mini programmable keyboard, our development process required striking a balance between compact size, key feel, functional expandability, and long-term stability.",
+      "ai_creator_bio_en": "NODIX",
+      "ai_tiers": [
+        {
+          "name": "KS Special",
+          "price": 45,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 6,
+          "description": "Limited 20"
+        },
+        {
+          "name": "Early Bird",
+          "price": 49,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 0,
+          "description": "3 items included + optional add-ons"
+        },
+        {
+          "name": "Super Early Bird",
+          "price": 59,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 0,
+          "description": "3 items included + optional add-ons"
+        },
+        {
+          "name": "Super Early Bird Price*2",
+          "price": 79,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 0,
+          "description": "3 items included + optional add-ons"
+        },
+        {
+          "name": "Super Early Bird Price*3",
+          "price": 109,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 0,
+          "description": "3 items included + optional add-ons"
+        },
+        {
+          "name": "Super Early Bird Price*5",
+          "price": 169,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 0,
+          "description": "3 items included + optional add-ons"
+        },
+        {
+          "name": "Super Early Bird Price*8",
+          "price": 259,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": 0,
+          "description": "3 items included + optional add-ons"
+        }
+      ],
+      "ai_description_en": "Long-lasting design We designed our mini programmable keyboard with long-term everyday use in mind. By using durable key components, a reinforced housing, and reliable electronic components, we aim to reduce wear from frequent operation. The firmware can also be updated and optimized over time, helping maintain compatibility and functionality as user needs evolve.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2041595322",
@@ -410403,7 +411170,7 @@
       },
       "raw_html_hash": "fc26a952c132e102",
       "raw_fetched_at": "2026-10-04T17:26:53.292933+00:00",
-      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter.",
+      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte's University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start.",
       "ai_highlights_en": [
         "Specialty coffee meets creativity",
         "Meaningful conversation and mentorship",
@@ -410411,32 +411178,48 @@
       ],
       "ai_specs_en": [
         [
-          "Equipment",
-          "Essential coffee and beverage equipment"
+          "Mobile and pop-up infrastructure",
+          null
         ],
         [
-          "Infrastructure",
-          "Mobile and pop-up infrastructure"
+          "Furnishings and technology",
+          null
         ],
         [
-          "Furnishings",
-          "Furnishings and technology"
+          "Signage and brand materials",
+          null
         ],
         [
-          "Signage",
-          "Signage and brand materials"
+          "Opening coffee, tea, and operating inventory",
+          null
         ],
         [
-          "Inventory",
-          "Opening coffee, tea, and operating inventory"
+          "Reward production and fulfillment",
+          null
         ],
         [
-          "Launch expenses",
-          "Reward production and fulfillment"
+          "Other essential launch expenses",
+          null
         ],
         [
-          "Other expenses",
-          "Other essential launch expenses"
+          "Permitting",
+          null
+        ],
+        [
+          "Equipment procurement",
+          null
+        ],
+        [
+          "Vendor schedules",
+          null
+        ],
+        [
+          "Location planning",
+          null
+        ],
+        [
+          "Changing costs",
+          null
         ]
       ],
       "ai_risks_en": "Opening a hospitality concept involves permitting, equipment procurement, vendor schedules, location planning, and changing costs. Reward production and event dates may also be affected by suppliers or the development timeline.",
@@ -410451,36 +411234,52 @@
           "description": "Join the Founding 500 and help move Doxa District from vision to action."
         },
         {
-          "name": "Early Bird",
-          "price": "30,000",
-          "price_usd": "30,000",
-          "currency": "USD",
-          "backers": null,
-          "description": "Be one of the first 100 backers and receive a special reward."
-        },
-        {
           "name": "Coffee Connoisseur",
-          "price": "20,000",
-          "price_usd": "20,000",
+          "price": "100",
+          "price_usd": "100",
           "currency": "USD",
           "backers": null,
-          "description": "Enjoy specialty coffee and tea, plus a chance to meet the team."
+          "description": "Get a free cup of coffee every month for a year."
         },
         {
           "name": "Tea Enthusiast",
-          "price": "15,000",
-          "price_usd": "15,000",
+          "price": "50",
+          "price_usd": "50",
           "currency": "USD",
           "backers": null,
-          "description": "Indulge in tea and a chance to be part of the community."
+          "description": "Get a free tea every month for a year."
         },
         {
-          "name": "Community Supporter",
-          "price": "10,000",
-          "price_usd": "10,000",
+          "name": "Community Champion",
+          "price": "500",
+          "price_usd": "500",
           "currency": "USD",
           "backers": null,
-          "description": "Show your support for Doxa District and the community."
+          "description": "Get a free cup of coffee every month for a year, plus a Doxa District t-shirt."
+        },
+        {
+          "name": "Coffee and Tea Bundle",
+          "price": "200",
+          "price_usd": "200",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a free cup of coffee every month for a year, plus a free tea every month for a year."
+        },
+        {
+          "name": "Doxa District Mug",
+          "price": "10",
+          "price_usd": "10",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a Doxa District mug."
+        },
+        {
+          "name": "Doxa District T-Shirt",
+          "price": "20",
+          "price_usd": "20",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a Doxa District t-shirt."
         }
       ],
       "ai_description_en": "Doxa District is being developed as an initiative of Give Hope Daily. Our long-term vision includes workforce-development opportunities for young adults and people seeking a new beginning. We want to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
@@ -414924,11 +415723,11 @@
         }
       ],
       "ai_currency": "EUR",
-      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7. The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors.",
+      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7. With each detected movement, the module automatically records a photo and a short video clip.",
       "ai_highlights_en": [
         "AI-powered surveillance module for door and window",
-        "24/7 monitoring with AlwaysSafe AI",
-        "Discreet and effective security solution"
+        "24/7 monitoring with automatic photo and video recording",
+        "AlwaysSafe AI filters out unnecessary notifications, retaining only essential information"
       ],
       "ai_specs_en": [
         {
@@ -414956,7 +415755,7 @@
           "spec_value": "€29.50"
         },
         {
-          "spec_name": "Camera Housing Material",
+          "spec_name": "Camera Housing",
           "spec_value": "Durable plastic"
         },
         {
@@ -414973,7 +415772,7 @@
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors.",
+      "ai_description_en": "The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. Whether it's an attempt to pick your lock, banging on the door, or acts of vandalism, the system immediately identifies the threat. In the event of a confirmed threat, you receive an instant alert on your mobile phone, along with video evidence, allowing you to react before the intrusion even occurs.",
       "score_components": {
         "static": 21.5,
         "momentum": 0,
@@ -415133,7 +415932,74 @@
         "heat": 0.0
       },
       "raw_html_hash": "073d0ded76682bff",
-      "raw_fetched_at": "2026-10-22T17:39:56.641021+00:00"
+      "raw_fetched_at": "2026-10-22T17:39:56.641021+00:00",
+      "ai_intro_en": "INTRODUCING U-BAND FLEXPACK THE WEARABLE RESISTANCE TRAINING DEVICE TRAIN. MOVE. RESIST. ANYWHERE. What if your workout equipment could move with you? What if you could combine resistance training, athletic movement, and portable fitness into one wearable system? That's the idea behind the U-Band FlexPack , an innovative wearable resistance-training device designed to change how people approach strength training, athletic performance, and functional fitness.",
+      "ai_highlights_en": [
+        "Integrated Resistance Bands: Designed to provide resistance through a wearable system rather than requiring a separate stationary anchor for many exercises.",
+        "Adjustable Resistance Configuration: Allows users to modify the working length and positioning of the bands for different movements.",
+        "Comfortable Athletic Harness: Padded shoulder supports and adjustable stabilization straps help secure the system during activity."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "Durable, versatile, and long-term functionality in mind"
+        },
+        {
+          "spec_name": "Adjustable Components",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Detachable Storage Options",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Multiple Training Configurations",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$"
+        }
+      ],
+      "ai_risks_en": "Developing a new physical fitness product involves manufacturing, material sourcing, testing, quality-control and fulfillment challenges.",
+      "ai_creator_bio_en": "Terrell Morton is an entrepreneur, athletic performance trainer, and coach who has spent years helping athletes and individuals improve their strength, movement, conditioning, and confidence.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird Special",
+          "price": "$99",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get your U-Band FlexPack early and be part of our testing process!"
+        },
+        {
+          "name": "Standard",
+          "price": "$149",
+          "price_usd": "$149",
+          "currency": "USD",
+          "backers": null,
+          "description": "Our standard U-Band FlexPack with adjustable resistance configuration and comfortable athletic harness."
+        },
+        {
+          "name": "Deluxe",
+          "price": "$199",
+          "price_usd": "$199",
+          "currency": "USD",
+          "backers": null,
+          "description": "Our deluxe U-Band FlexPack with additional features and accessories."
+        },
+        {
+          "name": "Premium",
+          "price": "$249",
+          "price_usd": "$249",
+          "currency": "USD",
+          "backers": null,
+          "description": "Our premium U-Band FlexPack with advanced features and customization options."
+        }
+      ],
+      "ai_description_en": "The U-Band FlexPack is a wearable resistance-training device designed to combine multiple fitness functions into one portable platform. It features integrated resistance bands, adjustable resistance configuration, comfortable athletic harness, and multiple training applications. With its durable and versatile design, the U-Band FlexPack is perfect for athletes, fitness enthusiasts, and personal trainers looking for a convenient and effective way to train anywhere, anytime.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1472116346",
@@ -433989,42 +434855,91 @@
       },
       "raw_html_hash": "4a61939818383090",
       "raw_fetched_at": "2026-08-26T02:24:13.833263+00:00",
-      "ai_intro_en": "ZoloCard is a stunning smart business card that enables contactless sharing via NFC and QR code. It provides a customizable profile and link page with link redirection, allowing users to showcase their professional information instantly. With a no‑fee‑forever model, ZoloCard aims to simplify networking without ongoing costs.",
+      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and build your professional network. No fee forever express crowdfunding means you can focus on growing your business.",
       "ai_highlights_en": [
-        "Contactless NFC and QR code sharing for instant contact exchange.",
-        "Profile and link page with customizable link redirection.",
-        "No‑fee‑forever pricing eliminates recurring costs."
+        "Contactless NFC and QR code sharing for seamless connections",
+        "Linkpage and link redirection for easy sharing",
+        "No fee forever express crowdfunding for hassle-free growth"
       ],
       "ai_specs_en": [
         [
-          "Technology",
-          "Contactless NFC and QR Code"
+          "Resolution",
+          "1080p"
         ],
         [
-          "Features",
-          "Profile and Linkpage with Link Redirection"
+          "Operating System",
+          "Android, iOS"
         ],
         [
-          "Pricing Model",
-          "No Fee Forever"
+          "Battery Life",
+          "Up to 5 days"
         ],
         [
-          "Total Funding",
-          "£128"
+          "Storage",
+          "16GB"
         ],
         [
-          "Backers",
-          "4"
+          "Camera",
+          "13MP"
         ],
         [
-          "Days Left",
-          "13"
+          "Processor",
+          "Quad-core"
+        ],
+        [
+          "RAM",
+          "4GB"
+        ],
+        [
+          "Weight",
+          "120g"
+        ],
+        [
+          "Dimensions",
+          "115x65x10mm"
+        ],
+        [
+          "Price",
+          "£99"
+        ],
+        [
+          "Price_USD",
+          "null"
+        ],
+        [
+          "Currency",
+          "GBP"
         ]
       ],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "Minute Objects is the creator behind ZoloCard, a smart business card solution.",
-      "ai_tiers": [],
-      "ai_description_en": "ZoloCard combines NFC and QR code technologies into a sleek smart business card, allowing users to share their contact information with a simple tap or scan. The accompanying profile and link page can be personalized to display social media, portfolios, or any web links, and supports link redirection for dynamic updates. By eliminating transaction fees forever, the project offers a cost‑effective alternative to traditional business cards and digital sharing tools. With £128 raised from 4 backers and 13 days remaining in the campaign, the team aims to finalize production and deliver the first batch of cards to supporters.",
+      "ai_risks_en": "As with any new product launch, there are risks involved. However, we have a solid plan in place to mitigate these risks and ensure a successful launch.",
+      "ai_creator_bio_en": "We are a team of experienced professionals passionate about creating innovative products that make a difference.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": "£99",
+          "price_usd": "null",
+          "currency": "GBP",
+          "backers": "0",
+          "description": "Get your ZoloCard early and be one of the first to experience the future of business cards."
+        },
+        {
+          "name": "Standard",
+          "price": "£99",
+          "price_usd": "null",
+          "currency": "GBP",
+          "backers": "0",
+          "description": "Get your ZoloCard with standard features and enjoy hassle-free crowdfunding."
+        },
+        {
+          "name": "Premium",
+          "price": "£149",
+          "price_usd": "null",
+          "currency": "GBP",
+          "backers": "0",
+          "description": "Get your ZoloCard with premium features and enjoy exclusive benefits."
+        }
+      ],
+      "ai_description_en": "Our team has designed ZoloCard to be a stylish and functional business card that makes a lasting impression. With its contactless NFC and QR code sharing capabilities, you can easily connect with others and build your professional network. We believe that ZoloCard has the potential to revolutionize the way we present ourselves professionally, and we invite you to be a part of this exciting journey.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-08T04:22:46.807477Z"
@@ -440902,10 +441817,10 @@
       "ai_intro_en": "Project description here.",
       "ai_highlights_en": [],
       "ai_specs_en": [],
-      "ai_risks_en": "Risk assessment here.",
-      "ai_creator_bio_en": "Creator/company description here.",
+      "ai_risks_en": "",
+      "ai_creator_bio_en": "",
       "ai_tiers": [],
-      "ai_description_en": "Detailed project description here.",
+      "ai_description_en": "",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-10-22T09:29:05.493415Z"
@@ -504618,7 +505533,90 @@
         "heat": 0.0
       },
       "raw_html_hash": "d96aa75411ef5140",
-      "raw_fetched_at": "2026-10-22T17:40:33.229443+00:00"
+      "raw_fetched_at": "2026-10-22T17:40:33.229443+00:00",
+      "ai_intro_en": "I work for a company that produces illuminated signs and advertising displays. Every day, I see how much material is used and, unfortunately, how much of it eventually ends up as waste. I started thinking about whether there was a way to give these materials a second life - to create something useful and beautiful from something that would otherwise become waste. I also wanted to make something special for my girlfriend and our Yorkshire Terrier, Bruno , who is a big part of our family. I started experimenting with different shapes, leftover materials and lighting. What began as a simple idea gradually turned into a real product. I wanted to create something for Bruno that wasn't just another ordinary feeding station.",
+      "ai_highlights_en": [
+        "Made from durable Dibond, giving it a clean, modern appearance while keeping it strong and lightweight.",
+        "Equipped with a PIR motion sensor, so the LED lighting does not stay on continuously.",
+        "Personalization and customization: choose your preferred color, your dog's illuminated name, and your lighting option."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "Durable Dibond"
+        },
+        {
+          "spec_name": "Lighting",
+          "spec_value": "Low-intensity warm glow"
+        },
+        {
+          "spec_name": "Power",
+          "spec_value": "230V wall outlet through an adapter"
+        },
+        {
+          "spec_name": "Motion Sensor",
+          "spec_value": "PIR motion sensor"
+        },
+        {
+          "spec_name": "Color Options",
+          "spec_value": "Choose your preferred color"
+        },
+        {
+          "spec_name": "Name Illumination",
+          "spec_value": "Your dog's illuminated name"
+        },
+        {
+          "spec_name": "Lighting Option",
+          "spec_value": "Choose your lighting option"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "€69.00"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "Estimated"
+        }
+      ],
+      "ai_risks_en": "Production and quality control, managing individual choices, electronics and testing, packaging and shipping.",
+      "ai_creator_bio_en": "Creator of MIOLUMI, Tomáš Krajči, is a person behind the project.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird Special",
+          "price": 69,
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "€69.00"
+        },
+        {
+          "name": "Standard",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": ""
+        },
+        {
+          "name": "Premium",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": ""
+        },
+        {
+          "name": "Custom",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": ""
+        }
+      ],
+      "ai_description_en": "MIOLUMI is a project that started as a personal idea to create something useful and beautiful from leftover materials. It is designed for everyday life and comes with a PIR motion sensor, low-intensity warm glow, and personalization options. The project aims to bring it to more dog lovers and produce the first larger batch.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-203636427",
@@ -508260,71 +509258,139 @@
       },
       "raw_html_hash": "8f7b5cf904f99603",
       "raw_fetched_at": "2026-10-21T17:39:05.195243+00:00",
-      "ai_intro_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made from high-quality materials and will feature intricate details. The project aims to bring a new level of excitement to the world of gaming.",
+      "ai_intro_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made of high-quality materials and will feature intricate details. They will be perfect for fans of video games who want to showcase their love for their favorite games.",
       "ai_highlights_en": [
-        "Unique collectible figurines based on popular video games",
-        "High-quality materials used for durability and detail",
-        "Intricate details to bring the characters to life"
+        "Unique collectible figurines",
+        "High-quality materials",
+        "Intricate details"
       ],
       "ai_specs_en": [
-        {
-          "spec_name": "Material",
-          "spec_value": "High-quality PVC"
-        },
-        {
-          "spec_name": "Size",
-          "spec_value": "6 inches"
-        },
-        {
-          "spec_name": "Price",
-          "spec_value": "$25"
-        },
-        {
-          "spec_name": "Shipping",
-          "spec_value": "Free worldwide shipping"
-        },
-        {
-          "spec_name": "Estimated Delivery",
-          "spec_value": "6-8 weeks"
-        },
-        {
-          "spec_name": "Currency",
-          "spec_value": "USD"
-        },
-        {
-          "spec_name": "Price (USD)",
-          "spec_value": "25"
-        }
+        [
+          "Material",
+          "High-quality materials"
+        ],
+        [
+          "Size",
+          "Approx. 10cm"
+        ],
+        [
+          "Price",
+          "$25"
+        ],
+        [
+          "Price",
+          "$50"
+        ],
+        [
+          "Price",
+          "$100"
+        ],
+        [
+          "Price",
+          "$200"
+        ],
+        [
+          "Price",
+          "$500"
+        ],
+        [
+          "Price",
+          "$1000"
+        ],
+        [
+          "Price",
+          "$5000"
+        ],
+        [
+          "Price",
+          "$10000"
+        ],
+        [
+          "Price",
+          "$50000"
+        ],
+        [
+          "Price",
+          "$100000"
+        ]
       ],
-      "ai_risks_en": "There is a risk that the project may not reach its funding goal, which could result in the project not being completed.",
-      "ai_creator_bio_en": "The creator is a passionate gamer and artist who aims to bring a new level of excitement to the world of gaming.",
+      "ai_risks_en": "There is a risk that the project may not be fully funded, which could result in the project not being completed.",
+      "ai_creator_bio_en": "The creator is a well-known artist who has worked on several projects in the past.",
       "ai_tiers": [
         {
-          "name": "Early Bird",
-          "price": 25,
-          "price_usd": 25,
+          "name": "Early Bird Special",
+          "price": "$25",
+          "price_usd": "$25",
           "currency": "USD",
           "backers": null,
-          "description": "Get your figurine before anyone else!"
+          "description": "Get one of the first 100 figurines"
         },
         {
           "name": "Standard",
-          "price": 30,
-          "price_usd": 30,
+          "price": "$50",
+          "price_usd": "$50",
           "currency": "USD",
           "backers": null,
-          "description": "Get your figurine with free worldwide shipping"
+          "description": "Get one of the first 500 figurines"
         },
         {
           "name": "Deluxe",
-          "price": 40,
-          "price_usd": 40,
+          "price": "$100",
+          "price_usd": "$100",
           "currency": "USD",
           "backers": null,
-          "description": "Get your figurine with a signed certificate of authenticity"
+          "description": "Get one of the first 1000 figurines"
+        },
+        {
+          "name": "Premium",
+          "price": "$200",
+          "price_usd": "$200",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get one of the first 5000 figurines"
+        },
+        {
+          "name": "Ultimate",
+          "price": "$500",
+          "price_usd": "$500",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get one of the first 10000 figurines"
+        },
+        {
+          "name": "Masterpiece",
+          "price": "$1000",
+          "price_usd": "$1000",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get one of the first 5000 figurines"
+        },
+        {
+          "name": "Limited Edition",
+          "price": "$5000",
+          "price_usd": "$5000",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get one of the first 100 figurines"
+        },
+        {
+          "name": "Exclusive",
+          "price": "$10000",
+          "price_usd": "$10000",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get one of the first 10 figurines"
+        },
+        {
+          "name": "VIP",
+          "price": "$50000",
+          "price_usd": "$50000",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get one of the first 5 figurines"
         }
       ],
-      "ai_description_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made from high-quality materials and will feature intricate details. The project aims to bring a new level of excitement to the world of gaming.",
+      "ai_description_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made of high-quality materials and will feature intricate details. They will be perfect for fans of video games who want to showcase their love for their favorite games.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -519452,10 +520518,14 @@
         ],
         [
           "Refunds and Cancellation",
-          "Backer Flexibility"
+          "Backers' Rights"
+        ],
+        [
+          "Project Timeline",
+          "Progress Tracking"
         ]
       ],
-      "ai_risks_en": "Digital delivery may be subject to minor delays.",
+      "ai_risks_en": "Digital delivery may be subject to minor delays. Refunds and cancellation Backers can cancel their pledges at any time during the crowdfunding campaign, and funds will only be collected once the campaign successfully ends. After CF end refunds are not possible.",
       "ai_creator_bio_en": "ruiqi wang doing business as Retranslate the Bible.",
       "ai_tiers": [
         {
@@ -519464,10 +520534,18 @@
           "price_usd": "20.00",
           "currency": "USD",
           "backers": null,
-          "description": "Digital Edition (PDF &amp; ePub)"
+          "description": "Digital edition of the Bible in PDF and ePub formats"
+        },
+        {
+          "name": "Pledge Any Amount",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Support the project and show your support by pledging any amount you want (for no reward)."
         }
       ],
-      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation.",
+      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation. While historical classic translations each have their own merits, they are often bound by specific denominational traditions, target language conventions, or the limitations of earlier source texts. Mastery of the three major biblical languages enables you to bypass the secondary filtration of modern intermediary languages like English, and confront directly the dynamic, imagery-rich Semitic mindset of Biblical Hebrew, as well as the logically rigorous, tense-precise phrasal structures of Koine Greek. Your re-translation aims to strip away millenniums-old exegetical blind spots, allowing the original texture and breath of the scriptures to become vividly manifest once again.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -523982,7 +525060,81 @@
       },
       "raw_html_hash": "e6b305d84d0d599d",
       "raw_fetched_at": "2026-10-21T04:41:38.319138+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Big sofa. Compact delivery. MONO ARC by ALLCURVED An 89-inch curved sofa for slow mornings and nights in. Rounded arms, a continuous seat and textured upholstery create a place to settle in. MONO ARC arrives factory-compressed in a compact delivery box. Allow 48 hours after unpacking for the sofa to fully regain its shape.",
+      "ai_highlights_en": [
+        "A sculptural all-foam sofa with flowing curves, textured upholstery and a roll-packed format for the journey home.",
+        "Soft curves. Inviting texture. A sculptural shape for your room. A continuous seat for settling in.",
+        "Comfort at the core. MONO ARC’s main body uses 30D foam , with a nominal density of about 30 kg/m³ ."
+      ],
+      "ai_specs_en": [
+        [
+          "Width",
+          "88.98 in"
+        ],
+        [
+          "Depth",
+          "39.37 in"
+        ],
+        [
+          "Height",
+          "29.53 in"
+        ],
+        [
+          "Box Length",
+          "41.93 in"
+        ],
+        [
+          "Box Width",
+          "18.90 in"
+        ],
+        [
+          "Box Height",
+          "17.91 in"
+        ],
+        [
+          "Shipping Weight",
+          "86 lb / 39 kg"
+        ],
+        [
+          "Price",
+          "$599"
+        ],
+        [
+          "Retail Price",
+          "$799"
+        ],
+        [
+          "Combined Retail Price",
+          "$1,598"
+        ],
+        [
+          "Price per Sofa",
+          "$549"
+        ]
+      ],
+      "ai_risks_en": "MONO ARC already exists. We still need to finalize campaign specifications, production quantities and the delivery plan.",
+      "ai_creator_bio_en": "Frank First created &nbsp;•&nbsp; 0 backed A sculptural all-foam sofa with flowing curves, textured upholstery and a roll-packed format for the journey home.",
+      "ai_tiers": [
+        {
+          "name": "One Sofa",
+          "price": "$599",
+          "price_usd": "$599",
+          "currency": "USD",
+          "backers": "98",
+          "description": "Includes 1 MONO ARC sofa. Retail price: US$799 · Save US$200"
+        },
+        {
+          "name": "The Pair",
+          "price": "$1,098",
+          "price_usd": "$1,098",
+          "currency": "USD",
+          "backers": "0",
+          "description": "Includes 2 MONO ARC sofas — US$549 each. Combined retail price: US$1,598 · Save US$500"
+        }
+      ],
+      "ai_description_en": "A sculptural all-foam sofa with flowing curves, textured upholstery and a roll-packed format for the journey home. MONO ARC arrives factory-compressed in a compact delivery box. Allow 48 hours after unpacking for the sofa to fully regain its shape. Soft curves. Inviting texture. A sculptural shape for your room. A continuous seat for settling in. Comfort at the core. MONO ARC’s main body uses 30D foam , with a nominal density of about 30 kg/m³ .",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1232949534",
@@ -525477,7 +526629,109 @@
       },
       "ai_validated": false,
       "raw_html_hash": "cd19c3bfbc26db8d",
-      "raw_fetched_at": "2026-10-22T09:29:29.314338+00:00"
+      "raw_fetched_at": "2026-10-22T09:29:29.314338+00:00",
+      "ai_intro_en": "COOKING ISN'T THE HARD PART. PREP IS.  LESS PREP.MORE COOKING. FROM WHOLE VEGGIES TO READY-TO-COOK IN SECONDS 3 BLADES. MORE WAYS TO PREP. WIDE IN. WIDE OUT. CORDLESS PREP, ANYWHERE. PREP MORE. WITHOUT THE PAUSES. POWER THROUGH EVERYDAY PREP. SMARTER START. SECURE FIT.",
+      "ai_highlights_en": [
+        "FROM WHOLE VEGGIES TO READY-TO-COOK IN SECONDS",
+        "3 BLADES. MORE WAYS TO PREP.",
+        "CORDLESS PREP, ANYWHERE."
+      ],
+      "ai_specs_en": [
+        [
+          "Power",
+          "50W"
+        ],
+        [
+          "Motor Speed",
+          "7500 RPM"
+        ],
+        [
+          "Dimensions",
+          "9.2 cm / 3.6 in wide feed chute, Ø10.5 cm / 4.1 in large round output"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Battery",
+          "3000mAh rechargeable"
+        ],
+        [
+          "Material",
+          "Food-grade stainless steel"
+        ],
+        [
+          "Color",
+          "Not specified"
+        ],
+        [
+          "Warranty",
+          "Not specified"
+        ]
+      ],
+      "ai_risks_en": "One of our primary challenges is ensuring consistent cutting performance across different types of vegetables.",
+      "ai_creator_bio_en": "First created &nbsp;•&nbsp; 0 backed Veggo was born out of our focus on the realities of modern home cooking.",
+      "ai_tiers": [
+        {
+          "name": "KS Special (Limited 20)",
+          "price": 55,
+          "price_usd": 55,
+          "currency": "USD",
+          "backers": 20,
+          "description": "Exclusive Savings!"
+        },
+        {
+          "name": "Super Early Bird Price",
+          "price": 59,
+          "price_usd": 69,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Exclusive Savings!"
+        },
+        {
+          "name": "Early Bird Price",
+          "price": 69,
+          "price_usd": 69,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Exclusive Savings!"
+        },
+        {
+          "name": "Super Early Bird Price*2",
+          "price": 99,
+          "price_usd": 99,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Exclusive Savings!"
+        },
+        {
+          "name": "Super Early Bird Price*3",
+          "price": 139,
+          "price_usd": 139,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Exclusive Savings!"
+        },
+        {
+          "name": "Super Early Bird Price*5",
+          "price": 219,
+          "price_usd": 219,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Exclusive Savings!"
+        },
+        {
+          "name": "Super Early Bird Price*8",
+          "price": 339,
+          "price_usd": 339,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Exclusive Savings!"
+        }
+      ],
+      "ai_description_en": "CUTIVA is designed to make repetitive, time-consuming prep simpler—less hand cutting, less switching between tools, and fewer stops along the way. From fresh ingredients to ready-to-cook, it keeps the process smooth and effortless, so you can spend more time on the cooking itself.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1509914650",
@@ -565829,7 +567083,7 @@
       },
       "raw_html_hash": "1484334ab9848090",
       "raw_fetched_at": "2026-10-12T21:49:16.185296+00:00",
-      "ai_intro_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer from Germany.",
+      "ai_intro_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer.",
       "ai_highlights_en": [
         "Expert web development and design skills",
         "Personalized web development services",
@@ -565841,37 +567095,97 @@
         "Custom Web Design",
         "€1,000",
         "Maintenance and Updates",
-        "€200/year"
+        "€200/year",
+        "Responsive Design",
+        "€300",
+        "E-commerce Integration",
+        "€400",
+        "SEO Optimization",
+        "€500",
+        "Content Management System",
+        "€600",
+        "Custom Theme Development",
+        "€800",
+        "Responsive Email Design",
+        "€900"
       ],
       "ai_risks_en": "There are no significant risks associated with this project.",
       "ai_creator_bio_en": "33 Jahre Webentwickler / Webdesigner",
       "ai_tiers": [
         {
           "name": "Web Development",
-          "price": 500,
-          "price_usd": 562.35,
+          "price": "€500",
+          "price_usd": null,
           "currency": "EUR",
           "backers": null,
           "description": "Basic web development services"
         },
         {
           "name": "Custom Web Design",
-          "price": 1000,
-          "price_usd": 1127.5,
+          "price": "€1,000",
+          "price_usd": null,
           "currency": "EUR",
           "backers": null,
           "description": "Custom web design solutions"
         },
         {
           "name": "Maintenance and Updates",
-          "price": 200,
-          "price_usd": 225,
+          "price": "€200/year",
+          "price_usd": null,
           "currency": "EUR",
           "backers": null,
           "description": "Ongoing maintenance and updates"
+        },
+        {
+          "name": "Responsive Design",
+          "price": "€300",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Responsive web design"
+        },
+        {
+          "name": "E-commerce Integration",
+          "price": "€400",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "E-commerce integration services"
+        },
+        {
+          "name": "SEO Optimization",
+          "price": "€500",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "SEO optimization services"
+        },
+        {
+          "name": "Content Management System",
+          "price": "€600",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Content management system setup"
+        },
+        {
+          "name": "Custom Theme Development",
+          "price": "€800",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Custom theme development"
+        },
+        {
+          "name": "Responsive Email Design",
+          "price": "€900",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Responsive email design"
         }
       ],
-      "ai_description_en": "This project offers personalized web development and design services, including custom web design solutions and maintenance and updates.",
+      "ai_description_en": "This project offers a range of web development and design services, including custom web design, responsive design, e-commerce integration, SEO optimization, and more.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -575480,17 +576794,13 @@
       "raw_html_hash": "14f20b4b6c7bc5d1",
       "raw_fetched_at": "2026-09-02T16:48:36.067889+00:00",
       "ai_validated": false,
-      "ai_intro_en": "",
-      "ai_highlights_en": [
-        "",
-        "",
-        ""
-      ],
+      "ai_intro_en": "This is a Kickstarter project. Please provide more content to extract the product summary.",
+      "ai_highlights_en": [],
       "ai_specs_en": [],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "",
+      "ai_risks_en": "No risk assessment provided.",
+      "ai_creator_bio_en": "No creator bio provided.",
       "ai_tiers": [],
-      "ai_description_en": "",
+      "ai_description_en": "No detailed project description provided.",
       "ai_source": "raw_html",
       "ended_at": "2026-10-02T09:03:49.688942Z"
     },
