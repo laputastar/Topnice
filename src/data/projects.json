@@ -100210,26 +100210,26 @@
         {
           "name": "Meteorite Faces Module",
           "price": 4656,
-          "price_usd": null,
-          "currency": "JPY",
-          "backers": null,
+          "price_usd": 29,
+          "currency": "EUR",
+          "backers": 9,
           "description": "More than a faceplate—it's a wearable titanium collectible."
         },
         {
           "name": "Super Early Bird • Micro-Blasted Finish",
-          "price": 30334,
+          "price": 30634,
           "price_usd": 190,
-          "currency": "JPY",
+          "currency": "EUR",
           "backers": 7,
-          "description": "Titaner TiVerse: The Waist System Reimagined. $191 ONLY (33% OFF) Save $96 off MSRP."
+          "description": "Titaner TiVerse: The Waist System Reimagined"
         },
         {
           "name": "Super Early Bird • Micro-Milled Finish",
           "price": 34003,
           "price_usd": 211,
-          "currency": "JPY",
-          "backers": 7,
-          "description": "Titaner TiVerse: The Waist System Reimagined."
+          "currency": "EUR",
+          "backers": 0,
+          "description": ""
         }
       ],
       "ai_currency": "EUR",
@@ -100779,15 +100779,19 @@
           ""
         ],
         [
+          "Currency",
+          "EUR"
+        ],
+        [
           "Backers",
           "136"
         ],
         [
           "Description",
-          "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you. Swap them in seconds and give your everyday carry a fresh identity."
+          "One titanium core. Infinite combinations."
         ]
       ],
-      "ai_risks_en": "Manufacturing Challenges and Fulfillment &amp; Shipping Risks.",
+      "ai_risks_en": "Manufacturing Challenges and Fulfillment & Shipping Risks",
       "ai_creator_bio_en": "A group of engineers and friends who love design and are obsessed with precision engineering.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
@@ -158500,9 +158504,9 @@
       },
       "ai_intro_en": "Intelligent LED Display gives you complete real-time visibility of your charging system. Instantly monitor power output, voltage, current, battery level, temperature, and charging status across every port, allowing smarter power management and a more professional desktop-level charging experience wherever you are. With a combined maximum output of 240W across all three ports, Voltbou Power delivers true desktop-level charging performance in a portable form. Power laptops, tablets, smartphones, gaming devices, and accessories simultaneously without sacrificing charging speed, making it the perfect all-in-one power solution for work, travel, and everyday carry.",
       "ai_highlights_en": [
-        "Intelligent LED Display for real-time monitoring of charging system",
-        "240W combined output for desktop-level charging performance",
-        "Portable and compact design for everyday carry"
+        "Instantly monitor power output, voltage, current, battery level, temperature, and charging status across every port",
+        "Combined maximum output of 240W across all three ports for true desktop-level charging performance",
+        "Power laptops, tablets, smartphones, gaming devices, and accessories simultaneously without sacrificing charging speed"
       ],
       "ai_specs_en": [
         [
@@ -158510,48 +158514,12 @@
           "240W"
         ],
         [
-          "Device Compatibility",
-          "Wide range of modern devices"
-        ],
-        [
-          "Battery Pack",
-          "Advanced 4S2P battery architecture using 8 high-efficiency 18650 cells"
-        ],
-        [
-          "Material",
-          "Compact and portable form factor"
-        ],
-        [
-          "Dimensions",
+          "Compact Form Factor",
           "172mm × 59mm × 52mm"
         ],
         [
-          "Weight",
-          "Not specified"
-        ],
-        [
-          "Color",
-          "Not specified"
-        ],
-        [
-          "Certifications",
-          "Not specified"
-        ],
-        [
-          "Warranty",
-          "Not specified"
-        ],
-        [
-          "Return Policy",
-          "Not specified"
-        ],
-        [
-          "Price",
-          "$79"
-        ],
-        [
-          "Currency",
-          "USD"
+          "Wide Device Compatibility",
+          "including laptops, smartphones, tablets, cameras, drones, gaming handhelds, wireless accessories, and more"
         ]
       ],
       "ai_risks_en": "Hardware development always comes with challenges including manufacturing refinement, component sourcing, and production scheduling.",
@@ -158584,7 +158552,7 @@
         {
           "name": "Early Bird-Two Pack",
           "price": 1689,
-          "price_usd": 165,
+          "price_usd": 216,
           "currency": "HKD",
           "backers": 0,
           "description": "Grab the Two Pack Visual 240W Voltbou Power Station at Only USD $165"
@@ -174443,7 +174411,101 @@
       },
       "raw_html_hash": "29647476c217b973",
       "raw_fetched_at": "2026-10-22T17:38:38.825770+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Help us bring SmallTV-Max—and the foundations for more personal desktop displays—to life. Back SmallTV-Max on Kickstarter. Let your screen show what you imagine Introducing SmallTV-Max We believe the things on your desk should reflect you. Yet most desktop displays come with fixed pages: they show the time and weather, but leave little room for your own ideas. So we asked ourselves: what if a screen could show what matters to you—and grow with what you imagine next? SmallTV-Max is our answer: a little desktop screen you can make your own.",
+      "ai_highlights_en": [
+        "A clock that fits your space. Information you care about. A page shaped around an idea of your own.",
+        "Follow the markets from your desk Different screen themes are available for different viewing needs.",
+        "Built for focus Count up to track how long a task, meeting or activity has been running."
+      ],
+      "ai_specs_en": [
+        [
+          "Resolution",
+          "1080p"
+        ],
+        [
+          "Display",
+          "Full HD"
+        ],
+        [
+          "Processor",
+          "ESP32-S3"
+        ],
+        [
+          "Memory",
+          "4GB"
+        ],
+        [
+          "Storage",
+          "8GB"
+        ],
+        [
+          "Operating System",
+          "GeekMagic OS"
+        ],
+        [
+          "Power",
+          "USB-C"
+        ],
+        [
+          "Dimensions",
+          "150x100x20mm"
+        ],
+        [
+          "Weight",
+          "150g"
+        ],
+        [
+          "Color",
+          "White"
+        ],
+        [
+          "Material",
+          "Aluminum"
+        ],
+        [
+          "Operating Temperature",
+          "0-40°C"
+        ]
+      ],
+      "ai_risks_en": "SmallTV-Max combines embedded hardware, connected data services and multiple software interfaces. Our main development priorities include maintaining stable Wi-Fi connectivity, optimizing data presentation and ensuring smooth switching between different display functions.",
+      "ai_creator_bio_en": "We are a creative digital hardware brand founded by software and hardware engineers together with industrial designers.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 49,
+          "price_usd": 49,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Exclusive Super Early Bird price"
+        },
+        {
+          "name": "Early Bird",
+          "price": 59,
+          "price_usd": 59,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Kickstarter Early Bird price"
+        },
+        {
+          "name": "Duo Pack",
+          "price": 89,
+          "price_usd": 89,
+          "currency": "USD",
+          "backers": 10,
+          "description": "Two SmallTV-Max units for one special price"
+        },
+        {
+          "name": "Trio Pack",
+          "price": 129,
+          "price_usd": 129,
+          "currency": "USD",
+          "backers": 3,
+          "description": "Three SmallTV-Max units at our best multi-pack value"
+        }
+      ],
+      "ai_description_en": "We plan to release a basic framework for building SmallTV-Max interfaces, including The goal is to help developers begin with a useful foundation and spend more time shaping their own ideas. This is a developer toolkit. It is not a promise that every application can be built without code, or that every outside service can be connected automatically.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-851909395",
@@ -217222,7 +217284,81 @@
       },
       "raw_html_hash": "7542465c55fedaf1",
       "raw_fetched_at": "2026-10-20T17:20:29.536524+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "PolarPlot is a 3D printable SCARA plotter built around a 5-link parallel mechanism, an Arduino-based control system, and custom software developed specifically for the project. It can work in 2 different modes: laser engraver or pen plotter. Designed for makers, artists, students, and DIY enthusiasts, PolarPlot combines an unconventional mechanical design with an accessible software experience.",
+      "ai_highlights_en": [
+        "3D printable mechanics for a unique mechanical design",
+        "Arduino-based control system for easy operation",
+        "Custom-developed software for straightforward use"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Printing Resolution",
+          "spec_value": "300 DPI"
+        },
+        {
+          "spec_name": "Laser Power",
+          "spec_value": "250 mW"
+        },
+        {
+          "spec_name": "Operating Speed",
+          "spec_value": "very slow"
+        },
+        {
+          "spec_name": "Material Compatibility",
+          "spec_value": "PLA, recycled PLA, bio-based or eco-enhanced filaments"
+        },
+        {
+          "spec_name": "Assembly Required",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Electronics Required",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Software Included",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Firmware Included",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Estimated Delivery",
+          "spec_value": "Nov 2026"
+        },
+        {
+          "spec_name": "Pledge Amount",
+          "spec_value": "€25"
+        },
+        {
+          "spec_name": "Commercial License",
+          "spec_value": "Yes"
+        }
+      ],
+      "ai_risks_en": "Risks and challenges include 3D printing and assembly, mechanical calibration, electronics and components, software and firmware, and laser operation.",
+      "ai_creator_bio_en": "Simone 18, an engineer with a passion for cycling and tabletop games, created PolarPlot.",
+      "ai_tiers": [
+        {
+          "name": "POLARPLOT FULL DIGITAL SET",
+          "price": 25,
+          "price_usd": 29,
+          "currency": "EUR",
+          "backers": 17,
+          "description": "Everything you need to build your own PolarPlot! Get the 3D printable STL files, assembly instructions, component list, and custom software"
+        },
+        {
+          "name": "POLARPLOT FULL DIGITAL SET + COMMERCIAL",
+          "price": 60,
+          "price_usd": 68,
+          "currency": "EUR",
+          "backers": 5,
+          "description": "Bring PolarPlot into your business, workshop, or creative projects! Includes the complete digital package to build your own PolarPlot, with the additional right to use the design commercially under the terms of the included license"
+        }
+      ],
+      "ai_description_en": "PolarPlot is a 3D printable SCARA plotter built around a 5-link parallel mechanism, an Arduino-based control system, and custom software developed specifically for the project. It can work in 2 different modes: laser engraver or pen plotter. Designed for makers, artists, students, and DIY enthusiasts, PolarPlot combines an unconventional mechanical design with an accessible software experience.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-131024936",
@@ -236904,10 +237040,10 @@
       "ai_intro_en": "Project description here.",
       "ai_highlights_en": [],
       "ai_specs_en": [],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "",
+      "ai_risks_en": "Risk assessment here.",
+      "ai_creator_bio_en": "Creator/company description here.",
       "ai_tiers": [],
-      "ai_description_en": "",
+      "ai_description_en": "Detailed project description here.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-10-22T09:29:05.493415Z"
@@ -270581,139 +270717,63 @@
       },
       "raw_html_hash": "8f7b5cf904f99603",
       "raw_fetched_at": "2026-10-21T17:39:05.195243+00:00",
-      "ai_intro_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made of high-quality materials and will feature intricate details. They will be perfect for fans of video games who want to showcase their love for their favorite games.",
+      "ai_intro_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made of high-quality materials and will feature intricate details. The project aims to bring a new level of excitement to the world of gaming.",
       "ai_highlights_en": [
-        "Unique collectible figurines",
-        "High-quality materials",
-        "Intricate details"
+        "Unique collectible figurines based on popular video games",
+        "High-quality materials used for a premium feel",
+        "Intricate details to bring the characters to life"
       ],
       "ai_specs_en": [
-        [
-          "Material",
-          "High-quality materials"
-        ],
-        [
-          "Size",
-          "Approx. 10cm"
-        ],
-        [
-          "Price",
-          "$25"
-        ],
-        [
-          "Price",
-          "$50"
-        ],
-        [
-          "Price",
-          "$100"
-        ],
-        [
-          "Price",
-          "$200"
-        ],
-        [
-          "Price",
-          "$500"
-        ],
-        [
-          "Price",
-          "$1000"
-        ],
-        [
-          "Price",
-          "$5000"
-        ],
-        [
-          "Price",
-          "$10000"
-        ],
-        [
-          "Price",
-          "$50000"
-        ],
-        [
-          "Price",
-          "$100000"
-        ]
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality PVC"
+        },
+        {
+          "spec_name": "Size",
+          "spec_value": "6 inches"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$25"
+        },
+        {
+          "spec_name": "Shipping",
+          "spec_value": "Free worldwide shipping"
+        },
+        {
+          "spec_name": "Estimated Delivery",
+          "spec_value": "Estimated to be delivered in 2-3 months"
+        }
       ],
-      "ai_risks_en": "There is a risk that the project may not be fully funded, which could result in the project not being completed.",
-      "ai_creator_bio_en": "The creator is a well-known artist who has worked on several projects in the past.",
+      "ai_risks_en": "There is a risk that the project may not reach its funding goal, which could result in the project not being completed.",
+      "ai_creator_bio_en": "The creator is a passionate gamer and artist who wants to bring a new level of excitement to the world of gaming.",
       "ai_tiers": [
         {
-          "name": "Early Bird Special",
+          "name": "Early Bird",
           "price": "$25",
-          "price_usd": "$25",
-          "currency": "USD",
+          "price_usd": null,
+          "currency": null,
           "backers": null,
-          "description": "Get one of the first 100 figurines"
+          "description": "Get your figurine before anyone else!"
         },
         {
           "name": "Standard",
-          "price": "$50",
-          "price_usd": "$50",
+          "price": "$30",
+          "price_usd": "$30",
           "currency": "USD",
           "backers": null,
-          "description": "Get one of the first 500 figurines"
+          "description": "Get your figurine with free worldwide shipping"
         },
         {
           "name": "Deluxe",
-          "price": "$100",
-          "price_usd": "$100",
+          "price": "$40",
+          "price_usd": "$40",
           "currency": "USD",
           "backers": null,
-          "description": "Get one of the first 1000 figurines"
-        },
-        {
-          "name": "Premium",
-          "price": "$200",
-          "price_usd": "$200",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get one of the first 5000 figurines"
-        },
-        {
-          "name": "Ultimate",
-          "price": "$500",
-          "price_usd": "$500",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get one of the first 10000 figurines"
-        },
-        {
-          "name": "Masterpiece",
-          "price": "$1000",
-          "price_usd": "$1000",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get one of the first 5000 figurines"
-        },
-        {
-          "name": "Limited Edition",
-          "price": "$5000",
-          "price_usd": "$5000",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get one of the first 100 figurines"
-        },
-        {
-          "name": "Exclusive",
-          "price": "$10000",
-          "price_usd": "$10000",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get one of the first 10 figurines"
-        },
-        {
-          "name": "VIP",
-          "price": "$50000",
-          "price_usd": "$50000",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get one of the first 5 figurines"
+          "description": "Get your figurine with a signed certificate of authenticity"
         }
       ],
-      "ai_description_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made of high-quality materials and will feature intricate details. They will be perfect for fans of video games who want to showcase their love for their favorite games.",
+      "ai_description_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made of high-quality materials and will feature intricate details. The project aims to bring a new level of excitement to the world of gaming.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -280595,7 +280655,78 @@
         "heat": 42.0
       },
       "raw_html_hash": "dda088e06dcc506c",
-      "raw_fetched_at": "2026-10-23T04:47:15.280515+00:00"
+      "raw_fetched_at": "2026-10-23T04:47:15.280515+00:00",
+      "ai_intro_en": "Meet the Convertible Fruit Basket by Konfal, designed to hold your fruit and help keep flies away. Flip it over, and it becomes a food cover for bread, pastries, cheese, and more. Made from durable steel and natural wood, it’s built for everyday use and beautiful enough to leave out.",
+      "ai_highlights_en": [
+        "A beautifully designed fruit basket that converts into a food cover, protecting food from flies when needed.",
+        "Made from durable steel and natural wood, built for everyday use and beautiful enough to leave out.",
+        "Combines two functions in one object: a fruit basket and a food cover, with a simple construction and timeless design."
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Powder-coated steel and natural wood"
+        ],
+        [
+          "Color",
+          "Warmgrey and black"
+        ],
+        [
+          "Size",
+          "Approximately 29 cm (11.4 inches) in diameter"
+        ],
+        [
+          "Price",
+          "€39 (Early Bird), €42 (Early Bird - Duo), €45 (Kickstarter Special), €74 (Early Bird - Duo), €84 (Kickstarter Special)"
+        ]
+      ],
+      "ai_risks_en": "Unexpected delays can occur due to material availability, quality-control issues, freight capacity, customs, or other factors outside our direct control.",
+      "ai_creator_bio_en": "We’re a Berlin-based design studio creating thoughtful products for everyday life.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 39,
+          "price_usd": 44,
+          "currency": "€",
+          "backers": 0,
+          "description": "Fruit Basket €39"
+        },
+        {
+          "name": "Early Bird",
+          "price": 42,
+          "price_usd": 48,
+          "currency": "€",
+          "backers": 0,
+          "description": "Fruit Basket €42"
+        },
+        {
+          "name": "Kickstarter Special",
+          "price": 45,
+          "price_usd": 51,
+          "currency": "€",
+          "backers": 0,
+          "description": "Fruit Basket €45"
+        },
+        {
+          "name": "Early Bird - Duo",
+          "price": 74,
+          "price_usd": 83,
+          "currency": "€",
+          "backers": 22,
+          "description": "Fruit Basket - Duo €74"
+        },
+        {
+          "name": "Kickstarter Special - Duo",
+          "price": 84,
+          "price_usd": 95,
+          "currency": "€",
+          "backers": 2,
+          "description": "Fruit Basket - Duo €84"
+        }
+      ],
+      "ai_description_en": "Our solution is more than a fruit basket. It’s a way to enjoy your favorite fruits and snacks while keeping them fresh and protected from flies. Our design combines functionality and beauty, making it a great addition to your home. We’re committed to sustainability and have designed the fruit basket to be durable, reusable, and recyclable.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1560427550",
@@ -333136,90 +333267,106 @@
       },
       "raw_html_hash": "bd03fc9c11a227c2",
       "raw_fetched_at": "2026-08-04T14:51:09.625335+00:00",
-      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, providing personalized insights to help you make meaningful adjustments and improve your sleep quality. With over 2,000 nights of clinical validation, Sleepal tracks respiratory rate with an RMSE below 2 breaths per minute when benchmarked against medical-grade devices.",
+      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, helping you reduce snoring and improve sleep quality. With 2,000 nights of clinical validation, Sleepal tracks respiratory rate and combines it with other signals to build a complete picture of your sleep. Our AI model is developed through clinical research partnerships and is protected by informed consent and strict medical protocols.",
       "ai_highlights_en": [
-        "Help reduce snoring with Sleepal's AI-powered snoring analysis",
-        "Get personalized sleep insights and recommendations to improve your sleep quality",
+        "Help reduce snoring with Sleepal's advanced mmWave radar technology",
+        "Get personalized insights and actionable recommendations to improve sleep quality",
         "Smart home integration with Matter protocol for seamless control of lighting and temperature"
       ],
       "ai_specs_en": [
         {
-          "spec_name": "Respiratory Rate",
-          "spec_value": "RMSE below 2 breaths per minute"
+          "spec_name": "mmWave radar technology",
+          "spec_value": "tracks respiratory rate with an RMSE below 2 breaths per minute"
         },
         {
-          "spec_name": "Snoring Analysis",
-          "spec_value": "AI-powered snoring analysis"
+          "spec_name": "sleep tracking accuracy",
+          "spec_value": "built on top of PSG (gold standard for sleep tracking)"
         },
         {
-          "spec_name": "Smart Home Integration",
+          "spec_name": "smart home integration",
           "spec_value": "Matter protocol for seamless control of lighting and temperature"
         },
         {
-          "spec_name": "Sleep Quality",
-          "spec_value": "Personalized insights and recommendations"
+          "spec_name": "AI model development",
+          "spec_value": "developed through clinical research partnerships"
         },
         {
-          "spec_name": "Wake-up Timing",
-          "spec_value": "Optimized wake-up timing"
+          "spec_name": "data usage rights",
+          "spec_value": "ensures compliance with applicable laws and regulations"
+        },
+        {
+          "spec_name": "AI Agent as Sleep Coach",
+          "spec_value": "provides tailored sleep guidance and interactive Q&A"
+        },
+        {
+          "spec_name": "long-lasting design",
+          "spec_value": "durable materials and reliable hardware engineering"
+        },
+        {
+          "spec_name": "reusability and recyclability",
+          "spec_value": "minimizes waste and uses recyclable packaging materials"
+        },
+        {
+          "spec_name": "sustainable materials",
+          "spec_value": "reduces unnecessary shipping waste"
         }
       ],
-      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges we need to acknowledge. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&amp;D, industrial design, mass production, and after-sales service across the smart home sector.",
-      "ai_creator_bio_en": "Sleepal is a product of Sleepal, a company dedicated to improving sleep quality through innovative technology.",
+      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&amp;D, industrial design, mass production, and after-sales service across the smart home sector.",
+      "ai_creator_bio_en": "Sleepal is a Hong Kong-based company founded by a team of experts in R&amp;D, industrial design, mass production, and after-sales service across the smart home sector.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": 199,
-          "price_usd": 25,
+          "price": 1998,
+          "price_usd": 260,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal AI Lamp at a special introductory price"
+          "description": "Get Sleepal AI+ with a 1-year subscription"
         },
         {
           "name": "Standard",
-          "price": 299,
-          "price_usd": 37,
+          "price": 2998,
+          "price_usd": 390,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal AI Lamp with standard features"
+          "description": "Get Sleepal AI+ with a 1-year subscription"
         },
         {
           "name": "Premium",
-          "price": 399,
-          "price_usd": 50,
+          "price": 3998,
+          "price_usd": 520,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal AI Lamp with premium features"
+          "description": "Get Sleepal AI+ with a 1-year subscription"
         },
         {
           "name": "VIP",
-          "price": 499,
-          "price_usd": 62,
+          "price": 4998,
+          "price_usd": 660,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal AI Lamp with VIP features"
+          "description": "Get Sleepal AI+ with a 1-year subscription"
         },
         {
           "name": "Family",
-          "price": 599,
-          "price_usd": 75,
+          "price": 6998,
+          "price_usd": 920,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal AI Lamp for the whole family"
+          "description": "Get Sleepal AI+ with a 1-year subscription"
         },
         {
-          "name": "Enterprise",
-          "price": 999,
-          "price_usd": 125,
+          "name": "Bundle",
+          "price": 9998,
+          "price_usd": 1300,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal AI Lamp for business use"
+          "description": "Get Sleepal AI+ with a 1-year subscription"
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.983779Z",
-      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks respiratory rate, snoring, sleep position, and bedroom environment to provide personalized insights and recommendations to improve sleep quality. With over 2,000 nights of clinical validation, Sleepal is a reliable and accurate sleep tracker that can help you make meaningful adjustments and wake up feeling refreshed and rejuvenated."
+      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks respiratory rate and combines it with other signals to build a complete picture of your sleep. Our AI model is developed through clinical research partnerships and is protected by informed consent and strict medical protocols. With smart home integration and Matter protocol, Sleepal adapts your room's lighting and temperature to create the perfect sleep environment. Our AI Agent as Sleep Coach provides tailored sleep guidance and interactive Q&A, helping you make meaningful adjustments to improve sleep quality."
     },
     {
       "id": "ks-2132610006",
@@ -337135,17 +337282,99 @@
       },
       "raw_html_hash": "ffad6fb0290d3ad3",
       "raw_fetched_at": "2026-09-08T04:23:16.486317+00:00",
-      "ai_intro_en": "Mixora is a hands‑free dual‑bottle paint shaker that mixes two bottles simultaneously, letting artists keep creating while it works. It features adjustable straps for various bottle sizes, automatic reversing motion to redistribute settled pigment, and a portable design for easy transport. Mixora aims to save time and improve paint consistency for miniature painters, hobbyists, and crafters.",
+      "ai_intro_en": "Tired of shaking paint bottles by hand, waiting for pigments to blend, or constantly adjusting a shaker that won’t stay in place? Mixora was made for paint mixing easier, steadier, and more efficient—so you can spend less time shaking and more time creating.",
       "ai_highlights_en": [
-        "Hands‑free dual‑bottle mixing – mix two bottles at once while you keep painting.",
-        "Adjustable straps accommodate miniature droppers to larger craft bottles.",
-        "Automatic reversing motion prevents pigment settling and ensures consistent mix."
+        "Hands-free dual-bottle paint shaker for uninterrupted creativity",
+        "Mixes two bottles at once, while you keep painting, detailing, or preparing your next step",
+        "Adjustable straps for various bottle sizes, no extra holders or dedicated setup required"
       ],
-      "ai_specs_en": [],
-      "ai_risks_en": "Potential risks include minor production delays, component shortages, packaging adjustments, or shipping disruptions due to customs and logistics. The team is working with experienced partners, testing each production stage, and adding extra time to the delivery schedule to mitigate these issues.",
-      "ai_creator_bio_en": "",
-      "ai_tiers": [],
-      "ai_description_en": "Mixora solves the tedious task of shaking paint bottles by offering a hands‑free dual‑bottle shaker that mixes two containers at once. Adjustable straps let it securely hold everything from tiny paint droppers to larger craft bottles, while an automatic reversing motion tumbles the paint in both directions to prevent pigment settling and ensure an even mix. Its portable, easy‑to‑assemble design lets creators bring Mixora to workshops, paint nights, or a friend’s studio, reducing setup time and keeping the focus on creation.",
+      "ai_specs_en": [
+        {
+          "spec_name": "Automatic Reversing Motion",
+          "spec_value": "Helps loosen settled pigment and bring the paint back toward a more even consistency"
+        },
+        {
+          "spec_name": "Adjustable Straps",
+          "spec_value": "Works with various bottle sizes, no extra holders or dedicated setup required"
+        },
+        {
+          "spec_name": "Compact Design",
+          "spec_value": "Easy to take apart, pack, and bring with you"
+        },
+        {
+          "spec_name": "Durable Construction",
+          "spec_value": "Built to withstand regular use and cleaning"
+        },
+        {
+          "spec_name": "Easy Cleaning",
+          "spec_value": "Simple and effortless cleaning process"
+        },
+        {
+          "spec_name": "High-Quality Materials",
+          "spec_value": "Durable and long-lasting materials used in construction"
+        },
+        {
+          "spec_name": "Mixes Two Bottles at Once",
+          "spec_value": "Hands-free, allowing you to keep painting, detailing, or preparing your next step"
+        },
+        {
+          "spec_name": "No More Hand Shaking",
+          "spec_value": "Effortless mixing, no more hand shaking required"
+        },
+        {
+          "spec_name": "Perfect for Miniature Painters",
+          "spec_value": "Designed around the way miniature painters actually work"
+        },
+        {
+          "spec_name": "Quick and Easy Setup",
+          "spec_value": "Simple and effortless setup process"
+        },
+        {
+          "spec_name": "Smooth Consistency",
+          "spec_value": "Helps bring paint back together with automatic reversing motion"
+        },
+        {
+          "spec_name": "Versatile",
+          "spec_value": "Works with various paint types, including acrylics, nail polish, and craft colors"
+        }
+      ],
+      "ai_risks_en": "Possible risks include minor production delays, component shortages, packaging adjustments, or shipping disruptions caused by customs and local logistics.",
+      "ai_creator_bio_en": "Creator of Mixora, a hands-free dual-bottle paint shaker designed for uninterrupted creativity.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 29,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get Mixora before anyone else and receive a free carrying case"
+        },
+        {
+          "name": "Standard",
+          "price": 39,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get Mixora and a free carrying case"
+        },
+        {
+          "name": "Premium",
+          "price": 49,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get Mixora, a free carrying case, and a lifetime warranty"
+        },
+        {
+          "name": "Ultimate",
+          "price": 69,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get Mixora, a free carrying case, a lifetime warranty, and a personalized thank-you note"
+        }
+      ],
+      "ai_description_en": "Mixora is a hands-free dual-bottle paint shaker designed for uninterrupted creativity. It mixes two bottles at once, while you keep painting, detailing, or preparing your next step. Mixora is easy to take apart, pack, and bring with you, making it perfect for miniature painters and other creative projects.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-10-22T09:29:05.493405Z"
@@ -348319,7 +348548,105 @@
       },
       "raw_html_hash": "99bda5f370864bb8",
       "raw_fetched_at": "2026-10-21T17:39:24.869135+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Welcome to Western Worms! A fully custom playing card deck. I'm hoping to cover the majority of production costs and get a sense of how popular worm cards will actually be.",
+      "ai_highlights_en": [
+        "Fully illustrated deck combining the Wild West and worms!",
+        "Most cards are fully reversible, so there's no 'right way up'.",
+        "No AI was used in the production of this project, or any other project of mine, AND NEVER WILL."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Printing Quality",
+          "spec_value": "Prioritizing quality over minor price differences"
+        },
+        {
+          "spec_name": "Delivery Date",
+          "spec_value": "January 2027"
+        },
+        {
+          "spec_name": "Shipping",
+          "spec_value": "Avoiding shipping issues by holding off until January"
+        },
+        {
+          "spec_name": "Sample Printing",
+          "spec_value": "Sample card stock from each printing company"
+        },
+        {
+          "spec_name": "Pricing",
+          "spec_value": "£119"
+        },
+        {
+          "spec_name": "Currency",
+          "spec_value": "GBP"
+        },
+        {
+          "spec_name": "Taxes",
+          "spec_value": "18%"
+        },
+        {
+          "spec_name": "Fulfillment",
+          "spec_value": "4%"
+        },
+        {
+          "spec_name": "Multiple",
+          "spec_value": "< 1%"
+        }
+      ],
+      "ai_risks_en": "Shipping issues can be avoided by holding off until January.",
+      "ai_creator_bio_en": "IllustrationManchester, UK-based artist creating custom playing card decks.",
+      "ai_tiers": [
+        {
+          "name": "Backer",
+          "price": 0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Backers 0 Ships To Only certain countries Estimated Delivery Jan 2027 Items IncludedPlus Optional Addons Plus More Details"
+        },
+        {
+          "name": "Backer",
+          "price": 0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Backers 0 Ships To Only certain countries Estimated Delivery Jan 2027 Items IncludedPlus Optional Addons Plus More Details"
+        },
+        {
+          "name": "Backer",
+          "price": 0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Backers 0 Ships To Only certain countries Estimated Delivery Jan 2027 Items IncludedPlus Optional Addons Plus More Details"
+        },
+        {
+          "name": "Printed Bundle",
+          "price": 0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Printed Bundle: Postcard Set, Bookmark, Sticker Sheet"
+        },
+        {
+          "name": "Hand-Printed Bundle",
+          "price": 0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Hand-printed Bundle: T-Shirt, Worm Pins x2, Fabric Patch"
+        },
+        {
+          "name": "Mega Bundle",
+          "price": 0,
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Mega Bundle includes both!"
+        }
+      ],
+      "ai_description_en": "Welcome to Western Worms! A fully custom playing card deck. I'm hoping to cover the majority of production costs and get a sense of how popular worm cards will actually be. Most cards are fully reversible, so there's no 'right way up'. No AI was used in the production of this project, or any other project of mine, AND NEVER WILL. Shipping issues can be avoided by holding off until January. Purchasing a sample pack will eliminate potential printing errors. Please note, products included in the bundle packages are not Kickstarter exclusive. Any remaining card decks will also be sold on my website (provided we make enough to cover expenses).",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1744252809",
@@ -463849,64 +464176,56 @@
       "raw_html_hash": "ea80696888f0226a",
       "raw_fetched_at": "2026-07-24T03:14:25.298722+00:00",
       "ai_validated": false,
-      "ai_intro_en": "This is a Kickstarter project. It is a product that will be created and sold to backers. The project aims to raise funds to produce the product.",
+      "ai_intro_en": "This is a Kickstarter project. It is a project to create a product. The product will be created by the creator. The project will be funded by backers.",
       "ai_highlights_en": [
-        "High-quality materials used in production",
-        "Unique design that sets it apart from others",
-        "Supports a great cause"
+        "The product will be created with high-quality materials.",
+        "The product will be designed to be functional and easy to use.",
+        "The product will be created with a focus on sustainability."
       ],
       "ai_specs_en": [
-        [
-          "Material",
-          "High-quality materials"
-        ],
-        [
-          "Design",
-          "Unique design"
-        ],
-        [
-          "Cause",
-          "Supports a great cause"
-        ],
-        [
-          "Price",
-          "$50"
-        ],
-        [
-          "Shipping",
-          "Free shipping"
-        ]
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality materials"
+        },
+        {
+          "spec_name": "Functionality",
+          "spec_value": "Functional and easy to use"
+        },
+        {
+          "spec_name": "Sustainability",
+          "spec_value": "Created with a focus on sustainability"
+        }
       ],
-      "ai_risks_en": "There are some risks associated with this project, such as delays in production and changes in market demand.",
-      "ai_creator_bio_en": "The creator is a passionate individual who wants to bring this product to life.",
+      "ai_risks_en": "There are risks associated with this project, including the possibility of delays or cost overruns.",
+      "ai_creator_bio_en": "The creator is a skilled designer and engineer with experience in creating innovative products.",
       "ai_tiers": [
         {
-          "name": "Early Bird",
+          "name": "Tier 1: Early Bird",
           "price": 100,
           "price_usd": 100,
           "currency": "USD",
           "backers": 0,
-          "description": "Get the product early and save 10%"
+          "description": "Get a limited edition product with exclusive access to updates."
         },
         {
-          "name": "Standard",
-          "price": 150,
-          "price_usd": 150,
+          "name": "Tier 2: Standard",
+          "price": 200,
+          "price_usd": 200,
           "currency": "USD",
           "backers": 0,
-          "description": "Get the standard product"
+          "description": "Get a standard product with regular updates."
         },
         {
-          "name": "Deluxe",
-          "price": 250,
-          "price_usd": 250,
+          "name": "Tier 3: Premium",
+          "price": 500,
+          "price_usd": 500,
           "currency": "USD",
           "backers": 0,
-          "description": "Get the deluxe product with extra features"
+          "description": "Get a premium product with exclusive access to updates and a personalized thank-you message."
         }
       ],
       "ai_source": "raw_html",
-      "ai_description_en": "This project aims to create a unique product that supports a great cause. The product will be made with high-quality materials and have a unique design. The creator is passionate about bringing this product to life and is committed to delivering it to backers on time."
+      "ai_description_en": "This project aims to create a innovative product that combines functionality and sustainability. The product will be designed and engineered by a skilled designer and engineer with experience in creating innovative products."
     },
     {
       "id": "ks-832675164",
@@ -501587,7 +501906,7 @@
       },
       "raw_html_hash": "fc26a952c132e102",
       "raw_fetched_at": "2026-10-04T17:26:53.292933+00:00",
-      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte's University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start.",
+      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte's University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter.",
       "ai_highlights_en": [
         "Specialty coffee meets creativity",
         "Meaningful conversation and mentorship",
@@ -501595,48 +501914,20 @@
       ],
       "ai_specs_en": [
         [
-          "Mobile and pop-up infrastructure",
-          null
-        ],
-        [
           "Furnishings and technology",
-          null
+          "included"
         ],
         [
           "Signage and brand materials",
-          null
+          "included"
         ],
         [
           "Opening coffee, tea, and operating inventory",
-          null
+          "included"
         ],
         [
-          "Reward production and fulfillment",
-          null
-        ],
-        [
-          "Other essential launch expenses",
-          null
-        ],
-        [
-          "Permitting",
-          null
-        ],
-        [
-          "Equipment procurement",
-          null
-        ],
-        [
-          "Vendor schedules",
-          null
-        ],
-        [
-          "Location planning",
-          null
-        ],
-        [
-          "Changing costs",
-          null
+          "Mobile and pop-up infrastructure",
+          "estimated $10,000"
         ]
       ],
       "ai_risks_en": "Opening a hospitality concept involves permitting, equipment procurement, vendor schedules, location planning, and changing costs. Reward production and event dates may also be affected by suppliers or the development timeline.",
@@ -501656,7 +501947,7 @@
           "price_usd": "100",
           "currency": "USD",
           "backers": null,
-          "description": "Get a free cup of coffee every month for a year."
+          "description": "Get a free coffee every month for a year."
         },
         {
           "name": "Tea Enthusiast",
@@ -501672,31 +501963,7 @@
           "price_usd": "500",
           "currency": "USD",
           "backers": null,
-          "description": "Get a free cup of coffee every month for a year, plus a Doxa District t-shirt."
-        },
-        {
-          "name": "Coffee and Tea Bundle",
-          "price": "200",
-          "price_usd": "200",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get a free cup of coffee every month for a year, plus a free tea every month for a year."
-        },
-        {
-          "name": "Doxa District Mug",
-          "price": "10",
-          "price_usd": "10",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get a Doxa District mug."
-        },
-        {
-          "name": "Doxa District T-Shirt",
-          "price": "20",
-          "price_usd": "20",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get a Doxa District t-shirt."
+          "description": "Get a free coffee every month for a year, plus a Doxa District t-shirt."
         }
       ],
       "ai_description_en": "Doxa District is being developed as an initiative of Give Hope Daily. Our long-term vision includes workforce-development opportunities for young adults and people seeking a new beginning. We want to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
@@ -515129,7 +515396,7 @@
         {
           "name": "Securidoor x1",
           "price": 59.0,
-          "price_usd": 59.0,
+          "price_usd": 65.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -515137,7 +515404,7 @@
         {
           "name": "Securidoor x2",
           "price": 110.0,
-          "price_usd": 110.0,
+          "price_usd": 120.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -515145,7 +515412,7 @@
         {
           "name": "Securidoor x3",
           "price": 151.0,
-          "price_usd": 151.0,
+          "price_usd": 170.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -515153,7 +515420,7 @@
         {
           "name": "Securidoor x4",
           "price": 198.0,
-          "price_usd": 198.0,
+          "price_usd": 220.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -515161,7 +515428,7 @@
         {
           "name": "Securidoor x5",
           "price": 297.0,
-          "price_usd": 297.0,
+          "price_usd": 330.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -515169,34 +515436,18 @@
         {
           "name": "Securidoor x6",
           "price": 110.0,
-          "price_usd": 110.0,
-          "currency": "EUR",
-          "backers": null,
-          "description": "AI-powered surveillance module"
-        },
-        {
-          "name": "Securidoor x7",
-          "price": 55.0,
-          "price_usd": 55.0,
-          "currency": "EUR",
-          "backers": null,
-          "description": "AI-powered surveillance module"
-        },
-        {
-          "name": "Securidoor x8",
-          "price": 75.5,
-          "price_usd": 75.5,
+          "price_usd": 120.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         }
       ],
       "ai_currency": "EUR",
-      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7. With each detected movement, the module automatically records a photo and a short video clip.",
+      "ai_intro_en": "Transform your door frame or window into a smart first line of defense with the world’s first AI-powered surveillance module for door and window. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7.",
       "ai_highlights_en": [
         "AI-powered surveillance module for door and window",
-        "24/7 monitoring with automatic photo and video recording",
-        "AlwaysSafe AI filters out unnecessary notifications, retaining only essential information"
+        "24/7 monitoring with AlwaysSafe Artificial Intelligence",
+        "Automatically records photos and short videos of detected movement"
       ],
       "ai_specs_en": [
         {
@@ -515224,7 +515475,7 @@
           "spec_value": "€29.50"
         },
         {
-          "spec_name": "Camera Housing",
+          "spec_name": "Camera Housing Material",
           "spec_value": "Durable plastic"
         },
         {
@@ -515236,12 +515487,12 @@
           "spec_value": "0% to 80%"
         }
       ],
-      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. As creators, we believe that complete transparency is the foundation of the trust you place in us.",
+      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. We've studied past crowdfunding campaigns and identified common pitfalls that tech projects often fall into.",
       "ai_creator_bio_en": "Securima doing business as securima.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. Whether it's an attempt to pick your lock, banging on the door, or acts of vandalism, the system immediately identifies the threat. In the event of a confirmed threat, you receive an instant alert on your mobile phone, along with video evidence, allowing you to react before the intrusion even occurs.",
+      "ai_description_en": "The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. Whether it's an attempt to pick your lock, banging on the door, or acts of vandalism, the system immediately identifies the threat.",
       "score_components": {
         "static": 21.5,
         "momentum": 0,
@@ -515401,7 +515652,86 @@
         "heat": 0.0
       },
       "raw_html_hash": "69dab2c2471ea50e",
-      "raw_fetched_at": "2026-10-23T04:47:43.248554+00:00"
+      "raw_fetched_at": "2026-10-23T04:47:43.248554+00:00",
+      "ai_intro_en": "As a high-performance man, you optimize nearly every part of your life. You grind at work, log workouts, refine sleep, and stick to a balanced diet. But there is one thing schedules cannot fix: persistent tension and heightened local sensitivity in the lower abdomen area that builds up over long hours of sitting and mental strain. This heightened local sensory tension can make it harder to stay calm and grounded in meaningful moments. Normal rest or stretching rarely eases this accumulated tension. You want to slow down, feel lighter, and be present. A simple break often cannot release built-up tension. That’s why we built AESISENSE. AESISENSE delivers soft, rhythmic low-intensity surface stimulation via hydrogel electrodes applied to the lower abdominal and groin skin. Its carefully tuned patterns create a calm, private sensory reset session. This wearable wellness device is made for adult men only. It’s a private 20-minute ritual, your dedicated time to experience: Gentle release from built-up local tension Calm bodily stillness and balanced sensory response A reset to help maintain steady composure Space to settle into the present True wellness isn’t always about pushing harder. Sometimes, it’s simply giving your body permission to unwind.",
+      "ai_highlights_en": [
+        "Gentle release from built-up local tension",
+        "Calm bodily stillness and balanced sensory response",
+        "A reset to help maintain steady composure"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Skin-friendly materials"
+        ],
+        [
+          "Electrode patches",
+          "Large-format flexible hydrogel"
+        ],
+        [
+          "Controller",
+          "Offline controls, no app download, no cloud sync"
+        ],
+        [
+          "Dimensions",
+          "Custom matte chassis, quietly premium silhouette"
+        ],
+        [
+          "Weight",
+          "Engineered for gentle, on-demand use"
+        ],
+        [
+          "Power",
+          "20-minute dedicated session, no complex menus"
+        ],
+        [
+          "Certifications",
+          "Electronics safety compliance, CE for Europe, FCC Part 15 (Class B)"
+        ],
+        [
+          "Price",
+          "$399"
+        ]
+      ],
+      "ai_risks_en": "Manufacturing & quality control, timeline, electronics safety compliance.",
+      "ai_creator_bio_en": "Former entrepreneur in human-machine interface hardware. Founder of an acquired sensory hardware startup. He later joined an Institute of Microsystem and Information Technology to translate human sensory research into consumer products.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 1599,
+          "price_usd": 204,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Everything you need to begin your intimate wellness routine: 1 × Main Unit + 5× Electrode Pads"
+        },
+        {
+          "name": "Early Bird",
+          "price": 1879,
+          "price_usd": 240,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Everything you need to begin your intimate wellness routine: 1 × Main Unit + 5× Electrode Pads"
+        },
+        {
+          "name": "Best Value",
+          "price": 1999,
+          "price_usd": 255,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "The Elite Wellness Suite — longer-lasting relaxation, whenever you need it: 1× Main Unit + (5+12) × Electrode pads (over 3 months' supply)"
+        },
+        {
+          "name": "Signature Tier",
+          "price": 3129,
+          "price_usd": 400,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "The price tier for backers who join after the early birds are gone. Same device, at almost the original price of a basic kit (1 × Main Unit + 5 × Electrode pads), but with extra 12 × Electrode pads (worth HK$ 699) included."
+        }
+      ],
+      "ai_description_en": "Low-intensity surface stimulation is a non-invasive, drug-free method. Results vary considerably from one person to another. Nothing on this page constitutes medical advice. If you have health concerns, please consult a qualified healthcare professional. Do not use if you have a pacemaker, implanted electronic medical device, cardiac condition, or existing skin irritation at the intended application site. For external skin contact only. Read manual before use.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1269293950",
@@ -527066,7 +527396,101 @@
       },
       "raw_html_hash": "933eebba0c935caa",
       "raw_fetched_at": "2026-10-22T17:38:56.976815+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Meet ORCA, a home Bluetooth speaker that brings fashion-inspired embossing, a truly seamless design, and 3D Spatial Audio to your space. With ORCA, you can experience sound that truly fills your space, and enjoy a sleek, modern aesthetic that makes a statement.",
+      "ai_highlights_en": [
+        "Experience 3D Spatial Audio with our dedicated upward-firing Sky Driver and custom DSP tuning.",
+        "Feel That Bass with our 4.5” woofer and 30W amplifier.",
+        "Connect. Multiply. Sync multiple ORCAs for simultaneous playback with Bluetooth Auracast."
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Durable outer fabric"
+        ],
+        [
+          "Dimensions",
+          "6.5 x 3.5 x 3.5 inches"
+        ],
+        [
+          "Weight",
+          "1.2 pounds"
+        ],
+        [
+          "Frequency Response",
+          "20Hz - 20kHz"
+        ],
+        [
+          "Power Output",
+          "60W"
+        ],
+        [
+          "Connectivity",
+          "Bluetooth 5.0, USB-C"
+        ],
+        [
+          "Battery Life",
+          "Up to 8 hours"
+        ],
+        [
+          "Warranty",
+          "1-year standard warranty"
+        ]
+      ],
+      "ai_risks_en": "We've taken our time bringing ORCA to life, refining every detail along the way. Variables can still come up in hardware mass production, especially with ORCA's novel design and assembly elements, but we're confident we can minimize these risks.",
+      "ai_creator_bio_en": "ORCA is a home Bluetooth speaker designed to elevate your creative space.",
+      "ai_tiers": [
+        {
+          "name": "ORCA - Whale White",
+          "price": 299,
+          "price_usd": 299,
+          "currency": "USD",
+          "backers": 0,
+          "description": "ORCA - Whale White"
+        },
+        {
+          "name": "ORCA - Whale Black",
+          "price": 299,
+          "price_usd": 299,
+          "currency": "USD",
+          "backers": 0,
+          "description": "ORCA - Whale Black"
+        },
+        {
+          "name": "ORCA - Pearl Ivory",
+          "price": 299,
+          "price_usd": 299,
+          "currency": "USD",
+          "backers": 0,
+          "description": "ORCA - Pearl Ivory"
+        },
+        {
+          "name": "ORCA - Dolphin Pink",
+          "price": 299,
+          "price_usd": 299,
+          "currency": "USD",
+          "backers": 0,
+          "description": "ORCA - Dolphin Pink"
+        },
+        {
+          "name": "ORCA x Guiyeon - Snow Blue",
+          "price": 339,
+          "price_usd": 339,
+          "currency": "USD",
+          "backers": 1,
+          "description": "ORCA x Guiyeon - Snow Blue"
+        },
+        {
+          "name": "Duo Bundle",
+          "price": 329,
+          "price_usd": 329,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Add a second ORCA in any color via \"Add-Ons\" on the next screen for an extra $30 OFF."
+        }
+      ],
+      "ai_description_en": "ORCA is a home Bluetooth speaker that brings fashion-inspired embossing, a truly seamless design, and 3D Spatial Audio to your space. With ORCA, you can experience sound that truly fills your space, and enjoy a sleek, modern aesthetic that makes a statement. ORCA is designed to elevate your creative space, and we're excited to bring it to life with your support.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-685861094",
@@ -528137,20 +528561,20 @@
       ],
       "ai_tiers": [
         {
-          "name": "Super Early Bird – Core Edition",
+          "name": "Super Early Bird — Core Edition",
           "price": 299,
           "price_usd": 299,
           "currency": "USD",
           "backers": 0,
-          "description": "Core Edition includes 1 Sound For unit with 3 built‑in instrument sounds; optional add‑ons: magnetic mic, phone holder, headphones, backpack, guitar strap, charging cable."
+          "description": "Get the Core Edition at our lowest launch price. Includes: 1 × Sound For, 3 Built-in Instrument Sounds"
         },
         {
-          "name": "Early Bird – Core Edition",
+          "name": "Early Bird — Core Edition",
           "price": 329,
           "price_usd": 329,
           "currency": "USD",
           "backers": 0,
-          "description": "Core Edition with 1 Sound For unit and 3 built‑in instrument sounds; same optional add‑ons as Super Early Bird."
+          "description": "Includes: 1 × Sound For, 3 Built-in Instrument Sounds"
         },
         {
           "name": "Super Early Bird — Infinity Edition",
@@ -528158,7 +528582,7 @@
           "price_usd": 339,
           "currency": "USD",
           "backers": 1,
-          "description": "Infinity Edition includes 1 Stringless Smart Guitar with 14 built‑in instrument sounds; optional add‑ons: magnetic mic, phone holder, headphones, backpack, guitar strap."
+          "description": "Unlock the complete musical experience with the Infinity Edition. Includes: 1 × Stringless Smart Guitar, 14 Built-in Instrument Sounds"
         },
         {
           "name": "Early Bird — Infinity Edit",
@@ -528166,15 +528590,15 @@
           "price_usd": 369,
           "currency": "USD",
           "backers": 0,
-          "description": "Infinity Edition with 1 Sound For unit (full 14 sounds); optional add‑ons: magnetic mic, phone holder, headphones, backpack, guitar strap."
+          "description": "Designed for music lovers, creators, performers, and anyone looking to explore more sounds. Includes: 1 × Sound for, 14 Built-in Instrument Sounds"
         },
         {
-          "name": "Couple Package – Core Edition",
+          "name": "Couple Package — Core Edition",
           "price": 609,
           "price_usd": 609,
           "currency": "USD",
           "backers": 0,
-          "description": "Two Core Edition guitars, each with 1 Sound For unit and 3 built‑in sounds; includes duplicate optional add‑ons for both instruments."
+          "description": "Double the music, double the fun. Includes: 2 × Sound For, 3 Built-in Instrument Sounds on each guitar"
         },
         {
           "name": "Couple Package — Infinity Edit",
@@ -528182,7 +528606,7 @@
           "price_usd": 689,
           "currency": "USD",
           "backers": 0,
-          "description": "Two Infinity Edition guitars, each with 1 Sound For unit and 14 built‑in sounds; includes duplicate optional add‑ons for both instruments."
+          "description": "The best value for sharing the complete musical experience. Includes: 2 × Sound for, 14 Built-in Instrument Sounds on each guitar"
         }
       ],
       "ai_currency": "USD",
@@ -528699,15 +529123,19 @@
         "trend": 0,
         "heat": 4.3
       },
-      "ai_intro_en": "Play Smarter is a stringless smart guitar that combines 14 instrument sounds, a built‑in phone stand, magnetic mic, and headphone jack for immersive practice. Its full‑size design mimics a real guitar, offering 30‑day battery life and five playing styles for versatile music creation anywhere.",
+      "ai_intro_en": "Play Smarter is a revolutionary new guitar that combines music, technology, and design to create a new way of playing. With its authentic design, immersive experience, and endless sounds, this guitar is perfect for beginners, casual players, and anyone who wants to make music. Explore more ways to create with 14 instruments in one switch, and unlock more ways to perform your favorite songs with 5 playing styles.",
       "ai_highlights_en": [
-        "14 built‑in instrument sounds switch instantly, from piano to guzheng.",
-        "Built‑in phone stand and magnetic mic enable instant lyrics, tutorials, and singing.",
-        "30‑day battery life with full‑size, real‑guitar feel and five playing styles."
+        "Authentic Design, Immersive Experience",
+        "30-Day Battery Life Built-in 4000mAh battery delivers ultra-long battery life, allowing up to 30 days of use on a single charge.",
+        "Play Anywhere, Anytime Take your music anywhere in real life — from campfires and home relaxation to small performances and content creation."
       ],
       "ai_specs_en": [
         [
-          "Number of Instruments",
+          "Battery Life",
+          "30 days"
+        ],
+        [
+          "Built-in Instrument Sounds",
           "14"
         ],
         [
@@ -528715,36 +529143,20 @@
           "5"
         ],
         [
-          "Battery Life",
-          "30 days"
+          "Volume Control",
+          "Top of the front panel"
         ],
         [
-          "Battery Capacity",
-          "4000 mAh"
-        ],
-        [
-          "Included Accessories",
-          "Headphones, Phone Stand, Magnetic Mic"
-        ],
-        [
-          "Body Design",
-          "Full‑size, real‑guitar inspired"
-        ],
-        [
-          "Front Panel Material",
-          "Woven acoustic fabric"
-        ],
-        [
-          "Connectivity",
-          "Headphone jack, magnetic mic attachment"
+          "Power and Control Functions",
+          "Single switch"
         ]
       ],
-      "ai_risks_en": "Hardware integration of sensors, audio systems, and manufacturing may face tuning and quality‑control challenges; global logistics and supply‑chain delays could affect timelines. The team commits to regular updates and buffer schedules to mitigate these risks.",
+      "ai_risks_en": "While we have strong experience in product development and manufacturing, hardware products—especially innovative ones—can present unexpected complexities. We are actively working with reliable partners and building buffer time into our schedule to minimize these risks.",
       "ai_creator_bio_en": "We are a team of musicians, engineers, and designers united by a shared vision: to make music more accessible, portable, and intuitive.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "Play Smarter reimagines the guitar as a stringless smart instrument that packs 14 built‑in sounds—from piano and drums to guzheng—into a full‑size body inspired by real guitars. A built‑in phone stand and magnetic mic let you place your phone for lyrics or tutorials and snap on a mic for instant singing, while a headphone jack offers private practice. With a 4000 mAh battery delivering up to 30 days of use, five playing styles, and a woven‑fabric front panel for clearer tone, it aims to make music portable, intuitive, and versatile for creators, travelers, and hobbyists.",
+      "ai_description_en": "Play Smarter is a revolutionary new guitar that combines music, technology, and design to create a new way of playing. With its authentic design, immersive experience, and endless sounds, this guitar is perfect for beginners, casual players, and anyone who wants to make music. Explore more ways to create with 14 instruments in one switch, and unlock more ways to perform your favorite songs with 5 playing styles.",
       "nameZh": "折叠智能吉他，内置乐队音效",
       "ai_intro_zh": "一款无弦折叠智能吉他，内置乐队音效，随时随地弹奏。",
       "ai_description_zh": "这款智能吉他通过触控感应面板代替琴弦，无需调音即可弹奏。内置多种乐器音色和伴奏风格。\n\n折叠设计便携收纳。蓝牙耳机静音练习不打扰他人。",
@@ -545959,7 +546371,7 @@
           "Progress Tracking"
         ]
       ],
-      "ai_risks_en": "Digital delivery may be subject to minor delays. Refunds and cancellation Backers can cancel their pledges at any time during the crowdfunding campaign, and funds will only be collected once the campaign successfully ends. After CF end refunds are not possible.",
+      "ai_risks_en": "Digital delivery may be subject to minor delays.",
       "ai_creator_bio_en": "ruiqi wang doing business as Retranslate the Bible.",
       "ai_tiers": [
         {
@@ -545968,18 +546380,18 @@
           "price_usd": "20.00",
           "currency": "USD",
           "backers": null,
-          "description": "Digital edition of the Bible in PDF and ePub formats"
+          "description": "Digital Edition (PDF &amp; ePub) $20.00"
         },
         {
           "name": "Pledge Any Amount",
           "price": null,
           "price_usd": null,
-          "currency": null,
+          "currency": "USD",
           "backers": null,
-          "description": "Support the project and show your support by pledging any amount you want (for no reward)."
+          "description": "Help the project reach its goal or tip the creator by pledging any amount you want (for no reward)."
         }
       ],
-      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation. While historical classic translations each have their own merits, they are often bound by specific denominational traditions, target language conventions, or the limitations of earlier source texts. Mastery of the three major biblical languages enables you to bypass the secondary filtration of modern intermediary languages like English, and confront directly the dynamic, imagery-rich Semitic mindset of Biblical Hebrew, as well as the logically rigorous, tense-precise phrasal structures of Koine Greek. Your re-translation aims to strip away millenniums-old exegetical blind spots, allowing the original texture and breath of the scriptures to become vividly manifest once again.",
+      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -581131,7 +581543,117 @@
       },
       "raw_html_hash": "6aaa4aa6a72cd1ed",
       "raw_fetched_at": "2026-10-20T17:20:56.018879+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "The watch Sig 38 is a compact octagonal analog-digital watch. An everyday quartz analog-digital movement, wrapped in a brushed stainless steel case that sits low and light on smaller wrists without disappearing on bigger ones.",
+      "ai_highlights_en": [
+        "Clean dial design with a hexagon logo at 12, a small sub-dial at 9, and an angled digital window at 4",
+        "Brushed stainless steel case and bezel, sapphire crystal, and water-resistant to 100m",
+        "Universal Magnetic Card Wallet included with FOUNDING 38, EARLY BIRD, WALLET BUNDLE, and COLLECTOR DUO tiers"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Movement",
+          "spec_value": "Quartz analog-digital"
+        },
+        {
+          "spec_name": "Case material",
+          "spec_value": "Brushed stainless steel"
+        },
+        {
+          "spec_name": "Case size",
+          "spec_value": "42.9 mm"
+        },
+        {
+          "spec_name": "Strap material",
+          "spec_value": "Soft rubber"
+        },
+        {
+          "spec_name": "Bracelet material",
+          "spec_value": "Brushed stainless steel"
+        },
+        {
+          "spec_name": "Backlight",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Water resistance",
+          "spec_value": "100m"
+        },
+        {
+          "spec_name": "Battery replacement",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Wallet material",
+          "spec_value": "Vegan leather"
+        },
+        {
+          "spec_name": "Wallet compatibility",
+          "spec_value": "MagSafe-compatible"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$289"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$289"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$309"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$339"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$359"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$659"
+        }
+      ],
+      "ai_risks_en": "Component supply and assembly capacity are the two real risks. We reduce these risks by ordering the first component batch before the campaign ends and final quantities the week the backer survey closes.",
+      "ai_creator_bio_en": "Run by Jaden, a small watch studio in Detroit, Michigan, building fully custom watches by hand since 2023.",
+      "ai_tiers": [
+        {
+          "name": "FOUNDING 38",
+          "price": "$289",
+          "price_usd": "$289",
+          "currency": "USD",
+          "backers": "9",
+          "description": "One Sig 38 in your choice of 8 available colorways and a modlab company watch box. Also includes one Universal Magnetic Card Wallet and one additional strap."
+        },
+        {
+          "name": "EARLY BIRD",
+          "price": "$309",
+          "price_usd": "$309",
+          "currency": "USD",
+          "backers": "0",
+          "description": "One Sig 38 in your choice of 8 available colorways and a modlab company watch box. Also includes one Universal Magnetic Card Wallet and one additional strap."
+        },
+        {
+          "name": "WALLET BUNDLE",
+          "price": "$359",
+          "price_usd": "$359",
+          "currency": "USD",
+          "backers": "0",
+          "description": "One Sig 38 in your choice of 8 available colorways, plus one Universal Magnetic Card Wallet. A modlab company watch box is included."
+        },
+        {
+          "name": "COLLECTOR DUO",
+          "price": "$659",
+          "price_usd": "$659",
+          "currency": "USD",
+          "backers": "0",
+          "description": "Two Sig 38 watches in any two of the 8 available colorways. Mix and match your preferred designs."
+        }
+      ],
+      "ai_description_en": "The watch Sig 38 is a compact octagonal analog-digital watch. An everyday quartz analog-digital movement, wrapped in a brushed stainless steel case that sits low and light on smaller wrists without disappearing on bigger ones. The dial is clean on purpose: a hexagon logo at 12, a small sub-dial at 9, and one angled digital window at 4 that shows the date or whatever function you are using.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1087750489",
@@ -581454,106 +581976,116 @@
       "ai_intro_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer.",
       "ai_highlights_en": [
         "Expert web development and design skills",
-        "Personalized web development services",
-        "Custom web design solutions"
+        "Personalized web design services",
+        "Custom web solutions for small businesses"
       ],
       "ai_specs_en": [
-        "Web Development",
-        "€500",
         "Custom Web Design",
-        "€1,000",
-        "Maintenance and Updates",
-        "€200/year",
-        "Responsive Design",
-        "€300",
-        "E-commerce Integration",
-        "€400",
-        "SEO Optimization",
         "€500",
-        "Content Management System",
-        "€600",
-        "Custom Theme Development",
-        "€800",
-        "Responsive Email Design",
-        "€900"
+        "Personalized Web Development",
+        "€1,000",
+        "E-commerce Website",
+        "€2,000",
+        "Web Maintenance and Updates",
+        "€500/year",
+        "Custom Web Application",
+        "€5,000",
+        "Web Security Audit",
+        "€1,000",
+        "Custom Web Hosting",
+        "€100/year",
+        "Web Backup and Recovery",
+        "€50/year",
+        "Custom Web Design for Social Media",
+        "€200",
+        "Custom Web Development for Blog",
+        "€300"
       ],
-      "ai_risks_en": "There are no significant risks associated with this project.",
+      "ai_risks_en": "There are no major risks associated with this project, as it is a small web development and design project.",
       "ai_creator_bio_en": "33 Jahre Webentwickler / Webdesigner",
       "ai_tiers": [
         {
-          "name": "Web Development",
+          "name": "Custom Web Design",
           "price": "€500",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Basic web development services"
+          "description": "Custom web design services"
         },
         {
-          "name": "Custom Web Design",
+          "name": "Personalized Web Development",
           "price": "€1,000",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Custom web design solutions"
+          "description": "Personalized web development services"
         },
         {
-          "name": "Maintenance and Updates",
-          "price": "€200/year",
+          "name": "E-commerce Website",
+          "price": "€2,000",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Ongoing maintenance and updates"
+          "description": "E-commerce website development"
         },
         {
-          "name": "Responsive Design",
+          "name": "Web Maintenance and Updates",
+          "price": "€500/year",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Web maintenance and updates"
+        },
+        {
+          "name": "Custom Web Application",
+          "price": "€5,000",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Custom web application development"
+        },
+        {
+          "name": "Web Security Audit",
+          "price": "€1,000",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Web security audit"
+        },
+        {
+          "name": "Custom Web Hosting",
+          "price": "€100/year",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Custom web hosting"
+        },
+        {
+          "name": "Web Backup and Recovery",
+          "price": "€50/year",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Web backup and recovery"
+        },
+        {
+          "name": "Custom Web Design for Social Media",
+          "price": "€200",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Custom web design for social media"
+        },
+        {
+          "name": "Custom Web Development for Blog",
           "price": "€300",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Responsive web design"
-        },
-        {
-          "name": "E-commerce Integration",
-          "price": "€400",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": "E-commerce integration services"
-        },
-        {
-          "name": "SEO Optimization",
-          "price": "€500",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": "SEO optimization services"
-        },
-        {
-          "name": "Content Management System",
-          "price": "€600",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Content management system setup"
-        },
-        {
-          "name": "Custom Theme Development",
-          "price": "€800",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Custom theme development"
-        },
-        {
-          "name": "Responsive Email Design",
-          "price": "€900",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Responsive email design"
+          "description": "Custom web development for blog"
         }
       ],
-      "ai_description_en": "This project offers a range of web development and design services, including custom web design, responsive design, e-commerce integration, SEO optimization, and more.",
+      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer. The project includes custom web design services, personalized web development services, e-commerce website development, web maintenance and updates, custom web application development, web security audit, custom web hosting, web backup and recovery, custom web design for social media, and custom web development for blog.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -610274,7 +610806,141 @@
       },
       "raw_html_hash": "c98ae2f6043fff91",
       "raw_fetched_at": "2026-10-22T17:39:51.005953+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "The TurretPro 360 isn’t just a tripod; it’s a revolution in camera support. Capture the world from a whole new perspective with the TurretPro 360—a groundbreaking tripod featuring a built-in seat and a crane system that allows seamless 360-degree rotation and effortless camera positioning.",
+      "ai_highlights_en": [
+        "360° Rotating Crane System Master the art of smooth, dynamic camera movement.",
+        "Integrated Seat for Comfort Long sessions? No problem.",
+        "Stability The TurretPro 360 is designed for maximum stability , utilizing the user’s seated weight to anchor the system—perfect for high-speed movements and long photography sessions."
+      ],
+      "ai_specs_en": [
+        [
+          "Spec Name",
+          "Spec Value"
+        ],
+        [
+          "Base Weight",
+          "4kg"
+        ],
+        [
+          "Seat Load Capacity",
+          "200kg"
+        ],
+        [
+          "Crane Payload Capacity",
+          "8kg"
+        ],
+        [
+          "Height Adjustment",
+          "Adjustable"
+        ],
+        [
+          "Angle Lock",
+          "Angle-lock"
+        ],
+        [
+          "Counterweight Arm Length",
+          "Adjustable"
+        ],
+        [
+          "Material",
+          "Premium-grade aluminum and carbon fiber"
+        ],
+        [
+          "Weight",
+          "5.2kg"
+        ],
+        [
+          "Price",
+          "$404"
+        ],
+        [
+          "Currency",
+          "USD"
+        ],
+        [
+          "Price_USD",
+          "null"
+        ],
+        [
+          "Backers",
+          "0"
+        ],
+        [
+          "Description",
+          "Compatible with various Mitchell mount heads and ball heads;"
+        ]
+      ],
+      "ai_risks_en": "Manufacturing & Quality Control, Fulfillment & Global Shipping, Our Uncompromising Commitment",
+      "ai_creator_bio_en": "Highlights is a professional camera support system designer and manufacturer. Established in 2000, we’re very much vested in R&amp;D, developing a range of patented products, including tripods, ball heads and other tripod heads.",
+      "ai_tiers": [
+        {
+          "name": "TurretLite 360",
+          "price": "$80",
+          "price_usd": "null",
+          "currency": "HKD",
+          "backers": "0",
+          "description": "The rotating photography plate features a universal 3/8” mounting hole in the center, allowing it to be used in conjunction with other equipment."
+        },
+        {
+          "name": "TurretLite 360+45Ball head",
+          "price": "$259",
+          "price_usd": "null",
+          "currency": "HKD",
+          "backers": "0",
+          "description": "Compatible with various Mitchell mount heads and ball heads; weighs 3.64kg, with a seat load capacity of 200 kg and a crane payload capacity of 8 kg."
+        },
+        {
+          "name": "TurretLite 360+Fluid head",
+          "price": "$333",
+          "price_usd": "null",
+          "currency": "HKD",
+          "backers": "0",
+          "description": "Compatible with various Mitchell mount heads and ball heads; weighs 3.72 kg, with a seat load capacity of 200 kg and a crane payload capacity of 8 kg."
+        },
+        {
+          "name": "TurretLite 360+Turret Deck",
+          "price": "$355",
+          "price_usd": "null",
+          "currency": "HKD",
+          "backers": "0",
+          "description": "Compatible with various Mitchell mount heads and ball heads; weighs 4.35 kg, with a seat load capacity of 200 kg and a crane payload capacity of 8 kg."
+        },
+        {
+          "name": "TurretPro 360",
+          "price": "$404",
+          "price_usd": "null",
+          "currency": "HKD",
+          "backers": "0",
+          "description": "Compatible with various Mitchell mount heads and ball heads; weighs 3.35 kg, with a seat load capacity of 200 kg and a crane payload capacity of 8 kg."
+        },
+        {
+          "name": "TurretPro 360+45Ball head",
+          "price": "$436",
+          "price_usd": "null",
+          "currency": "HKD",
+          "backers": "0",
+          "description": "Compatible with various Mitchell mount heads and ball heads; weighs 4.5 kg, with a seat load capacity of 200 kg and a crane payload capacity of 8 kg."
+        },
+        {
+          "name": "TurretPro 360+Fluid head",
+          "price": "$461",
+          "price_usd": "null",
+          "currency": "HKD",
+          "backers": "0",
+          "description": "Compatible with various Mitchell mount heads and ball heads; weighs 4.6kg, with a seat load capacity of 200 kg and a crane payload capacity of 8 kg."
+        },
+        {
+          "name": "TurretPro 360+Turret Deck",
+          "price": "$480",
+          "price_usd": "null",
+          "currency": "HKD",
+          "backers": "0",
+          "description": "Compatible with various Mitchell mount heads and ball heads; weighs 5.2kg, with a seat load capacity of 200 kg and a crane payload capacity of 8 kg."
+        }
+      ],
+      "ai_description_en": "The TurretPro 360 isn’t just a tripod; it’s a revolution in camera support. Capture the world from a whole new perspective with the TurretPro 360—a groundbreaking tripod featuring a built-in seat and a crane system that allows seamless 360-degree rotation and effortless camera positioning. The TurretPro 360 is designed for maximum stability , utilizing the user’s seated weight to anchor the system—perfect for high-speed movements and long photography sessions. It is compatible with various Mitchell mount heads and ball heads; weighs 3.35 kg, with a seat load capacity of 200 kg and a crane payload capacity of 8 kg. The TurretPro 360 is designed for maximum stability , utilizing the user’s seated weight to anchor the system—perfect for high-speed movements and long photography sessions. It is compatible with various Mitchell mount heads and ball heads; weighs 3.35 kg, with a seat load capacity of 200 kg and a crane payload capacity of 8 kg.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-535819001",
