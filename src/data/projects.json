@@ -57192,7 +57192,101 @@
       },
       "raw_html_hash": "fdd4c5ad465c3fec",
       "raw_fetched_at": "2026-10-24T04:41:08.469821+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "This is our digital instrument cluster for the BMW E30. It sits in the factory gauge pod, and from the driver's seat it reads like the gauges BMW put there, drawn on sharp modern displays. Our cluster, powered on, in an original E30 cluster housing. This campaign funds Batch One, limited to 500 clusters for the E30 at $1,349 each, sold only here on Kickstarter.",
+      "ai_highlights_en": [
+        "Digital instrument cluster for the BMW E30, made to fit the factory gauge pod and read like the original gauges.",
+        "Serialized and functionally tested before shipping",
+        "Limited to 500 units, sold only on Kickstarter"
+      ],
+      "ai_specs_en": [
+        [
+          "Resolution",
+          "60 frames per second"
+        ],
+        [
+          "Display",
+          "Round digital displays, 1,000 nits for daylight readability"
+        ],
+        [
+          "Connectivity",
+          "WiFi and Bluetooth"
+        ],
+        [
+          "Control",
+          "Round display knob"
+        ],
+        [
+          "Power",
+          "Powered on, in an original E30 cluster housing"
+        ],
+        [
+          "Price",
+          "$1,349 each"
+        ]
+      ],
+      "ai_risks_en": "Shipping automotive hardware is hard, and we are a two-person team. A working cluster in a real car is a strong start, but it is not the same thing as 500 finished units.",
+      "ai_creator_bio_en": "We are two people, and we split the work cleanly. Jean Stanis, CEO, handles the product and the build. The cluster was developed in Jean's shop, alongside the cars it is meant for.",
+      "ai_tiers": [
+        {
+          "name": "Not So Classic Cluster: E30 Batch One",
+          "price": 1349,
+          "price_usd": 1349,
+          "currency": "USD",
+          "backers": 0,
+          "description": "One Not So Classic Cluster digital instrument cluster for the BMW E30, made to fit the factory gauge pod and read like the original gauges. Part of Batch One, limited to 500 units and sold only on Kickstarter."
+        },
+        {
+          "name": "Follow the Build: Shirt and Sticker",
+          "price": 45,
+          "price_usd": 45,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Everything in Follow the Build, plus a Not So Classic Cluster T-shirt. We will ask for your size after the campaign."
+        },
+        {
+          "name": "Follow the Build + Sticker",
+          "price": 10,
+          "price_usd": 10,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Everything in Follow the Build, plus a Not So Classic Cluster sticker. US only."
+        },
+        {
+          "name": "Follow the Build",
+          "price": 5,
+          "price_usd": 5,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Your name on our thank-you page, Not So Classic Cluster sticker"
+        },
+        {
+          "name": "BMW E28 — Future Batch Reservation",
+          "price": 100,
+          "price_usd": 100,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Reserve one of 100 places for the future BMW E28 cluster batch. Your $100 reservation will be credited in full toward your E28 cluster."
+        },
+        {
+          "name": "BMW E36 — Future Batch Reservation",
+          "price": 100,
+          "price_usd": 100,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Reserve one of 100 places for the future BMW E36 cluster batch. Your $100 reservation will be credited in full toward your E36 cluster."
+        },
+        {
+          "name": "Founder's Edition",
+          "price": 1349,
+          "price_usd": 1349,
+          "currency": "USD",
+          "backers": 22,
+          "description": "One of the first 100 Not So Classic Clusters for the BMW E30, plus a T-shirt, a sticker and your name on our thank-you page."
+        }
+      ],
+      "ai_description_en": "This is our digital instrument cluster for the BMW E30. It sits in the factory gauge pod, and from the driver's seat it reads like the gauges BMW put there, drawn on sharp modern displays. Our cluster, powered on, in an original E30 cluster housing. This campaign funds Batch One, limited to 500 clusters for the E30 at $1,349 each, sold only here on Kickstarter. Every unit is serialized and functionally tested before it ships. The cluster is designed to fit the factory gauge pod and to last in a car, which is why our testing covers heat soak on a dashboard in the Florida sun, vibration and electrical spikes. We record the serial number and firmware version of every unit we ship, so we can support each cluster individually for the long term. Every cluster comes with a 2-year warranty against defects in parts and workmanship, and we will offer repairs for at least five years.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-272132991",
@@ -144892,28 +144986,28 @@
           "spec_value": "RMSE below 2 breaths per minute"
         },
         {
-          "spec_name": "Sensing Technology",
-          "spec_value": "Multimodal sensing system (sound, thermal, ambient light, temperature, humidity)"
+          "spec_name": "Sleep Tracking",
+          "spec_value": "Multimodal sensing system"
         },
         {
           "spec_name": "Alarm Functionality",
-          "spec_value": "Keeps alarm active until user gets out of bed"
+          "spec_value": "Keeps alarm active until you get out of bed"
         }
       ],
-      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&D, industrial design, mass production, and after-sales service.",
-      "ai_creator_bio_en": "Sleepal is developed by Sleepal, a Hong Kong-based company.",
+      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&amp;D, industrial design, mass production, and after-sales service across the smart home sector.",
+      "ai_creator_bio_en": "Sleepal is created by Sleepal, a company dedicated to building something truly helpful, rooted in real science.",
       "ai_tiers": [
         {
           "name": "Early Bird",
           "price": 1998,
-          "price_usd": 249,
+          "price_usd": 251,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal 1 month before the general public"
+          "description": "Get Sleepal 1 month before anyone else"
         },
         {
           "name": "Standard",
-          "price": 2498,
+          "price": 2499,
           "price_usd": 315,
           "currency": "HKD",
           "backers": null,
@@ -144921,7 +145015,7 @@
         },
         {
           "name": "Premium",
-          "price": 3498,
+          "price": 3499,
           "price_usd": 425,
           "currency": "HKD",
           "backers": null,
@@ -144929,7 +145023,7 @@
         },
         {
           "name": "VIP",
-          "price": 4998,
+          "price": 4999,
           "price_usd": 625,
           "currency": "HKD",
           "backers": null,
@@ -144939,7 +145033,7 @@
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.983779Z",
-      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks respiratory rate, sleep position, and bedroom environment to create the perfect sleep environment. It integrates with Apple Health and Google Fit and provides personalized insights to help users make meaningful adjustments. Sleepal also features a smart home integration, allowing users to adjust their bedroom environment with a single voice command."
+      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks respiratory rate, sleep position, and bedroom environment to create the perfect sleep environment. It integrates sound, thermal sensing, ambient light, temperature, and humidity into a multimodal sensing system. Sleepal keeps the alarm active until you get out of bed, no more turning off alarms and falling back asleep."
     },
     {
       "id": "ks-361695538",
@@ -152892,7 +152986,57 @@
       },
       "raw_html_hash": "172a73a314c02d2a",
       "raw_fetched_at": "2026-10-23T04:47:20.687265+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Copper GenX is a natural mineral water purification system that eliminates harsh chlorine and provides crystal clear water for pools and hot tubs. With its patent-pending technology, Copper GenX puts you in control of your water quality, allowing you to test and maintain a precise copper level to keep your water pristine. Our system is designed to be easy to use, maintain, and upgrade, making it the perfect solution for pool and hot tub owners looking for a chemical-free alternative.",
+      "ai_highlights_en": [
+        "Eliminates harsh chlorine and provides crystal clear water",
+        "Patent-pending technology puts you in control of your water quality",
+        "Easy to use, maintain, and upgrade"
+      ],
+      "ai_specs_en": [
+        [
+          "Copper Level",
+          "0.2-0.4 ppm"
+        ],
+        [
+          "Power Supply",
+          "24-volt"
+        ],
+        [
+          "Copper Pipes",
+          "Standard copper tubing available off-the-shelf"
+        ],
+        [
+          "System Size",
+          "Residential pool and hot tub"
+        ],
+        [
+          "Price",
+          "$150"
+        ]
+      ],
+      "ai_risks_en": "Bringing a new hardware product from a proven, working prototype to mass production comes with unique challenges, but we have built our plan and timeline with these realities in mind.",
+      "ai_creator_bio_en": "I’m Chris Aarseth—a veteran tech entrepreneur, IT field technician, and hands-on builder.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 150,
+          "price_usd": 150,
+          "currency": "USD",
+          "backers": 0,
+          "description": "The complete chemical-free residential pool and hot tub water purification system."
+        },
+        {
+          "name": "Standard",
+          "price": 150,
+          "price_usd": 150,
+          "currency": "USD",
+          "backers": 0,
+          "description": "The complete chemical-free residential pool and hot tub water purification system."
+        }
+      ],
+      "ai_description_en": "Copper GenX is a natural mineral water purification system that eliminates harsh chlorine and provides crystal clear water for pools and hot tubs. With its patent-pending technology, Copper GenX puts you in control of your water quality, allowing you to test and maintain a precise copper level to keep your water pristine. Our system is designed to be easy to use, maintain, and upgrade, making it the perfect solution for pool and hot tub owners looking for a chemical-free alternative.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-396266907",
@@ -164285,9 +164429,9 @@
         {
           "name": "Meteorite Faces Module",
           "price": 4656,
-          "price_usd": 29,
+          "price_usd": null,
           "currency": "EUR",
-          "backers": 9,
+          "backers": null,
           "description": "More than a faceplate—it's a wearable titanium collectible."
         },
         {
@@ -164303,7 +164447,7 @@
           "price": 34003,
           "price_usd": 211,
           "currency": "EUR",
-          "backers": 0,
+          "backers": 41,
           "description": ""
         }
       ],
@@ -164847,16 +164991,16 @@
           ""
         ],
         [
-          "Color",
-          "Titaner Micro-Milled Finish/Titaner Micro-Blasted Finish"
-        ],
-        [
           "Price",
           "¥5,611,799"
         ],
         [
-          "Price_USD",
+          "Price_usd",
           ""
+        ],
+        [
+          "Currency",
+          "EUR"
         ],
         [
           "Backers",
@@ -164867,7 +165011,7 @@
           "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you. Swap them in seconds and give your everyday carry a fresh identity."
         ]
       ],
-      "ai_risks_en": "Manufacturing Challenges and Fulfillment & Shipping Risks.",
+      "ai_risks_en": "Manufacturing Challenges and Fulfillment &amp; Shipping Risks.",
       "ai_creator_bio_en": "A group of engineers and friends who love design and are obsessed with precision engineering.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
@@ -270655,11 +270799,11 @@
       },
       "raw_html_hash": "5a8931f32c7823c5",
       "raw_fetched_at": "2026-08-04T14:50:52.864183+00:00",
-      "ai_intro_en": "The Canvas and the Groove: Reimagining the Turntable. Vinyl has never just been about the music. It’s a dual masterpiece: the Art of Sound (the warm, analog soul of the groove) and the Visual Art (the iconic 12-inch canvas of the album cover). For decades, we’ve kept these two worlds separate. We hide our favorite covers in crates and lay our music flat on bulky, horizontal players that eat up our living space. We’re here to bring them back together.",
+      "ai_intro_en": "The Canvas and the Groove: Reimagining the Turntable Vinyl has never just been about the music. It’s a dual masterpiece: the Art of Sound (the warm, analog soul of the groove) and the Visual Art (the iconic 12-inch canvas of the album cover). For decades, we’ve kept these two worlds separate. We hide our favorite covers in crates and lay our music flat on bulky, horizontal players that eat up our living space. We’re here to bring them back together.",
       "ai_highlights_en": [
-        "A wall-mounted, gallery-grade frame like turntable crafted from solid wood with a carbon fiber reinforced tonearm.",
-        "Gravity-Balanced Tracking: Our custom carbon fiber reinforced tonearm uses a precision counterweight system that ensure smooth playback whether mounted in landscape or portrait orientation.",
-        "Authentic Materials. No Compromises. Most \"designer\" electronics use plastic made to look like wood or paper. The Frame is different. We used the exact same materials found in art galleries to ensure it earns its place on your wall."
+        "The Frame is a wall-mounted, gallery-grade frame like turntable crafted from solid wood with a carbon fiber reinforced tonearm.",
+        "The Frame adapts to your interior design, whether you’re living in a minimalist studio or a sprawling home.",
+        "The Frame sounds as good as it looks, with gravity-balanced tracking and a precision counterweight system."
       ],
       "ai_specs_en": [
         {
@@ -270679,6 +270823,10 @@
           "spec_value": "Yes"
         },
         {
+          "spec_name": "Volume Control",
+          "spec_value": "Yes"
+        },
+        {
           "spec_name": "Bluetooth",
           "spec_value": "Yes"
         },
@@ -270695,41 +270843,33 @@
           "spec_value": "Standard Picture Frame Installation"
         },
         {
-          "spec_name": "Price",
-          "spec_value": "HK$ 2,790"
-        },
-        {
-          "spec_name": "Price (USD)",
-          "spec_value": "About $356"
-        },
-        {
-          "spec_name": "Currency",
-          "spec_value": "HK$"
+          "spec_name": "45rpm Single Adaptor",
+          "spec_value": "Included"
         }
       ],
-      "ai_risks_en": "The design of The Frame has already been done and we have already validated trial production. Therefore we believe there should be no technical problem with the production of the items. The most probable risk could be production slight delay during mass production.",
+      "ai_risks_en": "The most probable risk could be production slight delay during mass production.",
       "ai_creator_bio_en": "Coelacanths Limited 12 created • 1 backed Coelacanths Ltd. is founded by a two brothers team. They are both educators and entrepreneurs.",
       "ai_tiers": [
         {
-          "name": "Early Bird",
-          "price": "HK$ 2,120",
-          "price_usd": "About $271",
+          "name": "The Frame Turntable",
+          "price": 2790,
+          "price_usd": 356,
           "currency": "HK$",
-          "backers": "20",
-          "description": "1 x The Frame Turntable at 50% OFF retail price"
+          "backers": 2,
+          "description": "1 x The Frame Turntable at 34% OFF retail price"
         },
         {
-          "name": "Standard",
-          "price": "HK$ 2,790",
-          "price_usd": "About $356",
+          "name": "The Frame Turntable",
+          "price": 2120,
+          "price_usd": 271,
           "currency": "HK$",
-          "backers": "98",
-          "description": "1 x The Frame Turntable at 34% OFF retail price"
+          "backers": 20,
+          "description": "1 x The Frame Turntable at 50% OFF retail price"
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
-      "ai_description_en": "The Canvas and the Groove: Reimagining the Turntable. Vinyl has never just been about the music. It’s a dual masterpiece: the Art of Sound (the warm, analog soul of the groove) and the Visual Art (the iconic 12-inch canvas of the album cover). For decades, we’ve kept these two worlds separate. We hide our favorite covers in crates and lay our music flat on bulky, horizontal players that eat up our living space. We’re here to bring them back together. The Frame is a wall-mounted, gallery-grade frame like turntable crafted from solid wood with a carbon fiber reinforced tonearm. Gravity-Balanced Tracking: Our custom carbon fiber reinforced tonearm uses a precision counterweight system that ensure smooth playback whether mounted in landscape or portrait orientation. Authentic Materials. No Compromises. Most \"designer\" electronics use plastic made to look like wood or paper. The Frame is different. We used the exact same materials found in art galleries to ensure it earns its place on your wall. The relaunch of The Frame is even better. We have improved both the substance and the look: Feedback Controlled Motor: The Frame now comes with feedback controlled motor to make records spin even more accurately, Rounded Paper Mat : The paper mat on the record side is now in circular shape for a more coherent yet distinctive visual impact. It adds depth and draws focus to both the spinning record and the record cover, Dual speakers: The Frame now feature dual speakers instead of one in the previous version. The Frame is designed to be as flexible as your interior design. Whether you’re living in a minimalist studio or a sprawling home, The Frame adapts to you. Vertical Mount: Turn a narrow pillar or corner into a high-fidelity focal point. Horizontal Mount: Anchor your room with a classic, landscape profile. The Lean: No wall space? Let it lean against any surface for a relaxed, casual look. The Frame: Hanging on the wall or leaning against the wall in landscape The Frame: In portrait orientation The Frame: Leaning against the wall Engineering the Vertical Revolution Playing a record vertically isn't just a \"trick”—it’s a mechanical challenge. We spent over a year perfecting the physics to ensure that The Frame sounds as good as it looks. Gravity-Balanced Tracking: Our custom carbon fiber reinforced tonearm uses a precision counterweight system that ensure smooth playback whether mounted in landscape or portrait orientation. The \"Clean Record\" Advantage: Unlike flat turntables, gravity prevents dust from settling into the grooves while spinning. Decoupled from the Floor: By mounting to the wall, you bypass \"footfall\" vibrations entirely. No more skipping when you walk across the room. Authentic Materials. No Compromises. Most \"designer\" electronics use plastic made to look like wood or paper. The Frame is different. We used the exact same materials found in art galleries to ensure it earns its place on your wall. The Gallery Mat: Behind the spinning vinyl sits a genuine paper mat. It provides the same deep, matte texture you’d find surrounding a fine-art print, creating a visual \"frame\" that makes the record color pop. Furniture-Grade Solid Wood: The outer casing is constructed like a high-end picture frame, featuring precision-mitered corners. \"We wanted it to look like a piece of art that happens to play music, rather than a machine trying to look like art.\""
+      "ai_description_en": "The Canvas and the Groove: Reimagining the Turntable Vinyl has never just been about the music. It’s a dual masterpiece: the Art of Sound (the warm, analog soul of the groove) and the Visual Art (the iconic 12-inch canvas of the album cover). For decades, we’ve kept these two worlds separate. We hide our favorite covers in crates and lay our music flat on bulky, horizontal players that eat up our living space. We’re here to bring them back together. The Frame is a wall-mounted, gallery-grade frame like turntable crafted from solid wood with a carbon fiber reinforced tonearm. The Frame adapts to your interior design, whether you’re living in a minimalist studio or a sprawling home. The Frame sounds as good as it looks, with gravity-balanced tracking and a precision counterweight system. The relaunch of The Frame is even better. We have improved both the substance and the look: Feedback Controlled Motor: The Frame now comes with feedback controlled motor to make records spin even more accurately Rounded Paper Mat : The paper mat on the record side is now in circular shape for a more coherent yet distinctive visual impact. It adds depth and draws focus to both the spinning record and the record cover Dual speakers: The Frame now feature dual speakers instead of one in the previous version."
     },
     {
       "id": "ks-1449041645",
@@ -289685,8 +289825,8 @@
       "ai_intro_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow.",
       "ai_highlights_en": [
         "No more guessing. No more reshoots. Just full creative control, even when you’re filming alone.",
-        "Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance.",
-        "MagSafe-ready—snap it on and it stays put. No wobble, no slipping."
+        "Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance. No tech headaches, no hour-long setup—just grab your V1 Pro&nbsp;and start creating the moment inspiration strikes.",
+        "MagSafe. Snap. Shoot MagSafe-ready—snap it on and it stays put. No wobble, no slipping. And here’s the best part: it plays nice with your existing rig."
       ],
       "ai_specs_en": [
         [
@@ -289702,12 +289842,8 @@
           "4 levels"
         ],
         [
-          "Resolution",
-          "4K/120fps"
-        ],
-        [
-          "Remote Trigger",
-          "Up to 15 meters"
+          "Ports",
+          "2 x USB-C"
         ],
         [
           "Battery Life",
@@ -289727,19 +289863,23 @@
         ],
         [
           "Color",
-          "Space Gray"
+          "Silver"
         ],
         [
           "Compatibility",
-          "iPhone and Android"
+          "iPhone, Android"
         ],
         [
-          "Ports",
-          "2 x USB-C"
+          "Operating System",
+          "iOS, Android"
+        ],
+        [
+          "Additional Features",
+          "Magnetic ring, lanyard hole"
         ]
       ],
-      "ai_risks_en": "While we are confident in the development and delivery of V1 Pro, as with any new technology, there may be unforeseen challenges. We pledge transparency and proactive communication with our backers throughout the process, ensuring any risks are promptly addressed to uphold the trust placed in us.",
-      "ai_creator_bio_en": "Cardon 4 created &nbsp;•&nbsp; 3 backed",
+      "ai_risks_en": "Risks and challenges While we are confident in the development and delivery of V1 Pro, as with any new technology, there may be unforeseen challenges. We pledge transparency and proactive communication with our backers throughout the process, ensuring any risks are promptly addressed to uphold the trust placed in us.",
+      "ai_creator_bio_en": "Cardon 4 created &nbsp;•&nbsp; 3 backed At Cardon, we are passionate about creating everyday essentials that blend sophistication with cutting-edge functionality.",
       "ai_tiers": [
         {
           "name": "Super Early Bird",
@@ -289792,7 +289932,7 @@
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-10-22T09:29:05.492582Z",
-      "ai_description_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow. No more guessing. No more reshoots. Just full creative control, even when you’re filming alone. Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance. MagSafe-ready—snap it on and it stays put. No wobble, no slipping. All-in-one— monitor, wireless mic, and remote , built for solo vloggers. The remote and mic merge into one compact unit that snaps magnetically onto the V1 Pro—always there when you need it, never lost. The mic features a detachable magnetic backplate that you place behind your collar or lapel—the magnet holds the mic firmly on the outside, no clips, no fuss. Built-in ENC &nbsp;keeps your voice crisp even from a distance. A 1.5-hour charge delivers about &nbsp;5.5 hours of use—enough for a full shoot. The remote triggers the shutter from up to&nbsp; 15&nbsp;meters &nbsp;away—no more blindly tapping the screen. And it pairs automatically the moment you take it off— no Bluetooth fuss , no phone settings. Just grab, clip, and go. V1 Pro doesn’t limit your gear—it unleashes it. Enjoy buttery-smooth 4K at 120fps with zero lag and zero overheating. No extra apps needed—V1 Pro’s display syncs perfectly with your device , iPhone or Android, delivering the same high-quality output every time. iPhone: up to &nbsp;4K at 120fps Android: up to &nbsp;8K at 30fps No compromise.No limits. Just pure, professional-grade monitoring. From iPhone to Android V1 Pro&nbsp;works with both iPhone and Android. If your phone has a USB-C port and supports DP Alt Mode, you're ready to go—no brand restrictions, no complicated setup. Enjoy a live rear-camera preview, frame every shot with confidence, and create better content with V1 Pro. At 2.41 inches , the V1 Pro’s screen is compact yet perfectly proportioned for framing your shot. With &nbsp;450 nits &nbsp;of brightness, it stays crisp even outdoors—and 4 adjustable brightness levels &nbsp;ensure you're never squinting indoors or straining under the sun. Whether you’re capturing or reviewing footage, every frame stays true to life, right when you need it. Two Ports. No Low Battery Running low on power mid-shoot? V1 Pro’s secondary USB-C port lets you plug in a power bank and charge your phone through the monitor. And since V1 Pro has no internal battery, there’s nothing to pre-charge —just grab and go. One cable for monitoring, another for power. All-day shooting, no interruptions. Rotate or Flip—One Button Does It All V1 Pro gives you full flexibility—no matter the angle. Portrait – horizontal flip or 180° rotation Landscape – vertical flip or 180° rotation No menus. No touchscreen fuss. Frame freely, shoot from any angle. Big Features. Tiny Footprint V1 Pro goes where you go. About the size of a credit card, just &nbsp;0.4in (10mm)&nbsp;thin &nbsp;and weighing only 0.13 lb (58g) —it slips into your pocket or bag and you’ll barely notice it’s there. There’s also a lanyard hole , so you can add your own strap for extra convenience. Big on function, small on footprint. Who It’s For More Gear. More Possibilities 1. Extra-Long Cables The standard 5.4in &nbsp;( 13.7cm , including connectors) dual USB-C cable ( yellow ) is perfect for everyday use—compact, tangle-free, and always ready. Need more room to move? We’ve got you covered with optional black &nbsp;cables in 6.3in (16cm) &nbsp;and 10.2in (26cm) . Whether you’re mounting your phone on a gimbal or positioning your monitor further away, choose the length that fits your setup. 2. Magnetic Phone Ring Stand (Black) A stand, a selfie stick, and a finger grip —all in one compact accessory. It adjusts to any angle, so you can prop up your phone for hands-free viewing, extend it for a better selfie angle, or simply hold it more securely. At just 2.2in (5.6cm ) in diameter, 0.31in (0.8cm) &nbsp;thick, and 0.15lb (67g) light, it barely adds any bulk. Comes with a metal ring for non-MagSafe phones. 3. Tripod &amp; Selfie Stick Extends all the way up to 71in (1.8m) —perfect for group shots, overhead angles, or full-body vlogs. And here’s the best part: no bending over to set it up. &nbsp;Just give it a firm push on the ground and it pops open automatically. &nbsp;Folds down to just &nbsp;11.8in (30cm) &nbsp;and weighs only 0.84lb (380g) , so it slips into any bag without weighing you down. Comes with a metal ring included. What’s in the Box Specifications Rewards Demo Video Design Process 3D Model Design sketch CAD Exploded view We Built It Because You Needed It We built V1 Pro for one simple reason: you shouldn’t have to choose between quality and control. Every creator knows the struggle—use the rear camera for stunning footage, but you can’t see what you’re framing. Use the front camera, and you sacrifice image quality. So we created a monitor that puts the power of the rear camera right in front of your eyes. No guesswork. No reshoots. Just a clear, real-time view of your shot, so you can focus on telling your story—not fighting your gear. This project is promoted by Jellop, the ad tech power behind the best Kickstarters with 3,500+ successful Kickstarter projects with over $1B raised between them.http://jellop.com/?utm_source=V1 Pro Risks and challenges While we are confident in the development and delivery of V1 Pro, as with any new technology, there may be unforeseen challenges. We pledge transparency and proactive communication with our backers throughout the process, ensuring any risks are promptly addressed to uphold the trust placed in us. Use of AI I plan to use AI-generated content in my project. What parts of your project will use AI generated content? Please be as specific as possible. In my V1 Pro Selfie Monitor Screen project, I will use AI-generated content for marketing visuals and graphic design elements. This includes initial concept sketches, product lifestyle scene mockups, background textures, and social media campaign graphics. All AI outputs will be used as design references or draft materials only, and will be heavily edited, refined, and combined with original product photos and CAD renderings before final use. Do you have the consent of owners of the works that were (or will be) used to produce the AI generated portion of your projects? Please explain. All AI-generated content in this project is created using licensed, commercial-grade AI tools that provide full rights and consent for commercial use of their generated outputs. No copyrighted third-party artworks or protected artist styles were used as training inputs. All AI assets are fully compliant with the tool’s terms of service, and I retain full ownership of the final edited versions. Learn about AI policy on Kickstarter Questions about this project? Check out the FAQ Report this project to Kickstarter"
+      "ai_description_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow. No more guessing. No more reshoots. Just full creative control, even when you’re filming alone. Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance. No tech headaches, no hour-long setup—just grab your V1 Pro&nbsp;and start creating the moment inspiration strikes. MagSafe. Snap. Shoot MagSafe-ready—snap it on and it stays put. No wobble, no slipping. And here’s the best part: it plays nice with your existing rig."
     },
     {
       "id": "ks-938859321",
@@ -373409,11 +373549,11 @@
       "raw_html_hash": "23e6b98894d3891c",
       "raw_fetched_at": "2026-07-30T14:43:30.388483+00:00",
       "ai_validated": false,
-      "ai_intro_en": "BEAM focuses on outdoor lighting, offering high brightness, long battery life, and a rugged waterproof body to handle darkness and harsh conditions. With a compact design and versatile lighting system, it's suitable for camping, hiking, and outdoor adventures. Our goal is to deliver a reliable, high-quality product on time.",
+      "ai_intro_en": "BEAM focuses on outdoor lighting, offering high brightness, long battery life, and a rugged waterproof body to handle darkness and harsh conditions. Our goal is to deliver a reliable, high-quality product on time.",
       "ai_highlights_en": [
-        "High brightness, long battery life, and rugged waterproof design",
-        "Versatile lighting system with multiple modes (white, yellow, red, and laser)",
-        "Hands-free operation with magnetic base and USB-C port"
+        "High brightness, long battery life, and a rugged waterproof body",
+        "Multiple light modes for different outdoor scenarios",
+        "Hands-free targeted light with magnetic base"
       ],
       "ai_specs_en": [
         {
@@ -373422,47 +373562,31 @@
         },
         {
           "spec_name": "Battery Life",
-          "spec_value": "Long-lasting, extendable with pass-through charging"
+          "spec_value": "Long-lasting, extendable with power bank"
         },
         {
           "spec_name": "Waterproof Rating",
           "spec_value": "IPX6-rated"
         },
         {
+          "spec_name": "Dimensions",
+          "spec_value": "Compact body, lightweight design"
+        },
+        {
           "spec_name": "Materials",
           "spec_value": "Aluminum alloy body, stainless steel clip, PMMA lens"
         },
         {
-          "spec_name": "Dimensions",
-          "spec_value": "Compact design"
-        },
-        {
-          "spec_name": "Weight",
-          "spec_value": "Lightweight"
-        },
-        {
-          "spec_name": "Color Temperature",
-          "spec_value": "Warm yellow light for camp relaxation"
-        },
-        {
-          "spec_name": "Laser Mode",
-          "spec_value": "Long-range coordinated guidance"
-        },
-        {
-          "spec_name": "Strobe Mode",
-          "spec_value": "High-frequency flashing white light for emergency signaling"
-        },
-        {
           "spec_name": "Charging",
-          "spec_value": "USB-C port with pass-through charging"
+          "spec_value": "Pass-through charging, USB-C port"
         },
         {
           "spec_name": "Warranty",
-          "spec_value": "2-year warranty and lifetime after-sales support"
+          "spec_value": "2-year warranty, lifetime after-sales support"
         },
         {
-          "spec_name": "Recyclability",
-          "spec_value": "Repairable and recyclable"
+          "spec_name": "Packaging",
+          "spec_value": "Minimal, recyclable packaging"
         }
       ],
       "ai_risks_en": "Potential delays in tooling adjustments, component supply chain fluctuations, and quality control rejections during mass production.",
@@ -373486,11 +373610,11 @@
         },
         {
           "name": "Early Supporter Exclusive",
-          "price": 69,
-          "price_usd": 69,
+          "price": 45,
+          "price_usd": 45,
           "currency": "USD",
-          "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
+          "backers": 0,
+          "description": "Backers 0 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
         },
         {
           "name": "Share & Save",
@@ -373498,7 +373622,7 @@
           "price_usd": 69,
           "currency": "USD",
           "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
+          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 2× BEAM Details"
         },
         {
           "name": "Perfect for Family & Friends",
@@ -373506,7 +373630,7 @@
           "price_usd": 89,
           "currency": "USD",
           "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
+          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 3× BEAM Details"
         },
         {
           "name": "Bigger Bundle, Bigger Savings",
@@ -373514,7 +373638,7 @@
           "price_usd": 109,
           "currency": "USD",
           "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
+          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 4× BEAM Details"
         },
         {
           "name": "Team Up & Save More",
@@ -373522,15 +373646,15 @@
           "price_usd": 139,
           "currency": "USD",
           "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
+          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 5× BEAM Details"
         },
         {
           "name": "Ultimate Value Pack",
           "price": 199,
           "price_usd": 199,
           "currency": "USD",
-          "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
+          "backers": 0,
+          "description": "Backers 0 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 8× BEAM Details"
         },
         {
           "name": "KS Special Limited",
@@ -373543,7 +373667,7 @@
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-10-22T09:29:05.492921Z",
-      "ai_description_en": "BEAM is a multi-functional portable outdoor flashlight that offers high brightness, long battery life, and a rugged waterproof body to handle darkness and harsh conditions. With a compact design and versatile lighting system, it's suitable for camping, hiking, and outdoor adventures. Our goal is to deliver a reliable, high-quality product on time."
+      "ai_description_en": "BEAM is a multi-functional portable outdoor flashlight that offers high brightness, long battery life, and a rugged waterproof body. It features multiple light modes for different outdoor scenarios, including white light for long-distance pathfinding, warm yellow light for camp relaxation, red light to preserve night vision, and strobe mode for emergency signaling. The flashlight also has a hands-free targeted light with a magnetic base, making it easy to use in various situations. With its compact body, lightweight design, and efficient power management system, BEAM is a reliable and high-quality outdoor lighting product."
     },
     {
       "id": "ks-1422103154",
@@ -383198,7 +383322,73 @@
       },
       "ai_validated": false,
       "raw_html_hash": "1d151b952a0f9b76",
-      "raw_fetched_at": "2026-10-23T04:47:32.110862+00:00"
+      "raw_fetched_at": "2026-10-23T04:47:32.110862+00:00",
+      "ai_intro_en": "Rise is a reliable checkpoint based phone alarm designed to bring a sound product at an affordable price. The device is a solid-state, highly durable tactile puck that can be placed anywhere in the home.",
+      "ai_highlights_en": [
+        "Reliable checkpoint based phone alarm",
+        "Affordable price point",
+        "Highly durable tactile puck design"
+      ],
+      "ai_specs_en": [
+        [
+          "Dimensions",
+          "75 mm x 75 mm x 15 mm"
+        ],
+        [
+          "Material",
+          "Carbon Fiber Reinforced Polycarbonate (PC-CF) or High-Density Matte PETG"
+        ],
+        [
+          "Weight",
+          "approx. 150g"
+        ],
+        [
+          "Power",
+          "Magnetic Induction Power"
+        ],
+        [
+          "NFC Chip",
+          "NTAG213 / NTAG215 microchip"
+        ],
+        [
+          "Operating System",
+          "iOS 15+ / Android 10+"
+        ],
+        [
+          "App",
+          "Rise Clock App"
+        ],
+        [
+          "Price",
+          "£1, £5"
+        ],
+        [
+          "Estimated Delivery",
+          "Nov 2026"
+        ]
+      ],
+      "ai_risks_en": "Risk is a minimum nfc chips have already proven that they are useful for this sort of task.",
+      "ai_creator_bio_en": "Lewis Harper, founder of Rise, is based in Aberdeen, Scotland.",
+      "ai_tiers": [
+        {
+          "name": "Personal thank you",
+          "price": 1,
+          "price_usd": 2,
+          "currency": "GBP",
+          "backers": 1,
+          "description": "Personal thank you note for donating to my startup"
+        },
+        {
+          "name": "50% off Risecheckpoint.com",
+          "price": 5,
+          "price_usd": 7,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Get access to 50% off any product on your website"
+        }
+      ],
+      "ai_description_en": "The Rise checkpoint is a reliable phone alarm that uses magnetic induction power to turn a passive puck into a physical gatekeeper. The device is designed to be affordable and durable, with a compact design that can be placed anywhere in the home.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1075538356",
@@ -409937,91 +410127,115 @@
       },
       "raw_html_hash": "4a61939818383090",
       "raw_fetched_at": "2026-08-26T02:24:13.833263+00:00",
-      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and build your professional network. No fee forever express crowdfunding means you can focus on growing your business.",
+      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and showcase your profile and linkpage. No fee forever express crowdfunding means you can focus on growing your business.",
       "ai_highlights_en": [
-        "Contactless NFC and QR code sharing for seamless connections",
-        "Linkpage and link redirection for easy sharing",
-        "No fee forever express crowdfunding for hassle-free growth"
+        "Share and Impress with ZoloCard",
+        "Contactless NFC and QR Code Sharing",
+        "No Fee Forever Express Crowdfunding"
       ],
       "ai_specs_en": [
         [
           "Resolution",
-          "1080p"
+          "1080 x 1080"
         ],
         [
-          "Operating System",
-          "Android, iOS"
-        ],
-        [
-          "Battery Life",
-          "Up to 5 days"
-        ],
-        [
-          "Storage",
-          "16GB"
-        ],
-        [
-          "Camera",
-          "13MP"
-        ],
-        [
-          "Processor",
-          "Quad-core"
-        ],
-        [
-          "RAM",
-          "4GB"
-        ],
-        [
-          "Weight",
-          "120g"
+          "Material",
+          "Durable Plastic"
         ],
         [
           "Dimensions",
-          "115x65x10mm"
+          "85 x 55 x 5mm"
+        ],
+        [
+          "Weight",
+          "20g"
+        ],
+        [
+          "Battery Life",
+          "Up to 1 year"
+        ],
+        [
+          "Operating System",
+          "Firmware-based"
+        ],
+        [
+          "Connectivity",
+          "NFC and Bluetooth 4.0"
+        ],
+        [
+          "Storage",
+          "8GB"
+        ],
+        [
+          "Camera",
+          "1MP"
+        ],
+        [
+          "Microphone",
+          "Yes"
+        ],
+        [
+          "Sensors",
+          "Accelerometer and Gyroscope"
+        ],
+        [
+          "Color",
+          "Black"
+        ],
+        [
+          "Language",
+          "English"
+        ],
+        [
+          "Region",
+          "Global"
+        ],
+        [
+          "Warranty",
+          "1 year"
         ],
         [
           "Price",
-          "£99"
-        ],
-        [
-          "Price_USD",
-          "null"
-        ],
-        [
-          "Currency",
-          "GBP"
+          "£29.99"
         ]
       ],
-      "ai_risks_en": "As with any new product launch, there are risks involved. However, we have a solid plan in place to mitigate these risks and ensure a successful launch.",
-      "ai_creator_bio_en": "We are a team of experienced professionals passionate about creating innovative products that make a difference.",
+      "ai_risks_en": "There are no major risks associated with this project, as it is a well-designed and manufactured product.",
+      "ai_creator_bio_en": "Minute Objects",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": "£99",
-          "price_usd": "null",
+          "price": "£29.99",
+          "price_usd": "39.99",
           "currency": "GBP",
-          "backers": "0",
-          "description": "Get your ZoloCard early and be one of the first to experience the future of business cards."
+          "backers": null,
+          "description": "Get your ZoloCard before anyone else! Limited to the first 100 backers."
         },
         {
           "name": "Standard",
-          "price": "£99",
-          "price_usd": "null",
+          "price": "£29.99",
+          "price_usd": "39.99",
           "currency": "GBP",
-          "backers": "0",
-          "description": "Get your ZoloCard with standard features and enjoy hassle-free crowdfunding."
+          "backers": null,
+          "description": "Get your ZoloCard with standard shipping."
+        },
+        {
+          "name": "Deluxe",
+          "price": "£49.99",
+          "price_usd": "64.99",
+          "currency": "GBP",
+          "backers": null,
+          "description": "Get your ZoloCard with deluxe shipping and a free accessory."
         },
         {
           "name": "Premium",
-          "price": "£149",
-          "price_usd": "null",
+          "price": "£99.99",
+          "price_usd": "129.99",
           "currency": "GBP",
-          "backers": "0",
-          "description": "Get your ZoloCard with premium features and enjoy exclusive benefits."
+          "backers": null,
+          "description": "Get your ZoloCard with premium shipping and a free accessory and a personalized message."
         }
       ],
-      "ai_description_en": "Our team has designed ZoloCard to be a stylish and functional business card that makes a lasting impression. With its contactless NFC and QR code sharing capabilities, you can easily connect with others and build your professional network. We believe that ZoloCard has the potential to revolutionize the way we present ourselves professionally, and we invite you to be a part of this exciting journey.",
+      "ai_description_en": "ZoloCard is a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and showcase your profile and linkpage. No fee forever express crowdfunding means you can focus on growing your business.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-08T04:22:46.807477Z"
@@ -448048,7 +448262,7 @@
       },
       "raw_html_hash": "7624e64f790d2b3c",
       "raw_fetched_at": "2026-09-11T16:54:09.604313+00:00",
-      "ai_intro_en": "This is a product project. It is a product. It is a product project.",
+      "ai_intro_en": "Project description here.",
       "ai_highlights_en": [],
       "ai_specs_en": [],
       "ai_risks_en": "",
@@ -479674,7 +479888,97 @@
       },
       "raw_html_hash": "04d70df345ce08d6",
       "raw_fetched_at": "2026-10-24T04:41:14.456985+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Little Nehemiah creates Bible-inspired building sets that combine brick-built scenes, realistic figures, and meaningful learning. Our mission is to bring God's Word to more children and families around the world.",
+      "ai_highlights_en": [
+        "Build Bible scenes together, explore God's Word through story-guided instructions, and help children discover lessons in courage, trust, and kindness.",
+        "Our sets use realistic PVC figures in place of traditional brick figures, giving each character a distinct presence within the scene.",
+        "Each set includes its corresponding figures, building instructions, and printed story and learning materials."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Brick Quality",
+          "spec_value": "Durable, high-quality ABS bricks"
+        },
+        {
+          "spec_name": "Figure Quality",
+          "spec_value": "Realistic PVC figures with detailed faces, sculpted clothing, and expressive poses"
+        },
+        {
+          "spec_name": "Building Instructions",
+          "spec_value": "Story-guided instructions with interactive details and 'Did You Know?' features"
+        },
+        {
+          "spec_name": "Shipping",
+          "spec_value": "Free Replacement Parts, shipping fees apply for international shipments"
+        },
+        {
+          "spec_name": "Estimated Delivery",
+          "spec_value": "December 2026"
+        }
+      ],
+      "ai_risks_en": "The remaining risks include production delays, quality-control adjustments, freight delays, customs processing, and holiday delivery congestion.",
+      "ai_creator_bio_en": "Little Nehemiah creates Bible-inspired building sets that combine brick-built scenes, realistic figures, and meaningful learning.",
+      "ai_tiers": [
+        {
+          "name": "David Brick Building Set",
+          "price": 44,
+          "price_usd": 44,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Build David's story with realistic figures, an interactive eagle, and Bible learning that inspires courage and trust in God."
+        },
+        {
+          "name": "Esther Brick Building Set",
+          "price": 54,
+          "price_usd": 54,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Build Esther's story with realistic figures, an interactive golden scepter, and Bible learning that inspires courage and standing up for others."
+        },
+        {
+          "name": "The Nativity Brick Building Set",
+          "price": 64,
+          "price_usd": 64,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Build the Christmas story with realistic figures, warm lights, and Bible learning that celebrates Jesus' birth and creates lasting family memories."
+        },
+        {
+          "name": "The Bible Heroes Duo",
+          "price": 88,
+          "price_usd": 88,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Save $20 off the total retail price. Includes the David and Esther brick-building sets—two stories of courage and faith for your family to build, explore, and treasure together."
+        },
+        {
+          "name": "The Nativity Duo",
+          "price": 118,
+          "price_usd": 118,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Save $20 off the total retail price. Includes two Nativity brick-building sets—one to treasure with your family and one to share with someone you love."
+        },
+        {
+          "name": "Complete Collection",
+          "price": 145,
+          "price_usd": 145,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Includes The Nativity, David, and Esther brick-building sets."
+        },
+        {
+          "name": "Ultimate Collection",
+          "price": 165,
+          "price_usd": 165,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Includes The Nativity, David, and Esther, plus The Full Armor of God Gen.I bricking building set ($69 retail value)—all for just $20 more than the Complete Collection."
+        }
+      ],
+      "ai_description_en": "Our mission is to bring God's Word to more children and families around the world through Bible-inspired building sets that combine brick-built scenes, realistic figures, and meaningful learning.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1078980442",
@@ -491373,7 +491677,7 @@
           "Backer Flexibility"
         ]
       ],
-      "ai_risks_en": "Digital delivery may be subject to minor delays.",
+      "ai_risks_en": "Digital delivery may be subject to minor delays. Refunds and cancellation Backers can cancel their pledges at any time during the crowdfunding campaign, and funds will only be collected once the campaign successfully ends. After CF end refunds are not possible.",
       "ai_creator_bio_en": "ruiqi wang doing business as Retranslate the Bible.",
       "ai_tiers": [
         {
@@ -491382,7 +491686,7 @@
           "price_usd": "20.00",
           "currency": "USD",
           "backers": null,
-          "description": "Digital Edition (PDF &amp; ePub) $20.00"
+          "description": "Digital edition of the Bible in PDF and ePub formats"
         },
         {
           "name": "Pledge Any Amount",
@@ -491390,10 +491694,10 @@
           "price_usd": null,
           "currency": "USD",
           "backers": null,
-          "description": "Help the project reach its goal or tip the creator by pledging any amount you want (for no reward)."
+          "description": "Support the project by pledging any amount you want (no reward)"
         }
       ],
-      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation.",
+      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation. While historical classic translations each have their own merits, they are often bound by specific denominational traditions, target language conventions, or the limitations of earlier source texts. Mastery of the three major biblical languages enables you to bypass the secondary filtration of modern intermediary languages like English, and confront directly the dynamic, imagery-rich Semitic mindset of Biblical Hebrew, as well as the logically rigorous, tense-precise phrasal structures of Koine Greek. Your re-translation aims to strip away millenniums-old exegetical blind spots, allowing the original texture and breath of the scriptures to become vividly manifest once again.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -564445,106 +564749,128 @@
       "ai_intro_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer.",
       "ai_highlights_en": [
         "Expert web development and design skills",
-        "Personalized web design services",
-        "Custom web solutions for small businesses"
+        "Personalized project tailored to your needs",
+        "Supports a talented creator"
       ],
       "ai_specs_en": [
-        "Custom Web Design",
-        "€500",
-        "Personalized Web Development",
-        "€1,000",
-        "E-commerce Website",
-        "€2,000",
-        "Web Maintenance and Updates",
-        "€500/year",
-        "Custom Web Application",
-        "€5,000",
-        "Web Security Audit",
-        "€1,000",
-        "Custom Web Hosting",
-        "€100/year",
-        "Web Design Consultation",
-        "€200",
-        "Custom Web Development",
-        "€3,000"
+        "Web Development",
+        "€0.00",
+        "Web Design",
+        "€0.00",
+        "Personalized Project",
+        "€10.00",
+        "Customized Website",
+        "€20.00",
+        "E-commerce Solution",
+        "€30.00",
+        "Responsive Design",
+        "€40.00",
+        "Content Management System",
+        "€50.00",
+        "SEO Optimization",
+        "€60.00",
+        "Social Media Integration",
+        "€70.00",
+        "Email Marketing",
+        "€80.00",
+        "Custom Logo",
+        "€90.00",
+        "Domain Registration",
+        "€100.00"
       ],
       "ai_risks_en": "There are no significant risks associated with this project.",
       "ai_creator_bio_en": "33 Jahre Webentwickler / Webdesigner",
       "ai_tiers": [
         {
-          "name": "Custom Web Design",
-          "price": "€500",
+          "name": "€0.00",
+          "price": "€0.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "A custom web design for your small business"
+          "description": ""
         },
         {
-          "name": "Personalized Web Development",
-          "price": "€1,000",
+          "name": "€10.00",
+          "price": "€10.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "A personalized web development service for your business"
+          "description": ""
         },
         {
-          "name": "E-commerce Website",
-          "price": "€2,000",
+          "name": "€20.00",
+          "price": "€20.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "A custom e-commerce website for your business"
+          "description": ""
         },
         {
-          "name": "Web Maintenance and Updates",
-          "price": "€500/year",
+          "name": "€30.00",
+          "price": "€30.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Regular web maintenance and updates for your business"
+          "description": ""
         },
         {
-          "name": "Custom Web Application",
-          "price": "€5,000",
+          "name": "€40.00",
+          "price": "€40.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "A custom web application for your business"
+          "description": ""
         },
         {
-          "name": "Web Security Audit",
-          "price": "€1,000",
+          "name": "€50.00",
+          "price": "€50.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "A web security audit for your business"
+          "description": ""
         },
         {
-          "name": "Custom Web Hosting",
-          "price": "€100/year",
+          "name": "€60.00",
+          "price": "€60.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Custom web hosting for your business"
+          "description": ""
         },
         {
-          "name": "Web Design Consultation",
-          "price": "€200",
+          "name": "€70.00",
+          "price": "€70.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "A web design consultation for your business"
+          "description": ""
         },
         {
-          "name": "Custom Web Development",
-          "price": "€3,000",
+          "name": "€80.00",
+          "price": "€80.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "A custom web development service for your business"
+          "description": ""
+        },
+        {
+          "name": "€90.00",
+          "price": "€90.00",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": ""
+        },
+        {
+          "name": "€100.00",
+          "price": "€100.00",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": ""
         }
       ],
-      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer. The project offers a range of services, including custom web design, personalized web development, e-commerce website development, web maintenance and updates, custom web application development, web security audits, custom web hosting, web design consultations, and custom web development.",
+      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer. The project includes a personalized project tailored to your needs, a customized website, an e-commerce solution, a responsive design, a content management system, SEO optimization, social media integration, email marketing, a custom logo, domain registration, and more.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -616821,7 +617147,81 @@
       },
       "raw_html_hash": "ce117496fb91be09",
       "raw_fetched_at": "2026-10-23T04:47:37.803235+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "I had nowhere to put my snowboard. My dorm won't let you drill into the walls, so it lived on the floor. So I built SPINE: designed in my dorm, printed on campus printers and tested on my own bed.",
+      "ai_highlights_en": [
+        "Every key comes with all 3 shims, so you never have to guess your rail size.",
+        "Built to hold: I hung a printed V7 key on my loft rail and kept adding weight: a backpack, bags and then my snowboard.",
+        "Production keys will be molded in glass-filled nylon, which is stiffer and tougher than the plastic I print with."
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Glass-filled nylon"
+        ],
+        [
+          "Weight limit",
+          "To be determined"
+        ],
+        [
+          "Shim size",
+          "1/4 in steps"
+        ],
+        [
+          "Price",
+          "$29,999"
+        ],
+        [
+          "Mold cost",
+          "$17,000"
+        ],
+        [
+          "Production cost",
+          "$10,000"
+        ],
+        [
+          "Shipping cost",
+          "$2,700"
+        ],
+        [
+          "Kickstarter fees",
+          "9%"
+        ],
+        [
+          "Estimated delivery",
+          "July 2027"
+        ]
+      ],
+      "ai_risks_en": "Fit: bed rails vary. Strength: on the newest key, the shims slide in and lock like they should. Production: the biggest unknown is the mold.",
+      "ai_creator_bio_en": "I’m Emmett Davidson, 18, a business student at the University of Utah, minoring in Business AI through a study abroad program in South Korea.",
+      "ai_tiers": [
+        {
+          "name": "Maker",
+          "price": "$15",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Everything to print SPINE yourself: the key STL, the Ski &amp; Snowboard Head STL, the head template (exact ladder dimensions + a blank head file) and the in-between shim."
+        },
+        {
+          "name": "Early Bird",
+          "price": "$39",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "A pair of SPINE Keys (each with all 3 shims) and 2 Ski &amp; Snowboard Heads. Holds one board or one pair of skis."
+        },
+        {
+          "name": "SPINE Pair",
+          "price": "$59",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "A pair of SPINE Keys (each with all 3 shims) and 2 Ski &amp; Snowboard Heads. Holds one board or one pair of skis."
+        }
+      ],
+      "ai_description_en": "SPINE is a product designed to hold your snowboard or skis. It consists of a key and a head that can be attached to a bed rail. The key is made of glass-filled nylon and has a weight limit to be determined. The head is also made of glass-filled nylon and has a weight limit to be determined. The product is designed to be reusable and recyclable.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2078276875",
@@ -629583,7 +629983,7 @@
         },
         {
           "spec_name": "Warranty",
-          "spec_value": "Consumer protection rules apply in your country, 1 year warranty"
+          "spec_value": "Consumer protection rules apply in your country"
         }
       ],
       "ai_risks_en": "Scaling production, keeping every unit consistent, and fulfilling orders on time if demand grows quickly",
@@ -629617,7 +630017,7 @@
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-10-22T09:29:05.494388Z",
-      "ai_description_en": "Azryon.Global First created &nbsp;•&nbsp; 1 backed We build projects &amp; bring bold ideas to life Follow along so you don't miss a launch Support Make a pledge without a reward Pledge amount € About $2 Back it because you believe in it. Support the project for no reward, just because it speaks to you. Available rewards"
+      "ai_description_en": "SMART TAG AZ SERIES by AZRYON is covered by the consumer protection rules that apply in your country. Manufacturing defects NFC chip not working, tag not readable, or any fault caused by production or assembly. Damage during shipping Tags that arrive broken, scratched, or visibly damaged in transit. Incorrect items Wrong model, color or quantity compared with what the backer selected. In these cases, AZRYON will repair, replace or refund the affected items in line with local consumer regulations and the legal warranty period that applies in your country. The warranty does not cover normal wear and tear, misuse, deliberate damage, or changes made by the user (for example, modifying the tag physically). AZRYON aims to answer all messages within a few working days and will work directly with backers to resolve any problem related to their SMART TAG. FOR BUISNESS PROPOSALS/SOCIAL MEDIA MARKETING OR BIG ORDERS PLEASE EMAIL:&nbsp; azryon.global@gmail.com"
     },
     {
       "id": "ks-1511596557",
