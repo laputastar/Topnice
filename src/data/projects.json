@@ -7314,7 +7314,109 @@
       },
       "raw_html_hash": "b8c9e78e6ed8b6ea",
       "raw_fetched_at": "2026-10-22T17:38:01.433571+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "The WUBEN G6 is a compact, lightweight flashlight designed for everyday use. It offers adjustable brightness from 1 to 500 lumens and a beam distance of up to 66 m. The G6 also features a side light for close-up tasks and a compact red/blue indicator for added versatility.",
+      "ai_highlights_en": [
+        "Adjustable brightness from 1 to 500 lumens",
+        "Compact design for everyday carry",
+        "Side light for close-up tasks and indicator for added versatility"
+      ],
+      "ai_specs_en": [
+        [
+          "Beam Distance",
+          "66 m"
+        ],
+        [
+          "Brightness",
+          "1-500 lumens"
+        ],
+        [
+          "Material",
+          "7075 aerospace-grade aluminum (Standard) / Stonewashed titanium alloy (Premium)"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Battery",
+          "400 mAh"
+        ],
+        [
+          "Switch",
+          "Light press with clear, direct tactile feedback"
+        ],
+        [
+          "Clip",
+          "Concealed, three-way rotating clip"
+        ],
+        [
+          "Indicator",
+          "Compact red/blue indicator"
+        ]
+      ],
+      "ai_risks_en": "The campaign may fail to reach its funding goal due to limited market demand or insufficient promotion. Product development may encounter design, quality, or testing problems. Manufacturing delays, rising costs, and supply chain disruptions may affect delivery.",
+      "ai_creator_bio_en": "WUBEN is a leading producer of premium EDC flashlights, rechargeable LED flashlights, and bike lights, founded in 2016.",
+      "ai_tiers": [
+        {
+          "name": "Wuben G6 Standard x1",
+          "price": "HK$ 267",
+          "price_usd": "HK$ 267",
+          "currency": "HKD",
+          "backers": "300",
+          "description": "The WUBEN G6 Standard x1 includes the flashlight and a standard color"
+        },
+        {
+          "name": "Wuben G6 Standard x2",
+          "price": "HK$ 515",
+          "price_usd": "HK$ 515",
+          "currency": "HKD",
+          "backers": "200",
+          "description": "The WUBEN G6 Standard x2 includes the flashlight and two standard colors"
+        },
+        {
+          "name": "Wuben G6 Premium x1",
+          "price": "HK$ 706",
+          "price_usd": "HK$ 706",
+          "currency": "HKD",
+          "backers": "175",
+          "description": "The WUBEN G6 Premium x1 includes the flashlight and a premium color"
+        },
+        {
+          "name": "Wuben G6 Standard x3",
+          "price": "HK$ 741",
+          "price_usd": "HK$ 741",
+          "currency": "HKD",
+          "backers": "17",
+          "description": "The WUBEN G6 Standard x3 includes the flashlight and three standard colors"
+        },
+        {
+          "name": "Wuben G6 Premium x2",
+          "price": "HK$ 1,335",
+          "price_usd": "HK$ 1,335",
+          "currency": "HKD",
+          "backers": "24",
+          "description": "The WUBEN G6 Premium x2 includes the flashlight and two premium colors"
+        },
+        {
+          "name": "Wuben G6 Standard x1",
+          "price": "HK$ 235",
+          "price_usd": "HK$ 235",
+          "currency": "HKD",
+          "backers": "300",
+          "description": "The WUBEN G6 Standard x1 includes the flashlight and a standard color"
+        },
+        {
+          "name": "Wuben G6 Standard x2",
+          "price": "HK$ 470",
+          "price_usd": "HK$ 470",
+          "currency": "HKD",
+          "backers": "200",
+          "description": "The WUBEN G6 Standard x2 includes the flashlight and two standard colors"
+        }
+      ],
+      "ai_description_en": "The WUBEN G6 is a compact, lightweight flashlight designed for everyday use. It offers adjustable brightness from 1 to 500 lumens and a beam distance of up to 66 m. The G6 also features a side light for close-up tasks and a compact red/blue indicator for added versatility. The flashlight is made from durable 7075 aerospace-grade aluminum alloy and has a high-density 400 mAh battery. It also features a light press switch with clear, direct tactile feedback and a concealed, three-way rotating clip. The G6 is available in standard and premium versions, with the premium version made from stonewashed titanium alloy.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2035316328",
@@ -35314,108 +35416,116 @@
       "raw_html_hash": "ce7321da049fb591",
       "raw_fetched_at": "2026-08-06T04:18:19.717830+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Meet Litejam Acoustic Neo A1, a revolutionary guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike.",
+      "ai_intro_en": "Meet Litejam Acoustic Neo A1, the revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and built-in LED fretboard, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike.",
       "ai_highlights_en": [
-        "Learn guitar faster with real-time LED guidance",
         "Practice common chord progressions in every key",
-        "Switch instantly between Strumming and Fingerpicking modes"
+        "Switch instantly between Strumming and Fingerpicking",
+        "Adjustable tempo for every skill level"
       ],
       "ai_specs_en": [
         [
-          "Body",
-          "Carbon Fiber"
+          "Fretboard",
+          "88+ RGB LEDs"
         ],
         [
-          "Battery",
-          "Rechargeable (up to 5-8 hours)"
+          "Scale Mode",
+          "12 Root Keys, 18 Scale Types per Key"
         ],
         [
-          "Neck",
-          "Roasted Maple"
+          "Chromatic Scale Practice",
+          "Preset or custom finger patterns"
         ],
         [
-          "Frets",
-          "24 Stainless Steel"
+          "Custom String Control",
+          "Turn on/off any strings"
+        ],
+        [
+          "LED Color",
+          "Customizable for techniques like Hammer-on, Pull-off, etc."
+        ],
+        [
+          "Tremolo System",
+          "Wilkinson 2-point tremolo system"
         ],
         [
           "Pickups",
-          "Litejam Neo Alnico V Humbucker Set"
+          "Custom-designed Alnico V humbuckers"
         ],
         [
-          "Tremolo",
-          "Wilkinson 2-Point Tremolo"
+          "Body",
+          "Carbon Fiber Composite Body"
+        ],
+        [
+          "Neck",
+          "Roasted Maple Neck"
+        ],
+        [
+          "Frets",
+          "Stainless Steel 24 Frets"
+        ],
+        [
+          "Tuners",
+          "Premium Machine Heads"
+        ],
+        [
+          "Battery",
+          "Rechargeable 4000mAh battery"
         ]
       ],
-      "ai_risks_en": "The project is subject to risks related to manufacturing, supply chain, and market demand.",
+      "ai_risks_en": "The project is subject to risks such as manufacturing delays, material shortages, and changes in market demand.",
       "ai_creator_bio_en": "Litejam is a company that aims to make music learning simple, visual, and fun.",
       "ai_tiers": [
         {
           "name": "Back this project",
-          "price": "$500",
+          "price": null,
           "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Back this project and support the development of Litejam Acoustic Neo A1"
+        },
+        {
+          "name": "Remind me",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Remind me to back this project"
+        },
+        {
+          "name": "Learn Fingerpicking",
+          "price": "$299",
+          "price_usd": "$299",
           "currency": "$",
           "backers": null,
-          "description": "Unlock 10 Interactive Classical Fingerstyle Lessons"
+          "description": "Learn fingerpicking with Litejam's interactive LED fretboard"
         },
         {
           "name": "Litejam Guitar Academy",
-          "price": "$750",
-          "price_usd": null,
+          "price": "$499",
+          "price_usd": "$499",
           "currency": "$",
           "backers": null,
-          "description": "A premium beginner course included FREE"
+          "description": "Get a comprehensive beginner guitar course with Litejam"
         },
         {
           "name": "1-Year Litejam Play Pass",
-          "price": "$1,000",
-          "price_usd": null,
+          "price": "$999",
+          "price_usd": "$999",
           "currency": "$",
           "backers": null,
-          "description": "Unlock thousands of songs inside Play Mode"
+          "description": "Unlock thousands of songs inside Play Mode for 1 year"
         },
         {
           "name": "AI Backing Track Studio",
-          "price": "$1,500",
-          "price_usd": null,
+          "price": "$1,499",
+          "price_usd": "$1,499",
           "currency": "$",
           "backers": null,
-          "description": "Practice like you’re playing with a real band"
-        },
-        {
-          "name": "Stretch Goal 1: Classical Fingerstyle Pack",
-          "price": "$500",
-          "price_usd": null,
-          "currency": "$",
-          "backers": null,
-          "description": "Unlock 10 Interactive Classical Fingerstyle Lessons"
-        },
-        {
-          "name": "Stretch Goal 2: Litejam Guitar Academy",
-          "price": "$750",
-          "price_usd": null,
-          "currency": "$",
-          "backers": null,
-          "description": "A premium beginner course included FREE"
-        },
-        {
-          "name": "Stretch Goal 3: 1-Year Litejam Play Pass",
-          "price": "$1,000",
-          "price_usd": null,
-          "currency": "$",
-          "backers": null,
-          "description": "Unlock thousands of songs inside Play Mode"
-        },
-        {
-          "name": "Stretch Goal 4: AI Backing Track Studio",
-          "price": "$1,500",
-          "price_usd": null,
-          "currency": "$",
-          "backers": null,
-          "description": "Practice like you’re playing with a real band"
+          "description": "Practice like you're playing with a real band with AI-powered backing tracks"
         }
       ],
       "ai_source": "raw_html",
-      "ai_description_en": "The Litejam Neo A1 is a revolutionary guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike. The guitar features a range of innovative features, including a built-in LED fretboard, smart bass mode, and a customizable LED color for every technique. The Litejam Neo A1 is also equipped with a range of stretch goals, including unlocking 10 interactive classical fingerstyle lessons, a premium beginner course, and a 1-year play pass. The project aims to make music learning simple, visual, and fun, and to build a platform where anyone can learn songs, chords, scales, fingerstyle, and performance naturally through visual guidance.",
+      "ai_description_en": "Litejam Acoustic Neo A1 is a revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and built-in LED fretboard, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike. The project aims to make music learning simple, visual, and fun, and the team is committed to building an interactive music learning ecosystem that combines smart hardware, AI learning, interactive lessons, songs with STEM experience, music games, and a creator marketplace.",
       "ended_at": "2026-10-22T09:29:05.491909Z"
     },
     {
@@ -39927,7 +40037,125 @@
       },
       "raw_html_hash": "26f43eea53bb1535",
       "raw_fetched_at": "2026-10-20T17:18:31.271273+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "FR-NIA is an 11-inch portable expressive robot designed to bring a new kind of interactive presence into everyday life. With lifelike facial expressions, head movements, and natural voice interaction, NIA makes everyday moments feel a little more engaging, whether you're working, creating, or simply enjoying some time to yourself.",
+      "ai_highlights_en": [
+        "With 10 degrees of freedom — 7 in the face and 3 in the neck — FR-NIA brings expressions to life through real physical movement.",
+        "FR-NIA is designed to remember. With cloud-based long-term memory, NIA can retain meaningful conversations, personal preferences, and moments you've shared together.",
+        "NIA's compact, portable design makes it easy to bring her on road trips, daily commutes, or weekend getaways."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Actuation System",
+          "spec_value": "<0.1 N control accuracy and up to 50 N·m/kg torque density"
+        },
+        {
+          "spec_name": "Facial DOF",
+          "spec_value": "7 degrees of freedom"
+        },
+        {
+          "spec_name": "Neck DOF",
+          "spec_value": "3 degrees of freedom"
+        },
+        {
+          "spec_name": "Processor",
+          "spec_value": "H618"
+        },
+        {
+          "spec_name": "Battery",
+          "spec_value": "Rechargeable"
+        },
+        {
+          "spec_name": "Camera",
+          "spec_value": "Included"
+        },
+        {
+          "spec_name": "Audio Zones",
+          "spec_value": "Independent"
+        },
+        {
+          "spec_name": "Memory",
+          "spec_value": "Cloud-based long-term memory"
+        },
+        {
+          "spec_name": "Language Support",
+          "spec_value": "English, Chinese, Japanese, French, German, Spanish, Italian, Portuguese, Korean"
+        },
+        {
+          "spec_name": "Operating System",
+          "spec_value": "Figurobot App"
+        },
+        {
+          "spec_name": "Power",
+          "spec_value": "Optimized motor control"
+        },
+        {
+          "spec_name": "Thermal Performance",
+          "spec_value": "Lower Heat. More Stable Performance."
+        }
+      ],
+      "ai_risks_en": "FR-NIA is a complex robotics product that integrates precision mechanics, electronics, expressive motion systems, silicone components, embedded software, and the Figurobot App. The key risks include manufacturing consistency, component availability, certification, quality control, and international shipping.",
+      "ai_creator_bio_en": "I plan to use AI-generated content in my project. AI-generated images are used selectively as supporting visual materials on our project page, such as concept illustrations, graphic backgrounds, and promotional visuals.",
+      "ai_tiers": [
+        {
+          "name": "FR-NIA Pro",
+          "price": 5916,
+          "price_usd": 799,
+          "currency": "HKD",
+          "backers": 31,
+          "description": "The complete NIA experience, ready out of the box. FR-NIA Pro comes with a styled wig and painted face skin, and adds independent audio zones plus 3 months of Multi-Look access."
+        },
+        {
+          "name": "FR-NIA Pro Max",
+          "price": 78235,
+          "price_usd": 999,
+          "currency": "HKD",
+          "backers": 2,
+          "description": "The most complete NIA experience, with more power and more ways to customize. FR-NIA Pro Max features the upgraded RK3566 processor, independent audio zones, and 6 months of Multi-Look access."
+        },
+        {
+          "name": "FR-NIA Lite",
+          "price": 3131,
+          "price_usd": 399,
+          "currency": "HKD",
+          "backers": 7,
+          "description": "Start your FR-NIA journey with a customizable desktop expressive robot. Lite features a wig-free design and unpainted face skin, offering a blank canvas for your own creations."
+        },
+        {
+          "name": "FR-NIA Lite HK",
+          "price": 4698,
+          "price_usd": 599,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Start your FR-NIA journey with a customizable desktop expressive robot. Lite features a wig-free design and unpainted face skin, offering a blank canvas for your own creations."
+        },
+        {
+          "name": "Super Early Bird FR-NIA",
+          "price": 3916,
+          "price_usd": 499,
+          "currency": "HKD",
+          "backers": 22,
+          "description": "Bring FR-NIA to life with a complete, ready-to-enjoy expressive robot. Pro features a styled wig and makeup-finished face skin, giving NIA a distinctive look right out of the box."
+        },
+        {
+          "name": "Super Early Bird FR-NIA Lite",
+          "price": 3131,
+          "price_usd": 399,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Start your FR-NIA journey with a customizable desktop expressive robot. Lite features a wig-free design and unpainted face skin, offering a blank canvas for your own creations."
+        },
+        {
+          "name": "Super Early Bird FR-NIA Pro",
+          "price": 5486,
+          "price_usd": 699,
+          "currency": "HKD",
+          "backers": 31,
+          "description": "Experience the most complete FR-NIA configuration with Pro Max. Featuring a styled wig, makeup-finished face skin, and an upgraded processor, Pro Max offers greater flexibility for customization and everyday interaction."
+        }
+      ],
+      "ai_description_en": "FR-NIA is an 11-inch portable expressive robot designed to bring a new kind of interactive presence into everyday life. With lifelike facial expressions, head movements, and natural voice interaction, NIA makes everyday moments feel a little more engaging, whether you're working, creating, or simply enjoying some time to yourself. FR-NIA is designed to remember. With cloud-based long-term memory, NIA can retain meaningful conversations, personal preferences, and moments you've shared together. NIA's compact, portable design makes it easy to bring her on road trips, daily commutes, or weekend getaways.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-980166566",
@@ -62190,7 +62418,125 @@
       },
       "raw_html_hash": "a5a0d6fd50c8e857",
       "raw_fetched_at": "2026-10-20T17:20:23.305613+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Bufo Labs First created  •  0 backed Solo maker behind Bufo Labs. I built BB for my long distance girlfriend, and after seven prototypes, he's ready to hug you too :)",
+      "ai_highlights_en": [
+        "BB is big, so he needs to be compressed for the trip to keep shipping affordable.",
+        "Our promise: we won't ship BB until he comes out of the box looking and feeling like the one on this page.",
+        "Long-lasting design Reinforced stitching and removable beanbags that can be reheated again and again."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Weight",
+          "spec_value": "6lbs"
+        },
+        {
+          "spec_name": "Height",
+          "spec_value": "Over 2 feet tall"
+        },
+        {
+          "spec_name": "Material",
+          "spec_value": "Natural flaxseed"
+        },
+        {
+          "spec_name": "Shipping",
+          "spec_value": "Estimated delivery Feb 2027"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "US$ 129"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "US$ 109"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "US$ 19"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "US$ 250"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "US$ 329"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "US$ 419"
+        }
+      ],
+      "ai_risks_en": "Our promise: we won't ship BB until he comes out of the box looking and feeling like the one on this page.",
+      "ai_creator_bio_en": "Solo maker behind Bufo Labs.",
+      "ai_tiers": [
+        {
+          "name": "The Full Hug",
+          "price": 129,
+          "price_usd": 129,
+          "currency": "USD",
+          "backers": 2,
+          "description": "BB plus everything that comes with him."
+        },
+        {
+          "name": "Everything But the Penguin",
+          "price": 19,
+          "price_usd": 19,
+          "currency": "USD",
+          "backers": 0,
+          "description": "The tote bag and sticker pack, no BB."
+        },
+        {
+          "name": "Early Bird",
+          "price": 109,
+          "price_usd": 109,
+          "currency": "USD",
+          "backers": 2,
+          "description": "BB for $10 less than the standard price, for the first 50 backers only."
+        },
+        {
+          "name": "The Little Spoon",
+          "price": 119,
+          "price_usd": 119,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Just BB!"
+        },
+        {
+          "name": "A Waddle of Two",
+          "price": 229,
+          "price_usd": 229,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Two BBs - one for you, and one for someone you can't hug as often as you'd like."
+        },
+        {
+          "name": "Name Your BB",
+          "price": 250,
+          "price_usd": 250,
+          "currency": "USD",
+          "backers": 0,
+          "description": "BB with a name of your choice embroidered on him, plus a tote bag and sticker pack."
+        },
+        {
+          "name": "A Small Waddle",
+          "price": 329,
+          "price_usd": 329,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Three BBs for the people who need a hug most (yourself included)."
+        },
+        {
+          "name": "A Proper Waddle",
+          "price": 419,
+          "price_usd": 419,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Four BBs. A full waddle, for a whole family, a friend group, or the most well-hugged person alive."
+        }
+      ],
+      "ai_description_en": "Bufo Labs First created  •  0 backed Solo maker behind Bufo Labs. I built BB for my long distance girlfriend, and after seven prototypes, he's ready to hug you too :)\n\nOur promise: we won't ship BB until he comes out of the box looking and feeling like the one on this page.\n\nLong-lasting design Reinforced stitching and removable beanbags that can be reheated again and again.\n\nMaking him at scale. This is our first full production run. Before it starts, we'll sign off a final sample from the factory, and we'll check the first finished BBs against the ones you see on this page before anything ships. If something isn't right, we fix it before it reaches you, not after.\n\nTiming. Production, sea freight and customs can all move. Our estimated delivery date is our honest best estimate, and if anything changes, you'll hear it from us in an update - early, not late, and with the reason why.\n\nShipping costs. The shipping estimates on each reward are based on the best quotes we've been able to get from our fulfillment partner today. Carrier rates can change between now and when BB ships, and so can the size of his box (see above), so the final cost is charged after the campaign, based on where you live. If it changes, we'll explain why in an update before you're charged. Customs duty or VAT, where your country charges it, is also worked out after the campaign.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-311710128",
@@ -62562,7 +62908,81 @@
       },
       "raw_html_hash": "a026df1402f62882",
       "raw_fetched_at": "2026-10-23T17:32:09.441402+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Introducing Stowey, a travel companion designed for longevity and sustainability. With a meticulously crafted design and high-quality materials, Stowey is built to withstand the rigors of travel and everyday life.",
+      "ai_highlights_en": [
+        "Long-lasting design engineered for longevity",
+        "Reusability and recyclability for a sustainable future",
+        "Hyper-local production with minimal shipping costs"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Materials",
+          "spec_value": "High-quality materials"
+        },
+        {
+          "spec_name": "Design",
+          "spec_value": "Meticulously crafted design"
+        },
+        {
+          "spec_name": "Guarantee",
+          "spec_value": "10-Year guarantee"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "€49 / $55"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "€89 / $100"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "€108 / $122"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "€169 / $190"
+        }
+      ],
+      "ai_risks_en": "Unexpected shipping and international bureaucracy setup issues may affect the expected shipping time of December 2026.",
+      "ai_creator_bio_en": "Stowey is a travel companion designed for longevity and sustainability.",
+      "ai_tiers": [
+        {
+          "name": "5-Pack Stowey",
+          "price": 49,
+          "price_usd": 55,
+          "currency": "EUR",
+          "backers": 39,
+          "description": "5-Pack Stowey"
+        },
+        {
+          "name": "10-Pack Stowey",
+          "price": 89,
+          "price_usd": 100,
+          "currency": "EUR",
+          "backers": 6,
+          "description": "10-Pack Stowey"
+        },
+        {
+          "name": "15-Pack Stowey",
+          "price": 108,
+          "price_usd": 122,
+          "currency": "EUR",
+          "backers": 5,
+          "description": "15-Pack Stowey"
+        },
+        {
+          "name": "25-Pack Stowey",
+          "price": 169,
+          "price_usd": 190,
+          "currency": "EUR",
+          "backers": 2,
+          "description": "25-Pack Stowey"
+        }
+      ],
+      "ai_description_en": "Stowey is a travel companion designed for longevity and sustainability. With a meticulously crafted design and high-quality materials, Stowey is built to withstand the rigors of travel and everyday life. We offer a 10-Year guarantee and prioritize reusability and recyclability for a sustainable future.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-108349800",
@@ -87581,7 +88001,129 @@
       },
       "raw_html_hash": "f10df1fdd00a0426",
       "raw_fetched_at": "2026-10-17T04:21:29.305130+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Hello- we're Silver Fox Tools and back with our forth Kickstarter campaign. We are a Everyday Carry (EDC) company based in the Highlands of Scotland, designing functional pocket tools and leather wallets with a vintage aesthetic. Built to be legacy pieces, the Silver Fox Tools logo is a hallmark of excellence, and our EDC products are intended to be items passed down the generations.",
+      "ai_highlights_en": [
+        "A torch that has classic form and modern day function",
+        "Efficient LED technology with a familiar nostalgic look",
+        "Grade 5 Titanium or Solid Brass Body, AAA 350mAh USB rechargeable battery, and IPX6 Water resistance"
+      ],
+      "ai_specs_en": [
+        [
+          "Grade",
+          "5"
+        ],
+        [
+          "Material",
+          "Titanium or Solid Brass"
+        ],
+        [
+          "Length",
+          "114mm/5.5 inches"
+        ],
+        [
+          "Width",
+          "22mm/0.8inches"
+        ],
+        [
+          "Weight",
+          "Titanium 75 grams"
+        ],
+        [
+          "Weight",
+          "Brass 120 grams"
+        ],
+        [
+          "Battery",
+          "AAA 350mAh USB rechargeable"
+        ],
+        [
+          "LED",
+          "Nichia 519A R9080 4000k"
+        ],
+        [
+          "Water resistance",
+          "IPX6"
+        ],
+        [
+          "Power modes",
+          "Low: 17 Lumens, Medium: 97 Lumens, High: 241 Lumens"
+        ],
+        [
+          "Lanyard",
+          "Function"
+        ]
+      ],
+      "ai_risks_en": "This is our forth Kickstarter campaign, and we are not new to producing quality tools. That said, while there maybe new unforeseen challenges, we feel we have allocated time to overcome any possible hurdles.",
+      "ai_creator_bio_en": "The team at Silver Fox share a passion for cool design and products that last and improve over time.",
+      "ai_tiers": [
+        {
+          "name": "Brass Davy - EARLY BIRD",
+          "price": 46,
+          "price_usd": 62,
+          "currency": "GBP",
+          "backers": 85,
+          "description": "Get the Brass Davy Torch for 30% off retail price. Cheapest Price this will ever be."
+        },
+        {
+          "name": "Titanium Davy - EARLY BIRD",
+          "price": 52,
+          "price_usd": 70,
+          "currency": "GBP",
+          "backers": 53,
+          "description": "Get the Titanium Davy Torch for 30% off retail price. Cheapest Price this will ever be."
+        },
+        {
+          "name": "Brass Davy Torch",
+          "price": 52,
+          "price_usd": 70,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Kickstarter special price with 20% off retail."
+        },
+        {
+          "name": "Titanium Davy Torch",
+          "price": 60,
+          "price_usd": 80,
+          "currency": "GBP",
+          "backers": 1,
+          "description": "Kickstarter special price with 20% off retail."
+        },
+        {
+          "name": "Combo - EARLY BIRD",
+          "price": 98,
+          "price_usd": 131,
+          "currency": "GBP",
+          "backers": 37,
+          "description": "Get both Brass and Titanium for 30% off retail price. Cheapest Price this will ever be."
+        },
+        {
+          "name": "Combo Set",
+          "price": 112,
+          "price_usd": 150,
+          "currency": "GBP",
+          "backers": 1,
+          "description": "Get both Brass and Titanium for the Kickstarter special price with 20% off retail."
+        },
+        {
+          "name": "Brass Davy x 4",
+          "price": 184,
+          "price_usd": 246,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Get four of the Brass Davy with 30% off retail price."
+        },
+        {
+          "name": "Titanium Davy x4",
+          "price": 210,
+          "price_usd": 280,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Get four of the Titanium Davy with 30% off retail price."
+        }
+      ],
+      "ai_description_en": "This torch isn't just made to look good. We believe tools are there to be used, carried on adventures, kept in the workshop, taken camping, stored in the car or simply left by the back door for those moments when you need a reliable source of light. Made to honor an icon. Built to be used everyday.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1481078975",
@@ -88643,7 +89185,81 @@
       },
       "raw_html_hash": "a27f51e25a558670",
       "raw_fetched_at": "2026-10-21T17:37:48.354155+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Redefine your perfect brewing ritual anytime, anywhere with Pivotte, a modular, pocket-sized micro-brewing system that ingeniously bridges the gap between pour-over coffee and the Eastern tea ceremony.",
+      "ai_highlights_en": [
+        "Innovative Swirl Control: Rotate to Your Heart’s Content Thanks to the precision-engineered swirl structure, a gentle twist allows for stepless adjustment of extraction flow rate and concentration.",
+        "Restoring Pure Flavor Precision microporous and paperless mineral filtration technology perfectly preserves the natural flavor compounds in tea and coffee, delivering a richer, more nuanced taste experience.",
+        "Burn-Resistant Design: Made from eco-friendly materials, it provides reliable heat insulation and protection against burns: Comes with high-quality silicone identification rings in black, purple, and orange, offering burn protection and a non-slip grip."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "High-fired ceramic"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "As lightweight as a smartphone"
+        },
+        {
+          "spec_name": "Flow Rate Adjustment",
+          "spec_value": "24 levels of micro-pore flow rate adjustment"
+        },
+        {
+          "spec_name": "Temperature",
+          "spec_value": "1,300°C"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$59 KS SpecialX1"
+        }
+      ],
+      "ai_risks_en": "Manufacturing and global fulfillment present their own set of challenges, but our team is fully prepared to navigate them.",
+      "ai_creator_bio_en": "Jellop, the ad tech power behind the best Kickstarters with 3,500+ successful Kickstarter projects with over $1B raised between them.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 59,
+          "price_usd": 59,
+          "currency": "USD",
+          "backers": 7,
+          "description": "Purchase one PIVOTTE Portable Brewing Set at the early-bird special price—but hurry, while supplies last!"
+        },
+        {
+          "name": "KS SpecialX1",
+          "price": 69,
+          "price_usd": 69,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Purchase one PIVOTTE Portable Brewing Set at the Kickstarter special price! (35% off the retail price)"
+        },
+        {
+          "name": "KS SpecialX2",
+          "price": 118,
+          "price_usd": 118,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Purchase TWO PIVOTTE Portable Brewing Sets at our special Kickstarter price—perfect for sharing or gifting!"
+        },
+        {
+          "name": "Pivotte Ultimate Package",
+          "price": 125,
+          "price_usd": 125,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get the ultimate all-in-one PIVOTTE bundle! Includes the complete brewing set along with all premium accessories at our best value price"
+        },
+        {
+          "name": "KS SpecialX5",
+          "price": 288,
+          "price_usd": 288,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Purchase FIVE PIVOTTE Portable Brewing Sets at our biggest Kickstarter discount—ideal for group buys, family, and friends!"
+        }
+      ],
+      "ai_description_en": "Pivotte is a modular, pocket-sized micro-brewing system that ingeniously bridges the gap between pour-over coffee and the Eastern tea ceremony. With precise rotary valve control, you can customize the extraction rate, flow rate, and steeping time to your heart’s content. Pivotte is more than just a set of brewing tools—it’s our redefinition of the coffee and tea lifestyle.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-360307240",
@@ -134062,126 +134678,66 @@
       },
       "raw_html_hash": "bd03fc9c11a227c2",
       "raw_fetched_at": "2026-08-04T14:51:09.625335+00:00",
-      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, helping you understand your sleep patterns and make meaningful adjustments. With 2,000 nights of clinical validation, Sleepal reduces snoring, provides sleep-aware aid and alarm, and is smart home ready. No camera is required, and privacy is first.",
+      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, providing 2,000 nights of clinical validation. It helps reduce snoring, sleep position, and bedroom environment to create the perfect sleep environment.",
       "ai_highlights_en": [
-        "Help reduce snoring with Sleepal's clinical validation",
-        "Sleep-Aware Aid & Alarm for a restful sleep",
-        "Smart home ready for seamless integration"
+        "Sleepal tracks respiratory rate with an RMSE below 2 breaths per minute when benchmarked against medical-grade devices.",
+        "The system integrates sound, thermal sensing, ambient light, temperature, and humidity into a multimodal sensing system.",
+        "Sleepal keeps the alarm active until you get out of bed, no more turning off alarms and falling back asleep."
       ],
       "ai_specs_en": [
-        [
-          "Temperature",
-          "Room temperature"
-        ],
-        [
-          "Humidity",
-          "Room humidity"
-        ],
-        [
-          "Light Exposure",
-          "Room light exposure"
-        ],
-        [
-          "Noise Levels",
-          "Room noise levels"
-        ],
-        [
-          "Radar",
-          "mmWave radar"
-        ],
-        [
-          "Thermal",
-          "thermal array sensors"
-        ],
-        [
-          "Audio",
-          "sound"
-        ],
-        [
-          "AI",
-          "AI-driven core functionalities"
-        ],
-        [
-          "Subscription",
-          "Sleepal AI+ subscription"
-        ],
-        [
-          "Materials",
-          "durable materials"
-        ],
-        [
-          "Packaging",
-          "recyclable packaging materials"
-        ],
-        [
-          "Certifications",
-          "Matter functional certifications"
-        ]
+        {
+          "spec_name": "Respiratory Rate",
+          "spec_value": "RMSE below 2 breaths per minute"
+        },
+        {
+          "spec_name": "Sensing Technology",
+          "spec_value": "Multimodal sensing system (sound, thermal, ambient light, temperature, humidity)"
+        },
+        {
+          "spec_name": "Alarm Functionality",
+          "spec_value": "Keeps alarm active until user gets out of bed"
+        }
       ],
-      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&amp;D, industrial design, mass production, and after-sales service.",
-      "ai_creator_bio_en": "Sleepal is created by Sleepal, a company dedicated to building something truly helpful, rooted in real science.",
+      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&D, industrial design, mass production, and after-sales service.",
+      "ai_creator_bio_en": "Sleepal is developed by Sleepal, a Hong Kong-based company.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": 999,
-          "price_usd": 129,
+          "price": 1998,
+          "price_usd": 249,
           "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal 1 month before anyone else"
+          "description": "Get Sleepal 1 month before the general public"
         },
         {
           "name": "Standard",
-          "price": 1499,
-          "price_usd": 191,
+          "price": 2498,
+          "price_usd": 315,
           "currency": "HKD",
           "backers": null,
           "description": "Get Sleepal with a 1-year subscription"
         },
         {
           "name": "Premium",
-          "price": 1999,
-          "price_usd": 253,
+          "price": 3498,
+          "price_usd": 425,
           "currency": "HKD",
           "backers": null,
           "description": "Get Sleepal with a 2-year subscription"
         },
         {
           "name": "VIP",
-          "price": 2999,
-          "price_usd": 383,
+          "price": 4998,
+          "price_usd": 625,
           "currency": "HKD",
           "backers": null,
           "description": "Get Sleepal with a 3-year subscription"
-        },
-        {
-          "name": "Family",
-          "price": 3999,
-          "price_usd": 511,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Get Sleepal for 2 people with a 3-year subscription"
-        },
-        {
-          "name": "Business",
-          "price": 4999,
-          "price_usd": 643,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Get Sleepal for 3 people with a 3-year subscription"
-        },
-        {
-          "name": "Enterprise",
-          "price": 5999,
-          "price_usd": 767,
-          "currency": "HKD",
-          "backers": null,
-          "description": "Get Sleepal for 5 people with a 3-year subscription"
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.983779Z",
-      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks your sleep patterns and provides personalized insights to help you make meaningful adjustments. With 2,000 nights of clinical validation, Sleepal reduces snoring, provides sleep-aware aid and alarm, and is smart home ready. No camera is required, and privacy is first."
+      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks respiratory rate, sleep position, and bedroom environment to create the perfect sleep environment. It integrates with Apple Health and Google Fit and provides personalized insights to help users make meaningful adjustments. Sleepal also features a smart home integration, allowing users to adjust their bedroom environment with a single voice command."
     },
     {
       "id": "ks-40714950",
@@ -163405,7 +163961,7 @@
         },
         {
           "name": "Super Early Bird • Micro-Blasted Finish",
-          "price": 30634,
+          "price": 30334,
           "price_usd": 190,
           "currency": "EUR",
           "backers": 7,
@@ -163970,10 +164526,6 @@
         [
           "Price_USD",
           ""
-        ],
-        [
-          "Currency",
-          "EUR"
         ],
         [
           "Backers",
@@ -288866,11 +289418,11 @@
       "raw_html_hash": "899218244e17c95f",
       "raw_fetched_at": "2026-07-30T14:42:29.155863+00:00",
       "ai_validated": false,
-      "ai_intro_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage. But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence?  Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow. That’s why we made the V1 Pro Selfie Monitor Screen. It mirrors your rear camera to a screen you can watch while you’re in front of the lens. No more guessing. No more reshoots. Just full creative control, even when you’re filming alone.",
+      "ai_intro_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow.",
       "ai_highlights_en": [
-        "No apps, no Bluetooth, no endless settings—just plug in and go.",
-        "MagSafe-ready—snap it on and it stays put. No wobble, no slipping.",
-        "4K/120fps—Full Potential. Unleashed"
+        "No more guessing. No more reshoots. Just full creative control, even when you’re filming alone.",
+        "Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance.",
+        "MagSafe-ready—snap it on and it stays put. No wobble, no slipping."
       ],
       "ai_specs_en": [
         [
@@ -288886,8 +289438,12 @@
           "4 levels"
         ],
         [
-          "Ports",
-          "2 x USB-C"
+          "Resolution",
+          "4K/120fps"
+        ],
+        [
+          "Remote Trigger",
+          "Up to 15 meters"
         ],
         [
           "Battery Life",
@@ -288907,19 +289463,19 @@
         ],
         [
           "Color",
-          "Silver"
+          "Space Gray"
         ],
         [
           "Compatibility",
-          "iPhone 16e, iPhone 17e, iPhone Air"
+          "iPhone and Android"
         ],
         [
-          "Additional Features",
-          "Magnetic phone ring stand, Tripod & Selfie Stick"
+          "Ports",
+          "2 x USB-C"
         ]
       ],
-      "ai_risks_en": "Risks and challenges While we are confident in the development and delivery of V1 Pro, as with any new technology, there may be unforeseen challenges. We pledge transparency and proactive communication with our backers throughout the process, ensuring any risks are promptly addressed to uphold the trust placed in us.",
-      "ai_creator_bio_en": "Cardon 4 created • 3 backed At Cardon, we are passionate about creating everyday essentials that blend sophistication with cutting-edge functionality.",
+      "ai_risks_en": "While we are confident in the development and delivery of V1 Pro, as with any new technology, there may be unforeseen challenges. We pledge transparency and proactive communication with our backers throughout the process, ensuring any risks are promptly addressed to uphold the trust placed in us.",
+      "ai_creator_bio_en": "Cardon 4 created &nbsp;•&nbsp; 3 backed",
       "ai_tiers": [
         {
           "name": "Super Early Bird",
@@ -288959,7 +289515,7 @@
           "price_usd": 184,
           "currency": "USD",
           "backers": 3,
-          "description": "1 x Magnetic Phone Ring Stand, 1 x Tripod & Selfie Stick, 2 x V1 Pro Monitor Screen, 2 x Magnetic Mic &amp; Remote, 2 x C to C Cable, 2 x Metal Ring, 2 x User Manual, 2 - Year Warranty"
+          "description": "1 x Magnetic Phone Ring Stand, 1 x Tripod &amp; Selfie Stick, 2 x V1 Pro Monitor Screen, 2 x Magnetic Mic &amp; Remote, 2 x C to C Cable, 2 x Metal Ring, 2 x User Manual, 2 - Year Warranty"
         },
         {
           "name": "All gone",
@@ -288972,7 +289528,7 @@
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-10-22T09:29:05.492582Z",
-      "ai_description_en": "V1 Pro doesn’t limit your gear—it unleashes it. Enjoy buttery-smooth 4K at 120fps with zero lag and zero overheating. No extra apps needed—V1 Pro’s display syncs perfectly with your device, iPhone or Android, delivering the same high-quality output every time."
+      "ai_description_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow. No more guessing. No more reshoots. Just full creative control, even when you’re filming alone. Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance. MagSafe-ready—snap it on and it stays put. No wobble, no slipping. All-in-one— monitor, wireless mic, and remote , built for solo vloggers. The remote and mic merge into one compact unit that snaps magnetically onto the V1 Pro—always there when you need it, never lost. The mic features a detachable magnetic backplate that you place behind your collar or lapel—the magnet holds the mic firmly on the outside, no clips, no fuss. Built-in ENC &nbsp;keeps your voice crisp even from a distance. A 1.5-hour charge delivers about &nbsp;5.5 hours of use—enough for a full shoot. The remote triggers the shutter from up to&nbsp; 15&nbsp;meters &nbsp;away—no more blindly tapping the screen. And it pairs automatically the moment you take it off— no Bluetooth fuss , no phone settings. Just grab, clip, and go. V1 Pro doesn’t limit your gear—it unleashes it. Enjoy buttery-smooth 4K at 120fps with zero lag and zero overheating. No extra apps needed—V1 Pro’s display syncs perfectly with your device , iPhone or Android, delivering the same high-quality output every time. iPhone: up to &nbsp;4K at 120fps Android: up to &nbsp;8K at 30fps No compromise.No limits. Just pure, professional-grade monitoring. From iPhone to Android V1 Pro&nbsp;works with both iPhone and Android. If your phone has a USB-C port and supports DP Alt Mode, you're ready to go—no brand restrictions, no complicated setup. Enjoy a live rear-camera preview, frame every shot with confidence, and create better content with V1 Pro. At 2.41 inches , the V1 Pro’s screen is compact yet perfectly proportioned for framing your shot. With &nbsp;450 nits &nbsp;of brightness, it stays crisp even outdoors—and 4 adjustable brightness levels &nbsp;ensure you're never squinting indoors or straining under the sun. Whether you’re capturing or reviewing footage, every frame stays true to life, right when you need it. Two Ports. No Low Battery Running low on power mid-shoot? V1 Pro’s secondary USB-C port lets you plug in a power bank and charge your phone through the monitor. And since V1 Pro has no internal battery, there’s nothing to pre-charge —just grab and go. One cable for monitoring, another for power. All-day shooting, no interruptions. Rotate or Flip—One Button Does It All V1 Pro gives you full flexibility—no matter the angle. Portrait – horizontal flip or 180° rotation Landscape – vertical flip or 180° rotation No menus. No touchscreen fuss. Frame freely, shoot from any angle. Big Features. Tiny Footprint V1 Pro goes where you go. About the size of a credit card, just &nbsp;0.4in (10mm)&nbsp;thin &nbsp;and weighing only 0.13 lb (58g) —it slips into your pocket or bag and you’ll barely notice it’s there. There’s also a lanyard hole , so you can add your own strap for extra convenience. Big on function, small on footprint. Who It’s For More Gear. More Possibilities 1. Extra-Long Cables The standard 5.4in &nbsp;( 13.7cm , including connectors) dual USB-C cable ( yellow ) is perfect for everyday use—compact, tangle-free, and always ready. Need more room to move? We’ve got you covered with optional black &nbsp;cables in 6.3in (16cm) &nbsp;and 10.2in (26cm) . Whether you’re mounting your phone on a gimbal or positioning your monitor further away, choose the length that fits your setup. 2. Magnetic Phone Ring Stand (Black) A stand, a selfie stick, and a finger grip —all in one compact accessory. It adjusts to any angle, so you can prop up your phone for hands-free viewing, extend it for a better selfie angle, or simply hold it more securely. At just 2.2in (5.6cm ) in diameter, 0.31in (0.8cm) &nbsp;thick, and 0.15lb (67g) light, it barely adds any bulk. Comes with a metal ring for non-MagSafe phones. 3. Tripod &amp; Selfie Stick Extends all the way up to 71in (1.8m) —perfect for group shots, overhead angles, or full-body vlogs. And here’s the best part: no bending over to set it up. &nbsp;Just give it a firm push on the ground and it pops open automatically. &nbsp;Folds down to just &nbsp;11.8in (30cm) &nbsp;and weighs only 0.84lb (380g) , so it slips into any bag without weighing you down. Comes with a metal ring included. What’s in the Box Specifications Rewards Demo Video Design Process 3D Model Design sketch CAD Exploded view We Built It Because You Needed It We built V1 Pro for one simple reason: you shouldn’t have to choose between quality and control. Every creator knows the struggle—use the rear camera for stunning footage, but you can’t see what you’re framing. Use the front camera, and you sacrifice image quality. So we created a monitor that puts the power of the rear camera right in front of your eyes. No guesswork. No reshoots. Just a clear, real-time view of your shot, so you can focus on telling your story—not fighting your gear. This project is promoted by Jellop, the ad tech power behind the best Kickstarters with 3,500+ successful Kickstarter projects with over $1B raised between them.http://jellop.com/?utm_source=V1 Pro Risks and challenges While we are confident in the development and delivery of V1 Pro, as with any new technology, there may be unforeseen challenges. We pledge transparency and proactive communication with our backers throughout the process, ensuring any risks are promptly addressed to uphold the trust placed in us. Use of AI I plan to use AI-generated content in my project. What parts of your project will use AI generated content? Please be as specific as possible. In my V1 Pro Selfie Monitor Screen project, I will use AI-generated content for marketing visuals and graphic design elements. This includes initial concept sketches, product lifestyle scene mockups, background textures, and social media campaign graphics. All AI outputs will be used as design references or draft materials only, and will be heavily edited, refined, and combined with original product photos and CAD renderings before final use. Do you have the consent of owners of the works that were (or will be) used to produce the AI generated portion of your projects? Please explain. All AI-generated content in this project is created using licensed, commercial-grade AI tools that provide full rights and consent for commercial use of their generated outputs. No copyrighted third-party artworks or protected artist styles were used as training inputs. All AI assets are fully compliant with the tool’s terms of service, and I retain full ownership of the final edited versions. Learn about AI policy on Kickstarter Questions about this project? Check out the FAQ Report this project to Kickstarter"
     },
     {
       "id": "ks-938859321",
@@ -344404,56 +344960,14 @@
       "raw_html_hash": "ea80696888f0226a",
       "raw_fetched_at": "2026-07-24T03:14:25.298722+00:00",
       "ai_validated": false,
-      "ai_intro_en": "This is a Kickstarter project. It is a project to create a product. The product will be created by the creator. The project will be funded by backers.",
-      "ai_highlights_en": [
-        "The product will be created with high-quality materials.",
-        "The product will be designed to be functional and easy to use.",
-        "The product will be created with a focus on sustainability."
-      ],
-      "ai_specs_en": [
-        {
-          "spec_name": "Material",
-          "spec_value": "High-quality materials"
-        },
-        {
-          "spec_name": "Functionality",
-          "spec_value": "Functional and easy to use"
-        },
-        {
-          "spec_name": "Sustainability",
-          "spec_value": "Created with a focus on sustainability"
-        }
-      ],
-      "ai_risks_en": "There are risks associated with this project, including the possibility of delays or cost overruns.",
-      "ai_creator_bio_en": "The creator is a skilled designer and engineer with experience in creating innovative products.",
-      "ai_tiers": [
-        {
-          "name": "Tier 1: Early Bird",
-          "price": 100,
-          "price_usd": 100,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Get a limited edition product with exclusive access to updates."
-        },
-        {
-          "name": "Tier 2: Standard",
-          "price": 200,
-          "price_usd": 200,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Get a standard product with regular updates."
-        },
-        {
-          "name": "Tier 3: Premium",
-          "price": 500,
-          "price_usd": 500,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Get a premium product with exclusive access to updates and a personalized thank-you message."
-        }
-      ],
+      "ai_intro_en": "This is a Kickstarter project. Please provide more content to extract the product summary.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No risk assessment provided.",
+      "ai_creator_bio_en": "No creator bio provided.",
+      "ai_tiers": [],
       "ai_source": "raw_html",
-      "ai_description_en": "This project aims to create a innovative product that combines functionality and sustainability. The product will be designed and engineered by a skilled designer and engineer with experience in creating innovative products."
+      "ai_description_en": "No detailed project description provided."
     },
     {
       "id": "ig-a-hard-reset",
@@ -363810,7 +364324,106 @@
         "heat": 7.9
       },
       "raw_html_hash": "e4f5c3acd91c3fed",
-      "raw_fetched_at": "2026-10-24T04:40:59.877998+00:00"
+      "raw_fetched_at": "2026-10-24T04:40:59.877998+00:00",
+      "ai_intro_en": "Masters Collection I is an edition of one hundred — signed, numbered, certified. Founder, Early Bird and Standard pledges draw from the same hundred. When the last number is allocated, Collection I closes. Begin with one. One masterwork on solid oak, to hold. Explore its five chapters and narration on nexart.be , so no panel is needed. Unlimited. Your backing options Supporter — €20. “I like this idea.” No physical reward. ONE — €69. One masterwork on solid oak. Unlimited. Masters Collection I — Founder — €1,990. Nº 1–5; limited to 5. Masters Collection I — Early Bird — €2,290. Nº 6–20; limited to 15. Masters Collection I — Standard — €2,490. Nº 21–100; limited to 80. Physical reward prices include EU VAT and standard EU shipping. Non-EU shipping is additional and collected after the campaign. Applicable import duties, destination taxes and customs administration charges are payable by the recipient. See the FAQ for destination estimates.",
+      "ai_highlights_en": [
+        "Unlimited access to the MUSE interface panel with preloaded narration in seven languages",
+        "A complete collection of 29 artwork tiles, signature tile and solid European oak frame",
+        "Signed, numbered and certified, with a unique story for each artwork"
+      ],
+      "ai_specs_en": [
+        [
+          "Frame size",
+          "1057 × 763 mm"
+        ],
+        [
+          "Material",
+          "Solid European oak"
+        ],
+        [
+          "Number of tiles",
+          "29"
+        ],
+        [
+          "Number of signature tiles",
+          "1"
+        ],
+        [
+          "Number of backers",
+          "100"
+        ],
+        [
+          "Price",
+          "€1,990"
+        ],
+        [
+          "Price (USD)",
+          "≈ $2,230"
+        ],
+        [
+          "Shipping",
+          "Planned dispatch 6–8 weeks after campaign end; instalment rewards dispatch after full payment"
+        ],
+        [
+          "Currency",
+          "EUR"
+        ],
+        [
+          "Backers",
+          "0"
+        ],
+        [
+          "Description",
+          "The complete collection: 29 artwork tiles, signature tile and solid European oak frame, including the MUSE interface panel with preloaded narration in seven languages. Signed, numbered and certified."
+        ]
+      ],
+      "ai_risks_en": "Material sourcing is not an outstanding dependency for this batch. Each piece of oak has its own grain and tonal variation; these natural differences are part of the material’s character.",
+      "ai_creator_bio_en": "NEXART is a Belgian design house established in Antwerp in 2023. Design, engineering, modelling and manufacture come together under one roof.",
+      "ai_tiers": [
+        {
+          "name": "Supporter",
+          "price": 20,
+          "price_usd": 23,
+          "currency": "EUR",
+          "backers": 1,
+          "description": "“I like this idea.” No physical reward."
+        },
+        {
+          "name": "ONE",
+          "price": 69,
+          "price_usd": 78,
+          "currency": "EUR",
+          "backers": 1,
+          "description": "One masterwork on solid oak. Unlimited."
+        },
+        {
+          "name": "Masters Collection I — Founder",
+          "price": 1990,
+          "price_usd": 2230,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Nº 1–5; limited to 5."
+        },
+        {
+          "name": "Masters Collection I — Early Bird",
+          "price": 2290,
+          "price_usd": 2566,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Nº 6–20; limited to 15."
+        },
+        {
+          "name": "Masters Collection I — Standard",
+          "price": 2490,
+          "price_usd": 2790,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Nº 21–100; limited to 80."
+        }
+      ],
+      "ai_description_en": "Masters Collection I is an edition of one hundred — signed, numbered, certified. Founder, Early Bird and Standard pledges draw from the same hundred. When the last number is allocated, Collection I closes. Begin with one. One masterwork on solid oak, to hold. Explore its five chapters and narration on nexart.be , so no panel is needed. Unlimited. Your backing options Supporter — €20. “I like this idea.” No physical reward. ONE — €69. One masterwork on solid oak. Unlimited. Masters Collection I — Founder — €1,990. Nº 1–5; limited to 5. Masters Collection I — Early Bird — €2,290. Nº 6–20; limited to 15. Masters Collection I — Standard — €2,490. Nº 21–100; limited to 80. Physical reward prices include EU VAT and standard EU shipping. Non-EU shipping is additional and collected after the campaign. Applicable import duties, destination taxes and customs administration charges are payable by the recipient. See the FAQ for destination estimates.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1721351055",
@@ -372696,51 +373309,51 @@
         },
         {
           "spec_name": "Battery Life",
-          "spec_value": "Long-lasting, extendable with power bank"
+          "spec_value": "Long-lasting, extendable with pass-through charging"
         },
         {
           "spec_name": "Waterproof Rating",
           "spec_value": "IPX6-rated"
         },
         {
-          "spec_name": "Dimensions",
-          "spec_value": "Compact design"
-        },
-        {
           "spec_name": "Materials",
           "spec_value": "Aluminum alloy body, stainless steel clip, PMMA lens"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "Compact design"
         },
         {
           "spec_name": "Weight",
           "spec_value": "Lightweight"
         },
         {
-          "spec_name": "Charging",
-          "spec_value": "USB-C port, pass-through charging"
+          "spec_name": "Color Temperature",
+          "spec_value": "Warm yellow light for camp relaxation"
         },
         {
-          "spec_name": "Laser",
-          "spec_value": "Red laser pointer for long-range guidance"
+          "spec_name": "Laser Mode",
+          "spec_value": "Long-range coordinated guidance"
         },
         {
           "spec_name": "Strobe Mode",
-          "spec_value": "Two strobe modes for emergency signaling"
+          "spec_value": "High-frequency flashing white light for emergency signaling"
         },
         {
-          "spec_name": "Power Management",
-          "spec_value": "Efficient power management system"
+          "spec_name": "Charging",
+          "spec_value": "USB-C port with pass-through charging"
         },
         {
           "spec_name": "Warranty",
-          "spec_value": "2-year warranty, lifetime after-sales support"
+          "spec_value": "2-year warranty and lifetime after-sales support"
         },
         {
           "spec_name": "Recyclability",
-          "spec_value": "Repairable, recyclable materials"
+          "spec_value": "Repairable and recyclable"
         }
       ],
       "ai_risks_en": "Potential delays in tooling adjustments, component supply chain fluctuations, and quality control rejections during mass production.",
-      "ai_creator_bio_en": "The creators of BEAM are experienced outdoor enthusiasts who have long been troubled by the shortcomings of traditional flashlights.",
+      "ai_creator_bio_en": "The team behind BEAM is passionate about creating reliable, high-quality outdoor lighting products.",
       "ai_tiers": [
         {
           "name": "Super Early Bird",
@@ -418639,7 +419252,7 @@
       },
       "raw_html_hash": "fc26a952c132e102",
       "raw_fetched_at": "2026-10-04T17:26:53.292933+00:00",
-      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter.",
+      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte's University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter.",
       "ai_highlights_en": [
         "Specialty coffee meets creativity",
         "Meaningful conversation and mentorship",
@@ -418647,32 +419260,32 @@
       ],
       "ai_specs_en": [
         [
+          "Equipment",
+          "Essential coffee and beverage equipment"
+        ],
+        [
+          "Infrastructure",
+          "Mobile and pop-up infrastructure"
+        ],
+        [
           "Furnishings and technology",
-          "Estimated $100,000"
+          "Furnishings and technology"
         ],
         [
           "Signage and brand materials",
-          "Estimated $20,000"
+          "Signage and brand materials"
         ],
         [
-          "Opening coffee, tea, and operating inventory",
-          "Estimated $30,000"
-        ],
-        [
-          "Mobile and pop-up infrastructure",
-          "Estimated $50,000"
-        ],
-        [
-          "Essential coffee and beverage equipment",
-          "Estimated $40,000"
+          "Inventory",
+          "Opening coffee, tea, and operating inventory"
         ],
         [
           "Reward production and fulfillment",
-          "Estimated $10,000"
+          "Reward production and fulfillment"
         ],
         [
-          "Other essential launch expenses",
-          "Estimated $20,000"
+          "Launch expenses",
+          "Other essential launch expenses"
         ]
       ],
       "ai_risks_en": "Opening a hospitality concept involves permitting, equipment procurement, vendor schedules, location planning, and changing costs. Reward production and event dates may also be affected by suppliers or the development timeline.",
@@ -418700,7 +419313,7 @@
           "price_usd": "20,000",
           "currency": "USD",
           "backers": null,
-          "description": "Enjoy a year of specialty coffee and tea, plus a free reward."
+          "description": "Enjoy specialty coffee and tea, plus a chance to attend exclusive events."
         },
         {
           "name": "Tea Enthusiast",
@@ -418708,7 +419321,7 @@
           "price_usd": "15,000",
           "currency": "USD",
           "backers": null,
-          "description": "Indulge in a year of loose-leaf tea, plus a free reward."
+          "description": "Indulge in loose-leaf tea and tea-making workshops."
         },
         {
           "name": "Community Champion",
@@ -418716,10 +419329,10 @@
           "price_usd": "10,000",
           "currency": "USD",
           "backers": null,
-          "description": "Support the community and receive a free reward."
+          "description": "Support the community and receive a personalized thank-you message."
         }
       ],
-      "ai_description_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start. OUR PURPOSE Doxa District is being developed as an initiative of Give Hope Daily. Our long-term vision includes workforce-development opportunities for young adults and people seeking a new beginning. We want to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
+      "ai_description_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte's University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start. Our purpose is to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -422862,75 +423475,75 @@
       "ai_tiers": [
         {
           "name": "Securidoor x1",
-          "price": 59.0,
-          "price_usd": 59.0,
+          "price": 59,
+          "price_usd": 65.45,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         },
         {
           "name": "Securidoor x2",
-          "price": 110.0,
-          "price_usd": 110.0,
+          "price": 110,
+          "price_usd": 121.45,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         },
         {
           "name": "Securidoor x3",
-          "price": 151.0,
-          "price_usd": 151.0,
+          "price": 151,
+          "price_usd": 168.45,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         },
         {
           "name": "Securidoor x4",
-          "price": 198.0,
-          "price_usd": 198.0,
+          "price": 198,
+          "price_usd": 220.45,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         },
         {
           "name": "Securidoor x5",
-          "price": 297.0,
-          "price_usd": 297.0,
+          "price": 297,
+          "price_usd": 330.45,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         },
         {
           "name": "Securidoor x6",
-          "price": 110.0,
-          "price_usd": 110.0,
+          "price": 110,
+          "price_usd": 121.45,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         },
         {
           "name": "Securidoor x7",
-          "price": 55.0,
-          "price_usd": 55.0,
+          "price": 55,
+          "price_usd": 61.45,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         },
         {
           "name": "Securidoor x8",
-          "price": 75.5,
-          "price_usd": 75.5,
+          "price": 29.5,
+          "price_usd": 33.45,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         }
       ],
       "ai_currency": "EUR",
-      "ai_intro_en": "Transform your door frame or window into a smart first line of defense with Securidoor, the world’s first AI-powered surveillance module for door and window. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7 and automatically records a photo and a short video clip when a detected movement is identified as a threat.",
+      "ai_intro_en": "Transform your door frame or window into a smart first line of defense with the world’s first AI-powered surveillance module for door and window. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7.",
       "ai_highlights_en": [
         "AI-powered surveillance module for door and window",
-        "24/7 monitoring with automatic photo and video recording",
-        "AlwaysSafe AI filters out everyday movements, retaining only essential information"
+        "24/7 monitoring with AlwaysSafe Artificial Intelligence",
+        "Automatically records photos and short videos of detected movement"
       ],
       "ai_specs_en": [
         {
@@ -422950,35 +423563,11 @@
           "spec_value": "Wi-Fi"
         },
         {
-          "spec_name": "Software Updates",
-          "spec_value": "Over-the-air (OTA)"
-        },
-        {
           "spec_name": "Price",
           "spec_value": "€59.00"
-        },
-        {
-          "spec_name": "Monthly Subscription",
-          "spec_value": "€29.50"
-        },
-        {
-          "spec_name": "Camera Housing",
-          "spec_value": "Durable and resistant plastic"
-        },
-        {
-          "spec_name": "Mounting System",
-          "spec_value": "Standard door frame"
-        },
-        {
-          "spec_name": "Optical Sensor Placement",
-          "spec_value": "Optimized for optimal performance"
-        },
-        {
-          "spec_name": "Calibration",
-          "spec_value": "Initial calibration trial (T1 - Tooling 1)"
         }
       ],
-      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. We've studied past crowdfunding campaigns and identified common pitfalls that tech projects often fall into: development delays, component shortages, and manufacturing issues.",
+      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. We've studied past crowdfunding campaigns and identified common pitfalls that tech projects often fall into.",
       "ai_creator_bio_en": "Securima doing business as securima.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
@@ -424207,67 +424796,63 @@
       },
       "raw_html_hash": "8f7b5cf904f99603",
       "raw_fetched_at": "2026-10-21T17:39:05.195243+00:00",
-      "ai_intro_en": "This project is about creating a new line of art books featuring the works of emerging artists from underrepresented communities. The project aims to provide a platform for these artists to showcase their work and connect with a wider audience. The books will be printed on high-quality paper and bound with durable covers.",
+      "ai_intro_en": "This project is about creating a new line of art books featuring the works of emerging artists. The project aims to provide a platform for artists to showcase their work and connect with a wider audience. The project will be funded through Kickstarter and will include a selection of art books, prints, and exclusive rewards.",
       "ai_highlights_en": [
         "Unique art books featuring emerging artists",
-        "Platform for underrepresented communities to showcase their work",
-        "High-quality printing and binding"
+        "Exclusive rewards for backers",
+        "Supporting the arts and emerging artists"
       ],
       "ai_specs_en": [
-        [
-          "Paper quality",
-          "High-quality paper"
-        ],
-        [
-          "Binding",
-          "Durable covers"
-        ],
-        [
-          "Artist selection",
-          "Emerging artists from underrepresented communities"
-        ],
-        [
-          "Book size",
-          "Standard book size"
-        ],
-        [
-          "Color palette",
-          "Vibrant colors"
-        ],
-        [
-          "Price",
-          "$20"
-        ]
+        {
+          "spec_name": "Art Books",
+          "spec_value": "10"
+        },
+        {
+          "spec_name": "Prints",
+          "spec_value": "20"
+        },
+        {
+          "spec_name": "Exclusive Rewards",
+          "spec_value": "5"
+        }
       ],
-      "ai_risks_en": "There is a risk that the project may not be able to secure the necessary funding to produce the books, which could impact the success of the project.",
-      "ai_creator_bio_en": "The creator is a passionate advocate for underrepresented communities and aims to provide a platform for emerging artists to showcase their work.",
+      "ai_risks_en": "There are no significant risks associated with this project, as it is a straightforward art book project.",
+      "ai_creator_bio_en": "The creator is an emerging artist with a passion for showcasing the work of other artists.",
       "ai_tiers": [
+        {
+          "name": "Early Bird Special",
+          "price": "$10",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a signed art book and exclusive rewards"
+        },
         {
           "name": "Standard",
           "price": "$20",
-          "price_usd": "$20",
-          "currency": "USD",
+          "price_usd": null,
+          "currency": null,
           "backers": null,
-          "description": "One book of your choice"
+          "description": "Get a signed art book and exclusive rewards"
         },
         {
-          "name": "Deluxe",
+          "name": "Premium",
           "price": "$50",
           "price_usd": "$50",
           "currency": "USD",
           "backers": null,
-          "description": "Two books of your choice and a signed print"
+          "description": "Get a signed art book, exclusive rewards, and a personalized thank-you note"
         },
         {
-          "name": "Collector",
+          "name": "Ultimate",
           "price": "$100",
           "price_usd": "$100",
           "currency": "USD",
           "backers": null,
-          "description": "Four books of your choice, a signed print, and a personalized thank-you note"
+          "description": "Get a signed art book, exclusive rewards, a personalized thank-you note, and a private art consultation"
         }
       ],
-      "ai_description_en": "This project aims to create a new line of art books featuring the works of emerging artists from underrepresented communities. The books will be printed on high-quality paper and bound with durable covers. The project will provide a platform for these artists to showcase their work and connect with a wider audience. The books will be available in standard, deluxe, and collector editions, each with its own unique features and benefits.",
+      "ai_description_en": "This project is about creating a new line of art books featuring the works of emerging artists. The project aims to provide a platform for artists to showcase their work and connect with a wider audience. The project will be funded through Kickstarter and will include a selection of art books, prints, and exclusive rewards.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -447348,7 +447933,7 @@
       },
       "raw_html_hash": "7624e64f790d2b3c",
       "raw_fetched_at": "2026-09-11T16:54:09.604313+00:00",
-      "ai_intro_en": "Project description here",
+      "ai_intro_en": "This is a product project. It is a product. It is a product project.",
       "ai_highlights_en": [],
       "ai_specs_en": [],
       "ai_risks_en": "",
@@ -454224,107 +454809,83 @@
       "raw_fetched_at": "2026-10-10T17:59:53.415171+00:00",
       "ai_validated": false,
       "ended_at": "2026-10-22T09:29:05.493319Z",
-      "ai_intro_en": "Just My Color offers reusable zebra-pattern paper towels made from 100% virgin wood pulp, designed to be rinsed, wrung out, and reused multiple times without losing strength or absorbency. The product combines eco-friendly sustainability with stylish design, aiming to replace disposable paper towels and save households up to $200 annually. Already manufactured, 6,700 rolls are ready to ship from North Carolina.",
+      "ai_intro_en": "Stop throwing your money away. One sheet at a time. Every day, the average household uses dozens of paper towels—only to toss them in the trash seconds later. It’s a cycle that is wasteful, boring, and expensive. We’ve kept buying them simply because there hasn't been a better option until now. My Color is the sustainable alternative that doesn’t ask you to compromise on style or performance. It’s as easy to use as a standard roll but built to last. Rinse, Reuse, Repeat: Strong enough to handle tough scrubbing, yet soft enough for delicate surfaces. Teacher-Tested Durability: Designed to be rinsed, air-dried, and reused multiple times before it ever sees a trash can. Elevated Design: Our patented zebra pattern adds a bold, modern pop of personality to your kitchen or bath. Ready to Ship: This isn't a prototype. We have 6,700 rolls already manufactured and waiting in our North Carolina warehouse to head to your home. Clean smarter. Waste less. Add personality to your home. Why Backers Love Just My Color Eco-Friendly Impact: Drastically reduce your household waste without changing your cleaning routine. Superior Strength: Strong like cloth, absorbent like a towel—it won't shred when wet. Serious Savings: One reusable roll can replace dozens of disposable ones, keeping nearly $200 a year in your pocket. Style with Substance: Finally, a cleaning tool that looks as good as it performs",
       "ai_highlights_en": [
-        "Reusable and durable: can be rinsed and reused many times, reducing waste.",
-        "Stylish zebra pattern adds personality to kitchen or bath.",
-        "Cost‑saving: one roll replaces dozens of disposables, saving ~$200 per year."
+        "Strong like cloth, absorbent like a towel—it won't shred when wet",
+        "Drastically reduce your household waste without changing your cleaning routine",
+        "One reusable roll can replace dozens of disposable ones, keeping nearly $200 a year in your pocket"
       ],
       "ai_specs_en": [
         [
           "Material",
-          "100% virgin wood pulp"
+          "100% Virgin Wood Pulp"
         ],
         [
-          "Pattern",
-          "Patented zebra design"
+          "Color",
+          "Zebra Black/White"
         ],
         [
-          "Sheets per roll",
-          "100"
+          "Size",
+          "100 Sheets per Roll"
         ],
         [
-          "Reusable cycles",
-          "Multiple (rinse & repeat)"
-        ],
-        [
-          "Manufactured inventory",
-          "6,700 rolls ready to ship"
-        ],
-        [
-          "Biodegradable",
+          "Washable",
           "Yes"
         ],
         [
-          "Made in",
-          "USA (North Carolina)"
+          "Reusable",
+          "Yes"
         ],
         [
-          "Price range",
-          "$22‑$99 per bundle"
+          "Price",
+          "$42 (Standard Kickstarter)"
+        ],
+        [
+          "Price_usd",
+          "$42"
+        ],
+        [
+          "Currency",
+          "USD"
+        ],
+        [
+          "Backers",
+          "0"
+        ],
+        [
+          "Description",
+          "Get a pack of 4 Eco-Friendly Reusable Zebra Paper Towels at our best-value rate"
         ]
       ],
-      "ai_risks_en": "The main risk is demand exceeding the existing 6,700‑roll inventory, which would trigger a second production phase requiring a factory minimum of 2,000 rolls; if that threshold isn’t met, phase‑2 backers would be refunded. Other risks include potential shipping delays, scaling quality control, and educating consumers on a new reusable towel habit.",
-      "ai_creator_bio_en": "Glen Mullins is a retired public‑school teacher, educator, innovator, and earth‑advocate who created Just My Color after a decade of refining reusable zebra‑pattern paper towels.",
+      "ai_risks_en": "Like any physical product, bringing Just My Color to market comes with potential challenges. However, after 37 years in the classroom, I know that the best way to handle challenges is with careful preparation and total transparency.",
+      "ai_creator_bio_en": "Hi, I’m Glen Mullins, and I’m on a mission to prove that household essentials can be both beautiful and earth-friendly.",
       "ai_tiers": [
         {
-          "name": "PRE-ORDER 2 Roll Eco-Zebra Bundle",
-          "price": 22,
-          "price_usd": 22,
-          "currency": "USD",
-          "backers": 1,
-          "description": "Includes 2 rolls of reusable zebra paper towels (100 sheets each). Hand‑washed, eco‑friendly, ships ~14 days after campaign ends."
-        },
-        {
-          "name": "PRE-ORDER 4 Rolls Eco-Zebra Bundle",
+          "name": "The Super Early 4-Roll Pack",
           "price": 34,
-          "price_usd": 34,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Includes 4 rolls of reusable zebra paper towels (100 sheets each). Best‑value rate for a mid‑size bundle, ships ~14 days after campaign ends."
-        },
-        {
-          "name": "PRE-ORDER 8 Rolls Eco-Zebra Bundle",
-          "price": 60,
-          "price_usd": 60,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Includes 8 rolls of reusable zebra paper towels (100 sheets each). Ideal for stocking up and cutting waste, ships ~14 days after campaign ends."
-        },
-        {
-          "name": "PRE-ORDER 12 Rolls Eco-Zebra Bundle",
-          "price": 84,
-          "price_usd": 84,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Includes 12 rolls of reusable zebra paper towels (100 sheets each). Mix‑and‑match color options via post‑campaign survey, ships ~14 days after campaign ends."
-        },
-        {
-          "name": "All gone 📦 Bundle 1: The Super Early 4-Roll Pack",
-          "price": 34,
-          "price_usd": 34,
+          "price_usd": 42,
           "currency": "USD",
           "backers": 5,
-          "description": "Super Early Bird (first 24 h) pricing for 4‑roll zebra towel bundle; saves $8 vs retail. Ships to US only, estimated delivery Dec 2026."
+          "description": "4-Roll Eco-Friendly Zebra Paper Towel Bundle"
         },
         {
-          "name": "📦 Bundle 1: The Standard 4-Roll Pack",
+          "name": "The Standard 4-Roll Pack",
           "price": 42,
           "price_usd": 42,
           "currency": "USD",
           "backers": 1,
-          "description": "Standard Kickstarter pricing for 4‑roll zebra towel bundle (full retail). Ships to US only, estimated delivery Dec 2026."
+          "description": "Get a pack of 4 Eco-Friendly Reusable Zebra Paper Towels at our best-value rate"
         },
         {
-          "name": "💎 Bundle 3: The Best Value 12-Roll Pack",
+          "name": "The Best Value 12-Roll Pack",
           "price": 99,
           "price_usd": 99,
           "currency": "USD",
           "backers": 3,
-          "description": "Best‑value 12‑roll bundle, lowering cost to $7‑$8.25 per roll. Includes color choice via survey; ships to US only, estimated delivery Dec 2026."
+          "description": "Bulk Savings Alert: The 12 Roll Pack is your Best Value!"
         }
       ],
-      "ai_description_en": "Just My Color addresses the wasteful cycle of disposable paper towels by offering a reusable, zebra‑patterned towel made from 100% virgin wood pulp. Each towel can be rinsed, wrung out, and reused many times, providing cloth‑like strength and absorbency while eliminating the need for single‑use sheets. With 6,700 rolls already manufactured and ready to ship from North Carolina, backers receive immediate access to a product that saves money, reduces landfill waste, and adds stylish personality to the home.",
+      "ai_description_en": "Just My Color is the sustainable alternative that doesn’t ask you to compromise on style or performance. It’s as easy to use as a standard roll but built to last. Rinse, Reuse, Repeat: Strong enough to handle tough scrubbing, yet soft enough for delicate surfaces. Teacher-Tested Durability: Designed to be rinsed, air-dried, and reused multiple times before it ever sees a trash can. Elevated Design: Our patented zebra pattern adds a bold, modern pop of personality to your kitchen or bath. Ready to Ship: This isn’t a prototype. We have 6,700 rolls already manufactured and waiting in our North Carolina warehouse to head to your home. Clean smarter. Waste less. Add personality to your home. Why Backers Love Just My Color Eco-Friendly Impact: Drastically reduce your household waste without changing your cleaning routine. Superior Strength: Strong like cloth, absorbent like a towel—it won’t shred when wet. Serious Savings: One reusable roll can replace dozens of disposable ones, keeping nearly $200 a year in your pocket. Style with Substance: Finally, a cleaning tool that looks as good as it performs",
       "ai_source": "raw_html"
     },
     {
@@ -581228,49 +581789,109 @@
       },
       "raw_html_hash": "1484334ab9848090",
       "raw_fetched_at": "2026-10-12T21:49:16.185296+00:00",
-      "ai_intro_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer from Germany.",
+      "ai_intro_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer.",
       "ai_highlights_en": [
         "Expert web development and design skills",
-        "Personalized web development services",
-        "Custom web design solutions"
+        "Personalized web design services",
+        "Custom web solutions for small businesses"
       ],
       "ai_specs_en": [
-        "Web Development",
-        "€500",
         "Custom Web Design",
+        "€500",
+        "Personalized Web Development",
         "€1,000",
-        "Maintenance and Updates",
-        "€200/year"
+        "E-commerce Website",
+        "€2,000",
+        "Web Maintenance and Updates",
+        "€500/year",
+        "Custom Web Application",
+        "€5,000",
+        "Web Security Audit",
+        "€1,000",
+        "Custom Web Hosting",
+        "€100/year",
+        "Web Design Consultation",
+        "€200",
+        "Custom Web Development",
+        "€3,000"
       ],
-      "ai_risks_en": "No significant risks are expected, but unforeseen technical issues may arise.",
+      "ai_risks_en": "There are no significant risks associated with this project.",
       "ai_creator_bio_en": "33 Jahre Webentwickler / Webdesigner",
       "ai_tiers": [
         {
-          "name": "Web Development",
+          "name": "Custom Web Design",
           "price": "€500",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Basic web development services"
+          "description": "A custom web design for your small business"
         },
         {
-          "name": "Custom Web Design",
+          "name": "Personalized Web Development",
           "price": "€1,000",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Custom web design solutions"
+          "description": "A personalized web development service for your business"
         },
         {
-          "name": "Maintenance and Updates",
-          "price": "€200/year",
+          "name": "E-commerce Website",
+          "price": "€2,000",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Ongoing maintenance and updates"
+          "description": "A custom e-commerce website for your business"
+        },
+        {
+          "name": "Web Maintenance and Updates",
+          "price": "€500/year",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Regular web maintenance and updates for your business"
+        },
+        {
+          "name": "Custom Web Application",
+          "price": "€5,000",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "A custom web application for your business"
+        },
+        {
+          "name": "Web Security Audit",
+          "price": "€1,000",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "A web security audit for your business"
+        },
+        {
+          "name": "Custom Web Hosting",
+          "price": "€100/year",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Custom web hosting for your business"
+        },
+        {
+          "name": "Web Design Consultation",
+          "price": "€200",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "A web design consultation for your business"
+        },
+        {
+          "name": "Custom Web Development",
+          "price": "€3,000",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "A custom web development service for your business"
         }
       ],
-      "ai_description_en": "This project offers personalized web development and design services, including custom web design solutions and maintenance and updates.",
+      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer. The project offers a range of services, including custom web design, personalized web development, e-commerce website development, web maintenance and updates, custom web application development, web security audits, custom web hosting, web design consultations, and custom web development.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -611001,40 +611622,40 @@
       },
       "raw_html_hash": "cafdd21a212bf9a9",
       "raw_fetched_at": "2026-08-04T14:51:23.460130+00:00",
-      "ai_intro_en": "Meowetrics is a connected scale that tracks your cat's weight and nutrition, providing reliable and smart data. It's designed to be stress-free and easy to use, with a user-modifiable and repairable system.",
+      "ai_intro_en": "Meowetrics is an automated system to track cats' weight and nutrition, providing reliable and smart data. This data allows cat owners to better understand their cat's behavior and detect health issues early.",
       "ai_highlights_en": [
         "Automated weight tracking and nutrition monitoring",
-        "Stress-free and easy to use",
-        "Energy-efficient and cloud-independent"
+        "Reliable and easy-to-understand data",
+        "Autonomous, energy-efficient, and accessible system"
       ],
       "ai_specs_en": [
         {
           "spec_name": "Weight Monitoring",
-          "spec_value": "Automated tracking of cat's weight"
+          "spec_value": "Accurate and reliable weight tracking"
         },
         {
           "spec_name": "Nutrition Monitoring",
-          "spec_value": "Tracking of cat's eating habits (quantity and frequency of meals)"
+          "spec_value": "Tracking of food intake and eating habits"
         },
         {
           "spec_name": "Energy Efficiency",
-          "spec_value": "Energy-efficient system"
+          "spec_value": "Low power consumption"
         },
         {
-          "spec_name": "Cloud Independence",
-          "spec_value": "Cloud-independent system"
+          "spec_name": "Autonomy",
+          "spec_value": "Cloud-independent and offline-capable"
         },
         {
-          "spec_name": "User-Modifiability",
-          "spec_value": "User-modifiable and repairable system"
+          "spec_name": "Accessibility",
+          "spec_value": "User-modifiable and repairable"
         },
         {
           "spec_name": "Home Assistant Integration",
-          "spec_value": "Pre-configured WiFi connection and Home Assistant integration documentation"
+          "spec_value": "Pre-configured WiFi connection"
         },
         {
           "spec_name": "Customization",
-          "spec_value": "Customization for your cat (interface or visual details)"
+          "spec_value": "Personalized system with customization options"
         },
         {
           "spec_name": "Limited Edition",
@@ -611043,15 +611664,43 @@
         {
           "spec_name": "Direct Assistance",
           "spec_value": "Direct assistance for installation and Home Assistant connection"
+        },
+        {
+          "spec_name": "Battery Life",
+          "spec_value": "30+ day battery life"
+        },
+        {
+          "spec_name": "Screen-Free",
+          "spec_value": "Screen-free wearable"
+        },
+        {
+          "spec_name": "Subscription-Free",
+          "spec_value": "No subscription required"
+        },
+        {
+          "spec_name": "Rep Tempo",
+          "spec_value": "Rep Tempo tracking"
+        },
+        {
+          "spec_name": "L/R Side Asymmetries",
+          "spec_value": "L/R side asymmetries tracking"
+        },
+        {
+          "spec_name": "Time Under Tension",
+          "spec_value": "Time under tension tracking"
+        },
+        {
+          "spec_name": "Auto Rep Tracking",
+          "spec_value": "Auto rep tracking"
         }
       ],
-      "ai_risks_en": "The project faces technical challenges such as data reliability and clarity, system architecture, and measurement precision.",
-      "ai_creator_bio_en": "Rabu Pierre is a developer and maker designing Meowetrics—an embedded system to track cats' weight and nutrition.",
+      "ai_risks_en": "The project involves several technical challenges, including data reliability and clarity, system architecture, and measurement precision.",
+      "ai_creator_bio_en": "Developer and maker, I am designing Meowetrics—an embedded system to track cats' weight and nutrition.",
       "ai_tiers": [
         {
           "name": "Soutien",
           "price": 1,
-          "price_usd": null,
+          "price_usd": 1,
           "currency": "EUR",
           "backers": 1,
           "description": "Thank you for your support! You will receive a thank-you email and regular project updates."
@@ -611059,15 +611708,15 @@
         {
           "name": "Soutien",
           "price": 10,
-          "price_usd": null,
+          "price_usd": 11,
           "currency": "EUR",
           "backers": 0,
-          "description": "You will receive The Meowetrics presentation PDF, The project’s \"Maker Documentation\", Meowetrics logo as a high-quality wallpaper, and my personal thanks and regular development updates."
+          "description": "You will receive The Meowetrics presentation PDF, The project’s \"Maker Documentation\", Meowetrics Wallpapers, and my personal thanks and regular development updates."
         },
         {
           "name": "Soutien",
           "price": 30,
-          "price_usd": null,
+          "price_usd": 33,
           "currency": "EUR",
           "backers": 0,
           "description": "You will receive A comprehensive PDF telling the Meowetrics story, from the original idea to the creation of a functional prototype, Technical insights, Trial and error logs, Design focused on cat behavior, Hardware and software evolution, Photos and development milestones, The Maker Documentation, Meowetrics Wallpapers, and my personal thanks and project updates."
@@ -611075,24 +611724,32 @@
         {
           "name": "Système",
           "price": 80,
-          "price_usd": null,
+          "price_usd": 90,
           "currency": "EUR",
           "backers": 0,
-          "description": "You will receive a functional, ready-to-use Meowetrics system: Fully assembled Meowetrics connected scale, Pre-configured WiFi connection, Monitoring of cat visits and weight, Local web interface, Home Assistant integration documentation, The project’s Maker Documentation, A PDF tracing the development story, Meowetrics wallpapers, and my personal thanks and project updates."
+          "description": "You will receive a functional, ready-to-use Meowetrics system: Meowetrics connected scale, Pre-configured WiFi connection, Monitoring of cat visits and weight, Local web interface, Home Assistant integration documentation, The project’s Maker Documentation, A PDF tracing the development story, Meowetrics wallpapers, and my personal thanks and project updates."
         },
         {
           "name": "Édition Supporter",
           "price": 200,
-          "price_usd": null,
+          "price_usd": 220,
           "currency": "EUR",
           "backers": 0,
-          "description": "You will receive a personalized Meowetrics system, specially assembled for you, Customization for your cat (interface or visual details), A signed and numbered limited edition, Direct assistance for installation and Home Assistant connection, and participation in the project's development and its future evolution."
+          "description": "In addition to all previous rewards, you will receive a personalized Meowetrics system, specially assembled for you, Customization for your cat, A signed and numbered limited edition, Direct assistance for installation and Home Assistant connection, and participation in the project's development and its future evolution."
+        },
+        {
+          "name": "Details",
+          "price": 0,
+          "price_usd": 0,
+          "currency": "EUR",
+          "backers": 4,
+          "description": ""
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.984101Z",
-      "ai_description_en": "Meowetrics is a connected scale designed to track your cat's weight and nutrition, providing reliable and smart data. The system is stress-free, easy to use, and energy-efficient, with a user-modifiable and repairable design. It also features a local web interface, Home Assistant integration, and customization options."
+      "ai_description_en": "Meowetrics is an automated system to track cats' weight and nutrition, providing reliable and smart data. This data allows cat owners to better understand their cat's behavior and detect health issues early. The system is designed to be autonomous, energy-efficient, and accessible, with a user-modifiable and repairable design. The project involves several technical challenges, including data reliability and clarity, system architecture, and measurement precision."
     },
     {
       "id": "ks-123439353",
@@ -628797,7 +629454,7 @@
       "ai_highlights_en": [
         "Smart Tag AZ Series Smart NFC tags that adapt to your personal needs",
         "Eco Friendly Smart Tags",
-        "Long-lasting design with thick-walled geometry and impact-resistant contours"
+        "Long-lasting design with thick-walled geometry and impact‑resistant contours"
       ],
       "ai_specs_en": [
         {
@@ -628806,15 +629463,11 @@
         },
         {
           "spec_name": "Shipping",
-          "spec_value": "Affordable shipping without adding too much to the project cost"
+          "spec_value": "Affordable shipping without increasing project costs"
         },
         {
           "spec_name": "Warranty",
-          "spec_value": "Covered by consumer protection rules in your country"
-        },
-        {
-          "spec_name": "Materials",
-          "spec_value": "Sustainable materials (polylactic acid)"
+          "spec_value": "Consumer protection rules apply in your country, 1 year warranty"
         }
       ],
       "ai_risks_en": "Scaling production, keeping every unit consistent, and fulfilling orders on time if demand grows quickly",
