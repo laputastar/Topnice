@@ -124085,7 +124085,7 @@
       "raw_html_hash": "ce7321da049fb591",
       "raw_fetched_at": "2026-08-06T04:18:19.717830+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Meet Litejam Acoustic Neo A1, the revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and built-in LED fretboard, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike.",
+      "ai_intro_en": "Meet Litejam Acoustic Neo A1, the revolutionary smart guitar that guides your fretting and picking hands in real time. Learn guitar faster and enjoy playing more with Litejam's interactive LED fretboard.",
       "ai_highlights_en": [
         "Practice common chord progressions in every key",
         "Switch instantly between Strumming and Fingerpicking",
@@ -124093,216 +124093,108 @@
       ],
       "ai_specs_en": [
         [
-          "Body Material",
-          "Carbon Fiber"
+          "Fretboard",
+          "88+ RGB LEDs"
         ],
         [
-          "Scale Length",
-          "34"
+          "Scale Mode",
+          "12 Root Keys, 18 Scale Types per Key"
         ],
         [
-          "Number of Frets",
-          "24"
+          "Chromatic Scale Practice",
+          "Preset or custom finger patterns"
         ],
         [
-          "Pickups",
-          "2 x Litejam Alnico V Humbuckers"
+          "Custom String Control",
+          "Turn on/off any strings"
+        ],
+        [
+          "LED Color",
+          "Customizable for techniques like Hammer-on, Pull-off, etc."
         ],
         [
           "Tremolo System",
-          "Wilkinson 2-Point Tremolo"
+          "Wilkinson 2-point tremolo system"
         ],
         [
-          "Neck Material",
-          "Roasted Maple"
+          "Pickups",
+          "Custom-designed Alnico V Humbuckers"
         ],
         [
-          "Fingerboard Material",
-          "Rosewood"
+          "Body",
+          "Carbon Fiber Composite Body"
         ],
         [
-          "Backers",
-          null
+          "Neck",
+          "Roasted Maple Neck"
         ],
         [
-          "Description",
-          "Built with a premium guitar design, Litejam Neo A1 features a lightweight, durable, and responsive playing experience."
+          "Fingerboard",
+          "Rosewood Fingerboard"
+        ],
+        [
+          "Battery",
+          "Rechargeable 4000mAh battery"
+        ],
+        [
+          "Weight",
+          "Lightweight, durable"
         ]
       ],
-      "ai_risks_en": "The project is subject to risks associated with manufacturing, supply chain management, and software development. However, the team has a proven track record of delivering high-quality products and is committed to ensuring the success of the project.",
-      "ai_creator_bio_en": "Litejam is a company that aims to make music learning simple, visual, and fun. With a team of international experts in smart hardware, AI learning, and music education, Litejam is dedicated to creating innovative products that transform the way people learn and play music.",
+      "ai_risks_en": "No specific risks mentioned.",
+      "ai_creator_bio_en": "Litejam is a company that combines smart hardware with interactive software to transform the guitar into a visual learning experience.",
       "ai_tiers": [
         {
           "name": "Back this project",
-          "price": 0,
+          "price": null,
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Back this project and support the development of Litejam Neo A1"
+          "description": "Back this project"
         },
         {
           "name": "Remind me",
-          "price": 0,
+          "price": null,
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Remind me to back this project"
-        },
-        {
-          "name": "Campaign Story",
-          "price": 0,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Learn more about the story behind Litejam Neo A1"
-        },
-        {
-          "name": "Litejam Acoustic Neo A1",
-          "price": 299.99,
-          "price_usd": 299.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo A1 smart guitar and start learning guitar faster and more fun"
-        },
-        {
-          "name": "Litejam Neo Bass B4NS",
-          "price": 499.99,
-          "price_usd": 499.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo Bass B4NS smart bass guitar and start learning bass faster and more fun"
+          "description": "Remind me"
         },
         {
           "name": "Classical Fingerstyle Pack",
-          "price": 99.99,
-          "price_usd": 99.99,
+          "price": 500000,
+          "price_usd": 500000,
           "currency": "USD",
           "backers": null,
-          "description": "Get access to 10 interactive classical fingerstyle lessons"
+          "description": "Unlock 10 Interactive Classical Fingerstyle Lessons"
         },
         {
           "name": "Litejam Guitar Academy",
-          "price": 0,
-          "price_usd": null,
-          "currency": null,
+          "price": 750000,
+          "price_usd": 750000,
+          "currency": "USD",
           "backers": null,
-          "description": "Get a premium beginner guitar course included FREE"
+          "description": "A premium beginner course included FREE"
         },
         {
           "name": "1-Year Litejam Play Pass",
-          "price": 99.99,
-          "price_usd": 99.99,
+          "price": 1000000,
+          "price_usd": 1000000,
           "currency": "USD",
           "backers": null,
-          "description": "Get access to thousands of songs inside Play Mode for 1 year"
+          "description": "Unlock thousands of songs inside Play Mode"
         },
         {
           "name": "AI Backing Track Studio",
-          "price": 199.99,
-          "price_usd": 199.99,
+          "price": 1500000,
+          "price_usd": 1500000,
           "currency": "USD",
           "backers": null,
-          "description": "Get access to AI-powered backing tracks for 1 year"
-        },
-        {
-          "name": "Stretch Goal 1: Classical Fingerstyle Pack",
-          "price": 99.99,
-          "price_usd": 99.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get access to 10 interactive classical fingerstyle lessons"
-        },
-        {
-          "name": "Stretch Goal 2: Litejam Guitar Academy",
-          "price": 0,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Get a premium beginner guitar course included FREE"
-        },
-        {
-          "name": "Stretch Goal 3: 1-Year Litejam Play Pass",
-          "price": 99.99,
-          "price_usd": 99.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get access to thousands of songs inside Play Mode for 1 year"
-        },
-        {
-          "name": "Stretch Goal 4: AI Backing Track Studio",
-          "price": 199.99,
-          "price_usd": 199.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get access to AI-powered backing tracks for 1 year"
-        },
-        {
-          "name": "Stretch Goal 5: Litejam Neo Bass B4NS",
-          "price": 499.99,
-          "price_usd": 499.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo Bass B4NS smart bass guitar and start learning bass faster and more fun"
-        },
-        {
-          "name": "Stretch Goal 6: Litejam Neo A1",
-          "price": 299.99,
-          "price_usd": 299.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo A1 smart guitar and start learning guitar faster and more fun"
-        },
-        {
-          "name": "Stretch Goal 7: Litejam Neo A1 with AI Backing Track Studio",
-          "price": 499.99,
-          "price_usd": 499.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo A1 smart guitar and access to AI-powered backing tracks for 1 year"
-        },
-        {
-          "name": "Stretch Goal 8: Litejam Neo Bass B4NS with AI Backing Track Studio",
-          "price": 699.99,
-          "price_usd": 699.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo Bass B4NS smart bass guitar and access to AI-powered backing tracks for 1 year"
-        },
-        {
-          "name": "Stretch Goal 9: Litejam Neo A1 with Litejam Guitar Academy",
-          "price": 499.99,
-          "price_usd": 499.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo A1 smart guitar and a premium beginner guitar course included FREE"
-        },
-        {
-          "name": "Stretch Goal 10: Litejam Neo Bass B4NS with Litejam Guitar Academy",
-          "price": 699.99,
-          "price_usd": 699.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo Bass B4NS smart bass guitar and a premium beginner guitar course included FREE"
-        },
-        {
-          "name": "Stretch Goal 11: Litejam Neo A1 with Litejam Guitar Academy and AI Backing Track Studio",
-          "price": 799.99,
-          "price_usd": 799.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo A1 smart guitar, a premium beginner guitar course included FREE, and access to AI-powered backing tracks for 1 year"
-        },
-        {
-          "name": "Stretch Goal 12: Litejam Neo Bass B4NS with Litejam Guitar Academy and AI Backing Track Studio",
-          "price": 999.99,
-          "price_usd": 999.99,
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your Litejam Neo Bass B4NS smart bass guitar, a premium beginner guitar course included FREE, and access to AI-powered backing tracks for 1 year"
+          "description": "Practice like you’re playing with a real band"
         }
       ],
       "ai_source": "raw_html",
-      "ai_description_en": "Litejam Neo A1 is a revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and more fun. With its carbon fiber body, rechargeable battery, and built-in LED fretboard, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike. The guitar features a premium design, with a lightweight and durable construction, and is equipped with a range of innovative features, including a built-in LED fretboard, smart hardware, and AI-powered software. Litejam Neo A1 is designed to make music learning simple, visual, and fun, and is perfect for anyone looking to improve their guitar playing skills.",
+      "ai_description_en": "Litejam Acoustic Neo A1 is a revolutionary smart guitar that guides your fretting and picking hands in real time. Learn guitar faster and enjoy playing more with Litejam's interactive LED fretboard. The guitar features a carbon fiber body, roasted maple neck, and premium active electronics. Litejam is building an interactive music learning ecosystem that combines smart hardware, AI learning, interactive lessons, songs with STEM experience, music games, and a creator marketplace.",
       "ended_at": "2026-10-22T09:29:05.491909Z"
     },
     {
@@ -129766,7 +129658,7 @@
       "ai_highlights_en": [
         "Transforming desk with hidden storage and smart lighting",
         "Ergonomic design with adjustable height and wrist care",
-        "Multi-functional and customizable with various accessories"
+        "Multi-device workstation with built-in cable management"
       ],
       "ai_specs_en": [
         {
@@ -129884,7 +129776,7 @@
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
-      "ai_description_en": "Clodesk is a transforming desk that adapts to your needs. With its hidden storage, smart lighting, and ergonomic design, it is perfect for creators, gamers, and anyone who needs a comfortable and organized workspace. The desk is designed to be customizable and can be expanded to fit your needs. It also features a motorized dual-wing opening system, flip-down hidden cabinet, and built-in smart controller. The desk is available in walnut and white and comes with a 2-year hassle-free warranty."
+      "ai_description_en": "Clodesk is a transforming desk that adapts to your needs. With its hidden storage, smart lighting, and ergonomic design, it is perfect for creators, gamers, and anyone who needs a comfortable and organized workspace. The desk is designed to be flexible and customizable, with features such as motorized dual-wing opening, flip-down hidden cabinet, and built-in smart controller. It is also equipped with standard power outlets, reserved bracket mounting hole, and 3 m power cord. The desk is available in walnut and white, and comes with a 2-year hassle-free warranty."
     },
     {
       "id": "ks-179531745",
@@ -168754,26 +168646,26 @@
         {
           "name": "Meteorite Faces Module",
           "price": 4656,
-          "price_usd": 29,
-          "currency": "JPY",
-          "backers": 9,
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
           "description": "More than a faceplate—it's a wearable titanium collectible."
         },
         {
           "name": "Super Early Bird • Micro-Blasted Finish",
-          "price": 30634,
+          "price": 30334,
           "price_usd": 190,
-          "currency": "JPY",
+          "currency": "EUR",
           "backers": 7,
-          "description": "Titaner TiVerse: The Waist System Reimagined"
+          "description": "Titaner TiVerse: The Waist System Reimagined. Fingerprint-Resistant Matte Finish with a Raw Industrial Character."
         },
         {
           "name": "Super Early Bird • Micro-Milled Finish",
           "price": 34003,
           "price_usd": 211,
-          "currency": "JPY",
-          "backers": 0,
-          "description": ""
+          "currency": "EUR",
+          "backers": 41,
+          "description": "Titaner TiVerse: The Waist System Reimagined. Key Features: Modular Quick-Release Faceplate System, Built-In Smart NFC Chip, Portable Flashlight Faceplate Module, Holeless Self-Adaptive Micro-Adjustment, Anti-Accidental Double-Action Lock."
         }
       ],
       "ai_currency": "EUR",
@@ -169321,16 +169213,16 @@
           ""
         ],
         [
-          "Color",
-          "Titaner Micro-Milled Finish/Titaner Micro-Blasted Finish"
-        ],
-        [
           "Price",
           "¥5,611,799"
         ],
         [
-          "Price_USD",
+          "Price_usd",
           ""
+        ],
+        [
+          "Currency",
+          "EUR"
         ],
         [
           "Backers",
@@ -169341,8 +169233,8 @@
           "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you. Swap them in seconds and give your everyday carry a fresh identity."
         ]
       ],
-      "ai_risks_en": "Manufacturing Challenges, Fulfillment &amp; Shipping",
-      "ai_creator_bio_en": "a group of engineers and friends who love design and are obsessed with precision engineering",
+      "ai_risks_en": "Manufacturing Challenges and Fulfillment &amp; Shipping Risks.",
+      "ai_creator_bio_en": "A group of engineers and friends who love design and are obsessed with precision engineering.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
@@ -294030,7 +293922,7 @@
         ],
         [
           "Battery Life",
-          "5.5 hours"
+          "1.5 hours, 5.5 hours of use"
         ],
         [
           "Weight",
@@ -294038,19 +293930,19 @@
         ],
         [
           "Dimensions",
-          "0.4in (10mm) thick"
+          "0.4in (10mm) thin"
         ],
         [
           "Material",
-          "Aluminum"
+          "Metal"
         ],
         [
           "Color",
-          "Silver"
+          "Black"
         ],
         [
           "Compatibility",
-          "iPhone and Android"
+          "iPhone, Android"
         ],
         [
           "MagSafe Compatibility",
@@ -294062,7 +293954,7 @@
         ],
         [
           "ENC",
-          "Built-in ENC"
+          "Yes"
         ]
       ],
       "ai_risks_en": "While we are confident in the development and delivery of V1 Pro, as with any new technology, there may be unforeseen challenges. We pledge transparency and proactive communication with our backers throughout the process, ensuring any risks are promptly addressed to uphold the trust placed in us.",
@@ -316831,120 +316723,92 @@
         "€0.00",
         "Web Design",
         "€0.00",
-        "Personalized Project",
-        "€10.00",
-        "Customized Website",
-        "€20.00",
-        "E-commerce Solution",
-        "€30.00",
-        "Responsive Design",
-        "€40.00",
-        "Content Management System",
-        "€50.00",
-        "SEO Optimization",
-        "€60.00",
-        "Social Media Integration",
-        "€70.00",
-        "Email Marketing",
-        "€80.00",
+        "Customized Project",
+        "€500.00",
+        "Personalized Support",
+        "€1,000.00",
+        "VIP Access",
+        "€2,500.00",
         "Project Management",
-        "€90.00",
-        "Launch and Maintenance",
-        "€100.00"
+        "€3,000.00",
+        "Customized Solution",
+        "€5,000.00",
+        "Priority Support",
+        "€10,000.00",
+        "Exclusive Updates",
+        "€20,000.00",
+        "Project Completion",
+        "€50,000.00"
       ],
-      "ai_risks_en": "No significant risks identified.",
+      "ai_risks_en": "There are no significant risks associated with this project.",
       "ai_creator_bio_en": "33 Jahre Webentwickler / Webdesigner",
       "ai_tiers": [
         {
-          "name": "€0.00",
-          "price": "€0.00",
+          "name": "Customized Project",
+          "price": "€500.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": ""
+          "description": "A personalized project tailored to your needs"
         },
         {
-          "name": "€10.00",
-          "price": "€10.00",
+          "name": "Personalized Support",
+          "price": "€1,000.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": ""
+          "description": "Personalized support for your project"
         },
         {
-          "name": "€20.00",
-          "price": "€20.00",
+          "name": "VIP Access",
+          "price": "€2,500.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": ""
+          "description": "VIP access to exclusive updates"
         },
         {
-          "name": "€30.00",
-          "price": "€30.00",
+          "name": "Project Management",
+          "price": "€3,000.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": ""
+          "description": "Project management for your project"
         },
         {
-          "name": "€40.00",
-          "price": "€40.00",
+          "name": "Customized Solution",
+          "price": "€5,000.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": ""
+          "description": "A customized solution for your project"
         },
         {
-          "name": "€50.00",
-          "price": "€50.00",
+          "name": "Priority Support",
+          "price": "€10,000.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": ""
+          "description": "Priority support for your project"
         },
         {
-          "name": "€60.00",
-          "price": "€60.00",
+          "name": "Exclusive Updates",
+          "price": "€20,000.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": ""
+          "description": "Exclusive updates for your project"
         },
         {
-          "name": "€70.00",
-          "price": "€70.00",
+          "name": "Project Completion",
+          "price": "€50,000.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": ""
-        },
-        {
-          "name": "€80.00",
-          "price": "€80.00",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": ""
-        },
-        {
-          "name": "€90.00",
-          "price": "€90.00",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": ""
-        },
-        {
-          "name": "€100.00",
-          "price": "€100.00",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": ""
+          "description": "Project completion for your project"
         }
       ],
-      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer. The project includes a personalized project tailored to your needs, support for a talented creator, and a range of web development and design services.",
+      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer. The project includes a customized solution, personalized support, and exclusive updates.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -374141,90 +374005,102 @@
       "raw_fetched_at": "2026-08-04T14:51:17.533097+00:00",
       "ai_intro_en": "NEXAIR combines pressure measurement, inflation, and intelligent control into a palm-sized device weighing just 132g. Whether you're inflating a mountain bike, road bike, gravel bike, folding bike, or sports equipment such as basketballs and soccer balls, one compact device handles it all.",
       "ai_highlights_en": [
-        "Real-time pressure monitoring and automatic shutoff",
-        "20,000 RPM brushless motor with up to 13L/min airflow",
-        "Compact design weighing only 132g"
+        "Real-time pressure monitoring and automatic shutoff for accurate inflation",
+        "Compact design weighing just 132g and measuring 6.5 x 4 x 3 cm",
+        "Suitable for a variety of inflation tasks, including sports balls, bicycles, and high-pressure applications"
       ],
       "ai_specs_en": [
         [
-          "Motor Speed",
-          "20,000 RPM"
+          "Motor",
+          "20,000 RPM brushless motor"
         ],
         [
           "Airflow",
-          "13 L/min"
-        ],
-        [
-          "Weight",
-          "132g"
-        ],
-        [
-          "Dimensions",
-          "6.5 x 4 x 3 cm"
+          "up to 13L/min"
         ],
         [
           "Battery",
           "1200mAh rechargeable lithium battery"
         ],
         [
+          "Display",
+          "clear LCD display"
+        ],
+        [
+          "Valve compatibility",
+          "Presta valves, Schrader valves, and ball needles"
+        ],
+        [
+          "Dimensions",
+          "6.5 x 4 x 3 cm"
+        ],
+        [
+          "Weight",
+          "132g"
+        ],
+        [
           "Charging",
           "USB-C charging"
         ],
         [
-          "Display",
-          "Clear LCD display"
+          "Power",
+          "powered by a 20,000 RPM brushless motor"
         ],
         [
-          "Pressure Range",
-          "3–150 PSI (0.2–10.3 BAR)"
+          "Temperature management",
+          "independent cooling airflow design"
         ],
         [
-          "Valve Compatibility",
-          "Presta valves, Schrader valves, Ball needles"
+          "Materials",
+          "ABS+PC engineering plastics"
         ],
         [
-          "Operating Temperature",
-          "Not specified"
+          "Color",
+          "no color specified"
         ],
         [
-          "Operating Humidity",
-          "Not specified"
+          "Warranty",
+          "no warranty specified"
+        ],
+        [
+          "Price",
+          "$4,474"
         ]
       ],
-      "ai_risks_en": "Manufacturing, component sourcing, quality control, and logistics risks may occur during production.",
+      "ai_risks_en": "Manufacturing, component sourcing, quality control, and logistics challenges may occur during production.",
       "ai_creator_bio_en": "NEXAIR",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": 149.0,
-          "price_usd": 149.0,
+          "price": "$4,474",
+          "price_usd": "$4,474",
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR before anyone else! Limited to the first 100 backers."
+          "description": "Get NEXAIR before anyone else and receive a free carrying case"
         },
         {
           "name": "Standard",
-          "price": 199.0,
-          "price_usd": 199.0,
+          "price": "$4,474",
+          "price_usd": "$4,474",
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR with free shipping and a lifetime warranty."
+          "description": "Get NEXAIR and receive a free carrying case"
         },
         {
           "name": "Deluxe",
-          "price": 249.0,
-          "price_usd": 249.0,
+          "price": "$4,474",
+          "price_usd": "$4,474",
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR with free shipping, a lifetime warranty, and a carrying case."
+          "description": "Get NEXAIR, a carrying case, and a lifetime warranty"
         },
         {
-          "name": "Ultimate",
-          "price": 299.0,
-          "price_usd": 299.0,
+          "name": "Patreon",
+          "price": "$25",
+          "price_usd": "$25",
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR with free shipping, a lifetime warranty, a carrying case, and a NEXAIR-branded accessory kit."
+          "description": "Get exclusive updates and behind-the-scenes content"
         }
       ],
       "ai_validated": false,
@@ -374232,7 +374108,7 @@
       "hw_type": "智能硬件",
       "hw_reason": "Smart air pump with brushless motor and real-time pressure display",
       "ended_at": "2026-07-30T14:32:48.687296Z",
-      "ai_description_en": "NEXAIR is a compact, palm-sized air pump that combines pressure measurement, inflation, and intelligent control. It features a 20,000 RPM brushless motor, real-time pressure monitoring, and automatic shutoff. NEXAIR is suitable for a variety of inflation tasks, including sports balls, bicycles, and other high-pressure applications."
+      "ai_description_en": "NEXAIR is a compact, palm-sized air pump that combines pressure measurement, inflation, and intelligent control. It features a real-time pressure display, automatic shutoff, and a built-in LED light for low-light conditions. NEXAIR is suitable for a variety of inflation tasks, including sports balls, bicycles, and high-pressure applications."
     },
     {
       "id": "ks-615807361",
@@ -411260,83 +411136,91 @@
       },
       "raw_html_hash": "4a61939818383090",
       "raw_fetched_at": "2026-08-26T02:24:13.833263+00:00",
-      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and build your professional network. Perfect for entrepreneurs, freelancers, and anyone looking to make a lasting impression.",
+      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and build your professional network. ZoloCard is the perfect tool for entrepreneurs, freelancers, and anyone looking to make a lasting impression.",
       "ai_highlights_en": [
-        "Share and Impress with ZoloCard",
-        "Contactless NFC and QR Code Sharing",
-        "No Fee Forever Express Crowdfunding"
+        "Share and Impress with Contactless NFC",
+        "QR Code Sharing for Easy Connection",
+        "Link Redirection for Professional Networking"
       ],
       "ai_specs_en": [
+        [
+          "Resolution",
+          "1080 x 1080"
+        ],
         [
           "Material",
           "Durable Plastic"
         ],
         [
-          "Size",
-          "3.5 x 2 inches"
+          "Dimensions",
+          "85 x 55 x 6mm"
         ],
         [
-          "Color",
-          "Various Colors"
+          "Weight",
+          "10g"
         ],
         [
           "Operating System",
-          "Android/iOS"
+          "Android 10"
         ],
         [
           "Battery Life",
-          "Up to 1 year"
+          "Up to 2 weeks"
+        ],
+        [
+          "Storage",
+          "8GB"
+        ],
+        [
+          "Camera",
+          "2MP"
+        ],
+        [
+          "NFC",
+          "Yes"
+        ],
+        [
+          "QR Code",
+          "Yes"
+        ],
+        [
+          "Link Redirection",
+          "Yes"
         ],
         [
           "Price",
-          "£29.99"
-        ],
-        [
-          "Price",
-          "USD: $35.00"
-        ],
-        [
-          "Currency",
-          "USD"
-        ],
-        [
-          "Backers",
-          "4"
-        ],
-        [
-          "Description",
-          "A stylish and functional smart business card that lets you share your contact information and connect with others."
+          "£49"
         ]
       ],
-      "ai_risks_en": "There are no major risks associated with this project, as we have a solid plan in place for production and fulfillment.",
+      "ai_risks_en": "There are no major risks associated with this project, as it is a physical product with a clear and achievable production timeline.",
       "ai_creator_bio_en": "We are a team of entrepreneurs and designers passionate about creating innovative products that make a difference.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": "£29.99",
-          "price_usd": "USD: $35.00",
-          "currency": "USD",
-          "backers": "0",
+          "price": "£49",
+          "price_usd": "49",
+          "currency": "GBP",
+          "backers": null,
           "description": "Get your ZoloCard before anyone else and be one of the first to experience the future of business cards."
         },
         {
           "name": "Standard",
-          "price": "£29.99",
-          "price_usd": "USD: $35.00",
-          "currency": "USD",
-          "backers": "0",
-          "description": "Get your ZoloCard and start sharing your contact information with others."
+          "price": "£49",
+          "price_usd": "49",
+          "currency": "GBP",
+          "backers": null,
+          "description": "Get your ZoloCard and start building your professional network today."
         },
         {
           "name": "Premium",
-          "price": "£49.99",
-          "price_usd": "USD: $59.00",
-          "currency": "USD",
-          "backers": "0",
-          "description": "Get your ZoloCard and experience the ultimate in business card technology."
+          "price": "£99",
+          "price_usd": "99",
+          "currency": "GBP",
+          "backers": null,
+          "description": "Get your ZoloCard and take your professional network to the next level."
         }
       ],
-      "ai_description_en": "Our ZoloCard is a stylish and functional smart business card that lets you share your contact information and connect with others. With contactless NFC and QR code sharing, you can easily share your card with others and build your professional network.",
+      "ai_description_en": "ZoloCard is a revolutionary new business card that uses contactless NFC and QR code sharing to make it easy to connect with others and build your professional network. With its durable design and long battery life, ZoloCard is the perfect tool for entrepreneurs, freelancers, and anyone looking to make a lasting impression.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-08T04:22:46.807477Z"
@@ -444456,28 +444340,32 @@
       ],
       "ai_specs_en": [
         [
+          "Equipment",
+          "Essential coffee and beverage equipment"
+        ],
+        [
+          "Infrastructure",
+          "Mobile and pop-up infrastructure"
+        ],
+        [
           "Furnishings and technology",
-          "included"
+          "Furnishings and technology"
         ],
         [
           "Signage and brand materials",
-          "included"
+          "Signage and brand materials"
         ],
         [
-          "Opening coffee, tea, and operating inventory",
-          "included"
-        ],
-        [
-          "Mobile and pop-up infrastructure",
-          "estimated $10,000"
-        ],
-        [
-          "Essential coffee and beverage equipment",
-          "estimated $15,000"
+          "Inventory",
+          "Opening coffee, tea, and operating inventory"
         ],
         [
           "Reward production and fulfillment",
-          "estimated $5,000"
+          "Reward production and fulfillment"
+        ],
+        [
+          "Other expenses",
+          "Other essential launch expenses"
         ]
       ],
       "ai_risks_en": "Opening a hospitality concept involves permitting, equipment procurement, vendor schedules, location planning, and changing costs. Reward production and event dates may also be affected by suppliers or the development timeline.",
@@ -444492,28 +444380,36 @@
           "description": "Join the Founding 500 and help move Doxa District from vision to action."
         },
         {
-          "name": "Coffee Connoisseur",
-          "price": "100",
-          "price_usd": "100",
+          "name": "Early Bird",
+          "price": "30,000",
+          "price_usd": "30,000",
           "currency": "USD",
           "backers": null,
-          "description": "Get a free coffee every month for a year."
+          "description": "Be one of the first 100 backers and receive a special reward."
+        },
+        {
+          "name": "Coffee Connoisseur",
+          "price": "20,000",
+          "price_usd": "20,000",
+          "currency": "USD",
+          "backers": null,
+          "description": "Enjoy specialty coffee and tea, plus a chance to meet the team."
         },
         {
           "name": "Tea Enthusiast",
-          "price": "50",
-          "price_usd": "50",
+          "price": "15,000",
+          "price_usd": "15,000",
           "currency": "USD",
           "backers": null,
-          "description": "Get a free tea every month for a year."
+          "description": "Indulge in tea and enjoy a community event."
         },
         {
           "name": "Community Champion",
-          "price": "500",
-          "price_usd": "500",
+          "price": "10,000",
+          "price_usd": "10,000",
           "currency": "USD",
           "backers": null,
-          "description": "Get a free coffee every month for a year, plus a Doxa District t-shirt."
+          "description": "Support the community and receive a special thank-you."
         }
       ],
       "ai_description_en": "Doxa District is being developed as an initiative of Give Hope Daily. Our long-term vision includes workforce-development opportunities for young adults and people seeking a new beginning. We want to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
@@ -444689,7 +444585,7 @@
         {
           "name": "Securidoor x1",
           "price": 59.0,
-          "price_usd": 59.0,
+          "price_usd": null,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -444697,7 +444593,7 @@
         {
           "name": "Securidoor x2",
           "price": 110.0,
-          "price_usd": 110.0,
+          "price_usd": null,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -444705,7 +444601,7 @@
         {
           "name": "Securidoor x3",
           "price": 151.0,
-          "price_usd": 151.0,
+          "price_usd": null,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -444713,7 +444609,7 @@
         {
           "name": "Securidoor x4",
           "price": 75.5,
-          "price_usd": 75.5,
+          "price_usd": null,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -444722,7 +444618,7 @@
       "ai_currency": "EUR",
       "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7. The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors.",
       "ai_highlights_en": [
-        "AI-powered surveillance module for door and window",
+        "AI-powered surveillance module",
         "24/7 monitoring with AlwaysSafe AI",
         "Discreet and effective security solution"
       ],
@@ -444744,23 +444640,15 @@
           "spec_value": "Wi-Fi"
         },
         {
-          "spec_name": "Software Updates",
-          "spec_value": "Over-the-air (OTA)"
+          "spec_name": "Operating System",
+          "spec_value": "Proprietary"
         },
         {
           "spec_name": "Price",
           "spec_value": "€59.00"
         },
         {
-          "spec_name": "Price (USD)",
-          "spec_value": "€59.00"
-        },
-        {
-          "spec_name": "Price (Monthly)",
-          "spec_value": "€29.50"
-        },
-        {
-          "spec_name": "Price (USD) (Monthly)",
+          "spec_name": "Monthly Subscription",
           "spec_value": "€29.50"
         },
         {
@@ -444768,23 +444656,11 @@
           "spec_value": "€110.00"
         },
         {
-          "spec_name": "Price (USD) (Tier 2)",
-          "spec_value": "€110.00"
-        },
-        {
           "spec_name": "Price (Tier 3)",
           "spec_value": "€151.00"
         },
         {
-          "spec_name": "Price (USD) (Tier 3)",
-          "spec_value": "€151.00"
-        },
-        {
           "spec_name": "Price (Tier 4)",
-          "spec_value": "€75.50"
-        },
-        {
-          "spec_name": "Price (USD) (Tier 4)",
           "spec_value": "€75.50"
         }
       ],
@@ -456144,13 +456020,13 @@
       },
       "raw_html_hash": "7624e64f790d2b3c",
       "raw_fetched_at": "2026-09-11T16:54:09.604313+00:00",
-      "ai_intro_en": "This is a crowdfunding project page. It has rewards, updates, and a community. Back this project to support it.",
+      "ai_intro_en": "Project description here",
       "ai_highlights_en": [],
       "ai_specs_en": [],
-      "ai_risks_en": "There are no risks mentioned on this page.",
-      "ai_creator_bio_en": "This is a crowdfunding project.",
+      "ai_risks_en": "",
+      "ai_creator_bio_en": "",
       "ai_tiers": [],
-      "ai_description_en": "This is a crowdfunding project page. It has rewards, updates, and a community. Back this project to support it.",
+      "ai_description_en": "",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-10-22T09:29:05.493415Z"
@@ -500635,19 +500511,19 @@
         ],
         [
           "Context and Imagery",
-          "Restoring full, original meaning"
+          "Deep Alignment"
         ],
         [
-          "Language",
-          "Crafting a vocabulary that aligns with modern Chinese standards"
+          "Vocabulary",
+          "Modern Penetration of Language"
         ],
         [
-          "Delivery",
-          "Digital delivery may be subject to minor delays"
+          "Digital Delivery",
+          "Minor Delays"
         ],
         [
-          "Refunds",
-          "Backers can cancel their pledges at any time"
+          "Refunds and Cancellation",
+          "Backer Flexibility"
         ]
       ],
       "ai_risks_en": "Digital delivery may be subject to minor delays.",
@@ -500659,18 +500535,18 @@
           "price_usd": "20.00",
           "currency": "USD",
           "backers": null,
-          "description": "Digital edition of the Bible in PDF and ePub formats"
+          "description": "Digital Edition (PDF &amp; ePub) $20.00"
         },
         {
-          "name": "Pledge any amount",
+          "name": "Pledge Any Amount",
           "price": null,
           "price_usd": null,
-          "currency": null,
+          "currency": "USD",
           "backers": null,
-          "description": "Support the project and tip the creator by pledging any amount you want"
+          "description": "Help the project reach its goal or tip the creator by pledging any amount you want (for no reward)."
         }
       ],
-      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation. While historical classic translations each have their own merits, they are often bound by specific denominational traditions, target language conventions, or the limitations of earlier source texts. Mastery of the three major biblical languages enables you to bypass the secondary filtration of modern intermediary languages like English, and confront directly the dynamic, imagery-rich Semitic mindset of Biblical Hebrew, as well as the logically rigorous, tense-precise phrasal structures of Koine Greek. Your re-translation aims to strip away millenniums-old exegetical blind spots, allowing the original texture and breath of the scriptures to become vividly manifest once again.",
+      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -511874,71 +511750,49 @@
       },
       "raw_html_hash": "8f7b5cf904f99603",
       "raw_fetched_at": "2026-10-21T17:39:05.195243+00:00",
-      "ai_intro_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made of high-quality materials and will feature intricate details. The project aims to bring a new level of excitement to the world of gaming.",
+      "ai_intro_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made from high-quality materials and will feature intricate details. The project aims to bring a new level of excitement to the world of gaming.",
       "ai_highlights_en": [
         "Unique collectible figurines based on popular video games",
-        "High-quality materials and intricate details",
-        "Exciting new addition to the world of gaming"
+        "High-quality materials used for durability and detail",
+        "Intricate details to bring the characters to life"
       ],
       "ai_specs_en": [
-        {
-          "spec_name": "Material",
-          "spec_value": "High-quality PVC"
-        },
-        {
-          "spec_name": "Size",
-          "spec_value": "6 inches"
-        },
-        {
-          "spec_name": "Price",
-          "spec_value": "$25"
-        },
-        {
-          "spec_name": "Shipping",
-          "spec_value": "Free worldwide shipping"
-        },
-        {
-          "spec_name": "Estimated Delivery",
-          "spec_value": "Estimated to be delivered in 2-3 months"
-        }
+        "Material: High-quality PVC",
+        "Size: 6 inches",
+        "Weight: 1 pound",
+        "Price: $20",
+        "Shipping: Free worldwide",
+        "Estimated delivery: 2-3 months"
       ],
-      "ai_risks_en": "There is a risk that the project may not be fully funded, which could impact the production and delivery of the figurines.",
+      "ai_risks_en": "The project is subject to delays due to material availability and production time.",
       "ai_creator_bio_en": "The creator is a passionate gamer and artist who aims to bring a new level of excitement to the world of gaming.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": "$25",
-          "price_usd": null,
-          "currency": null,
+          "price": 20,
+          "price_usd": 20,
+          "currency": "USD",
           "backers": null,
-          "description": "Get your figurine early and save 10%!"
+          "description": "Get a limited edition figurine before anyone else."
         },
         {
           "name": "Standard",
-          "price": "$30",
-          "price_usd": "$30",
+          "price": 25,
+          "price_usd": 25,
           "currency": "USD",
           "backers": null,
-          "description": "Get your figurine with standard shipping"
+          "description": "Get a standard edition figurine with a free shipping."
         },
         {
           "name": "Deluxe",
-          "price": "$40",
-          "price_usd": "$40",
+          "price": 50,
+          "price_usd": 50,
           "currency": "USD",
           "backers": null,
-          "description": "Get your figurine with deluxe shipping and a signed certificate"
-        },
-        {
-          "name": "Ultimate",
-          "price": "$50",
-          "price_usd": "$50",
-          "currency": "USD",
-          "backers": null,
-          "description": "Get your figurine with ultimate shipping, a signed certificate, and a personalized thank-you note"
+          "description": "Get a deluxe edition figurine with a free shipping and a signed poster."
         }
       ],
-      "ai_description_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made of high-quality materials and will feature intricate details. The project aims to bring a new level of excitement to the world of gaming.",
+      "ai_description_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made from high-quality materials and will feature intricate details. The project aims to bring a new level of excitement to the world of gaming.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -562421,40 +562275,100 @@
       "raw_html_hash": "6b5e5ae28af91455",
       "raw_fetched_at": "2026-08-06T04:18:36.715916+00:00",
       "ai_validated": false,
-      "ai_intro_en": "This project supports the design and construction of a small-scale, electrolytic silver refining system focused on recovering silver from silver-plated scrap materials that are commonly discarded as low- or no-value waste. Many silver-plated items are scrapped or landfilled because conventional recovery methods are inefficient or cost-prohibitive. Our system utilizes an electrolytic recovery process, allowing the electrolyte to remain in service over extended periods while pure silver is continuously reclaimed from it.",
+      "ai_intro_en": "This project supports the design and construction of a small-scale, electrolytic silver refining system focused on recovering silver from silver-plated scrap materials that are commonly discarded as low- or no-value waste. Backers are supporting the creation of a functional materials-recovery system that emphasizes process stability, resource efficiency, and waste reduction.",
       "ai_highlights_en": [
-        "Electrolyte longevity: electrolyte remains active for extended periods, reducing waste and cost.",
-        "Direct solution recovery extracts pure silver continuously, minimizing chemical waste and secondary streams.",
-        "Dual‑recovery approach recycles both silver and base metals, diverting scrap from landfills."
+        "Recover silver directly from solution, significantly reducing dissolved metal waste.",
+        "Low generation of secondary waste streams compared to batch chemical stripping.",
+        "Small-Scale Containment: A strict focus on controlled, contained processing at a lab scale to highlight responsible material reclamation."
       ],
       "ai_specs_en": [
-        [
-          "System type",
-          "Electrolytic silver refining"
-        ],
-        [
-          "Input material",
-          "Silver‑plated scrap (flatware, holloware, etc.)"
-        ],
-        [
-          "Output products",
-          "Pure silver crystals and granular silver sand (999+ purity)"
-        ],
-        [
-          "Electrolyte reuse",
-          "Yes – electrolyte remains active over many cycles"
-        ],
-        [
-          "Environmental benefit",
-          "Diverts silver‑plated waste from landfills, reduces mining demand"
-        ],
-        [
-          "Price range",
-          "$35 – $1,450"
-        ]
+        {
+          "spec_name": "Electrolyte Longevity",
+          "spec_value": "The electrolyte remains active over long periods rather than being discarded after each individual cycle."
+        },
+        {
+          "spec_name": "Direct Solution Recovery",
+          "spec_value": "Silver is recovered directly from the solution, significantly reducing dissolved metal waste."
+        },
+        {
+          "spec_name": "Reduced Secondary Streams",
+          "spec_value": "Low generation of secondary waste streams compared to batch chemical stripping."
+        },
+        {
+          "spec_name": "Small-Scale Containment",
+          "spec_value": "A strict focus on controlled, contained processing at a lab scale to highlight responsible material reclamation."
+        },
+        {
+          "spec_name": "Supply Chain Logistics",
+          "spec_value": "Component availability for specialized lab equipment and power electronics may affect tight building timelines."
+        },
+        {
+          "spec_name": "Reusability and Recyclability",
+          "spec_value": "Chemically harvesting silver plate from discarded items like flatware and holloware, we divert scrap metal directly out of municipal waste streams before it reaches a landfill."
+        },
+        {
+          "spec_name": "Sustainable Materials",
+          "spec_value": "Prioritize sustainable, low-impact materials across both our chemical processing and packaging workflows."
+        },
+        {
+          "spec_name": "Environmental Advantages",
+          "spec_value": "The system is designed around electrolytic reuse and recovery, which offers several distinct advantages over traditional methods."
+        },
+        {
+          "spec_name": "Crystal Morphology",
+          "spec_value": "Crystal morphology varies naturally between runs; no two grown crystal specimens will ever look identical, though purity remains uniform."
+        },
+        {
+          "spec_name": "Scrap Composition Variance",
+          "spec_value": "Recovery efficiency varies heavily based on the base metal and plating thickness of the scrap composition."
+        },
+        {
+          "spec_name": "Parameter Tuning Fixes",
+          "spec_value": "Electrolytic parameters (such as current density and flow) require precise tuning for each unique material type processed."
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$35"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$35"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$55"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$55"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$95"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$95"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$725"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$725"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$1,450"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$1,450"
+        }
       ],
-      "ai_risks_en": "Scrap composition variance affects recovery efficiency, requiring parameter tuning for each material type; crystal morphology naturally varies between runs; and supply‑chain constraints for specialized lab equipment could impact timelines.",
-      "ai_creator_bio_en": "Greg, known as Greg the Cable Guy, is the creator of this electrolytic silver refining project.",
+      "ai_risks_en": "While the core chemistry behind this system is well-established, scaling and refining it for varied plated waste presents a few distinct challenges.",
+      "ai_creator_bio_en": "Greg the Cable Guy",
       "ai_tiers": [
         {
           "name": "10 Gram .999 Fine Silver Sand",
@@ -562462,7 +562376,7 @@
           "price_usd": 35,
           "currency": "USD",
           "backers": 0,
-          "description": "One clear glass display vial containing 10 grams of high‑purity granular silver sand from the initial recovery line. Not an investment, no financial guarantees."
+          "description": "One clear glass display vial containing 10 grams of high-purity, granular silver sand captured directly from our initial recovery line."
         },
         {
           "name": "1/2 Troy Ounce .999 Fine Silver Sand",
@@ -562470,7 +562384,7 @@
           "price_usd": 55,
           "currency": "USD",
           "backers": 0,
-          "description": "One clear glass display vial containing 1/2 Troy ounce of high‑purity granular silver sand from the initial recovery line. Not an investment, no financial guarantees."
+          "description": "One clear glass display vial containing 1/2 Troy ounces of high-purity, granular silver sand captured directly from our initial recovery line."
         },
         {
           "name": "1 Troy oz Mixed Silver Display Jar",
@@ -562478,7 +562392,7 @@
           "price_usd": 95,
           "currency": "USD",
           "backers": 0,
-          "description": "One clear glass presentation jar with 1 Troy ounce of refined silver: ½ oz heavy crystal chunks over ½ oz fine granular silver sand."
+          "description": "One clear glass presentation jar featuring 1 Troy ounce of refined silver—consisting of 1/2 oz of heavy crystal chunks layered cleanly over 1/2 oz of fine granular silver sand."
         },
         {
           "name": "10 Troz Master Crystal & Sand Collection",
@@ -562486,7 +562400,7 @@
           "price_usd": 725,
           "currency": "USD",
           "backers": 0,
-          "description": "Heavy‑weight display lot of 10 troy ounces refined silver in glass jars: 5 troy oz dense crystal chunks and 5 troy oz fine silver sand from the same batch."
+          "description": "A heavy-weight display lot consisting of 10 troy ounces of refined silver packaged in glass jars: 5 troy ounces of select dense silver crystal chunks and 5 troy ounces of fine silver sand from the exact same refining batch."
         },
         {
           "name": "1,000 Gram Kilo Display",
@@ -562494,12 +562408,12 @@
           "price_usd": 1450,
           "currency": "USD",
           "backers": 1,
-          "description": "Ultimate benefactor lot: 1,000 grams (1 kg) pure refined silver in oversized glass jars — 500 g crystal chunks and 500 g fine silver sand."
+          "description": "The ultimate project benefactor lot. A single presentation-grade display set containing exactly 1,000 grams (1 Kilogram) of pure refined silver in oversized glass display jars: 500 grams of heavy, dense crystal chunks and 500 grams of fine silver sand."
         }
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-08-06T04:17:58.590149Z",
-      "ai_description_en": "This project aims to build a small‑scale electrolytic silver refinery that recovers pure silver from discarded silver‑plated scrap, turning waste into high‑purity crystal and sand artifacts. The system reuses its electrolyte over long periods, extracts silver directly from solution, and minimizes chemical waste while ensuring environmental safety. Backers receive physical silver crystal artifacts produced during normal operation, supporting a sustainable recycling pipeline that diverts metal from landfills and reduces demand for newly mined ore. The refinery’s design emphasizes process stability, resource efficiency, and closed‑loop liquid recovery to enable long‑term, responsible material reclamation."
+      "ai_description_en": "Our ultimate objective is to establish a repeatable, lab-scale recovery platform that demonstrates how discarded plated materials can be processed efficiently while minimizing environmental waste output."
     },
     {
       "id": "ks-168981715",
@@ -643509,7 +643423,89 @@
       },
       "raw_html_hash": "cca7e72b11226137",
       "raw_fetched_at": "2026-10-24T16:30:32.357693+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Product Design Hong Kong, Hong Kong is launching the Ocean Fantasy — Larimar: The Incomparable Blue Ocean-Inspired Blue Gemstone, a meaningful everyday companion. This project is the first time Larimar is launched globally, and it is cherished for its rare color, natural beauty, and elegance as a wearable piece of art.",
+      "ai_highlights_en": [
+        "Inspired by the ocean's boundless embrace and its mysterious power, this design captures the fluid essence of Larimar.",
+        "Larimar is the national stone of the Dominican Republic, with a unique wave-like blue-and-white veining, and a highly limited mining area making it a stone of exceptional collectible value.",
+        "This project is the first time Larimar is launched globally, and it is cherished for its rare color, natural beauty, and elegance as a wearable piece of art."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Color",
+          "spec_value": "Electric Blue"
+        },
+        {
+          "spec_name": "Translucency",
+          "spec_value": "Highly Translucent"
+        },
+        {
+          "spec_name": "Patterning",
+          "spec_value": "Turtleback Pattern"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$510"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$510"
+        },
+        {
+          "spec_name": "Price (HKD)",
+          "spec_value": "$3999"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$510"
+        },
+        {
+          "spec_name": "Price (HKD)",
+          "spec_value": "$5699"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$727"
+        },
+        {
+          "spec_name": "Price (HKD)",
+          "spec_value": "$9199"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "$1172"
+        }
+      ],
+      "ai_risks_en": "This project and its rewards are not a replacement for medication, medical treatment, or a doctor's examination.",
+      "ai_creator_bio_en": "University professor and independent designer who loves traveling.",
+      "ai_tiers": [
+        {
+          "name": "Little Blue Spirit",
+          "price": 3999,
+          "price_usd": 510,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "A beautiful Larimar stone with a delicate white pattern and blue-green ripples."
+        },
+        {
+          "name": "Heart of the Ocean",
+          "price": 5699,
+          "price_usd": 727,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "A stunning Larimar stone with a unique Turtleback pattern."
+        },
+        {
+          "name": "ALLIN",
+          "price": 9199,
+          "price_usd": 1172,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "A luxurious Larimar stone with a unique Turtleback pattern."
+        }
+      ],
+      "ai_description_en": "Larimar is a rare and beautiful stone, cherished for its rare color, natural beauty, and elegance as a wearable piece of art. This project is the first time Larimar is launched globally, and it is inspired by the ocean's boundless embrace and its mysterious power.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2145673685",
@@ -643992,7 +643988,53 @@
       },
       "raw_html_hash": "3baaaf303b0242de",
       "raw_fetched_at": "2026-10-21T17:39:50.436660+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Product DesignSomerset, UK is creating Riven Shield Tumblers, self-adhesive, can keep adding cover designs to make your preferred tumbler design. £22 will get you a Tumbler with 3 UVDTFs to apply as you wish.",
+      "ai_highlights_en": [
+        "Customizable Tumbler with 3 UVDTFs",
+        "Future UVDTFs available on the website",
+        "Part of the Riven Shield Merchandise programme"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Tumbler"
+        ],
+        [
+          "Price",
+          "£22"
+        ],
+        [
+          "UVDTFs",
+          "3"
+        ],
+        [
+          "Design",
+          "Customizable"
+        ]
+      ],
+      "ai_risks_en": "This project will not go ahead if we do not complete our target.",
+      "ai_creator_bio_en": "Product DesignSomerset, UK",
+      "ai_tiers": [
+        {
+          "name": "£0 Pledged",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Back this project"
+        },
+        {
+          "name": "£22",
+          "price": "£22",
+          "price_usd": null,
+          "currency": "GBP",
+          "backers": null,
+          "description": "Riven Shield Tumbler with 3 UVDTFs"
+        }
+      ],
+      "ai_description_en": "I have opened this Kickstarter to produce Tumblers as part of the Riven Shield Merchandise programme. Future UVDTFs will become available on the website to purchase and complete your tumbler design.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1896020914",
