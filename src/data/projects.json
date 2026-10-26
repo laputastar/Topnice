@@ -34010,116 +34010,152 @@
       "raw_html_hash": "ce7321da049fb591",
       "raw_fetched_at": "2026-08-06T04:18:19.717830+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Meet Litejam Acoustic Neo A1, the revolutionary smart guitar that guides your fretting and picking hands in real time. Learn guitar faster and enjoy playing more with Litejam's interactive LED fretboard.",
+      "ai_intro_en": "Meet Litejam Acoustic Neo A1, a revolutionary guitar that guides your fretting and picking hands in real time, making it easy to learn and play music. With its built-in rechargeable battery and Bluetooth connectivity, you can practice anywhere, anytime. Learn fingerpicking, play songs, and explore scales with our interactive LED fretboard.",
       "ai_highlights_en": [
-        "Practice common chord progressions in every key",
-        "Switch instantly between Strumming and Fingerpicking",
-        "Adjustable tempo for every skill level"
+        "Learn fingerpicking with real-time LED guidance",
+        "Play songs and explore scales with our interactive LED fretboard",
+        "Practice with customizable tempo and loop modes"
       ],
       "ai_specs_en": [
         [
-          "Fretboard",
-          "88+ RGB LEDs"
-        ],
-        [
-          "Scale Mode",
-          "12 Root Keys, 18 Scale Types per Key"
-        ],
-        [
-          "Chromatic Scale Practice",
-          "Preset or custom finger patterns"
-        ],
-        [
-          "Custom String Control",
-          "Turn on/off any strings"
-        ],
-        [
-          "LED Color",
-          "Customizable for techniques like Hammer-on, Pull-off, etc."
-        ],
-        [
-          "Tremolo System",
-          "Wilkinson 2-point tremolo system"
-        ],
-        [
-          "Pickups",
-          "Custom-designed Alnico V Humbuckers"
+          "Spec",
+          "Value"
         ],
         [
           "Body",
-          "Carbon Fiber Composite Body"
+          "Carbon Fiber"
         ],
         [
           "Neck",
-          "Roasted Maple Neck"
+          "Roasted Maple"
         ],
         [
-          "Fingerboard",
-          "Rosewood Fingerboard"
+          "Frets",
+          "24"
+        ],
+        [
+          "Pickups",
+          "Neo Alnico V Humbucker"
+        ],
+        [
+          "Tremolo",
+          "Wilkinson 2-Point"
         ],
         [
           "Battery",
-          "Rechargeable 4000mAh battery"
+          "Rechargeable 4000mAh"
+        ],
+        [
+          "Connectivity",
+          "Bluetooth"
         ],
         [
           "Weight",
-          "Lightweight, durable"
+          "Lightweight"
         ]
       ],
-      "ai_risks_en": "No specific risks mentioned.",
-      "ai_creator_bio_en": "Litejam is a company that combines smart hardware with interactive software to transform the guitar into a visual learning experience.",
+      "ai_risks_en": "The project is subject to risks such as manufacturing delays, material shortages, and changes in market demand.",
+      "ai_creator_bio_en": "Litejam is a company that aims to make music learning simple, visual, and fun.",
       "ai_tiers": [
         {
           "name": "Back this project",
-          "price": null,
+          "price": 0,
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Back this project"
+          "description": "Back this project and support the development of Litejam Acoustic Neo A1"
         },
         {
           "name": "Remind me",
-          "price": null,
+          "price": 0,
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Remind me"
+          "description": "Remind me to back this project"
         },
         {
-          "name": "Classical Fingerstyle Pack",
-          "price": 500000,
-          "price_usd": 500000,
+          "name": "Learn Fingerpicking",
+          "price": 299,
+          "price_usd": 299,
           "currency": "USD",
           "backers": null,
-          "description": "Unlock 10 Interactive Classical Fingerstyle Lessons"
+          "description": "Learn fingerpicking with real-time LED guidance"
+        },
+        {
+          "name": "Play Songs",
+          "price": 399,
+          "price_usd": 399,
+          "currency": "USD",
+          "backers": null,
+          "description": "Play songs with our interactive LED fretboard"
+        },
+        {
+          "name": "Explore Scales",
+          "price": 499,
+          "price_usd": 499,
+          "currency": "USD",
+          "backers": null,
+          "description": "Explore scales with our interactive LED fretboard"
         },
         {
           "name": "Litejam Guitar Academy",
-          "price": 750000,
-          "price_usd": 750000,
-          "currency": "USD",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
           "backers": null,
           "description": "A premium beginner course included FREE"
         },
         {
           "name": "1-Year Litejam Play Pass",
-          "price": 1000000,
-          "price_usd": 1000000,
-          "currency": "USD",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
           "backers": null,
           "description": "Unlock thousands of songs inside Play Mode"
         },
         {
           "name": "AI Backing Track Studio",
-          "price": 1500000,
-          "price_usd": 1500000,
-          "currency": "USD",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Practice like you’re playing with a real band"
+        },
+        {
+          "name": "Stretch Goal 1: Classical Fingerstyle Pack",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Unlock 10 Interactive Classical Fingerstyle Lessons"
+        },
+        {
+          "name": "Stretch Goal 2: Litejam Guitar Academy",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "A premium beginner course included FREE"
+        },
+        {
+          "name": "Stretch Goal 3: 1-Year Litejam Play Pass",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Unlock thousands of songs inside Play Mode"
+        },
+        {
+          "name": "Stretch Goal 4: AI Backing Track Studio",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
           "backers": null,
           "description": "Practice like you’re playing with a real band"
         }
       ],
       "ai_source": "raw_html",
-      "ai_description_en": "Litejam Acoustic Neo A1 is a revolutionary smart guitar that guides your fretting and picking hands in real time. Learn guitar faster and enjoy playing more with Litejam's interactive LED fretboard. The guitar features a carbon fiber body, roasted maple neck, and premium active electronics. Litejam is building an interactive music learning ecosystem that combines smart hardware, AI learning, interactive lessons, songs with STEM experience, music games, and a creator marketplace.",
+      "ai_description_en": "The Litejam Acoustic Neo A1 is a revolutionary guitar that guides your fretting and picking hands in real time, making it easy to learn and play music. With its built-in rechargeable battery and Bluetooth connectivity, you can practice anywhere, anytime. Learn fingerpicking, play songs, and explore scales with our interactive LED fretboard. The Litejam Neo Bass B4NS is also available, featuring Litejam’s RGB Smart Fretboard, active electronics, and Bluetooth connectivity. Stretch goals include a premium beginner course, a year of play passes, and an AI backing track studio. The Litejam ecosystem is built on smart hardware, AI learning, interactive lessons, songs with STEM experience, music games, and a creator marketplace. Every software update adds new content and capabilities, making your Litejam better over time.",
       "ended_at": "2026-10-22T09:29:05.491909Z"
     },
     {
@@ -81424,7 +81460,118 @@
         "heat": 50.0
       },
       "raw_html_hash": "125653c0619c23b3",
-      "raw_fetched_at": "2026-10-26T19:15:56.681078+00:00"
+      "raw_fetched_at": "2026-10-26T19:15:56.681078+00:00",
+      "ai_intro_en": "A Smarter Way to Pack. Back this project Remind me Back this project Campaign Story A Smarter Way to Pack. How Many Times Do You Have to Repack on One Trip? You Pack. ThinkWay Compresses. Pack Bigger. Travel Lighter. Actual Packing Test Photos More Family Essentials. Less Packing Stress. Different Trips. Different Loads. One Smart Solution. More Than Compression. Engineered for the Journey A Small Motor. A Big Responsibility. Up to 15 Compressions. One Full Charge. Power When You Need It. Removable When You Don't. Pack More. Stay Carry-On Friendly. Thoughtful in Every Detail. Built to Last. Backed by Warranty. Make Room for the Journey. One Smart Suitcase. Every Kind of Journey. From weekend getaways to extended vacations, ThinkWay Pro is designed to fit the way you travel. Choose from two practical sizes and a range of timeless colors, combining smart packing with a clean, modern design.",
+      "ai_highlights_en": [
+        "Pack Bigger. Travel Lighter.",
+        "Up to 15 Compressions. One Full Charge.",
+        "Power When You Need It. Removable When You Don't."
+      ],
+      "ai_specs_en": [
+        [
+          "Size",
+          "20\""
+        ],
+        [
+          "Size",
+          "24\""
+        ],
+        [
+          "Material",
+          "Composite"
+        ],
+        [
+          "Weight",
+          "3.3 lbs"
+        ],
+        [
+          "Dimensions",
+          "20\" x 14\" x 9\""
+        ],
+        [
+          "Dimensions",
+          "24\" x 15\" x 10\""
+        ],
+        [
+          "Battery Life",
+          "Up to 15 compressions"
+        ],
+        [
+          "Sealing Structure",
+          "Reliable seals"
+        ],
+        [
+          "Motor",
+          "Integrated motor"
+        ],
+        [
+          "Control Electronics",
+          "Protective mechanisms"
+        ],
+        [
+          "Puncture Resistance",
+          "50% thicker"
+        ],
+        [
+          "Handle",
+          "Telescopic handle"
+        ]
+      ],
+      "ai_risks_en": "Developing an integrated electric compression suitcase is more complex than manufacturing a conventional suitcase.",
+      "ai_creator_bio_en": "ThinkWay is a smart suitcase with an integrated one-touch electric compression system.",
+      "ai_tiers": [
+        {
+          "name": "Launch Special — ThinkWay Pro 20\"",
+          "price": 329,
+          "price_usd": 329,
+          "currency": "USD",
+          "backers": 8,
+          "description": "Be among the first to own ThinkWay Pro at our exclusive Launch Special price. Includes one 20\" electric compression suitcase with one-touch packing convenience."
+        },
+        {
+          "name": "Launch Special — ThinkWay Pro 24\"",
+          "price": 359,
+          "price_usd": 359,
+          "currency": "USD",
+          "backers": 8,
+          "description": "More room for longer adventures. Get one 24\" ThinkWay Pro with one-touch electric compression at our exclusive Super Early Bird price."
+        },
+        {
+          "name": "Travel Duo — 2 × ThinkWay Pro 20\"",
+          "price": 599,
+          "price_usd": 599,
+          "currency": "USD",
+          "backers": 3,
+          "description": "Two suitcases, twice the packing freedom. Includes two 20\" ThinkWay Pro suitcases—perfect for couples, travel partners, or frequent flyers."
+        },
+        {
+          "name": "Travel Duo — 2 × ThinkWay Pro 24\"",
+          "price": 659,
+          "price_usd": 659,
+          "currency": "USD",
+          "backers": 4,
+          "description": "Pack together, travel further. Includes two 24\" ThinkWay Pro suitcases—ideal for couples and longer getaways with more to bring."
+        },
+        {
+          "name": "Family Pack — 4 × ThinkWay Pro 20\"",
+          "price": 1159,
+          "price_usd": 1159,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Less packing stress for the whole family. Includes four 20\" ThinkWay Pro suitcases, so everyone can pack more and travel with ease."
+        },
+        {
+          "name": "Family Pack — 4 × ThinkWay Pro 24\"",
+          "price": 1249,
+          "price_usd": 1249,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Big adventures deserve smarter packing. Includes four 24\" ThinkWay Pro suitcases—designed for family vacations, longer trips, and more packing freedom."
+        }
+      ],
+      "ai_description_en": "ThinkWay is a smart suitcase with an integrated one-touch electric compression system. By compressing soft items such as clothes, towels, and other bulky items, ThinkWay reduces the bulk of your luggage, creating more usable packing space without expanding the suitcase itself. With up to 15 compressions per full charge, ThinkWay is designed to help you repack without the usual effort. Less time wrestling with luggage. More time enjoying where you are. From weekend getaways to extended vacations, ThinkWay Pro is designed to fit the way you travel. Choose from two practical sizes and a range of timeless colors, combining smart packing with a clean, modern design.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-634238212",
@@ -153481,54 +153628,50 @@
       "ai_specs_en": [
         [
           "Color Temperature",
-          "2700K warm light, 6500K cool white"
+          "2700K"
         ],
         [
-          "Dimming",
-          "Smooth dimming"
+          "Color Temperature",
+          "6500K"
         ],
         [
-          "Lighting Control",
-          "Full-spectrum lighting control"
+          "Resolution",
+          "7-color RGB lighting"
         ],
         [
-          "Music Sync",
-          "Built-in Bluetooth speaker with music sync"
+          "Resolution",
+          "4 realistic firefly modes"
         ],
         [
-          "Projection Angle",
-          "Adjustable projection angle"
+          "Resolution",
+          "10 stunning galaxy & nebula effects"
         ],
         [
-          "Power",
-          "40W"
-        ],
-        [
-          "Waterproof",
-          "Waterproof outdoor projector"
-        ],
-        [
-          "Colors",
+          "Resolution",
           "1000+ colors"
         ],
         [
-          "Coverage",
+          "Resolution",
           "Wide coverage"
         ],
         [
-          "Smart Home Integration",
-          "Works seamlessly with Amazon Alexa and Google Home"
+          "Resolution",
+          "40W high-power projector"
         ],
         [
-          "App Control",
-          "Surp Life App on iOS or Android for easy adjustment"
+          "Resolution",
+          "Waterproof outdoor projector"
         ],
         [
-          "Themes",
-          "17+ themes for every mood"
+          "Resolution",
+          "Bluetooth speaker with music sync"
+        ],
+        [
+          "Resolution",
+          "8 white noise sounds for sleep"
         ]
       ],
-      "ai_risks_en": "We have a well-established production process and a reliable supply chain. However, challenges such as delays in component sourcing or unexpected manufacturing issues may occur.",
+      "ai_risks_en": "Delays in component sourcing or unexpected manufacturing issues may occur.",
       "ai_creator_bio_en": "Twelvetooo is a professional manufacturer of laser semiconductor intelligent application products, integrating research, production, sales, and service.",
       "ai_tiers": [
         {
@@ -153593,13 +153736,13 @@
           "price_usd": 239,
           "currency": "HK$",
           "backers": 13,
-          "description": "Massive value for big spaces or resellers! 10 Bulbs for only $239 (51% off $490)."
+          "description": "Massive value for big spaces or resellers! Build a complete smart lighting system with music sync throughout your house."
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.983757Z",
-      "ai_description_en": "Transform your space into a dynamic world of light and motion with the SMART PROJECTION BULB. With endless color possibilities, instant warm and cool light, smart home integration, and music sync mode, this bulb is perfect for any room. Whether you're relaxing, gaming, or hosting a party, every experience becomes more immersive, warm, and magical."
+      "ai_description_en": "Twelvetooo SMART PROJECTION BULB transforms ordinary lighting into a dynamic, cinema-like experience with flowing aurora-inspired light and immersive motion. With endless color possibilities and instant warm & cool light, you can freely customize colors and brightness with smooth dimming and full-spectrum lighting control. Music Sync Mode brings your space to life with lights that move to the music, detecting surrounding audio in real time, allowing colors and lighting effects to pulse and shift with the beat. Perfect for whole-home transformation, the Family & Party Pack: 4 Bulbs is a great value for $99 (save nearly $100)."
     },
     {
       "id": "ks-615150982",
@@ -174888,8 +175031,8 @@
           "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you. Swap them in seconds and give your everyday carry a fresh identity."
         ]
       ],
-      "ai_risks_en": "Manufacturing Challenges, Fulfillment &amp; Shipping",
-      "ai_creator_bio_en": "a group of engineers and friends who love design and are obsessed with precision engineering",
+      "ai_risks_en": "Manufacturing Challenges and Fulfillment &amp; Shipping Risks.",
+      "ai_creator_bio_en": "A group of engineers and friends who love design and are obsessed with precision engineering.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
@@ -334178,7 +334321,78 @@
         "heat": 14.5
       },
       "raw_html_hash": "b94a0c82b275d480",
-      "raw_fetched_at": "2026-10-26T19:16:27.493042+00:00"
+      "raw_fetched_at": "2026-10-26T19:16:27.493042+00:00",
+      "ai_intro_en": "AquaKara brings a phone enclosure, a Bluetooth speaker, and a wall mount into one setup. The phone sits behind the front cover, with physical speaker controls positioned alongside it. It is designed for people who stream shows, music, and podcasts on their phones and want to keep their entertainment going while they shower.",
+      "ai_highlights_en": [
+        "Keep watching: Keep Netflix, YouTube, or TikTok going instead of pausing just because it’s shower time.",
+        "Bring your music or podcasts into the shower with the built-in Bluetooth speaker.",
+        "Keep an eye on messages and incoming calls while you shower."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Battery Life",
+          "spec_value": "11 hours 23 minutes at 50% volume and 4 hours 21 minutes at 100% volume"
+        },
+        {
+          "spec_name": "Charging",
+          "spec_value": "Charges through USB-C at 5V / 1A, up to 5W"
+        },
+        {
+          "spec_name": "Colors",
+          "spec_value": "Available in Slate Gray, Deep Black, and Soft White"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "Not specified"
+        },
+        {
+          "spec_name": "Power",
+          "spec_value": "5V / 1A, up to 5W"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "Not specified"
+        }
+      ],
+      "ai_risks_en": "There are always risks and challenges with bringing a project like this to life, particularly around mass production and international fulfillment.",
+      "ai_creator_bio_en": "The team behind AquaKara has experience spanning over a decade in precision mold making, injection molding, and tooling.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 121,
+          "price_usd": 69,
+          "currency": "NZ$",
+          "backers": 11,
+          "description": "AquaKara x 1"
+        },
+        {
+          "name": "Early Bird",
+          "price": 133,
+          "price_usd": 76,
+          "currency": "NZ$",
+          "backers": 0,
+          "description": "AquaKara x 1"
+        },
+        {
+          "name": "Early Bird Special",
+          "price": 256,
+          "price_usd": 146,
+          "currency": "NZ$",
+          "backers": 0,
+          "description": "2-Pack Special - 44% off"
+        },
+        {
+          "name": "3-Pack Special",
+          "price": 371,
+          "price_usd": 212,
+          "currency": "NZ$",
+          "backers": 0,
+          "description": "3-Pack Special - 46% off"
+        }
+      ],
+      "ai_description_en": "AquaKara is designed for people who enjoy bringing videos, music, podcasts, and everyday phone content into their shower routine. It may be less relevant for you if you prefer to keep your bathroom completely screen-free, rarely use your phone for entertainment, or prioritize studio-grade audio over the convenience of an integrated shower setup.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1406351579",
@@ -376417,102 +376631,86 @@
       "raw_fetched_at": "2026-08-04T14:51:17.533097+00:00",
       "ai_intro_en": "NEXAIR combines pressure measurement, inflation, and intelligent control into a palm-sized device weighing just 132g. Whether you're inflating a mountain bike, road bike, gravel bike, folding bike, or sports equipment such as basketballs and soccer balls, one compact device handles it all.",
       "ai_highlights_en": [
-        "Real-time pressure monitoring and automatic shutoff for accurate inflation",
-        "Compact design weighing just 132g and measuring 6.5 x 4 x 3 cm",
-        "Suitable for a variety of inflation tasks, including sports balls, bicycles, and high-pressure applications"
+        "Real-time pressure monitoring and automatic shutoff",
+        "20,000 RPM brushless motor with up to 13L/min airflow",
+        "Compact design weighing only 132g"
       ],
       "ai_specs_en": [
         [
-          "Motor",
-          "20,000 RPM brushless motor"
+          "Motor Speed",
+          "20,000 RPM"
         ],
         [
           "Airflow",
-          "up to 13L/min"
+          "13 L/min"
         ],
         [
-          "Battery",
-          "1200mAh rechargeable lithium battery"
-        ],
-        [
-          "Display",
-          "clear LCD display"
-        ],
-        [
-          "Valve compatibility",
-          "Presta valves, Schrader valves, and ball needles"
-        ],
-        [
-          "Dimensions",
-          "6.5 x 4 x 3 cm"
+          "Battery Capacity",
+          "1200mAh"
         ],
         [
           "Weight",
           "132g"
         ],
         [
+          "Dimensions",
+          "6.5 × 4 × 3 cm"
+        ],
+        [
+          "Display",
+          "Clear LCD display"
+        ],
+        [
+          "Pressure Range",
+          "3–150 PSI (0.2–10.3 BAR)"
+        ],
+        [
+          "Valve Compatibility",
+          "Presta valves, Schrader valves, Ball needles"
+        ],
+        [
           "Charging",
           "USB-C charging"
         ],
         [
-          "Power",
-          "powered by a 20,000 RPM brushless motor"
-        ],
-        [
-          "Temperature management",
-          "independent cooling airflow design"
-        ],
-        [
-          "Materials",
-          "ABS+PC engineering plastics"
-        ],
-        [
-          "Color",
-          "no color specified"
-        ],
-        [
-          "Warranty",
-          "no warranty specified"
-        ],
-        [
-          "Price",
-          "$4,474"
+          "Battery Life",
+          "Approx. 6–8 inflations on a full charge"
         ]
       ],
-      "ai_risks_en": "Manufacturing, component sourcing, quality control, and logistics challenges may occur during production.",
+      "ai_risks_en": "Manufacturing, component sourcing, quality control, and logistics may involve challenges.",
       "ai_creator_bio_en": "NEXAIR",
       "ai_tiers": [
         {
-          "name": "Early Bird",
-          "price": "$4,474",
-          "price_usd": "$4,474",
+          "name": "Early Bird Special",
+          "price": 299,
+          "price_usd": 299,
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR before anyone else and receive a free carrying case"
+          "description": "Get NEXAIR before anyone else! Limited to the first 100 backers."
         },
         {
           "name": "Standard",
-          "price": "$4,474",
-          "price_usd": "$4,474",
+          "price": 399,
+          "price_usd": 399,
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR and receive a free carrying case"
+          "description": "Get NEXAIR with free shipping and a lifetime warranty."
         },
         {
           "name": "Deluxe",
-          "price": "$4,474",
-          "price_usd": "$4,474",
+          "price": 499,
+          "price_usd": 499,
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR, a carrying case, and a lifetime warranty"
+          "description": "Get NEXAIR with free shipping, a lifetime warranty, and a carrying case."
         },
         {
-          "name": "Patreon",
-          "price": "$25",
-          "price_usd": "$25",
+          "name": "Ultimate",
+          "price": 699,
+          "price_usd": 699,
           "currency": "USD",
           "backers": null,
-          "description": "Get exclusive updates and behind-the-scenes content"
+          "description": "Get NEXAIR with free shipping, a lifetime warranty, a carrying case, and a NEXAIR-branded accessory kit."
         }
       ],
       "ai_validated": false,
@@ -376520,7 +376718,7 @@
       "hw_type": "智能硬件",
       "hw_reason": "Smart air pump with brushless motor and real-time pressure display",
       "ended_at": "2026-07-30T14:32:48.687296Z",
-      "ai_description_en": "NEXAIR is a compact, palm-sized air pump that combines pressure measurement, inflation, and intelligent control. It features a real-time pressure display, automatic shutoff, and a built-in LED light for low-light conditions. NEXAIR is suitable for a variety of inflation tasks, including sports balls, bicycles, and high-pressure applications."
+      "ai_description_en": "NEXAIR combines pressure measurement, inflation, and intelligent control into a palm-sized device weighing just 132g. Whether you're inflating a mountain bike, road bike, gravel bike, folding bike, or sports equipment such as basketballs and soccer balls, one compact device handles it all. NEXAIR features a clear LCD display that shows real-time tire pressure as soon as it is connected. Switch easily between PSI and BAR, save commonly used pressure settings, and preset a target pressure for automatic inflation and shutoff."
     },
     {
       "id": "ks-358742332",
@@ -385062,11 +385260,11 @@
       "raw_html_hash": "23e6b98894d3891c",
       "raw_fetched_at": "2026-07-30T14:43:30.388483+00:00",
       "ai_validated": false,
-      "ai_intro_en": "BEAM focuses on outdoor lighting, offering high brightness, long battery life, and a rugged waterproof body to handle darkness and harsh conditions. Our goal is to deliver a reliable, high-quality product on time.",
+      "ai_intro_en": "BEAM focuses on outdoor lighting, offering high brightness, long battery life, and a rugged waterproof body to handle darkness and harsh conditions. With a compact design and versatile lighting system, it's suitable for camping, hiking, and outdoor adventures. Our goal is to deliver a reliable, high-quality product on time.",
       "ai_highlights_en": [
-        "High brightness, long battery life, and a rugged waterproof body",
-        "Multiple light modes for different outdoor scenarios",
-        "Hands-free targeted light with magnetic base"
+        "High brightness, long battery life, and rugged waterproof design",
+        "Versatile lighting system with multiple modes (white, yellow, red, and laser)",
+        "Hands-free operation with magnetic base and USB-C port"
       ],
       "ai_specs_en": [
         {
@@ -385082,28 +385280,28 @@
           "spec_value": "IPX6-rated"
         },
         {
-          "spec_name": "Dimensions",
-          "spec_value": "Compact body, lightweight design"
-        },
-        {
           "spec_name": "Materials",
           "spec_value": "Aluminum alloy body, stainless steel clip, PMMA lens"
         },
         {
+          "spec_name": "Dimensions",
+          "spec_value": "Compact design"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "Lightweight"
+        },
+        {
           "spec_name": "Charging",
-          "spec_value": "Pass-through charging, USB-C port"
+          "spec_value": "USB-C port, pass-through charging"
         },
         {
-          "spec_name": "Warranty",
-          "spec_value": "2-year warranty, lifetime after-sales support"
-        },
-        {
-          "spec_name": "Packaging",
-          "spec_value": "Minimal, recyclable packaging"
+          "spec_name": "Laser",
+          "spec_value": "Red laser pointer for long-range guidance"
         }
       ],
       "ai_risks_en": "Potential delays in tooling adjustments, component supply chain fluctuations, and quality control rejections during mass production.",
-      "ai_creator_bio_en": "The team behind BEAM is passionate about creating reliable, high-quality outdoor lighting products.",
+      "ai_creator_bio_en": "The team behind BEAM is passionate about creating high-quality outdoor lighting products.",
       "ai_tiers": [
         {
           "name": "Super Early Bird",
@@ -385180,7 +385378,7 @@
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-10-22T09:29:05.492921Z",
-      "ai_description_en": "BEAM is a multi-functional portable outdoor flashlight that offers high brightness, long battery life, and a rugged waterproof body. It features multiple light modes for different outdoor scenarios, including white light for long-distance pathfinding, warm yellow light for camp relaxation, red light to preserve night vision, and strobe mode for emergency signaling. The flashlight also has a hands-free targeted light with a magnetic base, making it easy to use in various situations. With its compact body, lightweight design, and efficient power management system, BEAM is a reliable and high-quality outdoor lighting product."
+      "ai_description_en": "BEAM is a multi-functional portable outdoor flashlight that offers high brightness, long battery life, and a rugged waterproof design. With a compact design and versatile lighting system, it's suitable for camping, hiking, and outdoor adventures. Our goal is to deliver a reliable, high-quality product on time."
     },
     {
       "id": "ks-1422103154",
@@ -392688,71 +392886,47 @@
       },
       "raw_html_hash": "4a61939818383090",
       "raw_fetched_at": "2026-08-26T02:24:13.833263+00:00",
-      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and showcase your profile and linkpage. No fee forever express crowdfunding means you can start building your professional network today.",
+      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and build your professional network. No fee forever express crowdfunding means you can focus on growing your business.",
       "ai_highlights_en": [
-        "Share and Impress with ZoloCard",
-        "Contactless NFC and QR Code Sharing",
-        "No Fee Forever Express Crowdfunding"
+        "Contactless NFC and QR code sharing for seamless connections",
+        "Profile and linkpage for easy networking",
+        "No fee forever express crowdfunding for hassle-free growth"
       ],
       "ai_specs_en": [
         [
           "Material",
-          "Durable Plastic"
+          "Durable"
         ],
         [
           "Size",
           "3.5 x 2 inches"
         ],
         [
-          "Color",
-          "Various Colors"
-        ],
-        [
-          "Operating System",
-          "Android/iOS"
+          "Weight",
+          "0.07 oz"
         ],
         [
           "Battery Life",
           "Up to 1 year"
         ],
         [
+          "Compatibility",
+          "iOS and Android"
+        ],
+        [
+          "Color",
+          "Black"
+        ],
+        [
           "Price",
-          "£19.99"
-        ],
-        [
-          "Shipping",
-          "Free Shipping"
-        ],
-        [
-          "Warranty",
-          "1 Year Limited Warranty"
-        ],
-        [
-          "Dimensions",
-          "3.5 x 2 inches"
-        ],
-        [
-          "Weight",
-          "0.2 lbs"
-        ],
-        [
-          "Package Includes",
-          "ZoloCard, USB Charging Cable"
-        ],
-        [
-          "Country of Origin",
-          "China"
-        ],
-        [
-          "Language",
-          "English"
+          "£29"
         ],
         [
           "Currency",
           "GBP"
         ],
         [
-          "Price_USD",
+          "Price Usd",
           "null"
         ],
         [
@@ -392761,46 +392935,46 @@
         ],
         [
           "Description",
-          "null"
+          "A stylish and functional smart business card"
         ]
       ],
-      "ai_risks_en": "There are no major risks associated with this project, as it is a simple smart business card with a low production cost.",
-      "ai_creator_bio_en": "Minute Objects",
+      "ai_risks_en": "As with any crowdfunding project, there are risks involved. The project may not reach its funding goal, or the product may not be developed as expected.",
+      "ai_creator_bio_en": "We are a team of innovators passionate about creating unique and functional products.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": "£19.99",
+          "price": "£29",
           "price_usd": "null",
           "currency": "GBP",
           "backers": "0",
-          "description": "Get your ZoloCard before anyone else! Limited to the first 10 backers."
+          "description": "Get your ZoloCard before anyone else!"
         },
         {
           "name": "Standard",
-          "price": "£19.99",
+          "price": "£29",
           "price_usd": "null",
           "currency": "GBP",
           "backers": "0",
-          "description": "Get your ZoloCard with free shipping and a 1-year warranty."
+          "description": "A stylish and functional smart business card"
         },
         {
           "name": "Premium",
-          "price": "£29.99",
+          "price": "£49",
           "price_usd": "null",
           "currency": "GBP",
           "backers": "0",
-          "description": "Get your ZoloCard with free shipping, a 1-year warranty, and a personalized message."
+          "description": "Get your ZoloCard with a premium case"
         },
         {
           "name": "Ultimate",
-          "price": "£49.99",
+          "price": "£99",
           "price_usd": "null",
           "currency": "GBP",
           "backers": "0",
-          "description": "Get your ZoloCard with free shipping, a 1-year warranty, a personalized message, and a lifetime supply of replacement cards."
+          "description": "Get your ZoloCard with a premium case and a lifetime supply of batteries"
         }
       ],
-      "ai_description_en": "ZoloCard is a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and showcase your profile and linkpage. No fee forever express crowdfunding means you can start building your professional network today.",
+      "ai_description_en": "Our goal is to create a unique and functional smart business card that makes it easy to connect with others and build your professional network. With contactless NFC and QR code sharing, you can easily share your contact information and link to your profile page. No fee forever express crowdfunding means you can focus on growing your business.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-08T04:22:46.807477Z"
@@ -422071,7 +422245,70 @@
         "heat": 3.2
       },
       "raw_html_hash": "0eda73ef4e111716",
-      "raw_fetched_at": "2026-10-26T19:16:33.300992+00:00"
+      "raw_fetched_at": "2026-10-26T19:16:33.300992+00:00",
+      "ai_intro_en": "Sumok Slider is a ski-boot entry aid developed and tested with my family in Québec, Canada. We created Sumok Slider to make it easier to put on ski boots, especially for children. Our goal is to provide a simple solution that is easy to carry and use again when needed.",
+      "ai_highlights_en": [
+        "Easy to use: Simply slide the film into your boot and step in, then pull the holder to slide the film out and roll it up for storage.",
+        "Protects the sheet: The holder secures the sheet without requiring holes, avoiding perforations that could become tear points when the sheet is pulled.",
+        "Reusable: The Slider has been tested with over 500 uses, and light creases appeared, but did not affect its performance."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Sheet Material",
+          "spec_value": "100% virgin, unfilled PTFE (skived PTFE film)"
+        },
+        {
+          "spec_name": "Sheet Thickness",
+          "spec_value": "0.50 mm"
+        },
+        {
+          "spec_name": "Holder Material",
+          "spec_value": "3D-printed"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "CA$35 (CA$25 Early Bird)"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "CA$25"
+        },
+        {
+          "spec_name": "Estimated Delivery Date",
+          "spec_value": "January 2027"
+        }
+      ],
+      "ai_risks_en": "The first batch still depends on 3D printing, quality checks, packaging, shipping, and customs. These steps may affect the estimated delivery date.",
+      "ai_creator_bio_en": "I’m the creator of Sumok Slider, a ski-boot entry aid developed and tested with my family in Québec, Canada.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": "CA$35",
+          "price_usd": "CA$25",
+          "currency": "CA$",
+          "backers": "0",
+          "description": "Get one Sumok Slider at our limited early-bird price. We’ll cover 50% of the shipping cost."
+        },
+        {
+          "name": "Campaign Price",
+          "price": "CA$39",
+          "price_usd": "CA$28",
+          "currency": "CA$",
+          "backers": "0",
+          "description": "Get one Sumok Slider at our campaign price. We’ll cover half of the shipping cost, and the remaining half will be collected through Kickstarter’s Pledge Manager after the campaign."
+        },
+        {
+          "name": "2 Sumok Sliders",
+          "price": "CA$70",
+          "price_usd": "CA$50",
+          "currency": "CA$",
+          "backers": "1",
+          "description": "Includes two Sumok Sliders at a bundle price. Shipping is on us—we’ll cover the full shipping cost, so no shipping fee will be collected from you."
+        }
+      ],
+      "ai_description_en": "Sumok Slider is a ski-boot entry aid developed and tested with my family in Québec, Canada. We created Sumok Slider to make it easier to put on ski boots, especially for children. Our goal is to provide a simple solution that is easy to carry and use again when needed. The Slider has been tested with over 500 uses, and light creases appeared, but did not affect its performance. We’ll cover 50% of the shipping cost for the Early Bird reward, and half of the shipping cost for the Campaign Price reward. Shipping is on us for the 2 Sumok Sliders reward. We estimate the delivery date to be January 2027.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-798994390",
@@ -432927,7 +433164,7 @@
       },
       "raw_html_hash": "fc26a952c132e102",
       "raw_fetched_at": "2026-10-04T17:26:53.292933+00:00",
-      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte's University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter.",
+      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start.",
       "ai_highlights_en": [
         "Specialty coffee meets creativity",
         "Meaningful conversation and mentorship",
@@ -432935,32 +433172,44 @@
       ],
       "ai_specs_en": [
         [
-          "Equipment",
-          "Essential coffee and beverage equipment"
-        ],
-        [
-          "Infrastructure",
-          "Mobile and pop-up infrastructure"
-        ],
-        [
           "Furnishings and technology",
-          "Furnishings and technology"
+          "included"
         ],
         [
           "Signage and brand materials",
-          "Signage and brand materials"
+          "included"
         ],
         [
-          "Inventory",
-          "Opening coffee, tea, and operating inventory"
+          "Opening coffee, tea, and operating inventory",
+          "included"
+        ],
+        [
+          "Mobile and pop-up infrastructure",
+          "included"
+        ],
+        [
+          "Essential coffee and beverage equipment",
+          "included"
         ],
         [
           "Reward production and fulfillment",
-          "Reward production and fulfillment"
+          "included"
         ],
         [
-          "Other expenses",
-          "Other essential launch expenses"
+          "Other essential launch expenses",
+          "included"
+        ],
+        [
+          "Permanently located coffee shop",
+          "estimated to open in 2024"
+        ],
+        [
+          "Pop-up and mobile operations",
+          "operating now"
+        ],
+        [
+          "Community events and workshops",
+          "planned"
         ]
       ],
       "ai_risks_en": "Opening a hospitality concept involves permitting, equipment procurement, vendor schedules, location planning, and changing costs. Reward production and event dates may also be affected by suppliers or the development timeline.",
@@ -432971,43 +433220,35 @@
           "price": "40,000",
           "price_usd": "40,000",
           "currency": "USD",
-          "backers": null,
-          "description": "Join the Founding 500 and help move Doxa District from vision to action."
-        },
-        {
-          "name": "Early Bird",
-          "price": "30,000",
-          "price_usd": "30,000",
-          "currency": "USD",
-          "backers": null,
-          "description": "Be one of the first 100 backers and receive a special reward."
+          "backers": "0",
+          "description": "Join the Founding 500 and help build a place where community can take root."
         },
         {
           "name": "Coffee Connoisseur",
-          "price": "20,000",
-          "price_usd": "20,000",
+          "price": "100",
+          "price_usd": "100",
           "currency": "USD",
-          "backers": null,
-          "description": "Enjoy specialty coffee and tea, plus a chance to meet the team."
+          "backers": "0",
+          "description": "Get a free cup of coffee every month for a year."
         },
         {
           "name": "Tea Enthusiast",
-          "price": "15,000",
-          "price_usd": "15,000",
+          "price": "50",
+          "price_usd": "50",
           "currency": "USD",
-          "backers": null,
-          "description": "Indulge in tea and enjoy a community event."
+          "backers": "0",
+          "description": "Get a free cup of tea every month for a year."
         },
         {
           "name": "Community Champion",
-          "price": "10,000",
-          "price_usd": "10,000",
+          "price": "500",
+          "price_usd": "500",
           "currency": "USD",
-          "backers": null,
-          "description": "Support the community and receive a special thank-you."
+          "backers": "0",
+          "description": "Get a free cup of coffee every month for a year, plus a free ticket to a community event."
         }
       ],
-      "ai_description_en": "Doxa District is being developed as an initiative of Give Hope Daily. Our long-term vision includes workforce-development opportunities for young adults and people seeking a new beginning. We want to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
+      "ai_description_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start. Our purpose is to build a sustainable community hub where people can belong, grow, work, and discover opportunity. We want to create a place where community can take root and thrive.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -449410,7 +449651,7 @@
         {
           "name": "Securidoor x1",
           "price": 59.0,
-          "price_usd": 59.0,
+          "price_usd": 65.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -449418,7 +449659,7 @@
         {
           "name": "Securidoor x2",
           "price": 110.0,
-          "price_usd": 110.0,
+          "price_usd": 120.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -449426,26 +449667,58 @@
         {
           "name": "Securidoor x3",
           "price": 151.0,
-          "price_usd": 151.0,
+          "price_usd": 170.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         },
         {
           "name": "Securidoor x4",
+          "price": 198.0,
+          "price_usd": 220.0,
+          "currency": "EUR",
+          "backers": null,
+          "description": "AI-powered surveillance module"
+        },
+        {
+          "name": "Securidoor x5",
+          "price": 297.0,
+          "price_usd": 330.0,
+          "currency": "EUR",
+          "backers": null,
+          "description": "AI-powered surveillance module"
+        },
+        {
+          "name": "Securidoor x6",
+          "price": 110.0,
+          "price_usd": 120.0,
+          "currency": "EUR",
+          "backers": null,
+          "description": "AI-powered surveillance module"
+        },
+        {
+          "name": "Securidoor x7",
+          "price": 55.0,
+          "price_usd": 60.0,
+          "currency": "EUR",
+          "backers": null,
+          "description": "AI-powered surveillance module"
+        },
+        {
+          "name": "Securidoor x8",
           "price": 75.5,
-          "price_usd": 75.5,
+          "price_usd": 85.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         }
       ],
       "ai_currency": "EUR",
-      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7.",
+      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7. The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors.",
       "ai_highlights_en": [
-        "AI-powered surveillance module with AlwaysSafe Artificial Intelligence to filter out the everyday and retain only what's essential",
-        "Automatically records a photo and a short video clip upon detected movement",
-        "Identifies specific hostile behaviors and sends instant alerts to your mobile phone with video evidence"
+        "AI-powered surveillance module",
+        "24/7 monitoring of your entrance",
+        "AlwaysSafe AI for threat detection"
       ],
       "ai_specs_en": [
         {
@@ -449465,56 +449738,32 @@
           "spec_value": "Wi-Fi"
         },
         {
-          "spec_name": "Operating System",
-          "spec_value": "OTA (Over-The-Air) software updates"
-        },
-        {
           "spec_name": "Price",
           "spec_value": "€59.00"
         },
         {
-          "spec_name": "Price (USD)",
-          "spec_value": "€59.00"
-        },
-        {
-          "spec_name": "Price (Monthly)",
+          "spec_name": "Monthly Subscription",
           "spec_value": "€29.50"
         },
         {
-          "spec_name": "Price (USD) (Monthly)",
-          "spec_value": "€29.50"
+          "spec_name": "Camera Housing",
+          "spec_value": "Durable plastic"
         },
         {
-          "spec_name": "Price (Tier 2)",
-          "spec_value": "€110.00"
+          "spec_name": "Operating Temperature",
+          "spec_value": "-20°C to 40°C"
         },
         {
-          "spec_name": "Price (USD) (Tier 2)",
-          "spec_value": "€110.00"
-        },
-        {
-          "spec_name": "Price (Tier 3)",
-          "spec_value": "€151.00"
-        },
-        {
-          "spec_name": "Price (USD) (Tier 3)",
-          "spec_value": "€151.00"
-        },
-        {
-          "spec_name": "Price (Tier 4)",
-          "spec_value": "€75.50"
-        },
-        {
-          "spec_name": "Price (USD) (Tier 4)",
-          "spec_value": "€75.50"
+          "spec_name": "Operating Humidity",
+          "spec_value": "0% to 80%"
         }
       ],
-      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges.",
+      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. As creators, we believe that complete transparency is the foundation of the trust you place in us.",
       "ai_creator_bio_en": "Securima doing business as securima.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "The project was not funded. The campaign ended on 7/4/2026. 1 backer pledged €110, which is 1.10% of the €10,000 goal.",
+      "ai_description_en": "The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. In the event of a confirmed threat, you receive an instant alert on your mobile phone, along with video evidence, allowing you to react before the intrusion even occurs.",
       "score_components": {
         "static": 19.9,
         "momentum": 0,
@@ -460944,7 +461193,7 @@
       },
       "raw_html_hash": "7624e64f790d2b3c",
       "raw_fetched_at": "2026-09-11T16:54:09.604313+00:00",
-      "ai_intro_en": "Project description here.",
+      "ai_intro_en": "This is a crowdfunding project page. It has a campaign rewards section, creator information, and a back this project button.",
       "ai_highlights_en": [],
       "ai_specs_en": [],
       "ai_risks_en": "",
@@ -477928,7 +478177,69 @@
       },
       "raw_html_hash": "c4ccc81e6646ffc1",
       "raw_fetched_at": "2026-10-22T17:39:02.718538+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "I’m Richard Michaux. I’ve been carving and sculpting in Pittsburgh since the 1980s, and some of you know me from the walking sticks or the Santa sculptures. This year I made a phone charger: a block of live-edge walnut or cherry with a magnetic charger set into the back. I make every one myself, and they ship by December 5.",
+      "ai_highlights_en": [
+        "Hand-rubbed Danish oil finish on live-edge walnut or cherry",
+        "Qi2.2 25W magnetic wireless charger for fast charging",
+        "Unique, one-of-a-kind design with stabilized bark"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Size",
+          "spec_value": "About 4\" wide × 4\" deep × 8–9\" tall"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "About a pound"
+        },
+        {
+          "spec_name": "Materials",
+          "spec_value": "Black walnut or cherry, live edge, stabilized bark"
+        },
+        {
+          "spec_name": "Charger",
+          "spec_value": "Qi2.2 25W magnetic wireless charger"
+        }
+      ],
+      "ai_risks_en": "The main risk is time, as I’m building through the whole campaign instead of waiting for it to end.",
+      "ai_creator_bio_en": "Pittsburgh sculptor since the 1980s, studied at the Portland School of Art and trained under Eugene Gittings at the Pittsburgh Center for the Arts.",
+      "ai_tiers": [
+        {
+          "name": "First Ten",
+          "price": 89,
+          "price_usd": 89,
+          "currency": "USD",
+          "backers": 5,
+          "description": "One of the first ten stands off Richard's bench, at the lowest price this campaign will offer. Live edge, hand-rubbed oil finish, a Qi2.2 25W magnetic charger set into the back, and Richard's mark burned into the wood. You pick walnut or cherry in the survey after the campaign."
+        },
+        {
+          "name": "The Live Edge Stand",
+          "price": 99,
+          "price_usd": 99,
+          "currency": "USD",
+          "backers": 0,
+          "description": "One stand, cut from the same boards as everything else in this run. Live edge, hand-rubbed oil finish, a Qi2.2 25W magnetic charger set into the back, and Richard's mark burned into the wood. You pick walnut or cherry in the survey after the campaign."
+        },
+        {
+          "name": "The Pair: One to Keep, One to Give",
+          "price": 179,
+          "price_usd": 179,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Two stands for $19 less than buying them separately. Keep one on your nightstand and give the other. Walnut and cherry side by side make a good pair, and you can pick each wood separately in the survey after the campaign."
+        },
+        {
+          "name": "Back the Shop",
+          "price": 15,
+          "price_usd": 15,
+          "currency": "USD",
+          "backers": 0,
+          "description": "A thank-you card I’ve signed and your name on the backer wall."
+        }
+      ],
+      "ai_description_en": "I make every one myself, and they ship by December 5. The charger is a part I buy, not one I make. I’m buying all of them up front so a supplier shortage can’t hold up shipping. Each stand gets tested with a phone before it’s boxed.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1937995583",
@@ -506759,15 +507070,7 @@
           "price_usd": "20.00",
           "currency": "USD",
           "backers": null,
-          "description": "Digital Edition (PDF &amp; ePub) $20.00"
-        },
-        {
-          "name": "Pledge Any Amount",
-          "price": null,
-          "price_usd": null,
-          "currency": "USD",
-          "backers": null,
-          "description": "Help the project reach its goal or tip the creator by pledging any amount you want (for no reward)."
+          "description": "Digital Edition (PDF &amp; ePub)"
         }
       ],
       "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation.",
@@ -569667,44 +569970,48 @@
           "spec_value": "Electrolytic parameters (such as current density and flow) require precise tuning for each unique material type processed."
         },
         {
-          "spec_name": "Price",
-          "spec_value": "$35"
+          "spec_name": "Post-Processing Setup",
+          "spec_value": "Tools for crystal harvesting, thorough washing, and drying processes."
         },
         {
-          "spec_name": "Price (USD)",
-          "spec_value": "$35"
+          "spec_name": "Containment & Collection",
+          "spec_value": "Custom anode containment for silver-bearing plated materials and specialized cathode collection systems for crystal formation."
         },
         {
-          "spec_name": "Price (USD)",
-          "spec_value": "$55"
+          "spec_name": "Environmental Management",
+          "spec_value": "Integrated filtration, electrolyte management, and secondary containment systems."
         },
         {
-          "spec_name": "Price",
-          "spec_value": "$55"
+          "spec_name": "Safety Infrastructure",
+          "spec_value": "Dedicated monitoring components and safety equipment for a controlled lab environment."
         },
         {
-          "spec_name": "Price",
-          "spec_value": "$95"
+          "spec_name": "Long-lasting design",
+          "spec_value": "By chemically stripping silver plate from discarded brass and copper scrap, we divert metal from landfills and eliminate the environmental footprint of primary mining."
         },
         {
-          "spec_name": "Price",
-          "spec_value": "$95"
+          "spec_name": "Processing raw scrap",
+          "spec_value": "Processing raw scrap through an electrolytic cell removes 100% of base metal contaminants like copper, nickel, and zinc."
         },
         {
-          "spec_name": "Price",
-          "spec_value": "$725"
+          "spec_name": "Harvesting and packaging",
+          "spec_value": "Once harvested, every batch undergoes a thorough multi-stage rinse to neutralize residues before being sealed inside airtight glass display containers."
         },
         {
-          "spec_name": "Price",
-          "spec_value": "$725"
+          "spec_name": "Reusability and recyclability",
+          "spec_value": "Every component in our process is intentionally selected to be recycled, reused, or naturally degraded without leaving plastic pollution behind."
         },
         {
-          "spec_name": "Price",
-          "spec_value": "$1,450"
+          "spec_name": "Sustainable materials",
+          "spec_value": "We prioritize sustainable, low-impact materials across both our chemical processing and packaging workflows."
         },
         {
-          "spec_name": "Price",
-          "spec_value": "$1,450"
+          "spec_name": "Environmental commitments",
+          "spec_value": "We are committed to sustainable practices and reducing our environmental footprint."
+        },
+        {
+          "spec_name": "Long-term recycling pipeline",
+          "spec_value": "Our refinery infrastructure allows us to run a sustainable, long-term recycling pipeline that safely recovers precious metals for years to come."
         }
       ],
       "ai_risks_en": "While the core chemistry behind this system is well-established, scaling and refining it for varied plated waste presents a few distinct challenges.",
@@ -569753,7 +570060,7 @@
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-08-06T04:17:58.590149Z",
-      "ai_description_en": "Our ultimate objective is to establish a repeatable, lab-scale recovery platform that demonstrates how discarded plated materials can be processed efficiently while minimizing environmental waste output."
+      "ai_description_en": "This project supports the design and construction of a small-scale, electrolytic silver refining system focused on recovering silver from silver-plated scrap materials that are commonly discarded as low- or no-value waste. Backers are supporting the creation of a functional materials-recovery system that emphasizes process stability, resource efficiency, and waste reduction."
     },
     {
       "id": "ks-168981715",
@@ -582829,7 +583136,7 @@
       "ai_highlights_en": [
         "Expert web development and design skills",
         "Personalized project tailored to your needs",
-        "Supports a talented creator"
+        "Supports a creative and innovative project"
       ],
       "ai_specs_en": [
         "Web Development",
@@ -582840,12 +583147,16 @@
         "€500.00",
         "Personalized Support",
         "€1,000.00",
-        "VIP Access",
-        "€2,500.00",
-        "Project Completion Certificate",
+        "Priority Support",
+        "€2,000.00",
+        "VIP Support",
         "€5,000.00",
-        "Project Completion on Your Website",
-        "€10,000.00"
+        "Project Completion",
+        "€10,000.00",
+        "Project Completion with Design",
+        "€15,000.00",
+        "Project Completion with Design and Development",
+        "€20,000.00"
       ],
       "ai_risks_en": "There are no significant risks associated with this project.",
       "ai_creator_bio_en": "33 Jahre Webentwickler / Webdesigner",
@@ -582880,34 +583191,50 @@
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Personalized support for your project"
+          "description": "Personalized support for the project"
         },
         {
-          "name": "VIP Access",
-          "price": "€2,500.00",
+          "name": "Priority Support",
+          "price": "€2,000.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "VIP access to the project"
+          "description": "Priority support for the project"
         },
         {
-          "name": "Project Completion Certificate",
+          "name": "VIP Support",
           "price": "€5,000.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Project completion certificate"
+          "description": "VIP support for the project"
         },
         {
-          "name": "Project Completion on Your Website",
+          "name": "Project Completion",
           "price": "€10,000.00",
           "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Project completion on your website"
+          "description": "Completion of the project"
+        },
+        {
+          "name": "Project Completion with Design",
+          "price": "€15,000.00",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Completion of the project with design"
+        },
+        {
+          "name": "Project Completion with Design and Development",
+          "price": "€20,000.00",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Completion of the project with design and development"
         }
       ],
-      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer. The project includes customized web development services, personalized support, and VIP access. The creator is offering a range of rewards, including a project completion certificate and project completion on your website.",
+      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer. The project includes customized web development services, personalized support, and priority support. The project can be completed with design, and the final product will be delivered to the backer.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
