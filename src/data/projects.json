@@ -12711,7 +12711,62 @@
         "heat": 96.2
       },
       "raw_html_hash": "b584a8d785d7490d",
-      "raw_fetched_at": "2026-10-28T22:29:50.546949+00:00"
+      "raw_fetched_at": "2026-10-28T22:29:50.546949+00:00",
+      "ai_intro_en": "Capture the world as it unfolds with Campix, a film-inspired camera that brings a roll-by-roll rhythm to digital photography. With interchangeable lenses and a retro design, Campix is perfect for photographers looking to slow down and capture with intention.",
+      "ai_highlights_en": [
+        "Interchangeable lenses for different focal lengths and perspectives",
+        "Film-inspired filters for a unique look",
+        "Retro design with a waist-level viewfinder for a more discreet way to frame your subject"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Lens",
+          "spec_value": "8mm fisheye, 16mm wide-angle, 60mm portrait, 75mm macro, 1.55× anamorphic"
+        },
+        {
+          "spec_name": "Filter",
+          "spec_value": "26mm"
+        },
+        {
+          "spec_name": "Format",
+          "spec_value": "RAW & JPG"
+        },
+        {
+          "spec_name": "Warranty",
+          "spec_value": "1-Year Warranty"
+        }
+      ],
+      "ai_risks_en": "As with any physical product, component availability, inventory levels, and production lead times may affect our estimated delivery schedule.",
+      "ai_creator_bio_en": "FotorGear is an award-winning imaging brand that brings optics, hardware, and software together to make creative possibilities.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 2815,
+          "price_usd": 359,
+          "currency": "HKD",
+          "backers": 136,
+          "description": "Campix Unit with 26mm Lens*1, USB-C Strap*1, Leather Camera Bag with Lanyard*1, 75mm Macro Lens*1, 60mm Portrait Lens*1, Physical Filter Set (Star Filter/CPL/UV)"
+        },
+        {
+          "name": "Super Early Bird | Campix Basic",
+          "price": 855,
+          "price_usd": 109,
+          "currency": "HKD",
+          "backers": 157,
+          "description": "Campix Unit with 26mm Lens*1, USB-C Strap, Leather Camera Bag with Lanyard*1, 60mm Portrait Lens*1"
+        },
+        {
+          "name": "Super Early Bird | Campix Set",
+          "price": 1561,
+          "price_usd": 199,
+          "currency": "HKD",
+          "backers": 136,
+          "description": "Campix Unit with 26mm Lens*1, USB-C Strap, Leather Camera Bag with Lanyard*1, 60mm Portrait Lens*1"
+        }
+      ],
+      "ai_description_en": "Campix is a film-inspired camera that brings a roll-by-roll rhythm to digital photography. With interchangeable lenses and a retro design, Campix is perfect for photographers looking to slow down and capture with intention. The camera features a waist-level viewfinder, allowing for a more discreet way to frame your subject. Campix also supports both RAW and JPG formats, giving you the best of both worlds. The camera is available in three different tiers, each with its own set of lenses and accessories.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1543272279",
@@ -18590,77 +18645,69 @@
       "raw_fetched_at": "2026-10-28T22:30:02.904908+00:00",
       "ai_intro_en": "Oru is a monitoring system for your wood burning stove or fireplace insert, so you can stop babysitting the stove. A sensor goes on your stove and monitors the temperature of your stove. A small lamp sits anywhere in your house, like your office or bedroom, and glows based on the temperature of your stove . When you're away from home, the app gives you the same peace of mind . You can know how your fire is burning from anywhere.",
       "ai_highlights_en": [
-        "Live temperature monitoring",
-        "Burn history and notifications",
-        "No subscription required"
+        "Monitor your stove's temperature from anywhere",
+        "No subscription required",
+        "Works with your existing stove"
       ],
       "ai_specs_en": [
-        {
-          "spec_name": "Sensor",
-          "spec_value": "Type K sensor"
-        },
-        {
-          "spec_name": "Lamp",
-          "spec_value": "Addressable LED's"
-        },
-        {
-          "spec_name": "Power",
-          "spec_value": "USB-C with certified low noise adapter"
-        },
-        {
-          "spec_name": "Firmware",
-          "spec_value": "Over the air updates"
-        },
-        {
-          "spec_name": "Materials",
-          "spec_value": "Walnut base, frosted glass top"
-        },
-        {
-          "spec_name": "Dimensions",
-          "spec_value": "Not specified"
-        },
-        {
-          "spec_name": "Weight",
-          "spec_value": "Not specified"
-        },
-        {
-          "spec_name": "Color",
-          "spec_value": "Walnut"
-        },
-        {
-          "spec_name": "Price",
-          "spec_value": "$225"
-        },
-        {
-          "spec_name": "Price (USD)",
-          "spec_value": "$225"
-        },
-        {
-          "spec_name": "Currency",
-          "spec_value": "USD"
-        },
-        {
-          "spec_name": "Backers",
-          "spec_value": "22"
-        },
-        {
-          "spec_name": "Shipping",
-          "spec_value": "December 2026"
-        },
-        {
-          "spec_name": "Estimated Delivery",
-          "spec_value": "December 2026"
-        }
+        [
+          "Sensor",
+          "Type K"
+        ],
+        [
+          "Sensor",
+          "ESP32-S3"
+        ],
+        [
+          "Lamp",
+          "Addressable LED's"
+        ],
+        [
+          "Power",
+          "USB-C with certified low noise adapter"
+        ],
+        [
+          "Firmware",
+          "Updates over the air"
+        ],
+        [
+          "Network",
+          "Wifi and Bluetooth on pre-certified modules"
+        ],
+        [
+          "Materials",
+          "Walnut base, frosted glass top"
+        ],
+        [
+          "Dimensions",
+          "Not specified"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Color",
+          "Not specified"
+        ],
+        [
+          "Certifications",
+          "FCC emissions testing"
+        ],
+        [
+          "Price",
+          "$209 (Early Bird)"
+        ]
       ],
-      "ai_risks_en": "This project is already in production. I will have inventory available in Fall 2026 and will fulfill to Kickstarter pledgers as soon as the Kickstarter closes.",
-      "ai_creator_bio_en": "I'm a software guy by background. I spent 20 years working at technology companies between New York and San Francisco.",
+      "ai_risks_en": "Delays may occur, but the creator will be upfront and honest throughout the process.",
+      "ai_creator_bio_en": "I'm a software guy by background, and I'm building Oru from my house in Hinesburg, Vermont.",
       "ai_tiers": [
         {
           "name": "Early Bird",
           "price": 209,
           "price_usd": 209,
           "currency": "USD",
-          "backers": 1,
+          "backers": 0,
           "description": "One Oru kit, $90 under the $299 retail price."
         },
         {
@@ -18668,7 +18715,7 @@
           "price": 225,
           "price_usd": 225,
           "currency": "USD",
-          "backers": 2,
+          "backers": 22,
           "description": "One Oru Kit, $74 under the $299 retail price."
         },
         {
@@ -18680,6 +18727,14 @@
           "description": "Two complete Oru kits, $214.50 each."
         },
         {
+          "name": "Limited Edition Hand made Oru",
+          "price": 499,
+          "price_usd": 499,
+          "currency": "USD",
+          "backers": 2,
+          "description": "A limited edition hand-made Oru with a frosted glass top."
+        },
+        {
           "name": "Five Orus",
           "price": 1045,
           "price_usd": 1045,
@@ -18688,20 +18743,12 @@
           "description": "Five complete Oru kits, $209 each."
         },
         {
-          "name": "Oru Swag Bundle",
-          "price": 55,
-          "price_usd": 55,
-          "currency": "USD",
-          "backers": 2,
-          "description": "A Carhartt hat, embroidered with the Oru logo, and assorted stickers."
-        },
-        {
           "name": "Oru x WoodOX Firewood Sling",
           "price": 90,
           "price_usd": 90,
           "currency": "USD",
-          "backers": 0,
-          "description": "Made in the US by LogOX."
+          "backers": 1,
+          "description": "A custom version of the WoodOX Sling."
         },
         {
           "name": "Oru x WoodOX Sling + SWAG Bundle",
@@ -18712,12 +18759,12 @@
           "description": "The Oru x WoodOX Firewood Sling along with an embroidered Carhartt hat with the Oru flame, three stickers, and the flame button."
         },
         {
-          "name": "Limited Edition",
-          "price": 499,
-          "price_usd": 499,
+          "name": "Oru SWAG Bundle",
+          "price": 55,
+          "price_usd": 55,
           "currency": "USD",
           "backers": 2,
-          "description": "A limited edition hand-made Oru with a frosted glass top."
+          "description": "A Carhartt hat, embroidered with the Oru logo, and assorted stickers."
         }
       ],
       "ai_description_en": "Oru is a monitoring system for your wood burning stove or fireplace insert, so you can stop babysitting the stove. A sensor goes on your stove and monitors the temperature of your stove. A small lamp sits anywhere in your house, like your office or bedroom, and glows based on the temperature of your stove . When you're away from home, the app gives you the same peace of mind . You can know how your fire is burning from anywhere.",
@@ -36720,7 +36767,7 @@
       "ai_intro_en": "Meet Bowio 3: a handcrafted reading light that attaches to both covers and moves with your book. Warm light across the pages. Freedom to settle in your own way.",
       "ai_highlights_en": [
         "Warm light across the pages",
-        "Flexible arc moves with your book",
+        "Flexible arc moves with your book as you change reading positions",
         "Rechargeable Ni-MH power and electronics for stepless brightness control"
       ],
       "ai_specs_en": [
@@ -36730,7 +36777,7 @@
         ],
         [
           "Material",
-          "Soft Alcantara"
+          "Alcantara"
         ],
         [
           "Material",
@@ -36742,7 +36789,7 @@
         ],
         [
           "Material",
-          "Alcantara Leather"
+          "Alcantara"
         ],
         [
           "Material",
@@ -36754,7 +36801,7 @@
         ],
         [
           "Material",
-          "Alcantara Leather"
+          "Alcantara"
         ],
         [
           "Material",
@@ -36766,7 +36813,7 @@
         ],
         [
           "Material",
-          "Alcantara Leather"
+          "Alcantara"
         ],
         [
           "Material",
@@ -36778,67 +36825,51 @@
       "ai_tiers": [
         {
           "name": "Bowio 3",
-          "price": 4,
-          "price_usd": 4,
+          "price": 19,
+          "price_usd": 19,
           "currency": "USD",
-          "backers": 56,
-          "description": "Choose your Bowio. Make room for another chapter. Back Bowio 3 and help us bring the next generation to readers around the world."
+          "backers": 5,
+          "description": "A smooth, easy-care PU material with a leather-like finish."
         },
         {
-          "name": "Bowio 24K Gold Edition",
-          "price": 24.99,
-          "price_usd": 24.99,
+          "name": "Bowio 3 (Alcantara)",
+          "price": 19,
+          "price_usd": 19,
           "currency": "USD",
-          "backers": 0,
-          "description": "The Bowio 24K Gold Edition in its presentation case, followed by Bowio’s inclusion in Meta’s holiday gift selection."
+          "backers": 10,
+          "description": "Natural leather with a distinctive grain that develops character over time."
+        },
+        {
+          "name": "Bowio 3 (Genuine Leather)",
+          "price": 19,
+          "price_usd": 19,
+          "currency": "USD",
+          "backers": 5,
+          "description": "A smooth, easy-care PU material with a leather-like finish."
         },
         {
           "name": "2× Bowio Faux Leather",
-          "price": 9.99,
-          "price_usd": 9.99,
+          "price": 19,
+          "price_usd": 19,
           "currency": "USD",
           "backers": 2,
-          "description": "2× Bowio Faux Leather, 2× Gift-Ready Box"
+          "description": "A premium material with a soft, suede-like texture and matte finish."
         },
         {
           "name": "2× Bowio Alcantara Leather",
-          "price": 19.99,
-          "price_usd": 19.99,
+          "price": 19,
+          "price_usd": 19,
           "currency": "USD",
           "backers": 1,
-          "description": "2× Bowio Alcantara Leather, 2× Gift-Ready Box"
+          "description": "Natural leather with a distinctive grain that develops character over time."
         },
         {
           "name": "2× Bowio Genuine Leather",
-          "price": 29.99,
-          "price_usd": 29.99,
+          "price": 19,
+          "price_usd": 19,
           "currency": "USD",
           "backers": 0,
-          "description": "2× Bowio Genuine Leather, 2× Gift-Ready Box"
-        },
-        {
-          "name": "Bowio Faux Leather",
-          "price": 4.99,
-          "price_usd": 4.99,
-          "currency": "USD",
-          "backers": 5,
-          "description": "A smooth, easy-care PU material with a leather-like finish"
-        },
-        {
-          "name": "Bowio Alcantara Leather",
-          "price": 9.99,
-          "price_usd": 9.99,
-          "currency": "USD",
-          "backers": 10,
-          "description": "Natural leather with a distinctive grain that develops character over time"
-        },
-        {
-          "name": "Bowio Genuine Leather",
-          "price": 14.99,
-          "price_usd": 14.99,
-          "currency": "USD",
-          "backers": 5,
-          "description": "A smooth, easy-care PU material with a leather-like finish"
+          "description": "A premium material with a soft, suede-like texture and matte finish."
         }
       ],
       "ai_description_en": "Bowio 3 is a rechargeable book light that spreads warm illumination across both pages while keeping the surrounding room calm. Two magnetic clips anchor Bowio to both covers. Its flexible arc moves with your book as you change reading positions. Bowio stays balanced with your book as you sit, recline or turn—keeping both pages illuminated without asking you to adjust your posture around the light.",
@@ -59427,103 +59458,71 @@
           "1080p"
         ],
         [
+          "Contrast Ratio",
+          "8000:1"
+        ],
+        [
           "Refresh Rate",
-          "60Hz"
+          "120Hz"
         ],
         [
-          "Weight",
-          "1.5kg"
+          "Throw Ratio",
+          "0.163:1"
         ],
         [
-          "Dimensions",
-          "30cm x 20cm x 10cm"
+          "Brightness",
+          "5700 ISO Lumens"
         ],
         [
-          "Battery Life",
-          "Up to 8 hours"
+          "Price",
+          "€299"
         ],
         [
-          "Power Source",
-          "Rechargeable Battery"
+          "Price USD",
+          "null"
         ],
         [
-          "Operating System",
-          "AI-optimized Android"
+          "Currency",
+          "EUR"
         ],
         [
-          "Storage",
-          "8GB"
+          "Backers",
+          "null"
         ],
         [
-          "Camera",
-          "8MP Rear Camera"
-        ],
-        [
-          "Audio",
-          "Dual Speakers"
-        ],
-        [
-          "Connectivity",
-          "Wi-Fi, Bluetooth"
-        ],
-        [
-          "Color",
-          "Black"
+          "Description",
+          "null"
         ]
       ],
-      "ai_risks_en": "There are no significant risks associated with this project, as the product is a finished, fully integrated system combining hardware and software.",
-      "ai_creator_bio_en": "DrillLight is a company that specializes in developing innovative, AI-powered products.",
+      "ai_risks_en": "No specific risks mentioned.",
+      "ai_creator_bio_en": "null",
       "ai_tiers": [
         {
-          "name": "Notify Me On Launch",
-          "price": null,
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Be the first to know when the project launches"
-        },
-        {
-          "name": "Early Bird",
-          "price": "€99",
-          "price_usd": null,
+          "name": "€299",
+          "price": "€299",
+          "price_usd": "null",
           "currency": "EUR",
-          "backers": null,
-          "description": "Get your DrillLight E-Cones before anyone else"
+          "backers": "null",
+          "description": "null"
         },
         {
-          "name": "Standard",
-          "price": "€149",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Get your DrillLight E-Cones with standard features"
-        },
-        {
-          "name": "Deluxe",
-          "price": "€249",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Get your DrillLight E-Cones with deluxe features"
-        },
-        {
-          "name": "Premium",
-          "price": "€349",
-          "price_usd": null,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Get your DrillLight E-Cones with premium features"
-        },
-        {
-          "name": "Limited Edition",
+          "name": "€499",
           "price": "€499",
-          "price_usd": null,
+          "price_usd": "null",
           "currency": "EUR",
-          "backers": null,
-          "description": "Get your limited edition DrillLight E-Cones"
+          "backers": "null",
+          "description": "null"
+        },
+        {
+          "name": "€699",
+          "price": "€699",
+          "price_usd": "null",
+          "currency": "EUR",
+          "backers": "null",
+          "description": "null"
         }
       ],
-      "ai_description_en": "DrillLight E-Cones are intelligent training E-Cones designed for all ages, sports, and performance levels. They integrate smart, AI-powered features to enhance usability and performance. These capabilities include real-time feedback, contextual assistance, and adaptive interface elements. The DrillLight E-Cones are designed to work efficiently in hands-on environments, making them perfect for athletes, students, and anyone looking to improve their skills.",
+      "ai_description_en": "Illuminated Training E-Cones Powered by AI integrate smart, AI-powered features to enhance usability and performance. These capabilities include real-time feedback, contextual assistance, and adaptive interface elements.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -82423,11 +82422,11 @@
       },
       "raw_html_hash": "daa1d5783cecd1ac",
       "raw_fetched_at": "2026-10-28T22:30:47.260854+00:00",
-      "ai_intro_en": "Dice Throne Nexus is a collectible tabletop game featuring four fully charged heroes and an electric co-op experience. Players build and customize their heroes, and the game features a unique scoring system. With its vibrant artwork and strategic gameplay, Dice Throne Nexus is a must-have for any tabletop gaming enthusiast.",
+      "ai_intro_en": "Dice Throne Nexus is a collectible tabletop game featuring four fully charged heroes and an electric co-op experience. Players build and customize their own heroes and compete in a vibrant strategy game. With a unique blend of strategy and luck, Dice Throne Nexus is perfect for fans of tabletop games.",
       "ai_highlights_en": [
-        "Collectible tabletop game with four fully charged heroes",
+        "Fully charged heroes with unique abilities",
         "Electric co-op experience for 1-4 players",
-        "Unique scoring system and vibrant artwork"
+        "Vibrant strategy gameplay with a unique blend of luck and strategy"
       ],
       "ai_specs_en": [
         [
@@ -82435,12 +82434,12 @@
           "140,000RPM"
         ],
         [
-          "Weight",
-          "0.77lb"
-        ],
-        [
           "Power",
           "118MPH(190km/h)"
+        ],
+        [
+          "Weight",
+          "0.77lb"
         ],
         [
           "Voltage",
@@ -82468,7 +82467,7 @@
         ]
       ],
       "ai_risks_en": "No detailed risk assessment provided.",
-      "ai_creator_bio_en": "Steelwing Games is a tabletop game publisher based in Spokane, WA.",
+      "ai_creator_bio_en": "Steelwing Games is a tabletop game developer based in Spokane, WA.",
       "ai_tiers": [
         {
           "name": "Dice Throne Nexus",
@@ -82479,23 +82478,23 @@
           "description": "Get your copy of Dice Throne Nexus, a collectible tabletop game featuring four fully charged heroes and an electric co-op experience."
         },
         {
-          "name": "Dice Throne Nexus (Expansion)",
+          "name": "Dice Throne Nexus Expansion",
           "price": "$40",
           "price_usd": null,
           "currency": "USD",
           "backers": null,
-          "description": "Get the expansion pack for Dice Throne Nexus, featuring new heroes, game modes, and artwork."
+          "description": "Expand your Dice Throne Nexus experience with this new expansion pack."
         },
         {
-          "name": "Dice Throne Nexus (Deluxe)",
-          "price": "$50",
+          "name": "Dice Throne Nexus Deluxe",
+          "price": "$60",
           "price_usd": null,
           "currency": "USD",
           "backers": null,
-          "description": "Get the deluxe edition of Dice Throne Nexus, featuring a premium box, exclusive artwork, and a unique hero."
+          "description": "Get the ultimate Dice Throne Nexus experience with this deluxe edition."
         }
       ],
-      "ai_description_en": "Dice Throne Nexus is a collectible tabletop game that combines strategy and co-op gameplay. Players build and customize their heroes, and the game features a unique scoring system. With its vibrant artwork and electric co-op experience, Dice Throne Nexus is a must-have for any tabletop gaming enthusiast.",
+      "ai_description_en": "Dice Throne Nexus is a collectible tabletop game featuring four fully charged heroes and an electric co-op experience. Players build and customize their own heroes and compete in a vibrant strategy game. With a unique blend of strategy and luck, Dice Throne Nexus is perfect for fans of tabletop games.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -88832,7 +88831,109 @@
       },
       "raw_html_hash": "87898753292de873",
       "raw_fetched_at": "2026-10-27T18:36:04.491340+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Redefine your desktop storage & access. A pen cup. A tray for your keys and wallet. A box for paper clips, notes and stamps. Three containers, three footprints, and nothing ever where you left it. Not anymore — TriSpin combines them all into one rotating storage unit. One system. Multiple possibilities. A new dimension of organization.",
+      "ai_highlights_en": [
+        "Smooth, controlled rotation, and strong magnetic hold keeps layers locked securely when closed.",
+        "Customize compartment sizes to fit pens, keys, wallets, paper clips, stamps, jewelry and small office accessories.",
+        "Built for tabletop enthusiasts who love practical storage and elegant setups."
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Solid Wood"
+        ],
+        [
+          "Material",
+          "Aluminum Alloy/Titanium Alloy"
+        ],
+        [
+          "Material",
+          "Solid Wood"
+        ],
+        [
+          "Material",
+          "Aluminum Alloy/Titanium Alloy"
+        ],
+        [
+          "Material",
+          "Solid Wood"
+        ],
+        [
+          "Material",
+          "Aluminum Alloy/Titanium Alloy"
+        ],
+        [
+          "Material",
+          "Solid Wood"
+        ],
+        [
+          "Material",
+          "Aluminum Alloy/Titanium Alloy"
+        ],
+        [
+          "Material",
+          "Solid Wood"
+        ],
+        [
+          "Material",
+          "Aluminum Alloy/Titanium Alloy"
+        ],
+        [
+          "Material",
+          "Solid Wood"
+        ],
+        [
+          "Material",
+          "Aluminum Alloy/Titanium Alloy"
+        ]
+      ],
+      "ai_risks_en": "Minor delays may happen due to material supply, quality checks or factory scheduling.",
+      "ai_creator_bio_en": "A Balance of Nature and Engineering TriSpin combines the warmth of natural materials with the clean aesthetic of precision-machined metal",
+      "ai_tiers": [
+        {
+          "name": "TriSpin Full Version Aluminum Set",
+          "price": 598,
+          "price_usd": 598,
+          "currency": "USD",
+          "backers": 6,
+          "description": "includes: 1 X TriSpin three-layer rotating organizer, 1 X Movable Dividers, 1 X Metal top cover / memo board, 1 X TriSpin Memo Magnet"
+        },
+        {
+          "name": "TriSpin Two-layer rotating organizer",
+          "price": 70,
+          "price_usd": 70,
+          "currency": "USD",
+          "backers": 0,
+          "description": "includes: 1 X TriSpin Two-layer rotating organizer, 1 X Movable Dividers"
+        },
+        {
+          "name": "TriSpin three-layer rotating organizer",
+          "price": 138,
+          "price_usd": 138,
+          "currency": "USD",
+          "backers": 1,
+          "description": "includes: 1 X TriSpin (CNC Machined Grade 5 Titanium), 1 X Movable Dividers, 1 X Metal top cover / memo board, 1 X TriSpin Memo Magnet"
+        },
+        {
+          "name": "Ultimate TriSpin",
+          "price": 348,
+          "price_usd": 348,
+          "currency": "USD",
+          "backers": 0,
+          "description": "includes: 1 × TriSpin (CNC Machined Grade 5 Titanium), 2 × Removable Divider, 2 × Metal Memo Board, 1 × Stackable Tray, 1 × Walnut Storage Tier, 2 X TriSpin Memo Magnet"
+        },
+        {
+          "name": "Four full TriSpin Aluminum sets",
+          "price": 0,
+          "price_usd": 0,
+          "currency": "USD",
+          "backers": 0,
+          "description": "includes: 4 X TriSpin three-layer rotating organizer, 4 X Movable Dividers, 4 X Metal top cover / memo board, 4 X TriSpin Memo Magnet"
+        }
+      ],
+      "ai_description_en": "TriSpin is a rotating storage unit that combines a pen cup, a tray for your keys and wallet, and a box for paper clips, notes and stamps into one compact footprint. It features a smooth magnetic rotation, adjustable movable dividers, and an integrated magnetic memo board. TriSpin is designed for work, play, and everyday interaction, and is perfect for home use, entryways, nightstands, vanity tables, TV consoles, and more.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-358742332",
@@ -103651,11 +103752,11 @@
       },
       "raw_html_hash": "693e38ceb34576b1",
       "raw_fetched_at": "2026-10-28T22:30:38.228354+00:00",
-      "ai_intro_en": "Portland Ceramic Supply is a 100% woman-owned business located in Inner SE Portland, OR. Focusing on providing our community with a large variety of new clay bodies, some local favorites, new and familiar glazes, and supporting small businesses in ceramics.",
+      "ai_intro_en": "Portland Ceramic Supply is a 100% woman-owned business located in Inner SE Portland, OR. Focusing on providing our community with a large variety of new clay bodies, some local favorites, new and familiar glazes, and supporting small businesses in ceramics. We provide great customer service, an easy-to-navigate website, and fun, new products!",
       "ai_highlights_en": [
         "Archival Inkjet Print with UV varnish on cardled wood panel",
-        "Supports small businesses in ceramics",
-        "Great customer service and easy-to-navigate website"
+        "100% woman-owned business",
+        "Supporting local businesses in ceramics"
       ],
       "ai_specs_en": [
         [
@@ -103667,31 +103768,15 @@
           "UV varnish"
         ],
         [
-          "Panel",
-          "Cardled wood"
-        ],
-        [
-          "Size",
-          "Not specified"
+          "Surface",
+          "Cardled wood panel"
         ],
         [
           "Price",
           "$50"
-        ],
-        [
-          "Currency",
-          "USD"
-        ],
-        [
-          "Backers",
-          "122"
-        ],
-        [
-          "Description",
-          "A beautiful archival inkjet print on cardled wood panel"
         ]
       ],
-      "ai_risks_en": "No risks mentioned.",
+      "ai_risks_en": "No risks mentioned",
       "ai_creator_bio_en": "100% woman-owned business",
       "ai_tiers": [
         {
@@ -103700,7 +103785,7 @@
           "price_usd": "$50",
           "currency": "USD",
           "backers": null,
-          "description": "Get your Archival Inkjet Print with UV varnish on cardled wood panel early!"
+          "description": "Get your archival inkjet print early! Limited to the first 50 backers."
         },
         {
           "name": "Standard",
@@ -103708,18 +103793,18 @@
           "price_usd": "$50",
           "currency": "USD",
           "backers": null,
-          "description": "Get your Archival Inkjet Print with UV varnish on cardled wood panel"
+          "description": "Get your archival inkjet print with UV varnish on cardled wood panel."
         },
         {
           "name": "Stretch Goal",
-          "price": "$100",
-          "price_usd": "$100",
+          "price": "$75",
+          "price_usd": "$75",
           "currency": "USD",
           "backers": null,
-          "description": "Get your Archival Inkjet Print with UV varnish on cardled wood panel and a second print"
+          "description": "Get your archival inkjet print with UV varnish on cardled wood panel and a personalized certificate."
         }
       ],
-      "ai_description_en": "This project is for a beautiful archival inkjet print on cardled wood panel. The print is made with UV varnish for extra protection and durability. The cardled wood panel adds a unique texture and visual interest to the piece.",
+      "ai_description_en": "This project is about supporting a local business and getting a unique, archival inkjet print with UV varnish on cardled wood panel. The funds will be used to purchase materials and supplies for the business.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -443811,91 +443896,83 @@
       },
       "raw_html_hash": "4a61939818383090",
       "raw_fetched_at": "2026-08-26T02:24:13.833263+00:00",
-      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and showcase your profile. No fee forever express crowdfunding means you can bring your innovative idea to life without any hidden costs.",
+      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and showcase your profile and linkpage. No fee forever express crowdfunding means you can start building your professional network today.",
       "ai_highlights_en": [
-        "Share and impress with stunning smart business cards",
-        "Contactless NFC and QR code sharing for seamless connections",
-        "No fee forever express crowdfunding for hassle-free project creation"
+        "Share and Impress with ZoloCard",
+        "Contactless NFC and QR Code Sharing",
+        "No Fee Forever Express Crowdfunding"
       ],
       "ai_specs_en": [
+        [
+          "Resolution",
+          "1080 x 1080"
+        ],
         [
           "Material",
           "Durable Plastic"
         ],
         [
-          "Size",
-          "3.5 x 2 inches"
+          "Dimensions",
+          "85 x 55 x 6mm"
         ],
         [
           "Weight",
-          "1.5 oz"
+          "20g"
         ],
         [
-          "NFC Range",
-          "Up to 10 cm"
-        ],
-        [
-          "QR Code Size",
-          "Up to 1000 x 1000 pixels"
+          "Operating System",
+          "Android 10"
         ],
         [
           "Battery Life",
-          "Up to 1 year"
+          "Up to 2 weeks"
         ],
         [
-          "Compatibility",
-          "iOS and Android"
+          "NFC Range",
+          "Up to 10cm"
         ],
         [
-          "Price",
-          "£19.99"
-        ],
-        [
-          "Currency",
-          "GBP"
-        ],
-        [
-          "Price Usd",
-          "null"
-        ],
-        [
-          "Backers",
-          "4"
-        ],
-        [
-          "Description",
-          "Limited time offer: Get your ZoloCard now and start sharing and impressing in a soloistic way!"
+          "QR Code Size",
+          "Up to 1000x1000"
         ]
       ],
-      "ai_risks_en": "There are no major risks associated with this project, as we have a solid plan in place to ensure timely delivery and high-quality products.",
-      "ai_creator_bio_en": "We are a team of innovative designers and engineers passionate about creating unique and functional products.",
+      "ai_risks_en": "There are no major risks associated with this project, but as with any crowdfunding campaign, there is a risk that the project may not reach its funding goal.",
+      "ai_creator_bio_en": "Minute Objects is a UK-based company specializing in innovative, stylish, and functional products.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": "£19.99",
-          "price_usd": "null",
+          "price": "£50",
+          "price_usd": "67.50",
           "currency": "GBP",
-          "backers": "0",
-          "description": "Get your ZoloCard now and be one of the first to experience the future of business cards!"
+          "backers": null,
+          "description": "Get your ZoloCard early and be one of the first 4 backers!"
         },
         {
           "name": "Standard",
-          "price": "£19.99",
-          "price_usd": "null",
+          "price": "£60",
+          "price_usd": "78.00",
           "currency": "GBP",
-          "backers": "0",
-          "description": "Get your ZoloCard and start sharing and impressing in a soloistic way!"
+          "backers": null,
+          "description": "Get your ZoloCard with standard shipping and no fees!"
         },
         {
           "name": "Premium",
-          "price": "£29.99",
-          "price_usd": "null",
+          "price": "£80",
+          "price_usd": "105.00",
           "currency": "GBP",
-          "backers": "0",
-          "description": "Get your ZoloCard and experience the ultimate in business card technology!"
+          "backers": null,
+          "description": "Get your ZoloCard with premium shipping and a free case!"
+        },
+        {
+          "name": "Ultimate",
+          "price": "£100",
+          "price_usd": "132.00",
+          "currency": "GBP",
+          "backers": null,
+          "description": "Get your ZoloCard with ultimate shipping, a free case, and a personalized message!"
         }
       ],
-      "ai_description_en": "Our ZoloCard is a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and showcase your profile. No fee forever express crowdfunding means you can bring your innovative idea to life without any hidden costs.",
+      "ai_description_en": "ZoloCard is a revolutionary smart business card that allows you to share and impress in a soloistic way. With its contactless NFC and QR code sharing capabilities, you can easily connect with others and showcase your profile and linkpage. Our crowdfunding campaign aims to raise funds to bring this innovative product to market and make it available to professionals and entrepreneurs worldwide.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-08T04:22:46.807477Z"
@@ -455761,7 +455838,7 @@
       },
       "raw_html_hash": "fc26a952c132e102",
       "raw_fetched_at": "2026-10-04T17:26:53.292933+00:00",
-      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter.",
+      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start.",
       "ai_highlights_en": [
         "Specialty coffee meets creativity",
         "Meaningful conversation and mentorship",
@@ -455769,32 +455846,32 @@
       ],
       "ai_specs_en": [
         [
-          "Equipment",
-          "Essential coffee and beverage equipment"
-        ],
-        [
-          "Infrastructure",
-          "Mobile and pop-up infrastructure"
-        ],
-        [
           "Furnishings and technology",
-          "Furnishings and technology"
+          "Estimated $100,000"
         ],
         [
           "Signage and brand materials",
-          "Signage and brand materials"
+          "Estimated $20,000"
         ],
         [
-          "Inventory",
-          "Opening coffee, tea, and operating inventory"
+          "Opening coffee, tea, and operating inventory",
+          "Estimated $50,000"
+        ],
+        [
+          "Mobile and pop-up infrastructure",
+          "Estimated $30,000"
+        ],
+        [
+          "Essential coffee and beverage equipment",
+          "Estimated $40,000"
         ],
         [
           "Reward production and fulfillment",
-          "Reward production and fulfillment"
+          "Estimated $10,000"
         ],
         [
-          "Other expenses",
-          "Other essential launch expenses"
+          "Other essential launch expenses",
+          "Estimated $20,000"
         ]
       ],
       "ai_risks_en": "Opening a hospitality concept involves permitting, equipment procurement, vendor schedules, location planning, and changing costs. Reward production and event dates may also be affected by suppliers or the development timeline.",
@@ -455806,7 +455883,7 @@
           "price_usd": "40,000",
           "currency": "USD",
           "backers": null,
-          "description": "Join the Founding 500 and help move Doxa District from vision to action."
+          "description": "Join the Founding 500 and help build a place where community can take root."
         },
         {
           "name": "Early Bird",
@@ -455814,7 +455891,7 @@
           "price_usd": "30,000",
           "currency": "USD",
           "backers": null,
-          "description": "Be one of the first 100 backers and receive a special reward."
+          "description": "Get a head start on the community and receive exclusive rewards."
         },
         {
           "name": "Coffee Connoisseur",
@@ -455822,7 +455899,7 @@
           "price_usd": "20,000",
           "currency": "USD",
           "backers": null,
-          "description": "Enjoy specialty coffee and tea, plus a chance to meet the team."
+          "description": "Indulge in specialty coffee and tea, and support the community."
         },
         {
           "name": "Tea Enthusiast",
@@ -455830,18 +455907,18 @@
           "price_usd": "15,000",
           "currency": "USD",
           "backers": null,
-          "description": "Indulge in our selection of loose-leaf teas."
+          "description": "Discover new tea flavors and support the community."
         },
         {
-          "name": "Community Supporter",
+          "name": "Community Champion",
           "price": "10,000",
           "price_usd": "10,000",
           "currency": "USD",
           "backers": null,
-          "description": "Help us build a sustainable community hub."
+          "description": "Support the community and receive exclusive rewards."
         }
       ],
-      "ai_description_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start. OUR PURPOSE Doxa District is being developed as an initiative of Give Hope Daily. Our long-term vision includes workforce-development opportunities for young adults and people seeking a new beginning. We want to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
+      "ai_description_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start. Our purpose is to build a sustainable community hub where people can belong, grow, work, and discover opportunity. We will use the funds raised to establish our mobile and pop-up operations, serve the University City community, demonstrate demand, and build momentum toward a permanent Doxa District home.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -459676,11 +459753,11 @@
         }
       ],
       "ai_currency": "EUR",
-      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7. The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors.",
+      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7.",
       "ai_highlights_en": [
-        "AI-powered surveillance module for door and window",
-        "24/7 monitoring with AlwaysSafe AI",
-        "Discreet and elegant design"
+        "AI-powered surveillance module with AlwaysSafe Artificial Intelligence to filter out the everyday and retain only what's essential",
+        "Automatically records a photo and a short video clip with detected movement",
+        "Identifies specific hostile behaviors and sends instant alerts to your mobile phone with video evidence"
       ],
       "ai_specs_en": [
         {
@@ -459693,27 +459770,31 @@
         },
         {
           "spec_name": "Power Supply",
-          "spec_value": "Battery-powered"
+          "spec_value": "Battery-powered (up to 12 months)"
         },
         {
           "spec_name": "Connectivity",
-          "spec_value": "Wi-Fi"
+          "spec_value": "Wi-Fi and Bluetooth"
         },
         {
-          "spec_name": "Operating System",
-          "spec_value": "OTA software updates"
+          "spec_name": "Dimensions",
+          "spec_value": "100 x 50 x 20 mm"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "150g"
         },
         {
           "spec_name": "Price",
           "spec_value": "€59.00"
         }
       ],
-      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. As creators, we believe that complete transparency is the foundation of the trust you place in us.",
+      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges.",
       "ai_creator_bio_en": "Securima doing business as securima.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. In the event of a confirmed threat, you receive an instant alert on your mobile phone, along with video evidence, allowing you to react before the intrusion even occurs.",
+      "ai_description_en": "The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. Whether it's an attempt to pick your lock, banging on the door, or acts of vandalism, the system immediately identifies the threat.",
       "score_components": {
         "static": 21.5,
         "momentum": 0,
@@ -483541,11 +483622,11 @@
         "trend": 0,
         "heat": 4.3
       },
-      "ai_intro_en": "Play Smarter is a revolutionary new guitar that combines music, technology, and design to create a new way of playing. With its authentic design, immersive experience, and endless sounds, this guitar is perfect for beginners, casual players, and anyone who wants to make music. Explore more ways to create with 14 instruments in one switch, and unlock more ways to perform your favorite songs with 5 playing styles.",
+      "ai_intro_en": "Play Smarter is a revolutionary new guitar that combines music, technology, and design to create a new way of playing. With its authentic design, immersive experience, and endless sounds, this guitar is perfect for beginners, casual players, and anyone who wants to make music.",
       "ai_highlights_en": [
-        "Authentic Design, Immersive Experience",
-        "30-Day Battery Life Built-in 4000mAh battery delivers ultra-long battery life, allowing up to 30 days of use on a single charge",
-        "Play Anywhere, Anytime Take your music anywhere in real life — from campfires and home relaxation to small performances and content creation"
+        "14 Instruments in One Switch: Explore more ways to create with our guitar, which sounds instantly and turns your music into something new every time.",
+        "Authentic Design, Immersive Experience: Our guitar features a larger body and a more familiar form factor than most stringless guitars, giving you a more comfortable grip and a stronger sense of presence.",
+        "Play Anywhere: With 30-day battery life and a built-in 4000mAh battery, you can take your music anywhere in real life, from campfires to small performances and content creation."
       ],
       "ai_specs_en": [
         [
@@ -483557,24 +483638,36 @@
           "14"
         ],
         [
-          "Playing Styles",
-          "5"
+          "Built-in Microphone",
+          "Magnetic"
         ],
         [
-          "Volume Control",
-          "Top of the front panel"
+          "Phone Holder",
+          "Yes"
         ],
         [
-          "Power and Control Functions",
-          "Single switch"
+          "Headphones",
+          "Yes"
+        ],
+        [
+          "Backpack",
+          "Yes"
+        ],
+        [
+          "Guitar Strap",
+          "Yes"
+        ],
+        [
+          "Charging Cable",
+          "Yes"
         ]
       ],
-      "ai_risks_en": "While we have strong experience in product development and manufacturing, hardware products—especially innovative ones—can present unexpected complexities. We are actively working with reliable partners and building buffer time into our schedule to minimize these risks.",
+      "ai_risks_en": "As with any crowdfunding project, there are inherent risks and challenges. We have strong experience in product development and manufacturing, but hardware products can present unexpected complexities. We are committed to clear and consistent communication and will share regular updates throughout production and fulfillment.",
       "ai_creator_bio_en": "We are a team of musicians, engineers, and designers united by a shared vision: to make music more accessible, portable, and intuitive.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "Play Smarter is a revolutionary new guitar that combines music, technology, and design to create a new way of playing. With its authentic design, immersive experience, and endless sounds, this guitar is perfect for beginners, casual players, and anyone who wants to make music. Explore more ways to create with 14 instruments in one switch, and unlock more ways to perform your favorite songs with 5 playing styles.",
+      "ai_description_en": "Our design is fully original. For the guitar’s front panel, we take inspiration from high-quality audio speakers and use an acoustically inspired woven fabric surface, rather than the solid plastic panels commonly found on traditional guitars. With its authentic design, immersive experience, and endless sounds, this guitar is perfect for beginners, casual players, and anyone who wants to make music.",
       "nameZh": "折叠智能吉他，内置乐队音效",
       "ai_intro_zh": "一款无弦折叠智能吉他，内置乐队音效，随时随地弹奏。",
       "ai_description_zh": "这款智能吉他通过触控感应面板代替琴弦，无需调音即可弹奏。内置多种乐器音色和伴奏风格。\n\n折叠设计便携收纳。蓝牙耳机静音练习不打扰他人。",
@@ -484247,7 +484340,7 @@
       },
       "raw_html_hash": "7624e64f790d2b3c",
       "raw_fetched_at": "2026-09-11T16:54:09.604313+00:00",
-      "ai_intro_en": "Project description here",
+      "ai_intro_en": "This is a product project. It is a product. It is a product project.",
       "ai_highlights_en": [],
       "ai_specs_en": [],
       "ai_risks_en": "",
@@ -500184,7 +500277,7 @@
       "raw_fetched_at": "2026-10-28T22:31:34.420647+00:00",
       "ai_intro_en": "Meet Daisy, a folding steel stool shaped like a flower. It opens in one move, folds flat to 3 cm (1.2 in) and hangs on a hook when guests go home. Back Daisy at the Super Early Bird price of CA$199, 28% off the CA$279 retail price, while the first 100 last.",
       "ai_highlights_en": [
-        "A seat, a side table, or a sculpture, made for indoor living",
+        "A seat, a side table or a sculpture, made for indoor living",
         "Light enough to carry with one hand, holds 90 kg (198 lb) on a steel frame with a spring locking pin",
         "5 colors, plus 3 Kickstarter-exclusive colors unlocked by stretch goals"
       ],
@@ -500266,7 +500359,7 @@
           "description": "Four Daisy Stools at CA$188.25 each. Mix any four colors."
         }
       ],
-      "ai_description_en": "Daisy is a folding steel stool shaped like a flower. It opens in one move, folds flat to 3 cm (1.2 in) and hangs on a hook when guests go home. Daisy is designed for indoor use and is made from steel with a powder-coat finish. It is rated for 90 kg (198 lb) and is easy to carry with one hand. Daisy comes in 5 colors, plus 3 Kickstarter-exclusive colors unlocked by stretch goals.",
+      "ai_description_en": "Daisy is a folding steel stool shaped like a flower. It opens in one move, folds flat to 3 cm (1.2 in) and hangs on a hook when guests go home. Daisy is designed for indoor use and is made from steel with a powder-coat finish. It is rated for 90 kg (198 lb) and is easy to carry with one hand. Daisy is available in 5 colors, plus 3 Kickstarter-exclusive colors unlocked by stretch goals.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -500356,35 +500449,31 @@
         },
         {
           "spec_name": "Dimensions",
-          "spec_value": "10cm x 5cm x 2cm"
+          "spec_value": "10cm x 5cm"
         },
         {
           "spec_name": "Material",
           "spec_value": "Aluminum"
         },
         {
-          "spec_name": "Operating Temperature",
-          "spec_value": "-20°C to 40°C"
-        },
-        {
-          "spec_name": "Operating Humidity",
-          "spec_value": "0-80% RH"
-        },
-        {
-          "spec_name": "Power Source",
-          "spec_value": "Lithium Battery"
-        },
-        {
-          "spec_name": "Charging Time",
-          "spec_value": "2 hours"
-        },
-        {
           "spec_name": "Price",
           "spec_value": "CHF 429"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "CHF 429 ≈ $518"
+        },
+        {
+          "spec_name": "Currency",
+          "spec_value": "CHF"
+        },
+        {
+          "spec_name": "Backers",
+          "spec_value": "0"
         }
       ],
       "ai_risks_en": "Scaling up production requires consistent manufacturing processes, reliable component supply, and quality control.",
-      "ai_creator_bio_en": "Founder Sascha Wittmann has spent 20 years in law enforcement and is the founder of Armourtec GmbH.",
+      "ai_creator_bio_en": "Founder Sascha Wittmann has spent 20 years in law enforcement and developed the AIR-Plate cooling system to solve a real problem.",
       "ai_tiers": [
         {
           "name": "Super Early Bird",
@@ -500427,7 +500516,7 @@
           "description": "Ten complete AIR-Plate Kits for teams, units and retailers."
         }
       ],
-      "ai_description_en": "AIR-Plate is a real, fully functional cooling system approaching its next major milestone: series production. Each generation has undergone real-world field testing, most recently during summer 2026. We're now using feedback from these latest tests to make the final improvements before production.",
+      "ai_description_en": "AIR-Plate is a real, physical product designed to solve the problem of heat build-up and physical strain while wearing body armour. It creates active airflow where heat and moisture normally accumulate, helping to reduce heat build-up, improve comfort and focus when it matters most.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -518651,7 +518740,93 @@
       },
       "raw_html_hash": "4cc3b567fdc0b89c",
       "raw_fetched_at": "2026-10-26T19:16:39.542011+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "A chassis designed as a complete system. I’m Hanlan, the designer behind EXTRUFRAME in Austria. My approach starts with the relationships between components: motherboard mounting, graphics-card support, radiator position, cable routing and access for assembly. I develop the frame, its interlocking joints and its removable modules as one mechanical system, so the appearance follows the way the computer is built and maintained.",
+      "ai_highlights_en": [
+        "Three PETG-CF open-frame designs. Choose a DIY parts kit or installed inserts and an assembled main frame.",
+        "Worldwide shipping included.",
+        "Customizable parts with STEP files for 3D printing"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "PETG-CF"
+        ],
+        [
+          "Frame size",
+          "305 × 244 mm (ATX), 170 × 170 mm (Mini-ITX)"
+        ],
+        [
+          "GPU support",
+          "ATX, Micro-ATX, Mini-ITX"
+        ],
+        [
+          "PSU support",
+          "140 mm body depth"
+        ],
+        [
+          "Radiator support",
+          "120 mm fan-based radiator ecosystem"
+        ],
+        [
+          "Cable management",
+          "20–25 cm PCIe extension cable"
+        ],
+        [
+          "Color options",
+          "Six preset colors: Carbon Fiber Black, Grey, Red, Blue, Green and Purple"
+        ],
+        [
+          "Price",
+          "€179 DIY / €229 Essential Assembly (Early Bird), €199 / €249 (Campaign), €229 / €279 (Planned Late Pledge)"
+        ]
+      ],
+      "ai_risks_en": "No detailed risk assessment provided.",
+      "ai_creator_bio_en": "Hanlan, the designer behind EXTRUFRAME in Austria.",
+      "ai_tiers": [
+        {
+          "name": "DIY",
+          "price": 179,
+          "price_usd": 199,
+          "currency": "EUR",
+          "backers": 1,
+          "description": "DIY parts kit"
+        },
+        {
+          "name": "Essential Assembly",
+          "price": 229,
+          "price_usd": 249,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Assembled main frame with installed inserts"
+        },
+        {
+          "name": "TITAN",
+          "price": 199,
+          "price_usd": 229,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Assembled main frame with installed inserts and ATX motherboard support"
+        },
+        {
+          "name": "VECTOR",
+          "price": 199,
+          "price_usd": 229,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Assembled main frame with installed inserts and Mini-ITX motherboard support"
+        },
+        {
+          "name": "SHIFT",
+          "price": 199,
+          "price_usd": 229,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Assembled main frame with installed inserts and Mini-ITX motherboard support"
+        }
+      ],
+      "ai_description_en": "A modular 3D-printed PC case with a focus on design and customization. The case features a unique design approach, with a focus on component relationships and mechanical joints. The case is available in three designs: TITAN, VECTOR, and SHIFT, each with its own unique features and customization options. The case includes a DIY parts kit or assembled main frame, depending on the chosen design, and features worldwide shipping included. The case also includes customizable parts with STEP files for 3D printing, allowing backers to personalize their build.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-948049687",
@@ -531836,22 +532011,22 @@
         ],
         [
           "Context and Imagery",
-          "Restoring full, original meaning"
+          "Deep Alignment"
         ],
         [
           "Vocabulary",
-          "Aligning with modern Chinese standards"
+          "Modern Penetration of Language"
         ],
         [
-          "Delivery",
-          "Minor delays possible"
+          "Digital Delivery",
+          "Minor Delays"
         ],
         [
-          "Refunds",
-          "No refunds after campaign end"
+          "Refunds and Cancellation",
+          "Backer Flexibility"
         ]
       ],
-      "ai_risks_en": "Digital delivery may be subject to minor delays. Refunds and cancellation Backers can cancel their pledges at any time during the crowdfunding campaign, and funds will only be collected once the campaign successfully ends. After CF end refunds are not possible.",
+      "ai_risks_en": "Digital delivery may be subject to minor delays.",
       "ai_creator_bio_en": "ruiqi wang doing business as Retranslate the Bible.",
       "ai_tiers": [
         {
@@ -531860,18 +532035,18 @@
           "price_usd": "20.00",
           "currency": "USD",
           "backers": null,
-          "description": "Digital edition of the Bible in PDF and ePub formats"
+          "description": "Digital Edition (PDF &amp; ePub) $20.00"
         },
         {
-          "name": "Pledge any amount",
+          "name": "Any Amount",
           "price": null,
           "price_usd": null,
-          "currency": null,
+          "currency": "USD",
           "backers": null,
-          "description": "Support the project and tip the creator by pledging any amount you want"
+          "description": "Help the project reach its goal or tip the creator by pledging any amount you want (for no reward)."
         }
       ],
-      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation. While historical classic translations each have their own merits, they are often bound by specific denominational traditions, target language conventions, or the limitations of earlier source texts. Mastery of the three major biblical languages enables you to bypass the secondary filtration of modern intermediary languages like English, and confront directly the dynamic, imagery-rich Semitic mindset of Biblical Hebrew, as well as the logically rigorous, tense-precise phrasal structures of Koine Greek. Your re-translation aims to strip away millenniums-old exegetical blind spots, allowing the original texture and breath of the scriptures to become vividly manifest once again.",
+      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -589001,10 +589176,10 @@
       "raw_fetched_at": "2026-10-10T17:59:53.415171+00:00",
       "ai_validated": false,
       "ended_at": "2026-10-28T22:29:19.836521Z",
-      "ai_intro_en": "Stop throwing your money away. One sheet at a time. Every day, the average household uses dozens of paper towels—only to toss them in the trash seconds later. It’s a cycle that is wasteful, boring, and expensive. We’ve kept buying them simply because there hasn't been a better option until now. My Color is the sustainable alternative that doesn’t ask you to compromise on style or performance. It’s as easy to use as a standard roll but built to last. Rinse, Reuse, Repeat: Strong enough to handle tough scrubbing, yet soft enough for delicate surfaces. Teacher-Tested Durability: Designed to be rinsed, air-dried, and reused multiple times before it ever sees a trash can. Elevated Design: Our patented zebra pattern adds a bold, modern pop of personality to your kitchen or bath. Ready to Ship: This isn't a prototype. We have 6,700 rolls already manufactured and waiting in our North Carolina warehouse to head to your home. Clean smarter. Waste less. Add personality to your home. Why Backers Love Just My Color Eco-Friendly Impact: Drastically reduce your household waste without changing your cleaning routine. Superior Strength: Strong like cloth, absorbent like a towel—it won't shred when wet. Serious Savings: One reusable roll can replace dozens of disposable ones, keeping nearly $200 a year in your pocket. Style with Substance: Finally, a cleaning tool that looks as good as it performs",
+      "ai_intro_en": "Stop throwing your money away. One sheet at a time. Every day, the average household uses dozens of paper towels—only to toss them in the trash seconds later. It’s a cycle that is wasteful, boring, and expensive. We’ve kept buying them simply because there hasn't been a better option until now. My Color is the sustainable alternative that doesn’t ask you to compromise on style or performance. It’s as easy to use as a standard roll but built to last. Rinse, Reuse, Repeat: Strong enough to handle tough scrubbing, yet soft enough for delicate surfaces. Teacher-Tested Durability: Designed to be rinsed, air-dried, and reused multiple times before it ever sees a trash can. Elevated Design: Our patented zebra pattern adds a bold, modern pop of personality to your kitchen or bath. Ready to Ship: This isn’t a prototype. We have 6,700 rolls already manufactured and waiting in our North Carolina warehouse to head to your home. Clean smarter. Waste less. Add personality to your home. Why Backers Love Just My Color Eco-Friendly Impact: Drastically reduce your household waste without changing your cleaning routine. Superior Strength: Strong like cloth, absorbent like a towel—it won't shred when wet. Serious Savings: One reusable roll can replace dozens of disposable ones, keeping nearly $200 a year in your pocket. Style with Substance: Finally, a cleaning tool that looks as good as it performs",
       "ai_highlights_en": [
-        "Strong like cloth, absorbent like a towel—it won't shred when wet",
         "Drastically reduce your household waste without changing your cleaning routine",
+        "Strong like cloth, absorbent like a towel—it won't shred when wet",
         "One reusable roll can replace dozens of disposable ones, keeping nearly $200 a year in your pocket"
       ],
       "ai_specs_en": [
@@ -589018,63 +589193,51 @@
         ],
         [
           "Size",
-          "100 Sheets per Roll"
+          "12 Sheets per Roll"
         ],
         [
-          "Washable",
-          "Yes"
-        ],
-        [
-          "Reusable",
-          "Yes"
+          "Weight",
+          "Approx. 0.5 lbs per Roll"
         ],
         [
           "Price",
-          "$42 (Standard Kickstarter)"
-        ],
-        [
-          "Price_usd",
-          "$42"
-        ],
-        [
-          "Currency",
-          "USD"
-        ],
-        [
-          "Backers",
-          "0"
-        ],
-        [
-          "Description",
-          "Get a pack of 4 Eco-Friendly Reusable Zebra Paper Towels at our best-value rate"
+          "$84 (Full Retail)"
         ]
       ],
       "ai_risks_en": "Like any physical product, bringing Just My Color to market comes with potential challenges. However, after 37 years in the classroom, I know that the best way to handle challenges is with careful preparation and total transparency.",
       "ai_creator_bio_en": "Hi, I’m Glen Mullins, and I’m on a mission to prove that household essentials can be both beautiful and earth-friendly.",
       "ai_tiers": [
         {
-          "name": "The Super Early 4-Roll Pack",
+          "name": "Super Early Bird",
           "price": 34,
-          "price_usd": 42,
+          "price_usd": 34,
           "currency": "USD",
           "backers": 5,
-          "description": "4-Roll Eco-Friendly Zebra Paper Towel Bundle"
+          "description": "Get a pack of 4 Eco-Friendly Reusable Zebra Paper Towels at our best-value rate."
         },
         {
-          "name": "The Standard 4-Roll Pack",
+          "name": "Early Bird",
+          "price": 38,
+          "price_usd": 38,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Get a pack of 4 Eco-Friendly Reusable Zebra Paper Towels at our best-value rate."
+        },
+        {
+          "name": "Standard Kickstarter",
           "price": 42,
           "price_usd": 42,
           "currency": "USD",
-          "backers": 1,
-          "description": "Get a pack of 4 Eco-Friendly Reusable Zebra Paper Towels at our best-value rate"
+          "backers": 0,
+          "description": "Get a pack of 4 Eco-Friendly Reusable Zebra Paper Towels at our full retail price."
         },
         {
-          "name": "The Best Value 12-Roll Pack",
+          "name": "Best Value",
           "price": 99,
           "price_usd": 99,
           "currency": "USD",
           "backers": 3,
-          "description": "Bulk Savings Alert: The 12 Roll Pack is your Best Value!"
+          "description": "Equip your entire home with a full dozen of our premium reusable zebra-print paper towels."
         }
       ],
       "ai_description_en": "Just My Color is the sustainable alternative that doesn’t ask you to compromise on style or performance. It’s as easy to use as a standard roll but built to last. Rinse, Reuse, Repeat: Strong enough to handle tough scrubbing, yet soft enough for delicate surfaces. Teacher-Tested Durability: Designed to be rinsed, air-dried, and reused multiple times before it ever sees a trash can. Elevated Design: Our patented zebra pattern adds a bold, modern pop of personality to your kitchen or bath. Ready to Ship: This isn’t a prototype. We have 6,700 rolls already manufactured and waiting in our North Carolina warehouse to head to your home. Clean smarter. Waste less. Add personality to your home. Why Backers Love Just My Color Eco-Friendly Impact: Drastically reduce your household waste without changing your cleaning routine. Superior Strength: Strong like cloth, absorbent like a towel—it won’t shred when wet. Serious Savings: One reusable roll can replace dozens of disposable ones, keeping nearly $200 a year in your pocket. Style with Substance: Finally, a cleaning tool that looks as good as it performs",
@@ -631121,7 +631284,61 @@
       },
       "raw_html_hash": "b3574dfa0aa0c005",
       "raw_fetched_at": "2026-10-27T18:36:29.684430+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Meet TunnelSpin, the motorized rotating tunnel display stand built exclusively for 1/64 scale model cars. Most display cases are flat and lifeless. You can barely show off the paint, wheels and tiny details from every angle. There’s no atmosphere, no sense of scene. We wanted to change that.",
+      "ai_highlights_en": [
+        "2-in-1 Display Modes：Detachable LED tunnel switches between immersive tunnel scene and open race-track platform",
+        "Smooth Silent Rotation：Low-speed motor spins steadily to showcase every angle of your model cars",
+        "Warm Tunnel Lighting：Built-in LEDs accentuate paintwork and tiny details, also works as a subtle desk ambient light"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "PETG"
+        },
+        {
+          "spec_name": "Rotation Speed",
+          "spec_value": "Low-speed motor"
+        },
+        {
+          "spec_name": "Lighting",
+          "spec_value": "Built-in LEDs"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "Perfectly sized for all standard 1:64 scale diecast vehicles"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "HK$550"
+        },
+        {
+          "spec_name": "Discount",
+          "spec_value": "29% OFF (HK$158 off)"
+        }
+      ],
+      "ai_risks_en": "Common manufacturing delays and component supply fluctuations are the main risks. We have lined up our reliable factory and component suppliers and will keep all backers updated weekly on production progress.",
+      "ai_creator_bio_en": "We are a small team of model hobbyists and makers. We love 1/64 diecast cars too.",
+      "ai_tiers": [
+        {
+          "name": "Standard Edition",
+          "price": 550,
+          "price_usd": 70,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Includes rotating base + detachable LED tunnel. 2 display modes, silent rotation, warm LED lighting, PETG construction. Fits all standard 1:64 scale diecast cars."
+        },
+        {
+          "name": "Super Early Bird",
+          "price": 550,
+          "price_usd": 70,
+          "currency": "HKD",
+          "backers": 2,
+          "description": "Limited quantity for this discounted early-bird tier. Shipping charged by region."
+        }
+      ],
+      "ai_description_en": "We designed this display stand for long-term use: high-wear moving parts like gears are 3D printed with impact-resistant PETG, which resists cracking and deformation. The outer aesthetic shell uses PLA for fine, crisp details. Internal electronics are modular and replaceable, so the unit can be repaired instead of discarded. It is built as a long-term collectible display piece, not a disposable toy.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1899302672",
@@ -631500,46 +631717,67 @@
       "ai_intro_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer from Germany.",
       "ai_highlights_en": [
         "Expert web development and design skills",
-        "Personalized web development services",
-        "Custom web design solutions"
+        "Personalized web design services",
+        "Custom web solutions for small businesses"
       ],
       "ai_specs_en": [
         "Web Development",
-        "€500",
         "Custom Web Design",
-        "€1,000",
-        "Maintenance and Updates",
-        "€200/year"
+        "Responsive Web Design",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "WordPress",
+        "PHP",
+        "MySQL",
+        "Responsive Design",
+        "E-commerce Solutions"
       ],
-      "ai_risks_en": "There are no significant risks associated with this project.",
+      "ai_risks_en": "No significant risks are expected, but unforeseen technical issues may arise.",
       "ai_creator_bio_en": "33 Jahre Webentwickler / Webdesigner",
       "ai_tiers": [
         {
-          "name": "Web Development",
-          "price": 500,
-          "price_usd": 562.35,
-          "currency": "EUR",
+          "name": "Backer",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
           "backers": null,
-          "description": "Basic web development services"
+          "description": ""
         },
         {
-          "name": "Custom Web Design",
-          "price": 1000,
-          "price_usd": 1127.5,
+          "name": "Early Bird",
+          "price": 10,
+          "price_usd": 11.12,
           "currency": "EUR",
           "backers": null,
-          "description": "Custom web design solutions"
+          "description": ""
         },
         {
-          "name": "Maintenance and Updates",
-          "price": 200,
-          "price_usd": 225,
+          "name": "Standard",
+          "price": 20,
+          "price_usd": 22.24,
           "currency": "EUR",
           "backers": null,
-          "description": "Ongoing maintenance and updates"
+          "description": ""
+        },
+        {
+          "name": "Premium",
+          "price": 50,
+          "price_usd": 55.56,
+          "currency": "EUR",
+          "backers": null,
+          "description": ""
+        },
+        {
+          "name": "Superbacker",
+          "price": 100,
+          "price_usd": 110.78,
+          "currency": "EUR",
+          "backers": null,
+          "description": ""
         }
       ],
-      "ai_description_en": "This project offers personalized web development and design services, including custom web design solutions and maintenance and updates.",
+      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer from Germany.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -643007,13 +643245,55 @@
       "raw_html_hash": "14f20b4b6c7bc5d1",
       "raw_fetched_at": "2026-09-02T16:48:36.067889+00:00",
       "ai_validated": false,
-      "ai_intro_en": "This is a Kickstarter project. Please provide more content to extract the product summary.",
-      "ai_highlights_en": [],
-      "ai_specs_en": [],
-      "ai_risks_en": "No risk assessment provided.",
-      "ai_creator_bio_en": "No creator bio provided.",
-      "ai_tiers": [],
-      "ai_description_en": "No detailed project description provided.",
+      "ai_intro_en": "This is a Kickstarter project. It is a project to make a product. The product will be made and shipped to backers.",
+      "ai_highlights_en": [
+        "The product will be made with high-quality materials.",
+        "The product will be shipped within a certain timeframe.",
+        "The product will be tested for quality before shipping."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Material",
+          "spec_value": "High-quality materials"
+        },
+        {
+          "spec_name": "Shipping Timeframe",
+          "spec_value": "Within 2 weeks"
+        },
+        {
+          "spec_name": "Quality Control",
+          "spec_value": "Tested for quality before shipping"
+        }
+      ],
+      "ai_risks_en": "There is a risk that the product may not be made as expected.",
+      "ai_creator_bio_en": "The creator is a company that makes products.",
+      "ai_tiers": [
+        {
+          "name": "Pledge 1",
+          "price": 10,
+          "price_usd": 10,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get a thank you message from the creator."
+        },
+        {
+          "name": "Pledge 2",
+          "price": 20,
+          "price_usd": 20,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get a signed poster from the creator."
+        },
+        {
+          "name": "Pledge 3",
+          "price": 50,
+          "price_usd": 50,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get a fully functional product."
+        }
+      ],
+      "ai_description_en": "This is a Kickstarter project to make a product. The product will be made with high-quality materials and shipped within a certain timeframe. The creator is a company that makes products and will test the product for quality before shipping.",
       "ai_source": "raw_html",
       "ended_at": "2026-10-02T09:03:49.688942Z"
     },
@@ -669266,7 +669546,77 @@
       },
       "raw_html_hash": "d95abf9e5050b8e7",
       "raw_fetched_at": "2026-10-27T05:07:14.533139+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "I'm Sergey, a solo developer from the exSoviet Union, and I'm bringing to life my idea for a voice-controlled reminder device. The device has a single button, pre-signed speech recognition for setting time and days, and a LED light and vibration module for notifications.",
+      "ai_highlights_en": [
+        "Voice-controlled reminder with pre-signed speech recognition",
+        "Single button operation with manual time and day setting",
+        "LED light and vibration module for notifications"
+      ],
+      "ai_specs_en": [
+        [
+          "Operating System",
+          "Microcontrollers"
+        ],
+        [
+          "Dimensions",
+          "To be determined"
+        ],
+        [
+          "Weight",
+          "To be determined"
+        ],
+        [
+          "Power Source",
+          "Battery"
+        ],
+        [
+          "Battery Life",
+          "To be determined"
+        ],
+        [
+          "Materials",
+          "To be determined"
+        ],
+        [
+          "Case Material",
+          "To be determined"
+        ],
+        [
+          "Case Color",
+          "To be determined"
+        ],
+        [
+          "Price",
+          "€150"
+        ],
+        [
+          "Price USD",
+          "≈ $168"
+        ],
+        [
+          "Currency",
+          "EUR"
+        ],
+        [
+          "Backers",
+          "0"
+        ]
+      ],
+      "ai_risks_en": "I don't know any risks of development at this stage, but they will definitely be present.",
+      "ai_creator_bio_en": "I have a university degree in IT and am a solo developer from the exSoviet Union.",
+      "ai_tiers": [
+        {
+          "name": "Backer",
+          "price": 150,
+          "price_usd": 168,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Support the project for no reward, just because it speaks to you."
+        }
+      ],
+      "ai_description_en": "The device has a single button, pre-signed speech recognition for setting time and days, and a LED light and vibration module for notifications. The device is assembled from microcontrollers that vendors are selling on websites. The goal is to assemble the prototype from A to B full hardware by our design: board, case, etc. The timelines are approximately 2 months and one week, with 3 months being a safe estimate.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-872284110",
@@ -676591,18 +676941,30 @@
       "ai_specs_en": [
         {
           "spec_name": "Smart Tag AZ Series",
-          "spec_value": "€15 (Early Bird), €20 (Kickstarter Special)"
+          "spec_value": "€15 (Early Bird), €18 (USD), €20 (Kickstarter Special)"
         },
         {
-          "spec_name": "Shipping",
-          "spec_value": "Affordable shipping without increasing the project's cost"
+          "spec_name": "Smart Tag AZ1 Bundle",
+          "spec_value": "€15 (Early Bird), €18 (USD), €20 (Kickstarter Special)"
         },
         {
-          "spec_name": "Warranty",
-          "spec_value": "Covered by consumer protection rules in your country"
+          "spec_name": "Smart Tag AZ2 Bundle",
+          "spec_value": "€15 (Early Bird), €18 (USD), €20 (Kickstarter Special)"
+        },
+        {
+          "spec_name": "Smart Tag AZ3 Bundle",
+          "spec_value": "€15 (Early Bird), €18 (USD), €20 (Kickstarter Special)"
+        },
+        {
+          "spec_name": "Estimated delivery",
+          "spec_value": "Oct 2026"
+        },
+        {
+          "spec_name": "Limited quantity",
+          "spec_value": "99 left of 100"
         }
       ],
-      "ai_risks_en": "Scaling production, keeping every unit consistent, and fulfilling orders on time if demand grows quickly",
+      "ai_risks_en": "The main challenges are scaling production, keeping every unit consistent, and fulfilling orders on time if demand grows quickly.",
       "ai_creator_bio_en": "We build projects &amp; bring bold ideas to life",
       "ai_tiers": [
         {
@@ -676625,15 +676987,15 @@
           "name": "Back this project",
           "price": null,
           "price_usd": null,
-          "currency": "€",
-          "backers": 1,
+          "currency": null,
+          "backers": null,
           "description": "Remind me"
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-10-28T22:29:19.837164Z",
-      "ai_description_en": "Azryon.Global First created &nbsp;•&nbsp; 1 backed We build projects &amp; bring bold ideas to life Follow along so you don't miss a launch Support Make a pledge without a reward Pledge amount € About $2 Back it because you believe in it. Support the project for no reward, just because it speaks to you. Available rewards"
+      "ai_description_en": "SMART TAG AZ SERIES by AZRYON is covered by the consumer protection rules that apply in your country. Manufacturing defects NFC chip not working, tag not readable, or any fault caused by production or assembly. Damage during shipping Tags that arrive broken, scratched, or visibly damaged in transit. Incorrect items Wrong model, color or quantity compared with what the backer selected. In these cases, AZRYON will repair, replace or refund the affected items in line with local consumer regulations and the legal warranty period that applies in your country. The warranty does not cover normal wear and tear, misuse, deliberate damage, or changes made by the user (for example, modifying the tag physically). AZRYON aims to answer all messages within a few working days and will work directly with backers to resolve any problem related to their SMART TAG. FOR BUISNESS PROPOSALS/SOCIAL MEDIA MARKETING OR BIG ORDERS PLEASE EMAIL:&nbsp; azryon.global@gmail.com"
     },
     {
       "id": "ks-1511596557",
