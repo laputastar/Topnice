@@ -31337,7 +31337,141 @@
       },
       "raw_html_hash": "090165fcf1f8aef7",
       "raw_fetched_at": "2026-10-28T22:29:42.875796+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Watchtower 3D is a digital delivery of a 3D printer dashboard, designed to make printing easier and more efficient. With Watchtower 3D, users can monitor and control their printers remotely, track filament usage, and receive notifications when prints are complete. The project aims to provide a seamless printing experience for hobbyists and professionals alike.",
+      "ai_highlights_en": [
+        "Remote printer monitoring and control",
+        "Automatic part ejection and empty build plate detection",
+        "Unlimited spaghetti detection and smart print queue management"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Filament Tracking",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Smart Plug Control",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Direct Slicer Upload",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "REST API",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "Lifetime Access",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "One Year of Updates",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "40% off retail",
+          "spec_value": "Yes"
+        },
+        {
+          "spec_name": "20% off retail",
+          "spec_value": "Yes"
+        }
+      ],
+      "ai_risks_en": "The project is considered low risk due to its digital delivery nature, eliminating manufacturing and shipping challenges. However, the team acknowledges the need for final polish to complete the project.",
+      "ai_creator_bio_en": "Watchtower is a digital delivery of a 3D printer dashboard, designed to make printing easier and more efficient.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird - Watchtower Basic",
+          "price": 167,
+          "price_usd": 119,
+          "currency": "CA$",
+          "backers": 515,
+          "description": "Up to 10 printers | Unlimited spaghetti detection | Automatic part ejection | Empty build plate detection | Everything in Hobby | Lifetime access | One year of updates | 40% off retail"
+        },
+        {
+          "name": "Early Bird - Watchtower Hobby",
+          "price": 83,
+          "price_usd": 60,
+          "currency": "CA$",
+          "backers": 378,
+          "description": "Up to 5 printers | Live printer monitoring | Full print control | Easy remote access | Smart print queue | File management | Filament tracking | Multi-platform push notifications | Smart plug control | Direct slicer upload | REST API | Lifetime access | One year of updates | 40% off retail"
+        },
+        {
+          "name": "Watchtower Hobby",
+          "price": 111,
+          "price_usd": 79,
+          "currency": "CA$",
+          "backers": 36,
+          "description": "Up to 5 printers | Live printer monitoring | Full print control | Easy remote access | Smart print queue | File management | Filament tracking | Multi-platform push notifications | Smart plug control | Direct slicer upload | REST API | Lifetime access | One year of updates | 20% off retail"
+        },
+        {
+          "name": "Watchtower Basic",
+          "price": 223,
+          "price_usd": 159,
+          "currency": "CA$",
+          "backers": 37,
+          "description": "Up to 10 printers | Unlimited spaghetti detection | Automatic part ejection | Empty build plate detection | Everything in Hobby | Lifetime access | One year of updates | 20% off retail"
+        },
+        {
+          "name": "Early Bird - Watchtower Pro",
+          "price": 293,
+          "price_usd": 209,
+          "currency": "CA$",
+          "backers": 368,
+          "description": "Up to 15 printers | Etsy and Shopify integrations | Farm agent (text based queries and control) | Everything in Basic | Lifetime access | One year of updates | 40% off retail"
+        },
+        {
+          "name": "Watchtower Pro",
+          "price": 391,
+          "price_usd": 279,
+          "currency": "CA$",
+          "backers": 2,
+          "description": "Up to 15 printers | Etsy and Shopify integrations | Farm agent (text based queries and control) | Everything in Basic | Lifetime access | One year of updates | 20% off retail"
+        },
+        {
+          "name": "Early Bird - Watchtower Farm",
+          "price": 504,
+          "price_usd": 359,
+          "currency": "CA$",
+          "backers": 53,
+          "description": "Up to 25 printers | Everything in Pro | Lifetime access | One year of updates | 40% off retail"
+        },
+        {
+          "name": "Watchtower Farm",
+          "price": 672,
+          "price_usd": 478,
+          "currency": "CA$",
+          "backers": 0,
+          "description": "Up to 25 printers | Everything in Pro | Lifetime access | One year of updates | 20% off retail"
+        },
+        {
+          "name": "Early Bird - Watchtower Farm Plus",
+          "price": 756,
+          "price_usd": 538,
+          "currency": "CA$",
+          "backers": 22,
+          "description": "Up to 50 printers | Every feature unlocked | Best per-printer value | Ready for production floors | Lifetime access | One year of updates | 40% off retail"
+        },
+        {
+          "name": "Watchtower Farm Plus",
+          "price": 1009,
+          "price_usd": 718,
+          "currency": "CA$",
+          "backers": 0,
+          "description": "Up to 50 printers | Every feature unlocked | Best per-printer value | Ready for production floors | Lifetime access | One year of updates | 20% off retail"
+        },
+        {
+          "name": "Early Bird - Watchtower Farm Ultra",
+          "price": 1135,
+          "price_usd": 808,
+          "currency": "CA$",
+          "backers": 17,
+          "description": "Up to 100 printers | Every feature unlocked | Ready for production floors | Lifetime access | One year of updates | 40% off retail"
+        }
+      ],
+      "ai_description_en": "Watchtower 3D is a digital delivery of a 3D printer dashboard, designed to make printing easier and more efficient. With Watchtower 3D, users can monitor and control their printers remotely, track filament usage, and receive notifications when prints are complete. The project aims to provide a seamless printing experience for hobbyists and professionals alike.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2001117237",
@@ -36523,7 +36657,101 @@
       },
       "raw_html_hash": "f19ed69ca3129808",
       "raw_fetched_at": "2026-10-27T18:28:37.105679+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Yahyah is a living AI portrait that adapts to your life and needs. With its advanced OpenAI LLM, Yahyah's dialogue engine is trained on diverse data, enabling the character's personality to adapt and feel more human. Yahyah recognizes and remembers you, distinguishing you from guests and greeting you by name.",
+      "ai_highlights_en": [
+        "A living AI portrait that adapts to your life and needs",
+        "Recognizes and remembers you, distinguishing you from guests and greeting you by name",
+        "Touch-aware, sensing when you reach out with subtle emotional cues"
+      ],
+      "ai_specs_en": [
+        [
+          "Resolution",
+          "1920×1200"
+        ],
+        [
+          "Frame Material",
+          "100% solid wood"
+        ],
+        [
+          "Power Source",
+          "USB"
+        ],
+        [
+          "Dimensions",
+          "Not specified"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Color",
+          "Not specified"
+        ],
+        [
+          "Price",
+          "$419"
+        ],
+        [
+          "Price (USD)",
+          "Estimated"
+        ],
+        [
+          "Backers",
+          "22"
+        ],
+        [
+          "Estimated Delivery",
+          "May 2027"
+        ]
+      ],
+      "ai_risks_en": "Creating Yahyah involves bringing together original artwork, handcrafted materials, hardware production, and careful assembly into one complete product. While we have completed the core product design and prototypes, there are several challenges we will continue to manage throughout production.",
+      "ai_creator_bio_en": "We're a small team that believes meaningful technology deserves thoughtful craftsmanship.",
+      "ai_tiers": [
+        {
+          "name": "Launch Day Special",
+          "price": 419,
+          "price_usd": 419,
+          "currency": "USD",
+          "backers": 22,
+          "description": "Yahyah Living AI Portrait ×1, Original Portrait Artworks Included, USB Cable ×1, User Manual ×1, 1-year Warranty, Free Shipping"
+        },
+        {
+          "name": "Super Early Bird",
+          "price": 449,
+          "price_usd": 449,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Yahyah Living AI Portrait ×1, Original Portrait Artworks Included, USB Cable ×1, User Manual ×1, 1-year Warranty, Free Shipping"
+        },
+        {
+          "name": "Early Bird",
+          "price": 489,
+          "price_usd": 489,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Yahyah Living AI Portrait ×1, Original Portrait Artworks Included, USB Cable ×1, User Manual ×1, 1-year Warranty, Free Shipping"
+        },
+        {
+          "name": "Kickstarter Special",
+          "price": 569,
+          "price_usd": 569,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Yahyah Living AI Portrait ×1, Original Portrait Artworks Included, USB Cable×1, User Manual ×1, 1-year Warranty, Free Shipping"
+        },
+        {
+          "name": "2-Pack",
+          "price": 898,
+          "price_usd": 898,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Yahyah Living AI Portrait ×2, Original Portrait Artworks Included, USB Cable×2, User Manual ×2, 1-year Warranty, Free Shipping"
+        }
+      ],
+      "ai_description_en": "Yahyah is a living AI portrait that adapts to your life and needs. With its advanced OpenAI LLM, Yahyah's dialogue engine is trained on diverse data, enabling the character's personality to adapt and feel more human. Yahyah recognizes and remembers you, distinguishing you from guests and greeting you by name. It also senses your emotions and responds with its own unique personality, offering comfort, sharing a laugh, or simply being there when you need a friend.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-264288710",
@@ -81142,7 +81370,93 @@
       },
       "raw_html_hash": "fb7b0e8c0c0ccaf1",
       "raw_fetched_at": "2026-10-28T22:30:58.817369+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Our wearable headset combines 4K POV recording, stereo air conduction audio and powerful AI features. Free your hands for cycling, travelling, repair work and daily vlogging, no extra action camera or phone mount required.",
+      "ai_highlights_en": [
+        "Ultra-Long Recording: up to 4 hours at 4K 30fps or 6 hours 20 minutes at 1080P 30fps",
+        "4K Stable Video: capturing the texture of a mountain trail, the color of a busy street, and the small discoveries that make a journey worth remembering",
+        "Hands-Free POV: live the moment with both hands free, cook, create, repair, or explore while CamHear records your point of view"
+      ],
+      "ai_specs_en": [
+        [
+          "Resolution",
+          "4K"
+        ],
+        [
+          "Frame Rate",
+          "30fps"
+        ],
+        [
+          "Storage",
+          "512GB expandable"
+        ],
+        [
+          "Battery Life",
+          "up to 4 hours at 4K 30fps or 6 hours 20 minutes at 1080P 30fps"
+        ],
+        [
+          "Waterproof",
+          "IP68"
+        ],
+        [
+          "Weight",
+          "not specified"
+        ],
+        [
+          "Dimensions",
+          "not specified"
+        ],
+        [
+          "Audio",
+          "13mm speaker drivers rated at 150mW"
+        ],
+        [
+          "Lens",
+          "50° adjustable"
+        ],
+        [
+          "Power Consumption",
+          "low-power chipset"
+        ],
+        [
+          "Operating System",
+          "not specified"
+        ],
+        [
+          "Language",
+          "not specified"
+        ]
+      ],
+      "ai_risks_en": "Our primary risks revolve around production cycle control, cross-border logistics hurdles, and possible consistency defects during mass production of the CamHear headset.",
+      "ai_creator_bio_en": "WindElf 4 created • We are the enthusiastic team of WindElf!",
+      "ai_tiers": [
+        {
+          "name": "WindElf 4",
+          "price": 1000,
+          "price_usd": 1000,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Early bird special: get your CamHear headset before anyone else!"
+        },
+        {
+          "name": "WindElf 5",
+          "price": 1200,
+          "price_usd": 1200,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get your CamHear headset with a free carrying case and screen protector"
+        },
+        {
+          "name": "WindElf 6",
+          "price": 1500,
+          "price_usd": 1500,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get your CamHear headset with a free carrying case, screen protector, and a lifetime warranty"
+        }
+      ],
+      "ai_description_en": "Our wearable headset combines 4K POV recording, stereo air conduction audio and powerful AI features. Free your hands for cycling, travelling, repair work and daily vlogging, no extra action camera or phone mount required.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-311710128",
@@ -93104,7 +93418,65 @@
       },
       "raw_html_hash": "370c3e6ccc8ed852",
       "raw_fetched_at": "2026-10-29T19:03:58.626619+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Moduova K1 brings precise finishing to small craft projects in a sleek, easy-to-handle design. Its quiet magnetic-levitation motor uses high-frequency vibration to smooth fine details and minor imperfections. Choose from 5 settings on the digital display, and switch between 8 included sanding tips to suit different tasks. A 2,000 mAh battery offers up to 6 hours of use , while the charging dock keeps the pen and tips neatly stored.",
+      "ai_highlights_en": [
+        "15,000SPM High-Frequency Vibration",
+        "10 Interchangeable Heads",
+        "5 Adjustable Settings"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Battery Life",
+          "spec_value": "Up to 6 hours"
+        },
+        {
+          "spec_name": "Sanding Heads",
+          "spec_value": "8"
+        },
+        {
+          "spec_name": "Vibration Levels",
+          "spec_value": "5"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "$59 MSRP: $119 | Save 50%"
+        },
+        {
+          "spec_name": "Shipping Fee",
+          "spec_value": "Depends on destination"
+        }
+      ],
+      "ai_risks_en": "Battery life can vary with the selected setting and how the pen is used. The stated runtime of up to six hours represents the upper end of expected use, rather than a guaranteed runtime in every setting.",
+      "ai_creator_bio_en": "Moduova creates practical tools for the small projects that make a space feel personal. We focus on thoughtful details: controls that are easy to understand, comfortable designs, and convenient storage that fits into everyday life.",
+      "ai_tiers": [
+        {
+          "name": "Launch Day Special",
+          "price": 59,
+          "price_usd": 59,
+          "currency": "USD",
+          "backers": 17,
+          "description": "Get 1× Moduova K1 full set at our Launch Day Special price!"
+        },
+        {
+          "name": "Kickstarter Special",
+          "price": 89,
+          "price_usd": 89,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get 2× Moduova K1 full set at our Kickstarter Special price!"
+        },
+        {
+          "name": "Duo Set",
+          "price": 129,
+          "price_usd": 129,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get 2× Moduova K1 full set at our Duo Set Special price!"
+        }
+      ],
+      "ai_description_en": "From the first cut to the finishing touches, K1 fits into the projects you love making. Use it to refine model parts, smooth wooden crafts, or work on small DIY creations.&nbsp;Its cordless, pen-style design makes it easy to bring to your workbench and maneuver around detailed pieces. Whatever you’re creating, K1 helps you work through the little steps that make a finished piece feel your own.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1167698588",
@@ -110696,7 +111068,85 @@
       },
       "raw_html_hash": "b6f79561f4bb6cbf",
       "raw_fetched_at": "2026-10-31T07:50:33.032089+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "DOT.BYTE is a technology-driven lifestyle brand focused on bringing digital creativity into everyday objects. We believe the products people use every day can be more than just functional, but also visually expressive and fun. With DOT.BYTE, you can turn your favorite drinks into a colorful experience with customizable pixel art, animations, and adjustable warming.",
+      "ai_highlights_en": [
+        "Customizable pixel display with pixel art, animations, and text",
+        "Adjustable warming from 40°C to 65°C",
+        "Real-time temperature display and sound-reactive visuals"
+      ],
+      "ai_specs_en": [
+        [
+          "Display Size",
+          "2.5 inches"
+        ],
+        [
+          "Resolution",
+          "128x128 pixels"
+        ],
+        [
+          "Battery Life",
+          "Up to 8 hours"
+        ],
+        [
+          "Material",
+          "Stainless Steel"
+        ],
+        [
+          "Weight",
+          "12 oz"
+        ],
+        [
+          "Dimensions",
+          "3.5 x 3.5 x 3.5 inches"
+        ],
+        [
+          "Color",
+          "Available in 5 colors"
+        ],
+        [
+          "Price",
+          "$79"
+        ]
+      ],
+      "ai_risks_en": "DOT.BYTE faces risks including supply chain disruptions, fluctuating raw material costs, and technological advancements by competitors.",
+      "ai_creator_bio_en": "I plan to use AI-generated content in my project. We have used generative AI as a creative and visualization tool for some of the promotional images and graphic elements shown on our campaign page.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 79,
+          "price_usd": 79,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Be among the first to bring pixels to life!"
+        },
+        {
+          "name": "Early Bird",
+          "price": 99,
+          "price_usd": 99,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Your everyday cup just got a personality!"
+        },
+        {
+          "name": "Early Bird *2",
+          "price": 149,
+          "price_usd": 149,
+          "currency": "USD",
+          "backers": 0,
+          "description": "One for you, one for someone who makes your day brighter."
+        },
+        {
+          "name": "Super Early Bird *5",
+          "price": 359,
+          "price_usd": 359,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Bring the whole crew into the pixel universe!"
+        }
+      ],
+      "ai_description_en": "DOT.BYTE is a smart cup that brings digital creativity into everyday life. With its customizable pixel display, adjustable warming, and real-time temperature display, it's the perfect companion for anyone who wants to add a little personality to their daily routine.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-130448845",
@@ -131336,7 +131786,90 @@
         "heat": 45.1
       },
       "raw_html_hash": "dcb18efdaf1dd3cb",
-      "raw_fetched_at": "2026-10-31T17:53:01.358388+00:00"
+      "raw_fetched_at": "2026-10-31T17:53:01.358388+00:00",
+      "ai_intro_en": "F1 PRO brings real-time AI translation to face-to-face communication with two 10.1-inch touchscreens, allowing both people to see, speak, and respond from their own side. No passing phones. No constantly turning screens. Just a more natural way to communicate.",
+      "ai_highlights_en": [
+        "Two Screens Change the Conversation. No passing a phone back and forth. F1 PRO places a dedicated 10.1-inch display on each side, so both participants can view the conversation from their own position.",
+        "Two-Way Translation, Built for Real Conversations. Choose the languages for both sides and start talking. F1 PRO translates speech in both directions, allowing each person to follow the conversation in their preferred language.",
+        "140+ Languages. From international visitors and overseas customers to business partners from different markets, F1 PRO supports 140+ languages for a wide range of multilingual conversations."
+      ],
+      "ai_specs_en": [
+        [
+          "Resolution",
+          "1280 x 800"
+        ],
+        [
+          "Aspect Ratio",
+          "16:9"
+        ],
+        [
+          "Speakers",
+          "2 x 2W"
+        ],
+        [
+          "Microphone",
+          "AB Mic Speaker Separation"
+        ],
+        [
+          "Connectivity",
+          "USB, USB-C, Ethernet, HDMI, TF card support"
+        ]
+      ],
+      "ai_risks_en": "Risks and challenges Bringing F1 PRO from development to production involves hardware manufacturing, software integration, testing, and international logistics.",
+      "ai_creator_bio_en": "GFF stands for Good Friend & Family. Our mission is to create innovative smart devices that make everyday interactions easier, more engaging, and more meaningful.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 499,
+          "price_usd": 499,
+          "currency": "USD",
+          "backers": 3,
+          "description": "Be among the first to get F1 PRO at our lowest single-unit price."
+        },
+        {
+          "name": "KS Special",
+          "price": 549,
+          "price_usd": 549,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Get one F1 PRO at our exclusive Kickstarter price."
+        },
+        {
+          "name": "Duo Pack",
+          "price": 999,
+          "price_usd": 999,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Two F1 PRO devices, ideal for two workspaces or sharing with a partner."
+        },
+        {
+          "name": "Trio Pack",
+          "price": 1449,
+          "price_usd": 1449,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Three F1 PRO devices for teams and multiple communication spaces."
+        },
+        {
+          "name": "Business Pack",
+          "price": 2349,
+          "price_usd": 2349,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Five F1 PRO devices for offices, reception desks, and business environments."
+        },
+        {
+          "name": "Enterprise Pack",
+          "price": 4499,
+          "price_usd": 4499,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Ten F1 PRO devices for businesses looking to support multilingual communication across multiple locations."
+        }
+      ],
+      "ai_description_en": "F1 PRO combines face-to-face translation, intelligent interaction, and business-ready features in one desktop device. It supports 140+ languages, has a dedicated 10.1-inch display on each side, and includes 2 x 2W speakers for voice playback.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1716325145",
@@ -172834,11 +173367,11 @@
       "raw_html_hash": "ce7321da049fb591",
       "raw_fetched_at": "2026-08-06T04:18:19.717830+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Meet Litejam Acoustic Neo A1, the revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike.",
+      "ai_intro_en": "Meet Litejam Acoustic Neo A1, the revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is perfect for beginners and experienced musicians alike.",
       "ai_highlights_en": [
-        "Learn guitar faster and enjoy playing more with Litejam's interactive LED guidance",
-        "Practice common chord progressions in every key with Strumming and Fingerpicking modes",
-        "Master every scale with Litejam's Scale Mode, featuring 12 root keys and 18 scale types per key"
+        "Learn guitar faster with real-time LED guidance",
+        "Practice common chord progressions in every key",
+        "Switch instantly between Strumming and Fingerpicking modes"
       ],
       "ai_specs_en": [
         [
@@ -172847,7 +173380,7 @@
         ],
         [
           "Battery",
-          "Rechargeable, up to 5-8 hours"
+          "Rechargeable (up to 5-8 hours)"
         ],
         [
           "Neck",
@@ -172864,18 +173397,10 @@
         [
           "Tremolo",
           "Wilkinson 2-Point Tremolo"
-        ],
-        [
-          "Finish",
-          "Premium Gold Hardware (Green Metallic Burst)"
-        ],
-        [
-          "Weight",
-          "Lightweight, 3.5 lbs"
         ]
       ],
-      "ai_risks_en": "The project is subject to risks related to manufacturing, supply chain, and market demand. However, the team has a proven track record of delivering high-quality products and has a solid plan in place to mitigate these risks.",
-      "ai_creator_bio_en": "Litejam is a company that aims to make music learning simple, visual, and fun. With a team of international experts in engineering, software, music, and manufacturing, Litejam is committed to building the future of interactive music learning.",
+      "ai_risks_en": "The project is subject to risks related to manufacturing, supply chain, and market demand.",
+      "ai_creator_bio_en": "Litejam is a company that aims to make music learning simple, visual, and fun.",
       "ai_tiers": [
         {
           "name": "Back this project",
@@ -172894,24 +173419,112 @@
           "description": "Remind me to back this project when it's available"
         },
         {
-          "name": "Litejam Acoustic Neo A1",
-          "price": 999.99,
-          "price_usd": 999.99,
-          "currency": "USD",
+          "name": "Learn Fingerpicking",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
           "backers": null,
-          "description": "Get your Litejam Neo A1 smart guitar and start learning guitar faster and enjoying playing more"
+          "description": "Learn fingerpicking with Litejam Neo A1"
         },
         {
-          "name": "Litejam Neo Bass B4NS",
-          "price": 999.99,
-          "price_usd": 999.99,
-          "currency": "USD",
+          "name": "Per-Chord Patterns",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
           "backers": null,
-          "description": "Get your Litejam Neo Bass B4NS smart bass guitar and start learning bass faster and enjoying playing more"
+          "description": "Assign a different fingerpicking pattern to each chord"
+        },
+        {
+          "name": "Pattern Builder",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Create your own fingerpicking patterns with ease"
+        },
+        {
+          "name": "Custom Chord Builder",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Design and save custom chord shapes"
+        },
+        {
+          "name": "Practice Together, Share Instantly",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Save and share your custom chords or progressions with friends, students, or the Litejam community"
+        },
+        {
+          "name": "Arpeggio",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Unlock the fretboard with arpeggios"
+        },
+        {
+          "name": "CAGED Section",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "The CAGED system transforms five familiar chord shapes into a complete roadmap of the fretboard"
+        },
+        {
+          "name": "Chord Progression",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Practice real chord progressions"
+        },
+        {
+          "name": "Scale Mode",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Master every scale with light-guided precision"
+        },
+        {
+          "name": "Chromatic Scale Practice",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Master your fretboard with fully lit chromatic scale guides"
+        },
+        {
+          "name": "Learn Songs with Glowtab",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Bring your guitar tabs to life"
+        },
+        {
+          "name": "Perform Mode",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Transform your LED fretboard into dynamic lighting effects"
+        },
+        {
+          "name": "Litejam Neo Bass",
+          "price": 0,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "The world’s first RGB smart bass guitar"
         }
       ],
       "ai_source": "raw_html",
-      "ai_description_en": "Litejam Neo A1 is a revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike. The project aims to make music learning simple, visual, and fun, and the team has a proven track record of delivering high-quality products. However, the project is subject to risks related to manufacturing, supply chain, and market demand. The team has a solid plan in place to mitigate these risks and is committed to building the future of interactive music learning.",
+      "ai_description_en": "Litejam Neo A1 is a smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is perfect for beginners and experienced musicians alike. The guitar features a range of innovative features, including real-time LED guidance, customizable LED patterns, and a built-in learning platform. Litejam Neo A1 is designed to make music learning simple, visual, and fun, and is the perfect tool for anyone looking to improve their guitar playing skills.",
       "ended_at": "2026-10-29T07:50:01.570121Z"
     },
     {
@@ -185075,74 +185688,66 @@
       },
       "raw_html_hash": "bd03fc9c11a227c2",
       "raw_fetched_at": "2026-08-04T14:51:09.625335+00:00",
-      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, providing effortless insights into your sleep patterns and helping you build better sleep habits. With over 2,000 nights of clinical validation, Sleepal reduces snoring, improves sleep quality, and wakes you naturally at the lightest sleep. Our system is smart home ready, and we've partnered with leading hospitals to train AI models using synchronized PSG and Sleep data.",
+      "ai_intro_en": "Sleepal is the world's first contactless bedside AI sleep system, providing 2,000 nights of clinical validation. It helps reduce snoring, sleep position, and bedroom environment to create the perfect sleep environment.",
       "ai_highlights_en": [
-        "Reduces snoring and improves sleep quality",
-        "Wakes you naturally at the lightest sleep",
-        "Smart home ready with Matter integration"
+        "Sleepal tracks respiratory rate with an RMSE below 2 breaths per minute when benchmarked against medical-grade devices.",
+        "The system integrates sound, thermal sensing, ambient light, temperature, and humidity into a multimodal sensing system.",
+        "Sleepal keeps the alarm active until you get out of bed, no more turning off alarms and falling back asleep."
       ],
       "ai_specs_en": [
-        [
-          "Temperature",
-          "Room temperature"
-        ],
-        [
-          "Humidity",
-          "Room humidity"
-        ],
-        [
-          "Light",
-          "Ambient light"
-        ],
-        [
-          "Noise",
-          "Noise levels"
-        ],
-        [
-          "Pricing",
-          "HK$ 2,555,392"
-        ]
+        {
+          "spec_name": "Respiratory Rate",
+          "spec_value": "RMSE below 2 breaths per minute"
+        },
+        {
+          "spec_name": "Sensing Technology",
+          "spec_value": "Multimodal sensing system (sound, thermal, ambient light, temperature, humidity)"
+        },
+        {
+          "spec_name": "Alarm Functionality",
+          "spec_value": "Keeps alarm active until user gets out of bed"
+        }
       ],
-      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&amp;D, industrial design, mass production, and after-sales service across the smart home sector.",
-      "ai_creator_bio_en": "Sleepal is a product of Sleepal, a company dedicated to building innovative sleep solutions.",
+      "ai_risks_en": "Like any crowdfunding venture, there are inherent risks and challenges. However, with over millions units of millimeter-wave radar products delivered worldwide, we bring mature expertise in R&amp;D, industrial design, mass production, and after-sales service.",
+      "ai_creator_bio_en": "Sleepal is developed by Sleepal, a Hong Kong-based company.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": "HK$ 1,000",
-          "price_usd": null,
-          "currency": "HK$",
+          "price": 2498,
+          "price_usd": 315,
+          "currency": "HKD",
           "backers": null,
           "description": "Get Sleepal 1 month before the general public"
         },
         {
           "name": "Standard",
-          "price": "HK$ 1,500",
-          "price_usd": null,
-          "currency": "HK$",
+          "price": 2998,
+          "price_usd": 375,
+          "currency": "HKD",
           "backers": null,
           "description": "Get Sleepal with a 1-year subscription"
         },
         {
           "name": "Premium",
-          "price": "HK$ 2,000",
-          "price_usd": null,
-          "currency": "HK$",
+          "price": 3498,
+          "price_usd": 450,
+          "currency": "HKD",
           "backers": null,
           "description": "Get Sleepal with a 2-year subscription"
         },
         {
           "name": "VIP",
-          "price": "HK$ 5,000",
-          "price_usd": null,
-          "currency": "HK$",
+          "price": 4998,
+          "price_usd": 625,
+          "currency": "HKD",
           "backers": null,
-          "description": "Get Sleepal with a 2-year subscription and exclusive perks"
+          "description": "Get Sleepal with a 3-year subscription"
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.983779Z",
-      "ai_description_en": "Sleepal is a bedside AI sleep system that provides effortless insights into your sleep patterns and helps you build better sleep habits. With over 2,000 nights of clinical validation, Sleepal reduces snoring, improves sleep quality, and wakes you naturally at the lightest sleep. Our system is smart home ready, and we've partnered with leading hospitals to train AI models using synchronized PSG and Sleep data."
+      "ai_description_en": "Sleepal is a bedside AI sleep system that tracks respiratory rate, sleep position, and bedroom environment to create the perfect sleep environment. It integrates sound, thermal sensing, ambient light, temperature, and humidity into a multimodal sensing system. Sleepal keeps the alarm active until the user gets out of bed, no more turning off alarms and falling back asleep."
     },
     {
       "id": "ks-364408359",
@@ -193902,7 +194507,109 @@
       },
       "raw_html_hash": "9aaf020d3dac7c32",
       "raw_fetched_at": "2026-10-27T18:33:18.087999+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Connect Your Home with Wand One, a smart home device that lets you control your smart home, turn spells into music, and duel with friends. Wand One is an award-winning VR experience that combines magic and technology.",
+      "ai_highlights_en": [
+        "Control your smart home with Wand One's intuitive interface",
+        "Turn spells into music and create a magical experience",
+        "Compete in the open world and duel with friends in our AR game"
+      ],
+      "ai_specs_en": [
+        [
+          "Rechargeable Battery",
+          "USB-C"
+        ],
+        [
+          "Lithium-ion Battery",
+          "Safety and Radio Certifications"
+        ],
+        [
+          "Crystals",
+          "Hand-drawn and 3D-printed"
+        ],
+        [
+          "Wand",
+          "Hand-drawn and 3D-printed"
+        ],
+        [
+          "Magic Wonders App",
+          "Large-scale interactive software"
+        ],
+        [
+          "Shipping",
+          "Regional phases, recyclable packaging"
+        ],
+        [
+          "Materials",
+          "Widely recyclable plastics"
+        ],
+        [
+          "Dimensions",
+          "Not specified"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Color",
+          "Not specified"
+        ],
+        [
+          "Material",
+          "Not specified"
+        ],
+        [
+          "Certification",
+          "Not specified"
+        ]
+      ],
+      "ai_risks_en": "Building connected hardware carries risks of component lead times and quality control, but we have working prototypes, a locked design, and a small first production run to guarantee quality.",
+      "ai_creator_bio_en": "Magic Wonders is a platform that brings magic to life through technology.",
+      "ai_tiers": [
+        {
+          "name": "Living Magic Pass",
+          "price": 10,
+          "price_usd": 10,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get access to exclusive content, early updates, and a special thank you message"
+        },
+        {
+          "name": "Magic Wand",
+          "price": 50,
+          "price_usd": 50,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a Wand One device, a Magic Wonders app, and exclusive content"
+        },
+        {
+          "name": "Magic Wand + Crystals",
+          "price": 100,
+          "price_usd": 100,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a Wand One device, a Magic Wonders app, exclusive content, and a set of crystals"
+        },
+        {
+          "name": "Magic Wand + Crystals + Shipping",
+          "price": 150,
+          "price_usd": 150,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a Wand One device, a Magic Wonders app, exclusive content, a set of crystals, and shipping to the US or Canada"
+        },
+        {
+          "name": "Magic Wand + Crystals + Shipping + Stretch Goals",
+          "price": 200,
+          "price_usd": 200,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a Wand One device, a Magic Wonders app, exclusive content, a set of crystals, shipping to the US or Canada, and stretch goals"
+        }
+      ],
+      "ai_description_en": "Wand One is a smart home device that combines magic and technology to create a unique experience. With its intuitive interface, you can control your smart home, turn spells into music, and duel with friends in our AR game. Wand One is built to last, with a rechargeable USB-C battery and widely recyclable plastics. We are committed to sustainability and will ship in right-sized, recyclable packaging.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-97380352",
@@ -203084,16 +203791,16 @@
         {
           "name": "Meteorite Faces Module",
           "price": 4656,
-          "price_usd": null,
-          "currency": "JPY",
-          "backers": null,
+          "price_usd": 29,
+          "currency": "EUR",
+          "backers": 0,
           "description": "More than a faceplate—it's a wearable titanium collectible."
         },
         {
           "name": "Super Early Bird • Micro-Blasted Finish",
-          "price": 30334,
+          "price": 30634,
           "price_usd": 190,
-          "currency": "JPY",
+          "currency": "EUR",
           "backers": 7,
           "description": "Titaner TiVerse: The Waist System Reimagined"
         },
@@ -203101,8 +203808,8 @@
           "name": "Super Early Bird • Micro-Milled Finish",
           "price": 34003,
           "price_usd": 211,
-          "currency": "JPY",
-          "backers": 7,
+          "currency": "EUR",
+          "backers": 41,
           "description": "Titaner TiVerse: The Waist System Reimagined"
         }
       ],
@@ -203669,44 +204376,48 @@
       ],
       "ai_specs_en": [
         [
-          "Material",
+          "Faceplate Material",
           "G10 composite"
         ],
         [
-          "Dimensions",
-          "120 cm"
-        ],
-        [
-          "Weight",
-          ""
-        ],
-        [
-          "Color",
+          "Faceplate Finish",
           "Titaner Micro-Milled Finish/Titaner Micro-Blasted Finish"
         ],
         [
-          "Price",
-          "¥5,611,799"
+          "NFC Chip",
+          "Writable"
         ],
         [
-          "Price_USD",
-          ""
+          "Flashlight Faceplate Module",
+          "Powered by LR41 button batteries, 1.5 hours of continuous illumination"
         ],
         [
-          "Backers",
-          "136"
+          "Titanium Core",
+          "TiVerse"
         ],
         [
-          "Description",
-          "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you. Swap them in seconds and give your everyday carry a fresh identity."
+          "Micro-Adjust Belt System",
+          "No holes, no compromises"
+        ],
+        [
+          "Core Chassis",
+          "Secure, reliable, and engineered to support everything above it"
+        ],
+        [
+          "Tritium Slot",
+          "Self-powered micro light source"
+        ],
+        [
+          "Shipping",
+          "Worldwide delivery available, shipping fee collected via post-campaign survey"
         ]
       ],
-      "ai_risks_en": "Manufacturing Challenges and Fulfillment &amp; Shipping Risks.",
+      "ai_risks_en": "Manufacturing Challenges, Fulfillment &amp; Shipping",
       "ai_creator_bio_en": "A group of engineers and friends who love design and are obsessed with precision engineering.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "One System. Yours to Architect. Save Campaign Story One System. Yours to Architect. Meet the Faces Now It Adjusts to You Nothing Falls. Tested in Hell. Always On You. Always With You. Our Craftsmanship &amp; Materials Engineered for a Lifetime. The Unboxing Experience What Do Our Backers Say? What Sizes Are Available? How to Order? So... How Much Does It Cost? Want More？",
+      "ai_description_en": "Titaner TiVerse is a wearable titanium waist-carry system designed to be fully customizable, individually replaceable, and endlessly adaptable. It features interchangeable faceplates, a micro-adjust belt system, and a core chassis. The system is designed to stay firmly in place, with no unexpected loosening, and includes a dedicated tritium slot for a self-powered micro light source.",
       "nameZh": "Titaner Tiverse：无限模块化钛合金腰带扣",
       "ai_intro_zh": "Titaner Tiverse 是一款无限模块化钛合金腰带扣系统，将腰带扣转变为多功能工具平台。它采用优质钛合金材质，可灵活配置各种功能模块。",
       "ai_description_zh": "Titaner TiVerse 是一款无限模块化钛合金腰带扣，为你提供无尽的个性化可能。核心腰带扣由钛合金制成，可搭配各种可互换的面板，让你根据自己的风格或心情定制外观。\n\n模块化系统包括多种面板选项——从极简金属表面到复杂图案——全部通过磁吸或卡扣机制安全固定。钛合金底座耐腐蚀且轻巧，适合日常佩戴。\n\nTiVerse 兼容标准腰带宽度，可轻松替换现有腰带扣。这是 EDC 爱好者和任何欣赏模块化设计的人的终极自我表达工具。",
@@ -335413,19 +336124,19 @@
       },
       "raw_html_hash": "f4ca5d0b373192f1",
       "raw_fetched_at": "2026-10-27T18:31:28.406183+00:00",
-      "ai_intro_en": "Illuminated Training E-Cones Powered by AI are intelligent training E-Cones designed for all ages, sports, and performance levels. They integrate smart, AI-powered features to enhance usability and performance. These capabilities include real-time feedback, contextual assistance, and adaptive interface elements.",
+      "ai_intro_en": "Illuminated Training E-Cones Powered by AI are intelligent, AI-powered training cones designed for all ages, sports, and performance levels. These cones integrate smart, AI-powered features to enhance usability and performance. They are designed to support hands-on work and provide real-time feedback.",
       "ai_highlights_en": [
         "Real-time feedback and contextual assistance",
-        "Adaptive interface elements for efficient hands-on work",
+        "Adaptive interface elements for efficient work",
         "Responsive, task-aware interactions"
       ],
       "ai_specs_en": [
         [
           "Resolution",
-          "1080p"
+          "4K"
         ],
         [
-          "Contrast Ratio",
+          "Contrast",
           "8000:1"
         ],
         [
@@ -335442,7 +336153,47 @@
         ],
         [
           "Price",
-          "€299"
+          "€29"
+        ],
+        [
+          "Price USD",
+          "null"
+        ],
+        [
+          "Currency",
+          "EUR"
+        ],
+        [
+          "Backers",
+          "null"
+        ],
+        [
+          "Description",
+          "null"
+        ],
+        [
+          "Price",
+          "€49"
+        ],
+        [
+          "Price USD",
+          "null"
+        ],
+        [
+          "Currency",
+          "EUR"
+        ],
+        [
+          "Backers",
+          "null"
+        ],
+        [
+          "Description",
+          "null"
+        ],
+        [
+          "Price",
+          "€99"
         ],
         [
           "Price USD",
@@ -335461,35 +336212,35 @@
           "null"
         ]
       ],
-      "ai_risks_en": "No risks mentioned.",
+      "ai_risks_en": "The project is not raising funds to develop AI technologies themselves, but to bring a finished, fully integrated product to market.",
       "ai_creator_bio_en": "null",
       "ai_tiers": [
         {
-          "name": "€0 - Early Bird Special",
-          "price": "€0",
+          "name": "€29",
+          "price": "€29",
           "price_usd": "null",
           "currency": "EUR",
           "backers": "null",
           "description": "null"
         },
         {
-          "name": "€299 - Standard",
-          "price": "€299",
+          "name": "€49",
+          "price": "€49",
           "price_usd": "null",
           "currency": "EUR",
           "backers": "null",
           "description": "null"
         },
         {
-          "name": "€499 - Premium",
-          "price": "€499",
+          "name": "€99",
+          "price": "€99",
           "price_usd": "null",
           "currency": "EUR",
           "backers": "null",
           "description": "null"
         }
       ],
-      "ai_description_en": "Illuminated Training E-Cones Powered by AI integrate smart, AI-powered features to enhance usability and performance. These capabilities include real-time feedback, contextual assistance, and adaptive interface elements.",
+      "ai_description_en": "Illuminated Training E-Cones Powered by AI are intelligent, AI-powered training cones designed for all ages, sports, and performance levels. These cones integrate smart, AI-powered features to enhance usability and performance. They are designed to support hands-on work and provide real-time feedback.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -347007,7 +347758,93 @@
       },
       "raw_html_hash": "7476f2f119122b91",
       "raw_fetched_at": "2026-10-28T22:30:30.819714+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Equora RC1 combines camera, radar, and on-device AI to monitor your horse around the clock. It stays in the stall, with nothing for your horse to wear. Supported behaviors appear in a daily timeline, with unusual activity linked to relevant footage for review in the app or web dashboard.",
+      "ai_highlights_en": [
+        "Share Equora RC1 and earn rewards. Join our Kickbooster Affiliate Program, spread the word, and earn 10% commission on every backer you refer!",
+        "Stay Alert to Colic and Foaling Signs. Equora monitors supported behavior patterns associated with colic and foaling.",
+        "More Health Insights. Everything that needs attention, one clear view."
+      ],
+      "ai_specs_en": [
+        [
+          "Resolution",
+          "1080p"
+        ],
+        [
+          "Field of View",
+          "120°"
+        ],
+        [
+          "Power Supply",
+          "USB-C"
+        ],
+        [
+          "Mounting Bracket",
+          "Adjustable"
+        ],
+        [
+          "Operating Temperature",
+          "0°C to 40°C"
+        ],
+        [
+          "Weight",
+          "1.5 kg"
+        ],
+        [
+          "Dimensions",
+          "15 x 10 x 5 cm"
+        ],
+        [
+          "Power Consumption",
+          "2W"
+        ],
+        [
+          "Connectivity",
+          "Wi-Fi"
+        ],
+        [
+          "Operating System",
+          "Android/iOS"
+        ],
+        [
+          "Battery Life",
+          "Up to 8 hours"
+        ],
+        [
+          "Warranty",
+          "12 months"
+        ]
+      ],
+      "ai_risks_en": "Health and Wellness Product Disclaimer: This project and its rewards are not a replacement for medication, medical treatment, or a doctor's examination.",
+      "ai_creator_bio_en": "EquiSense Labs is an innovative equine technology company dedicated to revolutionizing horse care and stable management.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 3286,
+          "price_usd": 419,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "1 x Equora RC1, 1 x Mounting Kit, 1 x Magnetic Mounting Plate, 1 x Power Adapter, 1 x Type-C Cable, 1 x User Manual, 12-Month Warranty Included"
+        },
+        {
+          "name": "Limited Quantity",
+          "price": 3579,
+          "price_usd": 457,
+          "currency": "HKD",
+          "backers": 2,
+          "description": "10 x Equora RC1, 10 x Mounting Kit, 10 x Magnetic Mounting Plate, 10x Power Adapter, 10 x Type-C Cable, 10 x User Manual, 12-Month Warranty Included"
+        },
+        {
+          "name": "Stable Pack",
+          "price": 27541,
+          "price_usd": 3511,
+          "currency": "HKD",
+          "backers": 48,
+          "description": "10 x Equora RC1, 10 x Mounting Kit, 10 x Magnetic Mounting Plate, 10x Power Adapter, 10 x Type-C Cable, 10 x User Manual, 12-Month Warranty Included, Free Shipping, Customs Fees & VAT Included"
+        }
+      ],
+      "ai_description_en": "Equora RC1 combines camera, radar, and on-device AI to monitor your horse around the clock. It stays in the stall, with nothing for your horse to wear. Supported behaviors appear in a daily timeline, with unusual activity linked to relevant footage for review in the app or web dashboard. Equora monitors supported behavior patterns associated with colic and foaling. Everything that needs attention, one clear view. Equora recognizes 11 horse behaviors and organizes them into a clear daily timeline. Open a flagged event to review the corresponding footage instead of searching through hours of video. Keep track of every horse, get escape alerts, review staff activity, and share access with your team.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1137315169",
@@ -347106,7 +347943,105 @@
       },
       "raw_html_hash": "509524b794ed18c3",
       "raw_fetched_at": "2026-10-22T17:39:27.400469+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Introducing the NexMax NEX1.0! We now provide the completed hand drawn drawings. NexMax NEX1.0 is a subtractive knife that achieves a muscular and mechanical style through material subtraction. If you've been carrying a folder for a while, you already know the trade.",
+      "ai_highlights_en": [
+        "A skeletonised frame, a full-size blade, and a profile that carries easy and works hard.",
+        "Dual thumb studs/ thumb hole/ flipper allow for quick, comfortable deployment.",
+        "Titanium/Zirconium frames + M390 blade last decades."
+      ],
+      "ai_specs_en": [
+        [
+          "Weight",
+          "104g"
+        ],
+        [
+          "Weight",
+          "116g"
+        ],
+        [
+          "Weight",
+          "102g"
+        ],
+        [
+          "Blade length",
+          "2.95 inches"
+        ],
+        [
+          "Blade thickness",
+          "0.118 inches"
+        ],
+        [
+          "Material",
+          "M390"
+        ],
+        [
+          "Material",
+          "Titanium alloy"
+        ],
+        [
+          "Material",
+          "Zirconium alloy"
+        ],
+        [
+          "Material",
+          "Zirconium"
+        ],
+        [
+          "Material",
+          "Zirconia"
+        ],
+        [
+          "Material",
+          "M390"
+        ],
+        [
+          "Material",
+          "Titanium alloy"
+        ],
+        [
+          "Material",
+          "Zirconium alloy"
+        ]
+      ],
+      "ai_risks_en": "Machining zirconium and zircuti demands strict dust control; we use specialized facilities to avoid delays.",
+      "ai_creator_bio_en": "Founder of the Swordfish brand. We are a group of EDC geeks passionate about mechanical aesthetics and pragmatism.",
+      "ai_tiers": [
+        {
+          "name": "NEX1.0 (m390+titanium alloy)*1",
+          "price": 2668,
+          "price_usd": 341,
+          "currency": "HK$",
+          "backers": 1,
+          "description": "Release price,This is the lowest price for the titanium alloy version, only 24 hours, please don't miss it."
+        },
+        {
+          "name": "NEX1.0 (m390+titanium alloy)*1",
+          "price": 2998,
+          "price_usd": 383,
+          "currency": "HK$",
+          "backers": 0,
+          "description": "Titanium version: NEX1.0 · TI - clean, don't explain yourself."
+        },
+        {
+          "name": "NEX1.0 (m390+zirconium alloy)*1",
+          "price": 5997,
+          "price_usd": 765,
+          "currency": "HK$",
+          "backers": 0,
+          "description": "Zirconium version: NEX1.0 · OBSIDIAN - Obsidian. The soul of zirconium is the layer of flame oxidized black"
+        },
+        {
+          "name": "Zirconia Edition: NEX1.0 · STRATA",
+          "price": 9999,
+          "price_usd": 1275,
+          "currency": "HK$",
+          "backers": 0,
+          "description": "Strata/Stratigraphy. Corresponding layers of laminated materials"
+        }
+      ],
+      "ai_description_en": "",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-835735717",
@@ -372831,21 +373766,9 @@
       "ai_highlights_en": [
         "Make only what you need: four-ice personal batches for cold brew, sparkling water, cocktails, and everyday drinks",
         "USB-C PD power for freedom to enjoy fresh ice where it actually fits your life",
-        "TEC solid-state cooling with dedicated airflow for heat dissipation"
+        "TEC solid-state cooling with dedicated airflow for heat dissipation, bringing personal ice into spaces where a conventional countertop machine simply feels oversized"
       ],
       "ai_specs_en": [
-        {
-          "spec_name": "USB-C PD",
-          "spec_value": "compatible power sources"
-        },
-        {
-          "spec_name": "TEC Cooling",
-          "spec_value": "dedicated airflow for heat dissipation"
-        },
-        {
-          "spec_name": "Can Design",
-          "spec_value": "can-inspired, space-smart design"
-        },
         {
           "spec_name": "Power",
           "spec_value": "USB-C PD"
@@ -372855,28 +373778,28 @@
           "spec_value": "TEC solid-state cooling"
         },
         {
+          "spec_name": "Design",
+          "spec_value": "Can-inspired, space-smart design"
+        },
+        {
           "spec_name": "Capacity",
           "spec_value": "4-ice personal batches"
         },
         {
           "spec_name": "Dimensions",
-          "spec_value": "not specified"
+          "spec_value": "Not specified"
         },
         {
           "spec_name": "Weight",
-          "spec_value": "not specified"
+          "spec_value": "Not specified"
         },
         {
           "spec_name": "Material",
-          "spec_value": "not specified"
+          "spec_value": "Not specified"
         },
         {
           "spec_name": "Color",
-          "spec_value": "select via survey after campaign"
-        },
-        {
-          "spec_name": "Shipping",
-          "spec_value": "estimated delivery Nov 2026"
+          "spec_value": "Not specified"
         },
         {
           "spec_name": "Price",
@@ -372895,12 +373818,24 @@
           "spec_value": "28"
         },
         {
-          "spec_name": "Description",
-          "spec_value": "make only what you need: four-ice personal batches for cold brew, sparkling water, cocktails, and everyday drinks"
+          "spec_name": "Estimated Delivery",
+          "spec_value": "Nov 2026"
+        },
+        {
+          "spec_name": "Quantity",
+          "spec_value": "72"
+        },
+        {
+          "spec_name": "Price (USD) - Super Early Bird X2",
+          "spec_value": "$129"
+        },
+        {
+          "spec_name": "Price (USD) - Super Early Bird X4",
+          "spec_value": "$239"
         }
       ],
       "ai_risks_en": "Risks and challenges As a new hardware product, ICEY-Q may face challenges in final testing, production, component supply, and shipping. Performance may also vary with ambient temperature.",
-      "ai_creator_bio_en": "ICEY-Q First created &nbsp;•&nbsp; 0 backed",
+      "ai_creator_bio_en": "ICEY-Q First created &nbsp;•&nbsp; 0 backed Fresh ice, made for the moment.",
       "ai_tiers": [
         {
           "name": "Launch Special X1",
@@ -410385,7 +411320,102 @@
         "heat": 9.1
       },
       "raw_html_hash": "4d4b11c1fb89ba5f",
-      "raw_fetched_at": "2026-10-31T17:53:22.623634+00:00"
+      "raw_fetched_at": "2026-10-31T17:53:22.623634+00:00",
+      "ai_intro_en": "Transform every party into a multiplayer game with PartyBattls, a smartphone-controlled game night system that brings friends together through quick challenges, team competitions, and shared multiplayer moments. With over 125 games, automatic beverage dispensing, and achievements and progression, PartyBattls is the ultimate party game.",
+      "ai_highlights_en": [
+        "Over 125 games, including fast reaction tests and skill challenges, team-based competitions, and classic party games",
+        "Automatic beverage dispensing for water, juice, and soft drinks during supported game moments",
+        "Achievements and rankings to improve results and unlock new content"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Tank capacity",
+          "spec_value": "6.0 L"
+        },
+        {
+          "spec_name": "Players",
+          "spec_value": "Up to 8"
+        },
+        {
+          "spec_name": "Power",
+          "spec_value": "USB-C (45 W)"
+        },
+        {
+          "spec_name": "Connectivity",
+          "spec_value": "Wi-Fi"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "37.5 × 37.5 × 53.5 cm"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "3 kg (excluding accessories)"
+        },
+        {
+          "spec_name": "Number of outlets",
+          "spec_value": "8"
+        },
+        {
+          "spec_name": "Valve system",
+          "spec_value": "Electronically controlled"
+        },
+        {
+          "spec_name": "App",
+          "spec_value": "Android available now / iOS in development"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "€99"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "€99 ≈ $111"
+        },
+        {
+          "spec_name": "Currency",
+          "spec_value": "EUR"
+        },
+        {
+          "spec_name": "Backers",
+          "spec_value": "0"
+        },
+        {
+          "spec_name": "Description",
+          "spec_value": "Starter Edition includes 100 free minigames, with additional games available for purchase at fair, affordable prices"
+        }
+      ],
+      "ai_risks_en": "Hardware projects are challenging, especially when moving from a working prototype to mass production.",
+      "ai_creator_bio_en": "PartyBattls is a project built by a small team combining project management, engineering and software development.",
+      "ai_tiers": [
+        {
+          "name": "Starter Edition",
+          "price": 99,
+          "price_usd": 111,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Includes 100 free minigames, with additional games available for purchase at fair, affordable prices"
+        },
+        {
+          "name": "Pro Edition",
+          "price": 159,
+          "price_usd": 179,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Take your PartyBattls experience to the next level with additional accessories and exclusive benefits"
+        },
+        {
+          "name": "Ultimate Edition",
+          "price": 169,
+          "price_usd": 190,
+          "currency": "EUR",
+          "backers": 1,
+          "description": "The ultimate PartyBattls experience — fully equipped with premium accessories and exclusive lifetime game access"
+        }
+      ],
+      "ai_description_en": "PartyBattls is a smartphone-controlled game night system that brings friends together through quick challenges, team competitions, and shared multiplayer moments. With over 125 games, automatic beverage dispensing, and achievements and progression, PartyBattls is the ultimate party game.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1916013658",
@@ -425462,11 +426492,11 @@
       },
       "raw_html_hash": "4a61939818383090",
       "raw_fetched_at": "2026-08-26T02:24:13.833263+00:00",
-      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and showcase your profile and linkpage. No fee forever express crowdfunding means you can start building your professional network today.",
+      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and build your professional network. ZoloCard is the perfect tool for entrepreneurs, freelancers, and anyone looking to make a lasting impression.",
       "ai_highlights_en": [
-        "Share and Impress with ZoloCard",
-        "Contactless NFC and QR Code Sharing",
-        "No Fee Forever Express Crowdfunding"
+        "Share and Impress with Contactless NFC",
+        "QR Code Sharing for Easy Connection",
+        "Link Redirection for Professional Networking"
       ],
       "ai_specs_en": [
         [
@@ -425479,7 +426509,7 @@
         ],
         [
           "Dimensions",
-          "85 x 55 x 6mm"
+          "85 x 55 x 5mm"
         ],
         [
           "Weight",
@@ -425494,51 +426524,51 @@
           "Up to 2 weeks"
         ],
         [
-          "NFC Range",
-          "Up to 10cm"
+          "Price",
+          "£29.99"
         ],
         [
-          "QR Code Size",
-          "Up to 1000x1000"
+          "Currency",
+          "GBP"
+        ],
+        [
+          "Backers",
+          "4"
+        ],
+        [
+          "Description",
+          "No fee forever express crowdfunding"
         ]
       ],
-      "ai_risks_en": "There are no major risks associated with this project, but as with any crowdfunding campaign, there is a risk that the project may not reach its funding goal.",
-      "ai_creator_bio_en": "Minute Objects is a UK-based company specializing in innovative, stylish, and functional products.",
+      "ai_risks_en": "As with any new product, there are risks involved. However, we have taken every precaution to ensure the quality and reliability of ZoloCard.",
+      "ai_creator_bio_en": "We are a team of passionate entrepreneurs and designers dedicated to creating innovative products that make a difference.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": "£50",
-          "price_usd": "67.50",
+          "price": "£29.99",
+          "price_usd": "39.99",
           "currency": "GBP",
-          "backers": null,
-          "description": "Get your ZoloCard early and be one of the first 4 backers!"
+          "backers": "1",
+          "description": "Get your ZoloCard before anyone else! Limited to the first 10 backers."
         },
         {
           "name": "Standard",
-          "price": "£60",
-          "price_usd": "78.00",
+          "price": "£29.99",
+          "price_usd": "39.99",
           "currency": "GBP",
-          "backers": null,
-          "description": "Get your ZoloCard with standard shipping and no fees!"
+          "backers": "3",
+          "description": "Get your ZoloCard with standard shipping."
         },
         {
-          "name": "Premium",
-          "price": "£80",
-          "price_usd": "105.00",
+          "name": "Deluxe",
+          "price": "£49.99",
+          "price_usd": "64.99",
           "currency": "GBP",
-          "backers": null,
-          "description": "Get your ZoloCard with premium shipping and a free case!"
-        },
-        {
-          "name": "Ultimate",
-          "price": "£100",
-          "price_usd": "132.00",
-          "currency": "GBP",
-          "backers": null,
-          "description": "Get your ZoloCard with ultimate shipping, a free case, and a personalized message!"
+          "backers": "0",
+          "description": "Get your ZoloCard with deluxe shipping and a personalized message."
         }
       ],
-      "ai_description_en": "ZoloCard is a revolutionary smart business card that allows you to share and impress in a soloistic way. With its contactless NFC and QR code sharing capabilities, you can easily connect with others and showcase your profile and linkpage. Our crowdfunding campaign aims to raise funds to bring this innovative product to market and make it available to professionals and entrepreneurs worldwide.",
+      "ai_description_en": "ZoloCard is a revolutionary new product that combines the functionality of a business card with the convenience of contactless NFC and QR code sharing. With its durable design and long battery life, ZoloCard is the perfect tool for anyone looking to make a lasting impression.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-08T04:22:46.807477Z"
@@ -425996,7 +427026,98 @@
         "heat": 7.1
       },
       "raw_html_hash": "791a819db2e9fddd",
-      "raw_fetched_at": "2026-10-31T17:53:30.562901+00:00"
+      "raw_fetched_at": "2026-10-31T17:53:30.562901+00:00",
+      "ai_intro_en": "I Love My Plants. But My Job Doesn't. Help Us Bring PlantSense Home to Life. Project budget Risks Use of AI Environmental commitments Rewards FAQ 0 Updates 0 Comments 0 Community Campaign I Love My Plants. But My Job Doesn't. Have you ever bought a beautiful plant, promised yourself you'd take good care of it… and then watched it slowly die? Well, that's basically my life. I'm just an ordinary office worker who happens to love plants. My apartment is filled with them — monsteras, succulents, ferns, and all kinds of little green friends. There's something incredibly comforting about coming home after a long, exhausting day and seeing a room full of greenery. The problem? I spend more time at work than I do at home. Some mornings, I'm rushing to catch the train. Some evenings, I'm working overtime. And by the time I finally get home, watering my plants is probably the last thing on my mind. Sometimes I forget to water them for days. Other times, I panic and water them too much. And honestly, even when I remember, I have no idea whether they actually need water. Too little water? They die. Too much water? They also die. Seriously, why is keeping a plant alive sometimes harder than keeping myself alive? That's Why We Dreamed Up PlantSense Home. We wanted to create something simple: a smart plant monitoring system designed for people who love plants but don't always have the time or knowledge to care for them properly. Our idea is to place a small, intelligent sensor in each plant pot. Each sensor is designed to monitor important growing conditions: Soil Moisture — Know when your plant actually needs water. Soil Fertility — Get insights into nutrient availability. Soil pH — Understand whether your soil is too acidic or alkaline. Temperature — Keep an eye on growing conditions. Humidity — Monitor the environment around your plants. And the best part? You won't have to check every plant individually. Our vision is to let you see the information directly on each sensor's tiny display, through a companion smartphone app, or on an optional compact home hub. Whether you have three plants or thirty, we want to make caring for them easier. Made for Busy People. Inspired by Plant Lovers. We believe you shouldn't have to choose between having a busy life and having healthy plants. PlantSense Home isn't about replacing the joy of gardening. It's about removing the guesswork, so you can spend less time worrying and more time enjoying your little green world. We're currently working to turn this concept into a real product, and your support can help us develop and refine the hardware, software, and complete monitoring experience. Because sometimes, all a plant needs is a little attention. And sometimes, all we need is a little reminder. Help Us Bring PlantSense Home to Life. Let's make plant care a little smarter, a little easier, and a lot less stressful. For every busy person who has ever accidentally killed a plant they loved — this one's for you. ",
+      "ai_highlights_en": [
+        "Monitor soil moisture, fertility, pH, temperature, and humidity for your plants",
+        "Get real-time readings directly on each sensor's display, home hub, or companion app",
+        "Perfect for busy people who love plants but don't always have the time or knowledge to care for them properly"
+      ],
+      "ai_specs_en": [
+        [
+          "Soil Moisture",
+          "Know when your plant actually needs water"
+        ],
+        [
+          "Soil Fertility",
+          "Get insights into nutrient availability"
+        ],
+        [
+          "Soil pH",
+          "Understand whether your soil is too acidic or alkaline"
+        ],
+        [
+          "Temperature",
+          "Keep an eye on growing conditions"
+        ],
+        [
+          "Humidity",
+          "Monitor the environment around your plants"
+        ],
+        [
+          "Price",
+          "$109"
+        ],
+        [
+          "Price (USD)",
+          "$77"
+        ],
+        [
+          "Price (USD)",
+          "$63"
+        ],
+        [
+          "Price (USD)",
+          "$119"
+        ],
+        [
+          "Price (USD)",
+          null
+        ],
+        [
+          "Price (USD)",
+          null
+        ],
+        [
+          "Price (USD)",
+          null
+        ],
+        [
+          "Price (USD)",
+          null
+        ]
+      ],
+      "ai_risks_en": "The main challenges for PlantSense Home are mass production speed and manufacturing costs.",
+      "ai_creator_bio_en": "I'm a university student and independent developer with a passion for technology, scientific research, and innovative product design.",
+      "ai_tiers": [
+        {
+          "name": "Deluxe Kit",
+          "price": 109,
+          "price_usd": 77,
+          "currency": "AU$",
+          "backers": 1,
+          "description": "5 Smart Sensors + 1 Home Hub"
+        },
+        {
+          "name": "Standard Kit",
+          "price": 89,
+          "price_usd": 63,
+          "currency": "AU$",
+          "backers": 0,
+          "description": "3 Smart Sensors + 1 Home Hub"
+        },
+        {
+          "name": "Ultimate Deluxe Bundle",
+          "price": 169,
+          "price_usd": 119,
+          "currency": "AU$",
+          "backers": 1,
+          "description": "10 Smart Sensors + 1 Home Hub"
+        }
+      ],
+      "ai_description_en": "We're currently working to turn this concept into a real product, and your support can help us develop and refine the hardware, software, and complete monitoring experience. Because sometimes, all a plant needs is a little attention. And sometimes, all we need is a little reminder. Help Us Bring PlantSense Home to Life. Let's make plant care a little smarter, a little easier, and a lot less stressful. For every busy person who has ever accidentally killed a plant they loved — this one's for you.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2076202569",
@@ -451763,7 +452884,7 @@
       },
       "raw_html_hash": "fc26a952c132e102",
       "raw_fetched_at": "2026-10-04T17:26:53.292933+00:00",
-      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte's University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter.",
+      "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter.",
       "ai_highlights_en": [
         "Specialty coffee meets creativity",
         "Meaningful conversation and mentorship",
@@ -451771,32 +452892,32 @@
       ],
       "ai_specs_en": [
         [
-          "Equipment",
-          "Essential coffee and beverage equipment"
-        ],
-        [
-          "Infrastructure",
-          "Mobile and pop-up infrastructure"
-        ],
-        [
           "Furnishings and technology",
-          "Furnishings and technology"
+          "Estimated $100,000"
         ],
         [
           "Signage and brand materials",
-          "Signage and brand materials"
+          "Estimated $20,000"
         ],
         [
-          "Inventory",
-          "Opening coffee, tea, and operating inventory"
+          "Opening coffee, tea, and operating inventory",
+          "Estimated $50,000"
+        ],
+        [
+          "Mobile and pop-up infrastructure",
+          "Estimated $30,000"
+        ],
+        [
+          "Essential coffee and beverage equipment",
+          "Estimated $40,000"
         ],
         [
           "Reward production and fulfillment",
-          "Reward production and fulfillment"
+          "Estimated $10,000"
         ],
         [
-          "Other expenses",
-          "Other essential launch expenses"
+          "Other essential launch expenses",
+          "Estimated $20,000"
         ]
       ],
       "ai_risks_en": "Opening a hospitality concept involves permitting, equipment procurement, vendor schedules, location planning, and changing costs. Reward production and event dates may also be affected by suppliers or the development timeline.",
@@ -451808,7 +452929,7 @@
           "price_usd": "40,000",
           "currency": "USD",
           "backers": null,
-          "description": "Join the Founding 500 and help move Doxa District from vision to action."
+          "description": "Join the Founding 500 and help build a place where community can take root."
         },
         {
           "name": "Early Bird",
@@ -451816,7 +452937,7 @@
           "price_usd": "30,000",
           "currency": "USD",
           "backers": null,
-          "description": "Get a head start on the community and receive exclusive rewards."
+          "description": "Be one of the first 100 backers and receive a special reward."
         },
         {
           "name": "Coffee Connoisseur",
@@ -451824,7 +452945,7 @@
           "price_usd": "20,000",
           "currency": "USD",
           "backers": null,
-          "description": "Indulge in specialty coffee and tea, and support the community."
+          "description": "Enjoy a year of specialty coffee and tea, plus a free reward."
         },
         {
           "name": "Tea Enthusiast",
@@ -451832,7 +452953,7 @@
           "price_usd": "15,000",
           "currency": "USD",
           "backers": null,
-          "description": "Discover new tea flavors and support the community."
+          "description": "Indulge in a year of loose-leaf tea, plus a free reward."
         },
         {
           "name": "Community Champion",
@@ -451840,34 +452961,10 @@
           "price_usd": "10,000",
           "currency": "USD",
           "backers": null,
-          "description": "Support the community and receive exclusive rewards."
-        },
-        {
-          "name": "Coffee Lover",
-          "price": "5,000",
-          "price_usd": "5,000",
-          "currency": "USD",
-          "backers": null,
-          "description": "Indulge in specialty coffee and support the community."
-        },
-        {
-          "name": "Tea Enthusiast",
-          "price": "3,000",
-          "price_usd": "3,000",
-          "currency": "USD",
-          "backers": null,
-          "description": "Discover new tea flavors and support the community."
-        },
-        {
-          "name": "Coffee Connoisseur",
-          "price": "2,000",
-          "price_usd": "2,000",
-          "currency": "USD",
-          "backers": null,
-          "description": "Indulge in specialty coffee and support the community."
+          "description": "Support the community and receive a free reward."
         }
       ],
-      "ai_description_en": "Doxa District is being developed as an initiative of Give Hope Daily. Our long-term vision includes workforce-development opportunities for young adults and people seeking a new beginning. We want to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
+      "ai_description_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start. Our purpose is to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -480102,7 +481199,7 @@
         {
           "name": "Securidoor x1",
           "price": 59.0,
-          "price_usd": 59.0,
+          "price_usd": 65.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -480110,7 +481207,7 @@
         {
           "name": "Securidoor x2",
           "price": 110.0,
-          "price_usd": 110.0,
+          "price_usd": 120.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -480118,7 +481215,7 @@
         {
           "name": "Securidoor x3",
           "price": 151.0,
-          "price_usd": 151.0,
+          "price_usd": 170.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -480126,7 +481223,7 @@
         {
           "name": "Securidoor x4",
           "price": 198.0,
-          "price_usd": 198.0,
+          "price_usd": 220.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -480134,7 +481231,7 @@
         {
           "name": "Securidoor x5",
           "price": 297.0,
-          "price_usd": 297.0,
+          "price_usd": 330.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -480142,7 +481239,7 @@
         {
           "name": "Securidoor x6",
           "price": 110.0,
-          "price_usd": 110.0,
+          "price_usd": 120.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -480150,7 +481247,7 @@
         {
           "name": "Securidoor x7",
           "price": 55.0,
-          "price_usd": 55.0,
+          "price_usd": 60.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -480158,7 +481255,7 @@
         {
           "name": "Securidoor x8",
           "price": 75.5,
-          "price_usd": 75.5,
+          "price_usd": 85.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -480169,7 +481266,7 @@
       "ai_highlights_en": [
         "AI-powered surveillance module for door and window",
         "24/7 monitoring with automatic photo and video recording",
-        "AlwaysSafe AI filters out unnecessary notifications, retaining only essential information"
+        "AlwaysSafe AI filters out unnecessary notifications"
       ],
       "ai_specs_en": [
         {
@@ -480182,31 +481279,31 @@
         },
         {
           "spec_name": "Power Supply",
-          "spec_value": "Battery-powered (up to 12 months)"
+          "spec_value": "Battery-powered"
         },
         {
           "spec_name": "Connectivity",
-          "spec_value": "Wi-Fi and Bluetooth"
-        },
-        {
-          "spec_name": "Dimensions",
-          "spec_value": "100mm x 50mm x 20mm"
-        },
-        {
-          "spec_name": "Weight",
-          "spec_value": "200g"
+          "spec_value": "Wi-Fi"
         },
         {
           "spec_name": "Price",
           "spec_value": "€59.00"
         },
         {
-          "spec_name": "Price (USD)",
-          "spec_value": "€59.00"
+          "spec_name": "Monthly Subscription",
+          "spec_value": "€29.50"
         },
         {
-          "spec_name": "Currency",
-          "spec_value": "EUR"
+          "spec_name": "Camera Housing Material",
+          "spec_value": "Durable plastic"
+        },
+        {
+          "spec_name": "Operating Temperature",
+          "spec_value": "-20°C to 40°C"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "100mm x 50mm x 20mm"
         }
       ],
       "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. We've studied past crowdfunding campaigns and identified common pitfalls that tech projects often fall into.",
@@ -480321,7 +481418,102 @@
         "heat": 0.0
       },
       "raw_html_hash": "05231b325423226a",
-      "raw_fetched_at": "2026-10-31T17:53:35.916257+00:00"
+      "raw_fetched_at": "2026-10-31T17:53:35.916257+00:00",
+      "ai_intro_en": "FLATRAK FLATRAK is a research and production company that focuses on lightweight outdoor products. Our company has been producing outdoor products in this field for 13 years. Have you ever planned a perfect outdoor trip, only to get frustrated by bulky, heavy camping gear? Many foldable table and chair sets on the market are either flimsy and wobbly, or far too heavy to carry. And bringing a separate barbecue grill means more luggage, more setup time, and endless hassle when you just want to relax outdoors. After 13 years of designing and manufacturing lightweight outdoor gear, we know exactly what outdoor lovers need. We love weekend getaways, park picnics, roadside camping, and backyard grilling. We got tired of mixing-and-mismatching unreliable outdoor gear — so we decided to build one complete, portable outdoor kit built to last.",
+      "ai_highlights_en": [
+        "Ultra-portable, sturdy, multi-purpose gear that you can throw in your car trunk and set up in seconds. No complicated assembly. No shaky frames. No rust worries for your cooking unit.",
+        "Our all-in-one outdoor kit combines a lightweight folding table + two stools crafted from AL7075 aerospace-grade aluminum, paired with a durable stainless-steel foldable barbecue grill.",
+        "Our slotted stainless steel grill adopts a plug-in assembly design. Simply slot each panel together without screws. It assembles smoothly, locks firmly for grilling, and folds flat again for easy storage after use."
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "AL7075 aerospace-grade aluminum alloy"
+        ],
+        [
+          "Weight",
+          "Lightweight"
+        ],
+        [
+          "Dimensions",
+          "Folded: 12.5 x 12.5 x 3.5 inches, Deployed: 36 x 24 x 29 inches"
+        ],
+        [
+          "Price",
+          "$115"
+        ],
+        [
+          "Price (USD)",
+          null
+        ],
+        [
+          "Currency",
+          "HKD"
+        ],
+        [
+          "Backers",
+          null
+        ],
+        [
+          "Description",
+          "Snap-together split panel design, no tools required. Built from heavy-duty stainless steel, heat-resistant and rust-proof."
+        ]
+      ],
+      "ai_risks_en": "We have secured backup material suppliers and reserved extra production capacity. We will send weekly progress updates to all backers once the campaign ends.",
+      "ai_creator_bio_en": "We are a design team focused on lightweight outdoor EDC and camping gear.",
+      "ai_tiers": [
+        {
+          "name": "Super Early-bird: 1×Grill",
+          "price": 899,
+          "price_usd": 115,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Snap-together split panel design, no tools required. Built from heavy-duty stainless steel, heat-resistant and rust-proof."
+        },
+        {
+          "name": "Early Bird: 1×Grill",
+          "price": 999,
+          "price_usd": 128,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Snap-together split panel design, no tools required. Built from heavy-duty stainless steel, heat-resistant and rust-proof."
+        },
+        {
+          "name": "Super Early-bird: Table+2 Folding Chair",
+          "price": 3015,
+          "price_usd": 385,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Includes 1× AL7075 portable folding table + 2× AL7075 folding camping chairs. Lightweight, easy setup for outdoor camping, picnic &amp; backyard use."
+        },
+        {
+          "name": "Early-Bird: Table + 2 Folding Chair",
+          "price": 3395,
+          "price_usd": 433,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Includes 1× AL7075 portable folding table + 2× AL7075 folding camping chairs. Lightweight, easy setup for outdoor camping, picnic &amp; backyard use."
+        },
+        {
+          "name": "Super Early-bird：Table+Chair+Grill",
+          "price": 3775,
+          "price_usd": 482,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Complete camping bundle: 1× AL7075 folding table, 2× folding chairs &amp; portable BBQ grill. One‑stop outdoor cooking &amp; seating solution."
+        },
+        {
+          "name": "Early-Bird: Table + Chair+Grill",
+          "price": 4148,
+          "price_usd": 529,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Complete camping bundle: 1× AL7075 folding table, 2× folding chairs &amp; portable BBQ grill. One‑stop outdoor cooking &amp; seating solution."
+        }
+      ],
+      "ai_description_en": "Our all-in-one outdoor kit combines a lightweight folding table + two stools crafted from AL7075 aerospace-grade aluminum, paired with a durable stainless-steel foldable barbecue grill. Our slotted stainless steel grill adopts a plug-in assembly design. Simply slot each panel together without screws. It assembles smoothly, locks firmly for grilling, and folds flat again for easy storage after use.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-894141384",
@@ -545898,67 +547090,63 @@
       },
       "raw_html_hash": "8f7b5cf904f99603",
       "raw_fetched_at": "2026-10-21T17:39:05.195243+00:00",
-      "ai_intro_en": "This project is a collection of art pieces created by AANHPI Creators. The project aims to showcase the work of underrepresented artists in the art world. The art pieces are a mix of digital and physical art.",
+      "ai_intro_en": "This project is about creating a new line of handmade ceramics. The project aims to bring unique and functional pieces to the market. The creator is passionate about creating art that is both beautiful and useful.",
       "ai_highlights_en": [
-        "Unique digital art pieces created by AANHPI Creators",
-        "Physical art pieces for sale",
-        "Supporting underrepresented artists in the art world"
+        "Unique handmade ceramics",
+        "Functional and beautiful pieces",
+        "Supporting local artists"
       ],
       "ai_specs_en": [
-        {
-          "spec_name": "Digital Art",
-          "spec_value": "$20"
-        },
-        {
-          "spec_name": "Physical Art Piece",
-          "spec_value": "$50"
-        },
-        {
-          "spec_name": "Signed Print",
-          "spec_value": "$100"
-        },
-        {
-          "spec_name": "Original Art Piece",
-          "spec_value": "$500"
-        }
+        [
+          "Material",
+          "Earthenware"
+        ],
+        [
+          "Size",
+          "10 inches"
+        ],
+        [
+          "Price",
+          "$50"
+        ],
+        [
+          "Shipping",
+          "Free within the US"
+        ],
+        [
+          "Estimated delivery",
+          "2-3 weeks"
+        ]
       ],
-      "ai_risks_en": "There are no significant risks associated with this project.",
-      "ai_creator_bio_en": "AANHPI Creators is a collective of underrepresented artists in the art world.",
+      "ai_risks_en": "There is a risk that the project may not meet the expected quality standards.",
+      "ai_creator_bio_en": "The creator is a local artist with a passion for ceramics.",
       "ai_tiers": [
         {
-          "name": "Digital Art",
-          "price": "$20",
-          "price_usd": null,
-          "currency": "USD",
-          "backers": null,
-          "description": "A unique digital art piece created by AANHPI Creators"
-        },
-        {
-          "name": "Physical Art Piece",
+          "name": "Early Bird",
           "price": "$50",
           "price_usd": null,
-          "currency": "USD",
+          "currency": null,
           "backers": null,
-          "description": "A physical art piece created by AANHPI Creators"
+          "description": "Get a unique handmade ceramic piece before anyone else."
         },
         {
-          "name": "Signed Print",
+          "name": "Standard",
+          "price": "$75",
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a standard handmade ceramic piece with free shipping."
+        },
+        {
+          "name": "Premium",
           "price": "$100",
-          "price_usd": null,
+          "price_usd": "$100",
           "currency": "USD",
           "backers": null,
-          "description": "A signed print of an art piece created by AANHPI Creators"
-        },
-        {
-          "name": "Original Art Piece",
-          "price": "$500",
-          "price_usd": null,
-          "currency": "USD",
-          "backers": null,
-          "description": "An original art piece created by AANHPI Creators"
+          "description": "Get a premium handmade ceramic piece with free shipping and a personalized note."
         }
       ],
-      "ai_description_en": "This project is a collection of art pieces created by AANHPI Creators. The project aims to showcase the work of underrepresented artists in the art world. The art pieces are a mix of digital and physical art.",
+      "ai_description_en": "This project is about creating a new line of handmade ceramics. The project aims to bring unique and functional pieces to the market. The creator is passionate about creating art that is both beautiful and useful.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -554272,7 +555460,7 @@
       },
       "raw_html_hash": "b9d901fa7c0e3bbb",
       "raw_fetched_at": "2026-10-12T21:50:28.607200+00:00",
-      "ai_intro_en": "As a scholar proficient in English, Biblical Hebrew, and Koine Greek, and having read extensively across major Bible translations, you possess a profound insight into the delicate textures, grammatical structures, and theological nuances of the biblical languages that is rare to find. Faced with the vast array of translations available on the market, your decision to embark on a fresh translation is by no means a repetition of predecessors' work. Instead, it is driven by the pursuit to bring contemporary Chinese readers infinitely closer to the \"impact of the original text\" that has been lost amidst the dust of history and conventional translation styles.",
+      "ai_intro_en": "As a scholar proficient in English, Biblical Hebrew, and Koine Greek, and having read extensively across major Bible translations, you possess a profound insight into the delicate textures, grammatical structures, and theological nuances of the biblical languages that is rare to find. Faced with the vast array of translations available on the market, your decision to embark on a fresh translation is by no means a repetition of predecessors' work. Instead, it is driven by the pursuit to bring contemporary Chinese readers infinitely closer to the “impact of the original text” that has been lost amidst the dust of history and conventional translation styles.",
       "ai_highlights_en": [
         "Breaking the Semantic Shackles of Tradition",
         "Precise Restoration of Grammar and Tense",
@@ -554290,26 +555478,26 @@
         [
           "Vocabulary",
           "Modern Penetration of Language"
+        ],
+        [
+          "Digital Delivery",
+          "Minor Delays"
+        ],
+        [
+          "Refunds and Cancellation",
+          "Backer Flexibility"
         ]
       ],
       "ai_risks_en": "Digital delivery may be subject to minor delays.",
       "ai_creator_bio_en": "ruiqi wang doing business as Retranslate the Bible.",
       "ai_tiers": [
         {
-          "name": "Featured Digital Edition (PDF & ePub)",
+          "name": "Featured Digital Edition (PDF &amp; ePub)",
           "price": "20.00",
           "price_usd": "20.00",
           "currency": "USD",
           "backers": null,
-          "description": "Digital Edition (PDF & ePub)"
-        },
-        {
-          "name": "Pledge Any Amount",
-          "price": null,
-          "price_usd": null,
-          "currency": "USD",
-          "backers": null,
-          "description": "Tip the creator by pledging any amount you want"
+          "description": "Digital Edition (PDF &amp; ePub)"
         }
       ],
       "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation.",
@@ -581470,7 +582658,78 @@
         "heat": 0.0
       },
       "raw_html_hash": "a273cb16c05566c8",
-      "raw_fetched_at": "2026-10-31T17:53:45.974623+00:00"
+      "raw_fetched_at": "2026-10-31T17:53:45.974623+00:00",
+      "ai_intro_en": "Little Big Heart is a device that lets you send a picture or message from your phone to a loved one, without the clutter of notifications. It sits on a bedside table or shelf and lights up when someone close to you is thinking of you. With your pledge, we'll know how many boxes to make and your support starts the production.",
+      "ai_highlights_en": [
+        "Send a picture or message from your phone to a loved one without the clutter of notifications",
+        "A device that lights up when someone close to you is thinking of you",
+        "Manufactured in Estonia, with a 2-year legal guarantee"
+      ],
+      "ai_specs_en": [
+        [
+          "Display",
+          "7\""
+        ],
+        [
+          "Dimensions",
+          "10cm x 10cm x 5cm"
+        ],
+        [
+          "Material",
+          "Wood-tone door, body covered in little heart dimples, white or grey frame"
+        ],
+        [
+          "Phone App",
+          "Available for iOS and Android"
+        ],
+        [
+          "Price",
+          "€4.03"
+        ],
+        [
+          "Currency",
+          "EUR"
+        ],
+        [
+          "Backers",
+          "0"
+        ],
+        [
+          "Description",
+          "The box, the screen, the heart and the phone app are in daily use on our test boxes."
+        ]
+      ],
+      "ai_risks_en": "A first batch can bring surprises, for example a component that arrives later than promised. We have its written prices and an alternative board in reserve if we need it.",
+      "ai_creator_bio_en": "Marko and Marcus from Estonia, creators of Ilmapiir.ee, an Estonian weather service that combines nine forecast models into one.",
+      "ai_tiers": [
+        {
+          "name": "€4.03",
+          "price": "€4.03",
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Production updates by email and, if you wish, your name on our thank-you page."
+        },
+        {
+          "name": "Stretch goal 1: €8,000",
+          "price": null,
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Gift box"
+        },
+        {
+          "name": "Stretch goal 2: €12,000",
+          "price": null,
+          "price_usd": null,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "iPhone app"
+        }
+      ],
+      "ai_description_en": "Little Big Heart is a device that lets you send a picture or message from your phone to a loved one, without the clutter of notifications. It sits on a bedside table or shelf and lights up when someone close to you is thinking of you. With your pledge, we'll know how many boxes to make and your support starts the production.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1887077642",
@@ -650737,7 +651996,61 @@
       },
       "raw_html_hash": "f99eb2a342eb7e76",
       "raw_fetched_at": "2026-10-29T19:04:04.278472+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Five years ago I made my first programmable smart watch, and it was terrible. On 7 May this year I flashed code onto a fully custom PCB for the first time. Honestly, I built it because I thought it was cool. It turns out other makers think so too. What makes EWatch different from other programmable watches is how it looks, the fact that you can program it at whatever level suits you, and the community I'm hoping to build around it. EWatch is an ESP32-S3 smartwatch with a 1.69\" full-colour touchscreen, USB-C, WiFi and Bluetooth. It's also a development board, a self-build kit, and a browser platform for writing, sharing and flashing apps. You can start with any of those and go deeper later.",
+      "ai_highlights_en": [
+        "Programmable watch with a 1.69\" full-colour touchscreen",
+        "Customizable at any level",
+        "Community-driven development board and browser platform"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Hardware",
+          "spec_value": "ESP32-S3, 1.69\" full-colour touchscreen, USB-C, WiFi and Bluetooth"
+        },
+        {
+          "spec_name": "Software",
+          "spec_value": "ESP-IDF, MicroPython, C++, Arduino IDE, PlatformIO in VS Code"
+        },
+        {
+          "spec_name": "Pricing",
+          "spec_value": "PCB: £59, Kit: £99, Watch: £129"
+        },
+        {
+          "spec_name": "Delivery",
+          "spec_value": "Estimated delivery Apr 2027"
+        }
+      ],
+      "ai_risks_en": "Certification is the biggest risk. EWatch uses a bare ESP32-S3 chip and its own PCB antenna rather than a pre-certified module, so the radio has to go through full UKCA and CE testing.",
+      "ai_creator_bio_en": "Robotics Engineer - Freelance Product Development",
+      "ai_tiers": [
+        {
+          "name": "PCB",
+          "price": 59,
+          "price_usd": 79,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Just the board and the screen. Bring your own battery, strap, and enclosure."
+        },
+        {
+          "name": "Development Kit",
+          "price": 99,
+          "price_usd": 132,
+          "currency": "GBP",
+          "backers": 0,
+          "description": "Every part of the watch, laid out for a one-afternoon build. PCB, screen, battery, vibration motor and strap, plus the case CAD files so you can print, mill, or send out an enclosure of your own."
+        },
+        {
+          "name": "Watch",
+          "price": 129,
+          "price_usd": 172,
+          "currency": "GBP",
+          "backers": 2,
+          "description": "The fully assembled watch: touchscreen and 3D printed case on a 20 mm metal mesh strap with a magnetic latch. Tested and flashed by me before it ships."
+        }
+      ],
+      "ai_description_en": "EWatch is an ESP32-S3 smartwatch with a 1.69\" full-colour touchscreen, USB-C, WiFi and Bluetooth. It's also a development board, a self-build kit, and a browser platform for writing, sharing and flashing apps. You can start with any of those and go deeper later.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2007231584",
@@ -651898,54 +653211,139 @@
       },
       "raw_html_hash": "1484334ab9848090",
       "raw_fetched_at": "2026-10-12T21:49:16.185296+00:00",
-      "ai_intro_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer from Germany.",
+      "ai_intro_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer.",
       "ai_highlights_en": [
         "Expert web development and design skills",
-        "Personalized web design services",
-        "Custom web solutions for small businesses"
+        "Personalized web development services",
+        "Custom web design solutions"
       ],
       "ai_specs_en": [
         "Web Development",
+        "€500",
         "Custom Web Design",
-        "Responsive Web Design",
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "WordPress",
-        "PHP",
-        "MySQL",
+        "€800",
+        "Maintenance and Updates",
+        "€200/year",
         "Responsive Design",
-        "E-commerce Solutions"
+        "€300",
+        "E-commerce Integration",
+        "€400",
+        "SEO Optimization",
+        "€100",
+        "Content Management System",
+        "€200",
+        "Custom Theme Development",
+        "€500",
+        "Responsive Email Templates",
+        "€100",
+        "Custom CSS/JS",
+        "€200",
+        "Responsive Image Gallery",
+        "€150",
+        "Custom 404 Page",
+        "€50"
       ],
-      "ai_risks_en": "No significant risks are expected, but unforeseen technical issues may arise.",
+      "ai_risks_en": "There are no significant risks associated with this project.",
       "ai_creator_bio_en": "33 Jahre Webentwickler / Webdesigner",
       "ai_tiers": [
         {
-          "name": "Early Bird",
-          "price": 10,
-          "price_usd": null,
+          "name": "€500 Web Development",
+          "price": 500,
+          "price_usd": 560,
           "currency": "EUR",
           "backers": null,
-          "description": "Early bird special"
+          "description": "Basic web development services"
         },
         {
-          "name": "Standard",
-          "price": 20,
-          "price_usd": 22.49,
+          "name": "€800 Custom Web Design",
+          "price": 800,
+          "price_usd": 880,
           "currency": "EUR",
           "backers": null,
-          "description": "Standard web design services"
+          "description": "Custom web design solutions"
         },
         {
-          "name": "Premium",
+          "name": "€200/year Maintenance and Updates",
+          "price": 200,
+          "price_usd": 220,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Maintenance and updates for your website"
+        },
+        {
+          "name": "€300 Responsive Design",
+          "price": 300,
+          "price_usd": 330,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Responsive web design solutions"
+        },
+        {
+          "name": "€400 E-commerce Integration",
+          "price": 400,
+          "price_usd": 440,
+          "currency": "EUR",
+          "backers": null,
+          "description": "E-commerce integration services"
+        },
+        {
+          "name": "€100 SEO Optimization",
+          "price": 100,
+          "price_usd": 110,
+          "currency": "EUR",
+          "backers": null,
+          "description": "SEO optimization services"
+        },
+        {
+          "name": "€200 Content Management System",
+          "price": 200,
+          "price_usd": 220,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Content management system services"
+        },
+        {
+          "name": "€500 Custom Theme Development",
+          "price": 500,
+          "price_usd": 560,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Custom theme development services"
+        },
+        {
+          "name": "€100 Responsive Email Templates",
+          "price": 100,
+          "price_usd": 110,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Responsive email template services"
+        },
+        {
+          "name": "€200 Custom CSS/JS",
+          "price": 200,
+          "price_usd": 220,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Custom CSS/JS services"
+        },
+        {
+          "name": "€150 Responsive Image Gallery",
+          "price": 150,
+          "price_usd": 165,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Responsive image gallery services"
+        },
+        {
+          "name": "€50 Custom 404 Page",
           "price": 50,
-          "price_usd": 54.99,
+          "price_usd": 55,
           "currency": "EUR",
           "backers": null,
-          "description": "Premium web design services"
+          "description": "Custom 404 page services"
         }
       ],
-      "ai_description_en": "This project offers personalized web design services, including custom web solutions for small businesses. The creator, Markus Ealy, is a 33-year-old web developer and designer from Germany with 33 years of experience.",
+      "ai_description_en": "This project offers a range of web development and design services, including custom web design, e-commerce integration, SEO optimization, and more. With a focus on responsive design and content management systems, this project is perfect for businesses and individuals looking to improve their online presence.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -679359,85 +680757,53 @@
       },
       "raw_html_hash": "cafdd21a212bf9a9",
       "raw_fetched_at": "2026-08-04T14:51:23.460130+00:00",
-      "ai_intro_en": "Meowetrics is an automated system to track cats' weight and nutrition, providing reliable and smart data. This data allows cat owners to better understand their cat's behavior and detect health issues early.",
+      "ai_intro_en": "Meowetrics is a connected scale that tracks your cat's weight and nutrition, providing reliable and smart data. This data allows you to better understand your cat's behavior and even detect health issues early. With Meowetrics, you can monitor your cat's visits and weight, and access a local web interface to view the data.",
       "ai_highlights_en": [
-        "Automated weight tracking and nutrition monitoring",
-        "Reliable and easy-to-understand data",
-        "Autonomous, energy-efficient, and accessible system"
+        "Automated tracking of cat weight and nutrition",
+        "Reliable and smart data for better understanding of your cat's behavior",
+        "Local web interface for easy data access"
       ],
       "ai_specs_en": [
         {
           "spec_name": "Weight Monitoring",
-          "spec_value": "Accurate and reliable weight tracking"
+          "spec_value": "Automated tracking of cat weight"
         },
         {
-          "spec_name": "Nutrition Monitoring",
-          "spec_value": "Tracking of food intake and eating habits"
+          "spec_name": "Nutrition Tracking",
+          "spec_value": "Monitoring of cat eating habits (quantity and frequency of meals)"
+        },
+        {
+          "spec_name": "Data Visualization",
+          "spec_value": "Local web interface for easy data access"
         },
         {
           "spec_name": "Energy Efficiency",
-          "spec_value": "Low power consumption"
+          "spec_value": "Energy-efficient design"
         },
         {
           "spec_name": "Autonomy",
-          "spec_value": "Cloud-independent and offline-capable"
-        },
-        {
-          "spec_name": "Accessibility",
-          "spec_value": "User-modifiable and repairable"
-        },
-        {
-          "spec_name": "Home Assistant Integration",
-          "spec_value": "Pre-configured WiFi connection"
+          "spec_value": "Cloud-independent and autonomous operation"
         },
         {
           "spec_name": "Customization",
-          "spec_value": "Personalized system with customization options"
+          "spec_value": "Customization for your cat (interface or visual details)"
+        },
+        {
+          "spec_name": "Personalized Support",
+          "spec_value": "Direct assistance for installation and Home Assistant connection"
         },
         {
           "spec_name": "Limited Edition",
           "spec_value": "Signed and numbered limited edition"
-        },
-        {
-          "spec_name": "Direct Assistance",
-          "spec_value": "Direct assistance for installation and Home Assistant connection"
-        },
-        {
-          "spec_name": "Battery Life",
-          "spec_value": "30+ day battery life"
-        },
-        {
-          "spec_name": "Screen-Free",
-          "spec_value": "Screen-free wearable"
-        },
-        {
-          "spec_name": "Subscription-Free",
-          "spec_value": "No subscription required"
-        },
-        {
-          "spec_name": "Rep Tempo",
-          "spec_value": "Rep Tempo tracking"
-        },
-        {
-          "spec_name": "L/R Side Asymmetries",
-          "spec_value": "L/R side asymmetries tracking"
-        },
-        {
-          "spec_name": "Time Under Tension",
-          "spec_value": "Time under tension tracking"
-        },
-        {
-          "spec_name": "Auto Rep Tracking",
-          "spec_value": "Auto rep tracking"
         }
       ],
-      "ai_risks_en": "The project involves several technical challenges, including data reliability and clarity, system architecture, and measurement precision.",
+      "ai_risks_en": "Developing Meowetrics involves several technical challenges, including data reliability and clarity, system architecture, and measurement precision.",
       "ai_creator_bio_en": "Developer and maker, I am designing Meowetrics—an embedded system to track cats' weight and nutrition.",
       "ai_tiers": [
         {
           "name": "Soutien",
           "price": 1,
-          "price_usd": 1,
+          "price_usd": null,
           "currency": "EUR",
           "backers": 1,
           "description": "Thank you for your support! You will receive a thank-you email and regular project updates."
@@ -679445,15 +680811,15 @@
         {
           "name": "Soutien",
           "price": 10,
-          "price_usd": 11,
+          "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "You will receive The Meowetrics presentation PDF, The project’s \"Maker Documentation\", Meowetrics Wallpapers, and my personal thanks and regular development updates."
+          "description": "You will receive The Meowetrics presentation PDF, The project’s \"Maker Documentation\", Meowetrics logo as a high-quality wallpaper, and my personal thanks and regular development updates."
         },
         {
           "name": "Soutien",
           "price": 30,
-          "price_usd": 33,
+          "price_usd": null,
           "currency": "EUR",
           "backers": 0,
           "description": "You will receive A comprehensive PDF telling the Meowetrics story, from the original idea to the creation of a functional prototype, Technical insights, Trial and error logs, Design focused on cat behavior, Hardware and software evolution, Photos and development milestones, The Maker Documentation, Meowetrics Wallpapers, and my personal thanks and project updates."
@@ -679461,32 +680827,24 @@
         {
           "name": "Système",
           "price": 80,
-          "price_usd": 90,
+          "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "You will receive a functional, ready-to-use Meowetrics system: Meowetrics connected scale, Pre-configured WiFi connection, Monitoring of cat visits and weight, Local web interface, Home Assistant integration documentation, The project’s Maker Documentation, A PDF tracing the development story, Meowetrics wallpapers, and my personal thanks and project updates."
+          "description": "You will receive a functional, ready-to-use Meowetrics system: Fully assembled Meowetrics connected scale, Pre-configured WiFi connection, Monitoring of cat visits and weight, Local web interface, Home Assistant integration documentation, The project’s Maker Documentation, A PDF tracing the development story, Meowetrics wallpapers, and my personal thanks and project updates."
         },
         {
           "name": "Édition Supporter",
           "price": 200,
-          "price_usd": 220,
+          "price_usd": null,
           "currency": "EUR",
           "backers": 0,
-          "description": "In addition to all previous rewards, you will receive a personalized Meowetrics system, specially assembled for you, Customization for your cat, A signed and numbered limited edition, Direct assistance for installation and Home Assistant connection, and participation in the project's development and its future evolution."
-        },
-        {
-          "name": "Details",
-          "price": 0,
-          "price_usd": 0,
-          "currency": "EUR",
-          "backers": 4,
-          "description": ""
+          "description": "You will receive a personalized Meowetrics system, specially assembled for you, Customization for your cat (interface or visual details), A signed and numbered limited edition, and direct assistance for installation and Home Assistant connection."
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.984101Z",
-      "ai_description_en": "Meowetrics is an automated system to track cats' weight and nutrition, providing reliable and smart data. This data allows cat owners to better understand their cat's behavior and detect health issues early. The system is designed to be autonomous, energy-efficient, and accessible, with a user-modifiable and repairable design. The project involves several technical challenges, including data reliability and clarity, system architecture, and measurement precision."
+      "ai_description_en": "Meowetrics is a connected scale that tracks your cat's weight and nutrition, providing reliable and smart data. This data allows you to better understand your cat's behavior and even detect health issues early. With Meowetrics, you can monitor your cat's visits and weight, and access a local web interface to view the data. The project is designed to be energy-efficient, autonomous, and cloud-independent, and to remain accessible and modifiable."
     },
     {
       "id": "ks-123439353",
@@ -688906,11 +690264,11 @@
       },
       "raw_html_hash": "10693f7409638f39",
       "raw_fetched_at": "2026-10-27T18:39:16.327905+00:00",
-      "ai_intro_en": "Dead Mecha is a dark, post-apocalyptic universe where powerful machines meet mutation, destruction, and survival. In a world where technology has fallen into chaos, once powerful Mechas have become corrupted, mutated, and transformed into terrifying mechanical warriors. Every Dead Mecha represents a different evolution of destruction.",
+      "ai_intro_en": "Dead Mecha is a dark, post-apocalyptic universe where powerful machines meet mutation, destruction, and survival. In a world where technology has fallen into chaos, once powerful Mechas have become corrupted, mutated, and transformed into terrifying mechanical warriors. Dead Mecha brings together the worlds of mecha, sci-fi, horror, and collectible art to create a universe filled with mystery, powerful characters, and endless possibilities.",
       "ai_highlights_en": [
-        "A universe filled with mystery, powerful characters, and endless possibilities.",
-        "Twisted mechanical monsters to battle-hardened robotic warriors.",
-        "Every Dead Mecha has a past. Every mutation tells a story. Every battle creates a legend."
+        "A dark, post-apocalyptic universe where powerful machines meet mutation, destruction, and survival.",
+        "A collection of characters with unique characteristics, scars, glitches, and battle damage.",
+        "A universe filled with mystery, powerful characters, and endless possibilities, including digital collectibles, physical mecha model kits, comics, merchandise, and a future animated series."
       ],
       "ai_specs_en": [
         [
@@ -688924,7 +690282,7 @@
       "ai_creator_bio_en": "Builder and founder of this product",
       "ai_tiers": [
         {
-          "name": "All Or Nothing",
+          "name": "All or Nothing",
           "price": "$0",
           "price_usd": null,
           "currency": "USD",
@@ -688940,7 +690298,7 @@
           "description": "Support The Project For No Reward"
         }
       ],
-      "ai_description_en": "Dead Mecha is a dark, post-apocalyptic universe where powerful machines meet mutation, destruction, and survival. In a world where technology has fallen into chaos, once powerful Mechas have become corrupted, mutated, and transformed into terrifying mechanical warriors. Every Dead Mecha represents a different evolution of destruction. From twisted mechanical monsters to battle-hardened robotic warriors, every Dead Mecha represents a different evolution of destruction. But these aren’t ordinary machines. They’re survivors of a world that no longer exists. Dead Mecha is more than a collection of characters. It’s the beginning of an expanding universe with plans to explore digital collectibles, physical mecha model kits, comics, merchandise, and a future animated series. Every machine has a past. Every mutation tells a story. Every battle creates a legend. Welcome to Dead Mecha. Where machines never truly die. They only evolve.",
+      "ai_description_en": "Dead Mecha is a dark, post-apocalyptic universe where powerful machines meet mutation, destruction, and survival. In a world where technology has fallen into chaos, once powerful Mechas have become corrupted, mutated, and transformed into terrifying mechanical warriors. Dead Mecha brings together the worlds of mecha, sci-fi, horror, and collectible art to create a universe filled with mystery, powerful characters, and endless possibilities. From twisted mechanical monsters to battle-hardened robotic warriors, every Dead Mecha represents a different evolution of destruction. But these aren’t ordinary machines. They’re survivors of a world that no longer exists. Dead Mecha is more than a collection of characters. It’s the beginning of an expanding universe with plans to explore digital collectibles, physical mecha model kits, comics, merchandise, and a future animated series. Every machine has a past. Every mutation tells a story. Every battle creates a legend. Welcome to Dead Mecha. Where machines never truly die. They only evolve.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
