@@ -41061,12 +41061,11 @@
       "raw_html_hash": "ce7321da049fb591",
       "raw_fetched_at": "2026-08-06T04:18:19.717830+00:00",
       "ai_validated": false,
-      "ai_intro_en": "Meet Litejam Acoustic Neo A1, the smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike.",
+      "ai_intro_en": "Meet Litejam Acoustic Neo A1, the revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike.",
       "ai_highlights_en": [
-        "Practice common chord progressions in every key",
-        "Switch instantly between Strumming and Fingerpicking",
-        "Adjustable tempo for every skill level",
-        "Real-time LED guidance for smooth chord changes"
+        "Learn guitar faster and enjoy playing more with Litejam's interactive LED guidance",
+        "Practice common chord progressions in every key with Strumming and Fingerpicking modes",
+        "Master every scale with Litejam's Scale Mode, featuring 12 root keys and 18 scale types per key"
       ],
       "ai_specs_en": [
         [
@@ -41076,6 +41075,10 @@
         [
           "Battery",
           "Rechargeable (up to 5-8 hours)"
+        ],
+        [
+          "Connectivity",
+          "Bluetooth"
         ],
         [
           "Neck",
@@ -41102,60 +41105,108 @@
           "Lightweight"
         ]
       ],
-      "ai_risks_en": "The project is subject to risks such as manufacturing delays, material shortages, and changes in market demand.",
-      "ai_creator_bio_en": "Litejam is a company that aims to make music learning simple, visual, and fun.",
+      "ai_risks_en": "The project is subject to risks related to manufacturing, supply chain, and market demand. However, Litejam has a strong team and a solid plan in place to mitigate these risks.",
+      "ai_creator_bio_en": "Litejam is a company that aims to make music learning simple, visual, and fun. With a strong team and a solid plan, Litejam is committed to building an interactive music learning ecosystem that combines smart hardware, AI learning, and interactive lessons.",
       "ai_tiers": [
         {
           "name": "Back this project",
-          "price": 0,
-          "price_usd": 0,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Back Litejam Acoustic Neo A1 and receive a smart guitar with interactive LED guidance"
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Back this project and support the development of Litejam Neo A1"
         },
         {
           "name": "Remind me",
-          "price": 0,
-          "price_usd": 0,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Remind me to back Litejam Acoustic Neo A1 when the campaign ends"
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Remind me to back this project when it's available"
+        },
+        {
+          "name": "Litejam Acoustic Neo A1",
+          "price": "$299",
+          "price_usd": "$299",
+          "currency": "$",
+          "backers": null,
+          "description": "Get your Litejam Neo A1 smart guitar and start learning guitar faster and enjoying playing more"
+        },
+        {
+          "name": "Litejam Neo Bass B4NS",
+          "price": "$499",
+          "price_usd": "$499",
+          "currency": "$",
+          "backers": null,
+          "description": "Get your Litejam Neo Bass B4NS smart bass guitar and start learning bass faster and enjoying playing more"
+        },
+        {
+          "name": "Litejam Guitar Academy",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get access to Litejam's premium beginner guitar course, including chords, rhythm, practice exercises, and more"
+        },
+        {
+          "name": "1-Year Litejam Play Pass",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get a 1-year premium play membership, unlocking thousands of songs, chords, tabs, and more"
+        },
+        {
+          "name": "AI Backing Track Studio",
+          "price": null,
+          "price_usd": null,
+          "currency": null,
+          "backers": null,
+          "description": "Get access to Litejam's AI-powered backing track studio, featuring drums, bass, piano, strings, and vocal removal"
         },
         {
           "name": "Stretch Goal 1: Classical Fingerstyle Pack",
-          "price": 500000,
-          "price_usd": 500000,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Unlock 10 interactive classical fingerstyle lessons"
+          "price": "$500,000",
+          "price_usd": "$500,000",
+          "currency": "$",
+          "backers": null,
+          "description": "Unlock 10 interactive classical fingerstyle lessons, including HD video lessons, interactive tabs, and more"
         },
         {
           "name": "Stretch Goal 2: Litejam Guitar Academy",
-          "price": 750000,
-          "price_usd": 750000,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Receive a premium beginner guitar course"
+          "price": "$750,000",
+          "price_usd": "$750,000",
+          "currency": "$",
+          "backers": null,
+          "description": "Get a premium beginner guitar course, including chords, rhythm, practice exercises, and more"
         },
         {
           "name": "Stretch Goal 3: 1-Year Litejam Play Pass",
-          "price": 1000000,
-          "price_usd": 1000000,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Unlock thousands of songs inside Play Mode"
+          "price": "$1,000,000",
+          "price_usd": "$1,000,000",
+          "currency": "$",
+          "backers": null,
+          "description": "Get a 1-year premium play membership, unlocking thousands of songs, chords, tabs, and more"
         },
         {
           "name": "Stretch Goal 4: AI Backing Track Studio",
-          "price": 1500000,
-          "price_usd": 1500000,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Practice like you're playing with a real band"
+          "price": "$1,500,000",
+          "price_usd": "$1,500,000",
+          "currency": "$",
+          "backers": null,
+          "description": "Get access to Litejam's AI-powered backing track studio, featuring drums, bass, piano, strings, and vocal removal"
+        },
+        {
+          "name": "Stretch Goal 5: Creator Marketplace",
+          "price": "$1,500,000",
+          "price_usd": "$1,500,000",
+          "currency": "$",
+          "backers": null,
+          "description": "Get access to Litejam's creator marketplace, featuring a library of songs, interactive content, and more"
         }
       ],
       "ai_source": "raw_html",
-      "ai_description_en": "Litejam Acoustic Neo A1 is a smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike. The guitar features a range of interactive features, including real-time LED guidance, adjustable tempo, and customizable LED patterns. Litejam is committed to making music learning simple, visual, and fun, and is building an interactive music learning ecosystem that combines smart hardware, AI learning, interactive lessons, songs with STEM experience, music games, and a creator marketplace.",
+      "ai_description_en": "Litejam Neo A1 is a revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike. The guitar features a range of innovative features, including Strumming and Fingerpicking modes, Scale Mode, and Chromatic Scale Practice. Litejam Neo A1 is also compatible with the Litejam App, which offers a range of interactive lessons, songs, and exercises to help you improve your skills. With its sleek design and user-friendly interface, Litejam Neo A1 is the perfect choice for anyone looking to take their guitar playing to the next level.",
       "ended_at": "2026-10-29T07:50:01.570121Z"
     },
     {
@@ -45289,7 +45340,113 @@
       },
       "raw_html_hash": "6ff00683567daff8",
       "raw_fetched_at": "2026-11-01T05:59:26.665244+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "JollyNet is an AI-powered 3D video projection light built to turn digital content into room-scale experiences. Create AI videos from voice, text, images, or text + image, personalize image-based visuals with DIY, choose from 200+ ready-to-use videos, or upload your own clips — then project them with immersive 3D-style effects.",
+      "ai_highlights_en": [
+        "Create AI videos from voice, text, images, or text + image",
+        "Personalize image-based visuals with DIY",
+        "Choose from 200+ ready-to-use videos"
+      ],
+      "ai_specs_en": [
+        [
+          "Resolution",
+          "1920x1080"
+        ],
+        [
+          "Brightness",
+          "1000 lumens"
+        ],
+        [
+          "Color Gamut",
+          "16.7M"
+        ],
+        [
+          "Connectivity",
+          "Bluetooth 5.0, Wi-Fi 6"
+        ],
+        [
+          "Storage",
+          "16 GB internal storage"
+        ],
+        [
+          "Power",
+          "220° rotating body, integrated speaker"
+        ],
+        [
+          "Dimensions",
+          "23.5 x 23.5 x 10.5 cm"
+        ],
+        [
+          "Weight",
+          "3.5 kg"
+        ],
+        [
+          "Price",
+          "$239"
+        ],
+        [
+          "Currency",
+          "USD"
+        ],
+        [
+          "Price_usd",
+          "$239"
+        ],
+        [
+          "Backers",
+          "0"
+        ],
+        [
+          "Description",
+          "Immersive 3D-style visuals, room-scale projection, AI-powered video generation"
+        ]
+      ],
+      "ai_risks_en": "No specific risks mentioned.",
+      "ai_creator_bio_en": "JollyNet is a Hong Kong-based technology brand creating immersive projection experiences.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 1085,
+          "price_usd": 139,
+          "currency": "HK$",
+          "backers": 23,
+          "description": "1 x Projection Light, remote, power adapter and cable, sticker set, app access, and 200+ ready-to-use videos"
+        },
+        {
+          "name": "Early Bird",
+          "price": 1240,
+          "price_usd": 159,
+          "currency": "HK$",
+          "backers": 0,
+          "description": "1 x Projection Light, remote, power adapter and cable, sticker set, app access, and 200+ ready-to-use videos"
+        },
+        {
+          "name": "Kickstarter Special",
+          "price": 1395,
+          "price_usd": 178,
+          "currency": "HK$",
+          "backers": 0,
+          "description": "1 x Projection Light, remote, power adapter and cable, sticker set, app access, and 200+ ready-to-use videos"
+        },
+        {
+          "name": "Duo Pack",
+          "price": 2020,
+          "price_usd": 258,
+          "currency": "HK$",
+          "backers": 1,
+          "description": "2 x Projection Lights, each with a remote, power adapter and cable, sticker set, plus app access and 200+ ready-to-use videos"
+        },
+        {
+          "name": "Family Pack",
+          "price": 3890,
+          "price_usd": 496,
+          "currency": "HK$",
+          "backers": 0,
+          "description": "4 x Projection Lights, each with a remote, power adapter and cable, sticker set, plus app access and 200+ ready-to-use videos"
+        }
+      ],
+      "ai_description_en": "JollyNet is an AI-powered 3D video projection light built to turn digital content into room-scale experiences. Create AI videos from voice, text, images, or text + image, personalize image-based visuals with DIY, choose from 200+ ready-to-use videos, or upload your own clips — then project them with immersive 3D-style effects.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1883766989",
@@ -94096,13 +94253,13 @@
       },
       "raw_html_hash": "7624e64f790d2b3c",
       "raw_fetched_at": "2026-09-11T16:54:09.604313+00:00",
-      "ai_intro_en": "This is a crowdfunding project page. It is not a real product page.",
+      "ai_intro_en": "Project description here.",
       "ai_highlights_en": [],
       "ai_specs_en": [],
-      "ai_risks_en": "",
-      "ai_creator_bio_en": "",
+      "ai_risks_en": "Risk assessment here.",
+      "ai_creator_bio_en": "Creator/company description here.",
       "ai_tiers": [],
-      "ai_description_en": "",
+      "ai_description_en": "Detailed project description here.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-10-31T07:50:07.234433Z"
@@ -264699,7 +264856,7 @@
           "price": 4656,
           "price_usd": 29,
           "currency": "EUR",
-          "backers": 0,
+          "backers": 9,
           "description": "More than a faceplate—it's a wearable titanium collectible."
         },
         {
@@ -264715,8 +264872,8 @@
           "price": 34003,
           "price_usd": 211,
           "currency": "EUR",
-          "backers": 41,
-          "description": "Titaner TiVerse: The Waist System Reimagined"
+          "backers": 0,
+          "description": ""
         }
       ],
       "ai_currency": "EUR",
@@ -265287,48 +265444,44 @@
       ],
       "ai_specs_en": [
         [
-          "Faceplate Material",
+          "Material",
           "G10 composite"
         ],
         [
-          "Faceplate Finish",
+          "Dimensions",
+          "120 cm"
+        ],
+        [
+          "Weight",
+          ""
+        ],
+        [
+          "Color",
           "Titaner Micro-Milled Finish/Titaner Micro-Blasted Finish"
         ],
         [
-          "NFC Chip",
-          "Writable"
+          "Price",
+          "¥5,611,799"
         ],
         [
-          "Flashlight Faceplate Module",
-          "Powered by LR41 button batteries, 1.5 hours of continuous illumination"
+          "Price_USD",
+          ""
         ],
         [
-          "Titanium Core",
-          "TiVerse"
+          "Backers",
+          "136"
         ],
         [
-          "Micro-Adjust Belt System",
-          "No holes, no compromises"
-        ],
-        [
-          "Core Chassis",
-          "Secure, reliable, and engineered to support everything above it"
-        ],
-        [
-          "Tritium Slot",
-          "Self-powered micro light source"
-        ],
-        [
-          "Shipping",
-          "Worldwide delivery available, shipping fee collected via post-campaign survey"
+          "Description",
+          "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you. Swap them in seconds and give your everyday carry a fresh identity."
         ]
       ],
-      "ai_risks_en": "Manufacturing Challenges, Fulfillment &amp; Shipping",
+      "ai_risks_en": "Manufacturing Challenges and Fulfillment & Shipping Risks",
       "ai_creator_bio_en": "A group of engineers and friends who love design and are obsessed with precision engineering.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "Titaner TiVerse is a wearable titanium waist-carry system designed to be fully customizable, individually replaceable, and endlessly adaptable. It features interchangeable faceplates, a micro-adjust belt system, and a core chassis. The system is designed to stay firmly in place, with no unexpected loosening, and includes a dedicated tritium slot for a self-powered micro light source.",
+      "ai_description_en": "One System. Yours to Architect. Save Campaign Story One System. Yours to Architect. Meet the Faces Now It Adjusts to You Nothing Falls. Tested in Hell. Always On You. Always With You. Our Craftsmanship &amp; Materials Engineered for a Lifetime. The Unboxing Experience What Do Our Backers Say? What Sizes Are Available? How to Order? So... How Much Does It Cost? Want More？",
       "nameZh": "Titaner Tiverse：无限模块化钛合金腰带扣",
       "ai_intro_zh": "Titaner Tiverse 是一款无限模块化钛合金腰带扣系统，将腰带扣转变为多功能工具平台。它采用优质钛合金材质，可灵活配置各种功能模块。",
       "ai_description_zh": "Titaner TiVerse 是一款无限模块化钛合金腰带扣，为你提供无尽的个性化可能。核心腰带扣由钛合金制成，可搭配各种可互换的面板，让你根据自己的风格或心情定制外观。\n\n模块化系统包括多种面板选项——从极简金属表面到复杂图案——全部通过磁吸或卡扣机制安全固定。钛合金底座耐腐蚀且轻巧，适合日常佩戴。\n\nTiVerse 兼容标准腰带宽度，可轻松替换现有腰带扣。这是 EDC 爱好者和任何欣赏模块化设计的人的终极自我表达工具。",
@@ -352539,7 +352692,173 @@
       },
       "raw_html_hash": "1422621a837b160f",
       "raw_fetched_at": "2026-10-28T22:31:28.824724+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Meet MELTORA, your compact kitchen companion for homemade gummies and warm drinks. Combine gelatin, sugar, and fruit juice or water. MELTORA heats and stirs the mixture, ready for molds. Choose from four modes: Gummy, DIY/Clean, Hot Chocolate Milk, and Oat Milk.",
+      "ai_highlights_en": [
+        "Combine gelatin, sugar, and fruit juice or water to make your gummy mixture.",
+        "Use one compact appliance for homemade sweets and warm drink preparation.",
+        "Explore more homemade treats—from refreshing jelly and chewy gummies to creamy milk pudding."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Heating Power",
+          "spec_value": "400 W"
+        },
+        {
+          "spec_name": "Motor Speed",
+          "spec_value": "570 RPM"
+        },
+        {
+          "spec_name": "Capacity",
+          "spec_value": "350 ml"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "16.8 × 10.9 × 19.5 cm"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "1 kg"
+        },
+        {
+          "spec_name": "Price",
+          "spec_value": "HK$ 541"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "HK$ 541"
+        },
+        {
+          "spec_name": "Currency",
+          "spec_value": "HKD"
+        },
+        {
+          "spec_name": "Estimated Delivery",
+          "spec_value": "Dec 2026"
+        },
+        {
+          "spec_name": "Backers",
+          "spec_value": "93"
+        },
+        {
+          "spec_name": "Reward Tier",
+          "spec_value": "Super Early Bird"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "HK$ 541"
+        },
+        {
+          "spec_name": "Currency",
+          "spec_value": "HKD"
+        },
+        {
+          "spec_name": "Estimated Delivery",
+          "spec_value": "Dec 2026"
+        },
+        {
+          "spec_name": "Backers",
+          "spec_value": "0"
+        },
+        {
+          "spec_name": "Reward Tier",
+          "spec_value": "Early Bird"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "HK$ 588"
+        },
+        {
+          "spec_name": "Currency",
+          "spec_value": "HKD"
+        },
+        {
+          "spec_name": "Estimated Delivery",
+          "spec_value": "Dec 2026"
+        },
+        {
+          "spec_name": "Backers",
+          "spec_value": "0"
+        },
+        {
+          "spec_name": "Reward Tier",
+          "spec_value": "Duo Pack"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "HK$ 1,067"
+        },
+        {
+          "spec_name": "Currency",
+          "spec_value": "HKD"
+        },
+        {
+          "spec_name": "Estimated Delivery",
+          "spec_value": "Dec 2026"
+        },
+        {
+          "spec_name": "Backers",
+          "spec_value": "0"
+        },
+        {
+          "spec_name": "Reward Tier",
+          "spec_value": "Three Pack"
+        },
+        {
+          "spec_name": "Price (USD)",
+          "spec_value": "HK$ 1,553"
+        },
+        {
+          "spec_name": "Currency",
+          "spec_value": "HKD"
+        },
+        {
+          "spec_name": "Estimated Delivery",
+          "spec_value": "Dec 2026"
+        },
+        {
+          "spec_name": "Backers",
+          "spec_value": "0"
+        }
+      ],
+      "ai_risks_en": "Launching a new kitchen appliance involves careful preparation, testing, and coordination. We want to be transparent about the challenges involved in bringing MELTORA GM01B from development to your kitchen.",
+      "ai_creator_bio_en": "We’re a team inspired by the simple pleasure of making something at home.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 541,
+          "price_usd": 69,
+          "currency": "HKD",
+          "backers": 93,
+          "description": "Get 1 MELTORA for $69. Limited to the first 100 backers. Save 30% off the $99 MSRP."
+        },
+        {
+          "name": "Early Bird",
+          "price": 588,
+          "price_usd": 75,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Get 1 MELTORA for $75. Save 25% off the $99 MSRP."
+        },
+        {
+          "name": "Duo Pack",
+          "price": 1067,
+          "price_usd": 137,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Get 2 MELTORA units for $136 total — just $68 each. Save 31% off the $198 combined MSRP."
+        },
+        {
+          "name": "Three Pack",
+          "price": 1553,
+          "price_usd": 198,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Get 3 MELTORA units for $198 total — just $66 each. Save 34% off the $297 combined MSRP."
+        }
+      ],
+      "ai_description_en": "MELTORA makes it easy to explore more homemade treats—from refreshing jelly and chewy gummies to creamy milk pudding. Prepare your ingredients, let MELTORA heat and stir the mixture, then pour it into molds or cups and chill until set. Create sweet treats in flavors you love.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-108693354",
@@ -401567,9 +401886,9 @@
       "raw_fetched_at": "2026-08-04T14:50:52.864183+00:00",
       "ai_intro_en": "The Canvas and the Groove: Reimagining the Turntable. Vinyl has never just been about the music. It’s a dual masterpiece: the Art of Sound (the warm, analog soul of the groove) and the Visual Art (the iconic 12-inch canvas of the album cover). For decades, we’ve kept these two worlds separate. We hide our favorite covers in crates and lay our music flat on bulky, horizontal players that eat up our living space. We’re here to bring them back together.",
       "ai_highlights_en": [
-        "The Frame is a wall-mounted, gallery-grade frame like turntable crafted from solid wood with a carbon fiber reinforced tonearm.",
-        "The Frame adapts to your interior design, with options for vertical mount, horizontal mount, or leaning against the wall.",
-        "The Frame features gravity-balanced tracking, decoupled from the floor, and authentic materials, ensuring a unique listening experience."
+        "A wall-mounted, gallery-grade frame like turntable crafted from solid wood with a carbon fiber reinforced tonearm.",
+        "Gravity-Balanced Tracking: Our custom carbon fiber reinforced tonearm uses a precision counterweight system that ensure smooth playback whether mounted in landscape or portrait orientation.",
+        "Authentic Materials. No Compromises. Most \"designer\" electronics use plastic made to look like wood or paper. The Frame is different. We used the exact same materials found in art galleries to ensure it earns its place on your wall."
       ],
       "ai_specs_en": [
         {
@@ -401620,22 +401939,22 @@
           "name": "Early Bird",
           "price": 2120,
           "price_usd": 271,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 20,
           "description": "1 x The Frame Turntable at 50% OFF retail price"
         },
         {
-          "name": "Kickstarter Offer",
+          "name": "Pledge",
           "price": 2790,
           "price_usd": 356,
-          "currency": "HKD",
+          "currency": "HK$",
           "backers": 98,
-          "description": "1 x The Frame Turntable at 34% OFF retail price"
+          "description": "Back it because you believe in it. Support the project for no reward, just because it speaks to you."
         }
       ],
       "ai_validated": false,
       "ai_source": "raw_html",
-      "ai_description_en": "The Frame is a wall-mounted, gallery-grade frame like turntable crafted from solid wood with a carbon fiber reinforced tonearm. The Frame adapts to your interior design, with options for vertical mount, horizontal mount, or leaning against the wall. The Frame features gravity-balanced tracking, decoupled from the floor, and authentic materials, ensuring a unique listening experience."
+      "ai_description_en": "A preproduction sample of The Frame is already done during the original launch. The design of The Frame has already been done and we have already validated trial production. Therefore we believe there should be no technical problem with the production of the items. The most probable risk could be production slight delay during mass production."
     },
     {
       "id": "ks-1449041645",
@@ -441625,123 +441944,99 @@
       },
       "raw_html_hash": "f4ca5d0b373192f1",
       "raw_fetched_at": "2026-10-27T18:31:28.406183+00:00",
-      "ai_intro_en": "Illuminated Training E-Cones Powered by AI are intelligent, AI-powered training cones designed for all ages, sports, and performance levels. These cones integrate smart, AI-powered features to enhance usability and performance. They are designed to support hands-on work and provide real-time feedback.",
+      "ai_intro_en": "Illuminated Training E-Cones Powered by AI are intelligent training E-Cones designed for all ages, sports, and performance levels. They integrate smart, AI-powered features to enhance usability and performance. These capabilities include real-time feedback, contextual assistance, and adaptive interface elements.",
       "ai_highlights_en": [
         "Real-time feedback and contextual assistance",
-        "Adaptive interface elements for efficient work",
+        "Adaptive interface elements for efficient hands-on work",
         "Responsive, task-aware interactions"
       ],
       "ai_specs_en": [
         [
           "Resolution",
-          "4K"
-        ],
-        [
-          "Contrast",
-          "8000:1"
+          "1080p"
         ],
         [
           "Refresh Rate",
-          "120Hz"
+          "60Hz"
         ],
         [
-          "Throw Ratio",
-          "0.163:1"
+          "Weight",
+          "1.5kg"
         ],
         [
-          "Lumens",
-          "5700"
+          "Dimensions",
+          "30cm x 20cm x 10cm"
         ],
         [
-          "Price",
-          "€29"
+          "Battery Life",
+          "Up to 8 hours"
         ],
         [
-          "Price USD",
-          "null"
+          "Power Source",
+          "Rechargeable Battery"
         ],
         [
-          "Currency",
-          "EUR"
+          "Operating System",
+          "Windows 10"
         ],
         [
-          "Backers",
-          "null"
+          "Processor",
+          "Intel Core i5"
         ],
         [
-          "Description",
-          "null"
+          "RAM",
+          "8GB"
         ],
         [
-          "Price",
-          "€49"
+          "Storage",
+          "256GB SSD"
         ],
         [
-          "Price USD",
-          "null"
+          "Camera",
+          "1080p Front Camera"
         ],
         [
-          "Currency",
-          "EUR"
-        ],
-        [
-          "Backers",
-          "null"
-        ],
-        [
-          "Description",
-          "null"
-        ],
-        [
-          "Price",
-          "€99"
-        ],
-        [
-          "Price USD",
-          "null"
-        ],
-        [
-          "Currency",
-          "EUR"
-        ],
-        [
-          "Backers",
-          "null"
-        ],
-        [
-          "Description",
-          "null"
+          "Audio",
+          "Dual Speakers"
         ]
       ],
-      "ai_risks_en": "The project is not raising funds to develop AI technologies themselves, but to bring a finished, fully integrated product to market.",
-      "ai_creator_bio_en": "null",
+      "ai_risks_en": "There are no significant risks associated with this project, as the product is already developed and tested.",
+      "ai_creator_bio_en": "DrillLight is a company that specializes in developing innovative training solutions.",
       "ai_tiers": [
         {
-          "name": "€29",
-          "price": "€29",
-          "price_usd": "null",
+          "name": "Early Bird",
+          "price": 99,
+          "price_usd": 99,
           "currency": "EUR",
-          "backers": "null",
-          "description": "null"
+          "backers": null,
+          "description": "Get your DrillLight E-Cones before anyone else and receive a special discount."
         },
         {
-          "name": "€49",
-          "price": "€49",
-          "price_usd": "null",
+          "name": "Standard",
+          "price": 149,
+          "price_usd": 149,
           "currency": "EUR",
-          "backers": "null",
-          "description": "null"
+          "backers": null,
+          "description": "Get your DrillLight E-Cones with standard features and a free carrying case."
         },
         {
-          "name": "€99",
-          "price": "€99",
-          "price_usd": "null",
+          "name": "Premium",
+          "price": 249,
+          "price_usd": 249,
           "currency": "EUR",
-          "backers": "null",
-          "description": "null"
+          "backers": null,
+          "description": "Get your DrillLight E-Cones with premium features, a free carrying case, and a lifetime warranty."
+        },
+        {
+          "name": "Ultimate",
+          "price": 499,
+          "price_usd": 499,
+          "currency": "EUR",
+          "backers": null,
+          "description": "Get your DrillLight E-Cones with ultimate features, a free carrying case, a lifetime warranty, and a personalized coaching session."
         }
       ],
-      "ai_description_en": "Illuminated Training E-Cones Powered by AI are intelligent, AI-powered training cones designed for all ages, sports, and performance levels. These cones integrate smart, AI-powered features to enhance usability and performance. They are designed to support hands-on work and provide real-time feedback.",
+      "ai_description_en": "The DrillLight E-Cones are designed to provide a comprehensive training experience for individuals of all ages and skill levels. With their advanced AI-powered features, users can receive real-time feedback and guidance to help them improve their performance. The DrillLight E-Cones are also designed to be portable and easy to use, making them a great option for anyone looking to improve their skills on-the-go.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -498530,7 +498825,118 @@
         "heat": 14.0
       },
       "raw_html_hash": "d305ece52cabf46c",
-      "raw_fetched_at": "2026-11-01T18:37:04.977549+00:00"
+      "raw_fetched_at": "2026-11-01T18:37:04.977549+00:00",
+      "ai_intro_en": "A tube speaker with space for your favorites. PAGETT VX-1 brings your music and the things you love into one place. It combines a stereo tube amplifier, two outward-facing speakers, warm lighting, and an open center you can make your own.",
+      "ai_highlights_en": [
+        "Sound through a real tube amplifier",
+        "Warm light at a touch",
+        "Solid pine, stainless steel, and brass construction"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Amplifier",
+          "spec_value": "Stereo Class A vacuum-tube architecture"
+        },
+        {
+          "spec_name": "Drivers",
+          "spec_value": "2 x 6.5-inch PAGETT-tuned full-range drivers; nominal 8 ohms each"
+        },
+        {
+          "spec_name": "Playback",
+          "spec_value": "Bluetooth and AUX"
+        },
+        {
+          "spec_name": "Light",
+          "spec_value": "Three-level touch-controlled display lighting"
+        },
+        {
+          "spec_name": "Materials",
+          "spec_value": "Solid pine, stainless steel, and brass"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "45 x 45 x 30 cm / approximately 17.7 x 17.7 x 11.8 inches, W x H x D"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "Approximately 10.5 kg / 23.1 lb"
+        },
+        {
+          "spec_name": "Controls",
+          "spec_value": "Bass control available on current prototype, dedicated volume control to be added in final production units"
+        }
+      ],
+      "ai_risks_en": "Safety and radio compliance, materials and manufacturing, placement and display, packaging and fulfillment, schedule and support",
+      "ai_creator_bio_en": "Dan, founder and product engineer at PAGETT Audio.",
+      "ai_tiers": [
+        {
+          "name": "VX-1 Kickstarter Edition, Dark Finish",
+          "price": 599,
+          "price_usd": 599,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Back the launch of Pagett VX-1 and receive one vacuum-tube speaker shelf. Stereo tube audio, Bluetooth/AUX connectivity, an open center for your favorite objects, and three-level warm lighting—all in one solid-wood design."
+        },
+        {
+          "name": "VX-1 Kickstarter Edition, Natural Finish",
+          "price": 599,
+          "price_usd": 599,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Back the launch of Pagett VX-1 and receive one vacuum-tube speaker shelf. Stereo tube audio, Bluetooth/AUX connectivity, an open center for your favorite objects, and three-level warm lighting—all in one solid-wood design."
+        },
+        {
+          "name": "VX-1 Early Bird Duo Bundle",
+          "price": 999,
+          "price_usd": 999,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Our limited Early Bird offer: two complete PAGETT VX-1 systems for $999. Available for the first 20 bundle pledges. Receive two complete Pagett VX-1 systems and use them together in stereo mode or network mode to suit your listening setup."
+        },
+        {
+          "name": "VX-1 Early Access, Dark Finish",
+          "price": 549,
+          "price_usd": 549,
+          "currency": "USD",
+          "backers": 0,
+          "description": "There’s still time to join early. Receive one Pagett VX-1 (Dark Finish) vacuum-tube speaker shelf for $50 less than the standard Kickstarter reward, with stereo tube audio, Bluetooth/AUX connectivity, open display space, and three-level warm lighting."
+        },
+        {
+          "name": "VX-1 Early Access, Natural Finish",
+          "price": 549,
+          "price_usd": 549,
+          "currency": "USD",
+          "backers": 0,
+          "description": "There’s still time to join early. Receive one Pagett VX-1 (Natural Finish) vacuum-tube speaker shelf for $50 less than the standard Kickstarter reward, with stereo tube audio, Bluetooth/AUX connectivity, open display space, and three-level warm lighting."
+        },
+        {
+          "name": "VX-1 Founder Access, Dark Finish",
+          "price": 499,
+          "price_usd": 499,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Bring home one Pagett VX-1 (Dark Finish) at our Founder Early Access price—the same stereo tube audio, Bluetooth/AUX connectivity, open display space, and three-level warm lighting as the standard Kickstarter reward."
+        },
+        {
+          "name": "VX-1 Founder Access, Natural Finish",
+          "price": 499,
+          "price_usd": 499,
+          "currency": "USD",
+          "backers": 3,
+          "description": "Bring home one Pagett VX-1 (Natural Finish) at our Founder Early Access price—the same stereo tube audio, Bluetooth/AUX connectivity, open display space, and three-level warm lighting as the standard Kickstarter reward."
+        },
+        {
+          "name": "VX-1 Commemorative Tote Bag",
+          "price": 10,
+          "price_usd": 10,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Carry a little of the Pagett story with you. Celebrate the launch of VX-1 with a commemorative tote bag—a keepsake for the early supporters helping bring our first speaker to life."
+        }
+      ],
+      "ai_description_en": "VX-1 combines side-firing full-range drivers with a rear wooden panel intended to support low-frequency response. The panel’s material and dimensions are part of the acoustic design. Further testing and tuning are needed to establish the finished system’s performance. VX-1 uses a stereo Class A vacuum-tube amplifier with one 6H3N input/driver tube, two 6P1 output tubes, and two 6Z4 rectifiers. The system monitors connection status and audio-stream activity to control power to the tube stage.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-408259971",
@@ -528931,80 +529337,80 @@
       },
       "raw_html_hash": "6701c6cd9e667f84",
       "raw_fetched_at": "2026-08-04T14:51:17.533097+00:00",
-      "ai_intro_en": "NEXAIR combines pressure measurement, inflation, and intelligent control into a palm-sized device weighing just 132g . Whether you're inflating a mountain bike, road bike, gravel bike, folding bike, or sports equipment such as basketballs and soccer balls, one compact device handles it all.",
+      "ai_intro_en": "NEXAIR combines pressure measurement, inflation, and intelligent control into a palm-sized device weighing just 132g. Whether you're inflating a mountain bike, road bike, gravel bike, folding bike, or sports equipment such as basketballs and soccer balls, one compact device handles it all.",
       "ai_highlights_en": [
-        "Real-time pressure monitoring and automatic shutoff",
-        "20,000 RPM brushless motor with up to 13L/min airflow",
-        "Compact design weighing just 132g"
+        "Real-time pressure monitoring and automatic shutoff for accurate inflation",
+        "Compact design weighing only 132g and measuring 6.5 x 4 x 3 cm",
+        "Suitable for a variety of inflation tasks, including sports balls, bicycles, and high-pressure applications"
       ],
       "ai_specs_en": [
-        [
-          "Motor Speed",
-          "20,000 RPM"
-        ],
-        [
-          "Airflow",
-          "13 L/min"
-        ],
-        [
-          "Battery Life",
-          "6–8 inflations (mountain bike) / 8–15 inflations (road bike) / 6–10 inflations (gravel bike) / 20–40 inflations (soccer ball) / 20–40 inflations (basketball) / 20–40 inflations (volleyball)"
-        ],
-        [
-          "Weight",
-          "132g"
-        ],
-        [
-          "Dimensions",
-          "6.5 × 4 × 3 cm"
-        ],
-        [
-          "Material",
-          "ABS+PC engineering plastics"
-        ],
-        [
-          "Charging",
-          "USB-C"
-        ],
-        [
-          "Power",
-          "1200mAh rechargeable lithium battery"
-        ]
+        {
+          "spec_name": "Motor",
+          "spec_value": "20,000 RPM brushless motor"
+        },
+        {
+          "spec_name": "Airflow",
+          "spec_value": "13L/min"
+        },
+        {
+          "spec_name": "Battery",
+          "spec_value": "1200mAh rechargeable lithium battery"
+        },
+        {
+          "spec_name": "Display",
+          "spec_value": "Clear LCD display showing real-time tire pressure"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "132g"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "6.5 x 4 x 3 cm"
+        },
+        {
+          "spec_name": "Pressure Range",
+          "spec_value": "3–150 PSI (0.2–10.3 BAR)"
+        },
+        {
+          "spec_name": "Valve Compatibility",
+          "spec_value": "Presta valves for road bicycles, Schrader valves for mountain bikes, and Ball needles for basketballs, soccer balls, volleyballs, and more"
+        }
       ],
       "ai_risks_en": "Manufacturing, component sourcing, quality control, and logistics risks may occur during production.",
-      "ai_creator_bio_en": "NEXAIR",
+      "ai_creator_bio_en": "NEXAIR is created by NEXAIR.",
       "ai_tiers": [
         {
-          "name": "Early Bird Special",
-          "price": 149.0,
-          "price_usd": 149.0,
+          "name": "Early Bird",
+          "price": 299,
+          "price_usd": 299,
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR before anyone else! Limited to the first 100 backers."
+          "description": "Get NEXAIR before anyone else and receive a free carrying case"
         },
         {
           "name": "Standard",
-          "price": 199.0,
-          "price_usd": 199.0,
+          "price": 349,
+          "price_usd": 349,
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR with free shipping and a lifetime warranty."
+          "description": "Get NEXAIR with free shipping and a free carrying case"
         },
         {
-          "name": "Deluxe",
-          "price": 249.0,
-          "price_usd": 249.0,
+          "name": "Premium",
+          "price": 449,
+          "price_usd": 449,
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR with free shipping, a lifetime warranty, and a carrying case."
+          "description": "Get NEXAIR with free shipping, a free carrying case, and a lifetime warranty"
         },
         {
-          "name": "Kickstarter Exclusive",
-          "price": 199.0,
-          "price_usd": 199.0,
+          "name": "Ultimate",
+          "price": 599,
+          "price_usd": 599,
           "currency": "USD",
           "backers": null,
-          "description": "Get NEXAIR with free shipping and a lifetime warranty, exclusively for Kickstarter backers."
+          "description": "Get NEXAIR with free shipping, a free carrying case, a lifetime warranty, and a personalized thank-you message"
         }
       ],
       "ai_validated": false,
@@ -529012,7 +529418,7 @@
       "hw_type": "智能硬件",
       "hw_reason": "Smart air pump with brushless motor and real-time pressure display",
       "ended_at": "2026-07-30T14:32:48.687296Z",
-      "ai_description_en": "NEXAIR is a compact, palm-sized air pump that combines pressure measurement, inflation, and intelligent control. It features a 20,000 RPM brushless motor, real-time pressure monitoring, and automatic shutoff. NEXAIR is designed for everyday mobility and is suitable for a variety of inflation tasks, from sports balls and inflatable toys to bicycles and other high-pressure applications."
+      "ai_description_en": "NEXAIR is a compact, palm-sized air pump that combines pressure measurement, inflation, and intelligent control. It features a real-time pressure display, automatic shutoff, and a built-in LED light for low-light conditions. NEXAIR is suitable for a variety of inflation tasks, including sports balls, bicycles, and high-pressure applications."
     },
     {
       "id": "ks-1175540464",
@@ -529065,7 +529471,78 @@
         "heat": 8.1
       },
       "raw_html_hash": "c8c7e1ee7e3f145e",
-      "raw_fetched_at": "2026-11-01T18:37:16.695363+00:00"
+      "raw_fetched_at": "2026-11-01T18:37:16.695363+00:00",
+      "ai_intro_en": "More freedom for your cat. More peace of mind for you. GALUDU is designed to make everyday life with cats easier. AI-powered pet recognition and prey detection help manage who—and what—comes through the door.",
+      "ai_highlights_en": [
+        "Manage access from your phone, choose entry and exit modes, and follow your cat’s daily activity—all through one smart cat door.",
+        "Set your cat’s outdoor hours in the GALUDU app, or choose unrestricted access. For extra reassurance, select an alert window and receive a notification if no return has been recorded.",
+        "The GALUDU app brings your cat’s activity and door controls together in one place. Check the door’s lock status, see whether your cat’s latest recorded activity shows them at home or outside, and choose the access mode that fits your routine."
+      ],
+      "ai_specs_en": [
+        [
+          "Camera Resolution",
+          "720p"
+        ],
+        [
+          "Night Vision",
+          "Yes"
+        ],
+        [
+          "Battery Life",
+          "7 days"
+        ],
+        [
+          "Material",
+          "Durable materials"
+        ],
+        [
+          "Dimensions",
+          "Approx. 12.5 x 8.5 x 4.5 inches"
+        ],
+        [
+          "Weight",
+          "Approx. 3.5 pounds"
+        ],
+        [
+          "Color Options",
+          "Cloud White, Graphite Black, Warm Sand, Sage Green"
+        ],
+        [
+          "Smart Cat Key",
+          "Battery-powered wireless device (Bluetooth and NFC)"
+        ]
+      ],
+      "ai_risks_en": "Bringing a smart hardware product from a working prototype to reliable mass production involves technical, manufacturing, and logistical challenges.",
+      "ai_creator_bio_en": "Senior Industrial Designer and creator behind GALUDU.",
+      "ai_tiers": [
+        {
+          "name": "Standard Kit",
+          "price": "$149",
+          "price_usd": "$149",
+          "currency": "USD",
+          "backers": null,
+          "description": "Includes GALUDU Smart Cat Key, clear flap, and gray frosted film"
+        },
+        {
+          "name": "Premium Kit",
+          "price": "$249",
+          "price_usd": "$249",
+          "currency": "USD",
+          "backers": null,
+          "description": "Includes GALUDU Smart Cat Key, clear flap, gray frosted film, and additional features"
+        },
+        {
+          "name": "Add-on Smart Cat Key",
+          "price": "$29",
+          "price_usd": "$29",
+          "currency": "USD",
+          "backers": null,
+          "description": "Additional Smart Cat Key for multi-cat homes"
+        }
+      ],
+      "ai_description_en": "GALUDU is a smart cat door that combines AI-powered pet recognition, prey detection, and night vision to make everyday life with cats easier. With the GALUDU app, you can manage access, set outdoor hours, and receive notifications. The smart cat door is designed for long-term everyday use and is made with durable materials. It is also designed to be easy to maintain and replace individual components.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1916013658",
@@ -547211,7 +547688,78 @@
         "heat": 5.6
       },
       "raw_html_hash": "96d9fd51b3ae478b",
-      "raw_fetched_at": "2026-11-01T18:37:21.990499+00:00"
+      "raw_fetched_at": "2026-11-01T18:37:21.990499+00:00",
+      "ai_intro_en": "Hi! I’m Kristof, a 14-year-old student from Switzerland, and I’ve been working on something called STACK. It started with a simple idea: What if I could build my own programmable keypad, customize every button, and make something I would actually use every day? Using my brother’s 3D printer, affordable electronic components, and a lot of trial and error, I started turning that idea into reality.",
+      "ai_highlights_en": [
+        "Build your own customizable 12-key macro pad",
+        "Programmable mechanical keys for launching applications, files, and folders",
+        "Customizable layout for gaming, Discord, or productivity"
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Mechanical switches",
+          "spec_value": "MX-style hot-swap design"
+        },
+        {
+          "spec_name": "Controller",
+          "spec_value": "RP2040-based microcontroller"
+        },
+        {
+          "spec_name": "Keycaps",
+          "spec_value": "Customizable, relegendable keycaps with removable transparent covers"
+        },
+        {
+          "spec_name": "Circuit board",
+          "spec_value": "Custom-designed Printed Circuit Board (PCB)"
+        },
+        {
+          "spec_name": "Enclosure",
+          "spec_value": "3D-printed enclosure"
+        },
+        {
+          "spec_name": "Software",
+          "spec_value": "STACK configuration software"
+        }
+      ],
+      "ai_risks_en": "Small changes to the enclosure or assembly method may still be required after testing the next prototype. The main risks are component availability, manufacturing lead times, 3D-printing capacity, and shipping delays.",
+      "ai_creator_bio_en": "I’m Kristof, a 14-year-old student from Switzerland, and I’ve been working on something called STACK.",
+      "ai_tiers": [
+        {
+          "name": "STACK Solder-Free Kit",
+          "price": 599,
+          "price_usd": 599,
+          "currency": "CHF",
+          "backers": null,
+          "description": "Build your own macro pad without soldering!"
+        },
+        {
+          "name": "STACK Soldering Kit",
+          "price": 799,
+          "price_usd": 799,
+          "currency": "CHF",
+          "backers": null,
+          "description": "Kit includes the same core components, but parts such as the hot-swap sockets and controller headers are supplied separately for you to solder onto the PCB."
+        },
+        {
+          "name": "STACK Classroom Pack - Soldering",
+          "price": 599,
+          "price_usd": 599,
+          "currency": "CHF",
+          "backers": null,
+          "description": "12 Soldering Kits for schools"
+        },
+        {
+          "name": "STACK Classroom Pack - Solder-Free",
+          "price": 799,
+          "price_usd": 799,
+          "currency": "CHF",
+          "backers": null,
+          "description": "12 Solder-Free Kits for schools"
+        }
+      ],
+      "ai_description_en": "STACK is a customizable 12-key DIY macro pad that you can build yourself. Through Kickstarter, I hope to make STACK available as a complete electronics kit, so anyone interested can experience building and customizing their own device.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-2118149449",
@@ -575285,7 +575833,94 @@
         "heat": 3.1
       },
       "raw_html_hash": "8f0de009bf5cac18",
-      "raw_fetched_at": "2026-11-01T18:37:27.139399+00:00"
+      "raw_fetched_at": "2026-11-01T18:37:27.139399+00:00",
+      "ai_intro_en": "Retka Sled is a long-lasting, modular ice fishing sled designed for extreme winter conditions. Built with a rugged steel frame, heavy rocker skis, and an 800D ripstop basket, it's perfect for ice fishing enthusiasts. With a modular design, individual components can be replaced over time, reducing waste and keeping the sled in service for many seasons.",
+      "ai_highlights_en": [
+        "Long-lasting design with a rugged steel frame and heavy rocker skis",
+        "Modular design allows individual components to be replaced over time",
+        "Built for extreme winter conditions with an 800D ripstop basket"
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Rugged steel frame"
+        ],
+        [
+          "Material",
+          "Heavy rocker skis"
+        ],
+        [
+          "Material",
+          "800D ripstop basket"
+        ],
+        [
+          "Price",
+          "$360"
+        ],
+        [
+          "Price",
+          "$400"
+        ],
+        [
+          "Price",
+          "$450"
+        ],
+        [
+          "Price",
+          "$680"
+        ],
+        [
+          "Price",
+          "$780"
+        ]
+      ],
+      "ai_risks_en": "Manufacturing and fulfillment involve variables. Our main risks are supplier lead times, cost changes (materials/freight/tariffs), QC at production scale, and winter shipping delays for a large item.",
+      "ai_creator_bio_en": "I'm a lifelong winter enthusiast with a passion for ice fishing.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird",
+          "price": 360,
+          "price_usd": 360,
+          "currency": "USD",
+          "backers": 0,
+          "description": "1 item included"
+        },
+        {
+          "name": "Standard",
+          "price": 400,
+          "price_usd": 400,
+          "currency": "USD",
+          "backers": 0,
+          "description": "1 item included"
+        },
+        {
+          "name": "Tow Kit + Auger Clip",
+          "price": 450,
+          "price_usd": 450,
+          "currency": "USD",
+          "backers": 0,
+          "description": "1 item included"
+        },
+        {
+          "name": "Two Units",
+          "price": 680,
+          "price_usd": 680,
+          "currency": "USD",
+          "backers": 0,
+          "description": "1 item included"
+        },
+        {
+          "name": "Two Units with Tow + Auger Clip",
+          "price": 780,
+          "price_usd": 780,
+          "currency": "USD",
+          "backers": 0,
+          "description": "1 item included"
+        }
+      ],
+      "ai_description_en": "Long-lasting design Retka Sled is built for long-term use with a rugged steel frame, heavy rocker skis, and an 800D ripstop basket designed for extreme winter conditions. The modular design allows individual components (straps, clips, basket, hardware) to be replaced over time, reducing waste and keeping the sled in service for many seasons.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-117267665",
@@ -575919,7 +576554,69 @@
       },
       "raw_html_hash": "97218b262d1edfce",
       "raw_fetched_at": "2026-11-01T05:59:31.735166+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Your desk. Your comfort zone. A desk can be the right height and still feel too warm or too cold where your arms rest. Desktop Micro-Climate Station brings water-circulation cooling and warming to the part of your desk you touch — for working, reading, gaming and creating.",
+      "ai_highlights_en": [
+        "Adjust the unit using its control panel or remote. The display is described by the factory as showing real-time mat temperature.",
+        "The open-front mat gives your everyday setup a defined contact area for your wrists and forearms.",
+        "The system circulates water through the mat to adjust the surface where your wrists and forearms rest."
+      ],
+      "ai_specs_en": [
+        [
+          "Temperature range",
+          "16–35°C"
+        ],
+        [
+          "Rated power",
+          "100W"
+        ],
+        [
+          "Mat size",
+          "614 × 457 mm"
+        ],
+        [
+          "Control unit size",
+          "248 × 188 × 140 mm (L × W × H)"
+        ],
+        [
+          "Shipping weight",
+          "3.7 kg"
+        ],
+        [
+          "Packed size",
+          "32 × 26 × 26 cm"
+        ]
+      ],
+      "ai_risks_en": "The current configuration has no automatic low-water or leak detection. The supplier reports overheat and electrical protection with fault-code alerts, but supporting test evidence and operating limits still require verification.",
+      "ai_creator_bio_en": "GEEKLLY PTE. LTD. is a Singapore company incorporated in May 2025.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 119,
+          "price_usd": 94,
+          "currency": "SGD",
+          "backers": 0,
+          "description": "One Complete Set"
+        },
+        {
+          "name": "Early Bird",
+          "price": 129,
+          "price_usd": 101,
+          "currency": "SGD",
+          "backers": 0,
+          "description": "One Complete Set"
+        },
+        {
+          "name": "Standard",
+          "price": 159,
+          "price_usd": null,
+          "currency": "SGD",
+          "backers": 0,
+          "description": "One Complete Set"
+        }
+      ],
+      "ai_description_en": "The Desktop Micro-Climate Station brings water-circulation cooling and warming to the part of your desk you touch — for working, reading, gaming and creating. The system circulates water through the mat to adjust the surface where your wrists and forearms rest. The open-front mat gives your everyday setup a defined contact area for your wrists and forearms. The system can be adjusted to different temperatures and has a real-time display showing the mat temperature.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-131024936",
@@ -580249,7 +580946,7 @@
           "description": "Support the community and receive a free reward."
         }
       ],
-      "ai_description_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start. Our purpose is to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
+      "ai_description_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter. A cup of coffee can become the beginning of a friendship, an idea, a collaboration, or a fresh start. OUR PURPOSE Doxa District is being developed as an initiative of Give Hope Daily. Our long-term vision includes workforce-development opportunities for young adults and people seeking a new beginning. We want to build a sustainable community hub where people can belong, grow, work, and discover opportunity.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -586097,7 +586794,7 @@
         {
           "name": "Securidoor x2",
           "price": 110.0,
-          "price_usd": 120.0,
+          "price_usd": 123.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -586105,7 +586802,7 @@
         {
           "name": "Securidoor x3",
           "price": 151.0,
-          "price_usd": 170.0,
+          "price_usd": 168.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -586129,23 +586826,7 @@
         {
           "name": "Securidoor x6",
           "price": 110.0,
-          "price_usd": 120.0,
-          "currency": "EUR",
-          "backers": null,
-          "description": "AI-powered surveillance module"
-        },
-        {
-          "name": "Securidoor x7",
-          "price": 55.0,
-          "price_usd": 60.0,
-          "currency": "EUR",
-          "backers": null,
-          "description": "AI-powered surveillance module"
-        },
-        {
-          "name": "Securidoor x8",
-          "price": 75.5,
-          "price_usd": 85.0,
+          "price_usd": 123.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -586156,7 +586837,7 @@
       "ai_highlights_en": [
         "AI-powered surveillance module for door and window",
         "24/7 monitoring with automatic photo and video recording",
-        "AlwaysSafe AI filters out unnecessary notifications"
+        "AlwaysSafe AI filters out unnecessary notifications, retaining only essential information"
       ],
       "ai_specs_en": [
         {
@@ -586169,31 +586850,23 @@
         },
         {
           "spec_name": "Power Supply",
-          "spec_value": "Battery-powered"
+          "spec_value": "Battery-powered (up to 12 months)"
         },
         {
           "spec_name": "Connectivity",
-          "spec_value": "Wi-Fi"
+          "spec_value": "Wi-Fi and Bluetooth"
+        },
+        {
+          "spec_name": "Dimensions",
+          "spec_value": "100 x 50 x 20 mm"
+        },
+        {
+          "spec_name": "Weight",
+          "spec_value": "150g"
         },
         {
           "spec_name": "Price",
           "spec_value": "€59.00"
-        },
-        {
-          "spec_name": "Monthly Subscription",
-          "spec_value": "€29.50"
-        },
-        {
-          "spec_name": "Camera Housing Material",
-          "spec_value": "Durable plastic"
-        },
-        {
-          "spec_name": "Operating Temperature",
-          "spec_value": "-20°C to 40°C"
-        },
-        {
-          "spec_name": "Dimensions",
-          "spec_value": "100mm x 50mm x 20mm"
         }
       ],
       "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. We've studied past crowdfunding campaigns and identified common pitfalls that tech projects often fall into.",
@@ -586201,7 +586874,7 @@
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. Whether it's an attempt to pick your lock, banging on the door, or acts of vandalism, the system immediately identifies the threat.",
+      "ai_description_en": "The funds raised during this campaign will be immediately allocated to launching large-scale production (tooling, molds, and minimum order quantities).",
       "score_components": {
         "static": 21.5,
         "momentum": 0,
@@ -602230,14 +602903,6 @@
           "description": "Includes: 1 × Sound For, 3 Built-in Instrument Sounds"
         },
         {
-          "name": "Super Early Bird — Infinity Edition",
-          "price": 339,
-          "price_usd": 339,
-          "currency": "USD",
-          "backers": 1,
-          "description": "Unlock the complete musical experience with the Infinity Edition. Includes: 1 × Stringless Smart Guitar, 14 Built-in Instrument Sounds"
-        },
-        {
           "name": "Early Bird — Infinity Edit",
           "price": 369,
           "price_usd": 369,
@@ -602821,40 +603486,76 @@
         "trend": 0,
         "heat": 4.3
       },
-      "ai_intro_en": "Play Smarter is a revolutionary new guitar that combines music, technology, and design to create a new way of playing. With its authentic design, immersive experience, and endless sounds, this guitar is perfect for beginners, casual players, and anyone who wants to make music. Explore more ways to create with 14 instruments in one switch, and unlock more ways to perform your favorite songs with 5 playing styles.",
+      "ai_intro_en": "Play Smarter One Guitar, Endless Sounds Feel Like a Real Guitar Play Anywhere Reward Add-on What's in the box Timeline Design Our design is fully original. For the guitar’s front panel, we take inspiration from high-quality audio speakers and use an acoustically inspired woven fabric surface, rather than the solid plastic panels commonly found on traditional guitars. In speaker design, woven acoustic fabrics are widely used to help optimize sound transmission and diffusion. They reduce unwanted reflections and “muffled” resonance while allowing sound to pass more naturally and evenly. Applied to our guitar, this structure helps deliver a clearer, brighter, and more transparent tone, with improved detail and a more refined overall sound character.",
       "ai_highlights_en": [
-        "Authentic Design, Immersive Experience",
-        "30-Day Battery Life Built-in 4000mAh battery delivers ultra-long battery life, allowing up to 30 days of use on a single charge",
-        "Play Anywhere, Anytime Take your music anywhere in real life — from campfires and home relaxation to small performances and content creation"
+        "Built-in Phone Stand — Finally. No more awkward setups. Place your phone right in front of you — perfect for lyrics, chords, or tutorials.",
+        "Solo Mode — Immerse Yourself in Music lets you plug in headphones for a more immersive and private music experience, allowing you to fully focus on your sound without distractions.",
+        "5 Playing Styles Switch between five different playing modes and unlock more ways to perform your favorite songs."
       ],
       "ai_specs_en": [
         [
           "Battery Life",
-          "30 days"
+          "30-Day Battery Life"
         ],
         [
-          "Built-in Instrument Sounds",
-          "14"
+          "Dimensions",
+          "Full-Size Design"
         ],
         [
-          "Playing Styles",
-          "5"
+          "Materials",
+          "Acoustically inspired woven fabric surface"
         ],
         [
           "Volume Control",
           "Top of the front panel"
         ],
         [
-          "Power and Control Functions",
-          "Single switch"
+          "Power Control",
+          "Integrated into a single switch"
+        ],
+        [
+          "Weight",
+          "Not specified"
+        ],
+        [
+          "Sound Quality",
+          "Clearer, brighter, and more transparent tone"
+        ],
+        [
+          "Instrument Sounds",
+          "14 Built-in Instrument Sounds"
+        ],
+        [
+          "Magnetic Microphone",
+          "Magnetic Microphone"
+        ],
+        [
+          "Phone Holder",
+          "Phone Holder"
+        ],
+        [
+          "Headphones",
+          "Headphones"
+        ],
+        [
+          "Backpack",
+          "Backpack"
+        ],
+        [
+          "Guitar Strap",
+          "Guitar Strap"
+        ],
+        [
+          "Charging Cable",
+          "Charging Cable"
         ]
       ],
-      "ai_risks_en": "While we have strong experience in product development and manufacturing, hardware products—especially innovative ones—can present unexpected complexities. We are actively working with reliable partners and building buffer time into our schedule to minimize these risks.",
+      "ai_risks_en": "While we have strong experience in product development and manufacturing, hardware products—especially innovative ones—can present unexpected complexities. As a new type of instrument, our stringless guitar involves the integration of hardware, sensors, and audio systems. During the final stages of engineering validation and mass production, potential challenges may include fine-tuning performance, ensuring consistent quality, and coordinating with manufacturing and supply chain partners.",
       "ai_creator_bio_en": "We are a team of musicians, engineers, and designers united by a shared vision: to make music more accessible, portable, and intuitive.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "Play Smarter is a revolutionary new guitar that combines music, technology, and design to create a new way of playing. With its authentic design, immersive experience, and endless sounds, this guitar is perfect for beginners, casual players, and anyone who wants to make music. Explore more ways to create with 14 instruments in one switch, and unlock more ways to perform your favorite songs with 5 playing styles.",
+      "ai_description_en": "Our design is fully original. For the guitar’s front panel, we take inspiration from high-quality audio speakers and use an acoustically inspired woven fabric surface, rather than the solid plastic panels commonly found on traditional guitars. In speaker design, woven acoustic fabrics are widely used to help optimize sound transmission and diffusion. They reduce unwanted reflections and “muffled” resonance while allowing sound to pass more naturally and evenly. Applied to our guitar, this structure helps deliver a clearer, brighter, and more transparent tone, with improved detail and a more refined overall sound character.",
       "nameZh": "折叠智能吉他，内置乐队音效",
       "ai_intro_zh": "一款无弦折叠智能吉他，内置乐队音效，随时随地弹奏。",
       "ai_description_zh": "这款智能吉他通过触控感应面板代替琴弦，无需调音即可弹奏。内置多种乐器音色和伴奏风格。\n\n折叠设计便携收纳。蓝牙耳机静音练习不打扰他人。",
@@ -611031,7 +611732,81 @@
       },
       "raw_html_hash": "5d803a95bcfb604d",
       "raw_fetched_at": "2026-11-01T05:59:41.981291+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Welcome to Dracore, a world where energy cores hold living spirits. Six Awakeners can hear what everyone else has missed. Their journey begins with a question: what would you do if the power keeping your city alive came at someone else’s expense? I’m Minh, the creator behind LongKey. I’m turning this world into chibi figures and matching acrylic standee charms, starting with Kairox. His first physical figure prototype is here, alongside real charm samples. This campaign will help me finish the rest of the collection and make the first 120 mystery boxes.",
+      "ai_highlights_en": [
+        "Collect six fantasy chibi figures from mystery boxes, each with a matching acrylic standee charm.",
+        "A world where energy cores hold living spirits.",
+        "A figure can give a story a place on your desk or shelf."
+      ],
+      "ai_specs_en": [
+        {
+          "spec_name": "Standee Charm",
+          "spec_value": "£8"
+        },
+        {
+          "spec_name": "Early Awakener",
+          "spec_value": "£24"
+        },
+        {
+          "spec_name": "One Mystery Box",
+          "spec_value": "£26"
+        },
+        {
+          "spec_name": "Three Mystery Boxes",
+          "spec_value": "£75"
+        },
+        {
+          "spec_name": "Sealbreaker Pack",
+          "spec_value": "£120"
+        }
+      ],
+      "ai_risks_en": "Dracore is in development. One physical Kairox figure prototype has been made and is shown on this page. Nyra's 3D design is complete, while the remaining four figures are continuing through 3D development. The other five figures and the standee charms still require physical sampling and review before production approval.",
+      "ai_creator_bio_en": "I’m Minh, the creator behind LongKey. I’m turning this world into chibi figures and matching acrylic standee charms, starting with Kairox.",
+      "ai_tiers": [
+        {
+          "name": "Standee Charm",
+          "price": "£8",
+          "price_usd": "null",
+          "currency": "GBP",
+          "backers": "null",
+          "description": "One random Dracore standee charm with a display base."
+        },
+        {
+          "name": "Early Awakener",
+          "price": "£24",
+          "price_usd": "null",
+          "currency": "GBP",
+          "backers": "1",
+          "description": "One sealed mystery box from the first 20 pledges. It will contain one random figure and its matching standee charm from the planned six character series."
+        },
+        {
+          "name": "One Mystery Box",
+          "price": "£26",
+          "price_usd": "null",
+          "currency": "GBP",
+          "backers": "0",
+          "description": "One sealed mystery box containing one random figure and its matching standee charm from the planned six character series."
+        },
+        {
+          "name": "Three Mystery Boxes",
+          "price": "£75",
+          "price_usd": "null",
+          "currency": "GBP",
+          "backers": "0",
+          "description": "Three sealed Dracore Mystery Boxes. Each box will contain one random figure and its matching standee charm from the planned six character series."
+        },
+        {
+          "name": "Sealbreaker Pack",
+          "price": "£120",
+          "price_usd": "null",
+          "currency": "GBP",
+          "backers": "1",
+          "description": "Five Dracore Mystery Boxes packed to contain five different characters, with no duplicates. Each box will contain one figure and its matching standee charm. The secret may replace one regular character, so the pack does not guarantee all five regular characters."
+        }
+      ],
+      "ai_description_en": "The collection is taking shape. Kairox: a physical figure sample has been made and is shown here. Nyra: the 3D figure design is complete; physical sampling and review are the next steps. Aeron, Mira, Nyx and the secret character: the remaining four figure designs are continuing through 3D development. Standee charms: a manufacturer sample shipment has arrived and is shown below. The samples demonstrate printed acrylic pieces, bases and attachment hardware; the full range still needs inspection, any revisions and final production approval.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-491959592",
@@ -650790,10 +651565,14 @@
         ],
         [
           "Refunds and Cancellation",
-          "Backer Flexibility"
+          "Backers' Rights"
+        ],
+        [
+          "Project Timeline",
+          "Progress Tracking"
         ]
       ],
-      "ai_risks_en": "Digital delivery may be subject to minor delays.",
+      "ai_risks_en": "Digital delivery may be subject to minor delays. Refunds and cancellation Backers can cancel their pledges at any time during the crowdfunding campaign, and funds will only be collected once the campaign successfully ends. After CF end refunds are not possible.",
       "ai_creator_bio_en": "ruiqi wang doing business as Retranslate the Bible.",
       "ai_tiers": [
         {
@@ -650802,10 +651581,18 @@
           "price_usd": "20.00",
           "currency": "USD",
           "backers": null,
-          "description": "Digital Edition (PDF &amp; ePub)"
+          "description": "Digital edition of the Bible in PDF and ePub formats"
+        },
+        {
+          "name": "Pledge Any Amount",
+          "price": null,
+          "price_usd": null,
+          "currency": "USD",
+          "backers": null,
+          "description": "Support the project and tip the creator by pledging any amount you want"
         }
       ],
-      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation.",
+      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation. While historical classic translations each have their own merits, they are often bound by specific denominational traditions, target language conventions, or the limitations of earlier source texts. Mastery of the three major biblical languages enables you to bypass the secondary filtration of modern intermediary languages like English, and confront directly the dynamic, imagery-rich Semitic mindset of Biblical Hebrew, as well as the logically rigorous, tense-precise phrasal structures of Koine Greek. Your re-translation aims to strip away millenniums-old exegetical blind spots, allowing the original texture and breath of the scriptures to become vividly manifest once again.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -657268,131 +658055,21 @@
       ],
       "ai_specs_en": [
         "Web Development",
-        "€500",
-        "Custom Web Design",
-        "€800",
-        "Maintenance and Updates",
-        "€200/year",
-        "Responsive Design",
-        "€300",
-        "E-commerce Integration",
-        "€400",
-        "SEO Optimization",
-        "€100",
-        "Content Management System",
-        "€200",
-        "Custom Theme Development",
-        "€500",
-        "Responsive Email Templates",
-        "€100",
-        "Custom CSS/JS",
-        "€200",
-        "Responsive Image Gallery",
-        "€150",
-        "Custom 404 Page",
-        "€50"
+        "€500"
       ],
-      "ai_risks_en": "There are no significant risks associated with this project.",
+      "ai_risks_en": "No risks mentioned",
       "ai_creator_bio_en": "33 Jahre Webentwickler / Webdesigner",
       "ai_tiers": [
         {
-          "name": "€500 Web Development",
-          "price": 500,
-          "price_usd": 560,
+          "name": "Web Development",
+          "price": "€500",
+          "price_usd": null,
           "currency": "EUR",
           "backers": null,
-          "description": "Basic web development services"
-        },
-        {
-          "name": "€800 Custom Web Design",
-          "price": 800,
-          "price_usd": 880,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Custom web design solutions"
-        },
-        {
-          "name": "€200/year Maintenance and Updates",
-          "price": 200,
-          "price_usd": 220,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Maintenance and updates for your website"
-        },
-        {
-          "name": "€300 Responsive Design",
-          "price": 300,
-          "price_usd": 330,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Responsive web design solutions"
-        },
-        {
-          "name": "€400 E-commerce Integration",
-          "price": 400,
-          "price_usd": 440,
-          "currency": "EUR",
-          "backers": null,
-          "description": "E-commerce integration services"
-        },
-        {
-          "name": "€100 SEO Optimization",
-          "price": 100,
-          "price_usd": 110,
-          "currency": "EUR",
-          "backers": null,
-          "description": "SEO optimization services"
-        },
-        {
-          "name": "€200 Content Management System",
-          "price": 200,
-          "price_usd": 220,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Content management system services"
-        },
-        {
-          "name": "€500 Custom Theme Development",
-          "price": 500,
-          "price_usd": 560,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Custom theme development services"
-        },
-        {
-          "name": "€100 Responsive Email Templates",
-          "price": 100,
-          "price_usd": 110,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Responsive email template services"
-        },
-        {
-          "name": "€200 Custom CSS/JS",
-          "price": 200,
-          "price_usd": 220,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Custom CSS/JS services"
-        },
-        {
-          "name": "€150 Responsive Image Gallery",
-          "price": 150,
-          "price_usd": 165,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Responsive image gallery services"
-        },
-        {
-          "name": "€50 Custom 404 Page",
-          "price": 50,
-          "price_usd": 55,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Custom 404 page services"
+          "description": "Custom web development services"
         }
       ],
-      "ai_description_en": "This project offers a range of web development and design services, including custom web design, e-commerce integration, SEO optimization, and more. With a focus on responsive design and content management systems, this project is perfect for businesses and individuals looking to improve their online presence.",
+      "ai_description_en": "This project is a web development and design project by Markus Ealy, a 33-year-old web developer and designer.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -705113,21 +705790,25 @@
       "ai_highlights_en": [
         "A dark, post-apocalyptic universe where powerful machines meet mutation, destruction, and survival.",
         "A collection of characters with unique characteristics, scars, glitches, and battle damage.",
-        "A universe filled with mystery, powerful characters, and endless possibilities, including digital collectibles, physical mecha model kits, comics, merchandise, and a future animated series."
+        "A universe filled with mystery, powerful characters, and endless possibilities, featuring twisted mechanical monsters and battle-hardened robotic warriors."
       ],
       "ai_specs_en": [
         [
           "Molds and packages"
         ],
         [
-          "Environmental commitments"
+          "Digital collectibles",
+          "Physical mecha model kits",
+          "Comics",
+          "Merchandise",
+          "Animated series"
         ]
       ],
       "ai_risks_en": "The only challenge I have is getting these made I need the funds from here to pay for the molds and packages",
-      "ai_creator_bio_en": "Builder and founder of this product",
+      "ai_creator_bio_en": "Builder and founder of Dead Mecha",
       "ai_tiers": [
         {
-          "name": "All or Nothing",
+          "name": "All Or Nothing",
           "price": "$0",
           "price_usd": null,
           "currency": "USD",
@@ -705576,7 +706257,69 @@
       },
       "raw_html_hash": "8239a49fc2331d7c",
       "raw_fetched_at": "2026-10-31T17:53:41.801455+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Vigeos is a fall detection system designed to run entirely at home, without the need for a button or device to wear. It uses AI to detect falls and sends alerts to the family app, ensuring older people receive the care they need. This Kickstarter campaign will fund the final prototype, testing, and customer support.",
+      "ai_highlights_en": [
+        "AI-powered fall detection",
+        "End-to-end encrypted video clips",
+        "Discreet technology that keeps watch"
+      ],
+      "ai_specs_en": [
+        [
+          "Screen size",
+          "5-inch"
+        ],
+        [
+          "Camera count",
+          "1"
+        ],
+        [
+          "Camera type",
+          "Standard"
+        ],
+        [
+          "AI accelerator",
+          "Raspberry Pi 5 with Hailo, 13 TOPS"
+        ],
+        [
+          "Service subscription",
+          "€29.99/month, billed from the first month"
+        ],
+        [
+          "Pricing",
+          "€349 (box + 1 camera), €399 (box + 2 cameras), €429 (box + 3 cameras)"
+        ]
+      ],
+      "ai_risks_en": "Vigeos carries real risks, including fall detection accuracy and manufacturing delays. We will test the system in real living conditions and share the results we actually measure.",
+      "ai_creator_bio_en": "Romain Dellamonica, founder of Vigeos, designs and builds every part of the system himself.",
+      "ai_tiers": [
+        {
+          "name": "Starter pack",
+          "price": 349,
+          "price_usd": 392,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Vigeos kit: box + 1 camera"
+        },
+        {
+          "name": "Vigeos kit: box + 2 cameras",
+          "price": 399,
+          "price_usd": 448,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Vigeos box and two cameras"
+        },
+        {
+          "name": "Vigeos kit: box + 3 cameras",
+          "price": 429,
+          "price_usd": 481,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "Vigeos box and three cameras"
+        }
+      ],
+      "ai_description_en": "Vigeos is a fall detection system designed to run entirely at home, without the need for a button or device to wear. It uses AI to detect falls and sends alerts to the family app, ensuring older people receive the care they need. The system is built from off-the-shelf components and will be tested in real living conditions before shipping.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1631901214",
