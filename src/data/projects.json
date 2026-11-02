@@ -33454,7 +33454,89 @@
       },
       "raw_html_hash": "6306147dbe49520b",
       "raw_fetched_at": "2026-11-01T18:36:53.965733+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Heart2Heart is a preventive heart-shaped safety keychain that makes it easier to reach out to the people you trust whenever you feel unsafe. It gives you two simple ways to reach the people you trust — without taking out your phone. Level 1: Follow me home, Double press to share your live location with your trusted contacts. Level 2: Ask for help, Press &amp; hold for 3 seconds when you need your trusted contacts to take action!",
+      "ai_highlights_en": [
+        "Reach out to trusted contacts without taking out your phone",
+        "Double press to share live location",
+        "Press &amp; hold for 3 seconds to ask for help"
+      ],
+      "ai_specs_en": [
+        [
+          "Battery Life",
+          "Up to 4 days, or approximately 20–30 hours with continuous vibration"
+        ],
+        [
+          "Battery Level",
+          "Check directly in the app"
+        ],
+        [
+          "Colors",
+          "Four colors"
+        ],
+        [
+          "Subscription",
+          "40 SMS messages every month, with option to add more"
+        ],
+        [
+          "Pricing",
+          "DKK 370 - DKK 1,500, depending on reward"
+        ]
+      ],
+      "ai_risks_en": "Producing hardware always comes with potential challenges, from manufacturing and component availability to testing, certification and shipping.",
+      "ai_creator_bio_en": "Heart2Heart is a Danish femtech startup founded by three women, redesigning everyday safety through prevention, care and connection.",
+      "ai_tiers": [
+        {
+          "name": "Super Early Bird",
+          "price": 370,
+          "price_usd": 56,
+          "currency": "DKK",
+          "backers": 19,
+          "description": "40% OFF — Our best launch offer. Available for the first 48 hours only!"
+        },
+        {
+          "name": "Heart2Heart - Random Color",
+          "price": 410,
+          "price_usd": 62,
+          "currency": "DKK",
+          "backers": 0,
+          "description": "33% OFF — Our special Kickstarter offer with a surprise color!"
+        },
+        {
+          "name": "Heart2Heart - Choose a color",
+          "price": 490,
+          "price_usd": 74,
+          "currency": "DKK",
+          "backers": 1,
+          "description": "20% OFF — Our special Kickstarter offer. Choose your favorite color!"
+        },
+        {
+          "name": "Heart2Heart + 1 year subscription",
+          "price": 720,
+          "price_usd": 108,
+          "currency": "DKK",
+          "backers": 0,
+          "description": "25% OFF — Enjoy a full year of Heart2Heart with 12 months of subscription included!"
+        },
+        {
+          "name": "Heart2Heart Bestie Package",
+          "price": 880,
+          "price_usd": 132,
+          "currency": "DKK",
+          "backers": 0,
+          "description": "30% OFF — BETTER TOGETHER!"
+        },
+        {
+          "name": "Heart2Heart 4 life",
+          "price": 1500,
+          "price_usd": 224,
+          "currency": "DKK",
+          "backers": 2,
+          "description": "HEART2HEART FOR LIFE! Get your Heart2Heart with a lifetime subscription included."
+        }
+      ],
+      "ai_description_en": "Heart2Heart is a preventive heart-shaped safety keychain that makes it easier to reach out to the people you trust whenever you feel unsafe. It gives you two simple ways to reach the people you trust — without taking out your phone. Level 1: Follow me home, Double press to share your live location with your trusted contacts. Level 2: Ask for help, Press &amp; hold for 3 seconds when you need your trusted contacts to take action!",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1362996791",
@@ -38542,7 +38624,117 @@
       },
       "raw_html_hash": "4c68a09bf8f07691",
       "raw_fetched_at": "2026-10-31T17:52:51.124104+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Bring the fascination home. A300 is intended as an ambient accent. not a replacement for primary room lighting. Thoughtful where it counts.",
+      "ai_highlights_en": [
+        "Real prototypes. Real reactions.",
+        "Three gases. Three expressions of light.",
+        "A form made to hold living light."
+      ],
+      "ai_specs_en": [
+        [
+          "Material",
+          "Silica (sand)"
+        ],
+        [
+          "Base",
+          "3D-printed layer by layer"
+        ],
+        [
+          "Gas",
+          "Inert noble gases (argon/neon)"
+        ],
+        [
+          "Lamp type",
+          "Plasma lamp"
+        ],
+        [
+          "Price",
+          "$239 (MSRP $399)"
+        ],
+        [
+          "Price (HKD)",
+          "$239 (MSRP $399)"
+        ]
+      ],
+      "ai_risks_en": "We're transparent: delays can happen—from fine-tuning 3D-printing parameters to securing gas certifications.",
+      "ai_creator_bio_en": "The people behind A300.",
+      "ai_tiers": [
+        {
+          "name": "Single-Eclipse",
+          "price": 1875,
+          "price_usd": 239,
+          "currency": "HKD",
+          "backers": 1,
+          "description": "Xenon Lamp for $239 (MSRP $399) — save $160."
+        },
+        {
+          "name": "Single-Nova",
+          "price": 2032,
+          "price_usd": 259,
+          "currency": "HKD",
+          "backers": 1,
+          "description": "Neon Lamp for $259 (MSRP $399) — save $140."
+        },
+        {
+          "name": "Single-Meteor",
+          "price": 2032,
+          "price_usd": 259,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Krypton Lamp for $259 (MSRP $399) — save $140."
+        },
+        {
+          "name": "Duo-2×Eclipse",
+          "price": 3679,
+          "price_usd": 469,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Twin Xenon Lamps for $469 (MSRP $798) — save $329."
+        },
+        {
+          "name": "Duo-Eclipse+Nov",
+          "price": 3679,
+          "price_usd": 469,
+          "currency": "HKD",
+          "backers": 1,
+          "description": "Xenon + Neon duo for $469 (MSRP $798) — save $329."
+        },
+        {
+          "name": "Duo-2×Eclipse",
+          "price": 3816,
+          "price_usd": 489,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Twin Xenon Lamps for $489 (MSRP $798) — save $309."
+        },
+        {
+          "name": "Duo-Eclipse+Nova",
+          "price": 3816,
+          "price_usd": 489,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Xenon + Neon duo for $489 (MSRP $798) — save $309."
+        },
+        {
+          "name": "Trio- Eclipse+Nova+Met",
+          "price": 5405,
+          "price_usd": 689,
+          "currency": "HKD",
+          "backers": 1,
+          "description": "Complete noble gas trio for $689 (MSRP $1,197) — save $508."
+        },
+        {
+          "name": "Trio- Eclipse+Nova+Meteor",
+          "price": 5719,
+          "price_usd": 729,
+          "currency": "HKD",
+          "backers": 1,
+          "description": "Complete noble gas trio for $729 (MSRP $1,197) — save $468."
+        }
+      ],
+      "ai_description_en": "A300 is a plasma lamp made from silica (sand) and inert noble gases (argon/neon). It's intended as an ambient accent, not a replacement for primary room lighting. The lamp is made using 3D printing and has a modular design that allows for easy replacement of the plasma core. The lamp is also designed to be sustainable, with a recyclable base and a production process that minimizes waste.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1131130532",
@@ -104840,50 +105032,46 @@
       "ai_validated": false,
       "ai_intro_en": "Meet Litejam Acoustic Neo A1, the revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike.",
       "ai_highlights_en": [
-        "Learn guitar faster and enjoy playing more with Litejam's interactive LED guidance",
-        "Practice common chord progressions in every key with Strumming and Fingerpicking modes",
-        "Master every scale with Litejam's Scale Mode, featuring 12 root keys and 18 scale types per key"
+        "Learn guitar faster with real-time LED guidance",
+        "Practice with confidence, no more looking back and forth between tabs and videos",
+        "Unlock the full potential of your playing with interactive LED patterns and customizable settings"
       ],
       "ai_specs_en": [
-        [
-          "Body",
-          "Carbon Fiber"
-        ],
-        [
-          "Battery",
-          "Rechargeable (up to 5-8 hours)"
-        ],
-        [
-          "Connectivity",
-          "Bluetooth"
-        ],
-        [
-          "Neck",
-          "Roasted Maple"
-        ],
-        [
-          "Frets",
-          "24 Stainless Steel"
-        ],
-        [
-          "Pickups",
-          "Custom Alnico V Humbuckers"
-        ],
-        [
-          "Tremolo",
-          "Wilkinson 2-Point Tremolo"
-        ],
-        [
-          "Finish",
-          "Premium Gold Hardware (Green Metallic Burst)"
-        ],
-        [
-          "Weight",
-          "Lightweight"
-        ]
+        {
+          "spec_name": "Body Material",
+          "spec_value": "Carbon Fiber"
+        },
+        {
+          "spec_name": "Battery Life",
+          "spec_value": "Up to 5-8 hours"
+        },
+        {
+          "spec_name": "Connectivity",
+          "spec_value": "Bluetooth"
+        },
+        {
+          "spec_name": "Tremolo System",
+          "spec_value": "Wilkinson 2-Point Tremolo"
+        },
+        {
+          "spec_name": "Pickups",
+          "spec_value": "Custom Neo Alnico V Humbuckers"
+        },
+        {
+          "spec_name": "Neck Material",
+          "spec_value": "Roasted Maple"
+        },
+        {
+          "spec_name": "Frets",
+          "spec_value": "24 Stainless Steel"
+        },
+        {
+          "spec_name": "Tuners",
+          "spec_value": "Premium Locking Tuners"
+        }
       ],
-      "ai_risks_en": "The project is subject to risks related to manufacturing, supply chain, and market demand. However, Litejam has a strong team and a solid plan in place to mitigate these risks.",
-      "ai_creator_bio_en": "Litejam is a company that aims to make music learning simple, visual, and fun. With a strong team and a solid plan, Litejam is committed to building an interactive music learning ecosystem that combines smart hardware, AI learning, and interactive lessons.",
+      "ai_risks_en": "As with any new technology, there are risks associated with the development and production of Litejam Neo A1. These include, but are not limited to, delays in production, changes in market demand, and potential technical issues with the smart hardware and software.",
+      "ai_creator_bio_en": "Litejam is a company dedicated to making music learning simple, visual, and fun. With a team of international engineers, software developers, and musicians, Litejam is committed to creating innovative smart hardware and interactive learning experiences that transform the guitar into a visual learning experience.",
       "ai_tiers": [
         {
           "name": "Back this project",
@@ -104891,7 +105079,7 @@
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Back this project and support the development of Litejam Neo A1"
+          "description": "Back this project and help us create the future of interactive music learning."
         },
         {
           "name": "Remind me",
@@ -104899,23 +105087,23 @@
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Remind me to back this project when it's available"
+          "description": "Remind me to back this project when it's available."
         },
         {
           "name": "Litejam Acoustic Neo A1",
           "price": "$299",
           "price_usd": "$299",
-          "currency": "$",
+          "currency": "USD",
           "backers": null,
-          "description": "Get your Litejam Neo A1 smart guitar and start learning guitar faster and enjoying playing more"
+          "description": "Get your Litejam Acoustic Neo A1 smart guitar and start learning guitar faster and more confidently."
         },
         {
           "name": "Litejam Neo Bass B4NS",
           "price": "$499",
           "price_usd": "$499",
-          "currency": "$",
+          "currency": "USD",
           "backers": null,
-          "description": "Get your Litejam Neo Bass B4NS smart bass guitar and start learning bass faster and enjoying playing more"
+          "description": "Get your Litejam Neo Bass B4NS smart bass guitar and start learning bass faster and more confidently."
         },
         {
           "name": "Litejam Guitar Academy",
@@ -104923,7 +105111,7 @@
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Get access to Litejam's premium beginner guitar course, including chords, rhythm, practice exercises, and more"
+          "description": "Get access to our premium beginner guitar course, including chords, rhythm, practice exercises, and more."
         },
         {
           "name": "1-Year Litejam Play Pass",
@@ -104931,7 +105119,7 @@
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Get a 1-year premium play membership, unlocking thousands of songs, chords, tabs, and more"
+          "description": "Get a year of premium play membership, including access to thousands of songs, chords, tabs, and more."
         },
         {
           "name": "AI Backing Track Studio",
@@ -104939,51 +105127,43 @@
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Get access to Litejam's AI-powered backing track studio, featuring drums, bass, piano, strings, and vocal removal"
+          "description": "Get access to our AI-powered backing track studio, including drums, bass, piano, strings, and more."
         },
         {
           "name": "Stretch Goal 1: Classical Fingerstyle Pack",
           "price": "$500,000",
           "price_usd": "$500,000",
-          "currency": "$",
+          "currency": "USD",
           "backers": null,
-          "description": "Unlock 10 interactive classical fingerstyle lessons, including HD video lessons, interactive tabs, and more"
+          "description": "Unlock 10 interactive classical fingerstyle lessons and learn timeless classical pieces with our HD video lessons and interactive tabs."
         },
         {
           "name": "Stretch Goal 2: Litejam Guitar Academy",
           "price": "$750,000",
           "price_usd": "$750,000",
-          "currency": "$",
+          "currency": "USD",
           "backers": null,
-          "description": "Get a premium beginner guitar course, including chords, rhythm, practice exercises, and more"
+          "description": "Get access to our premium beginner guitar course, including chords, rhythm, practice exercises, and more."
         },
         {
           "name": "Stretch Goal 3: 1-Year Litejam Play Pass",
           "price": "$1,000,000",
           "price_usd": "$1,000,000",
-          "currency": "$",
+          "currency": "USD",
           "backers": null,
-          "description": "Get a 1-year premium play membership, unlocking thousands of songs, chords, tabs, and more"
+          "description": "Get a year of premium play membership, including access to thousands of songs, chords, tabs, and more."
         },
         {
           "name": "Stretch Goal 4: AI Backing Track Studio",
           "price": "$1,500,000",
           "price_usd": "$1,500,000",
-          "currency": "$",
+          "currency": "USD",
           "backers": null,
-          "description": "Get access to Litejam's AI-powered backing track studio, featuring drums, bass, piano, strings, and vocal removal"
-        },
-        {
-          "name": "Stretch Goal 5: Creator Marketplace",
-          "price": "$1,500,000",
-          "price_usd": "$1,500,000",
-          "currency": "$",
-          "backers": null,
-          "description": "Get access to Litejam's creator marketplace, featuring a library of songs, interactive content, and more"
+          "description": "Get access to our AI-powered backing track studio, including drums, bass, piano, strings, and more."
         }
       ],
       "ai_source": "raw_html",
-      "ai_description_en": "Litejam Neo A1 is a revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and enjoy playing more. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike. The guitar features a range of innovative features, including Strumming and Fingerpicking modes, Scale Mode, and Chromatic Scale Practice. Litejam Neo A1 is also compatible with the Litejam App, which offers a range of interactive lessons, songs, and exercises to help you improve your skills. With its sleek design and user-friendly interface, Litejam Neo A1 is the perfect choice for anyone looking to take their guitar playing to the next level.",
+      "ai_description_en": "Litejam Acoustic Neo A1 is a revolutionary smart guitar that guides your fretting and picking hands in real time, helping you learn guitar faster and more confidently. With its carbon fiber body, rechargeable battery, and Bluetooth connectivity, Litejam Neo A1 is the perfect instrument for beginners and experienced musicians alike. Learn more about our smart guitar and how it can help you improve your playing skills.",
       "ended_at": "2026-10-29T07:50:01.570121Z"
     },
     {
@@ -124575,20 +124755,16 @@
           "Yes"
         ],
         [
-          "Dimensions",
-          "Not specified"
+          "Colors",
+          "1000+"
         ],
         [
-          "Weight",
-          "Not specified"
+          "Coverage",
+          "Wide"
         ],
         [
-          "Material",
-          "Not specified"
-        ],
-        [
-          "Certifications",
-          "CE, TUV, FDA, ROHS, PSE"
+          "Smart Home Integration",
+          "Seamless integration with Amazon Alexa and Google Home"
         ]
       ],
       "ai_risks_en": "We have a well-established production process and a reliable supply chain. However, challenges such as delays in component sourcing or unexpected manufacturing issues may occur.",
@@ -124597,7 +124773,7 @@
         {
           "name": "Single Bulb",
           "price": 310,
-          "price_usd": 39,
+          "price_usd": 40,
           "currency": "HK$",
           "backers": 4,
           "description": "Perfect entry price to turn any lamp into a magical light show."
@@ -124662,7 +124838,7 @@
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-07-18T17:39:43.983757Z",
-      "ai_description_en": "Twelvetooo is a professional manufacturer of laser semiconductor intelligent application products, integrating research, production, sales, and service. Our SMART PROJECTION BULB transforms ordinary lighting into a dynamic, cinema-like experience with flowing aurora-inspired light and immersive motion. With endless color possibilities, instant warm and cool light, smart home integration, and music sync mode, our bulb is perfect for creating a magical light show in any room. Whether you're relaxing, gaming, hosting a party, or winding down at night, every scene feels more vivid and atmospheric."
+      "ai_description_en": "Twelvetooo SMART PROJECTION BULB transforms ordinary lighting into a dynamic, cinema-like experience with flowing aurora-inspired light and immersive motion. With seamless integration with Amazon Alexa and Google Home, you can control power, brightness, and colors with simple voice commands. The Surp Life app allows you to easily adjust brightness, colors, and dynamic projection effects in seconds, creating custom lighting scenes, setting schedules, or personalizing light sequences. Perfect for whole-home transformation, the Family & Party Pack: 4 Bulbs is a great value for $99 (save nearly $100)."
     },
     {
       "id": "ks-364408359",
@@ -134938,7 +135114,93 @@
       },
       "raw_html_hash": "4b27f683692f4ace",
       "raw_fetched_at": "2026-11-01T18:37:37.737255+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Redefining Mobility for a Life Still in Motion. Seriton is shaping a new standard for personal mobility—where refined engineering, exceptional comfort, and intelligent versatility come together.",
+      "ai_highlights_en": [
+        "Refined engineering for exceptional comfort and intelligent versatility",
+        "S-Boost technology for stronger climbing support, greater stability, and more confident control",
+        "Built for more: adapt Seriton to your lifestyle with key dimensions, rider fit, and carrying capacity"
+      ],
+      "ai_specs_en": [
+        [
+          "Frame Material",
+          "6061 Aluminum"
+        ],
+        [
+          "Rider Fit",
+          "Adjustable"
+        ],
+        [
+          "Carrying Capacity",
+          "Up to 250 lbs"
+        ],
+        [
+          "Battery Life",
+          "Up to 60 miles"
+        ],
+        [
+          "Charging Time",
+          "Up to 4 hours"
+        ],
+        [
+          "Speed",
+          "Up to 25 mph"
+        ],
+        [
+          "Suspension",
+          "S-Boost technology"
+        ],
+        [
+          "Braking",
+          "Regenerative braking"
+        ],
+        [
+          "Weight",
+          "Approx. 120 lbs"
+        ],
+        [
+          "Dimensions",
+          "Length: 72 in, Width: 36 in, Height: 48 in"
+        ],
+        [
+          "Warranty",
+          "Lifetime warranty"
+        ],
+        [
+          "Price",
+          "$3,299"
+        ]
+      ],
+      "ai_risks_en": "Seriton combines mechanical engineering, electrical systems, suspension and stability components, custom parts, and multiple manufacturing processes, which carries some uncertainty.",
+      "ai_creator_bio_en": "Seriton is built by a team with years of experience in electric trike engineering and manufacturing.",
+      "ai_tiers": [
+        {
+          "name": "Seriton Founding Edition",
+          "price": 3299,
+          "price_usd": 3299,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Our most exclusive launch offer, reserved for the first 10 backers."
+        },
+        {
+          "name": "Seriton Early Bird",
+          "price": 3499,
+          "price_usd": 3499,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Secure your Seriton at our second-lowest Kickstarter price, complete with an individually numbered Founder Plaque and the standard product package."
+        },
+        {
+          "name": "Seriton / KS Edition",
+          "price": 3699,
+          "price_usd": 3699,
+          "currency": "USD",
+          "backers": 0,
+          "description": "Own Seriton at our exclusive Kickstarter campaign price, complete with the standard product package and everything you need to enjoy the full Seriton experience."
+        }
+      ],
+      "ai_description_en": "Seriton is built around a durable 6061 aluminum frame, selected for its balance of strength, corrosion resistance, and long-term durability. The frame and key structural components are engineered for real-world riding conditions, while serviceable and replaceable components help extend the vehicle’s usable life.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1653348471",
@@ -146569,7 +146831,7 @@
           "¥5,611,799"
         ],
         [
-          "Price_USD",
+          "Price_usd",
           ""
         ],
         [
@@ -146581,7 +146843,7 @@
           "Interchangeable Faceplates — designed for different moods, different occasions, and different versions of you. Swap them in seconds and give your everyday carry a fresh identity."
         ]
       ],
-      "ai_risks_en": "Manufacturing Challenges and Fulfillment & Shipping Risks",
+      "ai_risks_en": "Manufacturing Challenges and Fulfillment &amp; Shipping Risks",
       "ai_creator_bio_en": "A group of engineers and friends who love design and are obsessed with precision engineering.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
@@ -184074,41 +184336,57 @@
       "ai_highlights_en": [
         "Ergonomic screen positioning without books or extra stands",
         "Stepless height adjustment for a natural viewing height",
-        "Solid support and effortless setup for a stable and portable monitor"
+        "Portable and compact design for easy transport"
       ],
       "ai_specs_en": [
-        {
-          "spec_name": "Display Size",
-          "spec_value": "15/16/18 inches"
-        },
-        {
-          "spec_name": "Resolution",
-          "spec_value": "2560x1600/1440"
-        },
-        {
-          "spec_name": "Stepless Height Adjustment",
-          "spec_value": "0-475mm"
-        },
-        {
-          "spec_name": "Weight",
-          "spec_value": "1.5kg"
-        },
-        {
-          "spec_name": "Power",
-          "spec_value": "USB-C, 5V/3A"
-        },
-        {
-          "spec_name": "Ports",
-          "spec_value": "2x Type-C"
-        },
-        {
-          "spec_name": "Color Gamut",
-          "spec_value": "100% sRGB"
-        },
-        {
-          "spec_name": "Warranty",
-          "spec_value": "1-Year"
-        }
+        [
+          "Display Size",
+          "16\""
+        ],
+        [
+          "Resolution",
+          "2560x1600"
+        ],
+        [
+          "Aspect Ratio",
+          "16:9"
+        ],
+        [
+          "Refresh Rate",
+          "60Hz"
+        ],
+        [
+          "Connectivity",
+          "2x Type-C"
+        ],
+        [
+          "Power",
+          "USB-C Power Delivery"
+        ],
+        [
+          "Weight",
+          "1.3kg"
+        ],
+        [
+          "Dimensions",
+          "23.5 x 15.5 x 1.3cm"
+        ],
+        [
+          "Material",
+          "Aluminum"
+        ],
+        [
+          "Color Gamut",
+          "100% sRGB"
+        ],
+        [
+          "Brightness",
+          "400cd/m2"
+        ],
+        [
+          "Response Time",
+          "5ms"
+        ]
       ],
       "ai_risks_en": "As with any hardware project, LiftVue may face challenges related to production scheduling, component supply, quality control, packaging, and international logistics.",
       "ai_creator_bio_en": "We are a team focused on creating practical display solutions for modern, flexible work.",
@@ -184119,7 +184397,7 @@
           "price_usd": 99,
           "currency": "HKD",
           "backers": 0,
-          "description": "Get the LiftVue S15 portable monitor for $99"
+          "description": "Get the LiftVue S15 portable monitor for $99, a 34% discount from the MSRP of $151."
         },
         {
           "name": "Early Bird",
@@ -184127,60 +184405,60 @@
           "price_usd": 110,
           "currency": "HKD",
           "backers": 1,
-          "description": "Get the LiftVue S15 portable monitor for $110"
-        },
-        {
-          "name": "Early Bird Duo",
-          "price": 639,
-          "price_usd": 104.5,
-          "currency": "HKD",
-          "backers": 0,
-          "description": "Get two LiftVue S16 portable monitors for $104.50"
+          "description": "Get the LiftVue S16 portable monitor for $110, a 34% discount from the MSRP of $166."
         },
         {
           "name": "Super Early Bird Duo",
-          "price": 1952,
+          "price": 952,
+          "price_usd": 129,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Get two LiftVue S16 portable monitors for $129 each, a 44% discount from the MSRP of $332."
+        },
+        {
+          "name": "Early Bird Duo",
+          "price": 1639,
+          "price_usd": 209,
+          "currency": "HKD",
+          "backers": 0,
+          "description": "Get two LiftVue S16 portable monitors for $209 each, a 37% discount from the MSRP of $332."
+        },
+        {
+          "name": "Super Early Bird Duo",
+          "price": 2011,
           "price_usd": 259,
           "currency": "HKD",
           "backers": 0,
-          "description": "Get two LiftVue S16Q portable monitors for $259"
+          "description": "Get two LiftVue S16Q portable monitors for $259 each, a 41% discount from the MSRP of $442."
         },
         {
           "name": "Early Bird Duo",
-          "price": 1717,
-          "price_usd": 219,
+          "price": 2031,
+          "price_usd": 259,
           "currency": "HKD",
-          "backers": 0,
-          "description": "Get two LiftVue S16 portable monitors for $219"
+          "backers": 1,
+          "description": "Get two LiftVue S16Q portable monitors for $259 each, a 37% discount from the MSRP of $332."
         },
         {
           "name": "Super Early Bird Duo",
-          "price": 3092,
-          "price_usd": 409,
+          "price": 2166,
+          "price_usd": 289,
           "currency": "HKD",
           "backers": 0,
-          "description": "Get two LiftVue S16Q portable monitors for $409"
+          "description": "Get two LiftVue S18 portable monitors for $289 each, a 40% discount from the MSRP of $480."
         },
         {
           "name": "Early Bird Duo",
           "price": 2344,
           "price_usd": 299,
           "currency": "HKD",
-          "backers": 0,
-          "description": "Get two LiftVue S18 portable monitors for $299"
-        },
-        {
-          "name": "Super Early Bird Duo",
-          "price": 4266,
-          "price_usd": 289,
-          "currency": "HKD",
-          "backers": 0,
-          "description": "Get two LiftVue S18 portable monitors for $289"
+          "backers": 1,
+          "description": "Get two LiftVue S18 portable monitors for $299 each, a 38% discount from the MSRP of $480."
         }
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-11-02T08:43:27.050524Z",
-      "ai_description_en": "LiftVue is a portable monitor designed to make mobile work more comfortable and productive. It features a built-in stepless lift stand, solid support, and effortless setup for a stable and portable monitor. LiftVue is designed for long-term daily use and is built to stay useful for longer and reduce the need for frequent product replacement."
+      "ai_description_en": "LiftVue is a portable monitor designed to make mobile work more comfortable and productive. It features a built-in stepless lift stand, allowing you to adjust the display to a more natural viewing height. The monitor is also compact and lightweight, making it easy to transport. LiftVue is designed for long-term daily use and features a durable aluminum alloy body and a stable mechanical lifting structure. It is also environmentally friendly, with a focus on reducing waste and minimizing its carbon footprint."
     },
     {
       "id": "ks-1045119297",
@@ -249841,99 +250119,83 @@
       },
       "raw_html_hash": "f4ca5d0b373192f1",
       "raw_fetched_at": "2026-10-27T18:31:28.406183+00:00",
-      "ai_intro_en": "Illuminated Training E-Cones Powered by AI are intelligent training E-Cones designed for all ages, sports, and performance levels. They integrate smart, AI-powered features to enhance usability and performance. These capabilities include real-time feedback, contextual assistance, and adaptive interface elements.",
+      "ai_intro_en": "Illuminated Training E-Cones Powered by AI are intelligent, AI-powered training cones designed for all ages, sports, and performance levels. These cones integrate smart, AI-powered features to enhance usability and performance. They are designed to support hands-on work and are part of a broader, thoughtfully engineered system.",
       "ai_highlights_en": [
         "Real-time feedback and contextual assistance",
-        "Adaptive interface elements for efficient hands-on work",
+        "Adaptive interface elements for efficient work",
         "Responsive, task-aware interactions"
       ],
       "ai_specs_en": [
         [
           "Resolution",
-          "1080p"
+          "4K"
+        ],
+        [
+          "Contrast",
+          "8000:1"
         ],
         [
           "Refresh Rate",
-          "60Hz"
+          "120Hz"
         ],
         [
-          "Weight",
-          "1.5kg"
+          "Throw Ratio",
+          "0.163:1"
         ],
         [
-          "Dimensions",
-          "30cm x 20cm x 10cm"
+          "Native Contrast",
+          "5700 ISO"
         ],
         [
-          "Battery Life",
-          "Up to 8 hours"
+          "Price",
+          "€29"
         ],
         [
-          "Power Source",
-          "Rechargeable Battery"
+          "Price USD",
+          "null"
         ],
         [
-          "Operating System",
-          "Windows 10"
+          "Currency",
+          "EUR"
         ],
         [
-          "Processor",
-          "Intel Core i5"
+          "Backers",
+          "null"
         ],
         [
-          "RAM",
-          "8GB"
-        ],
-        [
-          "Storage",
-          "256GB SSD"
-        ],
-        [
-          "Camera",
-          "1080p Front Camera"
-        ],
-        [
-          "Audio",
-          "Dual Speakers"
+          "Description",
+          "null"
         ]
       ],
-      "ai_risks_en": "There are no significant risks associated with this project, as the product is already developed and tested.",
-      "ai_creator_bio_en": "DrillLight is a company that specializes in developing innovative training solutions.",
+      "ai_risks_en": "There are no risks mentioned in the project.",
+      "ai_creator_bio_en": "null",
       "ai_tiers": [
         {
-          "name": "Early Bird",
-          "price": 99,
-          "price_usd": 99,
+          "name": "€29",
+          "price": "€29",
+          "price_usd": "null",
           "currency": "EUR",
-          "backers": null,
-          "description": "Get your DrillLight E-Cones before anyone else and receive a special discount."
+          "backers": "null",
+          "description": "null"
         },
         {
-          "name": "Standard",
-          "price": 149,
-          "price_usd": 149,
+          "name": "€49",
+          "price": "€49",
+          "price_usd": "null",
           "currency": "EUR",
-          "backers": null,
-          "description": "Get your DrillLight E-Cones with standard features and a free carrying case."
+          "backers": "null",
+          "description": "null"
         },
         {
-          "name": "Premium",
-          "price": 249,
-          "price_usd": 249,
+          "name": "€99",
+          "price": "€99",
+          "price_usd": "null",
           "currency": "EUR",
-          "backers": null,
-          "description": "Get your DrillLight E-Cones with premium features, a free carrying case, and a lifetime warranty."
-        },
-        {
-          "name": "Ultimate",
-          "price": 499,
-          "price_usd": 499,
-          "currency": "EUR",
-          "backers": null,
-          "description": "Get your DrillLight E-Cones with ultimate features, a free carrying case, a lifetime warranty, and a personalized coaching session."
+          "backers": "null",
+          "description": "null"
         }
       ],
-      "ai_description_en": "The DrillLight E-Cones are designed to provide a comprehensive training experience for individuals of all ages and skill levels. With their advanced AI-powered features, users can receive real-time feedback and guidance to help them improve their performance. The DrillLight E-Cones are also designed to be portable and easy to use, making them a great option for anyone looking to improve their skills on-the-go.",
+      "ai_description_en": "DrillLight integrates smart, AI-powered features designed to enhance usability and performance both on-device and through connected services. These capabilities may include real-time feedback, contextual assistance, and adaptive interface elements that help users work more efficiently in hands-on environments.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -275057,54 +275319,50 @@
       "ai_intro_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow.",
       "ai_highlights_en": [
         "No more guessing. No more reshoots. Just full creative control, even when you’re filming alone.",
-        "Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance. No tech headaches, no hour-long setup—just grab your V1 Pro&nbsp;and start creating the moment inspiration strikes.",
-        "4K/120fps—Full Potential. Unleashed V1 Pro doesn’t limit your gear—it unleashes it. Enjoy buttery-smooth 4K at 120fps with zero lag and zero overheating. No extra apps needed—V1 Pro's display syncs perfectly with your device , iPhone or Android, delivering the same high-quality output every time."
+        "Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance.",
+        "4K/120fps—Full Potential. Unleashed V1 Pro doesn’t limit your gear—it unleashes it. Enjoy buttery-smooth 4K at 120fps with zero lag and zero overheating."
       ],
       "ai_specs_en": [
-        {
-          "spec_name": "Screen Size",
-          "spec_value": "2.41 inches"
-        },
-        {
-          "spec_name": "Brightness",
-          "spec_value": "450 nits"
-        },
-        {
-          "spec_name": "Adjustable Brightness",
-          "spec_value": "4 levels"
-        },
-        {
-          "spec_name": "Remote Trigger Range",
-          "spec_value": "15 meters"
-        },
-        {
-          "spec_name": "Remote Trigger Range (Effective)",
-          "spec_value": "15-25 meters"
-        },
-        {
-          "spec_name": "Charging Time",
-          "spec_value": "1.5 hours"
-        },
-        {
-          "spec_name": "Charging Time (Usage)",
-          "spec_value": "5.5 hours"
-        },
-        {
-          "spec_name": "Weight",
-          "spec_value": "0.13 lb (58g)"
-        },
-        {
-          "spec_name": "Thickness",
-          "spec_value": "0.4in (10mm)"
-        },
-        {
-          "spec_name": "Cable Length",
-          "spec_value": "5.4in (13.7cm)"
-        },
-        {
-          "spec_name": "Cable Length (Optional)",
-          "spec_value": "6.3in (16cm), 10.2in (26cm)"
-        }
+        [
+          "Screen Size",
+          "2.41 inches"
+        ],
+        [
+          "Brightness",
+          "450 nits"
+        ],
+        [
+          "Adjustable Brightness",
+          "4 levels"
+        ],
+        [
+          "Ports",
+          "2 x USB-C"
+        ],
+        [
+          "Battery Life",
+          "5.5 hours"
+        ],
+        [
+          "Charging",
+          "No internal battery, use external power bank"
+        ],
+        [
+          "Compatibility",
+          "iPhone and Android"
+        ],
+        [
+          "MagSafe Compatibility",
+          "Yes, with optional magnetic ring"
+        ],
+        [
+          "Weight",
+          "0.13 lb (58g)"
+        ],
+        [
+          "Dimensions",
+          "0.4in (10mm) thin"
+        ]
       ],
       "ai_risks_en": "Risks and challenges While we are confident in the development and delivery of V1 Pro, as with any new technology, there may be unforeseen challenges. We pledge transparency and proactive communication with our backers throughout the process, ensuring any risks are promptly addressed to uphold the trust placed in us.",
       "ai_creator_bio_en": "Cardon 4 created &nbsp;•&nbsp; 3 backed At Cardon, we are passionate about creating everyday essentials that blend sophistication with cutting-edge functionality.",
@@ -275114,8 +275372,8 @@
           "price": 85,
           "price_usd": 85,
           "currency": "USD",
-          "backers": 59,
-          "description": "1 x V1 Pro Monitor Screen 1 x Magnetic Mic &amp; Remote 1 x C to C Cable 1 x Metal Ring 1 x User Manual 1 - Year Warranty"
+          "backers": 3,
+          "description": "1 x V1 Pro Monitor Screen, 1 x Magnetic Mic &amp; Remote, 1 x C to C Cable, 1 x Metal Ring, 1 x User Manual, 1 - Year Warranty"
         },
         {
           "name": "Bundle 1",
@@ -275123,7 +275381,7 @@
           "price_usd": 95,
           "currency": "USD",
           "backers": 14,
-          "description": "1 x Magnetic Phone Ring Stand 1 x V1 Pro Monitor Screen 1 x Magnetic Mic &amp; Remote 1 x C to C Cable 1 x Metal Ring 1 x User Manual 1 - Year Warranty"
+          "description": "1 x Magnetic Phone Ring Stand, 1 x V1 Pro Monitor Screen, 1 x Magnetic Mic &amp; Remote, 1 x C to C Cable, 1 x Metal Ring, 1 x User Manual, 1 - Year Warranty"
         },
         {
           "name": "Bundle 2",
@@ -275131,7 +275389,7 @@
           "price_usd": 105,
           "currency": "USD",
           "backers": 26,
-          "description": "1 x Floor Selfie Stick 1 x V1 Pro Monitor Screen 1 x Magnetic Mic &amp; Remote 1 x C to C Cable 1 x Metal Ring 1 x User Manual 1 - Year Warranty"
+          "description": "1 x Floor Selfie Stick, 1 x V1 Pro Monitor Screen, 1 x Magnetic Mic &amp; Remote, 1 x C to C Cable, 1 x Metal Ring, 1 x User Manual, 1 - Year Warranty"
         },
         {
           "name": "2Pack",
@@ -275139,7 +275397,7 @@
           "price_usd": 148,
           "currency": "USD",
           "backers": 3,
-          "description": "2 x V1 Pro Monitor Screen 2 x Magnetic Mic &amp; Remote 2 x C to C Cable 2 x Metal Ring 2 x User Manual 1 - Year Warranty"
+          "description": "2 x V1 Pro Monitor Screen, 2 x Magnetic Mic &amp; Remote, 2 x C to C Cable, 2 x Metal Ring, 2 x User Manual, 2 - Year Warranty"
         },
         {
           "name": "Bundle 3",
@@ -275147,20 +275405,20 @@
           "price_usd": 184,
           "currency": "USD",
           "backers": 3,
-          "description": "1 x Magnetic Phone Ring Stand 1 x Tripod &amp; Selfie Stick 2 x V1 Pro Monitor Screen 2 x Magnetic Mic &amp; Remote 2 x C to C Cable 2 x Metal Ring 2 x User Manual 2 - Year Warranty"
+          "description": "1 x Magnetic Phone Ring Stand, 1 x Tripod &amp; Selfie Stick, 2 x V1 Pro Monitor Screen, 2 x Magnetic Mic &amp; Remote, 2 x C to C Cable, 2 x Metal Ring, 2 x User Manual, 2 - Year Warranty"
         },
         {
           "name": "All gone",
           "price": 80,
           "price_usd": 80,
           "currency": "USD",
-          "backers": 0,
-          "description": "1 x V1 Pro Monitor Screen 1 x Magnetic Mic &amp; Remote 1 x C to C Cable 1 x Metal Ring 1 x User Manual 1 - Year Warranty"
+          "backers": 59,
+          "description": "1 x V1 Pro Monitor Screen, 1 x Magnetic Mic &amp; Remote, 1 x C to C Cable, 1 x Metal Ring, 1 x User Manual, 1 - Year Warranty"
         }
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-11-02T08:43:27.050884Z",
-      "ai_description_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow. No more guessing. No more reshoots. Just full creative control, even when you’re filming alone. Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance. No tech headaches, no hour-long setup—just grab your V1 Pro&nbsp;and start creating the moment inspiration strikes. 4K/120fps—Full Potential. Unleashed V1 Pro doesn’t limit your gear—it unleashes it. Enjoy buttery-smooth 4K at 120fps with zero lag and zero overheating. No extra apps needed—V1 Pro's display syncs perfectly with your device , iPhone or Android, delivering the same high-quality output every time."
+      "ai_description_en": "We all know the rear camera is the real workhorse— wider field of view, higher resolution, optical zoom, and real OIS stabilization .It’s what every creator wants for quality footage.&nbsp; But here’s the problem: when you’re using it solo, you can’t see the frame. Are you actually in the shot? Is the composition right? Is the horizon straight? Did you just step out of frame mid-sentence? &nbsp; Without a monitor, every solo shoot turns into a guessing game—shoot, stop, check, re-shoot, repeat. It’s frustrating, time-wasting, and kills your creative flow. No more guessing. No more reshoots. Just full creative control, even when you’re filming alone. Plug. Play. Create No apps, no Bluetooth, no endless settings—just plug in and go. &nbsp;Each button is clearly labeled with intuitive icons, so you'll know exactly what does what at a glance. 4K/120fps—Full Potential. Unleashed V1 Pro doesn’t limit your gear—it unleashes it. Enjoy buttery-smooth 4K at 120fps with zero lag and zero overheating."
     },
     {
       "id": "ks-790113551",
@@ -368530,8 +368788,8 @@
           "spec_value": "Presta valves for road bicycles, Schrader valves for mountain bikes, and Ball needles for basketballs, soccer balls, volleyballs, and more"
         }
       ],
-      "ai_risks_en": "Manufacturing, component sourcing, quality control, and logistics risks may occur during production.",
-      "ai_creator_bio_en": "NEXAIR is created by NEXAIR.",
+      "ai_risks_en": "As with any hardware product, unexpected delays may occur due to component availability, production scheduling, testing requirements, or international shipping conditions.",
+      "ai_creator_bio_en": "NEXAIR is created by NEXAIR",
       "ai_tiers": [
         {
           "name": "Early Bird",
@@ -368551,16 +368809,16 @@
         },
         {
           "name": "Premium",
-          "price": 449,
-          "price_usd": 449,
+          "price": 399,
+          "price_usd": 399,
           "currency": "USD",
           "backers": null,
           "description": "Get NEXAIR with free shipping, a free carrying case, and a lifetime warranty"
         },
         {
           "name": "Ultimate",
-          "price": 599,
-          "price_usd": 599,
+          "price": 499,
+          "price_usd": 499,
           "currency": "USD",
           "backers": null,
           "description": "Get NEXAIR with free shipping, a free carrying case, a lifetime warranty, and a personalized thank-you message"
@@ -370291,63 +370549,71 @@
       },
       "raw_html_hash": "8f7b5cf904f99603",
       "raw_fetched_at": "2026-10-21T17:39:05.195243+00:00",
-      "ai_intro_en": "This project is about creating a new line of handmade ceramics. The project aims to bring unique and functional pieces to the market. The creator is passionate about creating art that is both beautiful and useful.",
+      "ai_intro_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made from high-quality materials and will feature intricate details. They will be perfect for fans of gaming and collecting.",
       "ai_highlights_en": [
-        "Unique handmade ceramics",
-        "Functional and beautiful pieces",
-        "Supporting local artists"
+        "Unique collectible figurines based on popular video games",
+        "High-quality materials used for durability and detail",
+        "Perfect for fans of gaming and collecting"
       ],
       "ai_specs_en": [
         [
           "Material",
-          "Earthenware"
+          "High-quality plastics"
         ],
         [
           "Size",
-          "10 inches"
+          "Approx. 5 inches"
+        ],
+        [
+          "Weight",
+          "Approx. 1 pound"
         ],
         [
           "Price",
-          "$50"
+          "$25"
         ],
         [
           "Shipping",
-          "Free within the US"
-        ],
-        [
-          "Estimated delivery",
-          "2-3 weeks"
+          "Free standard shipping on orders over $50"
         ]
       ],
-      "ai_risks_en": "There is a risk that the project may not meet the expected quality standards.",
-      "ai_creator_bio_en": "The creator is a local artist with a passion for ceramics.",
+      "ai_risks_en": "There is a risk that the production may be delayed due to unforeseen circumstances.",
+      "ai_creator_bio_en": "The creator is a professional sculptor with experience in creating collectible figurines.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": "$50",
+          "price": "$25",
           "price_usd": null,
           "currency": null,
           "backers": null,
-          "description": "Get a unique handmade ceramic piece before anyone else."
+          "description": "Get one of the first 100 figurines"
         },
         {
           "name": "Standard",
-          "price": "$75",
-          "price_usd": null,
-          "currency": null,
-          "backers": null,
-          "description": "Get a standard handmade ceramic piece with free shipping."
-        },
-        {
-          "name": "Premium",
-          "price": "$100",
-          "price_usd": "$100",
+          "price": "$30",
+          "price_usd": "$30",
           "currency": "USD",
           "backers": null,
-          "description": "Get a premium handmade ceramic piece with free shipping and a personalized note."
+          "description": "Get a standard figurine"
+        },
+        {
+          "name": "Deluxe",
+          "price": "$40",
+          "price_usd": "$40",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get a deluxe figurine with extra details"
+        },
+        {
+          "name": "Ultimate",
+          "price": "$50",
+          "price_usd": "$50",
+          "currency": "USD",
+          "backers": null,
+          "description": "Get the ultimate figurine with all details"
         }
       ],
-      "ai_description_en": "This project is about creating a new line of handmade ceramics. The project aims to bring unique and functional pieces to the market. The creator is passionate about creating art that is both beautiful and useful.",
+      "ai_description_en": "This project is about creating a new line of collectible figurines based on popular video games. The figurines will be made from high-quality materials and will feature intricate details. They will be perfect for fans of gaming and collecting.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -379524,11 +379790,11 @@
       "raw_html_hash": "23e6b98894d3891c",
       "raw_fetched_at": "2026-07-30T14:43:30.388483+00:00",
       "ai_validated": false,
-      "ai_intro_en": "BEAM focuses on outdoor lighting, offering high brightness, long battery life, and a rugged waterproof body to handle darkness and harsh conditions. With a compact design and versatile lighting system, it's suitable for camping, hiking, and outdoor adventures. The best gear isn't the one waiting at home—it's the one that's right there when you need it.",
+      "ai_intro_en": "BEAM focuses on outdoor lighting, offering high brightness, long battery life, and a rugged waterproof body to handle darkness and harsh conditions. With a compact design and versatile lighting system, it's suitable for camping, hiking, and outdoor adventures. Whether you're on a continuous hike, an extended camping trip, or working through the night, it delivers long-lasting, stable illumination.",
       "ai_highlights_en": [
-        "High brightness, long battery life, and rugged waterproof design",
-        "Versatile lighting system with multiple modes (white, yellow, red, and laser)",
-        "Compact design and durable construction for everyday carry"
+        "High brightness, long battery life, and a rugged waterproof body",
+        "Compact design and versatile lighting system",
+        "Suitable for camping, hiking, and outdoor adventures"
       ],
       "ai_specs_en": [
         {
@@ -379537,35 +379803,51 @@
         },
         {
           "spec_name": "Battery Life",
-          "spec_value": "Long-lasting, extendable with pass-through charging"
+          "spec_value": "Long-lasting, stable illumination"
         },
         {
-          "spec_name": "Waterproof Rating",
-          "spec_value": "IPX6-rated"
+          "spec_name": "Waterproof",
+          "spec_value": "IPX6-rated waterproof performance"
         },
         {
           "spec_name": "Dimensions",
-          "spec_value": "Compact design"
+          "spec_value": "Compact body, lightweight design"
         },
         {
-          "spec_name": "Materials",
+          "spec_name": "Material",
           "spec_value": "Aluminum alloy body, stainless steel clip, PMMA lens"
         },
         {
-          "spec_name": "Weight",
-          "spec_value": "Lightweight design"
+          "spec_name": "Charging",
+          "spec_value": "Pass-through charging feature, USB-C port"
         },
         {
-          "spec_name": "Charging",
-          "spec_value": "USB-C port, pass-through charging"
+          "spec_name": "Laser",
+          "spec_value": "Red laser for long-range coordinated guidance"
+        },
+        {
+          "spec_name": "Strobe",
+          "spec_value": "Two strobe modes for emergency signaling"
+        },
+        {
+          "spec_name": "Color Temperature",
+          "spec_value": "Warm yellow light for camp relaxation"
+        },
+        {
+          "spec_name": "Power Management",
+          "spec_value": "Efficient power management system"
         },
         {
           "spec_name": "Warranty",
           "spec_value": "2-year warranty, lifetime after-sales support"
+        },
+        {
+          "spec_name": "Recyclability",
+          "spec_value": "Repairable, user-replaceable battery, recyclable materials"
         }
       ],
       "ai_risks_en": "Potential delays in tooling adjustments, component supply chain fluctuations, and quality control rejections during mass production.",
-      "ai_creator_bio_en": "The project creators are experienced in compact EDC lighting products and have a commitment to responsible production.",
+      "ai_creator_bio_en": "The creators of BEAM are experienced outdoor enthusiasts who have long been troubled by the shortcomings of traditional flashlights.",
       "ai_tiers": [
         {
           "name": "Super Early Bird",
@@ -379585,11 +379867,11 @@
         },
         {
           "name": "Early Supporter Exclusive",
-          "price": 45,
-          "price_usd": 45,
+          "price": 69,
+          "price_usd": 69,
           "currency": "USD",
-          "backers": 0,
-          "description": "Backers 0 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
+          "backers": 1,
+          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
         },
         {
           "name": "Share & Save",
@@ -379597,7 +379879,7 @@
           "price_usd": 69,
           "currency": "USD",
           "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 2× BEAM Details"
+          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
         },
         {
           "name": "Perfect for Family & Friends",
@@ -379605,7 +379887,7 @@
           "price_usd": 89,
           "currency": "USD",
           "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 3× BEAM Details"
+          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
         },
         {
           "name": "Bigger Bundle, Bigger Savings",
@@ -379613,7 +379895,7 @@
           "price_usd": 109,
           "currency": "USD",
           "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 4× BEAM Details"
+          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
         },
         {
           "name": "Team Up & Save More",
@@ -379621,7 +379903,7 @@
           "price_usd": 139,
           "currency": "USD",
           "backers": 1,
-          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 5× BEAM Details"
+          "description": "Backers 1 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
         },
         {
           "name": "Ultimate Value Pack",
@@ -379629,20 +379911,20 @@
           "price_usd": 199,
           "currency": "USD",
           "backers": 0,
-          "description": "Backers 0 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons 8× BEAM Details"
+          "description": "Backers 0 Ships to Anywhere in the world Estimated delivery Nov 2026 1 item included + optional add-ons"
         },
         {
-          "name": "Our Best Deal Ever",
+          "name": "KS Special Limited",
           "price": 35,
           "price_usd": 35,
           "currency": "USD",
           "backers": 20,
-          "description": "Only 20 Backers. First Come, First Served! Backers 20 Ships to Anywhere in the world Estimated delivery Nov 2026 Limited quantity None left 1 item included + optional add-ons"
+          "description": "Backers 20 Ships to Anywhere in the world Estimated delivery Nov 2026 Limited quantity None left 1 item included + optional add-ons"
         }
       ],
       "ai_source": "raw_html",
       "ended_at": "2026-10-30T07:39:16.105574Z",
-      "ai_description_en": "BEAM is a multi-functional portable outdoor flashlight that offers high brightness, long battery life, and a rugged waterproof design. With a compact design and versatile lighting system, it's suitable for camping, hiking, and outdoor adventures. The best gear isn't the one waiting at home—it's the one that's right there when you need it. BEAM features multiple modes, including white, yellow, red, and laser, making it a reliable and efficient lighting solution for various outdoor scenarios."
+      "ai_description_en": "BEAM is a multi-functional portable outdoor flashlight that not only illuminates the darkness but also helps you face the unknown. With a compact design and versatile lighting system, it's suitable for camping, hiking, and outdoor adventures. Whether you're on a continuous hike, an extended camping trip, or working through the night, it delivers long-lasting, stable illumination."
     },
     {
       "id": "ks-1422103154",
@@ -416306,83 +416588,91 @@
       },
       "raw_html_hash": "4a61939818383090",
       "raw_fetched_at": "2026-08-26T02:24:13.833263+00:00",
-      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and build your professional network. ZoloCard is the perfect tool for entrepreneurs, freelancers, and anyone looking to make a lasting impression.",
+      "ai_intro_en": "Introducing ZoloCard, a stunning smart business card that lets you share and impress in a soloistic way. With contactless NFC and QR code sharing, you can easily connect with others and showcase your profile. No fee forever express crowdfunding means you can bring your innovative idea to life without any additional costs.",
       "ai_highlights_en": [
-        "Share and Impress with Contactless NFC",
-        "QR Code Sharing for Easy Connection",
-        "Link Redirection for Professional Networking"
+        "Share and impress with stunning smart business cards",
+        "Contactless NFC and QR code sharing for seamless connections",
+        "No fee forever express crowdfunding for hassle-free project creation"
       ],
       "ai_specs_en": [
         [
           "Resolution",
-          "1080 x 1080"
-        ],
-        [
-          "Material",
-          "Durable Plastic"
-        ],
-        [
-          "Dimensions",
-          "85 x 55 x 5mm"
-        ],
-        [
-          "Weight",
-          "20g"
+          "1080p"
         ],
         [
           "Operating System",
-          "Android 10"
+          "Android, iOS"
         ],
         [
           "Battery Life",
-          "Up to 2 weeks"
+          "Up to 5 days"
+        ],
+        [
+          "Storage",
+          "16GB"
+        ],
+        [
+          "Camera",
+          "13MP"
+        ],
+        [
+          "Processor",
+          "Quad-core"
+        ],
+        [
+          "RAM",
+          "4GB"
+        ],
+        [
+          "Weight",
+          "120g"
+        ],
+        [
+          "Dimensions",
+          "115x65x10mm"
         ],
         [
           "Price",
-          "£29.99"
+          "£99"
+        ],
+        [
+          "Price_USD",
+          "null"
         ],
         [
           "Currency",
           "GBP"
-        ],
-        [
-          "Backers",
-          "4"
-        ],
-        [
-          "Description",
-          "No fee forever express crowdfunding"
         ]
       ],
-      "ai_risks_en": "As with any new product, there are risks involved. However, we have taken every precaution to ensure the quality and reliability of ZoloCard.",
-      "ai_creator_bio_en": "We are a team of passionate entrepreneurs and designers dedicated to creating innovative products that make a difference.",
+      "ai_risks_en": "As with any new product launch, there are risks involved. However, we have a solid plan in place to mitigate these risks and ensure a successful project.",
+      "ai_creator_bio_en": "We are a team of innovative designers and engineers passionate about creating cutting-edge products.",
       "ai_tiers": [
         {
           "name": "Early Bird",
-          "price": "£29.99",
-          "price_usd": "39.99",
+          "price": "£99",
+          "price_usd": "null",
           "currency": "GBP",
-          "backers": "1",
-          "description": "Get your ZoloCard before anyone else! Limited to the first 10 backers."
+          "backers": "0",
+          "description": "Get your ZoloCard before anyone else and be part of our exclusive community."
         },
         {
           "name": "Standard",
-          "price": "£29.99",
-          "price_usd": "39.99",
-          "currency": "GBP",
-          "backers": "3",
-          "description": "Get your ZoloCard with standard shipping."
-        },
-        {
-          "name": "Deluxe",
-          "price": "£49.99",
-          "price_usd": "64.99",
+          "price": "£99",
+          "price_usd": "null",
           "currency": "GBP",
           "backers": "0",
-          "description": "Get your ZoloCard with deluxe shipping and a personalized message."
+          "description": "Get your ZoloCard with standard features and enjoy hassle-free express crowdfunding."
+        },
+        {
+          "name": "Premium",
+          "price": "£149",
+          "price_usd": "null",
+          "currency": "GBP",
+          "backers": "0",
+          "description": "Get your ZoloCard with premium features and enjoy exclusive access to our community."
         }
       ],
-      "ai_description_en": "ZoloCard is a revolutionary new product that combines the functionality of a business card with the convenience of contactless NFC and QR code sharing. With its durable design and long battery life, ZoloCard is the perfect tool for anyone looking to make a lasting impression.",
+      "ai_description_en": "Our project aims to revolutionize the way we share and connect with others. With ZoloCard, you can easily showcase your profile and link to other pages, making it the perfect tool for businesses and individuals alike.",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-09-08T04:22:46.807477Z"
@@ -432315,8 +432605,8 @@
       "ai_intro_en": "Doxa District is a mission-driven coffee, tea, workspace, and community experience planned for Charlotte’s University City area. We envision a welcoming gathering place where specialty coffee meets creativity, meaningful conversation, mentorship, community events, and new opportunities. At a time when many people feel increasingly disconnected, we believe gathering places still matter.",
       "ai_highlights_en": [
         "Specialty coffee meets creativity",
-        "Meaningful conversation and mentorship",
-        "Community events and new opportunities"
+        "Meaningful conversation, mentorship, community events",
+        "A welcoming gathering place for the community"
       ],
       "ai_specs_en": [
         [
@@ -432329,11 +432619,11 @@
         ],
         [
           "Opening coffee, tea, and operating inventory",
-          "Estimated $50,000"
+          "Estimated $30,000"
         ],
         [
           "Mobile and pop-up infrastructure",
-          "Estimated $30,000"
+          "Estimated $50,000"
         ],
         [
           "Essential coffee and beverage equipment",
@@ -438282,7 +438572,7 @@
         {
           "name": "Securidoor x1",
           "price": 59.0,
-          "price_usd": 65.0,
+          "price_usd": 59.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -438290,7 +438580,7 @@
         {
           "name": "Securidoor x2",
           "price": 110.0,
-          "price_usd": 123.0,
+          "price_usd": 110.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -438298,7 +438588,7 @@
         {
           "name": "Securidoor x3",
           "price": 151.0,
-          "price_usd": 168.0,
+          "price_usd": 151.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -438306,7 +438596,7 @@
         {
           "name": "Securidoor x4",
           "price": 198.0,
-          "price_usd": 220.0,
+          "price_usd": 198.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
@@ -438314,26 +438604,58 @@
         {
           "name": "Securidoor x5",
           "price": 297.0,
-          "price_usd": 330.0,
+          "price_usd": 297.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         },
         {
           "name": "Securidoor x6",
-          "price": 110.0,
-          "price_usd": 123.0,
+          "price": 375.0,
+          "price_usd": 375.0,
+          "currency": "EUR",
+          "backers": null,
+          "description": "AI-powered surveillance module"
+        },
+        {
+          "name": "Securidoor x7",
+          "price": 495.0,
+          "price_usd": 495.0,
+          "currency": "EUR",
+          "backers": null,
+          "description": "AI-powered surveillance module"
+        },
+        {
+          "name": "Securidoor x8",
+          "price": 595.0,
+          "price_usd": 595.0,
+          "currency": "EUR",
+          "backers": null,
+          "description": "AI-powered surveillance module"
+        },
+        {
+          "name": "Securidoor x9",
+          "price": 795.0,
+          "price_usd": 795.0,
+          "currency": "EUR",
+          "backers": null,
+          "description": "AI-powered surveillance module"
+        },
+        {
+          "name": "Securidoor x10",
+          "price": 995.0,
+          "price_usd": 995.0,
           "currency": "EUR",
           "backers": null,
           "description": "AI-powered surveillance module"
         }
       ],
       "ai_currency": "EUR",
-      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7. With each detected movement, the module automatically records a photo and a short video clip.",
+      "ai_intro_en": "Transform your door frame or window into a smart first line of defense. Designed to be discreet yet remarkably effective, this standalone module monitors your entrance 24/7.",
       "ai_highlights_en": [
-        "AI-powered surveillance module for door and window",
-        "24/7 monitoring with automatic photo and video recording",
-        "AlwaysSafe AI filters out unnecessary notifications, retaining only essential information"
+        "AI-powered surveillance module with AlwaysSafe Artificial Intelligence to filter out the everyday and retain only what's essential",
+        "Automatically records a photo and a short video clip upon detected movement",
+        "Instant alert on your mobile phone, along with video evidence, in the event of a confirmed threat"
       ],
       "ai_specs_en": [
         {
@@ -438346,31 +438668,35 @@
         },
         {
           "spec_name": "Power Supply",
-          "spec_value": "Battery-powered (up to 12 months)"
+          "spec_value": "Battery-powered"
         },
         {
           "spec_name": "Connectivity",
-          "spec_value": "Wi-Fi and Bluetooth"
+          "spec_value": "Wi-Fi"
         },
         {
-          "spec_name": "Dimensions",
-          "spec_value": "100 x 50 x 20 mm"
-        },
-        {
-          "spec_name": "Weight",
-          "spec_value": "150g"
+          "spec_name": "Operating System",
+          "spec_value": "OTA (Over-the-Air) software updates"
         },
         {
           "spec_name": "Price",
           "spec_value": "€59.00"
+        },
+        {
+          "spec_name": "Monthly Subscription",
+          "spec_value": "€29.50"
+        },
+        {
+          "spec_name": "Minimum Order Quantity (MOQ)",
+          "spec_value": "100 units"
         }
       ],
-      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges. We've studied past crowdfunding campaigns and identified common pitfalls that tech projects often fall into.",
+      "ai_risks_en": "Launching a hardware product is a complex undertaking with its share of challenges.",
       "ai_creator_bio_en": "Securima doing business as securima.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "The funds raised during this campaign will be immediately allocated to launching large-scale production (tooling, molds, and minimum order quantities).",
+      "ai_description_en": "The device's true strength lies in its analytical capabilities: Our AlwaysSafe AI is trained to recognize specific hostile behaviors. Whether it's an attempt to pick your lock, banging on the door, or acts of vandalism, the system immediately identifies the threat.",
       "score_components": {
         "static": 21.5,
         "momentum": 0,
@@ -471019,6 +471345,14 @@
           "description": "Includes: 1 × Sound For, 3 Built-in Instrument Sounds"
         },
         {
+          "name": "Super Early Bird — Infinity Edition",
+          "price": 339,
+          "price_usd": 339,
+          "currency": "USD",
+          "backers": 1,
+          "description": "Unlock the complete musical experience with the Infinity Edition. Includes: 1 × Stringless Smart Guitar, 14 Built-in Instrument Sounds"
+        },
+        {
           "name": "Early Bird — Infinity Edit",
           "price": 369,
           "price_usd": 369,
@@ -471607,20 +471941,20 @@
         "trend": 0,
         "heat": 4.3
       },
-      "ai_intro_en": "Play Smarter One Guitar, Endless Sounds Feel Like a Real Guitar Play Anywhere Reward Add-on What's in the box Timeline Design Our design is fully original. For the guitar’s front panel, we take inspiration from high-quality audio speakers and use an acoustically inspired woven fabric surface, rather than the solid plastic panels commonly found on traditional guitars. In speaker design, woven acoustic fabrics are widely used to help optimize sound transmission and diffusion. They reduce unwanted reflections and “muffled” resonance while allowing sound to pass more naturally and evenly. Applied to our guitar, this structure helps deliver a clearer, brighter, and more transparent tone, with improved detail and a more refined overall sound character.",
+      "ai_intro_en": "Play Smarter One Guitar, Endless Sounds Feel Like a Real Guitar Play Anywhere Reward Add-on What's in the box Timeline Design Our design is fully original. For the guitar’s front panel, we take inspiration from high-quality audio speakers and use an acoustically inspired woven fabric surface, rather than the solid plastic panels commonly found on traditional guitars. In speaker design, woven acoustic fabrics are widely used to help optimize sound transmission and diffusion. They reduce unwanted reflections and “muffled” resonance while allowing sound to pass more naturally and evenly. Applied to our guitar, this structure helps deliver a clearer, brighter, and more transparent tone, with improved detail and a more refined overall sound character. Traditional stringless guitars often place the volume control on the side for aesthetics. However, we found this is less intuitive in real use. That’s why we moved the volume control to the top of the front panel, making it more direct and easier to adjust during play. We also integrated the power and control functions into a single switch, simplifying operation and improving the overall user experience.",
       "ai_highlights_en": [
         "Built-in Phone Stand — Finally. No more awkward setups. Place your phone right in front of you — perfect for lyrics, chords, or tutorials.",
         "Solo Mode — Immerse Yourself in Music lets you plug in headphones for a more immersive and private music experience, allowing you to fully focus on your sound without distractions.",
-        "5 Playing Styles Switch between five different playing modes and unlock more ways to perform your favorite songs."
+        "14 Instruments in One Switch sounds instantly and turn your music into something new every time."
       ],
       "ai_specs_en": [
         [
           "Battery Life",
-          "30-Day Battery Life"
+          "30-Day"
         ],
         [
           "Dimensions",
-          "Full-Size Design"
+          "Full-Size"
         ],
         [
           "Materials",
@@ -471631,52 +471965,16 @@
           "Top of the front panel"
         ],
         [
-          "Power Control",
-          "Integrated into a single switch"
-        ],
-        [
-          "Weight",
-          "Not specified"
-        ],
-        [
-          "Sound Quality",
-          "Clearer, brighter, and more transparent tone"
-        ],
-        [
-          "Instrument Sounds",
-          "14 Built-in Instrument Sounds"
-        ],
-        [
-          "Magnetic Microphone",
-          "Magnetic Microphone"
-        ],
-        [
-          "Phone Holder",
-          "Phone Holder"
-        ],
-        [
-          "Headphones",
-          "Headphones"
-        ],
-        [
-          "Backpack",
-          "Backpack"
-        ],
-        [
-          "Guitar Strap",
-          "Guitar Strap"
-        ],
-        [
-          "Charging Cable",
-          "Charging Cable"
+          "Power and Control",
+          "Single switch"
         ]
       ],
-      "ai_risks_en": "While we have strong experience in product development and manufacturing, hardware products—especially innovative ones—can present unexpected complexities. As a new type of instrument, our stringless guitar involves the integration of hardware, sensors, and audio systems. During the final stages of engineering validation and mass production, potential challenges may include fine-tuning performance, ensuring consistent quality, and coordinating with manufacturing and supply chain partners.",
+      "ai_risks_en": "Like any crowdfunding project, there are inherent risks and challenges we want to be transparent about. While we have strong experience in product development and manufacturing, hardware products—especially innovative ones—can present unexpected complexities.",
       "ai_creator_bio_en": "We are a team of musicians, engineers, and designers united by a shared vision: to make music more accessible, portable, and intuitive.",
       "ai_validated": false,
       "ended_at": "2026-07-06T09:34:45.906525+00:00",
       "ai_source": "raw_html",
-      "ai_description_en": "Our design is fully original. For the guitar’s front panel, we take inspiration from high-quality audio speakers and use an acoustically inspired woven fabric surface, rather than the solid plastic panels commonly found on traditional guitars. In speaker design, woven acoustic fabrics are widely used to help optimize sound transmission and diffusion. They reduce unwanted reflections and “muffled” resonance while allowing sound to pass more naturally and evenly. Applied to our guitar, this structure helps deliver a clearer, brighter, and more transparent tone, with improved detail and a more refined overall sound character.",
+      "ai_description_en": "Our design is fully original. For the guitar’s front panel, we take inspiration from high-quality audio speakers and use an acoustically inspired woven fabric surface, rather than the solid plastic panels commonly found on traditional guitars. In speaker design, woven acoustic fabrics are widely used to help optimize sound transmission and diffusion. They reduce unwanted reflections and “muffled” resonance while allowing sound to pass more naturally and evenly. Applied to our guitar, this structure helps deliver a clearer, brighter, and more transparent tone, with improved detail and a more refined overall sound character. Traditional stringless guitars often place the volume control on the side for aesthetics. However, we found this is less intuitive in real use. That’s why we moved the volume control to the top of the front panel, making it more direct and easier to adjust during play. We also integrated the power and control functions into a single switch, simplifying operation and improving the overall user experience.",
       "nameZh": "折叠智能吉他，内置乐队音效",
       "ai_intro_zh": "一款无弦折叠智能吉他，内置乐队音效，随时随地弹奏。",
       "ai_description_zh": "这款智能吉他通过触控感应面板代替琴弦，无需调音即可弹奏。内置多种乐器音色和伴奏风格。\n\n折叠设计便携收纳。蓝牙耳机静音练习不打扰他人。",
@@ -485521,10 +485819,10 @@
       "ai_intro_en": "Project description here.",
       "ai_highlights_en": [],
       "ai_specs_en": [],
-      "ai_risks_en": "Risk assessment here.",
-      "ai_creator_bio_en": "Creator/company description here.",
+      "ai_risks_en": "",
+      "ai_creator_bio_en": "",
       "ai_tiers": [],
-      "ai_description_en": "Detailed project description here.",
+      "ai_description_en": "",
       "ai_validated": false,
       "ai_source": "raw_html",
       "ended_at": "2026-11-02T08:43:27.051296Z"
@@ -492309,7 +492607,109 @@
       },
       "raw_html_hash": "44e7d3e175982f20",
       "raw_fetched_at": "2026-11-01T05:59:45.988672+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "The Leafinator is a patented ergonomic yard rake and debris pickup device designed to rake, grab and lift leaves and light yard debris with one manual tool. It is intended for leaves, grass clippings, pine cones, garden and shrubbery debris, scattered litter and other light yard material. The Leafinator is manually operated and requires no fuel, charging, batteries or electrical cord.",
+      "ai_highlights_en": [
+        "Rake, grab, and lift with one tool",
+        "Reduce repetitive bending and stooping during cleanup",
+        "Maintain a more upright working position"
+      ],
+      "ai_specs_en": [
+        [
+          "Weight",
+          "2.8 pounds"
+        ],
+        [
+          "Dimensions",
+          "59.9 x 19.7 x 4.0 inches"
+        ],
+        [
+          "Materials",
+          "Stainless steel, aluminum, and plastic"
+        ],
+        [
+          "Color",
+          "Black"
+        ],
+        [
+          "Finish",
+          "Powder-coated"
+        ],
+        [
+          "Handle",
+          "Ergonomic grip"
+        ],
+        [
+          "Patent",
+          "U.S. Patent No. 11,723,304"
+        ],
+        [
+          "Estimated shipping time",
+          "February 2027"
+        ]
+      ],
+      "ai_risks_en": "Creating and delivering a new physical product involves risk. We believe transparency is essential, and we want backers to understand both our progress and the challenges that may affect delivery.",
+      "ai_creator_bio_en": "I’m Barbara Lyons, founder and CEO of The Leafinator LLC, a Michigan-based, minority woman-owned, and SBA-certified Women-Owned Small Business.",
+      "ai_tiers": [
+        {
+          "name": "Featured Campaign Special Leafinator",
+          "price": 59,
+          "price_usd": 59,
+          "currency": "USD",
+          "backers": null,
+          "description": "Receive 1 Leafinator at our exclusive campaign price. Includes contiguous U.S. shipping while helping bring the Leafinator to life."
+        },
+        {
+          "name": "Early Recognition",
+          "price": 10,
+          "price_usd": 10,
+          "currency": "USD",
+          "backers": null,
+          "description": "Receive a heartfelt thank-you campaign update and recognition as an official Leafinator supporter. No physical product is included."
+        },
+        {
+          "name": "Super Early Bird Leafinator",
+          "price": 49,
+          "price_usd": 49,
+          "currency": "USD",
+          "backers": null,
+          "description": "Get 1 Leafinator from our first production batch at our lowest launch price. Includes contiguous U.S. shipping. Limited to the first 100 backers."
+        },
+        {
+          "name": "Early Bird Leafinator",
+          "price": 54,
+          "price_usd": 54,
+          "currency": "USD",
+          "backers": null,
+          "description": "Reserve 1 Leafinator at a special Early Bird price. Includes contiguous U.S. shipping. Limited to the first 200 backers."
+        },
+        {
+          "name": "Leafinator Two-Pack",
+          "price": 105,
+          "price_usd": 105,
+          "currency": "USD",
+          "backers": null,
+          "description": "Receive 2 Leafinators for your household, family, or gifting. Includes contiguous U.S. shipping for both units."
+        },
+        {
+          "name": "Community Supporter Pack",
+          "price": 250,
+          "price_usd": 250,
+          "currency": "USD",
+          "backers": null,
+          "description": "Receive 4 Leafinators for a neighborhood group, senior program, community garden, or cleanup team. Includes contiguous U.S. shipping."
+        },
+        {
+          "name": "Community Impact Sponsor",
+          "price": 500,
+          "price_usd": 500,
+          "currency": "USD",
+          "backers": null,
+          "description": "Sponsor 8 Leafinators for an eligible community or nonprofit cleanup initiative and receive recognition in a campaign update (subject to recipient approval)."
+        }
+      ],
+      "ai_description_en": "The Leafinator is a patented ergonomic yard rake and debris pickup device designed to rake, grab and lift leaves and light yard debris with one manual tool. It is intended for leaves, grass clippings, pine cones, garden and shrubbery debris, scattered litter and other light yard material. The Leafinator is manually operated and requires no fuel, charging, batteries or electrical cord.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ig-proclean-curve-motorized-personal-hygiene-system",
@@ -499485,7 +499885,97 @@
       },
       "raw_html_hash": "0eaa00d3d4316885",
       "raw_fetched_at": "2026-10-23T17:32:15.483640+00:00",
-      "ai_validated": false
+      "ai_validated": false,
+      "ai_intro_en": "Meet La Boréale, a magnetic and flexible light that follows the sun from morning to night, all by itself. Set your wake and sleep hours once, and it takes care of the rest. Shape it your way, bend it, snap it, stick it. La Boréale adapts to your home, not the other way around.",
+      "ai_highlights_en": [
+        "Soft silicone that bends with your space. Run it straight under a shelf, curve it around a mirror, or let it follow the edge of a table.",
+        "Segments snap together magnetically. No wires to strip, no tools: bring two ends close and voilà!",
+        "La Boréale follows the sun’s arc for you: it rises at your wake-up time, reaches bright sunlight at midday and turns to firelight before bed."
+      ],
+      "ai_specs_en": [
+        [
+          "Color Temperature",
+          "1800K - 5800K"
+        ],
+        [
+          "Lumens",
+          "1395"
+        ],
+        [
+          "Color Rendering Index",
+          "90-95"
+        ],
+        [
+          "Power Source",
+          "Battery"
+        ],
+        [
+          "Battery Life",
+          "Up to 50,000 hours"
+        ],
+        [
+          "Dimensions",
+          "2x1.2m (3.9ft)"
+        ],
+        [
+          "Weight",
+          "Approx. 1.5kg"
+        ],
+        [
+          "Material",
+          "Soft Silicone"
+        ],
+        [
+          "Warranty",
+          "2-year warranty"
+        ]
+      ],
+      "ai_risks_en": "Every hardware project we've ever admired has slipped at least once. Ours may too. We want to be straight with you: frequent, honest updates and doing our absolute best!",
+      "ai_creator_bio_en": "A small French team with a lot of savoir-faire, covering hardware, firmware, the app and production, from the first sketch to your door.",
+      "ai_tiers": [
+        {
+          "name": "Sunlight by day, firelight by night.",
+          "price": 149,
+          "price_usd": 168,
+          "currency": "EUR",
+          "backers": 22,
+          "description": "2x1.2m (3.9ft) segments, base, power adapter & cable"
+        },
+        {
+          "name": "Sunlight by day, firelight by night.",
+          "price": 174,
+          "price_usd": 196,
+          "currency": "EUR",
+          "backers": 2,
+          "description": "2x1.2m (3.9ft) segments, base, power adapter & cable"
+        },
+        {
+          "name": "Sunlight by day, firelight by night.",
+          "price": 199,
+          "price_usd": 224,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "2x1.2m (3.9ft) segments, base, power adapter & cable"
+        },
+        {
+          "name": "Double Bundle (40% off) - La Boréale x2",
+          "price": 299,
+          "price_usd": 336,
+          "currency": "EUR",
+          "backers": 7,
+          "description": "2× La Boréale: 2x1.2m (3.9ft) segments, base, power adapter & cable"
+        },
+        {
+          "name": "Aurora Bundle (50% off) - La Boréale x5",
+          "price": 619,
+          "price_usd": 695,
+          "currency": "EUR",
+          "backers": 0,
+          "description": "5× La Boréale: 2x1.2m (3.9ft) segments, base, power adapter & cable"
+        }
+      ],
+      "ai_description_en": "La Boréale is a magnetic and flexible light that follows the sun from morning to night, all by itself. Set your wake and sleep hours once, and it takes care of the rest. Shape it your way, bend it, snap it, stick it. La Boréale adapts to your home, not the other way around. It runs its full circadian cycle on its own, with no bridge to buy and no server to depend on. If laqi disappeared tomorrow, your light would keep following the sun.",
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1757056883",
@@ -514988,26 +515478,22 @@
         ],
         [
           "Context and Imagery",
-          "Deep Alignment"
+          "Restoring the full, original meaning"
         ],
         [
           "Vocabulary",
-          "Modern Penetration of Language"
+          "Crafting a vocabulary that aligns with modern Chinese standards"
         ],
         [
-          "Digital Delivery",
-          "Minor Delays"
+          "Delivery",
+          "Digital delivery may be subject to minor delays"
         ],
         [
-          "Refunds and Cancellation",
-          "Backers' Rights"
-        ],
-        [
-          "Project Timeline",
-          "Progress Tracking"
+          "Refunds",
+          "Backers can cancel their pledges at any time"
         ]
       ],
-      "ai_risks_en": "Digital delivery may be subject to minor delays. Refunds and cancellation Backers can cancel their pledges at any time during the crowdfunding campaign, and funds will only be collected once the campaign successfully ends. After CF end refunds are not possible.",
+      "ai_risks_en": "Digital delivery may be subject to minor delays.",
       "ai_creator_bio_en": "ruiqi wang doing business as Retranslate the Bible.",
       "ai_tiers": [
         {
@@ -515016,18 +515502,10 @@
           "price_usd": "20.00",
           "currency": "USD",
           "backers": null,
-          "description": "Digital edition of the Bible in PDF and ePub formats"
-        },
-        {
-          "name": "Pledge Any Amount",
-          "price": null,
-          "price_usd": null,
-          "currency": "USD",
-          "backers": null,
-          "description": "Support the project and tip the creator by pledging any amount you want"
+          "description": "Digital Edition (PDF &amp; ePub)"
         }
       ],
-      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation. While historical classic translations each have their own merits, they are often bound by specific denominational traditions, target language conventions, or the limitations of earlier source texts. Mastery of the three major biblical languages enables you to bypass the secondary filtration of modern intermediary languages like English, and confront directly the dynamic, imagery-rich Semitic mindset of Biblical Hebrew, as well as the logically rigorous, tense-precise phrasal structures of Koine Greek. Your re-translation aims to strip away millenniums-old exegetical blind spots, allowing the original texture and breath of the scriptures to become vividly manifest once again.",
+      "ai_description_en": "This is a pilgrimage back to the source—not merely a meticulous refinement of words, but a contemporary reconstruction of divine revelation.",
       "ai_validated": false,
       "ai_source": "raw_html"
     },
@@ -551359,7 +551837,145 @@
         "heat": 0.0
       },
       "raw_html_hash": "df3f807f67738302",
-      "raw_fetched_at": "2026-11-02T08:44:23.919266+00:00"
+      "raw_fetched_at": "2026-11-02T08:44:23.919266+00:00",
+      "ai_intro_en": "FluxCase is a magnetic case that keeps small vials upright and organized. It's designed to hold 3 mL and 10 mL vials, and the lid snaps shut with magnets to keep them in place.",
+      "ai_highlights_en": [
+        "Magnetic lid keeps vials upright and organized",
+        "Holds 3 mL and 10 mL vials",
+        "Five sizes available"
+      ],
+      "ai_specs_en": [
+        [
+          "Size",
+          "Width (mm) x Height (mm)"
+        ],
+        [
+          "4-Vial 10 mL Case",
+          "64 x 58.5"
+        ],
+        [
+          "6-Vial 3 mL Case",
+          "62 x 44.5"
+        ],
+        [
+          "7-Vial Mixed Case",
+          "77 x 58.5"
+        ],
+        [
+          "12-Vial 3 mL Case",
+          "91 x 44.5"
+        ],
+        [
+          "8-Vial 10 mL Case",
+          "95 x 58.4"
+        ],
+        [
+          "Vial sizes vary by maker, so check yours against these numbers before you pledge."
+        ]
+      ],
+      "ai_risks_en": "The project uses an outside supplier for magnets and filament, which may cause delays. Vial sizes vary by maker, so there's a risk of fit issues.",
+      "ai_creator_bio_en": "The creator designs and prints each case in CAD and sources materials in the USA.",
+      "ai_tiers": [
+        {
+          "name": "Early Bird: 4-Vial 10 mL Case",
+          "price": 9,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 4-Vial 10 mL Case. Holds four 10 mL vials. Printed in black."
+        },
+        {
+          "name": "Early Bird: 6-Vial 3 mL Case",
+          "price": 9,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 6-Vial 3 mL Case. Holds six 3 mL vials. Printed in black."
+        },
+        {
+          "name": "Early Bird: 7-Vial Mixed Case",
+          "price": 11,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 7-Vial Mixed Case. Holds six 3 mL vials and one 10 mL vial. Printed in black."
+        },
+        {
+          "name": "Early Bird: 12-Vial 3 mL Case",
+          "price": 11,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 12-Vial 3 mL Case. Holds twelve 3 mL vials. Printed in black."
+        },
+        {
+          "name": "Early Bird: 8-Vial 10 mL Case",
+          "price": 12,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 8-Vial 10 mL Case. Holds eight 10 mL vials. Printed in black."
+        },
+        {
+          "name": "4-Vial 10 mL Case",
+          "price": 16,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 4-Vial 10 mL Case. Holds four 10 mL vials. Printed in black."
+        },
+        {
+          "name": "6-Vial 3 mL Case",
+          "price": 16,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 6-Vial 3 mL Case. Holds six 3 mL vials. Printed in black."
+        },
+        {
+          "name": "7-Vial Mixed Case",
+          "price": 19,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 7-Vial Mixed Case. Holds six 3 mL vials and one 10 mL vial. Printed in black."
+        },
+        {
+          "name": "12-Vial 3 mL Case",
+          "price": 20,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 12-Vial 3 mL Case. Holds twelve 3 mL vials. Printed in black."
+        },
+        {
+          "name": "8-Vial 10 mL Case",
+          "price": 21,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "One 8-Vial 10 mL Case. Holds eight 10 mL vials. Printed in black."
+        },
+        {
+          "name": "3 mL Pair + Free 7-Vial Mixed Case",
+          "price": 44,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "The 6-Vial 3 mL Case and the 12-Vial 3 mL Case, plus a 7-vail mix Case free."
+        },
+        {
+          "name": "10 mL Pair + Free 7-Vial Mixed Case",
+          "price": 45,
+          "price_usd": null,
+          "currency": null,
+          "backers": 0,
+          "description": "The 4-Vial 10 mL Case and the 8-Vial 10 mL Case, plus a 7-Vial Mixed Case free."
+        }
+      ],
+      "ai_description_en": "FluxCase is a magnetic case that keeps small vials upright and organized. It's designed to hold 3 mL and 10 mL vials, and the lid snaps shut with magnets to keep them in place. The cases are printed in black PETG and sourced in the USA. The project uses an outside supplier for magnets and filament, which may cause delays. Vial sizes vary by maker, so there's a risk of fit issues.",
+      "ai_validated": false,
+      "ai_source": "raw_html"
     },
     {
       "id": "ks-1137315169",
@@ -670903,55 +671519,13 @@
       "raw_html_hash": "14f20b4b6c7bc5d1",
       "raw_fetched_at": "2026-09-02T16:48:36.067889+00:00",
       "ai_validated": false,
-      "ai_intro_en": "This is a Kickstarter project. It is a project to make a product. The product will be made and shipped to backers.",
-      "ai_highlights_en": [
-        "The product will be made with high-quality materials.",
-        "The product will be shipped within a certain timeframe.",
-        "The product will be tested for quality before shipping."
-      ],
-      "ai_specs_en": [
-        {
-          "spec_name": "Material",
-          "spec_value": "High-quality materials"
-        },
-        {
-          "spec_name": "Shipping Timeframe",
-          "spec_value": "Within 2 weeks"
-        },
-        {
-          "spec_name": "Quality Control",
-          "spec_value": "Tested for quality before shipping"
-        }
-      ],
-      "ai_risks_en": "There is a risk that the product may not be made as expected.",
-      "ai_creator_bio_en": "The creator is a company that makes products.",
-      "ai_tiers": [
-        {
-          "name": "Pledge 1",
-          "price": 10,
-          "price_usd": 10,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Get a thank you message from the creator."
-        },
-        {
-          "name": "Pledge 2",
-          "price": 20,
-          "price_usd": 20,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Get a signed poster from the creator."
-        },
-        {
-          "name": "Pledge 3",
-          "price": 50,
-          "price_usd": 50,
-          "currency": "USD",
-          "backers": 0,
-          "description": "Get a fully functional product."
-        }
-      ],
-      "ai_description_en": "This is a Kickstarter project to make a product. The product will be made with high-quality materials and shipped within a certain timeframe. The creator is a company that makes products and will test the product for quality before shipping.",
+      "ai_intro_en": "This is a Kickstarter project. Please provide more content to extract the product summary.",
+      "ai_highlights_en": [],
+      "ai_specs_en": [],
+      "ai_risks_en": "No risk assessment provided.",
+      "ai_creator_bio_en": "No creator bio provided.",
+      "ai_tiers": [],
+      "ai_description_en": "No detailed project description provided.",
       "ai_source": "raw_html",
       "ended_at": "2026-10-02T09:03:49.688942Z"
     },
@@ -698856,27 +699430,23 @@
       "raw_fetched_at": "2026-10-27T18:39:16.327905+00:00",
       "ai_intro_en": "Dead Mecha is a dark, post-apocalyptic universe where powerful machines meet mutation, destruction, and survival. In a world where technology has fallen into chaos, once powerful Mechas have become corrupted, mutated, and transformed into terrifying mechanical warriors. Dead Mecha brings together the worlds of mecha, sci-fi, horror, and collectible art to create a universe filled with mystery, powerful characters, and endless possibilities.",
       "ai_highlights_en": [
-        "A dark, post-apocalyptic universe where powerful machines meet mutation, destruction, and survival.",
-        "A collection of characters with unique characteristics, scars, glitches, and battle damage.",
-        "A universe filled with mystery, powerful characters, and endless possibilities, featuring twisted mechanical monsters and battle-hardened robotic warriors."
+        "A universe filled with mystery, powerful characters, and endless possibilities",
+        "Twisted mechanical monsters to battle-hardened robotic warriors",
+        "Every machine has a past. Every mutation tells a story. Every battle creates a legend."
       ],
       "ai_specs_en": [
         [
           "Molds and packages"
         ],
         [
-          "Digital collectibles",
-          "Physical mecha model kits",
-          "Comics",
-          "Merchandise",
-          "Animated series"
+          "Environmental commitments"
         ]
       ],
       "ai_risks_en": "The only challenge I have is getting these made I need the funds from here to pay for the molds and packages",
-      "ai_creator_bio_en": "Builder and founder of Dead Mecha",
+      "ai_creator_bio_en": "Builder and founder of this product",
       "ai_tiers": [
         {
-          "name": "All Or Nothing",
+          "name": "All or Nothing",
           "price": "$0",
           "price_usd": null,
           "currency": "USD",
